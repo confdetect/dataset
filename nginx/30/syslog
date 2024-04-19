@@ -1,0 +1,134 @@
+Apr 28 14:06:56 ubuntu nautilus[20088]: Called "net usershare info" but it failed: Failed to execute child process “net” (No such file or directory)
+Apr 28 14:12:42 ubuntu nautilus[20088]: gtk_revealer_set_reveal_child: assertion 'GTK_IS_REVEALER (revealer)' failed
+Apr 28 14:12:46 ubuntu nautilus[20088]: message repeated 3 times: [ gtk_revealer_set_reveal_child: assertion 'GTK_IS_REVEALER (revealer)' failed]
+Apr 28 14:12:53 ubuntu systemd[1]: Stopping A high performance web server and a reverse proxy server...
+Apr 28 14:12:53 ubuntu systemd[1]: Stopped A high performance web server and a reverse proxy server.
+Apr 28 14:12:53 ubuntu systemd[1]: Starting A high performance web server and a reverse proxy server...
+Apr 28 14:12:53 ubuntu systemd[1]: Started A high performance web server and a reverse proxy server.
+Apr 28 14:12:54 ubuntu systemd[1]: Stopping A high performance web server and a reverse proxy server...
+Apr 28 14:12:54 ubuntu systemd[1]: Stopped A high performance web server and a reverse proxy server.
+Apr 28 14:12:54 ubuntu systemd[1]: Starting A high performance web server and a reverse proxy server...
+Apr 28 14:12:54 ubuntu systemd[1]: Started A high performance web server and a reverse proxy server.
+Apr 28 14:14:17 ubuntu dhclient[57005]: DHCPREQUEST of 192.168.182.129 on ens33 to 192.168.182.254 port 67 (xid=0xd9b43dc)
+Apr 28 14:14:17 ubuntu dhclient[57005]: DHCPACK of 192.168.182.129 from 192.168.182.254
+Apr 28 14:14:17 ubuntu NetworkManager[686]: <info>  [1619590457.1597] dhcp4 (ens33):   address 192.168.182.129
+Apr 28 14:14:17 ubuntu NetworkManager[686]: <info>  [1619590457.1597] dhcp4 (ens33):   plen 24 (255.255.255.0)
+Apr 28 14:14:17 ubuntu NetworkManager[686]: <info>  [1619590457.1597] dhcp4 (ens33):   gateway 192.168.182.2
+Apr 28 14:14:17 ubuntu NetworkManager[686]: <info>  [1619590457.1598] dhcp4 (ens33):   lease time 1800
+Apr 28 14:14:17 ubuntu dbus-daemon[662]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.10' (uid=0 pid=686 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Apr 28 14:14:17 ubuntu NetworkManager[686]: <info>  [1619590457.1598] dhcp4 (ens33):   nameserver '192.168.182.2'
+Apr 28 14:14:17 ubuntu NetworkManager[686]: <info>  [1619590457.1598] dhcp4 (ens33):   domain name 'localdomain'
+Apr 28 14:14:17 ubuntu NetworkManager[686]: <info>  [1619590457.1598] dhcp4 (ens33):   wins '192.168.182.2'
+Apr 28 14:14:17 ubuntu NetworkManager[686]: <info>  [1619590457.1598] dhcp4 (ens33): state changed bound -> bound
+Apr 28 14:14:17 ubuntu systemd[1]: Starting Network Manager Script Dispatcher Service...
+Apr 28 14:14:17 ubuntu dhclient[57005]: bound to 192.168.182.129 -- renewal in 807 seconds.
+Apr 28 14:14:17 ubuntu dbus-daemon[662]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Apr 28 14:14:17 ubuntu systemd[1]: Started Network Manager Script Dispatcher Service.
+Apr 28 14:14:17 ubuntu nm-dispatcher: req:1 'dhcp4-change' [ens33]: new request (1 scripts)
+Apr 28 14:14:17 ubuntu nm-dispatcher: req:1 'dhcp4-change' [ens33]: start running ordered scripts...
+Apr 28 14:17:01 ubuntu CRON[59554]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Apr 28 14:19:04 ubuntu gnome-shell[1827]: Object .Gjs_AppIndicatorIconActor__1 (0x559f508bdb50), has been already finalized. Impossible to set any property to it.
+Apr 28 14:19:04 ubuntu org.gnome.Shell.desktop[1827]: == Stack trace for context 0x559f4cb4d320 ==
+Apr 28 14:19:04 ubuntu org.gnome.Shell.desktop[1827]: #0 0x7ffc2b9b41d0 I   resource:///org/gnome/gjs/modules/_legacy.js:83 (0x7fe5842b5de0 @ 87)
+Apr 28 14:19:04 ubuntu org.gnome.Shell.desktop[1827]: #1 0x559f4cf192f0 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/indicatorStatusIcon.js:93 (0x7fe5513c66f8 @ 58)
+Apr 28 14:19:04 ubuntu org.gnome.Shell.desktop[1827]: #2 0x7ffc2b9b4db0 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7fe5842b5de0 @ 71)
+Apr 28 14:19:04 ubuntu org.gnome.Shell.desktop[1827]: #3 0x7ffc2b9b4e70 b   self-hosted:916 (0x7fe5842f12b8 @ 367)
+Apr 28 14:19:04 ubuntu org.gnome.Shell.desktop[1827]: #4 0x7ffc2b9b4f60 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7fe5842d2230 @ 386)
+Apr 28 14:19:04 ubuntu org.gnome.Shell.desktop[1827]: #5 0x559f4cf19268 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/appIndicator.js:190 (0x7fe5513b63c8 @ 22)
+Apr 28 14:19:04 ubuntu org.gnome.Shell.desktop[1827]: #6 0x7ffc2b9b5bb0 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7fe5842b5de0 @ 71)
+Apr 28 14:19:04 ubuntu org.gnome.Shell.desktop[1827]: #7 0x559f4cf191c0 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/statusNotifierWatcher.js:219 (0x7fe5513b29a0 @ 225)
+Apr 28 14:19:04 ubuntu org.gnome.Shell.desktop[1827]: #8 0x7ffc2b9b6790 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7fe5842b5de0 @ 71)
+Apr 28 14:19:04 ubuntu org.gnome.Shell.desktop[1827]: #9 0x559f4cf19148 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/extension.js:61 (0x7fe55138cc48 @ 37)
+Apr 28 14:19:04 ubuntu org.gnome.Shell.desktop[1827]: #10 0x559f4cf19088 i   resource:///org/gnome/shell/ui/extensionSystem.js:83 (0x7fe5726592b8 @ 441)
+Apr 28 14:19:04 ubuntu org.gnome.Shell.desktop[1827]: #11 0x559f4cf19008 i   resource:///org/gnome/shell/ui/extensionSystem.js:354 (0x7fe572659d58 @ 13)
+Apr 28 14:19:04 ubuntu org.gnome.Shell.desktop[1827]: #12 0x7ffc2b9b7490 b   self-hosted:251 (0x7fe5842c4ab0 @ 223)
+Apr 28 14:19:04 ubuntu org.gnome.Shell.desktop[1827]: #13 0x559f4cf18f88 i   resource:///org/gnome/shell/ui/extensionSystem.js:353 (0x7fe572659cd0 @ 64)
+Apr 28 14:19:04 ubuntu org.gnome.Shell.desktop[1827]: #14 0x559f4cf18f08 i   resource:///org/gnome/shell/ui/extensionSystem.js:371 (0x7fe572659de0 @ 87)
+Apr 28 14:19:04 ubuntu org.gnome.Shell.desktop[1827]: #15 0x7ffc2b9b8990 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7fe5842d2230 @ 386)
+Apr 28 14:19:04 ubuntu org.gnome.Shell.desktop[1827]: #16 0x7ffc2b9b9130 b   resource:///org/gnome/shell/ui/sessionMode.js:205 (0x7fe5723704d8 @ 254)
+Apr 28 14:19:04 ubuntu org.gnome.Shell.desktop[1827]: #17 0x7ffc2b9ba520 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7fe5842b5de0 @ 71)
+Apr 28 14:19:04 ubuntu org.gnome.Shell.desktop[1827]: #18 0x559f4cf18dc8 i   resource:///org/gnome/shell/ui/sessionMode.js:167 (0x7fe5723702b8 @ 40)
+Apr 28 14:19:04 ubuntu org.gnome.Shell.desktop[1827]: #19 0x7ffc2b9bb880 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7fe5842b5de0 @ 71)
+Apr 28 14:19:04 ubuntu org.gnome.Shell.desktop[1827]: #20 0x559f4cf18d20 i   resource:///org/gnome/shell/ui/screenShield.js:1282 (0x7fe572353a28 @ 188)
+Apr 28 14:19:04 ubuntu org.gnome.Shell.desktop[1827]: #21 0x7ffc2b9bcbe0 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7fe5842b5de0 @ 71)
+Apr 28 14:19:04 ubuntu org.gnome.Shell.desktop[1827]: #22 0x559f4cf18c70 i   resource:///org/gnome/shell/ui/screenShield.js:1331 (0x7fe572353ab0 @ 391)
+Apr 28 14:19:04 ubuntu org.gnome.Shell.desktop[1827]: #23 0x7ffc2b9bdf40 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7fe5842b5de0 @ 71)
+Apr 28 14:19:04 ubuntu org.gnome.Shell.desktop[1827]: #24 0x559f4cf18bf0 i   resource:///org/gnome/shell/ui/screenShield.js:854 (0x7fe5723519a0 @ 25)
+Apr 28 14:19:04 ubuntu gnome-shell[1827]: Object .Gjs_AppIndicatorIconActor__1 (0x559f50fc9e40), has been already finalized. Impossible to set any property to it.
+Apr 28 14:19:04 ubuntu org.gnome.Shell.desktop[1827]: == Stack trace for context 0x559f4cb4d320 ==
+Apr 28 14:19:04 ubuntu org.gnome.Shell.desktop[1827]: #0 0x7ffc2b9b42a0 I   resource:///org/gnome/gjs/modules/_legacy.js:83 (0x7fe5842b5de0 @ 87)
+Apr 28 14:19:04 ubuntu org.gnome.Shell.desktop[1827]: #1 0x559f4cf192f0 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/indicatorStatusIcon.js:93 (0x7fe5513c66f8 @ 58)
+Apr 28 14:19:04 ubuntu org.gnome.Shell.desktop[1827]: #2 0x7ffc2b9b4e80 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7fe5842b5de0 @ 71)
+Apr 28 14:19:04 ubuntu org.gnome.Shell.desktop[1827]: #3 0x7ffc2b9b4f40 b   self-hosted:916 (0x7fe5842f12b8 @ 367)
+Apr 28 14:19:04 ubuntu org.gnome.Shell.desktop[1827]: #4 0x7ffc2b9b4fd0 I   resource:///org/gnome/gjs/modules/signals.js:128 (0x7fe5842d2230 @ 386)
+Apr 28 14:19:04 ubuntu org.gnome.Shell.desktop[1827]: #5 0x559f4cf19268 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/appIndicator.js:190 (0x7fe5513b63c8 @ 22)
+Apr 28 14:19:04 ubuntu org.gnome.Shell.desktop[1827]: #6 0x7ffc2b9b5bb0 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7fe5842b5de0 @ 71)
+Apr 28 14:19:04 ubuntu org.gnome.Shell.desktop[1827]: #7 0x559f4cf191c0 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/statusNotifierWatcher.js:219 (0x7fe5513b29a0 @ 225)
+Apr 28 14:19:04 ubuntu org.gnome.Shell.desktop[1827]: #8 0x7ffc2b9b6790 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7fe5842b5de0 @ 71)
+Apr 28 14:19:04 ubuntu org.gnome.Shell.desktop[1827]: #9 0x559f4cf19148 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/extension.js:61 (0x7fe55138cc48 @ 37)
+Apr 28 14:19:04 ubuntu org.gnome.Shell.desktop[1827]: #10 0x559f4cf19088 i   resource:///org/gnome/shell/ui/extensionSystem.js:83 (0x7fe5726592b8 @ 441)
+Apr 28 14:19:04 ubuntu org.gnome.Shell.desktop[1827]: #11 0x559f4cf19008 i   resource:///org/gnome/shell/ui/extensionSystem.js:354 (0x7fe572659d58 @ 13)
+Apr 28 14:19:04 ubuntu org.gnome.Shell.desktop[1827]: #12 0x7ffc2b9b7490 b   self-hosted:251 (0x7fe5842c4ab0 @ 223)
+Apr 28 14:19:04 ubuntu org.gnome.Shell.desktop[1827]: #13 0x559f4cf18f88 i   resource:///org/gnome/shell/ui/extensionSystem.js:353 (0x7fe572659cd0 @ 64)
+Apr 28 14:19:04 ubuntu org.gnome.Shell.desktop[1827]: #14 0x559f4cf18f08 i   resource:///org/gnome/shell/ui/extensionSystem.js:371 (0x7fe572659de0 @ 87)
+Apr 28 14:19:04 ubuntu org.gnome.Shell.desktop[1827]: #15 0x7ffc2b9b8990 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7fe5842d2230 @ 386)
+Apr 28 14:19:04 ubuntu org.gnome.Shell.desktop[1827]: #16 0x7ffc2b9b9130 b   resource:///org/gnome/shell/ui/sessionMode.js:205 (0x7fe5723704d8 @ 254)
+Apr 28 14:19:04 ubuntu org.gnome.Shell.desktop[1827]: #17 0x7ffc2b9ba520 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7fe5842b5de0 @ 71)
+Apr 28 14:19:04 ubuntu org.gnome.Shell.desktop[1827]: #18 0x559f4cf18dc8 i   resource:///org/gnome/shell/ui/sessionMode.js:167 (0x7fe5723702b8 @ 40)
+Apr 28 14:19:04 ubuntu org.gnome.Shell.desktop[1827]: #19 0x7ffc2b9bb880 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7fe5842b5de0 @ 71)
+Apr 28 14:19:04 ubuntu org.gnome.Shell.desktop[1827]: #20 0x559f4cf18d20 i   resource:///org/gnome/shell/ui/screenShield.js:1282 (0x7fe572353a28 @ 188)
+Apr 28 14:19:04 ubuntu org.gnome.Shell.desktop[1827]: #21 0x7ffc2b9bcbe0 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7fe5842b5de0 @ 71)
+Apr 28 14:19:04 ubuntu org.gnome.Shell.desktop[1827]: #22 0x559f4cf18c70 i   resource:///org/gnome/shell/ui/screenShield.js:1331 (0x7fe572353ab0 @ 391)
+Apr 28 14:19:04 ubuntu org.gnome.Shell.desktop[1827]: #23 0x7ffc2b9bdf40 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7fe5842b5de0 @ 71)
+Apr 28 14:19:04 ubuntu org.gnome.Shell.desktop[1827]: #24 0x559f4cf18bf0 i   resource:///org/gnome/shell/ui/screenShield.js:854 (0x7fe5723519a0 @ 25)
+Apr 28 14:19:04 ubuntu gnome-shell[1827]: Object .Gjs_AppIndicatorIconActor__1 (0x559f508d8650), has been already finalized. Impossible to set any property to it.
+Apr 28 14:19:04 ubuntu org.gnome.Shell.desktop[1827]: == Stack trace for context 0x559f4cb4d320 ==
+Apr 28 14:19:04 ubuntu org.gnome.Shell.desktop[1827]: #0 0x7ffc2b9b42a0 I   resource:///org/gnome/gjs/modules/_legacy.js:83 (0x7fe5842b5de0 @ 87)
+Apr 28 14:19:04 ubuntu org.gnome.Shell.desktop[1827]: #1 0x559f4cf192f0 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/indicatorStatusIcon.js:93 (0x7fe5513c66f8 @ 58)
+Apr 28 14:19:04 ubuntu org.gnome.Shell.desktop[1827]: #2 0x7ffc2b9b4e80 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7fe5842b5de0 @ 71)
+Apr 28 14:19:04 ubuntu org.gnome.Shell.desktop[1827]: #3 0x7ffc2b9b4f40 b   self-hosted:916 (0x7fe5842f12b8 @ 367)
+Apr 28 14:19:04 ubuntu org.gnome.Shell.desktop[1827]: #4 0x7ffc2b9b4fd0 I   resource:///org/gnome/gjs/modules/signals.js:128 (0x7fe5842d2230 @ 386)
+Apr 28 14:19:04 ubuntu org.gnome.Shell.desktop[1827]: #5 0x559f4cf19268 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/appIndicator.js:190 (0x7fe5513b63c8 @ 22)
+Apr 28 14:19:04 ubuntu org.gnome.Shell.desktop[1827]: #6 0x7ffc2b9b5bb0 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7fe5842b5de0 @ 71)
+Apr 28 14:19:04 ubuntu org.gnome.Shell.desktop[1827]: #7 0x559f4cf191c0 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/statusNotifierWatcher.js:219 (0x7fe5513b29a0 @ 225)
+Apr 28 14:19:04 ubuntu org.gnome.Shell.desktop[1827]: #8 0x7ffc2b9b6790 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7fe5842b5de0 @ 71)
+Apr 28 14:19:04 ubuntu org.gnome.Shell.desktop[1827]: #9 0x559f4cf19148 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/extension.js:61 (0x7fe55138cc48 @ 37)
+Apr 28 14:19:04 ubuntu org.gnome.Shell.desktop[1827]: #10 0x559f4cf19088 i   resource:///org/gnome/shell/ui/extensionSystem.js:83 (0x7fe5726592b8 @ 441)
+Apr 28 14:19:04 ubuntu org.gnome.Shell.desktop[1827]: #11 0x559f4cf19008 i   resource:///org/gnome/shell/ui/extensionSystem.js:354 (0x7fe572659d58 @ 13)
+Apr 28 14:19:04 ubuntu org.gnome.Shell.desktop[1827]: #12 0x7ffc2b9b7490 b   self-hosted:251 (0x7fe5842c4ab0 @ 223)
+Apr 28 14:19:04 ubuntu org.gnome.Shell.desktop[1827]: #13 0x559f4cf18f88 i   resource:///org/gnome/shell/ui/extensionSystem.js:353 (0x7fe572659cd0 @ 64)
+Apr 28 14:19:04 ubuntu org.gnome.Shell.desktop[1827]: #14 0x559f4cf18f08 i   resource:///org/gnome/shell/ui/extensionSystem.js:371 (0x7fe572659de0 @ 87)
+Apr 28 14:19:04 ubuntu org.gnome.Shell.desktop[1827]: #15 0x7ffc2b9b8990 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7fe5842d2230 @ 386)
+Apr 28 14:19:04 ubuntu org.gnome.Shell.desktop[1827]: #16 0x7ffc2b9b9130 b   resource:///org/gnome/shell/ui/sessionMode.js:205 (0x7fe5723704d8 @ 254)
+Apr 28 14:19:04 ubuntu org.gnome.Shell.desktop[1827]: #17 0x7ffc2b9ba520 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7fe5842b5de0 @ 71)
+Apr 28 14:19:04 ubuntu org.gnome.Shell.desktop[1827]: #18 0x559f4cf18dc8 i   resource:///org/gnome/shell/ui/sessionMode.js:167 (0x7fe5723702b8 @ 40)
+Apr 28 14:19:04 ubuntu org.gnome.Shell.desktop[1827]: #19 0x7ffc2b9bb880 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7fe5842b5de0 @ 71)
+Apr 28 14:19:04 ubuntu org.gnome.Shell.desktop[1827]: #20 0x559f4cf18d20 i   resource:///org/gnome/shell/ui/screenShield.js:1282 (0x7fe572353a28 @ 188)
+Apr 28 14:19:04 ubuntu org.gnome.Shell.desktop[1827]: #21 0x7ffc2b9bcbe0 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7fe5842b5de0 @ 71)
+Apr 28 14:19:04 ubuntu org.gnome.Shell.desktop[1827]: #22 0x559f4cf18c70 i   resource:///org/gnome/shell/ui/screenShield.js:1331 (0x7fe572353ab0 @ 391)
+Apr 28 14:19:04 ubuntu org.gnome.Shell.desktop[1827]: #23 0x7ffc2b9bdf40 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7fe5842b5de0 @ 71)
+Apr 28 14:19:04 ubuntu org.gnome.Shell.desktop[1827]: #24 0x559f4cf18bf0 i   resource:///org/gnome/shell/ui/screenShield.js:854 (0x7fe5723519a0 @ 25)
+Apr 28 14:19:04 ubuntu gnome-software[2519]: no app for changed ubuntu-appindicators@ubuntu.com
+Apr 28 14:19:05 ubuntu gnome-software[2519]: no app for changed ubuntu-dock@ubuntu.com
+Apr 28 14:19:18 ubuntu gnome-software[2519]: no app for changed ubuntu-dock@ubuntu.com
+Apr 28 14:19:18 ubuntu gnome-software[2519]: no app for changed ubuntu-appindicators@ubuntu.com
+Apr 28 14:19:18 ubuntu gvfsd-metadata[2650]: g_udev_device_has_property: assertion 'G_UDEV_IS_DEVICE (device)' failed
+Apr 28 14:19:18 ubuntu gvfsd-metadata[2650]: g_udev_device_has_property: assertion 'G_UDEV_IS_DEVICE (device)' failed
+Apr 28 14:19:18 ubuntu gnome-shell[1827]: [AppIndicatorSupport-DEBUG] Registering StatusNotifierItem :1.2/StatusNotifierItem
+Apr 28 14:19:18 ubuntu gnome-shell[1827]: [AppIndicatorSupport-DEBUG] Registering StatusNotifierItem :1.68/org/ayatana/NotificationItem/software_update_available
+Apr 28 14:19:18 ubuntu gnome-shell[1827]: [AppIndicatorSupport-DEBUG] Registering StatusNotifierItem :1.68/org/ayatana/NotificationItem/livepatch
+Apr 28 14:19:18 ubuntu gnome-shell[1827]: JS ERROR: GLib.MarkupError: 1:424: Only direction 'out' is allowed for <arg> elements embedded in <signal>#012_newNodeInfo@resource:///org/gnome/gjs/modules/overrides/Gio.js:205:16#012_wrapFunction/klass[method]@resource:///org/gnome/gjs/modules/overrides/Gio.js:239:16#012introspectBusObject/<@/usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/util.js:106:33
+Apr 28 14:20:05 ubuntu systemd[1]: Stopping A high performance web server and a reverse proxy server...
+Apr 28 14:20:05 ubuntu systemd[1]: Stopped A high performance web server and a reverse proxy server.
+Apr 28 14:20:05 ubuntu systemd[1]: Starting A high performance web server and a reverse proxy server...
+Apr 28 14:20:05 ubuntu nginx[59589]: nginx: [crit] pread() "/etc/nginx/sites-enabled" failed (21: Is a directory)
+Apr 28 14:20:05 ubuntu nginx[59589]: nginx: configuration file /etc/nginx/nginx.conf test failed
+Apr 28 14:20:05 ubuntu systemd[1]: nginx.service: Control process exited, code=exited status=1
+Apr 28 14:20:05 ubuntu systemd[1]: nginx.service: Failed with result 'exit-code'.
+Apr 28 14:20:05 ubuntu systemd[1]: Failed to start A high performance web server and a reverse proxy server.
+Apr 28 14:20:06 ubuntu systemd[1]: Starting A high performance web server and a reverse proxy server...
+Apr 28 14:20:06 ubuntu nginx[59596]: nginx: [crit] pread() "/etc/nginx/sites-enabled" failed (21: Is a directory)
+Apr 28 14:20:06 ubuntu nginx[59596]: nginx: configuration file /etc/nginx/nginx.conf test failed
+Apr 28 14:20:06 ubuntu systemd[1]: nginx.service: Control process exited, code=exited status=1
+Apr 28 14:20:06 ubuntu systemd[1]: nginx.service: Failed with result 'exit-code'.
+Apr 28 14:20:06 ubuntu systemd[1]: Failed to start A high performance web server and a reverse proxy server.

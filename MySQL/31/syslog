@@ -1,0 +1,81 @@
+Apr 20 23:44:04 ubuntu mysql-systemd-start[3369]: Once the problem is resolved, restart the service.
+Apr 20 23:44:04 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 20 23:44:04 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 20 23:44:04 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 20 23:44:04 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 20 23:44:04 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 5.
+Apr 20 23:44:04 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 20 23:44:04 ubuntu systemd[1]: mysql.service: Start request repeated too quickly.
+Apr 20 23:44:04 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 20 23:44:04 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 20 23:45:00 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 20 23:45:00 ubuntu mysql-systemd-start[3389]: ERROR: Unable to start MySQL server:
+Apr 20 23:45:00 ubuntu mysql-systemd-start[3389]: 2021-04-21T06:45:00.212323Z 0 [ERROR] Unknown suffix 's' used for variable 'key_buffer_size' (value 's')
+Apr 20 23:45:00 ubuntu mysql-systemd-start[3389]: 2021-04-21T06:45:00.212363Z 0 [ERROR] mysqld: Error while setting value 's' to 'key_buffer_size'
+Apr 20 23:45:00 ubuntu mysql-systemd-start[3389]: 2021-04-21T06:45:00.213552Z 0 [ERROR] Aborting
+Apr 20 23:45:00 ubuntu mysql-systemd-start[3389]: Please take a look at https://wiki.debian.org/Teams/MySQL/FAQ for tips on fixing common upgrade issues.
+Apr 20 23:45:00 ubuntu mysql-systemd-start[3389]: Once the problem is resolved, restart the service.
+Apr 20 23:45:00 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 20 23:45:00 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 20 23:45:00 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 20 23:45:00 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 20 23:45:00 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 1.
+Apr 20 23:45:00 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 20 23:45:00 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 20 23:45:00 ubuntu mysql-systemd-start[3397]: ERROR: Unable to start MySQL server:
+Apr 20 23:45:00 ubuntu mysql-systemd-start[3397]: 2021-04-21T06:45:00.540227Z 0 [ERROR] Unknown suffix 's' used for variable 'key_buffer_size' (value 's')
+Apr 20 23:45:00 ubuntu mysql-systemd-start[3397]: 2021-04-21T06:45:00.540268Z 0 [ERROR] mysqld: Error while setting value 's' to 'key_buffer_size'
+Apr 20 23:45:00 ubuntu mysql-systemd-start[3397]: 2021-04-21T06:45:00.541403Z 0 [ERROR] Aborting
+Apr 20 23:45:00 ubuntu mysql-systemd-start[3397]: Please take a look at https://wiki.debian.org/Teams/MySQL/FAQ for tips on fixing common upgrade issues.
+Apr 20 23:45:00 ubuntu mysql-systemd-start[3397]: Once the problem is resolved, restart the service.
+Apr 20 23:45:00 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 20 23:45:00 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 20 23:45:00 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 20 23:45:00 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 20 23:45:00 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 2.
+Apr 20 23:45:00 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 20 23:45:00 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 20 23:45:00 ubuntu mysql-systemd-start[3405]: ERROR: Unable to start MySQL server:
+Apr 20 23:45:00 ubuntu mysql-systemd-start[3405]: 2021-04-21T06:45:00.776419Z 0 [ERROR] Unknown suffix 's' used for variable 'key_buffer_size' (value 's')
+Apr 20 23:45:00 ubuntu mysql-systemd-start[3405]: 2021-04-21T06:45:00.776461Z 0 [ERROR] mysqld: Error while setting value 's' to 'key_buffer_size'
+Apr 20 23:45:00 ubuntu mysql-systemd-start[3405]: 2021-04-21T06:45:00.777546Z 0 [ERROR] Aborting
+Apr 20 23:45:00 ubuntu mysql-systemd-start[3405]: Please take a look at https://wiki.debian.org/Teams/MySQL/FAQ for tips on fixing common upgrade issues.
+Apr 20 23:45:00 ubuntu mysql-systemd-start[3405]: Once the problem is resolved, restart the service.
+Apr 20 23:45:00 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 20 23:45:00 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 20 23:45:00 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 20 23:45:00 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 20 23:45:00 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 3.
+Apr 20 23:45:01 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 20 23:45:01 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 20 23:45:01 ubuntu mysql-systemd-start[3413]: ERROR: Unable to start MySQL server:
+Apr 20 23:45:01 ubuntu mysql-systemd-start[3413]: 2021-04-21T06:45:01.039173Z 0 [ERROR] Unknown suffix 's' used for variable 'key_buffer_size' (value 's')
+Apr 20 23:45:01 ubuntu mysql-systemd-start[3413]: 2021-04-21T06:45:01.039211Z 0 [ERROR] mysqld: Error while setting value 's' to 'key_buffer_size'
+Apr 20 23:45:01 ubuntu mysql-systemd-start[3413]: 2021-04-21T06:45:01.040344Z 0 [ERROR] Aborting
+Apr 20 23:45:01 ubuntu mysql-systemd-start[3413]: Please take a look at https://wiki.debian.org/Teams/MySQL/FAQ for tips on fixing common upgrade issues.
+Apr 20 23:45:01 ubuntu mysql-systemd-start[3413]: Once the problem is resolved, restart the service.
+Apr 20 23:45:01 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 20 23:45:01 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 20 23:45:01 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 20 23:45:01 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 20 23:45:01 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 4.
+Apr 20 23:45:01 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 20 23:45:01 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 20 23:45:01 ubuntu mysql-systemd-start[3421]: ERROR: Unable to start MySQL server:
+Apr 20 23:45:01 ubuntu mysql-systemd-start[3421]: 2021-04-21T06:45:01.275885Z 0 [ERROR] Unknown suffix 's' used for variable 'key_buffer_size' (value 's')
+Apr 20 23:45:01 ubuntu mysql-systemd-start[3421]: 2021-04-21T06:45:01.275926Z 0 [ERROR] mysqld: Error while setting value 's' to 'key_buffer_size'
+Apr 20 23:45:01 ubuntu mysql-systemd-start[3421]: 2021-04-21T06:45:01.277044Z 0 [ERROR] Aborting
+Apr 20 23:45:01 ubuntu mysql-systemd-start[3421]: Please take a look at https://wiki.debian.org/Teams/MySQL/FAQ for tips on fixing common upgrade issues.
+Apr 20 23:45:01 ubuntu mysql-systemd-start[3421]: Once the problem is resolved, restart the service.
+Apr 20 23:45:01 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 20 23:45:01 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 20 23:45:01 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 20 23:45:01 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 20 23:45:01 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 5.
+Apr 20 23:45:01 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 20 23:45:01 ubuntu systemd[1]: mysql.service: Start request repeated too quickly.
+Apr 20 23:45:01 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 20 23:45:01 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 20 23:45:01 ubuntu systemd[1]: mysql.service: Start request repeated too quickly.
+Apr 20 23:45:01 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 20 23:45:01 ubuntu systemd[1]: Failed to start MySQL Community Server.

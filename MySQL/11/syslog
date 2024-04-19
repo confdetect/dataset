@@ -1,0 +1,143 @@
+Apr 14 22:36:31 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 14 22:36:31 ubuntu systemd[1]: Started MySQL Community Server.
+Apr 14 22:36:33 ubuntu systemd[1]: Stopping MySQL Community Server...
+Apr 14 22:36:35 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 14 22:36:35 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 14 22:36:35 ubuntu systemd[1]: Started MySQL Community Server.
+Apr 14 22:37:40 ubuntu systemd[1]: Stopping MySQL Community Server...
+Apr 14 22:37:42 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 14 22:37:42 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 14 22:37:42 ubuntu mysql-systemd-start[5471]: ERROR: Unable to start MySQL server:
+Apr 14 22:37:42 ubuntu mysql-systemd-start[5471]: 2021-04-15T05:37:42.804569Z 0 [ERROR] Unknown suffix 'B' used for variable 'max_allowed_packet' (value '16B')
+Apr 14 22:37:42 ubuntu mysql-systemd-start[5471]: 2021-04-15T05:37:42.804606Z 0 [ERROR] mysqld: Error while setting value '16B' to 'max_allowed_packet'
+Apr 14 22:37:42 ubuntu mysql-systemd-start[5471]: 2021-04-15T05:37:42.805671Z 0 [ERROR] Aborting
+Apr 14 22:37:42 ubuntu mysql-systemd-start[5471]: Please take a look at https://wiki.debian.org/Teams/MySQL/FAQ for tips on fixing common upgrade issues.
+Apr 14 22:37:42 ubuntu mysql-systemd-start[5471]: Once the problem is resolved, restart the service.
+Apr 14 22:37:42 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 14 22:37:42 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 14 22:37:42 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 14 22:37:43 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 14 22:37:43 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 1.
+Apr 14 22:37:43 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 14 22:37:43 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 14 22:37:43 ubuntu mysql-systemd-start[5480]: ERROR: Unable to start MySQL server:
+Apr 14 22:37:43 ubuntu mysql-systemd-start[5480]: 2021-04-15T05:37:43.168650Z 0 [ERROR] Unknown suffix 'B' used for variable 'max_allowed_packet' (value '16B')
+Apr 14 22:37:43 ubuntu mysql-systemd-start[5480]: 2021-04-15T05:37:43.168694Z 0 [ERROR] mysqld: Error while setting value '16B' to 'max_allowed_packet'
+Apr 14 22:37:43 ubuntu mysql-systemd-start[5480]: 2021-04-15T05:37:43.169961Z 0 [ERROR] Aborting
+Apr 14 22:37:43 ubuntu mysql-systemd-start[5480]: Please take a look at https://wiki.debian.org/Teams/MySQL/FAQ for tips on fixing common upgrade issues.
+Apr 14 22:37:43 ubuntu mysql-systemd-start[5480]: Once the problem is resolved, restart the service.
+Apr 14 22:37:43 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 14 22:37:43 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 14 22:37:43 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 14 22:37:43 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 14 22:37:43 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 2.
+Apr 14 22:37:43 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 14 22:37:43 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 14 22:37:43 ubuntu mysql-systemd-start[5489]: ERROR: Unable to start MySQL server:
+Apr 14 22:37:43 ubuntu mysql-systemd-start[5489]: 2021-04-15T05:37:43.420831Z 0 [ERROR] Unknown suffix 'B' used for variable 'max_allowed_packet' (value '16B')
+Apr 14 22:37:43 ubuntu mysql-systemd-start[5489]: 2021-04-15T05:37:43.420892Z 0 [ERROR] mysqld: Error while setting value '16B' to 'max_allowed_packet'
+Apr 14 22:37:43 ubuntu mysql-systemd-start[5489]: 2021-04-15T05:37:43.422059Z 0 [ERROR] Aborting
+Apr 14 22:37:43 ubuntu mysql-systemd-start[5489]: Please take a look at https://wiki.debian.org/Teams/MySQL/FAQ for tips on fixing common upgrade issues.
+Apr 14 22:37:43 ubuntu mysql-systemd-start[5489]: Once the problem is resolved, restart the service.
+Apr 14 22:37:43 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 14 22:37:43 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 14 22:37:43 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 14 22:37:43 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 14 22:37:43 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 3.
+Apr 14 22:37:43 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 14 22:37:43 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 14 22:37:43 ubuntu mysql-systemd-start[5497]: ERROR: Unable to start MySQL server:
+Apr 14 22:37:43 ubuntu mysql-systemd-start[5497]: 2021-04-15T05:37:43.670734Z 0 [ERROR] Unknown suffix 'B' used for variable 'max_allowed_packet' (value '16B')
+Apr 14 22:37:43 ubuntu mysql-systemd-start[5497]: 2021-04-15T05:37:43.670798Z 0 [ERROR] mysqld: Error while setting value '16B' to 'max_allowed_packet'
+Apr 14 22:37:43 ubuntu mysql-systemd-start[5497]: 2021-04-15T05:37:43.671858Z 0 [ERROR] Aborting
+Apr 14 22:37:43 ubuntu mysql-systemd-start[5497]: Please take a look at https://wiki.debian.org/Teams/MySQL/FAQ for tips on fixing common upgrade issues.
+Apr 14 22:37:43 ubuntu mysql-systemd-start[5497]: Once the problem is resolved, restart the service.
+Apr 14 22:37:43 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 14 22:37:43 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 14 22:37:43 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 14 22:37:43 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 14 22:37:43 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 4.
+Apr 14 22:37:43 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 14 22:37:43 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 14 22:37:43 ubuntu mysql-systemd-start[5505]: ERROR: Unable to start MySQL server:
+Apr 14 22:37:43 ubuntu mysql-systemd-start[5505]: 2021-04-15T05:37:43.919132Z 0 [ERROR] Unknown suffix 'B' used for variable 'max_allowed_packet' (value '16B')
+Apr 14 22:37:43 ubuntu mysql-systemd-start[5505]: 2021-04-15T05:37:43.919168Z 0 [ERROR] mysqld: Error while setting value '16B' to 'max_allowed_packet'
+Apr 14 22:37:43 ubuntu mysql-systemd-start[5505]: 2021-04-15T05:37:43.920306Z 0 [ERROR] Aborting
+Apr 14 22:37:43 ubuntu mysql-systemd-start[5505]: Please take a look at https://wiki.debian.org/Teams/MySQL/FAQ for tips on fixing common upgrade issues.
+Apr 14 22:37:43 ubuntu mysql-systemd-start[5505]: Once the problem is resolved, restart the service.
+Apr 14 22:37:43 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 14 22:37:43 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 14 22:37:43 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 14 22:37:44 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 14 22:37:44 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 5.
+Apr 14 22:37:44 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 14 22:37:44 ubuntu systemd[1]: mysql.service: Start request repeated too quickly.
+Apr 14 22:37:44 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 14 22:37:44 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 14 22:39:30 ubuntu jetbrains-clion.desktop[5520]: OpenJDK 64-Bit Server VM warning: Option UseConcMarkSweepGC was deprecated in version 9.0 and will likely be removed in a future release.
+Apr 14 22:39:36 ubuntu org.gnome.Shell.desktop[1630]: Window manager warning: Window 0x2a00007 (win0) sets an MWM hint indicating it isn't resizable, but sets min size 1 x 1 and max size 2147483647 x 2147483647; this doesn't make much sense.
+Apr 14 22:39:40 ubuntu NetworkManager[623]: <info>  [1618465180.6296] connectivity: (ens33) timed out
+Apr 14 22:39:50 ubuntu jetbrains-clion.desktop[5520]: 2021-04-14 22:39:50,174 [  17916]   WARN - .cloudConfig.CloudConfigClient - connect timed out
+Apr 14 22:39:50 ubuntu jetbrains-clion.desktop[5520]: java.net.SocketTimeoutException: connect timed out
+Apr 14 22:39:50 ubuntu jetbrains-clion.desktop[5520]: #011at java.base/java.net.PlainSocketImpl.socketConnect(Native Method)
+Apr 14 22:39:50 ubuntu jetbrains-clion.desktop[5520]: #011at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:399)
+Apr 14 22:39:50 ubuntu jetbrains-clion.desktop[5520]: #011at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:242)
+Apr 14 22:39:50 ubuntu jetbrains-clion.desktop[5520]: #011at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:224)
+Apr 14 22:39:50 ubuntu jetbrains-clion.desktop[5520]: #011at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:403)
+Apr 14 22:39:50 ubuntu jetbrains-clion.desktop[5520]: #011at java.base/java.net.Socket.connect(Socket.java:609)
+Apr 14 22:39:50 ubuntu jetbrains-clion.desktop[5520]: #011at java.base/sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:289)
+Apr 14 22:39:50 ubuntu jetbrains-clion.desktop[5520]: #011at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:177)
+Apr 14 22:39:50 ubuntu jetbrains-clion.desktop[5520]: #011at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:474)
+Apr 14 22:39:50 ubuntu jetbrains-clion.desktop[5520]: #011at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:569)
+Apr 14 22:39:50 ubuntu jetbrains-clion.desktop[5520]: #011at java.base/sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:265)
+Apr 14 22:39:50 ubuntu jetbrains-clion.desktop[5520]: #011at java.base/sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:372)
+Apr 14 22:39:50 ubuntu jetbrains-clion.desktop[5520]: #011at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:191)
+Apr 14 22:39:50 ubuntu jetbrains-clion.desktop[5520]: #011at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1232)
+Apr 14 22:39:50 ubuntu jetbrains-clion.desktop[5520]: #011at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1081)
+Apr 14 22:39:50 ubuntu jetbrains-clion.desktop[5520]: #011at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:177)
+Apr 14 22:39:50 ubuntu jetbrains-clion.desktop[5520]: #011at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1592)
+Apr 14 22:39:50 ubuntu jetbrains-clion.desktop[5520]: #011at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1520)
+Apr 14 22:39:50 ubuntu jetbrains-clion.desktop[5520]: #011at java.base/java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:527)
+Apr 14 22:39:50 ubuntu jetbrains-clion.desktop[5520]: #011at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:334)
+Apr 14 22:39:50 ubuntu jetbrains-clion.desktop[5520]: #011at com.intellij.util.io.HttpRequests.openConnection(HttpRequests.java:630)
+Apr 14 22:39:50 ubuntu jetbrains-clion.desktop[5520]: #011at com.intellij.util.io.HttpRequests$RequestImpl.getConnection(HttpRequests.java:381)
+Apr 14 22:39:50 ubuntu jetbrains-clion.desktop[5520]: #011at com.intellij.util.io.HttpRequests$RequestImpl.getInputStream(HttpRequests.java:390)
+Apr 14 22:39:50 ubuntu jetbrains-clion.desktop[5520]: #011at com.intellij.util.io.HttpRequests$RequestImpl.getReader(HttpRequests.java:425)
+Apr 14 22:39:50 ubuntu jetbrains-clion.desktop[5520]: #011at com.intellij.util.io.HttpRequests$RequestImpl.getReader(HttpRequests.java:418)
+Apr 14 22:39:50 ubuntu jetbrains-clion.desktop[5520]: #011at com.intellij.idea.cloudConfig.ETagCloudConfigFileClient.a(ETagCloudConfigFileClient.java:74)
+Apr 14 22:39:50 ubuntu jetbrains-clion.desktop[5520]: #011at com.intellij.util.io.HttpRequests.doProcess(HttpRequests.java:541)
+Apr 14 22:39:50 ubuntu jetbrains-clion.desktop[5520]: #011at com.intellij.util.io.HttpRequests.process(HttpRequests.java:523)
+Apr 14 22:39:50 ubuntu jetbrains-clion.desktop[5520]: #011at com.intellij.util.io.HttpRequests$RequestBuilderImpl.connect(HttpRequests.java:355)
+Apr 14 22:39:50 ubuntu jetbrains-clion.desktop[5520]: #011at com.intellij.util.io.RequestBuilder.connect(RequestBuilder.java:58)
+Apr 14 22:39:50 ubuntu jetbrains-clion.desktop[5520]: #011at com.intellij.idea.cloudConfig.ETagCloudConfigFileClient.b(ETagCloudConfigFileClient.java:72)
+Apr 14 22:39:50 ubuntu jetbrains-clion.desktop[5520]: #011at com.intellij.idea.cloudConfig.ETagCloudConfigFileClient.a(ETagCloudConfigFileClient.java:63)
+Apr 14 22:39:50 ubuntu jetbrains-clion.desktop[5520]: #011at com.intellij.idea.cloudConfig.ETagCloudConfigFileClient.list(ETagCloudConfigFileClient.java:37)
+Apr 14 22:39:50 ubuntu jetbrains-clion.desktop[5520]: #011at com.intellij.cloudConfig.CloudConfigManager.listFiles(CloudConfigManager.java:2650)
+Apr 14 22:39:50 ubuntu jetbrains-clion.desktop[5520]: #011at com.intellij.cloudConfig.CloudConfigManager.calculateInitStatus(CloudConfigManager.java:701)
+Apr 14 22:39:50 ubuntu jetbrains-clion.desktop[5520]: #011at com.intellij.cloudConfig.CloudConfigManager.lambda$updateInitStatus$13(CloudConfigManager.java:736)
+Apr 14 22:39:50 ubuntu jetbrains-clion.desktop[5520]: #011at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+Apr 14 22:39:50 ubuntu jetbrains-clion.desktop[5520]: #011at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+Apr 14 22:39:50 ubuntu jetbrains-clion.desktop[5520]: #011at java.base/java.util.concurrent.Executors$PrivilegedThreadFactory$1$1.run(Executors.java:668)
+Apr 14 22:39:50 ubuntu jetbrains-clion.desktop[5520]: #011at java.base/java.util.concurrent.Executors$PrivilegedThreadFactory$1$1.run(Executors.java:665)
+Apr 14 22:39:50 ubuntu jetbrains-clion.desktop[5520]: #011at java.base/java.security.AccessController.doPrivileged(Native Method)
+Apr 14 22:39:50 ubuntu jetbrains-clion.desktop[5520]: #011at java.base/java.util.concurrent.Executors$PrivilegedThreadFactory$1.run(Executors.java:665)
+Apr 14 22:39:50 ubuntu jetbrains-clion.desktop[5520]: #011at java.base/java.lang.Thread.run(Thread.java:834)
+Apr 14 22:40:04 ubuntu jetbrains-clion.desktop[5520]: 2021-04-14 22:40:04,060 [  31802]   WARN - arketplace.MarketplaceRequests - Can not get JetBrains plugins' IDs from Marketplace:connect timed out
+Apr 14 22:40:05 ubuntu jetbrains-clion.desktop[5520]: 2021-04-14 22:40:05,303 [  33045]   WARN - arketplace.MarketplaceRequests - Can not get JetBrains plugins' IDs from Marketplace:connect timed out
+Apr 14 22:40:05 ubuntu jetbrains-clion.desktop[5520]: 2021-04-14 22:40:05,969 [  33711]   WARN - arketplace.MarketplaceRequests - Can not get JetBrains plugins' IDs from Marketplace:connect timed out
+Apr 14 22:40:07 ubuntu jetbrains-clion.desktop[5520]: 2021-04-14 22:40:07,236 [  34978]   WARN - arketplace.MarketplaceRequests - Can not get features from Marketplace:connect timed out
+Apr 14 22:40:09 ubuntu jetbrains-clion.desktop[5520]: 2021-04-14 22:40:09,948 [  37690]   WARN - arketplace.MarketplaceRequests - Can not get JetBrains plugins' IDs from Marketplace:connect timed out
+Apr 14 22:40:13 ubuntu jetbrains-clion.desktop[5520]: 2021-04-14 22:40:13,323 [  41065]   WARN - arketplace.MarketplaceRequests - Can not get JetBrains plugins' IDs from Marketplace:connect timed out
+Apr 14 22:40:13 ubuntu jetbrains-clion.desktop[5520]: 2021-04-14 22:40:13,675 [  41417]   WARN - arketplace.MarketplaceRequests - Can not get JetBrains plugins' IDs from Marketplace:connect timed out
+Apr 14 22:40:13 ubuntu jetbrains-clion.desktop[5520]: 2021-04-14 22:40:13,819 [  41561]   WARN - arketplace.MarketplaceRequests - Can not get JetBrains plugins' IDs from Marketplace:connect timed out
+Apr 14 22:40:17 ubuntu jetbrains-clion.desktop[5520]: 2021-04-14 22:40:17,359 [  45101]   WARN - arketplace.MarketplaceRequests - Can not get JetBrains plugins' IDs from Marketplace:connect timed out
+Apr 14 22:40:17 ubuntu jetbrains-clion.desktop[5520]: 2021-04-14 22:40:17,450 [  45192]   WARN - arketplace.MarketplaceRequests - Can not get JetBrains plugins' IDs from Marketplace:connect timed out
+Apr 14 22:40:19 ubuntu jetbrains-clion.desktop[5520]: 2021-04-14 22:40:19,978 [  47720]   WARN - arketplace.MarketplaceRequests - Can not get JetBrains plugins' IDs from Marketplace:connect timed out
+Apr 14 22:40:27 ubuntu jetbrains-clion.desktop[5520]: 2021-04-14 22:40:27,767 [  55509]   WARN - arketplace.MarketplaceRequests - Can not get JetBrains plugins' IDs from Marketplace:connect timed out
+Apr 14 22:40:27 ubuntu jetbrains-clion.desktop[5520]: 2021-04-14 22:40:27,910 [  55652]   WARN - arketplace.MarketplaceRequests - Can not get JetBrains plugins' IDs from Marketplace:connect timed out
+Apr 14 22:40:28 ubuntu jetbrains-clion.desktop[5520]: 2021-04-14 22:40:28,746 [  56488]   WARN - arketplace.MarketplaceRequests - Can not get JetBrains plugins' IDs from Marketplace:connect timed out
+Apr 14 22:40:29 ubuntu jetbrains-clion.desktop[5520]: 2021-04-14 22:40:29,559 [  57301]   WARN - arketplace.MarketplaceRequests - Can not get JetBrains plugins' IDs from Marketplace:connect timed out
+Apr 14 22:40:29 ubuntu jetbrains-clion.desktop[5520]: 2021-04-14 22:40:29,961 [  57703]   WARN - arketplace.MarketplaceRequests - Can not get JetBrains plugins' IDs from Marketplace:connect timed out
+Apr 14 22:40:30 ubuntu jetbrains-clion.desktop[5520]: 2021-04-14 22:40:30,834 [  58576]   WARN - arketplace.MarketplaceRequests - Can not get JetBrains plugins' IDs from Marketplace:connect timed out
+Apr 14 22:40:30 ubuntu jetbrains-clion.desktop[5520]: 2021-04-14 22:40:30,906 [  58648]   WARN - arketplace.MarketplaceRequests - Can not get JetBrains plugins' IDs from Marketplace:connect timed out
+Apr 14 22:40:33 ubuntu jetbrains-clion.desktop[5520]: 2021-04-14 22:40:33,224 [  60966]   WARN - arketplace.MarketplaceRequests - Can not get JetBrains plugins' IDs from Marketplace:connect timed out

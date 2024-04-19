@@ -1,0 +1,28 @@
+Connect Mysql log success
+Create Table NginxLog Success
+Starting Parse Nginx Log
+Starting Parse Sys Log
+Computing Problem Spotlight
+Create Table NginxMsg Success
+Mysql DisConnect
+Using Augeas to Parse Configuration File
+Extract key-value Finished
+Extract Env Finished
+Connect Database wise success
+Giving Problem Spotlight and Resolve Spotlight
+Problem Spotlight No.0 : 2021-04-28 16:30:35 Error still could not bind()
+Problem Spotlight No.1 : 2021-04-28 16:30:32 Error bind() to 127.0.0.1:80 failed (98: Address already in use)
+Problem Spotlight No.2 : 2021-04-28 16:30:35 Warning nginx.service: Failed with result 'exit-code'.
+Problem Spotlight No.3 : 2021-04-28 16:30:35 Warning nginx.service: Control process exited, code=exited status=1
+Problem Spotlight No.4 : 2021-04-28 16:30:34 Warning message repeated 4 times: [ nginx: [emerg] bind() to 127.0.0.1:80 failed (98: Address already in use)]
+Problem Spotlight No.5 : 2021-04-28 16:28:48 Note epoll del event: fd:7 op:2 ev:00000000
+Knowledge Database Configuration:    wrong Conf value's key: gzip_comp_level    Infomation:    
+Problem Spotlight No.6 : 2021-04-28 16:28:48 Note epoll del event: fd:6 op:2 ev:00000000
+Suspicious word:    6    with key:    Conf: gzip_comp_level    and value:    6
+Knowledge Database Configuration:    wrong Conf value's key: gzip_comp_level    Infomation:    
+Problem Spotlight No.7 : 2021-04-28 16:28:48 Note *1 free: 000055F0699CF920, unused: 136
+Problem Spotlight No.8 : 2021-04-28 16:28:48 Note *1 free: 0000000000000000
+Problem Spotlight No.9 : 2021-04-28 16:28:48 Note *1 reusable connection: 0
+Knowledge Database Configuration:    wrong Conf value's key: gzip_comp_level    Infomation:    
+Mysql DisConnect
+Time Using: 2.15353 s

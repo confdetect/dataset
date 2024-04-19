@@ -1,0 +1,304 @@
+Apr 18 05:17:44 ubuntu gnome-software[2674]: no app for changed ubuntu-appindicators@ubuntu.com
+Apr 18 05:18:05 ubuntu dhclient[2342]: DHCPREQUEST of 192.168.182.128 on ens33 to 192.168.182.254 port 67 (xid=0x21247ceb)
+Apr 18 05:18:05 ubuntu dhclient[2342]: DHCPACK of 192.168.182.128 from 192.168.182.254
+Apr 18 05:18:05 ubuntu NetworkManager[641]: <info>  [1618748285.7103] dhcp4 (ens33):   address 192.168.182.128
+Apr 18 05:18:05 ubuntu NetworkManager[641]: <info>  [1618748285.7112] dhcp4 (ens33):   plen 24 (255.255.255.0)
+Apr 18 05:18:05 ubuntu NetworkManager[641]: <info>  [1618748285.7112] dhcp4 (ens33):   gateway 192.168.182.2
+Apr 18 05:18:05 ubuntu NetworkManager[641]: <info>  [1618748285.7131] dhcp4 (ens33):   lease time 1800
+Apr 18 05:18:05 ubuntu NetworkManager[641]: <info>  [1618748285.7131] dhcp4 (ens33):   nameserver '192.168.182.2'
+Apr 18 05:18:05 ubuntu NetworkManager[641]: <info>  [1618748285.7131] dhcp4 (ens33):   domain name 'localdomain'
+Apr 18 05:18:05 ubuntu NetworkManager[641]: <info>  [1618748285.7132] dhcp4 (ens33):   wins '192.168.182.2'
+Apr 18 05:18:05 ubuntu NetworkManager[641]: <info>  [1618748285.7132] dhcp4 (ens33): state changed bound -> bound
+Apr 18 05:18:05 ubuntu dbus-daemon[633]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.11' (uid=0 pid=641 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Apr 18 05:18:05 ubuntu dhclient[2342]: bound to 192.168.182.128 -- renewal in 891 seconds.
+Apr 18 05:18:05 ubuntu systemd[1]: Starting Network Manager Script Dispatcher Service...
+Apr 18 05:18:05 ubuntu dbus-daemon[633]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Apr 18 05:18:05 ubuntu systemd[1]: Started Network Manager Script Dispatcher Service.
+Apr 18 05:18:05 ubuntu nm-dispatcher: req:1 'dhcp4-change' [ens33]: new request (1 scripts)
+Apr 18 05:18:05 ubuntu nm-dispatcher: req:1 'dhcp4-change' [ens33]: start running ordered scripts...
+Apr 18 05:21:33 ubuntu NetworkManager[641]: <info>  [1618748493.9572] manager: disable requested (sleeping: no  enabled: yes)
+Apr 18 05:21:33 ubuntu NetworkManager[641]: <info>  [1618748493.9576] manager: NetworkManager state is now ASLEEP
+Apr 18 05:21:33 ubuntu NetworkManager[641]: <info>  [1618748493.9599] audit: op="networking-control" arg="off" pid=2962 uid=0 result="success"
+Apr 18 05:21:33 ubuntu NetworkManager[641]: <info>  [1618748493.9601] device (ens33): state change: activated -> deactivating (reason 'sleeping', sys-iface-state: 'managed')
+Apr 18 05:21:33 ubuntu NetworkManager[641]: <info>  [1618748493.9656] device (ens33): state change: deactivating -> disconnected (reason 'sleeping', sys-iface-state: 'managed')
+Apr 18 05:21:33 ubuntu avahi-daemon[644]: Withdrawing address record for fe80::734d:d920:e31c:e18f on ens33.
+Apr 18 05:21:33 ubuntu avahi-daemon[644]: Leaving mDNS multicast group on interface ens33.IPv6 with address fe80::734d:d920:e31c:e18f.
+Apr 18 05:21:34 ubuntu whoopsie[1179]: [05:21:33] offline
+Apr 18 05:21:34 ubuntu avahi-daemon[644]: Interface ens33.IPv6 no longer relevant for mDNS.
+Apr 18 05:21:34 ubuntu systemd[1]: Starting Network Manager Script Dispatcher Service...
+Apr 18 05:21:34 ubuntu dbus-daemon[633]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.11' (uid=0 pid=641 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Apr 18 05:21:34 ubuntu dbus-daemon[633]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Apr 18 05:21:34 ubuntu systemd[1]: Started Network Manager Script Dispatcher Service.
+Apr 18 05:21:34 ubuntu nm-dispatcher: req:1 'connectivity-change': new request (1 scripts)
+Apr 18 05:21:34 ubuntu nm-dispatcher: req:1 'connectivity-change': start running ordered scripts...
+Apr 18 05:21:34 ubuntu NetworkManager[641]: <info>  [1618748494.1487] dhcp4 (ens33): canceled DHCP transaction, DHCP client pid 2342
+Apr 18 22:26:08 ubuntu NetworkManager[641]: <info>  [1618748494.1488] dhcp4 (ens33): state changed bound -> done
+Apr 18 22:26:08 ubuntu avahi-daemon[644]: Withdrawing address record for 192.168.182.128 on ens33.
+Apr 18 22:26:08 ubuntu avahi-daemon[644]: Leaving mDNS multicast group on interface ens33.IPv4 with address 192.168.182.128.
+Apr 18 22:26:08 ubuntu avahi-daemon[644]: Interface ens33.IPv4 no longer relevant for mDNS.
+Apr 18 22:26:08 ubuntu nm-dispatcher: req:2 'down' [ens33]: new request (1 scripts)
+Apr 18 22:26:08 ubuntu nm-dispatcher: req:2 'down' [ens33]: start running ordered scripts...
+Apr 18 22:26:08 ubuntu systemd[1]: Starting Daily apt download activities...
+Apr 18 22:26:08 ubuntu NetworkManager[641]: <info>  [1618809968.9826] device (ens33): state change: disconnected -> unmanaged (reason 'sleeping', sys-iface-state: 'managed')
+Apr 18 22:26:08 ubuntu systemd[1]: Starting Message of the Day...
+Apr 18 22:26:09 ubuntu systemd[1]: Started Run anacron jobs.
+Apr 18 22:26:09 ubuntu systemd[1]: Started Message of the Day.
+Apr 18 22:26:09 ubuntu anacron[2978]: Anacron 2.3 started on 2021-04-18
+Apr 18 22:26:09 ubuntu anacron[2978]: Normal exit (0 jobs run)
+Apr 18 22:26:09 ubuntu gsd-sharing[1919]: Failed to StopUnit service: GDBus.Error:org.freedesktop.systemd1.NoSuchUnit: Unit gnome-user-share-webdav.service not loaded.
+Apr 18 22:26:09 ubuntu gsd-sharing[1919]: Failed to StopUnit service: GDBus.Error:org.freedesktop.systemd1.NoSuchUnit: Unit rygel.service not loaded.
+Apr 18 22:26:09 ubuntu gsd-sharing[1919]: Failed to StopUnit service: GDBus.Error:org.freedesktop.systemd1.NoSuchUnit: Unit gnome-remote-desktop.service not loaded.
+Apr 18 22:26:09 ubuntu NetworkManager[641]: <info>  [1618809969.2291] manager: enable requested (sleeping: no  enabled: no)
+Apr 18 22:26:09 ubuntu NetworkManager[641]: <info>  [1618809969.2292] device (ens33): state change: unmanaged -> unavailable (reason 'managed', sys-iface-state: 'managed')
+Apr 18 22:26:09 ubuntu NetworkManager[641]: <info>  [1618809969.2531] manager: NetworkManager state is now DISCONNECTED
+Apr 18 22:26:09 ubuntu NetworkManager[641]: <info>  [1618809969.2535] audit: op="networking-control" arg="on" pid=3021 uid=0 result="success"
+Apr 18 22:26:09 ubuntu NetworkManager[641]: <info>  [1618809969.2538] device (ens33): carrier: link connected
+Apr 18 22:26:09 ubuntu NetworkManager[641]: <info>  [1618809969.2577] device (ens33): state change: unavailable -> disconnected (reason 'carrier-changed', sys-iface-state: 'managed')
+Apr 18 22:26:09 ubuntu kernel: [ 1663.497946] e1000: ens33 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: None
+Apr 18 22:26:09 ubuntu kernel: [ 1663.499261] IPv6: ADDRCONF(NETDEV_CHANGE): ens33: link becomes ready
+Apr 18 22:26:09 ubuntu NetworkManager[641]: <info>  [1618809969.2680] policy: auto-activating connection 'Wired connection 1'
+Apr 18 22:26:09 ubuntu NetworkManager[641]: <info>  [1618809969.2710] device (ens33): Activation: starting connection 'Wired connection 1' (222ed2f9-b7e4-3ead-a7f8-897420b385ad)
+Apr 18 22:26:09 ubuntu NetworkManager[641]: <info>  [1618809969.2714] device (ens33): state change: disconnected -> prepare (reason 'none', sys-iface-state: 'managed')
+Apr 18 22:26:09 ubuntu NetworkManager[641]: <info>  [1618809969.2717] manager: NetworkManager state is now CONNECTING
+Apr 18 22:26:09 ubuntu NetworkManager[641]: <info>  [1618809969.2728] device (ens33): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+Apr 18 22:26:09 ubuntu NetworkManager[641]: <info>  [1618809969.2770] device (ens33): state change: config -> ip-config (reason 'none', sys-iface-state: 'managed')
+Apr 18 22:26:09 ubuntu NetworkManager[641]: <info>  [1618809969.2779] dhcp4 (ens33): activation: beginning transaction (timeout in 45 seconds)
+Apr 18 22:26:09 ubuntu NetworkManager[641]: <info>  [1618809969.2850] dhcp4 (ens33): dhclient started with pid 3027
+Apr 18 22:26:09 ubuntu avahi-daemon[644]: Joining mDNS multicast group on interface ens33.IPv6 with address fe80::734d:d920:e31c:e18f.
+Apr 18 22:26:09 ubuntu avahi-daemon[644]: New relevant interface ens33.IPv6 for mDNS.
+Apr 18 22:26:09 ubuntu avahi-daemon[644]: Registering new address record for fe80::734d:d920:e31c:e18f on ens33.*.
+Apr 18 22:26:09 ubuntu dhclient[3027]: DHCPDISCOVER on ens33 to 255.255.255.255 port 67 interval 3 (xid=0x128cec01)
+Apr 18 22:26:10 ubuntu dhclient[3027]: DHCPREQUEST of 192.168.182.128 on ens33 to 255.255.255.255 port 67 (xid=0x1ec8c12)
+Apr 18 22:26:10 ubuntu dhclient[3027]: DHCPOFFER of 192.168.182.128 from 192.168.182.254
+Apr 18 22:26:10 ubuntu dhclient[3027]: DHCPACK of 192.168.182.128 from 192.168.182.254
+Apr 18 22:26:10 ubuntu NetworkManager[641]: <info>  [1618809970.4245] dhcp4 (ens33):   address 192.168.182.128
+Apr 18 22:26:10 ubuntu NetworkManager[641]: <info>  [1618809970.4253] dhcp4 (ens33):   plen 24 (255.255.255.0)
+Apr 18 22:26:10 ubuntu NetworkManager[641]: <info>  [1618809970.4256] dhcp4 (ens33):   gateway 192.168.182.2
+Apr 18 22:26:10 ubuntu NetworkManager[641]: <info>  [1618809970.4259] dhcp4 (ens33):   lease time 1800
+Apr 18 22:26:10 ubuntu NetworkManager[641]: <info>  [1618809970.4269] dhcp4 (ens33):   nameserver '192.168.182.2'
+Apr 18 22:26:10 ubuntu NetworkManager[641]: <info>  [1618809970.4272] dhcp4 (ens33):   domain name 'localdomain'
+Apr 18 22:26:10 ubuntu NetworkManager[641]: <info>  [1618809970.4275] dhcp4 (ens33):   wins '192.168.182.2'
+Apr 18 22:26:10 ubuntu NetworkManager[641]: <info>  [1618809970.4277] dhcp4 (ens33): state changed unknown -> bound
+Apr 18 22:26:10 ubuntu avahi-daemon[644]: Joining mDNS multicast group on interface ens33.IPv4 with address 192.168.182.128.
+Apr 18 22:26:10 ubuntu avahi-daemon[644]: New relevant interface ens33.IPv4 for mDNS.
+Apr 18 22:26:10 ubuntu avahi-daemon[644]: Registering new address record for 192.168.182.128 on ens33.IPv4.
+Apr 18 22:26:10 ubuntu NetworkManager[641]: <info>  [1618809970.4399] device (ens33): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'managed')
+Apr 18 22:26:10 ubuntu whoopsie[1179]: [22:26:10] Cannot reach: https://daisy.ubuntu.com
+Apr 18 22:26:10 ubuntu NetworkManager[641]: <info>  [1618809970.4544] device (ens33): state change: ip-check -> secondaries (reason 'none', sys-iface-state: 'managed')
+Apr 18 22:26:10 ubuntu NetworkManager[641]: <info>  [1618809970.4605] device (ens33): state change: secondaries -> activated (reason 'none', sys-iface-state: 'managed')
+Apr 18 22:26:10 ubuntu NetworkManager[641]: <info>  [1618809970.4635] manager: NetworkManager state is now CONNECTED_LOCAL
+Apr 18 22:26:10 ubuntu NetworkManager[641]: <info>  [1618809970.4700] manager: NetworkManager state is now CONNECTED_SITE
+Apr 18 22:26:10 ubuntu NetworkManager[641]: <info>  [1618809970.4706] policy: set 'Wired connection 1' (ens33) as default for IPv4 routing and DNS
+Apr 18 22:26:10 ubuntu NetworkManager[641]: <info>  [1618809970.4753] device (ens33): Activation: successful, device activated.
+Apr 18 22:26:10 ubuntu nm-dispatcher: req:3 'up' [ens33]: new request (1 scripts)
+Apr 18 22:26:10 ubuntu nm-dispatcher: req:3 'up' [ens33]: start running ordered scripts...
+Apr 18 22:26:10 ubuntu gsd-sharing[1919]: Failed to StopUnit service: GDBus.Error:org.freedesktop.systemd1.NoSuchUnit: Unit gnome-user-share-webdav.service not loaded.
+Apr 18 22:26:10 ubuntu gsd-sharing[1919]: Failed to StopUnit service: GDBus.Error:org.freedesktop.systemd1.NoSuchUnit: Unit rygel.service not loaded.
+Apr 18 22:26:10 ubuntu gsd-sharing[1919]: Failed to StopUnit service: GDBus.Error:org.freedesktop.systemd1.NoSuchUnit: Unit gnome-remote-desktop.service not loaded.
+Apr 18 22:26:10 ubuntu dhclient[3027]: bound to 192.168.182.128 -- renewal in 818 seconds.
+Apr 18 22:26:10 ubuntu PackageKit: get-updates transaction /72_eccabcca from uid 1000 finished with success after 1361ms
+Apr 18 22:26:11 ubuntu NetworkManager[641]: <info>  [1618809971.9244] manager: NetworkManager state is now CONNECTED_GLOBAL
+Apr 18 22:26:11 ubuntu nm-dispatcher: req:4 'connectivity-change': new request (1 scripts)
+Apr 18 22:26:11 ubuntu nm-dispatcher: req:4 'connectivity-change': start running ordered scripts...
+Apr 18 22:26:11 ubuntu whoopsie[1179]: [22:26:11] The default IPv4 route is: /org/freedesktop/NetworkManager/ActiveConnection/3
+Apr 18 22:26:11 ubuntu whoopsie[1179]: [22:26:11] Not a paid data plan: /org/freedesktop/NetworkManager/ActiveConnection/3
+Apr 18 22:26:11 ubuntu whoopsie[1179]: [22:26:11] Found usable connection: /org/freedesktop/NetworkManager/ActiveConnection/3
+Apr 18 22:26:12 ubuntu whoopsie[1179]: [22:26:12] online
+Apr 18 22:26:14 ubuntu gnome-software[2674]: no app for changed ubuntu-dock@ubuntu.com
+Apr 18 22:26:14 ubuntu gnome-software[2674]: no app for changed ubuntu-appindicators@ubuntu.com
+Apr 18 22:26:14 ubuntu gvfsd-metadata[2164]: g_udev_device_has_property: assertion 'G_UDEV_IS_DEVICE (device)' failed
+Apr 18 22:26:14 ubuntu gvfsd-metadata[2164]: g_udev_device_has_property: assertion 'G_UDEV_IS_DEVICE (device)' failed
+Apr 18 22:26:14 ubuntu gnome-shell[1797]: [AppIndicatorSupport-DEBUG] Registering StatusNotifierItem :1.75/org/ayatana/NotificationItem/software_update_available
+Apr 18 22:26:14 ubuntu gnome-shell[1797]: [AppIndicatorSupport-DEBUG] Registering StatusNotifierItem :1.75/org/ayatana/NotificationItem/livepatch
+Apr 18 22:26:19 ubuntu gnome-software[2674]: Only 0 apps for recent list, hiding
+Apr 18 22:26:21 ubuntu gnome-software[2674]: tried overwriting io.snapcraft.nordpass-00CQ2MvSr0Ex7zwdGhCYTa0ZLMw3H6hf key GnomeSoftware::FeatureTile-css from border-color: #000000;#012text-shadow: 0 1px 1px rgba(255,255,255,0.5);#012color: #000000;#012outline-offset: 0;#012outline-color: alpha(#ffffff, 0.75);#012outline-style: dashed;#012outline-offset: 2px;#012background: url('/home/like/.cache/gnome-software/cssresource/c8aef6476c95e2f699a4754681bb630c7154fd70-icon_sMKeoSb.png') left center / auto 100% no-repeat, #FFFFFF;; to border-color: #000000;#012text-shadow: 0 1px 1px rgba(255,255,255,0.5);#012color: #000000;#012outline-offset: 0;#012outline-color: alpha(#ffffff, 0.75);#012outline-style: dashed;#012outline-offset: 2px;#012background: url('https://dashboard.snapcraft.io/site_media/appmedia/2019/11/icon_sMKeoSb.png') left center / auto 100% no-repeat, #FFFFFF;;
+Apr 18 22:26:26 ubuntu PackageKit: resolve transaction /73_abbdcaba from uid 1000 finished with success after 5942ms
+Apr 18 22:26:27 ubuntu PackageKit: search-file transaction /74_eccaabdc from uid 1000 finished with success after 1555ms
+Apr 18 22:26:27 ubuntu gnome-software[2674]: Failed to find one package for jetbrains-clion.desktop, /usr/share/applications/jetbrains-clion.desktop, [0]
+Apr 18 22:26:33 ubuntu systemd[1]: Started Daily apt download activities.
+Apr 18 22:26:33 ubuntu systemd[1]: Starting Daily apt upgrade and clean activities...
+Apr 18 22:26:40 ubuntu gnome-shell[1797]: Some code accessed the property 'discreteGpuAvailable' on the module 'appDisplay'. That property was defined with 'let' or 'const' inside the module. This was previously supported, but is not correct according to the ES6 standard. Any symbols to be exported from a module must be defined with 'var'. The property access will work as previously for the time being, but please fix your code anyway.
+Apr 18 22:26:40 ubuntu gnome-shell[1797]: Some code accessed the property 'WindowPreviewMenuItem' on the module 'windowPreview'. That property was defined with 'let' or 'const' inside the module. This was previously supported, but is not correct according to the ES6 standard. Any symbols to be exported from a module must be defined with 'var'. The property access will work as previously for the time being, but please fix your code anyway.
+Apr 18 22:26:42 ubuntu dbus-daemon[633]: [system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service' requested by ':1.109' (uid=1000 pid=2142 comm="/usr/bin/nautilus --gapplication-service " label="unconfined")
+Apr 18 22:26:42 ubuntu systemd[1]: Starting Hostname Service...
+Apr 18 22:26:42 ubuntu dbus-daemon[633]: [system] Successfully activated service 'org.freedesktop.hostname1'
+Apr 18 22:26:42 ubuntu systemd[1]: Started Hostname Service.
+Apr 18 22:26:47 ubuntu gvfsd-metadata[2164]: g_udev_device_has_property: assertion 'G_UDEV_IS_DEVICE (device)' failed
+Apr 18 22:26:47 ubuntu kernel: [ 1701.608034] SGI XFS with ACLs, security attributes, realtime, no debug enabled
+Apr 18 22:26:47 ubuntu kernel: [ 1701.656618] JFS: nTxBlock = 8192, nTxLock = 65536
+Apr 18 22:26:47 ubuntu kernel: [ 1701.698262] ntfs: driver 2.1.32 [Flags: R/O MODULE].
+Apr 18 22:26:47 ubuntu kernel: [ 1701.733686] QNX4 filesystem 0.2.3 registered.
+Apr 18 22:26:47 ubuntu kernel: [ 1701.794624] raid6: avx2x4   gen() 32024 MB/s
+Apr 18 22:26:47 ubuntu kernel: [ 1701.842546] raid6: avx2x4   xor() 17592 MB/s
+Apr 18 22:26:47 ubuntu kernel: [ 1701.890378] raid6: avx2x2   gen() 27711 MB/s
+Apr 18 22:26:47 ubuntu kernel: [ 1701.938287] raid6: avx2x2   xor() 17701 MB/s
+Apr 18 22:26:47 ubuntu kernel: [ 1701.986122] raid6: avx2x1   gen() 22050 MB/s
+Apr 18 22:26:47 ubuntu kernel: [ 1702.034031] raid6: avx2x1   xor() 15919 MB/s
+Apr 18 22:26:47 ubuntu kernel: [ 1702.081861] raid6: sse2x4   gen() 13640 MB/s
+Apr 18 22:26:47 ubuntu kernel: [ 1702.129745] raid6: sse2x4   xor()  8321 MB/s
+Apr 18 22:26:47 ubuntu kernel: [ 1702.177610] raid6: sse2x2   gen() 11154 MB/s
+Apr 18 22:26:48 ubuntu kernel: [ 1702.225378] raid6: sse2x2   xor()  7491 MB/s
+Apr 18 22:26:48 ubuntu kernel: [ 1702.273349] raid6: sse2x1   gen()  9757 MB/s
+Apr 18 22:26:48 ubuntu kernel: [ 1702.321223] raid6: sse2x1   xor()  5748 MB/s
+Apr 18 22:26:48 ubuntu kernel: [ 1702.321225] raid6: using algorithm avx2x4 gen() 32024 MB/s
+Apr 18 22:26:48 ubuntu kernel: [ 1702.321225] raid6: .... xor() 17592 MB/s, rmw enabled
+Apr 18 22:26:48 ubuntu kernel: [ 1702.321226] raid6: using avx2x2 recovery algorithm
+Apr 18 22:26:48 ubuntu kernel: [ 1702.332032] xor: automatically using best checksumming function   avx       
+Apr 18 22:26:48 ubuntu kernel: [ 1702.362075] Btrfs loaded, crc32c=crc32c-intel
+Apr 18 22:26:47 ubuntu gvfsd-metadata[2164]: message repeated 7 times: [ g_udev_device_has_property: assertion 'G_UDEV_IS_DEVICE (device)' failed]
+Apr 18 22:26:49 ubuntu nautilus[2142]: Called "net usershare info" but it failed: Failed to execute child process “net” (No such file or directory)
+Apr 18 22:26:50 ubuntu nautilus[2142]: g_key_file_load_from_file: assertion 'file != NULL' failed
+Apr 18 22:26:50 ubuntu nautilus[2142]: Could not establish a connection to Tracker: Failed to load SPARQL backend: Key file does not have group “DomainOntology”
+Apr 18 22:26:51 ubuntu nautilus[2142]: g_queue_pop_head: assertion 'queue != NULL' failed
+Apr 18 22:26:51 ubuntu nautilus[2142]: message repeated 3 times: [ g_queue_pop_head: assertion 'queue != NULL' failed]
+Apr 18 22:27:13 ubuntu dbus-daemon[1673]: [session uid=1000 pid=1673] Activating via systemd: service name='org.gnome.Terminal' unit='gnome-terminal-server.service' requested by ':1.67' (uid=1000 pid=2142 comm="/usr/bin/nautilus --gapplication-service " label="unconfined")
+Apr 18 22:27:13 ubuntu systemd[1647]: Starting GNOME Terminal Server...
+Apr 18 22:27:13 ubuntu dbus-daemon[1673]: [session uid=1000 pid=1673] Successfully activated service 'org.gnome.Terminal'
+Apr 18 22:27:13 ubuntu systemd[1647]: Started GNOME Terminal Server.
+Apr 18 22:27:13 ubuntu systemd[1]: Started Daily apt upgrade and clean activities.
+Apr 18 22:27:54 ubuntu gnome-shell[1797]: Some code accessed the property 'WindowPreviewMenu' on the module 'windowPreview'. That property was defined with 'let' or 'const' inside the module. This was previously supported, but is not correct according to the ES6 standard. Any symbols to be exported from a module must be defined with 'var'. The property access will work as previously for the time being, but please fix your code anyway.
+Apr 18 22:27:59 ubuntu dbus-daemon[633]: [system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service' requested by ':1.109' (uid=1000 pid=2142 comm="/usr/bin/nautilus --gapplication-service " label="unconfined")
+Apr 18 22:27:59 ubuntu systemd[1]: Starting Hostname Service...
+Apr 18 22:27:59 ubuntu dbus-daemon[633]: [system] Successfully activated service 'org.freedesktop.hostname1'
+Apr 18 22:27:59 ubuntu systemd[1]: Started Hostname Service.
+Apr 18 22:27:59 ubuntu nautilus[2142]: Called "net usershare info" but it failed: Failed to execute child process “net” (No such file or directory)
+Apr 18 22:28:02 ubuntu gvfsd-metadata[2164]: g_udev_device_has_property: assertion 'G_UDEV_IS_DEVICE (device)' failed
+Apr 18 22:28:02 ubuntu gvfsd-metadata[2164]: message repeated 7 times: [ g_udev_device_has_property: assertion 'G_UDEV_IS_DEVICE (device)' failed]
+Apr 18 22:28:56 ubuntu systemd[1]: Stopping MySQL Community Server...
+Apr 18 22:28:57 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 18 22:28:57 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 18 22:28:57 ubuntu mysql-systemd-start[5738]: ERROR: Unable to start MySQL server:
+Apr 18 22:28:57 ubuntu mysql-systemd-start[5738]: 2021-04-19T05:28:57.987725Z 0 [ERROR] Invalid decimal value for option 'long_query_time'
+Apr 18 22:28:57 ubuntu mysql-systemd-start[5738]: 2021-04-19T05:28:57.987793Z 0 [ERROR] mysqld: Error while setting value '2s' to 'long_query_time'
+Apr 18 22:28:57 ubuntu mysql-systemd-start[5738]: 2021-04-19T05:28:57.993036Z 0 [ERROR] Aborting
+Apr 18 22:28:57 ubuntu mysql-systemd-start[5738]: Please take a look at https://wiki.debian.org/Teams/MySQL/FAQ for tips on fixing common upgrade issues.
+Apr 18 22:28:58 ubuntu mysql-systemd-start[5738]: Once the problem is resolved, restart the service.
+Apr 18 22:28:58 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 18 22:28:58 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 18 22:28:58 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 18 22:28:58 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 18 22:28:58 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 1.
+Apr 18 22:28:58 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 18 22:28:58 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 18 22:28:58 ubuntu mysql-systemd-start[5746]: ERROR: Unable to start MySQL server:
+Apr 18 22:28:58 ubuntu mysql-systemd-start[5746]: 2021-04-19T05:28:58.301226Z 0 [ERROR] Invalid decimal value for option 'long_query_time'
+Apr 18 22:28:58 ubuntu mysql-systemd-start[5746]: 2021-04-19T05:28:58.301256Z 0 [ERROR] mysqld: Error while setting value '2s' to 'long_query_time'
+Apr 18 22:28:58 ubuntu mysql-systemd-start[5746]: 2021-04-19T05:28:58.302403Z 0 [ERROR] Aborting
+Apr 18 22:28:58 ubuntu mysql-systemd-start[5746]: Please take a look at https://wiki.debian.org/Teams/MySQL/FAQ for tips on fixing common upgrade issues.
+Apr 18 22:28:58 ubuntu mysql-systemd-start[5746]: Once the problem is resolved, restart the service.
+Apr 18 22:28:58 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 18 22:28:58 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 18 22:28:58 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 18 22:28:58 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 18 22:28:58 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 2.
+Apr 18 22:28:58 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 18 22:28:58 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 18 22:28:58 ubuntu mysql-systemd-start[5754]: ERROR: Unable to start MySQL server:
+Apr 18 22:28:58 ubuntu mysql-systemd-start[5754]: 2021-04-19T05:28:58.565829Z 0 [ERROR] Invalid decimal value for option 'long_query_time'
+Apr 18 22:28:58 ubuntu mysql-systemd-start[5754]: 2021-04-19T05:28:58.565863Z 0 [ERROR] mysqld: Error while setting value '2s' to 'long_query_time'
+Apr 18 22:28:58 ubuntu mysql-systemd-start[5754]: 2021-04-19T05:28:58.566952Z 0 [ERROR] Aborting
+Apr 18 22:28:58 ubuntu mysql-systemd-start[5754]: Please take a look at https://wiki.debian.org/Teams/MySQL/FAQ for tips on fixing common upgrade issues.
+Apr 18 22:28:58 ubuntu mysql-systemd-start[5754]: Once the problem is resolved, restart the service.
+Apr 18 22:28:58 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 18 22:28:58 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 18 22:28:58 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 18 22:28:58 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 18 22:28:58 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 3.
+Apr 18 22:28:58 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 18 22:28:58 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 18 22:28:58 ubuntu mysql-systemd-start[5762]: ERROR: Unable to start MySQL server:
+Apr 18 22:28:58 ubuntu mysql-systemd-start[5762]: 2021-04-19T05:28:58.820310Z 0 [ERROR] Invalid decimal value for option 'long_query_time'
+Apr 18 22:28:58 ubuntu mysql-systemd-start[5762]: 2021-04-19T05:28:58.820346Z 0 [ERROR] mysqld: Error while setting value '2s' to 'long_query_time'
+Apr 18 22:28:58 ubuntu mysql-systemd-start[5762]: 2021-04-19T05:28:58.821503Z 0 [ERROR] Aborting
+Apr 18 22:28:58 ubuntu mysql-systemd-start[5762]: Please take a look at https://wiki.debian.org/Teams/MySQL/FAQ for tips on fixing common upgrade issues.
+Apr 18 22:28:58 ubuntu mysql-systemd-start[5762]: Once the problem is resolved, restart the service.
+Apr 18 22:28:58 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 18 22:28:58 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 18 22:28:58 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 18 22:28:59 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 18 22:28:59 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 4.
+Apr 18 22:28:59 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 18 22:28:59 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 18 22:28:59 ubuntu mysql-systemd-start[5770]: ERROR: Unable to start MySQL server:
+Apr 18 22:28:59 ubuntu mysql-systemd-start[5770]: 2021-04-19T05:28:59.057634Z 0 [ERROR] Invalid decimal value for option 'long_query_time'
+Apr 18 22:28:59 ubuntu mysql-systemd-start[5770]: 2021-04-19T05:28:59.057675Z 0 [ERROR] mysqld: Error while setting value '2s' to 'long_query_time'
+Apr 18 22:28:59 ubuntu mysql-systemd-start[5770]: 2021-04-19T05:28:59.058759Z 0 [ERROR] Aborting
+Apr 18 22:28:59 ubuntu mysql-systemd-start[5770]: Please take a look at https://wiki.debian.org/Teams/MySQL/FAQ for tips on fixing common upgrade issues.
+Apr 18 22:28:59 ubuntu mysql-systemd-start[5770]: Once the problem is resolved, restart the service.
+Apr 18 22:28:59 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 18 22:28:59 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 18 22:28:59 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 18 22:28:59 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 18 22:28:59 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 5.
+Apr 18 22:28:59 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 18 22:28:59 ubuntu systemd[1]: mysql.service: Start request repeated too quickly.
+Apr 18 22:28:59 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 18 22:28:59 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 18 22:29:31 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 18 22:29:31 ubuntu mysql-systemd-start[5807]: ERROR: Unable to start MySQL server:
+Apr 18 22:29:31 ubuntu mysql-systemd-start[5807]: 2021-04-19T05:29:31.039867Z 0 [ERROR] Invalid decimal value for option 'long_query_time'
+Apr 18 22:29:31 ubuntu mysql-systemd-start[5807]: 2021-04-19T05:29:31.039907Z 0 [ERROR] mysqld: Error while setting value '2s' to 'long_query_time'
+Apr 18 22:29:31 ubuntu mysql-systemd-start[5807]: 2021-04-19T05:29:31.041064Z 0 [ERROR] Aborting
+Apr 18 22:29:31 ubuntu mysql-systemd-start[5807]: Please take a look at https://wiki.debian.org/Teams/MySQL/FAQ for tips on fixing common upgrade issues.
+Apr 18 22:29:31 ubuntu mysql-systemd-start[5807]: Once the problem is resolved, restart the service.
+Apr 18 22:29:31 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 18 22:29:31 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 18 22:29:31 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 18 22:29:31 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 18 22:29:31 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 1.
+Apr 18 22:29:31 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 18 22:29:31 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 18 22:29:31 ubuntu mysql-systemd-start[5815]: ERROR: Unable to start MySQL server:
+Apr 18 22:29:31 ubuntu mysql-systemd-start[5815]: 2021-04-19T05:29:31.321475Z 0 [ERROR] Invalid decimal value for option 'long_query_time'
+Apr 18 22:29:31 ubuntu mysql-systemd-start[5815]: 2021-04-19T05:29:31.321508Z 0 [ERROR] mysqld: Error while setting value '2s' to 'long_query_time'
+Apr 18 22:29:31 ubuntu mysql-systemd-start[5815]: 2021-04-19T05:29:31.322644Z 0 [ERROR] Aborting
+Apr 18 22:29:31 ubuntu mysql-systemd-start[5815]: Please take a look at https://wiki.debian.org/Teams/MySQL/FAQ for tips on fixing common upgrade issues.
+Apr 18 22:29:31 ubuntu mysql-systemd-start[5815]: Once the problem is resolved, restart the service.
+Apr 18 22:29:31 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 18 22:29:31 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 18 22:29:31 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 18 22:29:31 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 18 22:29:31 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 2.
+Apr 18 22:29:31 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 18 22:29:31 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 18 22:29:31 ubuntu mysql-systemd-start[5823]: ERROR: Unable to start MySQL server:
+Apr 18 22:29:31 ubuntu mysql-systemd-start[5823]: 2021-04-19T05:29:31.570808Z 0 [ERROR] Invalid decimal value for option 'long_query_time'
+Apr 18 22:29:31 ubuntu mysql-systemd-start[5823]: 2021-04-19T05:29:31.570839Z 0 [ERROR] mysqld: Error while setting value '2s' to 'long_query_time'
+Apr 18 22:29:31 ubuntu mysql-systemd-start[5823]: 2021-04-19T05:29:31.571986Z 0 [ERROR] Aborting
+Apr 18 22:29:31 ubuntu mysql-systemd-start[5823]: Please take a look at https://wiki.debian.org/Teams/MySQL/FAQ for tips on fixing common upgrade issues.
+Apr 18 22:29:31 ubuntu mysql-systemd-start[5823]: Once the problem is resolved, restart the service.
+Apr 18 22:29:31 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 18 22:29:31 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 18 22:29:31 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 18 22:29:31 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 18 22:29:31 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 3.
+Apr 18 22:29:31 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 18 22:29:31 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 18 22:29:31 ubuntu mysql-systemd-start[5831]: ERROR: Unable to start MySQL server:
+Apr 18 22:29:31 ubuntu mysql-systemd-start[5831]: 2021-04-19T05:29:31.820260Z 0 [ERROR] Invalid decimal value for option 'long_query_time'
+Apr 18 22:29:31 ubuntu mysql-systemd-start[5831]: 2021-04-19T05:29:31.820296Z 0 [ERROR] mysqld: Error while setting value '2s' to 'long_query_time'
+Apr 18 22:29:31 ubuntu mysql-systemd-start[5831]: 2021-04-19T05:29:31.821482Z 0 [ERROR] Aborting
+Apr 18 22:29:31 ubuntu mysql-systemd-start[5831]: Please take a look at https://wiki.debian.org/Teams/MySQL/FAQ for tips on fixing common upgrade issues.
+Apr 18 22:29:31 ubuntu mysql-systemd-start[5831]: Once the problem is resolved, restart the service.
+Apr 18 22:29:31 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 18 22:29:31 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 18 22:29:31 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 18 22:29:32 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 18 22:29:32 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 4.
+Apr 18 22:29:32 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 18 22:29:32 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 18 22:29:32 ubuntu mysql-systemd-start[5839]: ERROR: Unable to start MySQL server:
+Apr 18 22:29:32 ubuntu mysql-systemd-start[5839]: 2021-04-19T05:29:32.060729Z 0 [ERROR] Invalid decimal value for option 'long_query_time'
+Apr 18 22:29:32 ubuntu mysql-systemd-start[5839]: 2021-04-19T05:29:32.060760Z 0 [ERROR] mysqld: Error while setting value '2s' to 'long_query_time'
+Apr 18 22:29:32 ubuntu mysql-systemd-start[5839]: 2021-04-19T05:29:32.061974Z 0 [ERROR] Aborting
+Apr 18 22:29:32 ubuntu mysql-systemd-start[5839]: Please take a look at https://wiki.debian.org/Teams/MySQL/FAQ for tips on fixing common upgrade issues.
+Apr 18 22:29:32 ubuntu mysql-systemd-start[5839]: Once the problem is resolved, restart the service.
+Apr 18 22:29:32 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 18 22:29:32 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 18 22:29:32 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 18 22:29:32 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 18 22:29:32 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 5.
+Apr 18 22:29:32 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 18 22:29:32 ubuntu systemd[1]: mysql.service: Start request repeated too quickly.
+Apr 18 22:29:32 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 18 22:29:32 ubuntu systemd[1]: Failed to start MySQL Community Server.

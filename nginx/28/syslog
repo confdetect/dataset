@@ -1,0 +1,45 @@
+Apr 27 20:26:31 ubuntu dhclient[54421]: DHCPREQUEST of 192.168.182.129 on ens33 to 192.168.182.254 port 67 (xid=0x1ed9e2f1)
+Apr 27 20:26:31 ubuntu dhclient[54421]: DHCPACK of 192.168.182.129 from 192.168.182.254
+Apr 27 20:26:31 ubuntu NetworkManager[686]: <info>  [1619526391.6671] dhcp4 (ens33):   address 192.168.182.129
+Apr 27 20:26:31 ubuntu NetworkManager[686]: <info>  [1619526391.6672] dhcp4 (ens33):   plen 24 (255.255.255.0)
+Apr 27 20:26:31 ubuntu NetworkManager[686]: <info>  [1619526391.6672] dhcp4 (ens33):   gateway 192.168.182.2
+Apr 27 20:26:31 ubuntu NetworkManager[686]: <info>  [1619526391.6672] dhcp4 (ens33):   lease time 1800
+Apr 27 20:26:31 ubuntu NetworkManager[686]: <info>  [1619526391.6672] dhcp4 (ens33):   nameserver '192.168.182.2'
+Apr 27 20:26:31 ubuntu NetworkManager[686]: <info>  [1619526391.6672] dhcp4 (ens33):   domain name 'localdomain'
+Apr 27 20:26:31 ubuntu NetworkManager[686]: <info>  [1619526391.6672] dhcp4 (ens33):   wins '192.168.182.2'
+Apr 27 20:26:31 ubuntu NetworkManager[686]: <info>  [1619526391.6672] dhcp4 (ens33): state changed bound -> bound
+Apr 27 20:26:31 ubuntu dbus-daemon[662]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.10' (uid=0 pid=686 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Apr 27 20:26:31 ubuntu systemd[1]: Starting Network Manager Script Dispatcher Service...
+Apr 27 20:26:31 ubuntu dhclient[54421]: bound to 192.168.182.129 -- renewal in 757 seconds.
+Apr 27 20:26:31 ubuntu dbus-daemon[662]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Apr 27 20:26:31 ubuntu systemd[1]: Started Network Manager Script Dispatcher Service.
+Apr 27 20:26:31 ubuntu nm-dispatcher: req:1 'dhcp4-change' [ens33]: new request (1 scripts)
+Apr 27 20:26:31 ubuntu nm-dispatcher: req:1 'dhcp4-change' [ens33]: start running ordered scripts...
+Apr 27 20:26:56 ubuntu systemd[1]: Starting A high performance web server and a reverse proxy server...
+Apr 27 20:26:56 ubuntu systemd[1]: Started A high performance web server and a reverse proxy server.
+Apr 27 20:26:57 ubuntu systemd[1]: Stopping A high performance web server and a reverse proxy server...
+Apr 27 20:26:57 ubuntu systemd[1]: Stopped A high performance web server and a reverse proxy server.
+Apr 27 20:26:57 ubuntu systemd[1]: Starting A high performance web server and a reverse proxy server...
+Apr 27 20:26:57 ubuntu systemd[1]: Started A high performance web server and a reverse proxy server.
+Apr 27 20:27:03 ubuntu jetbrains-pycharm-ce.desktop[55163]: OpenJDK 64-Bit Server VM warning: Option UseConcMarkSweepGC was deprecated in version 9.0 and will likely be removed in a future release.
+Apr 27 20:27:06 ubuntu jetbrains-pycharm-ce.desktop[55163]: 2021-04-27 20:27:06,732 [   2013]   WARN - llij.ide.plugins.PluginManager - Resource bundle redefinition for plugin 'com.jetbrains.pycharm.community.customization'. Old value: messages.ActionsBundle, new value: messages.PyBundle
+Apr 27 20:27:07 ubuntu org.gnome.Shell.desktop[1827]: Window manager warning: Window 0x480002e (win0) sets an MWM hint indicating it isn't resizable, but sets min size 1 x 1 and max size 2147483647 x 2147483647; this doesn't make much sense.
+Apr 27 20:27:09 ubuntu jetbrains-pycharm-ce.desktop[55163]: 2021-04-27 20:27:09,558 [   4839]   WARN - nSystem.impl.ActionManagerImpl - keymap "Visual Studio" not found [Plugin: com.intellij]
+Apr 27 20:27:09 ubuntu jetbrains-pycharm-ce.desktop[55163]: 2021-04-27 20:27:09,562 [   4843]   WARN - nSystem.impl.ActionManagerImpl - keymap "Eclipse" not found [Plugin: com.intellij]
+Apr 27 20:27:09 ubuntu jetbrains-pycharm-ce.desktop[55163]: 2021-04-27 20:27:09,563 [   4844]   WARN - nSystem.impl.ActionManagerImpl - keymap "NetBeans 6.5" not found [Plugin: com.intellij]
+Apr 27 20:27:09 ubuntu jetbrains-pycharm-ce.desktop[55163]: 2021-04-27 20:27:09,563 [   4844]   WARN - nSystem.impl.ActionManagerImpl - keymap "Visual Studio" not found [Plugin: com.intellij]
+Apr 27 20:27:09 ubuntu jetbrains-pycharm-ce.desktop[55163]: 2021-04-27 20:27:09,703 [   4984]   WARN - nSystem.impl.ActionManagerImpl - keymap "Eclipse" not found [Plugin: org.jetbrains.plugins.github]
+Apr 27 20:27:09 ubuntu jetbrains-pycharm-ce.desktop[55163]: 2021-04-27 20:27:09,742 [   5023]   WARN - nSystem.impl.ActionManagerImpl - keymap "Eclipse" not found [Plugin: PythonCore]
+Apr 27 20:27:09 ubuntu jetbrains-pycharm-ce.desktop[55163]: 2021-04-27 20:27:09,742 [   5023]   WARN - nSystem.impl.ActionManagerImpl - keymap "NetBeans 6.5" not found [Plugin: PythonCore]
+Apr 27 20:27:50 ubuntu systemd[1]: Stopping A high performance web server and a reverse proxy server...
+Apr 27 20:27:50 ubuntu systemd[1]: Stopped A high performance web server and a reverse proxy server.
+Apr 27 20:27:50 ubuntu systemd[1]: Starting A high performance web server and a reverse proxy server...
+Apr 27 20:27:50 ubuntu nginx[55497]: nginx: [warn] duplicate MIME type "text/plain" in /etc/nginx/nginx.conf:55
+Apr 27 20:27:50 ubuntu nginx[55498]: nginx: [warn] duplicate MIME type "text/plain" in /etc/nginx/nginx.conf:55
+Apr 27 20:27:50 ubuntu systemd[1]: Started A high performance web server and a reverse proxy server.
+Apr 27 20:27:51 ubuntu systemd[1]: Stopping A high performance web server and a reverse proxy server...
+Apr 27 20:27:51 ubuntu systemd[1]: Stopped A high performance web server and a reverse proxy server.
+Apr 27 20:27:51 ubuntu systemd[1]: Starting A high performance web server and a reverse proxy server...
+Apr 27 20:27:51 ubuntu nginx[55510]: nginx: [warn] duplicate MIME type "text/plain" in /etc/nginx/nginx.conf:55
+Apr 27 20:27:51 ubuntu nginx[55511]: nginx: [warn] duplicate MIME type "text/plain" in /etc/nginx/nginx.conf:55
+Apr 27 20:27:51 ubuntu systemd[1]: Started A high performance web server and a reverse proxy server.

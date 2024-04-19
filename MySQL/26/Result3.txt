@@ -1,0 +1,28 @@
+Connect Database log success
+Create Table MysqlLog Success
+Starting Parse Mysql Log
+Starting Parse Sys Log
+Computing Problem Spotlight
+Create Table MysqlMsg Success
+Mysql DisConnect
+Using Augeas to Parse Configuration File
+Extract key-value Finished
+Extract Env Finished
+Connect Mysql wise success
+Giving Problem Spotlight and Resolve Spotlight
+Problem Spotlight No.0 : 2021-04-19 06:02:48 Error Aborting
+Problem Spotlight No.1 : 2021-04-19 06:02:48 Error mysqld: Error while setting value '10d' to 'expire_logs_days'
+Suspicious word:    expire_logs_days    with key:    Conf: expire_logs_days    and value:    10d
+Suspicious word:    mysqld    with key:    Conf: user  ||  Program: 9909/mysqld    and value:    mysqld  ||  Port: tcp/3306
+Suspicious word:    10d    with key:    Conf: expire_logs_days    and value:    10d
+Knowledge Database Configuration:    wrong Conf value's key: max_allowed_packet    Infomation:    
+Problem Spotlight No.2 : 2021-04-19 06:02:48 Error Unknown suffix 'd' used for variable 'expire_logs_days' (value '10d')
+Problem Spotlight No.3 : 2021-04-18 23:02:48 Warning Once the problem is resolved, restart the service.
+Problem Spotlight No.4 : 2021-04-18 23:02:48 Warning Please take a look at https://wiki.debian.org/Teams/MySQL/FAQ for tips on fixing common upgrade issues.
+Problem Spotlight No.5 : 2021-04-18 23:02:48 Warning ERROR: Unable to start MySQL server:
+Problem Spotlight No.6 : 2021-04-19 06:00:14 Warning CA certificate ca.pem is self signed.
+Problem Spotlight No.7 : 2021-04-19 06:00:13 Warning TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+Problem Spotlight No.8 : 2021-04-19 06:02:46 Note /usr/sbin/mysqld: Shutdown complete
+Problem Spotlight No.9 : 2021-04-19 06:02:46 Note Shutting down plugin 'binlog'
+Mysql DisConnect
+Time Using: 1.02018 s

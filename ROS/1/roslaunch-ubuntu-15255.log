@@ -1,0 +1,43 @@
+[roslaunch][INFO] 2021-05-02 14:08:21,400: Checking log directory for disk usage. This may take a while.
+Press Ctrl-C to interrupt
+[roslaunch][INFO] 2021-05-02 14:08:21,406: Done checking log file disk usage. Usage is <1GB.
+[roslaunch][INFO] 2021-05-02 14:08:21,407: roslaunch starting with args ['/opt/ros/melodic/bin/roslaunch', 'racecar_gazebo', 'racecar.launch']
+[roslaunch][INFO] 2021-05-02 14:08:21,407: roslaunch env is {'LC_NUMERIC': 'en_US.UTF-8', 'ROS_DISTRO': 'melodic', 'QT4_IM_MODULE': 'fcitx', 'GJS_DEBUG_OUTPUT': 'stderr', 'PKG_CONFIG_PATH': '/home/liike/ROS/devel/lib/pkgconfig:/opt/ros/melodic/lib/pkgconfig', 'WINDOWPATH': '2', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_PAPER': 'en_US.UTF-8', 'ROSLISP_PACKAGE_DIRECTORIES': '/home/liike/ROS/devel/share/common-lisp', 'QT_IM_MODULE': 'fcitx', 'LOGNAME': 'liike', 'USER': 'liike', 'PATH': '/opt/ros/melodic/bin:/home/liike/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_VTNR': '2', 'HOME': '/home/liike', 'CMAKE_PREFIX_PATH': '/home/liike/ROS/devel:/opt/ros/melodic', 'DISPLAY': ':1', 'SSH_AGENT_PID': '1794', 'LANG': 'zh_CN.UTF-8', 'TERM': 'xterm-256color', 'SHELL': '/bin/bash', 'ROS_LOG_FILENAME': '/home/liike/.ros/log/cbe3f4ca-ab0c-11eb-8440-000c29637311/roslaunch-ubuntu-15255.log', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LANGUAGE': 'zh_CN:en_US:en', 'SESSION_MANAGER': 'local/ubuntu:@/tmp/.ICE-unix/1707,unix/ubuntu:/tmp/.ICE-unix/1707', 'LC_MEASUREMENT': 'en_US.UTF-8', 'QT_ACCESSIBILITY': '1', 'LD_LIBRARY_PATH': '/home/liike/ROS/devel/lib:/opt/ros/melodic/lib', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'CLUTTER_IM_MODULE': 'xim', 'TEXTDOMAIN': 'im-config', 'SVGA_VGPU10': '0', 'XMODIFIERS': '@im=fcitx', 'ROS_MASTER_URI': 'http://localhost:11311', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_PYTHON_VERSION': '2', 'USERNAME': 'liike', 'XDG_SESSION_DESKTOP': 'ubuntu', 'SHLVL': '1', 'ROS_VERSION': '1', 'GTK_IM_MODULE': 'fcitx', 'LC_ADDRESS': 'en_US.UTF-8', 'PYTHONPATH': '/home/liike/ROS/devel/lib/python2.7/dist-packages:/opt/ros/melodic/lib/python2.7/dist-packages', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'VTE_VERSION': '5202', 'ROS_ROOT': '/opt/ros/melodic/share/ros', 'GDMSESSION': 'ubuntu', 'IM_CONFIG_PHASE': '2', 'TEXTDOMAINDIR': '/usr/share/locale/', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'ROS_PACKAGE_PATH': '/home/liike/ROS/src:/opt/ros/melodic/share', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'XDG_SESSION_ID': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', '_': '/opt/ros/melodic/bin/roslaunch', 'GNOME_TERMINAL_SERVICE': ':1.128', 'LC_IDENTIFICATION': 'en_US.UTF-8', 'DESKTOP_SESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GTK_MODULES': 'gail:atk-bridge', 'XDG_SESSION_TYPE': 'x11', 'XDG_SEAT': 'seat0', 'LC_TELEPHONE': 'en_US.UTF-8', 'PAPERSIZE': 'letter', 'LC_MONETARY': 'en_US.UTF-8', 'PWD': '/home/liike', 'ROS_ETC_DIR': '/opt/ros/melodic/etc/ros', 'COLORTERM': 'truecolor', 'LC_NAME': 'en_US.UTF-8', 'XDG_MENU_PREFIX': 'gnome-', 'LC_TIME': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/10bbae7b_6099_4ad1_b5fc_9f4b4e737835'}
+[roslaunch][INFO] 2021-05-02 14:08:21,407: starting in server mode
+[roslaunch.parent][INFO] 2021-05-02 14:08:21,407: starting roslaunch parent run
+[roslaunch][INFO] 2021-05-02 14:08:21,407: loading roscore config file /opt/ros/melodic/etc/ros/roscore.xml
+[roslaunch][INFO] 2021-05-02 14:08:21,807: Added core node of type [rosout/rosout] in namespace [/]
+[roslaunch.config][INFO] 2021-05-02 14:08:21,807: loading config file /home/liike/ROS/src/racecar/racecar_gazebo/launch/racecar.launch
+[roslaunch][INFO] 2021-05-02 14:08:21,853: Added node of type [gazebo_ros/gzserver] in namespace [/]
+[roslaunch][ERROR] 2021-05-02 14:08:21,853: Value error: ture is not a 'bool' type
+[roslaunch][ERROR] 2021-05-02 14:08:21,853: The traceback for the exception was written to the log file
+[roslaunch][ERROR] 2021-05-02 14:08:21,863: Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/roslaunch/__init__.py", line 332, in main
+    p.start()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/roslaunch/parent.py", line 289, in start
+    self._start_infrastructure()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/roslaunch/parent.py", line 238, in _start_infrastructure
+    self._load_config()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/roslaunch/parent.py", line 144, in _load_config
+    roslaunch_strs=self.roslaunch_strs, verbose=self.verbose)
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/roslaunch/config.py", line 461, in load_config_default
+    loader.load(f, config, argv=args, verbose=verbose)
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/roslaunch/xmlloader.py", line 761, in load
+    self._load_launch(launch, ros_config, is_core=core, filename=filename, argv=argv, verbose=verbose)
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/roslaunch/xmlloader.py", line 733, in _load_launch
+    self._recurse_load(ros_config, launch.childNodes, self.root_context, None, is_core, verbose)
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/roslaunch/xmlloader.py", line 699, in _recurse_load
+    val = self._include_tag(tag, context, ros_config, default_machine, is_core, verbose)
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/roslaunch/xmlloader.py", line 96, in call
+    return f(*args, **kwds)
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/roslaunch/xmlloader.py", line 634, in _include_tag
+    default_machine, is_core, verbose)
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/roslaunch/xmlloader.py", line 663, in _recurse_load
+    if ifunless_test(self, tag, context):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/roslaunch/xmlloader.py", line 78, in ifunless_test
+    if_val = loader.convert_value(if_val, 'bool')
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/roslaunch/loader.py", line 99, in convert_value
+    raise ValueError("%s is not a '%s' type"%(value, type_))
+ValueError: ture is not a 'bool' type
+
+[rospy.core][INFO] 2021-05-02 14:08:21,863: signal_shutdown [atexit]

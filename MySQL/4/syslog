@@ -1,0 +1,673 @@
+Apr 13 00:05:16 ubuntu anacron[87794]: Job `cron.daily' terminated
+Apr 13 00:05:16 ubuntu anacron[87794]: Normal exit (1 job run)
+Apr 13 15:06:47 ubuntu dhclient[847]: DHCPREQUEST of 192.168.182.129 on ens33 to 192.168.182.254 port 67 (xid=0x7a1e9d30)
+Apr 13 15:06:47 ubuntu dhclient[847]: DHCPACK of 192.168.182.129 from 192.168.182.254
+Apr 13 15:06:47 ubuntu NetworkManager[731]: <info>  [1618297607.8454] dhcp4 (ens33):   address 192.168.182.129
+Apr 13 15:06:47 ubuntu NetworkManager[731]: <info>  [1618297607.8455] dhcp4 (ens33):   plen 24 (255.255.255.0)
+Apr 13 15:06:47 ubuntu NetworkManager[731]: <info>  [1618297607.8455] dhcp4 (ens33):   gateway 192.168.182.2
+Apr 13 15:06:47 ubuntu NetworkManager[731]: <info>  [1618297607.8455] dhcp4 (ens33):   lease time 1800
+Apr 13 15:06:47 ubuntu NetworkManager[731]: <info>  [1618297607.8455] dhcp4 (ens33):   nameserver '192.168.182.2'
+Apr 13 15:06:47 ubuntu NetworkManager[731]: <info>  [1618297607.8455] dhcp4 (ens33):   domain name 'localdomain'
+Apr 13 15:06:47 ubuntu NetworkManager[731]: <info>  [1618297607.8456] dhcp4 (ens33):   wins '192.168.182.2'
+Apr 13 15:06:47 ubuntu NetworkManager[731]: <info>  [1618297607.8456] dhcp4 (ens33): state changed bound -> bound
+Apr 13 15:06:47 ubuntu dbus-daemon[676]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.13' (uid=0 pid=731 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Apr 13 15:06:47 ubuntu systemd[1]: Starting Network Manager Script Dispatcher Service...
+Apr 13 15:06:47 ubuntu dhclient[847]: bound to 192.168.182.129 -- renewal in 864 seconds.
+Apr 13 15:06:47 ubuntu dbus-daemon[676]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Apr 13 15:06:47 ubuntu systemd[1]: Started Network Manager Script Dispatcher Service.
+Apr 13 15:06:47 ubuntu nm-dispatcher: req:1 'dhcp4-change' [ens33]: new request (1 scripts)
+Apr 13 15:06:47 ubuntu nm-dispatcher: req:1 'dhcp4-change' [ens33]: start running ordered scripts...
+Apr 13 00:07:58 ubuntu dhclient[81518]: DHCPREQUEST of 192.168.182.128 on ens33 to 192.168.182.254 port 67 (xid=0x3851fb73)
+Apr 13 00:07:58 ubuntu dhclient[81518]: DHCPACK of 192.168.182.128 from 192.168.182.254
+Apr 13 00:07:58 ubuntu NetworkManager[666]: <info>  [1618297678.4249] dhcp4 (ens33):   address 192.168.182.128
+Apr 13 00:07:58 ubuntu NetworkManager[666]: <info>  [1618297678.4260] dhcp4 (ens33):   plen 24 (255.255.255.0)
+Apr 13 00:07:58 ubuntu NetworkManager[666]: <info>  [1618297678.4260] dhcp4 (ens33):   gateway 192.168.182.2
+Apr 13 00:07:58 ubuntu NetworkManager[666]: <info>  [1618297678.4261] dhcp4 (ens33):   lease time 1800
+Apr 13 00:07:58 ubuntu NetworkManager[666]: <info>  [1618297678.4261] dhcp4 (ens33):   nameserver '192.168.182.2'
+Apr 13 00:07:58 ubuntu NetworkManager[666]: <info>  [1618297678.4261] dhcp4 (ens33):   domain name 'localdomain'
+Apr 13 00:07:58 ubuntu NetworkManager[666]: <info>  [1618297678.4261] dhcp4 (ens33):   wins '192.168.182.2'
+Apr 13 00:07:58 ubuntu NetworkManager[666]: <info>  [1618297678.4261] dhcp4 (ens33): state changed bound -> bound
+Apr 13 00:07:58 ubuntu systemd[1]: Starting Network Manager Script Dispatcher Service...
+Apr 13 00:07:58 ubuntu dbus-daemon[648]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.11' (uid=0 pid=666 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Apr 13 00:07:58 ubuntu dbus-daemon[648]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Apr 13 00:07:58 ubuntu systemd[1]: Started Network Manager Script Dispatcher Service.
+Apr 13 00:07:58 ubuntu nm-dispatcher: req:1 'dhcp4-change' [ens33]: new request (1 scripts)
+Apr 13 00:07:58 ubuntu nm-dispatcher: req:1 'dhcp4-change' [ens33]: start running ordered scripts...
+Apr 13 00:07:58 ubuntu dhclient[81518]: bound to 192.168.182.128 -- renewal in 776 seconds.
+Apr 13 00:11:52 ubuntu gnome-software[2320]: no app for changed ubuntu-dock@ubuntu.com
+Apr 13 00:11:52 ubuntu gnome-software[2320]: no app for changed ubuntu-appindicators@ubuntu.com
+Apr 13 00:11:52 ubuntu gvfsd-metadata[11091]: g_udev_device_has_property: assertion 'G_UDEV_IS_DEVICE (device)' failed
+Apr 13 00:11:52 ubuntu gvfsd-metadata[11091]: g_udev_device_has_property: assertion 'G_UDEV_IS_DEVICE (device)' failed
+Apr 13 00:11:53 ubuntu gnome-shell[1691]: [AppIndicatorSupport-DEBUG] Registering StatusNotifierItem :1.59/org/ayatana/NotificationItem/software_update_available
+Apr 13 00:11:53 ubuntu gnome-shell[1691]: [AppIndicatorSupport-DEBUG] Registering StatusNotifierItem :1.59/org/ayatana/NotificationItem/livepatch
+Apr 13 15:12:26 ubuntu gnome-software[2480]: no app for changed ubuntu-dock@ubuntu.com
+Apr 13 15:12:26 ubuntu gnome-software[2480]: no app for changed ubuntu-appindicators@ubuntu.com
+Apr 13 15:12:26 ubuntu gvfsd-metadata[2793]: g_udev_device_has_property: assertion 'G_UDEV_IS_DEVICE (device)' failed
+Apr 13 15:12:26 ubuntu gvfsd-metadata[2793]: g_udev_device_has_property: assertion 'G_UDEV_IS_DEVICE (device)' failed
+Apr 13 15:12:26 ubuntu gnome-shell[1773]: [AppIndicatorSupport-DEBUG] Registering StatusNotifierItem :1.2/StatusNotifierItem
+Apr 13 15:12:26 ubuntu gnome-shell[1773]: [AppIndicatorSupport-DEBUG] Registering StatusNotifierItem :1.68/org/ayatana/NotificationItem/software_update_available
+Apr 13 15:12:26 ubuntu gnome-shell[1773]: [AppIndicatorSupport-DEBUG] Registering StatusNotifierItem :1.68/org/ayatana/NotificationItem/livepatch
+Apr 13 15:12:26 ubuntu gnome-shell[1773]: JS ERROR: GLib.MarkupError: 1:424: Only direction 'out' is allowed for <arg> elements embedded in <signal>#012_newNodeInfo@resource:///org/gnome/gjs/modules/overrides/Gio.js:205:16#012_wrapFunction/klass[method]@resource:///org/gnome/gjs/modules/overrides/Gio.js:239:16#012introspectBusObject/<@/usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/util.js:106:33
+Apr 13 00:17:01 ubuntu CRON[88025]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Apr 13 15:17:01 ubuntu CRON[4590]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Apr 13 00:17:27 ubuntu gnome-shell[1691]: Object .Gjs_AppIndicatorIconActor__1 (0x561b989a1890), has been already finalized. Impossible to set any property to it.
+Apr 13 00:17:27 ubuntu org.gnome.Shell.desktop[1691]: == Stack trace for context 0x561b93bd7340 ==
+Apr 13 00:17:27 ubuntu org.gnome.Shell.desktop[1691]: #0 0x7ffc4de7be80 b   resource:///org/gnome/gjs/modules/_legacy.js:83 (0x7f7f180b5de0 @ 87)
+Apr 13 00:17:27 ubuntu org.gnome.Shell.desktop[1691]: #1 0x561b93f8c000 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/indicatorStatusIcon.js:93 (0x7f7ef80c2340 @ 58)
+Apr 13 00:17:27 ubuntu org.gnome.Shell.desktop[1691]: #2 0x7ffc4de7d1e0 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f7f180b5de0 @ 71)
+Apr 13 00:17:27 ubuntu org.gnome.Shell.desktop[1691]: #3 0x7ffc4de7d2a0 b   self-hosted:916 (0x7f7f180f12b8 @ 367)
+Apr 13 00:17:27 ubuntu org.gnome.Shell.desktop[1691]: #4 0x7ffc4de7d390 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7f7f180d2230 @ 386)
+Apr 13 00:17:27 ubuntu org.gnome.Shell.desktop[1691]: #5 0x561b93f8bf78 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/appIndicator.js:190 (0x7f7ef80acf78 @ 22)
+Apr 13 00:17:27 ubuntu org.gnome.Shell.desktop[1691]: #6 0x7ffc4de7e6f0 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f7f180b5de0 @ 71)
+Apr 13 00:17:27 ubuntu org.gnome.Shell.desktop[1691]: #7 0x561b93f8bed0 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/statusNotifierWatcher.js:219 (0x7f7ef80ac5e8 @ 225)
+Apr 13 00:17:27 ubuntu org.gnome.Shell.desktop[1691]: #8 0x7ffc4de7fa50 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f7f180b5de0 @ 71)
+Apr 13 00:17:27 ubuntu org.gnome.Shell.desktop[1691]: #9 0x561b93f8be58 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/extension.js:61 (0x7f7ef8084780 @ 37)
+Apr 13 00:17:27 ubuntu org.gnome.Shell.desktop[1691]: #10 0x561b93f8bd98 i   resource:///org/gnome/shell/ui/extensionSystem.js:83 (0x7f7f0c0592b8 @ 441)
+Apr 13 00:17:27 ubuntu org.gnome.Shell.desktop[1691]: #11 0x561b93f8bd18 i   resource:///org/gnome/shell/ui/extensionSystem.js:354 (0x7f7f0c059d58 @ 13)
+Apr 13 00:17:27 ubuntu org.gnome.Shell.desktop[1691]: #12 0x7ffc4de807c0 b   self-hosted:251 (0x7f7f180c4ab0 @ 223)
+Apr 13 00:17:27 ubuntu org.gnome.Shell.desktop[1691]: #13 0x561b93f8bc98 i   resource:///org/gnome/shell/ui/extensionSystem.js:353 (0x7f7f0c059cd0 @ 64)
+Apr 13 00:17:27 ubuntu org.gnome.Shell.desktop[1691]: #14 0x561b93f8bc18 i   resource:///org/gnome/shell/ui/extensionSystem.js:371 (0x7f7f0c059de0 @ 87)
+Apr 13 00:17:27 ubuntu org.gnome.Shell.desktop[1691]: #15 0x7ffc4de81cc0 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7f7f180d2230 @ 386)
+Apr 13 00:17:27 ubuntu org.gnome.Shell.desktop[1691]: #16 0x7ffc4de82460 b   resource:///org/gnome/shell/ui/sessionMode.js:205 (0x7f7efb4704d8 @ 254)
+Apr 13 00:17:27 ubuntu org.gnome.Shell.desktop[1691]: #17 0x7ffc4de83850 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f7f180b5de0 @ 71)
+Apr 13 00:17:27 ubuntu org.gnome.Shell.desktop[1691]: #18 0x561b93f8bad8 i   resource:///org/gnome/shell/ui/sessionMode.js:167 (0x7f7efb4702b8 @ 40)
+Apr 13 00:17:27 ubuntu org.gnome.Shell.desktop[1691]: #19 0x7ffc4de84bb0 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f7f180b5de0 @ 71)
+Apr 13 00:17:27 ubuntu org.gnome.Shell.desktop[1691]: #20 0x561b93f8ba30 i   resource:///org/gnome/shell/ui/screenShield.js:1282 (0x7f7efb453a28 @ 188)
+Apr 13 00:17:27 ubuntu org.gnome.Shell.desktop[1691]: #21 0x7ffc4de85f10 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f7f180b5de0 @ 71)
+Apr 13 00:17:27 ubuntu org.gnome.Shell.desktop[1691]: #22 0x561b93f8b980 i   resource:///org/gnome/shell/ui/screenShield.js:1331 (0x7f7efb453ab0 @ 391)
+Apr 13 00:17:27 ubuntu org.gnome.Shell.desktop[1691]: #23 0x7ffc4de87270 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f7f180b5de0 @ 71)
+Apr 13 00:17:27 ubuntu org.gnome.Shell.desktop[1691]: #24 0x561b93f8b900 i   resource:///org/gnome/shell/ui/screenShield.js:854 (0x7f7efb4509a0 @ 25)
+Apr 13 00:17:27 ubuntu org.gnome.Shell.desktop[1691]: == Stack trace for context 0x561b93bd7340 ==
+Apr 13 00:17:27 ubuntu org.gnome.Shell.desktop[1691]: #0 0x7ffc4de7be80 b   resource:///org/gnome/gjs/modules/_legacy.js:83 (0x7f7f180b5de0 @ 87)
+Apr 13 00:17:27 ubuntu org.gnome.Shell.desktop[1691]: #1 0x561b93f8c000 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/indicatorStatusIcon.js:93 (0x7f7ef80c2340 @ 58)
+Apr 13 00:17:27 ubuntu org.gnome.Shell.desktop[1691]: #2 0x7ffc4de7d1e0 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f7f180b5de0 @ 71)
+Apr 13 00:17:27 ubuntu org.gnome.Shell.desktop[1691]: #3 0x7ffc4de7d2a0 b   self-hosted:916 (0x7f7f180f12b8 @ 367)
+Apr 13 00:17:27 ubuntu org.gnome.Shell.desktop[1691]: #4 0x7ffc4de7d390 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7f7f180d2230 @ 386)
+Apr 13 00:17:27 ubuntu org.gnome.Shell.desktop[1691]: #5 0x561b93f8bf78 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/appIndicator.js:190 (0x7f7ef80acf78 @ 22)
+Apr 13 00:17:27 ubuntu org.gnome.Shell.desktop[1691]: #6 0x7ffc4de7e6f0 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f7f180b5de0 @ 71)
+Apr 13 00:17:27 ubuntu org.gnome.Shell.desktop[1691]: #7 0x561b93f8bed0 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/statusNotifierWatcher.js:219 (0x7f7ef80ac5e8 @ 225)
+Apr 13 00:17:27 ubuntu org.gnome.Shell.desktop[1691]: #8 0x7ffc4de7fa50 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f7f180b5de0 @ 71)
+Apr 13 00:17:27 ubuntu org.gnome.Shell.desktop[1691]: #9 0x561b93f8be58 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/extension.js:61 (0x7f7ef8084780 @ 37)
+Apr 13 00:17:27 ubuntu org.gnome.Shell.desktop[1691]: #10 0x561b93f8bd98 i   resource:///org/gnome/shell/ui/extensionSystem.js:83 (0x7f7f0c0592b8 @ 441)
+Apr 13 00:17:27 ubuntu org.gnome.Shell.desktop[1691]: #11 0x561b93f8bd18 i   resource:///org/gnome/shell/ui/extensionSystem.js:354 (0x7f7f0c059d58 @ 13)
+Apr 13 00:17:27 ubuntu org.gnome.Shell.desktop[1691]: #12 0x7ffc4de807c0 b   self-hosted:251 (0x7f7f180c4ab0 @ 223)
+Apr 13 00:17:27 ubuntu org.gnome.Shell.desktop[1691]: #13 0x561b93f8bc98 i   resource:///org/gnome/shell/ui/extensionSystem.js:353 (0x7f7f0c059cd0 @ 64)
+Apr 13 00:17:27 ubuntu org.gnome.Shell.desktop[1691]: #14 0x561b93f8bc18 i   resource:///org/gnome/shell/ui/extensionSystem.js:371 (0x7f7f0c059de0 @ 87)
+Apr 13 00:17:27 ubuntu gnome-shell[1691]: Object .Gjs_AppIndicatorIconActor__1 (0x561b962c7440), has been already finalized. Impossible to set any property to it.
+Apr 13 00:17:27 ubuntu org.gnome.Shell.desktop[1691]: #15 0x7ffc4de81cc0 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7f7f180d2230 @ 386)
+Apr 13 00:17:27 ubuntu org.gnome.Shell.desktop[1691]: #16 0x7ffc4de82460 b   resource:///org/gnome/shell/ui/sessionMode.js:205 (0x7f7efb4704d8 @ 254)
+Apr 13 00:17:27 ubuntu org.gnome.Shell.desktop[1691]: #17 0x7ffc4de83850 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f7f180b5de0 @ 71)
+Apr 13 00:17:27 ubuntu org.gnome.Shell.desktop[1691]: #18 0x561b93f8bad8 i   resource:///org/gnome/shell/ui/sessionMode.js:167 (0x7f7efb4702b8 @ 40)
+Apr 13 00:17:27 ubuntu org.gnome.Shell.desktop[1691]: #19 0x7ffc4de84bb0 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f7f180b5de0 @ 71)
+Apr 13 00:17:27 ubuntu org.gnome.Shell.desktop[1691]: #20 0x561b93f8ba30 i   resource:///org/gnome/shell/ui/screenShield.js:1282 (0x7f7efb453a28 @ 188)
+Apr 13 00:17:27 ubuntu org.gnome.Shell.desktop[1691]: #21 0x7ffc4de85f10 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f7f180b5de0 @ 71)
+Apr 13 00:17:27 ubuntu org.gnome.Shell.desktop[1691]: #22 0x561b93f8b980 i   resource:///org/gnome/shell/ui/screenShield.js:1331 (0x7f7efb453ab0 @ 391)
+Apr 13 00:17:27 ubuntu org.gnome.Shell.desktop[1691]: #23 0x7ffc4de87270 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f7f180b5de0 @ 71)
+Apr 13 00:17:27 ubuntu org.gnome.Shell.desktop[1691]: #24 0x561b93f8b900 i   resource:///org/gnome/shell/ui/screenShield.js:854 (0x7f7efb4509a0 @ 25)
+Apr 13 00:17:27 ubuntu gnome-software[2320]: no app for changed ubuntu-appindicators@ubuntu.com
+Apr 13 00:17:27 ubuntu gnome-software[2320]: no app for changed ubuntu-dock@ubuntu.com
+Apr 13 00:20:54 ubuntu dhclient[81518]: DHCPREQUEST of 192.168.182.128 on ens33 to 192.168.182.254 port 67 (xid=0x3851fb73)
+Apr 13 00:20:54 ubuntu dhclient[81518]: DHCPACK of 192.168.182.128 from 192.168.182.254
+Apr 13 00:20:54 ubuntu NetworkManager[666]: <info>  [1618298454.3161] dhcp4 (ens33):   address 192.168.182.128
+Apr 13 00:20:54 ubuntu NetworkManager[666]: <info>  [1618298454.3162] dhcp4 (ens33):   plen 24 (255.255.255.0)
+Apr 13 00:20:54 ubuntu NetworkManager[666]: <info>  [1618298454.3162] dhcp4 (ens33):   gateway 192.168.182.2
+Apr 13 00:20:54 ubuntu NetworkManager[666]: <info>  [1618298454.3162] dhcp4 (ens33):   lease time 1800
+Apr 13 00:20:54 ubuntu NetworkManager[666]: <info>  [1618298454.3162] dhcp4 (ens33):   nameserver '192.168.182.2'
+Apr 13 00:20:54 ubuntu NetworkManager[666]: <info>  [1618298454.3162] dhcp4 (ens33):   domain name 'localdomain'
+Apr 13 00:20:54 ubuntu NetworkManager[666]: <info>  [1618298454.3162] dhcp4 (ens33):   wins '192.168.182.2'
+Apr 13 00:20:54 ubuntu NetworkManager[666]: <info>  [1618298454.3162] dhcp4 (ens33): state changed bound -> bound
+Apr 13 00:20:54 ubuntu dbus-daemon[648]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.11' (uid=0 pid=666 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Apr 13 00:20:54 ubuntu dhclient[81518]: bound to 192.168.182.128 -- renewal in 898 seconds.
+Apr 13 00:20:54 ubuntu systemd[1]: Starting Network Manager Script Dispatcher Service...
+Apr 13 00:20:54 ubuntu dbus-daemon[648]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Apr 13 00:20:54 ubuntu systemd[1]: Started Network Manager Script Dispatcher Service.
+Apr 13 00:20:54 ubuntu nm-dispatcher: req:1 'dhcp4-change' [ens33]: new request (1 scripts)
+Apr 13 00:20:54 ubuntu nm-dispatcher: req:1 'dhcp4-change' [ens33]: start running ordered scripts...
+Apr 13 15:21:11 ubuntu dhclient[847]: DHCPREQUEST of 192.168.182.129 on ens33 to 192.168.182.254 port 67 (xid=0x7a1e9d30)
+Apr 13 15:21:11 ubuntu dhclient[847]: DHCPACK of 192.168.182.129 from 192.168.182.254
+Apr 13 15:21:11 ubuntu NetworkManager[731]: <info>  [1618298471.7148] dhcp4 (ens33):   address 192.168.182.129
+Apr 13 15:21:11 ubuntu NetworkManager[731]: <info>  [1618298471.7153] dhcp4 (ens33):   plen 24 (255.255.255.0)
+Apr 13 15:21:11 ubuntu dbus-daemon[676]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.13' (uid=0 pid=731 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Apr 13 15:21:11 ubuntu NetworkManager[731]: <info>  [1618298471.7154] dhcp4 (ens33):   gateway 192.168.182.2
+Apr 13 15:21:11 ubuntu NetworkManager[731]: <info>  [1618298471.7156] dhcp4 (ens33):   lease time 1800
+Apr 13 15:21:11 ubuntu NetworkManager[731]: <info>  [1618298471.7156] dhcp4 (ens33):   nameserver '192.168.182.2'
+Apr 13 15:21:11 ubuntu NetworkManager[731]: <info>  [1618298471.7156] dhcp4 (ens33):   domain name 'localdomain'
+Apr 13 15:21:11 ubuntu NetworkManager[731]: <info>  [1618298471.7156] dhcp4 (ens33):   wins '192.168.182.2'
+Apr 13 15:21:11 ubuntu NetworkManager[731]: <info>  [1618298471.7157] dhcp4 (ens33): state changed bound -> bound
+Apr 13 15:21:11 ubuntu dhclient[847]: bound to 192.168.182.129 -- renewal in 882 seconds.
+Apr 13 15:21:11 ubuntu systemd[1]: Starting Network Manager Script Dispatcher Service...
+Apr 13 15:21:11 ubuntu dbus-daemon[676]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Apr 13 15:21:11 ubuntu systemd[1]: Started Network Manager Script Dispatcher Service.
+Apr 13 15:21:11 ubuntu nm-dispatcher: req:1 'dhcp4-change' [ens33]: new request (1 scripts)
+Apr 13 15:21:11 ubuntu nm-dispatcher: req:1 'dhcp4-change' [ens33]: start running ordered scripts...
+Apr 13 00:23:57 ubuntu gnome-software[2320]: no app for changed ubuntu-dock@ubuntu.com
+Apr 13 00:23:57 ubuntu gnome-software[2320]: no app for changed ubuntu-appindicators@ubuntu.com
+Apr 13 00:23:57 ubuntu gvfsd-metadata[11091]: g_udev_device_has_property: assertion 'G_UDEV_IS_DEVICE (device)' failed
+Apr 13 00:23:57 ubuntu gvfsd-metadata[11091]: g_udev_device_has_property: assertion 'G_UDEV_IS_DEVICE (device)' failed
+Apr 13 00:23:57 ubuntu gnome-shell[1691]: [AppIndicatorSupport-DEBUG] Registering StatusNotifierItem :1.59/org/ayatana/NotificationItem/software_update_available
+Apr 13 00:23:58 ubuntu gnome-shell[1691]: [AppIndicatorSupport-DEBUG] Registering StatusNotifierItem :1.59/org/ayatana/NotificationItem/livepatch
+Apr 13 00:25:07 ubuntu gvfsd-metadata[11091]: g_udev_device_has_property: assertion 'G_UDEV_IS_DEVICE (device)' failed
+Apr 13 00:25:07 ubuntu gvfsd-metadata[11091]: message repeated 7 times: [ g_udev_device_has_property: assertion 'G_UDEV_IS_DEVICE (device)' failed]
+Apr 13 00:25:15 ubuntu nautilus[6762]: Called "net usershare info" but it failed: Failed to execute child process “net” (No such file or directory)
+Apr 13 00:25:15 ubuntu nautilus[6762]: g_queue_pop_head: assertion 'queue != NULL' failed
+Apr 13 00:25:17 ubuntu nautilus[6762]: message repeated 5 times: [ g_queue_pop_head: assertion 'queue != NULL' failed]
+Apr 13 00:25:27 ubuntu nautilus[6762]: g_queue_foreach: assertion 'queue != NULL' failed
+Apr 13 00:25:27 ubuntu nautilus[6762]: g_queue_free: assertion 'queue != NULL' failed
+Apr 13 00:25:27 ubuntu nautilus[6762]: g_queue_foreach: assertion 'queue != NULL' failed
+Apr 13 00:25:27 ubuntu nautilus[6762]: g_queue_free: assertion 'queue != NULL' failed
+Apr 13 15:25:51 ubuntu gnome-shell[1773]: Object .Gjs_AppIndicatorIconActor__1 (0x564ce77aacd0), has been already finalized. Impossible to set any property to it.
+Apr 13 15:25:51 ubuntu org.gnome.Shell.desktop[1773]: == Stack trace for context 0x564ce4f9c320 ==
+Apr 13 15:25:51 ubuntu org.gnome.Shell.desktop[1773]: #0 0x7ffedb146e80 b   resource:///org/gnome/gjs/modules/_legacy.js:83 (0x7fe0cc0b5de0 @ 87)
+Apr 13 15:25:51 ubuntu org.gnome.Shell.desktop[1773]: #1 0x564ce536a960 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/indicatorStatusIcon.js:93 (0x7fe0982c66f8 @ 58)
+Apr 13 15:25:51 ubuntu org.gnome.Shell.desktop[1773]: #2 0x7ffedb1481e0 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7fe0cc0b5de0 @ 71)
+Apr 13 15:25:51 ubuntu org.gnome.Shell.desktop[1773]: #3 0x7ffedb1482a0 b   self-hosted:916 (0x7fe0cc0f12b8 @ 367)
+Apr 13 15:25:51 ubuntu org.gnome.Shell.desktop[1773]: #4 0x7ffedb148390 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7fe0cc0d2230 @ 386)
+Apr 13 15:25:51 ubuntu org.gnome.Shell.desktop[1773]: #5 0x564ce536a8d8 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/appIndicator.js:190 (0x7fe0982b63c8 @ 22)
+Apr 13 15:25:51 ubuntu org.gnome.Shell.desktop[1773]: #6 0x7ffedb1496f0 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7fe0cc0b5de0 @ 71)
+Apr 13 15:25:51 ubuntu org.gnome.Shell.desktop[1773]: #7 0x564ce536a830 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/statusNotifierWatcher.js:219 (0x7fe0982b19a0 @ 225)
+Apr 13 15:25:51 ubuntu org.gnome.Shell.desktop[1773]: #8 0x7ffedb14aa50 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7fe0cc0b5de0 @ 71)
+Apr 13 15:25:51 ubuntu org.gnome.Shell.desktop[1773]: #9 0x564ce536a7b8 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/extension.js:61 (0x7fe09828bc48 @ 37)
+Apr 13 15:25:51 ubuntu org.gnome.Shell.desktop[1773]: #10 0x564ce536a6f8 i   resource:///org/gnome/shell/ui/extensionSystem.js:83 (0x7fe0b95592b8 @ 441)
+Apr 13 15:25:51 ubuntu org.gnome.Shell.desktop[1773]: #11 0x564ce536a678 i   resource:///org/gnome/shell/ui/extensionSystem.js:354 (0x7fe0b9559d58 @ 13)
+Apr 13 15:25:51 ubuntu org.gnome.Shell.desktop[1773]: #12 0x7ffedb14b7c0 b   self-hosted:251 (0x7fe0cc0c4ab0 @ 223)
+Apr 13 15:25:51 ubuntu org.gnome.Shell.desktop[1773]: #13 0x564ce536a5f8 i   resource:///org/gnome/shell/ui/extensionSystem.js:353 (0x7fe0b9559cd0 @ 64)
+Apr 13 15:25:51 ubuntu org.gnome.Shell.desktop[1773]: #14 0x564ce536a578 i   resource:///org/gnome/shell/ui/extensionSystem.js:371 (0x7fe0b9559de0 @ 87)
+Apr 13 15:25:51 ubuntu org.gnome.Shell.desktop[1773]: #15 0x7ffedb14ccc0 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7fe0cc0d2230 @ 386)
+Apr 13 15:25:51 ubuntu org.gnome.Shell.desktop[1773]: #16 0x7ffedb14d460 b   resource:///org/gnome/shell/ui/sessionMode.js:205 (0x7fe0b94704d8 @ 254)
+Apr 13 15:25:51 ubuntu org.gnome.Shell.desktop[1773]: #17 0x7ffedb14e850 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7fe0cc0b5de0 @ 71)
+Apr 13 15:25:51 ubuntu org.gnome.Shell.desktop[1773]: #18 0x564ce536a438 i   resource:///org/gnome/shell/ui/sessionMode.js:167 (0x7fe0b94702b8 @ 40)
+Apr 13 15:25:51 ubuntu org.gnome.Shell.desktop[1773]: #19 0x7ffedb14fbb0 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7fe0cc0b5de0 @ 71)
+Apr 13 15:25:51 ubuntu org.gnome.Shell.desktop[1773]: #20 0x564ce536a390 i   resource:///org/gnome/shell/ui/screenShield.js:1282 (0x7fe0b9453a28 @ 188)
+Apr 13 15:25:51 ubuntu org.gnome.Shell.desktop[1773]: #21 0x7ffedb150f10 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7fe0cc0b5de0 @ 71)
+Apr 13 15:25:51 ubuntu org.gnome.Shell.desktop[1773]: #22 0x564ce536a2e0 i   resource:///org/gnome/shell/ui/screenShield.js:1331 (0x7fe0b9453ab0 @ 391)
+Apr 13 15:25:51 ubuntu org.gnome.Shell.desktop[1773]: #23 0x7ffedb152270 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7fe0cc0b5de0 @ 71)
+Apr 13 15:25:51 ubuntu org.gnome.Shell.desktop[1773]: #24 0x564ce536a260 i   resource:///org/gnome/shell/ui/screenShield.js:854 (0x7fe0b94509a0 @ 25)
+Apr 13 15:25:51 ubuntu gnome-shell[1773]: Object .Gjs_AppIndicatorIconActor__1 (0x564ce9694c40), has been already finalized. Impossible to set any property to it.
+Apr 13 15:25:51 ubuntu org.gnome.Shell.desktop[1773]: == Stack trace for context 0x564ce4f9c320 ==
+Apr 13 15:25:51 ubuntu org.gnome.Shell.desktop[1773]: #0 0x7ffedb146e80 b   resource:///org/gnome/gjs/modules/_legacy.js:83 (0x7fe0cc0b5de0 @ 87)
+Apr 13 15:25:51 ubuntu org.gnome.Shell.desktop[1773]: #1 0x564ce536a960 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/indicatorStatusIcon.js:93 (0x7fe0982c66f8 @ 58)
+Apr 13 15:25:51 ubuntu org.gnome.Shell.desktop[1773]: #2 0x7ffedb1481e0 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7fe0cc0b5de0 @ 71)
+Apr 13 15:25:51 ubuntu org.gnome.Shell.desktop[1773]: #3 0x7ffedb1482a0 b   self-hosted:916 (0x7fe0cc0f12b8 @ 367)
+Apr 13 15:25:51 ubuntu org.gnome.Shell.desktop[1773]: #4 0x7ffedb148390 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7fe0cc0d2230 @ 386)
+Apr 13 15:25:51 ubuntu org.gnome.Shell.desktop[1773]: #5 0x564ce536a8d8 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/appIndicator.js:190 (0x7fe0982b63c8 @ 22)
+Apr 13 15:25:51 ubuntu org.gnome.Shell.desktop[1773]: #6 0x7ffedb1496f0 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7fe0cc0b5de0 @ 71)
+Apr 13 15:25:51 ubuntu org.gnome.Shell.desktop[1773]: #7 0x564ce536a830 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/statusNotifierWatcher.js:219 (0x7fe0982b19a0 @ 225)
+Apr 13 15:25:51 ubuntu org.gnome.Shell.desktop[1773]: #8 0x7ffedb14aa50 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7fe0cc0b5de0 @ 71)
+Apr 13 15:25:51 ubuntu org.gnome.Shell.desktop[1773]: #9 0x564ce536a7b8 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/extension.js:61 (0x7fe09828bc48 @ 37)
+Apr 13 15:25:51 ubuntu org.gnome.Shell.desktop[1773]: #10 0x564ce536a6f8 i   resource:///org/gnome/shell/ui/extensionSystem.js:83 (0x7fe0b95592b8 @ 441)
+Apr 13 15:25:51 ubuntu org.gnome.Shell.desktop[1773]: #11 0x564ce536a678 i   resource:///org/gnome/shell/ui/extensionSystem.js:354 (0x7fe0b9559d58 @ 13)
+Apr 13 15:25:51 ubuntu org.gnome.Shell.desktop[1773]: #12 0x7ffedb14b7c0 b   self-hosted:251 (0x7fe0cc0c4ab0 @ 223)
+Apr 13 15:25:51 ubuntu org.gnome.Shell.desktop[1773]: #13 0x564ce536a5f8 i   resource:///org/gnome/shell/ui/extensionSystem.js:353 (0x7fe0b9559cd0 @ 64)
+Apr 13 15:25:51 ubuntu org.gnome.Shell.desktop[1773]: #14 0x564ce536a578 i   resource:///org/gnome/shell/ui/extensionSystem.js:371 (0x7fe0b9559de0 @ 87)
+Apr 13 15:25:51 ubuntu org.gnome.Shell.desktop[1773]: #15 0x7ffedb14ccc0 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7fe0cc0d2230 @ 386)
+Apr 13 15:25:51 ubuntu org.gnome.Shell.desktop[1773]: #16 0x7ffedb14d460 b   resource:///org/gnome/shell/ui/sessionMode.js:205 (0x7fe0b94704d8 @ 254)
+Apr 13 15:25:51 ubuntu org.gnome.Shell.desktop[1773]: #17 0x7ffedb14e850 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7fe0cc0b5de0 @ 71)
+Apr 13 15:25:51 ubuntu org.gnome.Shell.desktop[1773]: #18 0x564ce536a438 i   resource:///org/gnome/shell/ui/sessionMode.js:167 (0x7fe0b94702b8 @ 40)
+Apr 13 15:25:51 ubuntu org.gnome.Shell.desktop[1773]: #19 0x7ffedb14fbb0 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7fe0cc0b5de0 @ 71)
+Apr 13 15:25:51 ubuntu org.gnome.Shell.desktop[1773]: #20 0x564ce536a390 i   resource:///org/gnome/shell/ui/screenShield.js:1282 (0x7fe0b9453a28 @ 188)
+Apr 13 15:25:51 ubuntu org.gnome.Shell.desktop[1773]: #21 0x7ffedb150f10 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7fe0cc0b5de0 @ 71)
+Apr 13 15:25:51 ubuntu org.gnome.Shell.desktop[1773]: #22 0x564ce536a2e0 i   resource:///org/gnome/shell/ui/screenShield.js:1331 (0x7fe0b9453ab0 @ 391)
+Apr 13 15:25:51 ubuntu org.gnome.Shell.desktop[1773]: #23 0x7ffedb152270 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7fe0cc0b5de0 @ 71)
+Apr 13 15:25:51 ubuntu org.gnome.Shell.desktop[1773]: #24 0x564ce536a260 i   resource:///org/gnome/shell/ui/screenShield.js:854 (0x7fe0b94509a0 @ 25)
+Apr 13 15:25:51 ubuntu org.gnome.Shell.desktop[1773]: == Stack trace for context 0x564ce4f9c320 ==
+Apr 13 15:25:51 ubuntu org.gnome.Shell.desktop[1773]: #0 0x7ffedb147d80 I   resource:///org/gnome/gjs/modules/_legacy.js:83 (0x7fe0cc0b5de0 @ 87)
+Apr 13 15:25:51 ubuntu org.gnome.Shell.desktop[1773]: #1 0x564ce536a960 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/indicatorStatusIcon.js:93 (0x7fe0982c66f8 @ 58)
+Apr 13 15:25:51 ubuntu org.gnome.Shell.desktop[1773]: #2 0x7ffedb148960 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7fe0cc0b5de0 @ 71)
+Apr 13 15:25:51 ubuntu org.gnome.Shell.desktop[1773]: #3 0x7ffedb148a20 b   self-hosted:916 (0x7fe0cc0f12b8 @ 367)
+Apr 13 15:25:51 ubuntu org.gnome.Shell.desktop[1773]: #4 0x7ffedb148b10 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7fe0cc0d2230 @ 386)
+Apr 13 15:25:51 ubuntu org.gnome.Shell.desktop[1773]: #5 0x564ce536a8d8 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/appIndicator.js:190 (0x7fe0982b63c8 @ 22)
+Apr 13 15:25:51 ubuntu org.gnome.Shell.desktop[1773]: #6 0x7ffedb149760 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7fe0cc0b5de0 @ 71)
+Apr 13 15:25:51 ubuntu org.gnome.Shell.desktop[1773]: #7 0x564ce536a830 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/statusNotifierWatcher.js:219 (0x7fe0982b19a0 @ 225)
+Apr 13 15:25:51 ubuntu org.gnome.Shell.desktop[1773]: #8 0x7ffedb14aa50 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7fe0cc0b5de0 @ 71)
+Apr 13 15:25:51 ubuntu org.gnome.Shell.desktop[1773]: #9 0x564ce536a7b8 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/extension.js:61 (0x7fe09828bc48 @ 37)
+Apr 13 15:25:51 ubuntu org.gnome.Shell.desktop[1773]: #10 0x564ce536a6f8 i   resource:///org/gnome/shell/ui/extensionSystem.js:83 (0x7fe0b95592b8 @ 441)
+Apr 13 15:25:51 ubuntu org.gnome.Shell.desktop[1773]: #11 0x564ce536a678 i   resource:///org/gnome/shell/ui/extensionSystem.js:354 (0x7fe0b9559d58 @ 13)
+Apr 13 15:25:51 ubuntu org.gnome.Shell.desktop[1773]: #12 0x7ffedb14b7c0 b   self-hosted:251 (0x7fe0cc0c4ab0 @ 223)
+Apr 13 15:25:51 ubuntu org.gnome.Shell.desktop[1773]: #13 0x564ce536a5f8 i   resource:///org/gnome/shell/ui/extensionSystem.js:353 (0x7fe0b9559cd0 @ 64)
+Apr 13 15:25:51 ubuntu org.gnome.Shell.desktop[1773]: #14 0x564ce536a578 i   resource:///org/gnome/shell/ui/extensionSystem.js:371 (0x7fe0b9559de0 @ 87)
+Apr 13 15:25:51 ubuntu org.gnome.Shell.desktop[1773]: #15 0x7ffedb14ccc0 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7fe0cc0d2230 @ 386)
+Apr 13 15:25:51 ubuntu org.gnome.Shell.desktop[1773]: #16 0x7ffedb14d460 b   resource:///org/gnome/shell/ui/sessionMode.js:205 (0x7fe0b94704d8 @ 254)
+Apr 13 15:25:51 ubuntu org.gnome.Shell.desktop[1773]: #17 0x7ffedb14e850 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7fe0cc0b5de0 @ 71)
+Apr 13 15:25:51 ubuntu org.gnome.Shell.desktop[1773]: #18 0x564ce536a438 i   resource:///org/gnome/shell/ui/sessionMode.js:167 (0x7fe0b94702b8 @ 40)
+Apr 13 15:25:51 ubuntu org.gnome.Shell.desktop[1773]: #19 0x7ffedb14fbb0 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7fe0cc0b5de0 @ 71)
+Apr 13 15:25:51 ubuntu gnome-shell[1773]: Object .Gjs_AppIndicatorIconActor__1 (0x564ce981dbe0), has been already finalized. Impossible to set any property to it.
+Apr 13 15:25:51 ubuntu org.gnome.Shell.desktop[1773]: #20 0x564ce536a390 i   resource:///org/gnome/shell/ui/screenShield.js:1282 (0x7fe0b9453a28 @ 188)
+Apr 13 15:25:51 ubuntu org.gnome.Shell.desktop[1773]: #21 0x7ffedb150f10 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7fe0cc0b5de0 @ 71)
+Apr 13 15:25:51 ubuntu org.gnome.Shell.desktop[1773]: #22 0x564ce536a2e0 i   resource:///org/gnome/shell/ui/screenShield.js:1331 (0x7fe0b9453ab0 @ 391)
+Apr 13 15:25:51 ubuntu org.gnome.Shell.desktop[1773]: #23 0x7ffedb152270 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7fe0cc0b5de0 @ 71)
+Apr 13 15:25:51 ubuntu org.gnome.Shell.desktop[1773]: #24 0x564ce536a260 i   resource:///org/gnome/shell/ui/screenShield.js:854 (0x7fe0b94509a0 @ 25)
+Apr 13 15:25:51 ubuntu gnome-software[2480]: no app for changed ubuntu-appindicators@ubuntu.com
+Apr 13 15:25:51 ubuntu gnome-software[2480]: no app for changed ubuntu-dock@ubuntu.com
+Apr 13 00:26:13 ubuntu systemd[1]: Stopping MySQL Community Server...
+Apr 13 00:26:15 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 13 00:26:15 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 13 00:26:15 ubuntu systemd[1]: Started MySQL Community Server.
+Apr 13 00:27:40 ubuntu systemd[1]: Stopping MySQL Community Server...
+Apr 13 00:27:41 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 13 00:27:42 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 13 00:27:42 ubuntu mysqld[88174]: Initialization of mysqld failed: 0
+Apr 13 00:27:42 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 13 00:27:44 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 13 00:27:44 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 13 00:27:44 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 13 00:27:44 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 1.
+Apr 13 00:27:44 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 13 00:27:44 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 13 00:27:44 ubuntu mysqld[88213]: Initialization of mysqld failed: 0
+Apr 13 00:27:44 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 13 00:27:46 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 13 00:27:46 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 13 00:27:46 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 13 00:27:46 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 2.
+Apr 13 00:27:46 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 13 00:27:46 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 13 00:27:47 ubuntu mysqld[88250]: Initialization of mysqld failed: 0
+Apr 13 00:27:47 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 13 00:27:49 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 13 00:27:49 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 13 00:27:49 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 13 00:27:49 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 3.
+Apr 13 00:27:49 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 13 00:27:49 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 13 00:27:49 ubuntu mysqld[88287]: Initialization of mysqld failed: 0
+Apr 13 00:27:49 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 13 00:27:51 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 13 00:27:51 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 13 00:27:51 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 13 00:27:51 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 4.
+Apr 13 00:27:51 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 13 00:27:51 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 13 00:27:51 ubuntu mysqld[88324]: Initialization of mysqld failed: 0
+Apr 13 00:27:51 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 13 00:27:53 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 13 00:27:53 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 13 00:27:53 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 13 00:27:53 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 5.
+Apr 13 00:27:53 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 13 00:27:53 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 13 00:27:54 ubuntu mysqld[88362]: Initialization of mysqld failed: 0
+Apr 13 00:27:54 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 13 00:27:55 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 13 00:27:55 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 13 00:27:55 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 13 00:27:55 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 6.
+Apr 13 00:27:55 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 13 00:27:55 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 13 00:27:56 ubuntu mysqld[88404]: Initialization of mysqld failed: 0
+Apr 13 00:27:56 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 13 00:27:58 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 13 00:27:58 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 13 00:27:58 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 13 00:27:58 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 7.
+Apr 13 00:27:58 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 13 00:27:58 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 13 00:27:58 ubuntu mysqld[88445]: Initialization of mysqld failed: 0
+Apr 13 00:27:58 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 13 00:28:00 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 13 00:28:00 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 13 00:28:00 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 13 00:28:00 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 8.
+Apr 13 00:28:00 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 13 00:28:00 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 13 00:28:01 ubuntu mysqld[88482]: Initialization of mysqld failed: 0
+Apr 13 00:28:01 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 13 00:28:02 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 13 00:28:02 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 13 00:28:02 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 13 00:28:02 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 9.
+Apr 13 00:28:02 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 13 00:28:02 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 13 00:28:03 ubuntu mysqld[88519]: Initialization of mysqld failed: 0
+Apr 13 00:28:03 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 13 00:28:05 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 13 00:28:05 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 13 00:28:05 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 13 00:28:05 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 10.
+Apr 13 00:28:05 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 13 00:28:05 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 13 00:28:06 ubuntu mysqld[88556]: Initialization of mysqld failed: 0
+Apr 13 00:28:06 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 13 00:28:08 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 13 00:28:08 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 13 00:28:08 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 13 00:28:08 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 11.
+Apr 13 00:28:09 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 13 00:28:09 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 13 00:28:09 ubuntu mysqld[88593]: Initialization of mysqld failed: 0
+Apr 13 00:28:09 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 13 00:28:11 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 13 00:28:11 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 13 00:28:11 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 13 00:28:11 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 12.
+Apr 13 00:28:11 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 13 00:28:11 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 13 00:28:11 ubuntu mysqld[88630]: Initialization of mysqld failed: 0
+Apr 13 00:28:11 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 13 00:28:13 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 13 00:28:13 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 13 00:28:13 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 13 00:28:13 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 13.
+Apr 13 00:28:13 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 13 00:28:13 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 13 00:28:13 ubuntu mysqld[88667]: Initialization of mysqld failed: 0
+Apr 13 00:28:13 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 13 00:28:15 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 13 00:28:15 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 13 00:28:15 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 13 00:28:15 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 14.
+Apr 13 00:28:15 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 13 00:28:15 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 13 00:28:16 ubuntu mysqld[88704]: Initialization of mysqld failed: 0
+Apr 13 00:28:16 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 13 00:28:17 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 13 00:28:17 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 13 00:28:17 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 13 00:28:17 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 15.
+Apr 13 00:28:17 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 13 00:28:17 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 13 00:28:18 ubuntu mysqld[88741]: Initialization of mysqld failed: 0
+Apr 13 00:28:18 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 13 00:28:19 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 13 00:28:19 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 13 00:28:20 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 13 00:28:20 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 16.
+Apr 13 00:28:20 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 13 00:28:20 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 13 00:28:20 ubuntu mysqld[88778]: Initialization of mysqld failed: 0
+Apr 13 00:28:20 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 13 00:28:22 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 13 00:28:22 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 13 00:28:22 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 13 00:28:22 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 17.
+Apr 13 00:28:22 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 13 00:28:22 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 13 00:28:22 ubuntu mysqld[88815]: Initialization of mysqld failed: 0
+Apr 13 00:28:22 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 13 00:28:24 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 13 00:28:24 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 13 00:28:24 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 13 00:28:24 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 18.
+Apr 13 00:28:24 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 13 00:28:24 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 13 00:28:25 ubuntu mysqld[88852]: Initialization of mysqld failed: 0
+Apr 13 00:28:25 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 13 00:28:26 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 13 00:28:26 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 13 00:28:26 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 13 00:28:26 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 19.
+Apr 13 00:28:26 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 13 00:28:26 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 13 00:28:27 ubuntu mysqld[88889]: Initialization of mysqld failed: 0
+Apr 13 00:28:27 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 13 00:28:29 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 13 00:28:29 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 13 00:28:29 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 13 00:28:29 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 20.
+Apr 13 00:28:29 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 13 00:28:29 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 13 00:28:29 ubuntu mysqld[88926]: Initialization of mysqld failed: 0
+Apr 13 00:28:29 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 13 00:28:31 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 13 00:28:31 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 13 00:28:31 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 13 00:28:31 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 21.
+Apr 13 00:28:31 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 13 00:28:31 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 13 00:28:31 ubuntu mysqld[88964]: Initialization of mysqld failed: 0
+Apr 13 00:28:31 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 13 00:28:33 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 13 00:28:33 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 13 00:28:33 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 13 00:28:33 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 22.
+Apr 13 00:28:33 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 13 00:28:33 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 13 00:28:34 ubuntu mysqld[89001]: Initialization of mysqld failed: 0
+Apr 13 00:28:34 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 13 00:28:35 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 13 00:28:35 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 13 00:28:35 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 13 00:28:35 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 23.
+Apr 13 00:28:35 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 13 00:28:35 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 13 00:28:36 ubuntu mysqld[89038]: Initialization of mysqld failed: 0
+Apr 13 00:28:36 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 13 00:28:37 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 13 00:28:38 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 13 00:28:38 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 13 00:28:38 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 24.
+Apr 13 00:28:38 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 13 00:28:38 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 13 00:28:38 ubuntu mysqld[89075]: Initialization of mysqld failed: 0
+Apr 13 00:28:38 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 13 00:28:40 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 13 00:28:40 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 13 00:28:40 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 13 00:28:40 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 25.
+Apr 13 00:28:40 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 13 00:28:40 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 13 00:28:40 ubuntu mysqld[89112]: Initialization of mysqld failed: 0
+Apr 13 00:28:40 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 13 00:28:42 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 13 00:28:42 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 13 00:28:42 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 13 00:28:42 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 26.
+Apr 13 00:28:42 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 13 00:28:42 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 13 00:28:43 ubuntu mysqld[89149]: Initialization of mysqld failed: 0
+Apr 13 00:28:43 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 13 00:28:44 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 13 00:28:44 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 13 00:28:44 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 13 00:28:44 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 27.
+Apr 13 00:28:44 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 13 00:28:44 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 13 00:28:45 ubuntu mysqld[89186]: Initialization of mysqld failed: 0
+Apr 13 00:28:45 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 13 00:28:47 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 13 00:28:47 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 13 00:28:47 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 13 00:28:47 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 28.
+Apr 13 00:28:47 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 13 00:28:47 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 13 00:28:47 ubuntu mysqld[89223]: Initialization of mysqld failed: 0
+Apr 13 00:28:47 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 13 15:28:49 ubuntu gnome-software[2480]: no app for changed ubuntu-dock@ubuntu.com
+Apr 13 15:28:49 ubuntu gnome-software[2480]: no app for changed ubuntu-appindicators@ubuntu.com
+Apr 13 15:28:49 ubuntu gvfsd-metadata[2793]: g_udev_device_has_property: assertion 'G_UDEV_IS_DEVICE (device)' failed
+Apr 13 00:28:49 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 13 00:28:49 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 13 15:28:49 ubuntu gvfsd-metadata[2793]: g_udev_device_has_property: assertion 'G_UDEV_IS_DEVICE (device)' failed
+Apr 13 15:28:49 ubuntu gnome-shell[1773]: [AppIndicatorSupport-DEBUG] Registering StatusNotifierItem :1.2/StatusNotifierItem
+Apr 13 15:28:49 ubuntu gnome-shell[1773]: [AppIndicatorSupport-DEBUG] Registering StatusNotifierItem :1.68/org/ayatana/NotificationItem/software_update_available
+Apr 13 15:28:49 ubuntu gnome-shell[1773]: [AppIndicatorSupport-DEBUG] Registering StatusNotifierItem :1.68/org/ayatana/NotificationItem/livepatch
+Apr 13 15:28:49 ubuntu gnome-shell[1773]: JS ERROR: GLib.MarkupError: 1:424: Only direction 'out' is allowed for <arg> elements embedded in <signal>#012_newNodeInfo@resource:///org/gnome/gjs/modules/overrides/Gio.js:205:16#012_wrapFunction/klass[method]@resource:///org/gnome/gjs/modules/overrides/Gio.js:239:16#012introspectBusObject/<@/usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/util.js:106:33
+Apr 13 00:28:49 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 13 00:28:49 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 29.
+Apr 13 00:28:49 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 13 00:28:49 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 13 00:28:49 ubuntu mysqld[89260]: Initialization of mysqld failed: 0
+Apr 13 00:28:49 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 13 00:28:51 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 13 00:28:51 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 13 00:28:51 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 13 00:28:51 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 30.
+Apr 13 00:28:51 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 13 00:28:51 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 13 00:28:52 ubuntu mysqld[89297]: Initialization of mysqld failed: 0
+Apr 13 00:28:52 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 13 00:28:53 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 13 00:28:53 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 13 00:28:53 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 13 00:28:53 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 31.
+Apr 13 00:28:53 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 13 00:28:53 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 13 00:28:54 ubuntu mysqld[89334]: Initialization of mysqld failed: 0
+Apr 13 00:28:54 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 13 00:28:55 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 13 00:28:55 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 13 00:28:56 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 13 00:28:56 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 32.
+Apr 13 00:28:56 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 13 00:28:56 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 13 00:28:56 ubuntu mysqld[89371]: Initialization of mysqld failed: 0
+Apr 13 00:28:56 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 13 00:28:58 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 13 00:28:58 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 13 00:28:58 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 13 00:28:58 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 33.
+Apr 13 00:28:58 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 13 00:28:58 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 13 00:28:58 ubuntu mysqld[89410]: Initialization of mysqld failed: 0
+Apr 13 00:28:58 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 13 00:29:00 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 13 00:29:00 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 13 00:29:00 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 13 00:29:00 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 34.
+Apr 13 00:29:00 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 13 00:29:00 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 13 00:29:01 ubuntu mysqld[89447]: Initialization of mysqld failed: 0
+Apr 13 00:29:01 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 13 00:29:02 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 13 00:29:02 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 13 00:29:02 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 13 00:29:02 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 35.
+Apr 13 00:29:02 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 13 00:29:02 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 13 00:29:03 ubuntu mysqld[89484]: Initialization of mysqld failed: 0
+Apr 13 00:29:03 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 13 00:29:05 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 13 00:29:05 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 13 00:29:05 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 13 00:29:05 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 36.
+Apr 13 00:29:05 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 13 00:29:05 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 13 00:29:05 ubuntu mysqld[89521]: Initialization of mysqld failed: 0
+Apr 13 00:29:05 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 13 00:29:07 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 13 00:29:07 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 13 00:29:07 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 13 00:29:07 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 37.
+Apr 13 00:29:07 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 13 00:29:07 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 13 00:29:07 ubuntu mysqld[89558]: Initialization of mysqld failed: 0
+Apr 13 00:29:07 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 13 00:29:09 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 13 00:29:09 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 13 00:29:09 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 13 00:29:09 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 38.
+Apr 13 00:29:09 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 13 00:29:09 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 13 00:29:10 ubuntu mysqld[89598]: Initialization of mysqld failed: 0
+Apr 13 00:29:10 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 13 00:29:11 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 13 00:29:11 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 13 00:29:11 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 13 00:29:11 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 39.
+Apr 13 00:29:11 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 13 00:29:11 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 13 00:29:12 ubuntu mysqld[89635]: Initialization of mysqld failed: 0
+Apr 13 00:29:12 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 13 00:29:13 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 13 00:29:13 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 13 00:29:14 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 13 00:29:14 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 40.
+Apr 13 00:29:14 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 13 00:29:14 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 13 00:29:14 ubuntu mysqld[89681]: Initialization of mysqld failed: 0
+Apr 13 00:29:14 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 13 00:29:16 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 13 00:29:16 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 13 00:29:16 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 13 00:29:16 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 41.
+Apr 13 00:29:16 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 13 00:29:16 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 13 00:29:16 ubuntu mysqld[89718]: Initialization of mysqld failed: 0
+Apr 13 00:29:16 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 13 00:29:18 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 13 00:29:18 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 13 00:29:18 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 13 00:29:18 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 42.
+Apr 13 00:29:18 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 13 00:29:18 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 13 00:29:19 ubuntu mysqld[89755]: Initialization of mysqld failed: 0
+Apr 13 00:29:19 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 13 00:29:20 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 13 00:29:20 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 13 00:29:20 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 13 00:29:20 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 43.
+Apr 13 00:29:20 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 13 00:29:20 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 13 00:29:21 ubuntu mysqld[89792]: Initialization of mysqld failed: 0
+Apr 13 00:29:21 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 13 00:29:23 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 13 00:29:23 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 13 00:29:23 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 13 00:29:23 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 44.
+Apr 13 00:29:23 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 13 00:29:23 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 13 00:29:23 ubuntu mysqld[89829]: Initialization of mysqld failed: 0
+Apr 13 00:29:23 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 13 00:29:25 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 13 00:29:25 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 13 00:29:25 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 13 00:29:25 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 45.
+Apr 13 00:29:25 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 13 00:29:25 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 13 00:29:25 ubuntu mysqld[89866]: Initialization of mysqld failed: 0
+Apr 13 00:29:25 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 13 00:29:27 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 13 00:29:27 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 13 00:29:27 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 13 00:29:27 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 46.
+Apr 13 00:29:27 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 13 00:29:27 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 13 00:29:28 ubuntu mysqld[89903]: Initialization of mysqld failed: 0
+Apr 13 00:29:28 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 13 00:29:29 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 13 00:29:29 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 13 00:29:29 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 13 00:29:29 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 47.
+Apr 13 00:29:29 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 13 00:29:29 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 13 00:29:30 ubuntu mysqld[89940]: Initialization of mysqld failed: 0
+Apr 13 00:29:30 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 13 00:29:31 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 13 00:29:31 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 13 00:29:32 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 13 00:29:32 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 48.
+Apr 13 00:29:32 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 13 00:29:32 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 13 00:29:32 ubuntu mysqld[89977]: Initialization of mysqld failed: 0
+Apr 13 00:29:32 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 13 00:29:34 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 13 00:29:34 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 13 00:29:34 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 13 00:29:34 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 49.
+Apr 13 00:29:34 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 13 00:29:34 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 13 00:29:34 ubuntu mysqld[90014]: Initialization of mysqld failed: 0
+Apr 13 00:29:34 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 13 00:29:36 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 13 00:29:36 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 13 00:29:36 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 13 00:29:36 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 50.
+Apr 13 00:29:36 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 13 00:29:36 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 13 00:29:37 ubuntu mysqld[90051]: Initialization of mysqld failed: 0
+Apr 13 00:29:37 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 13 00:29:38 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 13 00:29:38 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 13 00:29:38 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 13 00:29:38 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 51.
+Apr 13 00:29:38 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 13 00:29:38 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 13 00:29:39 ubuntu mysqld[90089]: Initialization of mysqld failed: 0
+Apr 13 00:29:39 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 13 00:29:40 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 13 00:29:40 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 13 00:29:41 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 13 00:29:41 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 52.
+Apr 13 00:29:41 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 13 00:29:41 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 13 00:29:41 ubuntu mysqld[90126]: Initialization of mysqld failed: 0
+Apr 13 00:29:41 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1

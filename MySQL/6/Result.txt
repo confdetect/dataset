@@ -1,0 +1,29 @@
+Connect Mysql log success
+Create Table MysqlLog Success
+Starting Parse Mysql Log
+Mysql Log Match Failed: 
+Mysql Log Match Failed: Version: '5.7.33-0ubuntu0.18.04.1'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  (Ubuntu)
+Mysql Log Match Failed: 
+Mysql Log Match Failed: Version: '5.7.33-0ubuntu0.18.04.1'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  (Ubuntu)
+Starting Parse Sys Log
+Computing Problem Spotlight
+Create Table MysqlMsg Success
+Mysql DisConnect
+Using Augeas to Parse Configuration File
+Extract key-value Finished
+Extract Env Finished
+Connect Mysql wise success
+Giving Problem Spotlight and Resolve Spotlight
+Problem Spotlight No.0 : MySQL data dir not found at 1. Please create one.
+Suspicious word:    1    with key:    Conf: datadir  ||  EnvVar: SHLVL    and value:    1  ||  1
+Problem Spotlight No.1 : CA certificate ca.pem is self signed.
+Problem Spotlight No.2 : TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+Problem Spotlight No.3 : /usr/sbin/mysqld: Shutdown complete
+Problem Spotlight No.4 : Shutting down plugin 'binlog'
+Problem Spotlight No.5 : Shutting down plugin 'mysql_native_password'
+Problem Spotlight No.6 : Shutting down plugin 'sha256_password'
+Problem Spotlight No.7 : Shutting down plugin 'CSV'
+Problem Spotlight No.8 : Shutting down plugin 'MEMORY'
+Problem Spotlight No.9 : InnoDB: Removed temporary tablespace data file: "ibtmp1"
+Suspicious word:    file    with key:    Software: file    and value:    Version: 1:5.32-2ubuntu0.4
+Mysql DisConnect

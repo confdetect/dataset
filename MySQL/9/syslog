@@ -1,0 +1,370 @@
+Apr 14 00:07:12 ubuntu rsyslogd:  [origin software="rsyslogd" swVersion="8.32.0" x-pid="586" x-info="http://www.rsyslog.com"] rsyslogd was HUPed
+Apr 14 00:07:23 ubuntu anacron[2580]: Job `cron.daily' terminated
+Apr 14 00:07:23 ubuntu anacron[2580]: Normal exit (1 job run)
+Apr 14 00:17:02 ubuntu CRON[2718]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Apr 14 00:21:19 ubuntu gnome-software[2265]: no app for changed ubuntu-dock@ubuntu.com
+Apr 14 00:21:19 ubuntu gnome-software[2265]: no app for changed ubuntu-appindicators@ubuntu.com
+Apr 14 00:21:19 ubuntu gvfsd-metadata[2258]: g_udev_device_has_property: assertion 'G_UDEV_IS_DEVICE (device)' failed
+Apr 14 00:21:19 ubuntu gvfsd-metadata[2258]: g_udev_device_has_property: assertion 'G_UDEV_IS_DEVICE (device)' failed
+Apr 14 00:21:19 ubuntu gnome-shell[1581]: [AppIndicatorSupport-DEBUG] Registering StatusNotifierItem :1.66/org/ayatana/NotificationItem/software_update_available
+Apr 14 00:21:19 ubuntu gnome-shell[1581]: [AppIndicatorSupport-DEBUG] Registering StatusNotifierItem :1.66/org/ayatana/NotificationItem/livepatch
+Apr 14 00:21:33 ubuntu jetbrains-clion.desktop[2738]: OpenJDK 64-Bit Server VM warning: Option UseConcMarkSweepGC was deprecated in version 9.0 and will likely be removed in a future release.
+Apr 14 00:21:44 ubuntu org.gnome.Shell.desktop[1581]: Window manager warning: Window 0x1c00007 (win0) sets an MWM hint indicating it isn't resizable, but sets min size 1 x 1 and max size 2147483647 x 2147483647; this doesn't make much sense.
+Apr 14 00:21:52 ubuntu jetbrains-clion.desktop[2738]: 2021-04-14 00:21:52,225 [  14523]   WARN - .cloudConfig.CloudConfigClient - www.jetbrains.com
+Apr 14 00:21:52 ubuntu jetbrains-clion.desktop[2738]: java.net.UnknownHostException: www.jetbrains.com
+Apr 14 00:21:52 ubuntu jetbrains-clion.desktop[2738]: #011at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:220)
+Apr 14 00:21:52 ubuntu jetbrains-clion.desktop[2738]: #011at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:403)
+Apr 14 00:21:52 ubuntu jetbrains-clion.desktop[2738]: #011at java.base/java.net.Socket.connect(Socket.java:609)
+Apr 14 00:21:52 ubuntu jetbrains-clion.desktop[2738]: #011at java.base/sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:289)
+Apr 14 00:21:52 ubuntu jetbrains-clion.desktop[2738]: #011at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:177)
+Apr 14 00:21:52 ubuntu jetbrains-clion.desktop[2738]: #011at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:474)
+Apr 14 00:21:52 ubuntu jetbrains-clion.desktop[2738]: #011at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:569)
+Apr 14 00:21:52 ubuntu jetbrains-clion.desktop[2738]: #011at java.base/sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:265)
+Apr 14 00:21:52 ubuntu jetbrains-clion.desktop[2738]: #011at java.base/sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:372)
+Apr 14 00:21:52 ubuntu jetbrains-clion.desktop[2738]: #011at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:191)
+Apr 14 00:21:52 ubuntu jetbrains-clion.desktop[2738]: #011at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1232)
+Apr 14 00:21:52 ubuntu jetbrains-clion.desktop[2738]: #011at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1081)
+Apr 14 00:21:52 ubuntu jetbrains-clion.desktop[2738]: #011at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:177)
+Apr 14 00:21:52 ubuntu jetbrains-clion.desktop[2738]: #011at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1592)
+Apr 14 00:21:52 ubuntu jetbrains-clion.desktop[2738]: #011at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1520)
+Apr 14 00:21:52 ubuntu jetbrains-clion.desktop[2738]: #011at java.base/java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:527)
+Apr 14 00:21:52 ubuntu jetbrains-clion.desktop[2738]: #011at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:334)
+Apr 14 00:21:52 ubuntu jetbrains-clion.desktop[2738]: #011at com.intellij.util.io.HttpRequests.openConnection(HttpRequests.java:630)
+Apr 14 00:21:52 ubuntu jetbrains-clion.desktop[2738]: #011at com.intellij.util.io.HttpRequests$RequestImpl.getConnection(HttpRequests.java:381)
+Apr 14 00:21:52 ubuntu jetbrains-clion.desktop[2738]: #011at com.intellij.util.io.HttpRequests$RequestImpl.getInputStream(HttpRequests.java:390)
+Apr 14 00:21:52 ubuntu jetbrains-clion.desktop[2738]: #011at com.intellij.util.io.HttpRequests$RequestImpl.getReader(HttpRequests.java:425)
+Apr 14 00:21:52 ubuntu jetbrains-clion.desktop[2738]: #011at com.intellij.util.io.HttpRequests$RequestImpl.getReader(HttpRequests.java:418)
+Apr 14 00:21:52 ubuntu jetbrains-clion.desktop[2738]: #011at com.intellij.idea.cloudConfig.ETagCloudConfigFileClient.a(ETagCloudConfigFileClient.java:74)
+Apr 14 00:21:52 ubuntu jetbrains-clion.desktop[2738]: #011at com.intellij.util.io.HttpRequests.doProcess(HttpRequests.java:541)
+Apr 14 00:21:52 ubuntu jetbrains-clion.desktop[2738]: #011at com.intellij.util.io.HttpRequests.process(HttpRequests.java:523)
+Apr 14 00:21:52 ubuntu jetbrains-clion.desktop[2738]: #011at com.intellij.util.io.HttpRequests$RequestBuilderImpl.connect(HttpRequests.java:355)
+Apr 14 00:21:52 ubuntu jetbrains-clion.desktop[2738]: #011at com.intellij.util.io.RequestBuilder.connect(RequestBuilder.java:58)
+Apr 14 00:21:52 ubuntu jetbrains-clion.desktop[2738]: #011at com.intellij.idea.cloudConfig.ETagCloudConfigFileClient.b(ETagCloudConfigFileClient.java:72)
+Apr 14 00:21:52 ubuntu jetbrains-clion.desktop[2738]: #011at com.intellij.idea.cloudConfig.ETagCloudConfigFileClient.a(ETagCloudConfigFileClient.java:63)
+Apr 14 00:21:52 ubuntu jetbrains-clion.desktop[2738]: #011at com.intellij.idea.cloudConfig.ETagCloudConfigFileClient.list(ETagCloudConfigFileClient.java:37)
+Apr 14 00:21:52 ubuntu jetbrains-clion.desktop[2738]: #011at com.intellij.cloudConfig.CloudConfigManager.listFiles(CloudConfigManager.java:2650)
+Apr 14 00:21:52 ubuntu jetbrains-clion.desktop[2738]: #011at com.intellij.cloudConfig.CloudConfigManager.calculateInitStatus(CloudConfigManager.java:701)
+Apr 14 00:21:52 ubuntu jetbrains-clion.desktop[2738]: #011at com.intellij.cloudConfig.CloudConfigManager.lambda$updateInitStatus$13(CloudConfigManager.java:736)
+Apr 14 00:21:52 ubuntu jetbrains-clion.desktop[2738]: #011at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+Apr 14 00:21:52 ubuntu jetbrains-clion.desktop[2738]: #011at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+Apr 14 00:21:52 ubuntu jetbrains-clion.desktop[2738]: #011at java.base/java.util.concurrent.Executors$PrivilegedThreadFactory$1$1.run(Executors.java:668)
+Apr 14 00:21:52 ubuntu jetbrains-clion.desktop[2738]: #011at java.base/java.util.concurrent.Executors$PrivilegedThreadFactory$1$1.run(Executors.java:665)
+Apr 14 00:21:52 ubuntu jetbrains-clion.desktop[2738]: #011at java.base/java.security.AccessController.doPrivileged(Native Method)
+Apr 14 00:21:52 ubuntu jetbrains-clion.desktop[2738]: #011at java.base/java.util.concurrent.Executors$PrivilegedThreadFactory$1.run(Executors.java:665)
+Apr 14 00:21:52 ubuntu jetbrains-clion.desktop[2738]: #011at java.base/java.lang.Thread.run(Thread.java:834)
+Apr 14 00:21:58 ubuntu jetbrains-clion.desktop[2738]: 2021-04-14 00:21:58,589 [  20887]   WARN - .diagnostic.PerformanceWatcher - UI was frozen for 6049ms, details saved to /home/like/.cache/JetBrains/CLion2020.3/log/threadDumps-freeze-20210414-002157-CL-203.7148.70-ClassLoader.defineClass1-6sec
+Apr 14 00:22:10 ubuntu jetbrains-clion.desktop[2738]: 2021-04-14 00:22:10,212 [  32510]   WARN - arketplace.MarketplaceRequests - Can not get JetBrains plugins' IDs from Marketplace:plugins.jetbrains.com
+Apr 14 00:22:11 ubuntu gnome-shell[1581]: Some code accessed the property 'WindowPreviewMenu' on the module 'windowPreview'. That property was defined with 'let' or 'const' inside the module. This was previously supported, but is not correct according to the ES6 standard. Any symbols to be exported from a module must be defined with 'var'. The property access will work as previously for the time being, but please fix your code anyway.
+Apr 14 00:22:12 ubuntu jetbrains-clion.desktop[2738]: 2021-04-14 00:22:12,576 [  34874]   WARN - arketplace.MarketplaceRequests - Can not get JetBrains plugins' IDs from Marketplace:plugins.jetbrains.com
+Apr 14 00:22:14 ubuntu jetbrains-clion.desktop[2738]: 2021-04-14 00:22:14,390 [  36688]   WARN - arketplace.MarketplaceRequests - Can not get JetBrains plugins' IDs from Marketplace:plugins.jetbrains.com
+Apr 14 00:22:14 ubuntu jetbrains-clion.desktop[2738]: 2021-04-14 00:22:14,899 [  37197]   WARN - arketplace.MarketplaceRequests - Can not get JetBrains plugins' IDs from Marketplace:plugins.jetbrains.com
+Apr 14 00:22:16 ubuntu jetbrains-clion.desktop[2738]: 2021-04-14 00:22:16,310 [  38608]   WARN - arketplace.MarketplaceRequests - Can not get features from Marketplace:plugins.jetbrains.com
+Apr 14 00:22:16 ubuntu jetbrains-clion.desktop[2738]: 2021-04-14 00:22:16,515 [  38813]   WARN - arketplace.MarketplaceRequests - Can not get JetBrains plugins' IDs from Marketplace:plugins.jetbrains.com
+Apr 14 00:22:16 ubuntu jetbrains-clion.desktop[2738]: 2021-04-14 00:22:16,539 [  38837]   WARN - arketplace.MarketplaceRequests - Can not get JetBrains plugins' IDs from Marketplace:plugins.jetbrains.com
+Apr 14 00:22:17 ubuntu dbus-daemon[591]: [system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service' requested by ':1.111' (uid=1000 pid=2225 comm="/usr/bin/nautilus --gapplication-service " label="unconfined")
+Apr 14 00:22:17 ubuntu systemd[1]: Starting Hostname Service...
+Apr 14 00:22:17 ubuntu dbus-daemon[591]: [system] Successfully activated service 'org.freedesktop.hostname1'
+Apr 14 00:22:17 ubuntu systemd[1]: Started Hostname Service.
+Apr 14 00:22:18 ubuntu jetbrains-clion.desktop[2738]: 2021-04-14 00:22:18,980 [  41278]   WARN - arketplace.MarketplaceRequests - Can not get JetBrains plugins' IDs from Marketplace:plugins.jetbrains.com
+Apr 14 00:22:20 ubuntu jetbrains-clion.desktop[2738]: 2021-04-14 00:22:20,677 [  42975]   WARN - arketplace.MarketplaceRequests - Can not get JetBrains plugins' IDs from Marketplace:plugins.jetbrains.com
+Apr 14 00:22:20 ubuntu gvfsd-metadata[2258]: g_udev_device_has_property: assertion 'G_UDEV_IS_DEVICE (device)' failed
+Apr 14 00:22:20 ubuntu gvfsd-metadata[2258]: message repeated 7 times: [ g_udev_device_has_property: assertion 'G_UDEV_IS_DEVICE (device)' failed]
+Apr 14 00:22:22 ubuntu nautilus[2225]: Called "net usershare info" but it failed: Failed to execute child process “net” (No such file or directory)
+Apr 14 00:22:24 ubuntu jetbrains-clion.desktop[2738]: 2021-04-14 00:22:24,128 [  46426]   WARN - arketplace.MarketplaceRequests - Can not get JetBrains plugins' IDs from Marketplace:plugins.jetbrains.com
+Apr 14 00:22:24 ubuntu nautilus[2225]: g_key_file_load_from_file: assertion 'file != NULL' failed
+Apr 14 00:22:24 ubuntu nautilus[2225]: Could not establish a connection to Tracker: Failed to load SPARQL backend: Key file does not have group “DomainOntology”
+Apr 14 00:22:24 ubuntu nautilus[2225]: g_queue_pop_head: assertion 'queue != NULL' failed
+Apr 14 00:22:24 ubuntu nautilus[2225]: message repeated 2 times: [ g_queue_pop_head: assertion 'queue != NULL' failed]
+Apr 14 00:22:24 ubuntu jetbrains-clion.desktop[2738]: 2021-04-14 00:22:24,736 [  47034]   WARN - arketplace.MarketplaceRequests - Can not get JetBrains plugins' IDs from Marketplace:plugins.jetbrains.com
+Apr 14 00:22:40 ubuntu nautilus[2225]: Called "net usershare info" but it failed: Failed to execute child process “net” (No such file or directory)
+Apr 14 00:22:43 ubuntu dbus-daemon[1455]: [session uid=1000 pid=1455] Activating via systemd: service name='org.gnome.Terminal' unit='gnome-terminal-server.service' requested by ':1.59' (uid=1000 pid=2225 comm="/usr/bin/nautilus --gapplication-service " label="unconfined")
+Apr 14 00:22:43 ubuntu systemd[1429]: Starting GNOME Terminal Server...
+Apr 14 00:22:43 ubuntu dbus-daemon[1455]: [session uid=1000 pid=1455] Successfully activated service 'org.gnome.Terminal'
+Apr 14 00:22:43 ubuntu systemd[1429]: Started GNOME Terminal Server.
+Apr 14 00:29:53 ubuntu gnome-shell[1581]: Object .Gjs_AppIndicatorIconActor__1 (0x55f62c04e340), has been already finalized. Impossible to set any property to it.
+Apr 14 00:29:54 ubuntu gnome-shell[1581]: Object .Gjs_AppIndicatorIconActor__1 (0x55f6315e8440), has been already finalized. Impossible to set any property to it.
+Apr 14 00:29:54 ubuntu org.gnome.Shell.desktop[1581]: == Stack trace for context 0x55f62b6a4330 ==
+Apr 14 00:29:54 ubuntu org.gnome.Shell.desktop[1581]: #0 0x7ffc0fa56ff0 I   resource:///org/gnome/gjs/modules/_legacy.js:83 (0x7f66f00b5de0 @ 87)
+Apr 14 00:29:54 ubuntu org.gnome.Shell.desktop[1581]: #1 0x55f62ba5acf0 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/indicatorStatusIcon.js:93 (0x7f66c41c2780 @ 58)
+Apr 14 00:29:54 ubuntu org.gnome.Shell.desktop[1581]: #2 0x7ffc0fa57bd0 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f66f00b5de0 @ 71)
+Apr 14 00:29:54 ubuntu org.gnome.Shell.desktop[1581]: #3 0x7ffc0fa57c90 b   self-hosted:916 (0x7f66f00f12b8 @ 367)
+Apr 14 00:29:54 ubuntu org.gnome.Shell.desktop[1581]: #4 0x7ffc0fa57d80 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7f66f00d2230 @ 386)
+Apr 14 00:29:54 ubuntu org.gnome.Shell.desktop[1581]: #5 0x55f62ba5ac68 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/appIndicator.js:190 (0x7f66c41b2450 @ 22)
+Apr 14 00:29:54 ubuntu org.gnome.Shell.desktop[1581]: #6 0x7ffc0fa589d0 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f66f00b5de0 @ 71)
+Apr 14 00:29:54 ubuntu org.gnome.Shell.desktop[1581]: #7 0x55f62ba5abc0 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/statusNotifierWatcher.js:219 (0x7f66c41ada28 @ 225)
+Apr 14 00:29:54 ubuntu org.gnome.Shell.desktop[1581]: #8 0x7ffc0fa595b0 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f66f00b5de0 @ 71)
+Apr 14 00:29:54 ubuntu org.gnome.Shell.desktop[1581]: #9 0x55f62ba5ab48 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/extension.js:61 (0x7f66c4184bc0 @ 37)
+Apr 14 00:29:54 ubuntu org.gnome.Shell.desktop[1581]: #10 0x55f62ba5aa88 i   resource:///org/gnome/shell/ui/extensionSystem.js:83 (0x7f66c4e592b8 @ 441)
+Apr 14 00:29:54 ubuntu org.gnome.Shell.desktop[1581]: #11 0x55f62ba5aa08 i   resource:///org/gnome/shell/ui/extensionSystem.js:354 (0x7f66c4e59d58 @ 13)
+Apr 14 00:29:54 ubuntu org.gnome.Shell.desktop[1581]: #12 0x7ffc0fa5a2b0 b   self-hosted:251 (0x7f66f00c4ab0 @ 223)
+Apr 14 00:29:54 ubuntu org.gnome.Shell.desktop[1581]: #13 0x55f62ba5a988 i   resource:///org/gnome/shell/ui/extensionSystem.js:353 (0x7f66c4e59cd0 @ 64)
+Apr 14 00:29:54 ubuntu org.gnome.Shell.desktop[1581]: #14 0x55f62ba5a908 i   resource:///org/gnome/shell/ui/extensionSystem.js:371 (0x7f66c4e59de0 @ 87)
+Apr 14 00:29:54 ubuntu org.gnome.Shell.desktop[1581]: #15 0x7ffc0fa5b7b0 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7f66f00d2230 @ 386)
+Apr 14 00:29:54 ubuntu org.gnome.Shell.desktop[1581]: #16 0x7ffc0fa5bf50 b   resource:///org/gnome/shell/ui/sessionMode.js:205 (0x7f66c4d705e8 @ 254)
+Apr 14 00:29:54 ubuntu org.gnome.Shell.desktop[1581]: #17 0x7ffc0fa5d340 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f66f00b5de0 @ 71)
+Apr 14 00:29:54 ubuntu org.gnome.Shell.desktop[1581]: #18 0x55f62ba5a7c8 i   resource:///org/gnome/shell/ui/sessionMode.js:167 (0x7f66c4d703c8 @ 40)
+Apr 14 00:29:54 ubuntu org.gnome.Shell.desktop[1581]: #19 0x7ffc0fa5e6a0 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f66f00b5de0 @ 71)
+Apr 14 00:29:54 ubuntu gnome-software[2265]: no app for changed ubuntu-appindicators@ubuntu.com
+Apr 14 00:29:54 ubuntu org.gnome.Shell.desktop[1581]: #20 0x55f62ba5a720 i   resource:///org/gnome/shell/ui/screenShield.js:1282 (0x7f66c4d53a28 @ 188)
+Apr 14 00:29:54 ubuntu org.gnome.Shell.desktop[1581]: #21 0x7ffc0fa5fa00 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f66f00b5de0 @ 71)
+Apr 14 00:29:54 ubuntu org.gnome.Shell.desktop[1581]: #22 0x55f62ba5a670 i   resource:///org/gnome/shell/ui/screenShield.js:1331 (0x7f66c4d53ab0 @ 391)
+Apr 14 00:29:54 ubuntu org.gnome.Shell.desktop[1581]: #23 0x7ffc0fa60d60 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f66f00b5de0 @ 71)
+Apr 14 00:29:54 ubuntu org.gnome.Shell.desktop[1581]: #24 0x55f62ba5a5f0 i   resource:///org/gnome/shell/ui/screenShield.js:854 (0x7f66c4d519a0 @ 25)
+Apr 14 00:29:54 ubuntu org.gnome.Shell.desktop[1581]: == Stack trace for context 0x55f62b6a4330 ==
+Apr 14 00:29:54 ubuntu org.gnome.Shell.desktop[1581]: #0 0x7ffc0fa560f0 b   resource:///org/gnome/gjs/modules/_legacy.js:83 (0x7f66f00b5de0 @ 87)
+Apr 14 00:29:54 ubuntu org.gnome.Shell.desktop[1581]: #1 0x55f62ba5acf0 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/indicatorStatusIcon.js:93 (0x7f66c41c2780 @ 58)
+Apr 14 00:29:54 ubuntu org.gnome.Shell.desktop[1581]: #2 0x7ffc0fa57450 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f66f00b5de0 @ 71)
+Apr 14 00:29:54 ubuntu org.gnome.Shell.desktop[1581]: #3 0x7ffc0fa57510 b   self-hosted:916 (0x7f66f00f12b8 @ 367)
+Apr 14 00:29:54 ubuntu org.gnome.Shell.desktop[1581]: #4 0x7ffc0fa57600 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7f66f00d2230 @ 386)
+Apr 14 00:29:54 ubuntu org.gnome.Shell.desktop[1581]: #5 0x55f62ba5ac68 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/appIndicator.js:190 (0x7f66c41b2450 @ 22)
+Apr 14 00:29:54 ubuntu org.gnome.Shell.desktop[1581]: #6 0x7ffc0fa58960 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f66f00b5de0 @ 71)
+Apr 14 00:29:54 ubuntu org.gnome.Shell.desktop[1581]: #7 0x55f62ba5abc0 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/statusNotifierWatcher.js:219 (0x7f66c41ada28 @ 225)
+Apr 14 00:29:54 ubuntu org.gnome.Shell.desktop[1581]: #8 0x7ffc0fa595b0 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f66f00b5de0 @ 71)
+Apr 14 00:29:54 ubuntu org.gnome.Shell.desktop[1581]: #9 0x55f62ba5ab48 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/extension.js:61 (0x7f66c4184bc0 @ 37)
+Apr 14 00:29:54 ubuntu org.gnome.Shell.desktop[1581]: #10 0x55f62ba5aa88 i   resource:///org/gnome/shell/ui/extensionSystem.js:83 (0x7f66c4e592b8 @ 441)
+Apr 14 00:29:54 ubuntu org.gnome.Shell.desktop[1581]: #11 0x55f62ba5aa08 i   resource:///org/gnome/shell/ui/extensionSystem.js:354 (0x7f66c4e59d58 @ 13)
+Apr 14 00:29:54 ubuntu org.gnome.Shell.desktop[1581]: #12 0x7ffc0fa5a2b0 b   self-hosted:251 (0x7f66f00c4ab0 @ 223)
+Apr 14 00:29:54 ubuntu org.gnome.Shell.desktop[1581]: #13 0x55f62ba5a988 i   resource:///org/gnome/shell/ui/extensionSystem.js:353 (0x7f66c4e59cd0 @ 64)
+Apr 14 00:29:54 ubuntu org.gnome.Shell.desktop[1581]: #14 0x55f62ba5a908 i   resource:///org/gnome/shell/ui/extensionSystem.js:371 (0x7f66c4e59de0 @ 87)
+Apr 14 00:29:54 ubuntu gnome-software[2265]: no app for changed ubuntu-dock@ubuntu.com
+Apr 14 00:29:54 ubuntu org.gnome.Shell.desktop[1581]: #15 0x7ffc0fa5b7b0 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7f66f00d2230 @ 386)
+Apr 14 00:29:54 ubuntu org.gnome.Shell.desktop[1581]: #16 0x7ffc0fa5bf50 b   resource:///org/gnome/shell/ui/sessionMode.js:205 (0x7f66c4d705e8 @ 254)
+Apr 14 00:29:54 ubuntu org.gnome.Shell.desktop[1581]: #17 0x7ffc0fa5d340 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f66f00b5de0 @ 71)
+Apr 14 00:29:54 ubuntu org.gnome.Shell.desktop[1581]: #18 0x55f62ba5a7c8 i   resource:///org/gnome/shell/ui/sessionMode.js:167 (0x7f66c4d703c8 @ 40)
+Apr 14 00:29:54 ubuntu org.gnome.Shell.desktop[1581]: #19 0x7ffc0fa5e6a0 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f66f00b5de0 @ 71)
+Apr 14 00:29:54 ubuntu org.gnome.Shell.desktop[1581]: #20 0x55f62ba5a720 i   resource:///org/gnome/shell/ui/screenShield.js:1282 (0x7f66c4d53a28 @ 188)
+Apr 14 00:29:54 ubuntu org.gnome.Shell.desktop[1581]: #21 0x7ffc0fa5fa00 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f66f00b5de0 @ 71)
+Apr 14 00:29:54 ubuntu org.gnome.Shell.desktop[1581]: #22 0x55f62ba5a670 i   resource:///org/gnome/shell/ui/screenShield.js:1331 (0x7f66c4d53ab0 @ 391)
+Apr 14 00:29:54 ubuntu org.gnome.Shell.desktop[1581]: #23 0x7ffc0fa60d60 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f66f00b5de0 @ 71)
+Apr 14 00:29:54 ubuntu org.gnome.Shell.desktop[1581]: #24 0x55f62ba5a5f0 i   resource:///org/gnome/shell/ui/screenShield.js:854 (0x7f66c4d519a0 @ 25)
+Apr 14 00:32:01 ubuntu gnome-software[2265]: no app for changed ubuntu-dock@ubuntu.com
+Apr 14 00:32:01 ubuntu gnome-software[2265]: no app for changed ubuntu-appindicators@ubuntu.com
+Apr 14 00:32:01 ubuntu gvfsd-metadata[2258]: g_udev_device_has_property: assertion 'G_UDEV_IS_DEVICE (device)' failed
+Apr 14 00:32:01 ubuntu gvfsd-metadata[2258]: g_udev_device_has_property: assertion 'G_UDEV_IS_DEVICE (device)' failed
+Apr 14 00:32:01 ubuntu gnome-shell[1581]: [AppIndicatorSupport-DEBUG] Registering StatusNotifierItem :1.66/org/ayatana/NotificationItem/software_update_available
+Apr 14 00:32:01 ubuntu gnome-shell[1581]: [AppIndicatorSupport-DEBUG] Registering StatusNotifierItem :1.66/org/ayatana/NotificationItem/livepatch
+Apr 14 00:32:18 ubuntu gvfsd-metadata[2258]: g_udev_device_has_property: assertion 'G_UDEV_IS_DEVICE (device)' failed
+Apr 14 00:32:18 ubuntu gvfsd-metadata[2258]: message repeated 7 times: [ g_udev_device_has_property: assertion 'G_UDEV_IS_DEVICE (device)' failed]
+Apr 14 00:32:47 ubuntu nautilus[2225]: g_queue_pop_head: assertion 'queue != NULL' failed
+Apr 14 00:32:47 ubuntu nautilus[2225]: g_queue_pop_head: assertion 'queue != NULL' failed
+Apr 14 00:32:47 ubuntu gvfsd-metadata[2258]: g_udev_device_has_property: assertion 'G_UDEV_IS_DEVICE (device)' failed
+Apr 14 00:32:47 ubuntu gvfsd-metadata[2258]: message repeated 147 times: [ g_udev_device_has_property: assertion 'G_UDEV_IS_DEVICE (device)' failed]
+Apr 14 00:32:47 ubuntu nautilus[2225]: g_queue_pop_head: assertion 'queue != NULL' failed
+Apr 14 00:32:47 ubuntu gvfsd-metadata[2258]: g_udev_device_has_property: assertion 'G_UDEV_IS_DEVICE (device)' failed
+Apr 14 00:32:47 ubuntu gvfsd-metadata[2258]: message repeated 7 times: [ g_udev_device_has_property: assertion 'G_UDEV_IS_DEVICE (device)' failed]
+Apr 14 00:32:47 ubuntu nautilus[2225]: g_queue_pop_head: assertion 'queue != NULL' failed
+Apr 14 00:32:47 ubuntu gvfsd-metadata[2258]: g_udev_device_has_property: assertion 'G_UDEV_IS_DEVICE (device)' failed
+Apr 14 00:32:47 ubuntu gvfsd-metadata[2258]: message repeated 7 times: [ g_udev_device_has_property: assertion 'G_UDEV_IS_DEVICE (device)' failed]
+Apr 14 00:32:47 ubuntu nautilus[2225]: g_queue_pop_head: assertion 'queue != NULL' failed
+Apr 14 00:32:47 ubuntu gvfsd-metadata[2258]: g_udev_device_has_property: assertion 'G_UDEV_IS_DEVICE (device)' failed
+Apr 14 00:32:49 ubuntu gvfsd-metadata[2258]: message repeated 9 times: [ g_udev_device_has_property: assertion 'G_UDEV_IS_DEVICE (device)' failed]
+Apr 14 00:35:22 ubuntu systemd[1]: Stopping MySQL Community Server...
+Apr 14 00:35:26 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 14 00:35:26 ubuntu gvfsd-metadata[2258]: g_udev_device_has_property: assertion 'G_UDEV_IS_DEVICE (device)' failed
+Apr 14 00:35:26 ubuntu gvfsd-metadata[2258]: g_udev_device_has_property: assertion 'G_UDEV_IS_DEVICE (device)' failed
+Apr 14 00:35:27 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 14 00:35:27 ubuntu gvfsd-metadata[2258]: g_udev_device_has_property: assertion 'G_UDEV_IS_DEVICE (device)' failed
+Apr 14 00:35:27 ubuntu gvfsd-metadata[2258]: message repeated 3 times: [ g_udev_device_has_property: assertion 'G_UDEV_IS_DEVICE (device)' failed]
+Apr 14 00:35:28 ubuntu mysql-systemd-start[3218]: ERROR: Unable to start MySQL server:
+Apr 14 00:35:28 ubuntu mysql-systemd-start[3218]: 2021-04-14T07:35:28.496932Z 0 [ERROR] unknown option '--skip-locking'
+Apr 14 00:35:28 ubuntu mysql-systemd-start[3218]: 2021-04-14T07:35:28.501746Z 0 [ERROR] Aborting
+Apr 14 00:35:28 ubuntu mysql-systemd-start[3218]: Please take a look at https://wiki.debian.org/Teams/MySQL/FAQ for tips on fixing common upgrade issues.
+Apr 14 00:35:28 ubuntu mysql-systemd-start[3218]: Once the problem is resolved, restart the service.
+Apr 14 00:35:28 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 14 00:35:28 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 14 00:35:28 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 14 00:35:28 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 14 00:35:28 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 1.
+Apr 14 00:35:28 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 14 00:35:28 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 14 00:35:28 ubuntu gvfsd-metadata[2258]: g_udev_device_has_property: assertion 'G_UDEV_IS_DEVICE (device)' failed
+Apr 14 00:35:28 ubuntu gvfsd-metadata[2258]: message repeated 3 times: [ g_udev_device_has_property: assertion 'G_UDEV_IS_DEVICE (device)' failed]
+Apr 14 00:35:29 ubuntu mysql-systemd-start[3232]: ERROR: Unable to start MySQL server:
+Apr 14 00:35:29 ubuntu mysql-systemd-start[3232]: 2021-04-14T07:35:29.126277Z 0 [ERROR] unknown option '--skip-locking'
+Apr 14 00:35:29 ubuntu mysql-systemd-start[3232]: 2021-04-14T07:35:29.130221Z 0 [ERROR] Aborting
+Apr 14 00:35:29 ubuntu mysql-systemd-start[3232]: Please take a look at https://wiki.debian.org/Teams/MySQL/FAQ for tips on fixing common upgrade issues.
+Apr 14 00:35:29 ubuntu mysql-systemd-start[3232]: Once the problem is resolved, restart the service.
+Apr 14 00:35:29 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 14 00:35:29 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 14 00:35:29 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 14 00:35:29 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 14 00:35:29 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 2.
+Apr 14 00:35:29 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 14 00:35:29 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 14 00:35:29 ubuntu gvfsd-metadata[2258]: g_udev_device_has_property: assertion 'G_UDEV_IS_DEVICE (device)' failed
+Apr 14 00:35:29 ubuntu gvfsd-metadata[2258]: g_udev_device_has_property: assertion 'G_UDEV_IS_DEVICE (device)' failed
+Apr 14 00:35:29 ubuntu mysql-systemd-start[3241]: ERROR: Unable to start MySQL server:
+Apr 14 00:35:29 ubuntu mysql-systemd-start[3241]: 2021-04-14T07:35:29.722277Z 0 [ERROR] unknown option '--skip-locking'
+Apr 14 00:35:29 ubuntu mysql-systemd-start[3241]: 2021-04-14T07:35:29.726091Z 0 [ERROR] Aborting
+Apr 14 00:35:29 ubuntu mysql-systemd-start[3241]: Please take a look at https://wiki.debian.org/Teams/MySQL/FAQ for tips on fixing common upgrade issues.
+Apr 14 00:35:29 ubuntu mysql-systemd-start[3241]: Once the problem is resolved, restart the service.
+Apr 14 00:35:29 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 14 00:35:29 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 14 00:35:29 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 14 00:35:29 ubuntu nautilus[2225]: g_queue_foreach: assertion 'queue != NULL' failed
+Apr 14 00:35:29 ubuntu nautilus[2225]: g_queue_free: assertion 'queue != NULL' failed
+Apr 14 00:35:29 ubuntu nautilus[2225]: g_queue_foreach: assertion 'queue != NULL' failed
+Apr 14 00:35:29 ubuntu nautilus[2225]: g_queue_free: assertion 'queue != NULL' failed
+Apr 14 00:35:29 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 14 00:35:29 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 3.
+Apr 14 00:35:29 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 14 00:35:29 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 14 00:35:29 ubuntu mysql-systemd-start[3250]: ERROR: Unable to start MySQL server:
+Apr 14 00:35:29 ubuntu mysql-systemd-start[3250]: 2021-04-14T07:35:29.950179Z 0 [ERROR] unknown option '--skip-locking'
+Apr 14 00:35:29 ubuntu mysql-systemd-start[3250]: 2021-04-14T07:35:29.954387Z 0 [ERROR] Aborting
+Apr 14 00:35:29 ubuntu mysql-systemd-start[3250]: Please take a look at https://wiki.debian.org/Teams/MySQL/FAQ for tips on fixing common upgrade issues.
+Apr 14 00:35:29 ubuntu mysql-systemd-start[3250]: Once the problem is resolved, restart the service.
+Apr 14 00:35:29 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 14 00:35:29 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 14 00:35:29 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 14 00:35:30 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 14 00:35:30 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 4.
+Apr 14 00:35:30 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 14 00:35:30 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 14 00:35:30 ubuntu mysql-systemd-start[3259]: ERROR: Unable to start MySQL server:
+Apr 14 00:35:30 ubuntu mysql-systemd-start[3259]: 2021-04-14T07:35:30.191431Z 0 [ERROR] unknown option '--skip-locking'
+Apr 14 00:35:30 ubuntu mysql-systemd-start[3259]: 2021-04-14T07:35:30.194114Z 0 [ERROR] Aborting
+Apr 14 00:35:30 ubuntu mysql-systemd-start[3259]: Please take a look at https://wiki.debian.org/Teams/MySQL/FAQ for tips on fixing common upgrade issues.
+Apr 14 00:35:30 ubuntu mysql-systemd-start[3259]: Once the problem is resolved, restart the service.
+Apr 14 00:35:30 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 14 00:35:30 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 14 00:35:30 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 14 00:35:30 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 14 00:35:30 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 5.
+Apr 14 00:35:30 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 14 00:35:30 ubuntu systemd[1]: mysql.service: Start request repeated too quickly.
+Apr 14 00:35:30 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 14 00:35:30 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 14 00:35:38 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 14 00:35:38 ubuntu mysql-systemd-start[3274]: ERROR: Unable to start MySQL server:
+Apr 14 00:35:38 ubuntu mysql-systemd-start[3274]: 2021-04-14T07:35:38.296524Z 0 [ERROR] unknown option '--skip-locking'
+Apr 14 00:35:38 ubuntu mysql-systemd-start[3274]: 2021-04-14T07:35:38.300151Z 0 [ERROR] Aborting
+Apr 14 00:35:38 ubuntu mysql-systemd-start[3274]: Please take a look at https://wiki.debian.org/Teams/MySQL/FAQ for tips on fixing common upgrade issues.
+Apr 14 00:35:38 ubuntu mysql-systemd-start[3274]: Once the problem is resolved, restart the service.
+Apr 14 00:35:38 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 14 00:35:38 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 14 00:35:38 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 14 00:35:38 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 14 00:35:38 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 1.
+Apr 14 00:35:38 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 14 00:35:38 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 14 00:35:38 ubuntu mysql-systemd-start[3283]: ERROR: Unable to start MySQL server:
+Apr 14 00:35:38 ubuntu mysql-systemd-start[3283]: 2021-04-14T07:35:38.432052Z 0 [ERROR] unknown option '--skip-locking'
+Apr 14 00:35:38 ubuntu mysql-systemd-start[3283]: 2021-04-14T07:35:38.434375Z 0 [ERROR] Aborting
+Apr 14 00:35:38 ubuntu mysql-systemd-start[3283]: Please take a look at https://wiki.debian.org/Teams/MySQL/FAQ for tips on fixing common upgrade issues.
+Apr 14 00:35:38 ubuntu mysql-systemd-start[3283]: Once the problem is resolved, restart the service.
+Apr 14 00:35:38 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 14 00:35:38 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 14 00:35:38 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 14 00:35:38 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 14 00:35:38 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 2.
+Apr 14 00:35:38 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 14 00:35:38 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 14 00:35:38 ubuntu mysql-systemd-start[3292]: ERROR: Unable to start MySQL server:
+Apr 14 00:35:38 ubuntu mysql-systemd-start[3292]: 2021-04-14T07:35:38.687232Z 0 [ERROR] unknown option '--skip-locking'
+Apr 14 00:35:38 ubuntu mysql-systemd-start[3292]: 2021-04-14T07:35:38.689890Z 0 [ERROR] Aborting
+Apr 14 00:35:38 ubuntu mysql-systemd-start[3292]: Please take a look at https://wiki.debian.org/Teams/MySQL/FAQ for tips on fixing common upgrade issues.
+Apr 14 00:35:38 ubuntu mysql-systemd-start[3292]: Once the problem is resolved, restart the service.
+Apr 14 00:35:38 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 14 00:35:38 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 14 00:35:38 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 14 00:35:38 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 14 00:35:38 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 3.
+Apr 14 00:35:38 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 14 00:35:38 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 14 00:35:38 ubuntu mysql-systemd-start[3301]: ERROR: Unable to start MySQL server:
+Apr 14 00:35:38 ubuntu mysql-systemd-start[3301]: 2021-04-14T07:35:38.952750Z 0 [ERROR] unknown option '--skip-locking'
+Apr 14 00:35:38 ubuntu mysql-systemd-start[3301]: 2021-04-14T07:35:38.955149Z 0 [ERROR] Aborting
+Apr 14 00:35:38 ubuntu mysql-systemd-start[3301]: Please take a look at https://wiki.debian.org/Teams/MySQL/FAQ for tips on fixing common upgrade issues.
+Apr 14 00:35:38 ubuntu mysql-systemd-start[3301]: Once the problem is resolved, restart the service.
+Apr 14 00:35:38 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 14 00:35:38 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 14 00:35:38 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 14 00:35:39 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 14 00:35:39 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 4.
+Apr 14 00:35:39 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 14 00:35:39 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 14 00:35:39 ubuntu mysql-systemd-start[3310]: ERROR: Unable to start MySQL server:
+Apr 14 00:35:39 ubuntu mysql-systemd-start[3310]: 2021-04-14T07:35:39.201465Z 0 [ERROR] unknown option '--skip-locking'
+Apr 14 00:35:39 ubuntu mysql-systemd-start[3310]: 2021-04-14T07:35:39.203948Z 0 [ERROR] Aborting
+Apr 14 00:35:39 ubuntu mysql-systemd-start[3310]: Please take a look at https://wiki.debian.org/Teams/MySQL/FAQ for tips on fixing common upgrade issues.
+Apr 14 00:35:39 ubuntu mysql-systemd-start[3310]: Once the problem is resolved, restart the service.
+Apr 14 00:35:39 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 14 00:35:39 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 14 00:35:39 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 14 00:35:39 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 14 00:35:39 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 5.
+Apr 14 00:35:39 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 14 00:35:39 ubuntu systemd[1]: mysql.service: Start request repeated too quickly.
+Apr 14 00:35:39 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 14 00:35:39 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 14 00:35:50 ubuntu nautilus[2225]: g_queue_foreach: assertion 'queue != NULL' failed
+Apr 14 00:35:50 ubuntu nautilus[2225]: g_queue_free: assertion 'queue != NULL' failed
+Apr 14 00:35:50 ubuntu nautilus[2225]: g_queue_foreach: assertion 'queue != NULL' failed
+Apr 14 00:35:50 ubuntu nautilus[2225]: g_queue_free: assertion 'queue != NULL' failed
+Apr 14 00:35:52 ubuntu gvfsd-metadata[2258]: g_udev_device_has_property: assertion 'G_UDEV_IS_DEVICE (device)' failed
+Apr 14 00:35:52 ubuntu gvfsd-metadata[2258]: message repeated 7 times: [ g_udev_device_has_property: assertion 'G_UDEV_IS_DEVICE (device)' failed]
+Apr 14 00:35:54 ubuntu nautilus[2225]: Called "net usershare info" but it failed: Failed to execute child process “net” (No such file or directory)
+Apr 14 00:36:19 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 14 00:36:21 ubuntu mysql-systemd-start[3345]: ERROR: Unable to start MySQL server:
+Apr 14 00:36:21 ubuntu mysql-systemd-start[3345]: 2021-04-14T07:36:21.253319Z 0 [ERROR] unknown option '--skip-locking'
+Apr 14 00:36:21 ubuntu mysql-systemd-start[3345]: 2021-04-14T07:36:21.255991Z 0 [ERROR] Aborting
+Apr 14 00:36:21 ubuntu mysql-systemd-start[3345]: Please take a look at https://wiki.debian.org/Teams/MySQL/FAQ for tips on fixing common upgrade issues.
+Apr 14 00:36:21 ubuntu mysql-systemd-start[3345]: Once the problem is resolved, restart the service.
+Apr 14 00:36:21 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 14 00:36:21 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 14 00:36:21 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 14 00:36:21 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 14 00:36:21 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 1.
+Apr 14 00:36:21 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 14 00:36:21 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 14 00:36:21 ubuntu mysql-systemd-start[3354]: ERROR: Unable to start MySQL server:
+Apr 14 00:36:21 ubuntu mysql-systemd-start[3354]: 2021-04-14T07:36:21.504621Z 0 [ERROR] unknown option '--skip-locking'
+Apr 14 00:36:21 ubuntu mysql-systemd-start[3354]: 2021-04-14T07:36:21.506995Z 0 [ERROR] Aborting
+Apr 14 00:36:21 ubuntu mysql-systemd-start[3354]: Please take a look at https://wiki.debian.org/Teams/MySQL/FAQ for tips on fixing common upgrade issues.
+Apr 14 00:36:21 ubuntu mysql-systemd-start[3354]: Once the problem is resolved, restart the service.
+Apr 14 00:36:21 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 14 00:36:21 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 14 00:36:21 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 14 00:36:21 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 14 00:36:21 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 2.
+Apr 14 00:36:21 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 14 00:36:21 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 14 00:36:21 ubuntu mysql-systemd-start[3363]: ERROR: Unable to start MySQL server:
+Apr 14 00:36:21 ubuntu mysql-systemd-start[3363]: 2021-04-14T07:36:21.802081Z 0 [ERROR] unknown option '--skip-locking'
+Apr 14 00:36:21 ubuntu mysql-systemd-start[3363]: 2021-04-14T07:36:21.809014Z 0 [ERROR] Aborting
+Apr 14 00:36:21 ubuntu mysql-systemd-start[3363]: Please take a look at https://wiki.debian.org/Teams/MySQL/FAQ for tips on fixing common upgrade issues.
+Apr 14 00:36:21 ubuntu mysql-systemd-start[3363]: Once the problem is resolved, restart the service.
+Apr 14 00:36:21 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 14 00:36:21 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 14 00:36:21 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 14 00:36:22 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 14 00:36:22 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 3.
+Apr 14 00:36:22 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 14 00:36:22 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 14 00:36:22 ubuntu mysql-systemd-start[3372]: ERROR: Unable to start MySQL server:
+Apr 14 00:36:22 ubuntu mysql-systemd-start[3372]: 2021-04-14T07:36:22.297676Z 0 [ERROR] unknown option '--skip-locking'
+Apr 14 00:36:22 ubuntu mysql-systemd-start[3372]: 2021-04-14T07:36:22.305800Z 0 [ERROR] Aborting
+Apr 14 00:36:22 ubuntu mysql-systemd-start[3372]: Please take a look at https://wiki.debian.org/Teams/MySQL/FAQ for tips on fixing common upgrade issues.
+Apr 14 00:36:22 ubuntu mysql-systemd-start[3372]: Once the problem is resolved, restart the service.
+Apr 14 00:36:22 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 14 00:36:22 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 14 00:36:22 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 14 00:36:22 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 14 00:36:22 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 4.
+Apr 14 00:36:22 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 14 00:36:22 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 14 00:36:22 ubuntu mysql-systemd-start[3381]: ERROR: Unable to start MySQL server:
+Apr 14 00:36:22 ubuntu mysql-systemd-start[3381]: 2021-04-14T07:36:22.811765Z 0 [ERROR] unknown option '--skip-locking'
+Apr 14 00:36:22 ubuntu mysql-systemd-start[3381]: 2021-04-14T07:36:22.819284Z 0 [ERROR] Aborting
+Apr 14 00:36:22 ubuntu mysql-systemd-start[3381]: Please take a look at https://wiki.debian.org/Teams/MySQL/FAQ for tips on fixing common upgrade issues.
+Apr 14 00:36:22 ubuntu mysql-systemd-start[3381]: Once the problem is resolved, restart the service.
+Apr 14 00:36:22 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 14 00:36:22 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 14 00:36:22 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 14 00:36:23 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 14 00:36:23 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 5.
+Apr 14 00:36:23 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 14 00:36:23 ubuntu systemd[1]: mysql.service: Start request repeated too quickly.
+Apr 14 00:36:23 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 14 00:36:23 ubuntu systemd[1]: Failed to start MySQL Community Server.

@@ -1,0 +1,27 @@
+Connect Mysql log success
+Create Table NginxLog Success
+Starting Parse Nginx Log
+Starting Parse Sys Log
+Computing Problem Spotlight
+Create Table NginxMsg Success
+Mysql DisConnect
+Using Augeas to Parse Configuration File
+Extract key-value Finished
+Extract Env Finished
+Connect Database wise success
+Giving Problem Spotlight and Resolve Spotlight
+Problem Spotlight No.0 : 2021-04-28 16:43:33 Error unknown protocol "pop" in /etc/nginx/nginx.conf:76
+Suspicious word:    pop    with key:    Conf: protocol    and value:    pop
+Suspicious word:    protocol    with key:    Conf: protocol    and value:    pop
+Problem Spotlight No.1 : 2021-04-28 16:43:33 Warning nginx.service: Failed with result 'exit-code'.
+Problem Spotlight No.2 : 2021-04-28 16:43:33 Warning nginx.service: Control process exited, code=exited status=1
+Problem Spotlight No.3 : 2021-04-28 16:43:33 Warning nginx: configuration file /etc/nginx/nginx.conf test failed
+Problem Spotlight No.4 : 2021-04-28 16:43:33 Note *2 free: 0000560A7FECE920, unused: 136
+Problem Spotlight No.5 : 2021-04-28 16:43:33 Note *2 free: 0000000000000000
+Problem Spotlight No.6 : 2021-04-28 16:43:33 Note *2 reusable connection: 0
+Knowledge Database Configuration:    wrong Conf value's key: gzip_comp_level    Infomation:    
+Problem Spotlight No.7 : 2021-04-28 16:43:33 Note *2 event timer del: 14: 101582809
+Problem Spotlight No.8 : 2021-04-28 16:43:33 Note *2 close http connection: 14
+Problem Spotlight No.9 : 2021-04-28 16:43:33 Note *2 http keepalive handler
+Mysql DisConnect
+Time Using: 1.22908 s

@@ -1,0 +1,63 @@
+Apr 25 13:30:08 ubuntu rsyslogd:  message repeated 3 times: [cannot connect to 192.168.182.128:514: No route to host [v8.32.0 try http://www.rsyslog.com/e/2027 ]]
+Apr 25 13:30:08 ubuntu rsyslogd:  [origin software="rsyslogd" swVersion="8.32.0" x-pid="685" x-info="http://www.rsyslog.com"] rsyslogd was HUPed
+Apr 25 13:30:17 ubuntu anacron[29497]: Job `cron.daily' terminated
+Apr 25 13:30:17 ubuntu anacron[29497]: Normal exit (1 job run)
+Apr 25 13:31:13 ubuntu rsyslogd: cannot connect to 192.168.182.128:514: No route to host [v8.32.0 try http://www.rsyslog.com/e/2027 ]
+Apr 25 13:32:48 ubuntu nautilus[20088]: g_queue_foreach: assertion 'queue != NULL' failed
+Apr 25 13:32:48 ubuntu nautilus[20088]: g_queue_free: assertion 'queue != NULL' failed
+Apr 25 13:32:48 ubuntu nautilus[20088]: g_queue_foreach: assertion 'queue != NULL' failed
+Apr 25 13:32:49 ubuntu nautilus[20088]: g_queue_free: assertion 'queue != NULL' failed
+Apr 25 13:34:07 ubuntu dbus-daemon[662]: [system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service' requested by ':1.272' (uid=1000 pid=20088 comm="/usr/bin/nautilus --gapplication-service " label="unconfined")
+Apr 25 13:34:07 ubuntu systemd[1]: Starting Hostname Service...
+Apr 25 13:34:07 ubuntu dbus-daemon[662]: [system] Successfully activated service 'org.freedesktop.hostname1'
+Apr 25 13:34:07 ubuntu systemd[1]: Started Hostname Service.
+Apr 25 13:34:09 ubuntu gvfsd-metadata[2650]: g_udev_device_has_property: assertion 'G_UDEV_IS_DEVICE (device)' failed
+Apr 25 13:34:09 ubuntu gvfsd-metadata[2650]: message repeated 7 times: [ g_udev_device_has_property: assertion 'G_UDEV_IS_DEVICE (device)' failed]
+Apr 25 13:34:48 ubuntu jetbrains-clion.desktop[20663]: 2021-04-25 13:34:48,671 [165129056]   WARN - com.intellij.ide.IdeEventQueue - Too many mouse clicks (14)!!!
+Apr 25 13:34:48 ubuntu jetbrains-clion.desktop[20663]: 2021-04-25 13:34:48,679 [165129064]   WARN - com.intellij.ide.IdeEventQueue - Too many mouse clicks (14)!!!
+Apr 25 13:35:30 ubuntu jetbrains-clion.desktop[20663]: 2021-04-25 13:35:30,576 [165170961]   WARN - com.intellij.ide.IdeEventQueue - Too many mouse clicks (12)!!!
+Apr 25 13:35:31 ubuntu jetbrains-clion.desktop[20663]: 2021-04-25 13:35:31,581 [165171966]   WARN - com.intellij.ide.IdeEventQueue - Too many mouse clicks (12)!!!
+Apr 25 13:36:02 ubuntu nautilus[20088]: gtk_revealer_set_reveal_child: assertion 'GTK_IS_REVEALER (revealer)' failed
+Apr 25 13:36:09 ubuntu nautilus[20088]: message repeated 3 times: [ gtk_revealer_set_reveal_child: assertion 'GTK_IS_REVEALER (revealer)' failed]
+Apr 25 13:37:31 ubuntu systemd[1]: Starting A high performance web server and a reverse proxy server...
+Apr 25 13:37:31 ubuntu systemd[1]: Started A high performance web server and a reverse proxy server.
+Apr 25 13:38:13 ubuntu systemd[1]: Stopping A high performance web server and a reverse proxy server...
+Apr 25 13:38:13 ubuntu systemd[1]: Stopped A high performance web server and a reverse proxy server.
+Apr 25 13:38:13 ubuntu systemd[1]: Starting A high performance web server and a reverse proxy server...
+Apr 25 13:38:13 ubuntu nginx[31642]: nginx: [emerg] "worker_processes" directive invalid value in /etc/nginx/nginx.conf:2
+Apr 25 13:38:13 ubuntu nginx[31642]: nginx: configuration file /etc/nginx/nginx.conf test failed
+Apr 25 13:38:13 ubuntu systemd[1]: nginx.service: Control process exited, code=exited status=1
+Apr 25 13:38:13 ubuntu systemd[1]: nginx.service: Failed with result 'exit-code'.
+Apr 25 13:38:13 ubuntu systemd[1]: Failed to start A high performance web server and a reverse proxy server.
+Apr 25 13:38:17 ubuntu systemd[1]: Starting A high performance web server and a reverse proxy server...
+Apr 25 13:38:17 ubuntu nginx[31649]: nginx: [emerg] "worker_processes" directive invalid value in /etc/nginx/nginx.conf:2
+Apr 25 13:38:17 ubuntu nginx[31649]: nginx: configuration file /etc/nginx/nginx.conf test failed
+Apr 25 13:38:17 ubuntu systemd[1]: nginx.service: Control process exited, code=exited status=1
+Apr 25 13:38:17 ubuntu systemd[1]: nginx.service: Failed with result 'exit-code'.
+Apr 25 13:38:17 ubuntu systemd[1]: Failed to start A high performance web server and a reverse proxy server.
+Apr 25 13:38:45 ubuntu nautilus[20088]: gtk_revealer_set_reveal_child: assertion 'GTK_IS_REVEALER (revealer)' failed
+Apr 25 13:38:54 ubuntu nautilus[20088]: message repeated 3 times: [ gtk_revealer_set_reveal_child: assertion 'GTK_IS_REVEALER (revealer)' failed]
+Apr 25 13:39:24 ubuntu nautilus[20088]: gtk_revealer_set_reveal_child: assertion 'GTK_IS_REVEALER (revealer)' failed
+Apr 25 13:39:28 ubuntu nautilus[20088]: message repeated 3 times: [ gtk_revealer_set_reveal_child: assertion 'GTK_IS_REVEALER (revealer)' failed]
+Apr 25 13:40:05 ubuntu dhclient[29546]: DHCPREQUEST of 192.168.182.129 on ens33 to 192.168.182.254 port 67 (xid=0x5c2ae1c4)
+Apr 25 13:40:05 ubuntu dhclient[29546]: DHCPACK of 192.168.182.129 from 192.168.182.254
+Apr 25 13:40:05 ubuntu NetworkManager[686]: <info>  [1619329205.4048] dhcp4 (ens33):   address 192.168.182.129
+Apr 25 13:40:05 ubuntu NetworkManager[686]: <info>  [1619329205.4059] dhcp4 (ens33):   plen 24 (255.255.255.0)
+Apr 25 13:40:05 ubuntu NetworkManager[686]: <info>  [1619329205.4060] dhcp4 (ens33):   gateway 192.168.182.2
+Apr 25 13:40:05 ubuntu NetworkManager[686]: <info>  [1619329205.4068] dhcp4 (ens33):   lease time 1800
+Apr 25 13:40:05 ubuntu NetworkManager[686]: <info>  [1619329205.4069] dhcp4 (ens33):   nameserver '192.168.182.2'
+Apr 25 13:40:05 ubuntu NetworkManager[686]: <info>  [1619329205.4069] dhcp4 (ens33):   domain name 'localdomain'
+Apr 25 13:40:05 ubuntu NetworkManager[686]: <info>  [1619329205.4069] dhcp4 (ens33):   wins '192.168.182.2'
+Apr 25 13:40:05 ubuntu NetworkManager[686]: <info>  [1619329205.4069] dhcp4 (ens33): state changed bound -> bound
+Apr 25 13:40:05 ubuntu dbus-daemon[662]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.10' (uid=0 pid=686 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Apr 25 13:40:05 ubuntu dhclient[29546]: bound to 192.168.182.129 -- renewal in 836 seconds.
+Apr 25 13:40:05 ubuntu systemd[1]: Starting Network Manager Script Dispatcher Service...
+Apr 25 13:40:05 ubuntu dbus-daemon[662]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Apr 25 13:40:05 ubuntu systemd[1]: Started Network Manager Script Dispatcher Service.
+Apr 25 13:40:05 ubuntu nm-dispatcher: req:1 'dhcp4-change' [ens33]: new request (1 scripts)
+Apr 25 13:40:05 ubuntu nm-dispatcher: req:1 'dhcp4-change' [ens33]: start running ordered scripts...
+Apr 25 13:40:30 ubuntu systemd[1]: Starting A high performance web server and a reverse proxy server...
+Apr 25 13:40:31 ubuntu systemd[1]: Started A high performance web server and a reverse proxy server.
+Apr 25 13:40:49 ubuntu systemd[1]: Stopping A high performance web server and a reverse proxy server...
+Apr 25 13:40:49 ubuntu systemd[1]: Stopped A high performance web server and a reverse proxy server.
+Apr 25 13:40:49 ubuntu systemd[1]: Starting A high performance web server and a reverse proxy server...

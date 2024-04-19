@@ -1,0 +1,25 @@
+Connect Mysql log success
+Create Table NginxLog Success
+Starting Parse Nginx Log
+Starting Parse Sys Log
+Computing Problem Spotlight
+Create Table NginxMsg Success
+Mysql DisConnect
+Using Augeas to Parse Configuration File
+Extract key-value Finished
+Extract Env Finished
+Connect Database wise success
+Giving Problem Spotlight and Resolve Spotlight
+Problem Spotlight No.0 : "gzip_buffers" directive invalid value in /etc/nginx/nginx.conf:53
+Suspicious word:    gzip_buffers    with key:    Conf: gzip_buffers    and value:    32 1B
+Suspicious word:    53    with key:    Program: 582/systemd-resolve  ||  Program: 582/systemd-resolve    and value:    Port: tcp/53  ||  Port: udp/53
+Problem Spotlight No.1 : nginx.service: Failed with result 'exit-code'.
+Problem Spotlight No.2 : nginx.service: Control process exited, code=exited status=1
+Problem Spotlight No.3 : nginx: configuration file /etc/nginx/nginx.conf test failed
+Problem Spotlight No.4 : *1 free: 000055AE1C6A9920, unused: 136
+Problem Spotlight No.5 : *1 free: 0000000000000000
+Problem Spotlight No.6 : epoll del event: fd:7 op:2 ev:00000000
+Problem Spotlight No.7 : epoll del event: fd:6 op:2 ev:00000000
+Problem Spotlight No.8 : *1 reusable connection: 0
+Problem Spotlight No.9 : *1 event timer del: 13: 84635170
+Mysql DisConnect

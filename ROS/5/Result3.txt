@@ -1,0 +1,44 @@
+Connect Mysql log success
+Create Table ROSLog Success
+Create Table ROSLog Success
+Starting Parse ROS Log
+ROS Log Match Failed: Press Ctrl-C to interrupt
+ROS Log Match Failed: 
+ROS Log Match Failed: Param xml is <param command="$(find xacro)/xacro --inorder '$(find racecar_description)/urdf/racecar'" name="robot_description"/>
+ROS Log Match Failed:   File "/opt/ros/melodic/lib/python2.7/dist-packages/roslaunch/__init__.py", line 332, in main
+ROS Log Match Failed:     p.start()
+ROS Log Match Failed:   File "/opt/ros/melodic/lib/python2.7/dist-packages/roslaunch/parent.py", line 289, in start
+ROS Log Match Failed:     self._start_infrastructure()
+ROS Log Match Failed:   File "/opt/ros/melodic/lib/python2.7/dist-packages/roslaunch/parent.py", line 238, in _start_infrastructure
+ROS Log Match Failed:     self._load_config()
+ROS Log Match Failed:   File "/opt/ros/melodic/lib/python2.7/dist-packages/roslaunch/parent.py", line 144, in _load_config
+ROS Log Match Failed:     roslaunch_strs=self.roslaunch_strs, verbose=self.verbose)
+ROS Log Match Failed:   File "/opt/ros/melodic/lib/python2.7/dist-packages/roslaunch/config.py", line 463, in load_config_default
+ROS Log Match Failed:     raise RLException(e)
+ROS Log Match Failed: RLException: Invalid <param> tag: Cannot load command parameter [robot_description]: command [['/opt/ros/melodic/lib/xacro/xacro', '--inorder', '/home/liike/ROS/src/racecar/racecar_description/urdf/racecar']] returned with code [2]. 
+ROS Log Match Failed: 
+ROS Log Match Failed: Param xml is <param command="$(find xacro)/xacro --inorder '$(find racecar_description)/urdf/racecar'" name="robot_description"/>
+ROS Log Match Failed: 
+Computing Problem Spotlight
+Create Table ROSMsg Success
+Mysql DisConnect
+Using Augeas to Parse Configuration File
+Extract key-value Finished
+Extract Env Finished
+Connect Database wise success
+Giving Problem Spotlight and Resolve Spotlight
+Problem Spotlight No.0 : 2021-05-02 14:27:53 Error Traceback (most recent call last):
+Problem Spotlight No.1 : 2021-05-02 14:27:53 Error The traceback for the exception was written to the log file
+Problem Spotlight No.2 : 2021-05-02 14:27:53 Error RLException: Invalid <param> tag: Cannot load command parameter [robot_description]: command [['/opt/ros/melodic/lib/xacro/xacro', '--inorder', '/home/liike/ROS/src/racecar/racecar_description/urdf/racecar']] returned with code [2]. 
+Suspicious word:    robot_description    with key:    Conf: robot_description    and value:    $(find xacro)/xacro --inorder '$(find racecar_description)/urdf/racecar'
+FilePath:    /home/liike/ROS/src/racecar/racecar_description/urdf/racecar    not Exist
+Problem Spotlight No.3 : 2021-05-02 14:27:53 Note signal_shutdown [atexit]
+Problem Spotlight No.4 : 2021-05-02 14:27:53 Note Added node of type [gazebo_ros/gzclient] in namespace [/]
+Suspicious word:    /    with key:    Conf: $(find racecar_control)/launch/racecar_control.launch    and value:    /
+Problem Spotlight No.5 : 2021-05-02 14:27:53 Note Added node of type [gazebo_ros/gzserver] in namespace [/]
+Problem Spotlight No.6 : 2021-05-02 14:27:52 Note loading config file /home/liike/ROS/src/racecar/racecar_gazebo/launch/racecar.launch
+Problem Spotlight No.7 : 2021-05-02 14:27:52 Note Added core node of type [rosout/rosout] in namespace [/]
+Problem Spotlight No.8 : 2021-05-02 14:27:52 Note loading roscore config file /opt/ros/melodic/etc/ros/roscore.xml
+Problem Spotlight No.9 : 2021-05-02 14:27:52 Note starting roslaunch parent run
+Mysql DisConnect
+Time Using: 0.632393 s

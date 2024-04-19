@@ -1,0 +1,32 @@
+Connect Mysql log success
+Create Table MysqlLog Success
+Starting Parse Mysql Log
+Starting Parse Sys Log
+Computing Problem Spotlight
+Create Table MysqlMsg Success
+Mysql DisConnect
+Using Augeas to Parse Configuration File
+Extract key-value Finished
+Extract Env Finished
+Connect Mysql wise success
+Giving Problem Spotlight and Resolve Spotlight
+Problem Spotlight No.0 : CA certificate ca.pem is self signed.
+Problem Spotlight No.1 : TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+Problem Spotlight No.2 : option 'general_log': boolean value '100' wasn't recognized. Set to OFF.
+Suspicious word:    general_log    with key:    Conf: general_log    and value:    100
+Suspicious word:    100    with key:    Conf: general_log    and value:    100
+Problem Spotlight No.3 : Version: '5.7.33-0ubuntu0.18.04.1'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  (Ubuntu)
+Suspicious word:    /var/run/mysqld/mysqld.sock    with key:    Conf: socket  ||  Conf: socket    and value:    /var/run/mysqld/mysqld.sock  ||  /var/run/mysqld/mysqld.sock
+Suspicious word:    socket    with key:    Conf: socket  ||  Conf: socket    and value:    /var/run/mysqld/mysqld.sock  ||  /var/run/mysqld/mysqld.sock
+Suspicious word:    port    with key:    Conf: port    and value:    3306
+Suspicious word:    3306    with key:    Conf: port    and value:    3306
+Problem Spotlight No.4 : /usr/sbin/mysqld: ready for connections.
+Problem Spotlight No.5 : Event Scheduler: Loaded 0 events
+Suspicious word:    0    with key:    Conf: nice    and value:    0
+Problem Spotlight No.6 : Server socket created on IP: '127.0.0.1'.
+Suspicious word:    127.0.0.1    with key:    Conf: bind-address    and value:    127.0.0.1
+Problem Spotlight No.7 :   - '127.0.0.1' resolves to '127.0.0.1';
+Problem Spotlight No.8 : Server hostname (bind-address): '127.0.0.1'; port: 3306
+Suspicious word:    bind-address    with key:    Conf: bind-address    and value:    127.0.0.1
+Problem Spotlight No.9 : Skipping generation of RSA key pair as key files are present in data directory.
+Mysql DisConnect

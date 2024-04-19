@@ -1,0 +1,85 @@
+Apr 21 01:22:37 ubuntu jetbrains-clion.desktop[4364]: OpenJDK 64-Bit Server VM warning: Option UseConcMarkSweepGC was deprecated in version 9.0 and will likely be removed in a future release.
+Apr 21 01:23:05 ubuntu org.gnome.Shell.desktop[1885]: Window manager warning: Window 0x2a00007 (win0) sets an MWM hint indicating it isn't resizable, but sets min size 1 x 1 and max size 2147483647 x 2147483647; this doesn't make much sense.
+Apr 21 01:23:27 ubuntu gnome-shell[1885]: setup_framebuffers: assertion 'width > 0' failed
+Apr 21 01:23:30 ubuntu jetbrains-clion.desktop[4364]: 2021-04-21 01:23:30,335 [  45870]   WARN - .diagnostic.PerformanceWatcher - UI was frozen for 7478ms, details saved to /home/like/.cache/JetBrains/CLion2020.3/log/threadDumps-freeze-20210421-012327-CL-203.7148.70-RandomAccessFile.readBytes-7sec
+Apr 21 01:24:06 ubuntu nautilus[2137]: Called "net usershare info" but it failed: Failed to execute child process “net” (No such file or directory)
+Apr 21 01:29:22 ubuntu NetworkManager[776]: <info>  [1618993761.9962] connectivity: (ens33) timed out
+Apr 21 01:29:22 ubuntu NetworkManager[776]: <info>  [1618993762.0127] manager: NetworkManager state is now CONNECTED_SITE
+Apr 21 01:29:22 ubuntu dbus-daemon[763]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.13' (uid=0 pid=776 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Apr 21 01:29:22 ubuntu whoopsie[1310]: [01:29:22] offline
+Apr 21 01:29:22 ubuntu systemd[1]: Starting Network Manager Script Dispatcher Service...
+Apr 21 01:29:22 ubuntu dbus-daemon[763]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Apr 21 01:29:22 ubuntu systemd[1]: Started Network Manager Script Dispatcher Service.
+Apr 21 01:29:22 ubuntu nm-dispatcher: req:1 'connectivity-change': new request (1 scripts)
+Apr 21 01:29:22 ubuntu nm-dispatcher: req:1 'connectivity-change': start running ordered scripts...
+Apr 21 01:32:32 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 21 01:32:32 ubuntu mysql-systemd-start[4782]: ERROR: Unable to start MySQL server:
+Apr 21 01:32:32 ubuntu mysql-systemd-start[4782]: 2021-04-21T08:32:32.783243Z 0 [ERROR] Unknown suffix 'T' used for variable 'query_cache_size' (value '1TB')
+Apr 21 01:32:32 ubuntu mysql-systemd-start[4782]: 2021-04-21T08:32:32.783286Z 0 [ERROR] mysqld: Error while setting value '1TB' to 'query_cache_size'
+Apr 21 01:32:32 ubuntu mysql-systemd-start[4782]: 2021-04-21T08:32:32.817793Z 0 [ERROR] Aborting
+Apr 21 01:32:32 ubuntu mysql-systemd-start[4782]: Please take a look at https://wiki.debian.org/Teams/MySQL/FAQ for tips on fixing common upgrade issues.
+Apr 21 01:32:32 ubuntu mysql-systemd-start[4782]: Once the problem is resolved, restart the service.
+Apr 21 01:32:32 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 21 01:32:32 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 21 01:32:32 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 21 01:32:33 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 21 01:32:33 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 1.
+Apr 21 01:32:33 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 21 01:32:33 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 21 01:32:33 ubuntu mysql-systemd-start[4790]: ERROR: Unable to start MySQL server:
+Apr 21 01:32:33 ubuntu mysql-systemd-start[4790]: 2021-04-21T08:32:33.344259Z 0 [ERROR] Unknown suffix 'T' used for variable 'query_cache_size' (value '1TB')
+Apr 21 01:32:33 ubuntu mysql-systemd-start[4790]: 2021-04-21T08:32:33.344723Z 0 [ERROR] mysqld: Error while setting value '1TB' to 'query_cache_size'
+Apr 21 01:32:33 ubuntu mysql-systemd-start[4790]: 2021-04-21T08:32:33.362566Z 0 [ERROR] Aborting
+Apr 21 01:32:33 ubuntu mysql-systemd-start[4790]: Please take a look at https://wiki.debian.org/Teams/MySQL/FAQ for tips on fixing common upgrade issues.
+Apr 21 01:32:33 ubuntu mysql-systemd-start[4790]: Once the problem is resolved, restart the service.
+Apr 21 01:32:33 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 21 01:32:33 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 21 01:32:33 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 21 01:32:33 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 21 01:32:33 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 2.
+Apr 21 01:32:33 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 21 01:32:33 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 21 01:32:33 ubuntu mysql-systemd-start[4798]: ERROR: Unable to start MySQL server:
+Apr 21 01:32:33 ubuntu mysql-systemd-start[4798]: 2021-04-21T08:32:33.710929Z 0 [ERROR] Unknown suffix 'T' used for variable 'query_cache_size' (value '1TB')
+Apr 21 01:32:33 ubuntu mysql-systemd-start[4798]: 2021-04-21T08:32:33.710988Z 0 [ERROR] mysqld: Error while setting value '1TB' to 'query_cache_size'
+Apr 21 01:32:33 ubuntu mysql-systemd-start[4798]: 2021-04-21T08:32:33.727655Z 0 [ERROR] Aborting
+Apr 21 01:32:33 ubuntu mysql-systemd-start[4798]: Please take a look at https://wiki.debian.org/Teams/MySQL/FAQ for tips on fixing common upgrade issues.
+Apr 21 01:32:33 ubuntu mysql-systemd-start[4798]: Once the problem is resolved, restart the service.
+Apr 21 01:32:33 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 21 01:32:33 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 21 01:32:33 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 21 01:32:33 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 21 01:32:33 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 3.
+Apr 21 01:32:33 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 21 01:32:33 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 21 01:32:33 ubuntu mysql-systemd-start[4806]: ERROR: Unable to start MySQL server:
+Apr 21 01:32:33 ubuntu mysql-systemd-start[4806]: 2021-04-21T08:32:33.985849Z 0 [ERROR] Unknown suffix 'T' used for variable 'query_cache_size' (value '1TB')
+Apr 21 01:32:33 ubuntu mysql-systemd-start[4806]: 2021-04-21T08:32:33.985888Z 0 [ERROR] mysqld: Error while setting value '1TB' to 'query_cache_size'
+Apr 21 01:32:33 ubuntu mysql-systemd-start[4806]: 2021-04-21T08:32:33.990471Z 0 [ERROR] Aborting
+Apr 21 01:32:33 ubuntu mysql-systemd-start[4806]: Please take a look at https://wiki.debian.org/Teams/MySQL/FAQ for tips on fixing common upgrade issues.
+Apr 21 01:32:33 ubuntu mysql-systemd-start[4806]: Once the problem is resolved, restart the service.
+Apr 21 01:32:33 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 21 01:32:33 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 21 01:32:33 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 21 01:32:34 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 21 01:32:34 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 4.
+Apr 21 01:32:34 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 21 01:32:34 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 21 01:32:34 ubuntu mysql-systemd-start[4814]: ERROR: Unable to start MySQL server:
+Apr 21 01:32:34 ubuntu mysql-systemd-start[4814]: 2021-04-21T08:32:34.163609Z 0 [ERROR] Unknown suffix 'T' used for variable 'query_cache_size' (value '1TB')
+Apr 21 01:32:34 ubuntu mysql-systemd-start[4814]: 2021-04-21T08:32:34.163654Z 0 [ERROR] mysqld: Error while setting value '1TB' to 'query_cache_size'
+Apr 21 01:32:34 ubuntu mysql-systemd-start[4814]: 2021-04-21T08:32:34.164830Z 0 [ERROR] Aborting
+Apr 21 01:32:34 ubuntu mysql-systemd-start[4814]: Please take a look at https://wiki.debian.org/Teams/MySQL/FAQ for tips on fixing common upgrade issues.
+Apr 21 01:32:34 ubuntu mysql-systemd-start[4814]: Once the problem is resolved, restart the service.
+Apr 21 01:32:34 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 21 01:32:34 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 21 01:32:34 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 21 01:32:34 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 21 01:32:34 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 5.
+Apr 21 01:32:34 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 21 01:32:34 ubuntu systemd[1]: mysql.service: Start request repeated too quickly.
+Apr 21 01:32:34 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 21 01:32:34 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 21 01:32:34 ubuntu systemd[1]: mysql.service: Start request repeated too quickly.
+Apr 21 01:32:34 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 21 01:32:34 ubuntu systemd[1]: Failed to start MySQL Community Server.

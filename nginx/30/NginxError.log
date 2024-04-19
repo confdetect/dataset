@@ -1,0 +1,318 @@
+2021/04/28 14:05:41 [debug] 59406#59406: epoll add event: fd:6 op:1 ev:10000001
+2021/04/28 14:05:41 [debug] 59406#59406: epoll add event: fd:7 op:1 ev:10000001
+2021/04/28 14:05:41 [debug] 59407#59407: epoll add event: fd:6 op:1 ev:10000001
+2021/04/28 14:05:41 [debug] 59407#59407: epoll add event: fd:7 op:1 ev:10000001
+2021/04/28 14:05:41 [debug] 59408#59408: epoll add event: fd:6 op:1 ev:10000001
+2021/04/28 14:05:41 [debug] 59408#59408: epoll add event: fd:7 op:1 ev:10000001
+2021/04/28 14:05:41 [debug] 59409#59409: epoll add event: fd:6 op:1 ev:10000001
+2021/04/28 14:05:41 [debug] 59409#59409: epoll add event: fd:7 op:1 ev:10000001
+2021/04/28 14:05:42 [debug] 59406#59406: epoll del event: fd:6 op:2 ev:00000000
+2021/04/28 14:05:42 [debug] 59406#59406: epoll del event: fd:7 op:2 ev:00000000
+2021/04/28 14:05:42 [debug] 59409#59409: epoll del event: fd:6 op:2 ev:00000000
+2021/04/28 14:05:42 [debug] 59407#59407: epoll del event: fd:6 op:2 ev:00000000
+2021/04/28 14:05:42 [debug] 59408#59408: epoll del event: fd:6 op:2 ev:00000000
+2021/04/28 14:05:42 [debug] 59409#59409: epoll del event: fd:7 op:2 ev:00000000
+2021/04/28 14:05:42 [debug] 59407#59407: epoll del event: fd:7 op:2 ev:00000000
+2021/04/28 14:05:42 [debug] 59408#59408: epoll del event: fd:7 op:2 ev:00000000
+2021/04/28 14:05:42 [debug] 59419#59419: epoll add event: fd:6 op:1 ev:10000001
+2021/04/28 14:05:42 [debug] 59419#59419: epoll add event: fd:7 op:1 ev:10000001
+2021/04/28 14:05:42 [debug] 59420#59420: epoll add event: fd:6 op:1 ev:10000001
+2021/04/28 14:05:42 [debug] 59420#59420: epoll add event: fd:7 op:1 ev:10000001
+2021/04/28 14:05:42 [debug] 59421#59421: epoll add event: fd:6 op:1 ev:10000001
+2021/04/28 14:05:42 [debug] 59421#59421: epoll add event: fd:7 op:1 ev:10000001
+2021/04/28 14:05:42 [debug] 59422#59422: epoll add event: fd:6 op:1 ev:10000001
+2021/04/28 14:05:42 [debug] 59422#59422: epoll add event: fd:7 op:1 ev:10000001
+2021/04/28 14:12:53 [debug] 59422#59422: epoll del event: fd:6 op:2 ev:00000000
+2021/04/28 14:12:53 [debug] 59422#59422: epoll del event: fd:7 op:2 ev:00000000
+2021/04/28 14:12:53 [debug] 59420#59420: epoll del event: fd:6 op:2 ev:00000000
+2021/04/28 14:12:53 [debug] 59419#59419: epoll del event: fd:6 op:2 ev:00000000
+2021/04/28 14:12:53 [debug] 59421#59421: epoll del event: fd:6 op:2 ev:00000000
+2021/04/28 14:12:53 [debug] 59420#59420: epoll del event: fd:7 op:2 ev:00000000
+2021/04/28 14:12:53 [debug] 59419#59419: epoll del event: fd:7 op:2 ev:00000000
+2021/04/28 14:12:53 [debug] 59421#59421: epoll del event: fd:7 op:2 ev:00000000
+2021/04/28 14:12:53 [debug] 59509#59509: epoll add event: fd:6 op:1 ev:10000001
+2021/04/28 14:12:53 [debug] 59509#59509: epoll add event: fd:7 op:1 ev:10000001
+2021/04/28 14:12:53 [debug] 59510#59510: epoll add event: fd:6 op:1 ev:10000001
+2021/04/28 14:12:53 [debug] 59510#59510: epoll add event: fd:7 op:1 ev:10000001
+2021/04/28 14:12:53 [debug] 59511#59511: epoll add event: fd:6 op:1 ev:10000001
+2021/04/28 14:12:53 [debug] 59511#59511: epoll add event: fd:7 op:1 ev:10000001
+2021/04/28 14:12:53 [debug] 59512#59512: epoll add event: fd:6 op:1 ev:10000001
+2021/04/28 14:12:53 [debug] 59512#59512: epoll add event: fd:7 op:1 ev:10000001
+2021/04/28 14:12:54 [debug] 59509#59509: epoll del event: fd:6 op:2 ev:00000000
+2021/04/28 14:12:54 [debug] 59511#59511: epoll del event: fd:6 op:2 ev:00000000
+2021/04/28 14:12:54 [debug] 59509#59509: epoll del event: fd:7 op:2 ev:00000000
+2021/04/28 14:12:54 [debug] 59511#59511: epoll del event: fd:7 op:2 ev:00000000
+2021/04/28 14:12:54 [debug] 59510#59510: epoll del event: fd:6 op:2 ev:00000000
+2021/04/28 14:12:54 [debug] 59510#59510: epoll del event: fd:7 op:2 ev:00000000
+2021/04/28 14:12:54 [debug] 59512#59512: epoll del event: fd:6 op:2 ev:00000000
+2021/04/28 14:12:54 [debug] 59512#59512: epoll del event: fd:7 op:2 ev:00000000
+2021/04/28 14:12:54 [debug] 59523#59523: epoll add event: fd:6 op:1 ev:10000001
+2021/04/28 14:12:54 [debug] 59523#59523: epoll add event: fd:7 op:1 ev:10000001
+2021/04/28 14:12:54 [debug] 59524#59524: epoll add event: fd:6 op:1 ev:10000001
+2021/04/28 14:12:54 [debug] 59524#59524: epoll add event: fd:7 op:1 ev:10000001
+2021/04/28 14:12:54 [debug] 59525#59525: epoll add event: fd:6 op:1 ev:10000001
+2021/04/28 14:12:54 [debug] 59525#59525: epoll add event: fd:7 op:1 ev:10000001
+2021/04/28 14:12:54 [debug] 59526#59526: epoll add event: fd:6 op:1 ev:10000001
+2021/04/28 14:12:54 [debug] 59526#59526: epoll add event: fd:7 op:1 ev:10000001
+2021/04/28 14:12:56 [debug] 59523#59523: accept on 0.0.0.0:80, ready: 0
+2021/04/28 14:12:56 [debug] 59523#59523: posix_memalign: 000055EA416CA920:512 @16
+2021/04/28 14:12:56 [debug] 59523#59523: *1 accept: 127.0.0.1:48096 fd:13
+2021/04/28 14:12:56 [debug] 59523#59523: *1 event timer add: 13: 60000:92557056
+2021/04/28 14:12:56 [debug] 59523#59523: *1 reusable connection: 1
+2021/04/28 14:12:56 [debug] 59523#59523: *1 epoll add event: fd:13 op:1 ev:80002001
+2021/04/28 14:12:56 [debug] 59523#59523: *1 http wait request handler
+2021/04/28 14:12:56 [debug] 59523#59523: *1 malloc: 000055EA416CB330:1024
+2021/04/28 14:12:56 [debug] 59523#59523: *1 recv: eof:0, avail:1
+2021/04/28 14:12:56 [debug] 59523#59523: *1 recv: fd:13 482 of 1024
+2021/04/28 14:12:56 [debug] 59523#59523: *1 reusable connection: 0
+2021/04/28 14:12:56 [debug] 59523#59523: *1 posix_memalign: 000055EA416E1B40:4096 @16
+2021/04/28 14:12:56 [debug] 59523#59523: *1 http process request line
+2021/04/28 14:12:56 [debug] 59523#59523: *1 http request line: "GET / HTTP/1.1"
+2021/04/28 14:12:56 [debug] 59523#59523: *1 http uri: "/"
+2021/04/28 14:12:56 [debug] 59523#59523: *1 http args: ""
+2021/04/28 14:12:56 [debug] 59523#59523: *1 http exten: ""
+2021/04/28 14:12:56 [debug] 59523#59523: *1 posix_memalign: 000055EA41729B20:4096 @16
+2021/04/28 14:12:56 [debug] 59523#59523: *1 http process request header line
+2021/04/28 14:12:56 [debug] 59523#59523: *1 http header: "Host: localhost"
+2021/04/28 14:12:56 [debug] 59523#59523: *1 http header: "User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:87.0) Gecko/20100101 Firefox/87.0"
+2021/04/28 14:12:56 [debug] 59523#59523: *1 http header: "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8"
+2021/04/28 14:12:56 [debug] 59523#59523: *1 http header: "Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2"
+2021/04/28 14:12:56 [debug] 59523#59523: *1 http header: "Accept-Encoding: gzip, deflate"
+2021/04/28 14:12:56 [debug] 59523#59523: *1 http header: "Connection: keep-alive"
+2021/04/28 14:12:56 [debug] 59523#59523: *1 http header: "Upgrade-Insecure-Requests: 1"
+2021/04/28 14:12:56 [debug] 59523#59523: *1 http header: "If-Modified-Since: Fri, 23 Apr 2021 07:39:14 GMT"
+2021/04/28 14:12:56 [debug] 59523#59523: *1 http header: "If-None-Match: W/"608279a2-264""
+2021/04/28 14:12:56 [debug] 59523#59523: *1 http header: "Cache-Control: max-age=0"
+2021/04/28 14:12:56 [debug] 59523#59523: *1 http header done
+2021/04/28 14:12:56 [debug] 59523#59523: *1 event timer del: 13: 92557056
+2021/04/28 14:12:56 [debug] 59523#59523: *1 generic phase: 0
+2021/04/28 14:12:56 [debug] 59523#59523: *1 rewrite phase: 1
+2021/04/28 14:12:56 [debug] 59523#59523: *1 test location: "/"
+2021/04/28 14:12:56 [debug] 59523#59523: *1 using configuration "/"
+2021/04/28 14:12:56 [debug] 59523#59523: *1 http cl:-1 max:1048576
+2021/04/28 14:12:56 [debug] 59523#59523: *1 rewrite phase: 3
+2021/04/28 14:12:56 [debug] 59523#59523: *1 post rewrite phase: 4
+2021/04/28 14:12:56 [debug] 59523#59523: *1 generic phase: 5
+2021/04/28 14:12:56 [debug] 59523#59523: *1 generic phase: 6
+2021/04/28 14:12:56 [debug] 59523#59523: *1 generic phase: 7
+2021/04/28 14:12:56 [debug] 59523#59523: *1 access phase: 8
+2021/04/28 14:12:56 [debug] 59523#59523: *1 access phase: 9
+2021/04/28 14:12:56 [debug] 59523#59523: *1 access phase: 10
+2021/04/28 14:12:56 [debug] 59523#59523: *1 post access phase: 11
+2021/04/28 14:12:56 [debug] 59523#59523: *1 generic phase: 12
+2021/04/28 14:12:56 [debug] 59523#59523: *1 try files handler
+2021/04/28 14:12:56 [debug] 59523#59523: *1 http script var: "/"
+2021/04/28 14:12:56 [debug] 59523#59523: *1 trying to use file: "/" "/var/www/html/"
+2021/04/28 14:12:56 [debug] 59523#59523: *1 http script var: "/"
+2021/04/28 14:12:56 [debug] 59523#59523: *1 trying to use dir: "/" "/var/www/html/"
+2021/04/28 14:12:56 [debug] 59523#59523: *1 try file uri: "/"
+2021/04/28 14:12:56 [debug] 59523#59523: *1 generic phase: 13
+2021/04/28 14:12:56 [debug] 59523#59523: *1 content phase: 14
+2021/04/28 14:12:56 [debug] 59523#59523: *1 open index "/var/www/html/index.html"
+2021/04/28 14:12:56 [debug] 59523#59523: *1 stat() "/var/www/html/index.html" failed (2: No such file or directory)
+2021/04/28 14:12:56 [debug] 59523#59523: *1 http index check dir: "/var/www/html"
+2021/04/28 14:12:56 [debug] 59523#59523: *1 open index "/var/www/html/index.htm"
+2021/04/28 14:12:56 [debug] 59523#59523: *1 stat() "/var/www/html/index.htm" failed (2: No such file or directory)
+2021/04/28 14:12:56 [debug] 59523#59523: *1 open index "/var/www/html/index.nginx-debian.html"
+2021/04/28 14:12:56 [debug] 59523#59523: *1 internal redirect: "/index.nginx-debian.html?"
+2021/04/28 14:12:56 [debug] 59523#59523: *1 rewrite phase: 1
+2021/04/28 14:12:56 [debug] 59523#59523: *1 test location: "/"
+2021/04/28 14:12:56 [debug] 59523#59523: *1 using configuration "/"
+2021/04/28 14:12:56 [debug] 59523#59523: *1 http cl:-1 max:1048576
+2021/04/28 14:12:56 [debug] 59523#59523: *1 rewrite phase: 3
+2021/04/28 14:12:56 [debug] 59523#59523: *1 post rewrite phase: 4
+2021/04/28 14:12:56 [debug] 59523#59523: *1 generic phase: 5
+2021/04/28 14:12:56 [debug] 59523#59523: *1 generic phase: 6
+2021/04/28 14:12:56 [debug] 59523#59523: *1 generic phase: 7
+2021/04/28 14:12:56 [debug] 59523#59523: *1 access phase: 8
+2021/04/28 14:12:56 [debug] 59523#59523: *1 access phase: 9
+2021/04/28 14:12:56 [debug] 59523#59523: *1 access phase: 10
+2021/04/28 14:12:56 [debug] 59523#59523: *1 post access phase: 11
+2021/04/28 14:12:56 [debug] 59523#59523: *1 generic phase: 12
+2021/04/28 14:12:56 [debug] 59523#59523: *1 try files handler
+2021/04/28 14:12:56 [debug] 59523#59523: *1 http script var: "/index.nginx-debian.html"
+2021/04/28 14:12:56 [debug] 59523#59523: *1 trying to use file: "/index.nginx-debian.html" "/var/www/html/index.nginx-debian.html"
+2021/04/28 14:12:56 [debug] 59523#59523: *1 try file uri: "/index.nginx-debian.html"
+2021/04/28 14:12:56 [debug] 59523#59523: *1 generic phase: 13
+2021/04/28 14:12:56 [debug] 59523#59523: *1 content phase: 14
+2021/04/28 14:12:56 [debug] 59523#59523: *1 content phase: 15
+2021/04/28 14:12:56 [debug] 59523#59523: *1 content phase: 16
+2021/04/28 14:12:56 [debug] 59523#59523: *1 content phase: 17
+2021/04/28 14:12:56 [debug] 59523#59523: *1 content phase: 18
+2021/04/28 14:12:56 [debug] 59523#59523: *1 http filename: "/var/www/html/index.nginx-debian.html"
+2021/04/28 14:12:56 [debug] 59523#59523: *1 add cleanup: 000055EA416E29A0
+2021/04/28 14:12:56 [debug] 59523#59523: *1 http static fd: 14
+2021/04/28 14:12:56 [debug] 59523#59523: *1 http set discard body
+2021/04/28 14:12:56 [debug] 59523#59523: *1 http ims:1619163554 lm:1619163554
+2021/04/28 14:12:56 [debug] 59523#59523: *1 http im:"W/"608279a2-264"" etag:"608279a2-264"
+2021/04/28 14:12:56 [debug] 59523#59523: *1 xslt filter header
+2021/04/28 14:12:56 [debug] 59523#59523: *1 HTTP/1.1 304 Not Modified
+Server: nginx/1.14.0 (Ubuntu)
+Date: Wed, 28 Apr 2021 06:12:56 GMT
+Last-Modified: Fri, 23 Apr 2021 07:39:14 GMT
+Connection: keep-alive
+ETag: "608279a2-264"
+
+2021/04/28 14:12:56 [debug] 59523#59523: *1 write new buf t:1 f:0 000055EA41729F50, pos 000055EA41729F50, size: 189 file: 0, size: 0
+2021/04/28 14:12:56 [debug] 59523#59523: *1 http write filter: l:1 f:0 s:189
+2021/04/28 14:12:56 [debug] 59523#59523: *1 http write filter limit 0
+2021/04/28 14:12:56 [debug] 59523#59523: *1 writev: 189 of 189
+2021/04/28 14:12:56 [debug] 59523#59523: *1 http write filter 0000000000000000
+2021/04/28 14:12:56 [debug] 59523#59523: *1 http finalize request: 0, "/index.nginx-debian.html?" a:1, c:2
+2021/04/28 14:12:56 [debug] 59523#59523: *1 http request count:2 blk:0
+2021/04/28 14:12:56 [debug] 59523#59523: *1 http finalize request: -4, "/index.nginx-debian.html?" a:1, c:1
+2021/04/28 14:12:56 [debug] 59523#59523: *1 set http keepalive handler
+2021/04/28 14:12:56 [debug] 59523#59523: *1 http close request
+2021/04/28 14:12:56 [debug] 59523#59523: *1 http log handler
+2021/04/28 14:12:56 [debug] 59523#59523: *1 run cleanup: 000055EA416E29A0
+2021/04/28 14:12:56 [debug] 59523#59523: *1 file cleanup: fd:14
+2021/04/28 14:12:56 [debug] 59523#59523: *1 free: 000055EA416E1B40, unused: 0
+2021/04/28 14:12:56 [debug] 59523#59523: *1 free: 000055EA41729B20, unused: 2650
+2021/04/28 14:12:56 [debug] 59523#59523: *1 free: 000055EA416CB330
+2021/04/28 14:12:56 [debug] 59523#59523: *1 hc free: 0000000000000000
+2021/04/28 14:12:56 [debug] 59523#59523: *1 hc busy: 0000000000000000 0
+2021/04/28 14:12:56 [debug] 59523#59523: *1 tcp_nodelay
+2021/04/28 14:12:56 [debug] 59523#59523: *1 reusable connection: 1
+2021/04/28 14:12:56 [debug] 59523#59523: *1 event timer add: 13: 65000:92562056
+2021/04/28 14:14:01 [debug] 59523#59523: *1 event timer del: 13: 92562056
+2021/04/28 14:14:01 [debug] 59523#59523: *1 http keepalive handler
+2021/04/28 14:14:01 [debug] 59523#59523: *1 close http connection: 13
+2021/04/28 14:14:01 [debug] 59523#59523: *1 reusable connection: 0
+2021/04/28 14:14:01 [debug] 59523#59523: *1 free: 0000000000000000
+2021/04/28 14:14:01 [debug] 59523#59523: *1 free: 000055EA416CA920, unused: 136
+2021/04/28 14:19:22 [debug] 59523#59523: accept on 0.0.0.0:80, ready: 0
+2021/04/28 14:19:22 [debug] 59523#59523: posix_memalign: 000055EA416CA920:512 @16
+2021/04/28 14:19:22 [debug] 59523#59523: *2 accept: 127.0.0.1:48106 fd:13
+2021/04/28 14:19:22 [debug] 59523#59523: *2 event timer add: 13: 60000:92942440
+2021/04/28 14:19:22 [debug] 59523#59523: *2 reusable connection: 1
+2021/04/28 14:19:22 [debug] 59523#59523: *2 epoll add event: fd:13 op:1 ev:80002001
+2021/04/28 14:19:22 [debug] 59523#59523: *2 http wait request handler
+2021/04/28 14:19:22 [debug] 59523#59523: *2 malloc: 000055EA416CB330:1024
+2021/04/28 14:19:22 [debug] 59523#59523: *2 recv: eof:0, avail:1
+2021/04/28 14:19:22 [debug] 59523#59523: *2 recv: fd:13 482 of 1024
+2021/04/28 14:19:22 [debug] 59523#59523: *2 reusable connection: 0
+2021/04/28 14:19:22 [debug] 59523#59523: *2 posix_memalign: 000055EA416E1B40:4096 @16
+2021/04/28 14:19:22 [debug] 59523#59523: *2 http process request line
+2021/04/28 14:19:22 [debug] 59523#59523: *2 http request line: "GET / HTTP/1.1"
+2021/04/28 14:19:22 [debug] 59523#59523: *2 http uri: "/"
+2021/04/28 14:19:22 [debug] 59523#59523: *2 http args: ""
+2021/04/28 14:19:22 [debug] 59523#59523: *2 http exten: ""
+2021/04/28 14:19:22 [debug] 59523#59523: *2 posix_memalign: 000055EA41729B20:4096 @16
+2021/04/28 14:19:22 [debug] 59523#59523: *2 http process request header line
+2021/04/28 14:19:22 [debug] 59523#59523: *2 http header: "Host: localhost"
+2021/04/28 14:19:22 [debug] 59523#59523: *2 http header: "User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:87.0) Gecko/20100101 Firefox/87.0"
+2021/04/28 14:19:22 [debug] 59523#59523: *2 http header: "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8"
+2021/04/28 14:19:22 [debug] 59523#59523: *2 http header: "Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2"
+2021/04/28 14:19:22 [debug] 59523#59523: *2 http header: "Accept-Encoding: gzip, deflate"
+2021/04/28 14:19:22 [debug] 59523#59523: *2 http header: "Connection: keep-alive"
+2021/04/28 14:19:22 [debug] 59523#59523: *2 http header: "Upgrade-Insecure-Requests: 1"
+2021/04/28 14:19:22 [debug] 59523#59523: *2 http header: "If-Modified-Since: Fri, 23 Apr 2021 07:39:14 GMT"
+2021/04/28 14:19:22 [debug] 59523#59523: *2 http header: "If-None-Match: W/"608279a2-264""
+2021/04/28 14:19:22 [debug] 59523#59523: *2 http header: "Cache-Control: max-age=0"
+2021/04/28 14:19:22 [debug] 59523#59523: *2 http header done
+2021/04/28 14:19:22 [debug] 59523#59523: *2 event timer del: 13: 92942440
+2021/04/28 14:19:22 [debug] 59523#59523: *2 generic phase: 0
+2021/04/28 14:19:22 [debug] 59523#59523: *2 rewrite phase: 1
+2021/04/28 14:19:22 [debug] 59523#59523: *2 test location: "/"
+2021/04/28 14:19:22 [debug] 59523#59523: *2 using configuration "/"
+2021/04/28 14:19:22 [debug] 59523#59523: *2 http cl:-1 max:1048576
+2021/04/28 14:19:22 [debug] 59523#59523: *2 rewrite phase: 3
+2021/04/28 14:19:22 [debug] 59523#59523: *2 post rewrite phase: 4
+2021/04/28 14:19:22 [debug] 59523#59523: *2 generic phase: 5
+2021/04/28 14:19:22 [debug] 59523#59523: *2 generic phase: 6
+2021/04/28 14:19:22 [debug] 59523#59523: *2 generic phase: 7
+2021/04/28 14:19:22 [debug] 59523#59523: *2 access phase: 8
+2021/04/28 14:19:22 [debug] 59523#59523: *2 access phase: 9
+2021/04/28 14:19:22 [debug] 59523#59523: *2 access phase: 10
+2021/04/28 14:19:22 [debug] 59523#59523: *2 post access phase: 11
+2021/04/28 14:19:22 [debug] 59523#59523: *2 generic phase: 12
+2021/04/28 14:19:22 [debug] 59523#59523: *2 try files handler
+2021/04/28 14:19:22 [debug] 59523#59523: *2 http script var: "/"
+2021/04/28 14:19:22 [debug] 59523#59523: *2 trying to use file: "/" "/var/www/html/"
+2021/04/28 14:19:22 [debug] 59523#59523: *2 http script var: "/"
+2021/04/28 14:19:22 [debug] 59523#59523: *2 trying to use dir: "/" "/var/www/html/"
+2021/04/28 14:19:22 [debug] 59523#59523: *2 try file uri: "/"
+2021/04/28 14:19:22 [debug] 59523#59523: *2 generic phase: 13
+2021/04/28 14:19:22 [debug] 59523#59523: *2 content phase: 14
+2021/04/28 14:19:22 [debug] 59523#59523: *2 open index "/var/www/html/index.html"
+2021/04/28 14:19:22 [debug] 59523#59523: *2 stat() "/var/www/html/index.html" failed (2: No such file or directory)
+2021/04/28 14:19:22 [debug] 59523#59523: *2 http index check dir: "/var/www/html"
+2021/04/28 14:19:22 [debug] 59523#59523: *2 open index "/var/www/html/index.htm"
+2021/04/28 14:19:22 [debug] 59523#59523: *2 stat() "/var/www/html/index.htm" failed (2: No such file or directory)
+2021/04/28 14:19:22 [debug] 59523#59523: *2 open index "/var/www/html/index.nginx-debian.html"
+2021/04/28 14:19:22 [debug] 59523#59523: *2 internal redirect: "/index.nginx-debian.html?"
+2021/04/28 14:19:22 [debug] 59523#59523: *2 rewrite phase: 1
+2021/04/28 14:19:22 [debug] 59523#59523: *2 test location: "/"
+2021/04/28 14:19:22 [debug] 59523#59523: *2 using configuration "/"
+2021/04/28 14:19:22 [debug] 59523#59523: *2 http cl:-1 max:1048576
+2021/04/28 14:19:22 [debug] 59523#59523: *2 rewrite phase: 3
+2021/04/28 14:19:22 [debug] 59523#59523: *2 post rewrite phase: 4
+2021/04/28 14:19:22 [debug] 59523#59523: *2 generic phase: 5
+2021/04/28 14:19:22 [debug] 59523#59523: *2 generic phase: 6
+2021/04/28 14:19:22 [debug] 59523#59523: *2 generic phase: 7
+2021/04/28 14:19:22 [debug] 59523#59523: *2 access phase: 8
+2021/04/28 14:19:22 [debug] 59523#59523: *2 access phase: 9
+2021/04/28 14:19:22 [debug] 59523#59523: *2 access phase: 10
+2021/04/28 14:19:22 [debug] 59523#59523: *2 post access phase: 11
+2021/04/28 14:19:22 [debug] 59523#59523: *2 generic phase: 12
+2021/04/28 14:19:22 [debug] 59523#59523: *2 try files handler
+2021/04/28 14:19:22 [debug] 59523#59523: *2 http script var: "/index.nginx-debian.html"
+2021/04/28 14:19:22 [debug] 59523#59523: *2 trying to use file: "/index.nginx-debian.html" "/var/www/html/index.nginx-debian.html"
+2021/04/28 14:19:22 [debug] 59523#59523: *2 try file uri: "/index.nginx-debian.html"
+2021/04/28 14:19:22 [debug] 59523#59523: *2 generic phase: 13
+2021/04/28 14:19:22 [debug] 59523#59523: *2 content phase: 14
+2021/04/28 14:19:22 [debug] 59523#59523: *2 content phase: 15
+2021/04/28 14:19:22 [debug] 59523#59523: *2 content phase: 16
+2021/04/28 14:19:22 [debug] 59523#59523: *2 content phase: 17
+2021/04/28 14:19:22 [debug] 59523#59523: *2 content phase: 18
+2021/04/28 14:19:22 [debug] 59523#59523: *2 http filename: "/var/www/html/index.nginx-debian.html"
+2021/04/28 14:19:22 [debug] 59523#59523: *2 add cleanup: 000055EA416E29A0
+2021/04/28 14:19:22 [debug] 59523#59523: *2 http static fd: 14
+2021/04/28 14:19:22 [debug] 59523#59523: *2 http set discard body
+2021/04/28 14:19:22 [debug] 59523#59523: *2 http ims:1619163554 lm:1619163554
+2021/04/28 14:19:22 [debug] 59523#59523: *2 http im:"W/"608279a2-264"" etag:"608279a2-264"
+2021/04/28 14:19:22 [debug] 59523#59523: *2 xslt filter header
+2021/04/28 14:19:22 [debug] 59523#59523: *2 HTTP/1.1 304 Not Modified
+Server: nginx/1.14.0 (Ubuntu)
+Date: Wed, 28 Apr 2021 06:19:22 GMT
+Last-Modified: Fri, 23 Apr 2021 07:39:14 GMT
+Connection: keep-alive
+ETag: "608279a2-264"
+
+2021/04/28 14:19:22 [debug] 59523#59523: *2 write new buf t:1 f:0 000055EA41729F50, pos 000055EA41729F50, size: 189 file: 0, size: 0
+2021/04/28 14:19:22 [debug] 59523#59523: *2 http write filter: l:1 f:0 s:189
+2021/04/28 14:19:22 [debug] 59523#59523: *2 http write filter limit 0
+2021/04/28 14:19:22 [debug] 59523#59523: *2 writev: 189 of 189
+2021/04/28 14:19:22 [debug] 59523#59523: *2 http write filter 0000000000000000
+2021/04/28 14:19:22 [debug] 59523#59523: *2 http finalize request: 0, "/index.nginx-debian.html?" a:1, c:2
+2021/04/28 14:19:22 [debug] 59523#59523: *2 http request count:2 blk:0
+2021/04/28 14:19:22 [debug] 59523#59523: *2 http finalize request: -4, "/index.nginx-debian.html?" a:1, c:1
+2021/04/28 14:19:22 [debug] 59523#59523: *2 set http keepalive handler
+2021/04/28 14:19:22 [debug] 59523#59523: *2 http close request
+2021/04/28 14:19:22 [debug] 59523#59523: *2 http log handler
+2021/04/28 14:19:22 [debug] 59523#59523: *2 run cleanup: 000055EA416E29A0
+2021/04/28 14:19:22 [debug] 59523#59523: *2 file cleanup: fd:14
+2021/04/28 14:19:22 [debug] 59523#59523: *2 free: 000055EA416E1B40, unused: 0
+2021/04/28 14:19:22 [debug] 59523#59523: *2 free: 000055EA41729B20, unused: 2650
+2021/04/28 14:19:22 [debug] 59523#59523: *2 free: 000055EA416CB330
+2021/04/28 14:19:22 [debug] 59523#59523: *2 hc free: 0000000000000000
+2021/04/28 14:19:22 [debug] 59523#59523: *2 hc busy: 0000000000000000 0
+2021/04/28 14:19:22 [debug] 59523#59523: *2 tcp_nodelay
+2021/04/28 14:19:22 [debug] 59523#59523: *2 reusable connection: 1
+2021/04/28 14:19:22 [debug] 59523#59523: *2 event timer add: 13: 65000:92947440
+2021/04/28 14:20:05 [debug] 59526#59526: epoll del event: fd:6 op:2 ev:00000000
+2021/04/28 14:20:05 [debug] 59523#59523: epoll del event: fd:6 op:2 ev:00000000
+2021/04/28 14:20:05 [debug] 59524#59524: epoll del event: fd:6 op:2 ev:00000000
+2021/04/28 14:20:05 [debug] 59526#59526: epoll del event: fd:7 op:2 ev:00000000
+2021/04/28 14:20:05 [debug] 59523#59523: epoll del event: fd:7 op:2 ev:00000000
+2021/04/28 14:20:05 [debug] 59524#59524: epoll del event: fd:7 op:2 ev:00000000
+2021/04/28 14:20:05 [debug] 59523#59523: *2 http keepalive handler
+2021/04/28 14:20:05 [debug] 59523#59523: *2 close http connection: 13
+2021/04/28 14:20:05 [debug] 59525#59525: epoll del event: fd:6 op:2 ev:00000000
+2021/04/28 14:20:05 [debug] 59523#59523: *2 event timer del: 13: 92947440
+2021/04/28 14:20:05 [debug] 59523#59523: *2 reusable connection: 0
+2021/04/28 14:20:05 [debug] 59525#59525: epoll del event: fd:7 op:2 ev:00000000
+2021/04/28 14:20:05 [debug] 59523#59523: *2 free: 0000000000000000
+2021/04/28 14:20:05 [debug] 59523#59523: *2 free: 000055EA416CA920, unused: 136
+2021/04/28 14:20:05 [crit] 59589#59589: pread() "/etc/nginx/sites-enabled" failed (21: Is a directory)
+2021/04/28 14:20:06 [crit] 59596#59596: pread() "/etc/nginx/sites-enabled" failed (21: Is a directory)

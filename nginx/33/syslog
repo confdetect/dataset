@@ -1,0 +1,61 @@
+Apr 28 15:36:29 ubuntu nautilus[20088]: gtk_revealer_set_reveal_child: assertion 'GTK_IS_REVEALER (revealer)' failed
+Apr 28 15:36:33 ubuntu nautilus[20088]: message repeated 3 times: [ gtk_revealer_set_reveal_child: assertion 'GTK_IS_REVEALER (revealer)' failed]
+Apr 28 15:37:30 ubuntu systemd[1]: Starting A high performance web server and a reverse proxy server...
+Apr 28 15:37:30 ubuntu systemd[1]: Started A high performance web server and a reverse proxy server.
+Apr 28 15:38:50 ubuntu systemd[1]: Stopping A high performance web server and a reverse proxy server...
+Apr 28 15:38:50 ubuntu systemd[1]: Stopped A high performance web server and a reverse proxy server.
+Apr 28 15:38:50 ubuntu systemd[1]: Starting A high performance web server and a reverse proxy server...
+Apr 28 15:38:50 ubuntu systemd[1]: Started A high performance web server and a reverse proxy server.
+Apr 28 15:40:03 ubuntu systemd[1]: Stopping A high performance web server and a reverse proxy server...
+Apr 28 15:40:03 ubuntu systemd[1]: Stopped A high performance web server and a reverse proxy server.
+Apr 28 15:40:03 ubuntu systemd[1]: Starting A high performance web server and a reverse proxy server...
+Apr 28 15:40:03 ubuntu systemd[1]: Started A high performance web server and a reverse proxy server.
+Apr 28 15:41:20 ubuntu systemd[1]: Stopping A high performance web server and a reverse proxy server...
+Apr 28 15:41:20 ubuntu systemd[1]: Stopped A high performance web server and a reverse proxy server.
+Apr 28 15:41:20 ubuntu systemd[1]: Starting A high performance web server and a reverse proxy server...
+Apr 28 15:41:20 ubuntu systemd[1]: Started A high performance web server and a reverse proxy server.
+Apr 28 15:41:27 ubuntu snapd[732]: storehelpers.go:551: cannot refresh: snap has no updates available: "core", "core18", "gnome-3-28-1804", "gnome-3-34-1804", "gnome-calculator", "gnome-characters", "gnome-logs", "gnome-system-monitor", "gtk-common-themes"
+Apr 28 15:41:27 ubuntu snapd[732]: autorefresh.go:479: auto-refresh: all snaps are up-to-date
+Apr 28 15:42:19 ubuntu systemd[1]: Stopping A high performance web server and a reverse proxy server...
+Apr 28 15:42:19 ubuntu systemd[1]: Stopped A high performance web server and a reverse proxy server.
+Apr 28 15:42:19 ubuntu systemd[1]: Starting A high performance web server and a reverse proxy server...
+Apr 28 15:42:19 ubuntu systemd[1]: Started A high performance web server and a reverse proxy server.
+Apr 28 15:42:38 ubuntu systemd[1]: Stopping A high performance web server and a reverse proxy server...
+Apr 28 15:42:38 ubuntu systemd[1]: Stopped A high performance web server and a reverse proxy server.
+Apr 28 15:42:38 ubuntu systemd[1]: Starting A high performance web server and a reverse proxy server...
+Apr 28 15:42:38 ubuntu systemd[1]: Started A high performance web server and a reverse proxy server.
+Apr 28 15:44:57 ubuntu dhclient[57005]: DHCPREQUEST of 192.168.182.129 on ens33 to 192.168.182.254 port 67 (xid=0xd9b43dc)
+Apr 28 15:44:57 ubuntu dhclient[57005]: DHCPACK of 192.168.182.129 from 192.168.182.254
+Apr 28 15:44:57 ubuntu NetworkManager[686]: <info>  [1619595897.2496] dhcp4 (ens33):   address 192.168.182.129
+Apr 28 15:44:57 ubuntu NetworkManager[686]: <info>  [1619595897.2498] dhcp4 (ens33):   plen 24 (255.255.255.0)
+Apr 28 15:44:57 ubuntu NetworkManager[686]: <info>  [1619595897.2498] dhcp4 (ens33):   gateway 192.168.182.2
+Apr 28 15:44:57 ubuntu NetworkManager[686]: <info>  [1619595897.2499] dhcp4 (ens33):   lease time 1800
+Apr 28 15:44:57 ubuntu NetworkManager[686]: <info>  [1619595897.2499] dhcp4 (ens33):   nameserver '192.168.182.2'
+Apr 28 15:44:57 ubuntu dbus-daemon[662]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.10' (uid=0 pid=686 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Apr 28 15:44:57 ubuntu NetworkManager[686]: <info>  [1619595897.2499] dhcp4 (ens33):   domain name 'localdomain'
+Apr 28 15:44:57 ubuntu NetworkManager[686]: <info>  [1619595897.2500] dhcp4 (ens33):   wins '192.168.182.2'
+Apr 28 15:44:57 ubuntu NetworkManager[686]: <info>  [1619595897.2500] dhcp4 (ens33): state changed bound -> bound
+Apr 28 15:44:57 ubuntu dhclient[57005]: bound to 192.168.182.129 -- renewal in 815 seconds.
+Apr 28 15:44:57 ubuntu systemd[1]: Starting Network Manager Script Dispatcher Service...
+Apr 28 15:44:57 ubuntu dbus-daemon[662]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Apr 28 15:44:57 ubuntu systemd[1]: Started Network Manager Script Dispatcher Service.
+Apr 28 15:44:57 ubuntu nm-dispatcher: req:1 'dhcp4-change' [ens33]: new request (1 scripts)
+Apr 28 15:44:57 ubuntu nm-dispatcher: req:1 'dhcp4-change' [ens33]: start running ordered scripts...
+Apr 28 15:45:15 ubuntu systemd[1]: Stopping A high performance web server and a reverse proxy server...
+Apr 28 15:45:15 ubuntu systemd[1]: Stopped A high performance web server and a reverse proxy server.
+Apr 28 15:45:15 ubuntu systemd[1]: Starting A high performance web server and a reverse proxy server...
+Apr 28 15:45:15 ubuntu systemd[1]: Started A high performance web server and a reverse proxy server.
+Apr 28 15:46:09 ubuntu systemd[1]: Stopping A high performance web server and a reverse proxy server...
+Apr 28 15:46:09 ubuntu systemd[1]: Stopped A high performance web server and a reverse proxy server.
+Apr 28 15:46:09 ubuntu systemd[1]: Starting A high performance web server and a reverse proxy server...
+Apr 28 15:46:09 ubuntu nginx[61050]: nginx: [emerg] unexpected "|" in /etc/nginx/nginx.conf:72
+Apr 28 15:46:09 ubuntu nginx[61050]: nginx: configuration file /etc/nginx/nginx.conf test failed
+Apr 28 15:46:09 ubuntu systemd[1]: nginx.service: Control process exited, code=exited status=1
+Apr 28 15:46:09 ubuntu systemd[1]: nginx.service: Failed with result 'exit-code'.
+Apr 28 15:46:09 ubuntu systemd[1]: Failed to start A high performance web server and a reverse proxy server.
+Apr 28 15:46:10 ubuntu systemd[1]: Starting A high performance web server and a reverse proxy server...
+Apr 28 15:46:10 ubuntu nginx[61056]: nginx: [emerg] unexpected "|" in /etc/nginx/nginx.conf:72
+Apr 28 15:46:10 ubuntu nginx[61056]: nginx: configuration file /etc/nginx/nginx.conf test failed
+Apr 28 15:46:10 ubuntu systemd[1]: nginx.service: Control process exited, code=exited status=1
+Apr 28 15:46:10 ubuntu systemd[1]: nginx.service: Failed with result 'exit-code'.
+Apr 28 15:46:10 ubuntu systemd[1]: Failed to start A high performance web server and a reverse proxy server.

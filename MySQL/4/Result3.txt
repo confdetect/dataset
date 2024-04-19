@@ -1,0 +1,29 @@
+Connect Database log success
+Create Table MysqlLog Success
+Starting Parse Mysql Log
+Starting Parse Sys Log
+Computing Problem Spotlight
+Create Table MysqlMsg Success
+Mysql DisConnect
+Using Augeas to Parse Configuration File
+Extract key-value Finished
+Extract Env Finished
+Connect Mysql wise success
+Giving Problem Spotlight and Resolve Spotlight
+Problem Spotlight No.0 : 2021-04-13 07:28:38 Error Aborting
+Problem Spotlight No.1 : 2021-04-13 07:28:38 Error Unable to setup unix socket lock file.
+Suspicious word:    socket    with key:    Conf: socket  ||  Conf: socket    and value:    /var/run/mysqld/mysqld.sock  ||  /usr/run/mysqld/mysqld.sock
+Problem Spotlight No.2 : 2021-04-13 07:28:38 Error Could not create unix socket lock file /usr/run/mysqld/mysqld.sock.lock.
+Suspicious word:    /usr/run/mysqld/mysqld.sock    with key:    Conf: socket    and value:    /usr/run/mysqld/mysqld.sock
+FilePath:    /usr/run/mysqld/mysqld.sock    not Exist
+Problem Spotlight No.3 : 2021-04-13 00:29:41 Warning Initialization of mysqld failed: 0
+Suspicious word:    mysqld    with key:    Program: 9909/mysqld    and value:    Port: tcp/3306
+Suspicious word:    0    with key:    Conf: nice    and value:    0
+Problem Spotlight No.4 : 2021-04-13 07:28:38 Warning CA certificate ca.pem is self signed.
+Problem Spotlight No.5 : 2021-04-13 07:28:38 Warning TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+Problem Spotlight No.6 : 2021-04-13 07:28:38 Note InnoDB: Buffer pool(s) dump completed at 210413  0:28:38
+Problem Spotlight No.7 : 2021-04-13 07:28:38 Note InnoDB: Dumping buffer pool(s) to /var/lib/mysql/ib_buffer_pool
+Problem Spotlight No.8 : 2021-04-13 07:28:38 Note InnoDB: Starting shutdown...
+Problem Spotlight No.9 : 2021-04-13 07:28:38 Note InnoDB: Buffer pool(s) load completed at 210413  0:28:38
+Mysql DisConnect
+Time Using: 5.64181 s

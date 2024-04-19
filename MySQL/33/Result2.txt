@@ -1,0 +1,27 @@
+Connect Database log success
+Create Table MysqlLog Success
+Starting Parse Mysql Log
+Starting Parse Sys Log
+Computing Problem Spotlight
+Create Table MysqlMsg Success
+Mysql DisConnect
+Using Augeas to Parse Configuration File
+Extract key-value Finished
+Extract Env Finished
+Connect Mysql wise success
+Giving Problem Spotlight and Resolve Spotlight
+Problem Spotlight No.0 : 2021-04-21 08:32:34 Error Aborting
+Problem Spotlight No.1 : 2021-04-21 08:32:34 Error mysqld: Error while setting value '1TB' to 'query_cache_size'
+Suspicious word:    query_cache_size    with key:    Conf: query_cache_size    and value:    1TB
+Suspicious word:    mysqld    with key:    Program: 9909/mysqld    and value:    Port: tcp/3306
+Knowledge Database Configuration:    wrong Conf value's key: max_allowed_packet    Infomation:    
+Problem Spotlight No.2 : 2021-04-21 08:32:34 Error Unknown suffix 'T' used for variable 'query_cache_size' (value '1TB')
+Problem Spotlight No.3 : 2021-04-21 01:32:34 Warning Once the problem is resolved, restart the service.
+Problem Spotlight No.4 : 2021-04-21 01:32:34 Warning Please take a look at https://wiki.debian.org/Teams/MySQL/FAQ for tips on fixing common upgrade issues.
+Problem Spotlight No.5 : 2021-04-21 01:32:34 Warning ERROR: Unable to start MySQL server:
+Problem Spotlight No.6 : 2021-04-21 06:49:36 Warning CA certificate ca.pem is self signed.
+Problem Spotlight No.7 : 2021-04-21 06:49:31 Warning TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+Problem Spotlight No.8 : 2021-04-21 06:50:20 Note /usr/sbin/mysqld: Shutdown complete
+Problem Spotlight No.9 : 2021-04-21 06:50:20 Note Shutting down plugin 'binlog'
+Mysql DisConnect
+Time Using: 1.30303 s

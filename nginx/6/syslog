@@ -1,0 +1,24 @@
+Apr 25 20:03:24 ubuntu jetbrains-pycharm-ce.desktop[37465]: OpenJDK 64-Bit Server VM warning: Option UseConcMarkSweepGC was deprecated in version 9.0 and will likely be removed in a future release.
+Apr 25 20:03:26 ubuntu jetbrains-pycharm-ce.desktop[37465]: 2021-04-25 20:03:26,833 [   1487]   WARN - llij.ide.plugins.PluginManager - Resource bundle redefinition for plugin 'com.jetbrains.pycharm.community.customization'. Old value: messages.ActionsBundle, new value: messages.PyBundle
+Apr 25 20:03:27 ubuntu org.gnome.Shell.desktop[1827]: Window manager warning: Window 0x500002e (win0) sets an MWM hint indicating it isn't resizable, but sets min size 1 x 1 and max size 2147483647 x 2147483647; this doesn't make much sense.
+Apr 25 20:03:28 ubuntu jetbrains-pycharm-ce.desktop[37465]: 2021-04-25 20:03:28,885 [   3539]   WARN - nSystem.impl.ActionManagerImpl - keymap "Visual Studio" not found [Plugin: com.intellij]
+Apr 25 20:03:28 ubuntu jetbrains-pycharm-ce.desktop[37465]: 2021-04-25 20:03:28,897 [   3551]   WARN - nSystem.impl.ActionManagerImpl - keymap "Eclipse" not found [Plugin: com.intellij]
+Apr 25 20:03:28 ubuntu jetbrains-pycharm-ce.desktop[37465]: 2021-04-25 20:03:28,898 [   3552]   WARN - nSystem.impl.ActionManagerImpl - keymap "NetBeans 6.5" not found [Plugin: com.intellij]
+Apr 25 20:03:28 ubuntu jetbrains-pycharm-ce.desktop[37465]: 2021-04-25 20:03:28,899 [   3553]   WARN - nSystem.impl.ActionManagerImpl - keymap "Visual Studio" not found [Plugin: com.intellij]
+Apr 25 20:03:29 ubuntu jetbrains-pycharm-ce.desktop[37465]: 2021-04-25 20:03:29,064 [   3718]   WARN - nSystem.impl.ActionManagerImpl - keymap "Eclipse" not found [Plugin: org.jetbrains.plugins.github]
+Apr 25 20:03:29 ubuntu jetbrains-pycharm-ce.desktop[37465]: 2021-04-25 20:03:29,117 [   3771]   WARN - nSystem.impl.ActionManagerImpl - keymap "Eclipse" not found [Plugin: PythonCore]
+Apr 25 20:03:29 ubuntu jetbrains-pycharm-ce.desktop[37465]: 2021-04-25 20:03:29,117 [   3771]   WARN - nSystem.impl.ActionManagerImpl - keymap "NetBeans 6.5" not found [Plugin: PythonCore]
+Apr 25 20:03:51 ubuntu systemd[1]: Stopping A high performance web server and a reverse proxy server...
+Apr 25 20:03:51 ubuntu systemd[1]: Stopped A high performance web server and a reverse proxy server.
+Apr 25 20:03:51 ubuntu systemd[1]: Starting A high performance web server and a reverse proxy server...
+Apr 25 20:03:51 ubuntu nginx[37781]: nginx: [emerg] unknown directive "multi_acept" in /etc/nginx/nginx.conf:8
+Apr 25 20:03:51 ubuntu nginx[37781]: nginx: configuration file /etc/nginx/nginx.conf test failed
+Apr 25 20:03:51 ubuntu systemd[1]: nginx.service: Control process exited, code=exited status=1
+Apr 25 20:03:51 ubuntu systemd[1]: nginx.service: Failed with result 'exit-code'.
+Apr 25 20:03:51 ubuntu systemd[1]: Failed to start A high performance web server and a reverse proxy server.
+Apr 25 20:03:53 ubuntu systemd[1]: Starting A high performance web server and a reverse proxy server...
+Apr 25 20:03:53 ubuntu nginx[37788]: nginx: [emerg] unknown directive "multi_acept" in /etc/nginx/nginx.conf:8
+Apr 25 20:03:53 ubuntu nginx[37788]: nginx: configuration file /etc/nginx/nginx.conf test failed
+Apr 25 20:03:53 ubuntu systemd[1]: nginx.service: Control process exited, code=exited status=1
+Apr 25 20:03:53 ubuntu systemd[1]: nginx.service: Failed with result 'exit-code'.
+Apr 25 20:03:53 ubuntu systemd[1]: Failed to start A high performance web server and a reverse proxy server.

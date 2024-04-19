@@ -1,0 +1,257 @@
+2021/04/28 16:47:22 [debug] 64733#64733: epoll add event: fd:6 op:1 ev:10000001
+2021/04/28 16:47:22 [debug] 64733#64733: epoll add event: fd:7 op:1 ev:10000001
+2021/04/28 16:47:22 [debug] 64734#64734: epoll add event: fd:6 op:1 ev:10000001
+2021/04/28 16:47:22 [debug] 64734#64734: epoll add event: fd:7 op:1 ev:10000001
+2021/04/28 16:47:22 [debug] 64735#64735: epoll add event: fd:6 op:1 ev:10000001
+2021/04/28 16:47:22 [debug] 64735#64735: epoll add event: fd:7 op:1 ev:10000001
+2021/04/28 16:47:22 [debug] 64736#64736: epoll add event: fd:6 op:1 ev:10000001
+2021/04/28 16:47:22 [debug] 64736#64736: epoll add event: fd:7 op:1 ev:10000001
+2021/04/28 16:47:34 [debug] 64733#64733: accept on 0.0.0.0:80, ready: 0
+2021/04/28 16:47:34 [debug] 64733#64733: posix_memalign: 000055E24EB13920:512 @16
+2021/04/28 16:47:34 [debug] 64733#64733: *1 accept: 127.0.0.1:48738 fd:14
+2021/04/28 16:47:34 [debug] 64733#64733: *1 event timer add: 14: 60000:101834771
+2021/04/28 16:47:34 [debug] 64733#64733: *1 reusable connection: 1
+2021/04/28 16:47:34 [debug] 64733#64733: *1 epoll add event: fd:14 op:1 ev:80002001
+2021/04/28 16:47:34 [debug] 64733#64733: *1 http wait request handler
+2021/04/28 16:47:34 [debug] 64733#64733: *1 malloc: 000055E24EB14330:1024
+2021/04/28 16:47:34 [debug] 64733#64733: *1 recv: eof:0, avail:1
+2021/04/28 16:47:34 [debug] 64733#64733: *1 recv: fd:14 482 of 1024
+2021/04/28 16:47:34 [debug] 64733#64733: *1 reusable connection: 0
+2021/04/28 16:47:34 [debug] 64733#64733: *1 posix_memalign: 000055E24EB2AB40:4096 @16
+2021/04/28 16:47:34 [debug] 64733#64733: *1 http process request line
+2021/04/28 16:47:34 [debug] 64733#64733: *1 http request line: "GET / HTTP/1.1"
+2021/04/28 16:47:34 [debug] 64733#64733: *1 http uri: "/"
+2021/04/28 16:47:34 [debug] 64733#64733: *1 http args: ""
+2021/04/28 16:47:34 [debug] 64733#64733: *1 http exten: ""
+2021/04/28 16:47:34 [debug] 64733#64733: *1 posix_memalign: 000055E24EB5EDE0:4096 @16
+2021/04/28 16:47:34 [debug] 64733#64733: *1 http process request header line
+2021/04/28 16:47:34 [debug] 64733#64733: *1 http header: "Host: localhost"
+2021/04/28 16:47:34 [debug] 64733#64733: *1 http header: "User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:87.0) Gecko/20100101 Firefox/87.0"
+2021/04/28 16:47:34 [debug] 64733#64733: *1 http header: "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8"
+2021/04/28 16:47:34 [debug] 64733#64733: *1 http header: "Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2"
+2021/04/28 16:47:34 [debug] 64733#64733: *1 http header: "Accept-Encoding: gzip, deflate"
+2021/04/28 16:47:34 [debug] 64733#64733: *1 http header: "Connection: keep-alive"
+2021/04/28 16:47:34 [debug] 64733#64733: *1 http header: "Upgrade-Insecure-Requests: 1"
+2021/04/28 16:47:34 [debug] 64733#64733: *1 http header: "If-Modified-Since: Fri, 23 Apr 2021 07:39:14 GMT"
+2021/04/28 16:47:34 [debug] 64733#64733: *1 http header: "If-None-Match: W/"608279a2-264""
+2021/04/28 16:47:34 [debug] 64733#64733: *1 http header: "Cache-Control: max-age=0"
+2021/04/28 16:47:34 [debug] 64733#64733: *1 http header done
+2021/04/28 16:47:34 [debug] 64733#64733: *1 event timer del: 14: 101834771
+2021/04/28 16:47:34 [debug] 64733#64733: *1 generic phase: 0
+2021/04/28 16:47:34 [debug] 64733#64733: *1 rewrite phase: 1
+2021/04/28 16:47:34 [debug] 64733#64733: *1 test location: "/"
+2021/04/28 16:47:34 [debug] 64733#64733: *1 using configuration "/"
+2021/04/28 16:47:34 [debug] 64733#64733: *1 http cl:-1 max:1048576
+2021/04/28 16:47:34 [debug] 64733#64733: *1 rewrite phase: 3
+2021/04/28 16:47:34 [debug] 64733#64733: *1 post rewrite phase: 4
+2021/04/28 16:47:34 [debug] 64733#64733: *1 generic phase: 5
+2021/04/28 16:47:34 [debug] 64733#64733: *1 generic phase: 6
+2021/04/28 16:47:34 [debug] 64733#64733: *1 generic phase: 7
+2021/04/28 16:47:34 [debug] 64733#64733: *1 access phase: 8
+2021/04/28 16:47:34 [debug] 64733#64733: *1 access phase: 9
+2021/04/28 16:47:34 [debug] 64733#64733: *1 access phase: 10
+2021/04/28 16:47:34 [debug] 64733#64733: *1 post access phase: 11
+2021/04/28 16:47:34 [debug] 64733#64733: *1 generic phase: 12
+2021/04/28 16:47:34 [debug] 64733#64733: *1 try files handler
+2021/04/28 16:47:34 [debug] 64733#64733: *1 http script var: "/"
+2021/04/28 16:47:34 [debug] 64733#64733: *1 trying to use file: "/" "/var/www/html/"
+2021/04/28 16:47:34 [debug] 64733#64733: *1 http script var: "/"
+2021/04/28 16:47:34 [debug] 64733#64733: *1 trying to use dir: "/" "/var/www/html/"
+2021/04/28 16:47:34 [debug] 64733#64733: *1 try file uri: "/"
+2021/04/28 16:47:34 [debug] 64733#64733: *1 generic phase: 13
+2021/04/28 16:47:34 [debug] 64733#64733: *1 content phase: 14
+2021/04/28 16:47:34 [debug] 64733#64733: *1 open index "/var/www/html/index.html"
+2021/04/28 16:47:34 [debug] 64733#64733: *1 stat() "/var/www/html/index.html" failed (2: No such file or directory)
+2021/04/28 16:47:34 [debug] 64733#64733: *1 http index check dir: "/var/www/html"
+2021/04/28 16:47:34 [debug] 64733#64733: *1 open index "/var/www/html/index.htm"
+2021/04/28 16:47:34 [debug] 64733#64733: *1 stat() "/var/www/html/index.htm" failed (2: No such file or directory)
+2021/04/28 16:47:34 [debug] 64733#64733: *1 open index "/var/www/html/index.nginx-debian.html"
+2021/04/28 16:47:34 [debug] 64733#64733: *1 internal redirect: "/index.nginx-debian.html?"
+2021/04/28 16:47:34 [debug] 64733#64733: *1 rewrite phase: 1
+2021/04/28 16:47:34 [debug] 64733#64733: *1 test location: "/"
+2021/04/28 16:47:34 [debug] 64733#64733: *1 using configuration "/"
+2021/04/28 16:47:34 [debug] 64733#64733: *1 http cl:-1 max:1048576
+2021/04/28 16:47:34 [debug] 64733#64733: *1 rewrite phase: 3
+2021/04/28 16:47:34 [debug] 64733#64733: *1 post rewrite phase: 4
+2021/04/28 16:47:34 [debug] 64733#64733: *1 generic phase: 5
+2021/04/28 16:47:34 [debug] 64733#64733: *1 generic phase: 6
+2021/04/28 16:47:34 [debug] 64733#64733: *1 generic phase: 7
+2021/04/28 16:47:34 [debug] 64733#64733: *1 access phase: 8
+2021/04/28 16:47:34 [debug] 64733#64733: *1 access phase: 9
+2021/04/28 16:47:34 [debug] 64733#64733: *1 access phase: 10
+2021/04/28 16:47:34 [debug] 64733#64733: *1 post access phase: 11
+2021/04/28 16:47:34 [debug] 64733#64733: *1 generic phase: 12
+2021/04/28 16:47:34 [debug] 64733#64733: *1 try files handler
+2021/04/28 16:47:34 [debug] 64733#64733: *1 http script var: "/index.nginx-debian.html"
+2021/04/28 16:47:34 [debug] 64733#64733: *1 trying to use file: "/index.nginx-debian.html" "/var/www/html/index.nginx-debian.html"
+2021/04/28 16:47:34 [debug] 64733#64733: *1 try file uri: "/index.nginx-debian.html"
+2021/04/28 16:47:34 [debug] 64733#64733: *1 generic phase: 13
+2021/04/28 16:47:34 [debug] 64733#64733: *1 content phase: 14
+2021/04/28 16:47:34 [debug] 64733#64733: *1 content phase: 15
+2021/04/28 16:47:34 [debug] 64733#64733: *1 content phase: 16
+2021/04/28 16:47:34 [debug] 64733#64733: *1 content phase: 17
+2021/04/28 16:47:34 [debug] 64733#64733: *1 content phase: 18
+2021/04/28 16:47:34 [debug] 64733#64733: *1 http filename: "/var/www/html/index.nginx-debian.html"
+2021/04/28 16:47:34 [debug] 64733#64733: *1 add cleanup: 000055E24EB2B9A0
+2021/04/28 16:47:34 [debug] 64733#64733: *1 http static fd: 15
+2021/04/28 16:47:34 [debug] 64733#64733: *1 http set discard body
+2021/04/28 16:47:34 [debug] 64733#64733: *1 http ims:1619163554 lm:1619163554
+2021/04/28 16:47:34 [debug] 64733#64733: *1 http im:"W/"608279a2-264"" etag:"608279a2-264"
+2021/04/28 16:47:34 [debug] 64733#64733: *1 xslt filter header
+2021/04/28 16:47:34 [debug] 64733#64733: *1 HTTP/1.1 304 Not Modified
+Server: nginx/1.14.0 (Ubuntu)
+Date: Wed, 28 Apr 2021 08:47:34 GMT
+Last-Modified: Fri, 23 Apr 2021 07:39:14 GMT
+Connection: keep-alive
+ETag: "608279a2-264"
+
+2021/04/28 16:47:34 [debug] 64733#64733: *1 write new buf t:1 f:0 000055E24EB5F210, pos 000055E24EB5F210, size: 189 file: 0, size: 0
+2021/04/28 16:47:34 [debug] 64733#64733: *1 http write filter: l:1 f:0 s:189
+2021/04/28 16:47:34 [debug] 64733#64733: *1 http write filter limit 0
+2021/04/28 16:47:34 [debug] 64733#64733: *1 writev: 189 of 189
+2021/04/28 16:47:34 [debug] 64733#64733: *1 http write filter 0000000000000000
+2021/04/28 16:47:34 [debug] 64733#64733: *1 http finalize request: 0, "/index.nginx-debian.html?" a:1, c:2
+2021/04/28 16:47:34 [debug] 64733#64733: *1 http request count:2 blk:0
+2021/04/28 16:47:34 [debug] 64733#64733: *1 http finalize request: -4, "/index.nginx-debian.html?" a:1, c:1
+2021/04/28 16:47:34 [debug] 64733#64733: *1 set http keepalive handler
+2021/04/28 16:47:34 [debug] 64733#64733: *1 http close request
+2021/04/28 16:47:34 [debug] 64733#64733: *1 http log handler
+2021/04/28 16:47:34 [debug] 64733#64733: *1 run cleanup: 000055E24EB2B9A0
+2021/04/28 16:47:34 [debug] 64733#64733: *1 file cleanup: fd:15
+2021/04/28 16:47:34 [debug] 64733#64733: *1 free: 000055E24EB2AB40, unused: 0
+2021/04/28 16:47:34 [debug] 64733#64733: *1 free: 000055E24EB5EDE0, unused: 2650
+2021/04/28 16:47:34 [debug] 64733#64733: *1 free: 000055E24EB14330
+2021/04/28 16:47:34 [debug] 64733#64733: *1 hc free: 0000000000000000
+2021/04/28 16:47:34 [debug] 64733#64733: *1 hc busy: 0000000000000000 0
+2021/04/28 16:47:34 [debug] 64733#64733: *1 tcp_nodelay
+2021/04/28 16:47:34 [debug] 64733#64733: *1 reusable connection: 1
+2021/04/28 16:47:34 [debug] 64733#64733: *1 event timer add: 14: 65000:101839771
+2021/04/28 16:47:34 [debug] 64733#64733: *1 http keepalive handler
+2021/04/28 16:47:34 [debug] 64733#64733: *1 malloc: 000055E24EB14330:1024
+2021/04/28 16:47:34 [debug] 64733#64733: *1 recv: eof:0, avail:1
+2021/04/28 16:47:34 [debug] 64733#64733: *1 recv: fd:14 482 of 1024
+2021/04/28 16:47:34 [debug] 64733#64733: *1 reusable connection: 0
+2021/04/28 16:47:34 [debug] 64733#64733: *1 posix_memalign: 000055E24EB2AB40:4096 @16
+2021/04/28 16:47:34 [debug] 64733#64733: *1 event timer del: 14: 101839771
+2021/04/28 16:47:34 [debug] 64733#64733: *1 http process request line
+2021/04/28 16:47:34 [debug] 64733#64733: *1 http request line: "GET / HTTP/1.1"
+2021/04/28 16:47:34 [debug] 64733#64733: *1 http uri: "/"
+2021/04/28 16:47:34 [debug] 64733#64733: *1 http args: ""
+2021/04/28 16:47:34 [debug] 64733#64733: *1 http exten: ""
+2021/04/28 16:47:34 [debug] 64733#64733: *1 posix_memalign: 000055E24EB5EDE0:4096 @16
+2021/04/28 16:47:34 [debug] 64733#64733: *1 http process request header line
+2021/04/28 16:47:34 [debug] 64733#64733: *1 http header: "Host: localhost"
+2021/04/28 16:47:34 [debug] 64733#64733: *1 http header: "User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:87.0) Gecko/20100101 Firefox/87.0"
+2021/04/28 16:47:34 [debug] 64733#64733: *1 http header: "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8"
+2021/04/28 16:47:34 [debug] 64733#64733: *1 http header: "Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2"
+2021/04/28 16:47:34 [debug] 64733#64733: *1 http header: "Accept-Encoding: gzip, deflate"
+2021/04/28 16:47:34 [debug] 64733#64733: *1 http header: "Connection: keep-alive"
+2021/04/28 16:47:34 [debug] 64733#64733: *1 http header: "Upgrade-Insecure-Requests: 1"
+2021/04/28 16:47:34 [debug] 64733#64733: *1 http header: "If-Modified-Since: Fri, 23 Apr 2021 07:39:14 GMT"
+2021/04/28 16:47:34 [debug] 64733#64733: *1 http header: "If-None-Match: W/"608279a2-264""
+2021/04/28 16:47:34 [debug] 64733#64733: *1 http header: "Cache-Control: max-age=0"
+2021/04/28 16:47:34 [debug] 64733#64733: *1 http header done
+2021/04/28 16:47:34 [debug] 64733#64733: *1 generic phase: 0
+2021/04/28 16:47:34 [debug] 64733#64733: *1 rewrite phase: 1
+2021/04/28 16:47:34 [debug] 64733#64733: *1 test location: "/"
+2021/04/28 16:47:34 [debug] 64733#64733: *1 using configuration "/"
+2021/04/28 16:47:34 [debug] 64733#64733: *1 http cl:-1 max:1048576
+2021/04/28 16:47:34 [debug] 64733#64733: *1 rewrite phase: 3
+2021/04/28 16:47:34 [debug] 64733#64733: *1 post rewrite phase: 4
+2021/04/28 16:47:34 [debug] 64733#64733: *1 generic phase: 5
+2021/04/28 16:47:34 [debug] 64733#64733: *1 generic phase: 6
+2021/04/28 16:47:34 [debug] 64733#64733: *1 generic phase: 7
+2021/04/28 16:47:34 [debug] 64733#64733: *1 access phase: 8
+2021/04/28 16:47:34 [debug] 64733#64733: *1 access phase: 9
+2021/04/28 16:47:34 [debug] 64733#64733: *1 access phase: 10
+2021/04/28 16:47:34 [debug] 64733#64733: *1 post access phase: 11
+2021/04/28 16:47:34 [debug] 64733#64733: *1 generic phase: 12
+2021/04/28 16:47:34 [debug] 64733#64733: *1 try files handler
+2021/04/28 16:47:34 [debug] 64733#64733: *1 http script var: "/"
+2021/04/28 16:47:34 [debug] 64733#64733: *1 trying to use file: "/" "/var/www/html/"
+2021/04/28 16:47:34 [debug] 64733#64733: *1 http script var: "/"
+2021/04/28 16:47:34 [debug] 64733#64733: *1 trying to use dir: "/" "/var/www/html/"
+2021/04/28 16:47:34 [debug] 64733#64733: *1 try file uri: "/"
+2021/04/28 16:47:34 [debug] 64733#64733: *1 generic phase: 13
+2021/04/28 16:47:34 [debug] 64733#64733: *1 content phase: 14
+2021/04/28 16:47:34 [debug] 64733#64733: *1 open index "/var/www/html/index.html"
+2021/04/28 16:47:34 [debug] 64733#64733: *1 stat() "/var/www/html/index.html" failed (2: No such file or directory)
+2021/04/28 16:47:34 [debug] 64733#64733: *1 http index check dir: "/var/www/html"
+2021/04/28 16:47:34 [debug] 64733#64733: *1 open index "/var/www/html/index.htm"
+2021/04/28 16:47:34 [debug] 64733#64733: *1 stat() "/var/www/html/index.htm" failed (2: No such file or directory)
+2021/04/28 16:47:34 [debug] 64733#64733: *1 open index "/var/www/html/index.nginx-debian.html"
+2021/04/28 16:47:34 [debug] 64733#64733: *1 internal redirect: "/index.nginx-debian.html?"
+2021/04/28 16:47:34 [debug] 64733#64733: *1 rewrite phase: 1
+2021/04/28 16:47:34 [debug] 64733#64733: *1 test location: "/"
+2021/04/28 16:47:34 [debug] 64733#64733: *1 using configuration "/"
+2021/04/28 16:47:34 [debug] 64733#64733: *1 http cl:-1 max:1048576
+2021/04/28 16:47:34 [debug] 64733#64733: *1 rewrite phase: 3
+2021/04/28 16:47:34 [debug] 64733#64733: *1 post rewrite phase: 4
+2021/04/28 16:47:34 [debug] 64733#64733: *1 generic phase: 5
+2021/04/28 16:47:34 [debug] 64733#64733: *1 generic phase: 6
+2021/04/28 16:47:34 [debug] 64733#64733: *1 generic phase: 7
+2021/04/28 16:47:34 [debug] 64733#64733: *1 access phase: 8
+2021/04/28 16:47:34 [debug] 64733#64733: *1 access phase: 9
+2021/04/28 16:47:34 [debug] 64733#64733: *1 access phase: 10
+2021/04/28 16:47:34 [debug] 64733#64733: *1 post access phase: 11
+2021/04/28 16:47:34 [debug] 64733#64733: *1 generic phase: 12
+2021/04/28 16:47:34 [debug] 64733#64733: *1 try files handler
+2021/04/28 16:47:34 [debug] 64733#64733: *1 http script var: "/index.nginx-debian.html"
+2021/04/28 16:47:34 [debug] 64733#64733: *1 trying to use file: "/index.nginx-debian.html" "/var/www/html/index.nginx-debian.html"
+2021/04/28 16:47:34 [debug] 64733#64733: *1 try file uri: "/index.nginx-debian.html"
+2021/04/28 16:47:34 [debug] 64733#64733: *1 generic phase: 13
+2021/04/28 16:47:34 [debug] 64733#64733: *1 content phase: 14
+2021/04/28 16:47:34 [debug] 64733#64733: *1 content phase: 15
+2021/04/28 16:47:34 [debug] 64733#64733: *1 content phase: 16
+2021/04/28 16:47:34 [debug] 64733#64733: *1 content phase: 17
+2021/04/28 16:47:34 [debug] 64733#64733: *1 content phase: 18
+2021/04/28 16:47:34 [debug] 64733#64733: *1 http filename: "/var/www/html/index.nginx-debian.html"
+2021/04/28 16:47:34 [debug] 64733#64733: *1 add cleanup: 000055E24EB2B9A0
+2021/04/28 16:47:34 [debug] 64733#64733: *1 http static fd: 15
+2021/04/28 16:47:34 [debug] 64733#64733: *1 http set discard body
+2021/04/28 16:47:34 [debug] 64733#64733: *1 http ims:1619163554 lm:1619163554
+2021/04/28 16:47:34 [debug] 64733#64733: *1 http im:"W/"608279a2-264"" etag:"608279a2-264"
+2021/04/28 16:47:34 [debug] 64733#64733: *1 xslt filter header
+2021/04/28 16:47:34 [debug] 64733#64733: *1 HTTP/1.1 304 Not Modified
+Server: nginx/1.14.0 (Ubuntu)
+Date: Wed, 28 Apr 2021 08:47:34 GMT
+Last-Modified: Fri, 23 Apr 2021 07:39:14 GMT
+Connection: keep-alive
+ETag: "608279a2-264"
+
+2021/04/28 16:47:34 [debug] 64733#64733: *1 write new buf t:1 f:0 000055E24EB5F210, pos 000055E24EB5F210, size: 189 file: 0, size: 0
+2021/04/28 16:47:34 [debug] 64733#64733: *1 http write filter: l:1 f:0 s:189
+2021/04/28 16:47:34 [debug] 64733#64733: *1 http write filter limit 0
+2021/04/28 16:47:34 [debug] 64733#64733: *1 writev: 189 of 189
+2021/04/28 16:47:34 [debug] 64733#64733: *1 http write filter 0000000000000000
+2021/04/28 16:47:34 [debug] 64733#64733: *1 http finalize request: 0, "/index.nginx-debian.html?" a:1, c:2
+2021/04/28 16:47:34 [debug] 64733#64733: *1 http request count:2 blk:0
+2021/04/28 16:47:34 [debug] 64733#64733: *1 http finalize request: -4, "/index.nginx-debian.html?" a:1, c:1
+2021/04/28 16:47:34 [debug] 64733#64733: *1 set http keepalive handler
+2021/04/28 16:47:34 [debug] 64733#64733: *1 http close request
+2021/04/28 16:47:34 [debug] 64733#64733: *1 http log handler
+2021/04/28 16:47:34 [debug] 64733#64733: *1 run cleanup: 000055E24EB2B9A0
+2021/04/28 16:47:34 [debug] 64733#64733: *1 file cleanup: fd:15
+2021/04/28 16:47:34 [debug] 64733#64733: *1 free: 000055E24EB2AB40, unused: 0
+2021/04/28 16:47:34 [debug] 64733#64733: *1 free: 000055E24EB5EDE0, unused: 2650
+2021/04/28 16:47:34 [debug] 64733#64733: *1 free: 000055E24EB14330
+2021/04/28 16:47:34 [debug] 64733#64733: *1 hc free: 0000000000000000
+2021/04/28 16:47:34 [debug] 64733#64733: *1 hc busy: 0000000000000000 0
+2021/04/28 16:47:34 [debug] 64733#64733: *1 reusable connection: 1
+2021/04/28 16:47:34 [debug] 64733#64733: *1 event timer add: 14: 65000:101839939
+2021/04/28 16:48:00 [debug] 64736#64736: epoll del event: fd:6 op:2 ev:00000000
+2021/04/28 16:48:00 [debug] 64736#64736: epoll del event: fd:7 op:2 ev:00000000
+2021/04/28 16:48:00 [debug] 64733#64733: epoll del event: fd:6 op:2 ev:00000000
+2021/04/28 16:48:00 [debug] 64735#64735: epoll del event: fd:6 op:2 ev:00000000
+2021/04/28 16:48:00 [debug] 64734#64734: epoll del event: fd:6 op:2 ev:00000000
+2021/04/28 16:48:00 [debug] 64733#64733: epoll del event: fd:7 op:2 ev:00000000
+2021/04/28 16:48:00 [debug] 64735#64735: epoll del event: fd:7 op:2 ev:00000000
+2021/04/28 16:48:00 [debug] 64733#64733: *1 http keepalive handler
+2021/04/28 16:48:00 [debug] 64733#64733: *1 close http connection: 14
+2021/04/28 16:48:00 [debug] 64733#64733: *1 event timer del: 14: 101839939
+2021/04/28 16:48:00 [debug] 64734#64734: epoll del event: fd:7 op:2 ev:00000000
+2021/04/28 16:48:00 [debug] 64733#64733: *1 reusable connection: 0
+2021/04/28 16:48:00 [debug] 64733#64733: *1 free: 0000000000000000
+2021/04/28 16:48:00 [debug] 64733#64733: *1 free: 000055E24EB13920, unused: 136
+2021/04/28 16:48:00 [emerg] 64752#64752: invalid value "no" in "proxy" directive, it must be "on" or "off" in /etc/nginx/nginx.conf:77
+2021/04/28 16:48:01 [emerg] 64758#64758: invalid value "no" in "proxy" directive, it must be "on" or "off" in /etc/nginx/nginx.conf:77

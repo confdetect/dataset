@@ -1,0 +1,21 @@
+[rospy.client][INFO] 2021-05-18 13:14:45,462: init_node, name[/keyboard_teleop], pid[66738]
+[xmlrpc][INFO] 2021-05-18 13:14:45,466: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2021-05-18 13:14:45,466: Started XML-RPC server [http://ubuntu:41809/]
+[rospy.impl.masterslave][INFO] 2021-05-18 13:14:45,466: _ready: http://ubuntu:41809/
+[xmlrpc][INFO] 2021-05-18 13:14:45,467: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2021-05-18 13:14:45,467: Registering with master node http://localhost:11311
+[rospy.init][INFO] 2021-05-18 13:14:45,474: ROS Slave URI: [http://ubuntu:41809/]
+[rospy.init][INFO] 2021-05-18 13:14:45,476: registered with master
+[rospy.rosout][INFO] 2021-05-18 13:14:45,476: initializing /rosout core topic
+[rospy.rosout][INFO] 2021-05-18 13:14:45,480: connected to core topic /rosout
+[rospy.simtime][INFO] 2021-05-18 13:14:45,483: initializing /clock core topic
+[rospy.simtime][INFO] 2021-05-18 13:14:45,486: connected to core topic /clock
+[rospy.internal][INFO] 2021-05-18 13:14:45,737: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2021-05-18 13:14:45,801: topic[/vesc/low_level/ackermann_cmd_mux/input/teleop] adding connection to [/vesc/low_level/ackermann_cmd_mux_nodelet_manager], count 0
+[rospy.internal][INFO] 2021-05-18 13:14:47,671: topic[/clock] adding connection to [http://ubuntu:39467/], count 0
+[rospy.core][INFO] 2021-05-18 13:14:57,223: signal_shutdown [shutdown]
+[rospy.internal][INFO] 2021-05-18 13:14:57,225: topic[/vesc/low_level/ackermann_cmd_mux/input/teleop] removing connection to /vesc/low_level/ackermann_cmd_mux_nodelet_manager
+[rospy.internal][INFO] 2021-05-18 13:14:57,226: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2021-05-18 13:14:57,226: topic[/clock] removing connection to http://ubuntu:39467/
+[rospy.impl.masterslave][INFO] 2021-05-18 13:14:57,226: shutdown
+[rospy.core][INFO] 2021-05-18 13:14:57,374: signal_shutdown [atexit]

@@ -1,0 +1,24 @@
+Connect Mysql log success
+Create Table NginxLog Success
+Starting Parse Nginx Log
+Starting Parse Sys Log
+Computing Problem Spotlight
+Create Table NginxMsg Success
+Mysql DisConnect
+Using Augeas to Parse Configuration File
+Extract key-value Finished
+Extract Env Finished
+Connect Database wise success
+Giving Problem Spotlight and Resolve Spotlight
+Problem Spotlight No.0 : pread() "/etc/nginx/sites-enabled" failed (21: Is a directory)
+Suspicious word:    /etc/nginx/sites-enabled    with key:    Conf: include[3]    and value:    /etc/nginx/sites-enabled
+Problem Spotlight No.1 : nginx.service: Failed with result 'exit-code'.
+Problem Spotlight No.2 : nginx.service: Control process exited, code=exited status=1
+Problem Spotlight No.3 : nginx: configuration file /etc/nginx/nginx.conf test failed
+Problem Spotlight No.4 : *2 free: 000055EA416CA920, unused: 136
+Problem Spotlight No.5 : *2 free: 0000000000000000
+Problem Spotlight No.6 : epoll del event: fd:7 op:2 ev:00000000
+Problem Spotlight No.7 : *2 reusable connection: 0
+Problem Spotlight No.8 : *2 event timer del: 13: 92947440
+Problem Spotlight No.9 : epoll del event: fd:6 op:2 ev:00000000
+Mysql DisConnect

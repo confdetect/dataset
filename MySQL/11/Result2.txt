@@ -1,0 +1,28 @@
+Connect Database log success
+Create Table MysqlLog Success
+Starting Parse Mysql Log
+Starting Parse Sys Log
+Computing Problem Spotlight
+Create Table MysqlMsg Success
+Mysql DisConnect
+Using Augeas to Parse Configuration File
+Extract key-value Finished
+Extract Env Finished
+Connect Mysql wise success
+Giving Problem Spotlight and Resolve Spotlight
+Problem Spotlight No.0 : 2021-04-15 05:37:43 Error Aborting
+Problem Spotlight No.1 : 2021-04-15 05:37:43 Error mysqld: Error while setting value '16B' to 'max_allowed_packet'
+Suspicious word:    max_allowed_packet    with key:    Conf: max_allowed_packet    and value:    16B
+Suspicious word:    mysqld    with key:    Program: 9909/mysqld    and value:    Port: tcp/3306
+Suspicious word:    16B    with key:    Conf: max_allowed_packet    and value:    16B
+Problem Spotlight No.2 : 2021-04-15 05:37:43 Error Unknown suffix 'B' used for variable 'max_allowed_packet' (value '16B')
+Problem Spotlight No.3 : 2021-04-14 22:37:43 Warning Once the problem is resolved, restart the service.
+Problem Spotlight No.4 : 2021-04-14 22:37:43 Warning Please take a look at https://wiki.debian.org/Teams/MySQL/FAQ for tips on fixing common upgrade issues.
+Problem Spotlight No.5 : 2021-04-14 22:37:43 Warning ERROR: Unable to start MySQL server:
+Problem Spotlight No.6 : 2021-04-15 05:36:35 Warning CA certificate ca.pem is self signed.
+Problem Spotlight No.7 : 2021-04-15 05:36:35 Warning TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+Problem Spotlight No.8 : 2021-04-15 05:37:42 Note /usr/sbin/mysqld: Shutdown complete
+Problem Spotlight No.9 : 2021-04-15 05:37:42 Note Shutting down plugin 'binlog'
+Update Row to Table MysqlWise Failed
+Mysql DisConnect
+Time Using: 1.22324 s

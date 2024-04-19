@@ -1,0 +1,253 @@
+Connect Mysql log success
+Create Table ROSLog Success
+Create Table ROSLog Success
+Starting Parse ROS Log
+ROS Log Match Failed: [0m[ INFO] [1619938652.876286200]: advertised as /vesc/low_level/ackermann_cmd_mux/input/navigation
+ROS Log Match Failed: [0m
+ROS Log Match Failed: [0m[ INFO] [1619938651.989992727]: Initializing nodelet with 4 worker threads.[0m
+ROS Log Match Failed: [0m[ INFO] [1619938652.103440804]: AckermannCmdMux : (re)configured [/home/liike/ROS/src/racecar/system/racecar/racecar/config/racecar-v2/low_level_mux.yaml][0m
+Insert Row to Table ROSLog Failed
+Insert Row to Table ROSLog Failed
+ROS Log Match Failed: 
+ROS Log Match Failed: 
+ROS Log Match Failed: 0.000000000  Node Startup
+ROS Log Match Failed: 0.000000000 INFO /vesc/high_level/ackermann_cmd_mux [/tmp/binarydeb/ros-melodic-roscpp-1.14.10/src/libros/service.cpp:80(service::exists)] [topics: /rosout] waitForService: Service [/vesc/high_level/ackermann_cmd_mux_nodelet_manager/load_nodelet] has not been advertised, waiting...
+ROS Log Match Failed: 0.000000000 INFO /vesc/high_level/ackermann_cmd_mux [/tmp/binarydeb/ros-melodic-roscpp-1.14.10/src/libros/service.cpp:123(service::waitForService)] [topics: /rosout] waitForService: Service [/vesc/high_level/ackermann_cmd_mux_nodelet_manager/load_nodelet] is now available.
+ROS Log Match Failed: 0.000000000 INFO /vesc/low_level/ackermann_cmd_mux [/tmp/binarydeb/ros-melodic-roscpp-1.14.10/src/libros/service.cpp:123(service::waitForService)] [topics: /rosout] waitForService: Service [/vesc/low_level/ackermann_cmd_mux_nodelet_manager/load_nodelet] is now available.
+ROS Log Match Failed: 0.000000000 INFO /vesc/high_level/ackermann_cmd_mux_nodelet_manager [/home/liike/ROS/src/racecar/system/racecar/ackermann_cmd_mux/src/ackermann_cmd_mux_nodelet.cpp:181(AckermannCmdMuxNodelet::reloadConfiguration)] [topics: /rosout, /vesc/high_level/ackermann_cmd_mux/parameter_descriptions, /vesc/high_level/ackermann_cmd_mux/parameter_updates, /vesc/high_level/ackermann_cmd_mux/output] AckermannCmdMux : (re)configured [/home/liike/ROS/src/racecar/system/racecar/racecar/config/racecar-v2/high_level_mux.yaml]
+ROS Log Match Failed: 0.000000000 INFO /vesc/low_level/ackermann_cmd_mux_nodelet_manager [/home/liike/ROS/src/racecar/system/racecar/ackermann_cmd_mux/src/ackermann_cmd_mux_nodelet.cpp:181(AckermannCmdMuxNodelet::reloadConfiguration)] [topics: /rosout, /vesc/low_level/ackermann_cmd_mux/parameter_descriptions, /vesc/low_level/ackermann_cmd_mux/parameter_updates, /vesc/low_level/ackermann_cmd_mux/output] AckermannCmdMux : (re)configured [/home/liike/ROS/src/racecar/system/racecar/racecar/config/racecar-v2/low_level_mux.yaml]
+ROS Log Match Failed: 0.000000000 INFO /gazebo [/tmp/binarydeb/ros-melodic-roscpp-1.14.10/src/libros/service.cpp:80(service::exists)] [topics: /rosout] waitForService: Service [/gazebo/set_physics_properties] has not been advertised, waiting...
+ROS Log Match Failed: 0.000000000 INFO /racecar/controller_manager [spawner:121(main)] [topics: /clock, /rosout] Controller Spawner: Waiting for service controller_manager/load_controller
+ROS Log Match Failed: 0.000000000 INFO /vesc/mux_chainer [/tmp/binarydeb/ros-melodic-topic-tools-1.14.10/src/relay.cpp:101(MessageEvent<topic_tools::ShapeShifter>&))] [topics: /rosout, /vesc/low_level/ackermann_cmd_mux/input/navigation] advertised as /vesc/low_level/ackermann_cmd_mux/input/navigation
+ROS Log Match Failed: 
+ROS Log Match Failed: 0.000000000 INFO /gazebo_gui [/tmp/binarydeb/ros-melodic-roscpp-1.14.10/src/libros/service.cpp:80(service::exists)] [topics: /rosout] waitForService: Service [/gazebo_gui/set_physics_properties] has not been advertised, waiting...
+ROS Log Match Failed: 0.000000000 INFO /racecar_spawn [gazebo_interface.py:27(spawn_urdf_model_client)] [topics: /clock, /rosout] Waiting for service /gazebo/spawn_urdf_model
+ROS Log Match Failed: 0.000000000 INFO /gazebo [/tmp/binarydeb/ros-melodic-roscpp-1.14.10/src/libros/service.cpp:123(service::waitForService)] [topics: /rosout, /clock, /gazebo/link_states, /gazebo/model_states] waitForService: Service [/gazebo/set_physics_properties] is now available.
+ROS Log Match Failed: 0.000000000 INFO /racecar_spawn [gazebo_interface.py:31(spawn_urdf_model_client)] [topics: /clock, /rosout] Calling service /gazebo/spawn_urdf_model
+ROS Log Match Failed: 0.032000000 INFO /gazebo [/tmp/binarydeb/ros-melodic-gazebo-ros-2.8.7/src/gazebo_ros_api_plugin.cpp:2334(GazeboRosApiPlugin::physicsReconfigureThread)] [topics: /rosout, /clock, /gazebo/link_states, /gazebo/model_states, /gazebo/parameter_descriptions, /gazebo/parameter_updates] Physics dynamic reconfigure ready.
+ROS Log Match Failed: 0.044000000 INFO /gazebo [/tmp/binarydeb/ros-melodic-gazebo-plugins-2.8.7/include/gazebo_plugins/gazebo_ros_utils.h:99(__cxx11::string gazebo::GetRobotNamespace)] [topics: /rosout, /clock, /gazebo/link_states, /gazebo/model_states, /gazebo/parameter_descriptions, /gazebo/parameter_updates] Laser Plugin: Using the 'robotNamespace' param: '/'
+ROS Log Match Failed: 0.044000000 INFO /gazebo [/tmp/binarydeb/ros-melodic-gazebo-plugins-2.8.7/src/gazebo_ros_laser.cpp:111(GazeboRosLaser::Load)] [topics: /rosout, /clock, /gazebo/link_states, /gazebo/model_states, /gazebo/parameter_descriptions, /gazebo/parameter_updates] Starting Laser Plugin (ns = /)
+ROS Log Match Failed: 0.044000000 INFO /gazebo [/tmp/binarydeb/ros-melodic-gazebo-plugins-2.8.7/src/gazebo_ros_laser.cpp:135(GazeboRosLaser::LoadThread)] [topics: /rosout, /clock, /gazebo/link_states, /gazebo/model_states, /gazebo/parameter_descriptions, /gazebo/parameter_updates] Laser Plugin (ns = /)  <tf_prefix_>, set to ""
+ROS Log Match Failed: 0.000000000 INFO /racecar_spawn [gazebo_interface.py:33(spawn_urdf_model_client)] [topics: /clock, /rosout] Spawn status: SpawnModel: Successfully spawned entity
+ROS Log Match Failed: 0.044000000 INFO /gazebo [/tmp/binarydeb/ros-melodic-gazebo-plugins-2.8.7/include/gazebo_plugins/gazebo_ros_utils.h:99(__cxx11::string gazebo::GetRobotNamespace)] [topics: /rosout, /clock, /gazebo/link_states, /gazebo/model_states, /gazebo/parameter_descriptions, /gazebo/parameter_updates, /scan] Camera Plugin: Using the 'robotNamespace' param: '/'
+ROS Log Match Failed: 0.044000000 INFO /gazebo [/tmp/binarydeb/ros-melodic-gazebo-plugins-2.8.7/src/gazebo_ros_camera_utils.cpp:305(GazeboRosCameraUtils::LoadThread)] [topics: /rosout, /clock, /gazebo/link_states, /gazebo/model_states, /gazebo/parameter_descriptions, /gazebo/parameter_updates, /scan] Camera Plugin (ns = /)  <tf_prefix_>, set to ""
+ROS Log Match Failed: 0.044000000 INFO /gazebo [/tmp/binarydeb/ros-melodic-gazebo-ros-control-2.8.7/src/gazebo_ros_control_plugin.cpp:62(GazeboRosControlPlugin::Load)] [topics: /rosout, /clock, /gazebo/link_states, /gazebo/model_states, /gazebo/parameter_descriptions, /gazebo/parameter_updates, /scan, /camera/zed/parameter_descriptions, /camera/zed/parameter_updates, /camera/zed/rgb/image_rect_color/compressedDepth, /camera/zed/rgb/image_rect_color/compressedDepth/parameter_descriptions, /camera/zed/rgb/image_rect_color/compressedDepth/parameter_updates, /camera/zed/rgb/image_rect_color/compressed, /camera/zed/rgb/image_rect_color/compressed/parameter_descriptions, /camera/zed/rgb/image_rect_color/compressed/parameter_updates] Loading gazebo_ros_control plugin
+ROS Log Match Failed: 0.044000000 INFO /gazebo [/tmp/binarydeb/ros-melodic-gazebo-ros-control-2.8.7/src/gazebo_ros_control_plugin.cpp:161(GazeboRosControlPlugin::Load)] [topics: /rosout, /clock, /gazebo/link_states, /gazebo/model_states, /gazebo/parameter_descriptions, /gazebo/parameter_updates, /scan, /camera/zed/parameter_descriptions, /camera/zed/parameter_updates, /camera/zed/rgb/image_rect_color/compressedDepth, /camera/zed/rgb/image_rect_color/compressedDepth/parameter_descriptions, /camera/zed/rgb/image_rect_color/compressedDepth/parameter_updates, /camera/zed/rgb/image_rect_color/compressed, /camera/zed/rgb/image_rect_color/compressed/parameter_descriptions, /camera/zed/rgb/image_rect_color/compressed/parameter_updates] Starting gazebo_ros_control plugin in namespace: /racecar
+ROS Log Match Failed: 0.044000000 INFO /gazebo [/tmp/binarydeb/ros-melodic-gazebo-ros-control-2.8.7/src/gazebo_ros_control_plugin.cpp:280(__cxx11::string gazebo_ros_control::GazeboRosControlPlugin::getURDF)] [topics: /rosout, /clock, /gazebo/link_states, /gazebo/model_states, /gazebo/parameter_descriptions, /gazebo/parameter_updates, /scan, /camera/zed/parameter_descriptions, /camera/zed/parameter_updates, /camera/zed/rgb/image_rect_color/compressedDepth, /camera/zed/rgb/image_rect_color/compressedDepth/parameter_descriptions, /camera/zed/rgb/image_rect_color/compressedDepth/parameter_updates, /camera/zed/rgb/image_rect_color/compressed, /camera/zed/rgb/image_rect_color/compressed/parameter_descriptions, /camera/zed/rgb/image_rect_color/compressed/parameter_updates] gazebo_ros_control plugin is waiting for model URDF in parameter [/robot_description] on the ROS param server.
+ROS Log Match Failed: 0.044000000 INFO /gazebo [/tmp/binarydeb/ros-melodic-gazebo-ros-control-2.8.7/src/gazebo_ros_control_plugin.cpp:207(GazeboRosControlPlugin::Load)] [topics: /rosout, /clock, /gazebo/link_states, /gazebo/model_states, /gazebo/parameter_descriptions, /gazebo/parameter_updates, /scan, /camera/zed/parameter_descriptions, /camera/zed/parameter_updates, /camera/zed/rgb/image_rect_color/compressedDepth, /camera/zed/rgb/image_rect_color/compressedDepth/parameter_descriptions, /camera/zed/rgb/image_rect_color/compressedDepth/parameter_updates, /camera/zed/rgb/image_rect_color/compressed, /camera/zed/rgb/image_rect_color/compressed/parameter_descriptions, /camera/zed/rgb/image_rect_color/compressed/parameter_updates, /camera/zed/rgb/image_rect_color, /camera/zed/rgb/image_rect_color/theora, /camera/zed/rgb/image_rect_color/theora/parameter_descriptions, /camera/zed/rgb/image_rect_color/theora/parameter_updates, /camera/zed/rgb/camera_info] Loaded gazebo_ros_control.
+ROS Log Match Failed: 0.124000000 INFO /better_odom [/tmp/binarydeb/ros-melodic-topic-tools-1.14.10/src/relay.cpp:101(MessageEvent<topic_tools::ShapeShifter>&))] [topics: /rosout, /pf/pose/odom] advertised as /pf/pose/odom
+ROS Log Match Failed: 
+ROS Log Match Failed: 0.193000000 INFO /racecar/controller_manager [spawner:126(main)] [topics: /clock, /rosout] Controller Spawner: Waiting for service controller_manager/switch_controller
+ROS Log Match Failed: 0.204000000 INFO /racecar/controller_manager [spawner:134(main)] [topics: /clock, /rosout] Controller Spawner: Waiting for service controller_manager/unload_controller
+ROS Log Match Failed: 0.208000000 INFO /racecar/controller_manager [spawner:189(main)] [topics: /clock, /rosout] Loading controller: left_rear_wheel_velocity_controller
+ROS Log Match Failed: 0.249000000 INFO /racecar/controller_manager [spawner:189(main)] [topics: /clock, /rosout] Loading controller: right_rear_wheel_velocity_controller
+ROS Log Match Failed: 0.283000000 INFO /racecar/controller_manager [spawner:189(main)] [topics: /clock, /rosout] Loading controller: left_front_wheel_velocity_controller
+ROS Log Match Failed: 0.347000000 INFO /racecar/controller_manager [spawner:189(main)] [topics: /clock, /rosout] Loading controller: right_front_wheel_velocity_controller
+ROS Log Match Failed: 0.459000000 INFO /racecar/controller_manager [spawner:189(main)] [topics: /clock, /rosout] Loading controller: left_steering_hinge_position_controller
+ROS Log Match Failed: 0.525000000 INFO /racecar/controller_manager [spawner:189(main)] [topics: /clock, /rosout] Loading controller: right_steering_hinge_position_controller
+ROS Log Match Failed: 0.576000000 INFO /racecar/controller_manager [spawner:189(main)] [topics: /clock, /rosout] Loading controller: joint_state_controller
+ROS Log Match Failed: 0.595000000 INFO /racecar/controller_manager [spawner:197(main)] [topics: /clock, /rosout] Controller Spawner: Loaded controllers: left_rear_wheel_velocity_controller, right_rear_wheel_velocity_controller, left_front_wheel_velocity_controller, right_front_wheel_velocity_controller, left_steering_hinge_position_controller, right_steering_hinge_position_controller, joint_state_controller
+ROS Log Match Failed: 0.608000000 INFO /racecar/controller_manager [spawner:206(main)] [topics: /clock, /rosout] Started controllers: left_rear_wheel_velocity_controller, right_rear_wheel_velocity_controller, left_front_wheel_velocity_controller, right_front_wheel_velocity_controller, left_steering_hinge_position_controller, right_steering_hinge_position_controller, joint_state_controller
+ROS Log Match Failed: 7.734000000 INFO /vesc/low_level/ackermann_cmd_mux [/tmp/binarydeb/ros-melodic-nodelet-1.9.16/src/nodelet.cpp:159(unloadNodelet)] [topics: /rosout, /vesc/low_level/ackermann_cmd_mux_nodelet_manager/bond] Unloading nodelet /vesc/low_level/ackermann_cmd_mux from manager ackermann_cmd_mux_nodelet_manager
+ROS Log Match Failed: 7.736000000 INFO /vesc/high_level/ackermann_cmd_mux [/tmp/binarydeb/ros-melodic-nodelet-1.9.16/src/nodelet.cpp:159(unloadNodelet)] [topics: /rosout, /vesc/high_level/ackermann_cmd_mux_nodelet_manager/bond] Unloading nodelet /vesc/high_level/ackermann_cmd_mux from manager ackermann_cmd_mux_nodelet_manager
+ROS Log Match Failed: 7.806000000 INFO /racecar/controller_manager [spawner:55(shutdown)] [topics: /clock, /rosout] Shutting down spawner. Stopping and unloading controllers...
+ROS Log Match Failed: 7.808000000 INFO /racecar/controller_manager [spawner:64(shutdown)] [topics: /clock, /rosout] Stopping all controllers...
+ROS Log Match Failed: 7.828000000 INFO /racecar/controller_manager [spawner:66(shutdown)] [topics: /clock, /rosout] Unloading all loaded controllers...
+ROS Log Match Failed: 7.828000000 INFO /racecar/controller_manager [spawner:68(shutdown)] [topics: /clock, /rosout] Trying to unload joint_state_controller
+ROS Log Match Failed: 7.852000000 INFO /racecar/controller_manager [spawner:70(shutdown)] [topics: /clock, /rosout] Succeeded in unloading joint_state_controller
+ROS Log Match Failed: 7.852000000 INFO /racecar/controller_manager [spawner:68(shutdown)] [topics: /clock, /rosout] Trying to unload right_steering_hinge_position_controller
+ROS Log Match Failed: 7.856000000 INFO /racecar/controller_manager [spawner:70(shutdown)] [topics: /clock, /rosout] Succeeded in unloading right_steering_hinge_position_controller
+ROS Log Match Failed: 7.856000000 INFO /racecar/controller_manager [spawner:68(shutdown)] [topics: /clock, /rosout] Trying to unload left_steering_hinge_position_controller
+ROS Log Match Failed: 7.856000000 WARN /racecar/controller_manager [spawner:72(shutdown)] [topics: /clock, /rosout] Controller Spawner error while taking down controllers: transport error completing service call: receive_once[/racecar/controller_manager/unload_controller]: unexpected error [Errno 4] Interrupted system call
+ROS Log Match Failed: [0m[ INFO] [1619938651.953373047]: Initializing nodelet with 4 worker threads.[0m
+ROS Log Match Failed: [0m[ INFO] [1619938652.129315330]: AckermannCmdMux : (re)configured [/home/liike/ROS/src/racecar/system/racecar/racecar/config/racecar-v2/high_level_mux.yaml][0m
+ROS Log Match Failed: [0m[ INFO] [1619938651.890423864]: Loading nodelet /vesc/low_level/ackermann_cmd_mux of type ackermann_cmd_mux/AckermannCmdMuxNodelet to manager ackermann_cmd_mux_nodelet_manager with the following remappings:[0m
+ROS Log Match Failed: [0m[ INFO] [1619938651.969608884]: waitForService: Service [/vesc/low_level/ackermann_cmd_mux_nodelet_manager/load_nodelet] has not been advertised, waiting...[0m
+ROS Log Match Failed: [0m[ INFO] [1619938652.013618981]: waitForService: Service [/vesc/low_level/ackermann_cmd_mux_nodelet_manager/load_nodelet] is now available.[0m
+ROS Log Match Failed: [0m[ INFO] [1619938664.473506203, 7.734000000]: Unloading nodelet /vesc/low_level/ackermann_cmd_mux from manager ackermann_cmd_mux_nodelet_manager[0m
+Insert Row to Table ROSLog Failed
+Insert Row to Table ROSLog Failed
+Insert Row to Table ROSLog Failed
+Insert Row to Table ROSLog Failed
+ROS Log Match Failed: [0m[ INFO] [1619938655.593555175, 0.124000000]: advertised as /pf/pose/odom
+ROS Log Match Failed: [0m
+ROS Log Match Failed: [0m[ INFO] [1619938651.881731743]: Loading nodelet /vesc/high_level/ackermann_cmd_mux of type ackermann_cmd_mux/AckermannCmdMuxNodelet to manager ackermann_cmd_mux_nodelet_manager with the following remappings:[0m
+ROS Log Match Failed: [0m[ INFO] [1619938651.923608798]: waitForService: Service [/vesc/high_level/ackermann_cmd_mux_nodelet_manager/load_nodelet] has not been advertised, waiting...[0m
+ROS Log Match Failed: [0m[ INFO] [1619938651.990976078]: waitForService: Service [/vesc/high_level/ackermann_cmd_mux_nodelet_manager/load_nodelet] is now available.[0m
+ROS Log Match Failed: [0m[ INFO] [1619938664.478947299, 7.736000000]: Unloading nodelet /vesc/high_level/ackermann_cmd_mux from manager ackermann_cmd_mux_nodelet_manager[0m
+Insert Row to Table ROSLog Failed
+Insert Row to Table ROSLog Failed
+ROS Log Match Failed: Press Ctrl-C to interrupt
+ROS Log Match Failed: http://ros.org/wiki/Names
+ROS Log Match Failed: This will likely cause problems with other ROS tools.
+ROS Log Match Failed: Node xml is <node name="gazebo_odometry.node" pkg="racecar_gazebo" type="gazebo_odometry.py"/>
+ROS Log Match Failed: log file: /home/liike/.ros/log/a986907a-ab13-11eb-8440-000c29637311/racecar_spawn-4*.log
+ROS Log Match Failed: log file: /home/liike/.ros/log/a986907a-ab13-11eb-8440-000c29637311/keyboard_teleop-19*.log
+ROS Log Match Failed: Press q to quit
+Insert Row to Table ROSLog Failed
+ROS Log Match Failed:   File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 737, in receive_once
+ROS Log Match Failed:     self.stat_bytes += recv_buff(sock, b, p.buff_size)
+ROS Log Match Failed:   File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 104, in recv_buff
+ROS Log Match Failed:     d = sock.recv(buff_size)
+ROS Log Match Failed: error: [Errno 4] Interrupted system call
+ROS Log Match Failed: 
+Insert Row to Table ROSLog Failed
+ROS Log Match Failed: logging to /home/liike/.ros/log/a986907a-ab13-11eb-8440-000c29637311/rosout.log
+ROS Log Match Failed: re-publishing aggregated messages to /rosout_agg
+ROS Log Match Failed: subscribed to /rosout
+ROS Log Match Failed:   File "/opt/ros/melodic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 177, in validated_f
+ROS Log Match Failed:     code, msg, val = f(*newArgs, **kwds)
+ROS Log Match Failed:   File "/opt/ros/melodic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 435, in searchParam
+ROS Log Match Failed:     search_key = self.param_server.search_param(caller_id, key)
+ROS Log Match Failed:   File "/opt/ros/melodic/lib/python2.7/dist-packages/rosmaster/paramserver.py", line 116, in search_param
+ROS Log Match Failed:     raise ValueError("namespace must be global")
+ROS Log Match Failed: ValueError: namespace must be global
+ROS Log Match Failed: 
+ROS Log Match Failed:   File "/opt/ros/melodic/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+ROS Log Match Failed:     result = cmd(*args)
+ROS Log Match Failed:   File "/opt/ros/melodic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+ROS Log Match Failed:     ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+ROS Log Match Failed:   File "/usr/lib/python2.7/xmlrpclib.py", line 1243, in __call__
+ROS Log Match Failed:     return self.__send(self.__name, args)
+ROS Log Match Failed:   File "/usr/lib/python2.7/xmlrpclib.py", line 1602, in __request
+ROS Log Match Failed:     verbose=self.__verbose
+ROS Log Match Failed:   File "/usr/lib/python2.7/xmlrpclib.py", line 1283, in request
+ROS Log Match Failed:     return self.single_request(host, handler, request_body, verbose)
+ROS Log Match Failed:   File "/usr/lib/python2.7/xmlrpclib.py", line 1311, in single_request
+ROS Log Match Failed:     self.send_content(h, request_body)
+ROS Log Match Failed:   File "/usr/lib/python2.7/xmlrpclib.py", line 1459, in send_content
+ROS Log Match Failed:     connection.endheaders(request_body)
+ROS Log Match Failed:   File "/usr/lib/python2.7/httplib.py", line 1095, in endheaders
+ROS Log Match Failed:     self._send_output(message_body)
+ROS Log Match Failed:   File "/usr/lib/python2.7/httplib.py", line 898, in _send_output
+ROS Log Match Failed:     self.send(msg)
+ROS Log Match Failed:   File "/usr/lib/python2.7/httplib.py", line 860, in send
+ROS Log Match Failed:     self.connect()
+ROS Log Match Failed:   File "/usr/lib/python2.7/httplib.py", line 837, in connect
+ROS Log Match Failed:     self.timeout, self.source_address)
+ROS Log Match Failed:   File "/usr/lib/python2.7/socket.py", line 575, in create_connection
+ROS Log Match Failed:     raise err
+ROS Log Match Failed: error: [Errno 111] Connection refused
+ROS Log Match Failed: 
+ROS Log Match Failed:   File "/opt/ros/melodic/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+ROS Log Match Failed:     result = cmd(*args)
+ROS Log Match Failed:   File "/opt/ros/melodic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+ROS Log Match Failed:     ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+ROS Log Match Failed:   File "/usr/lib/python2.7/xmlrpclib.py", line 1243, in __call__
+ROS Log Match Failed:     return self.__send(self.__name, args)
+ROS Log Match Failed:   File "/usr/lib/python2.7/xmlrpclib.py", line 1602, in __request
+ROS Log Match Failed:     verbose=self.__verbose
+ROS Log Match Failed:   File "/usr/lib/python2.7/xmlrpclib.py", line 1283, in request
+ROS Log Match Failed:     return self.single_request(host, handler, request_body, verbose)
+ROS Log Match Failed:   File "/usr/lib/python2.7/xmlrpclib.py", line 1316, in single_request
+ROS Log Match Failed:     return self.parse_response(response)
+ROS Log Match Failed:   File "/usr/lib/python2.7/xmlrpclib.py", line 1493, in parse_response
+ROS Log Match Failed:     return u.close()
+ROS Log Match Failed:   File "/usr/lib/python2.7/xmlrpclib.py", line 800, in close
+ROS Log Match Failed:     raise Fault(**self._stack[0])
+ROS Log Match Failed: Fault: <Fault -1: 'publisherUpdate: unknown method name'>
+ROS Log Match Failed: 
+ROS Log Match Failed:   File "/opt/ros/melodic/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+ROS Log Match Failed:     result = cmd(*args)
+ROS Log Match Failed:   File "/opt/ros/melodic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+ROS Log Match Failed:     ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+ROS Log Match Failed:   File "/usr/lib/python2.7/xmlrpclib.py", line 1243, in __call__
+ROS Log Match Failed:     return self.__send(self.__name, args)
+ROS Log Match Failed:   File "/usr/lib/python2.7/xmlrpclib.py", line 1602, in __request
+ROS Log Match Failed:     verbose=self.__verbose
+ROS Log Match Failed:   File "/usr/lib/python2.7/xmlrpclib.py", line 1283, in request
+ROS Log Match Failed:     return self.single_request(host, handler, request_body, verbose)
+ROS Log Match Failed:   File "/usr/lib/python2.7/xmlrpclib.py", line 1316, in single_request
+ROS Log Match Failed:     return self.parse_response(response)
+ROS Log Match Failed:   File "/usr/lib/python2.7/xmlrpclib.py", line 1493, in parse_response
+ROS Log Match Failed:     return u.close()
+ROS Log Match Failed:   File "/usr/lib/python2.7/xmlrpclib.py", line 800, in close
+ROS Log Match Failed:     raise Fault(**self._stack[0])
+ROS Log Match Failed: Fault: <Fault -1: 'publisherUpdate: unknown method name'>
+ROS Log Match Failed: 
+ROS Log Match Failed:   File "/opt/ros/melodic/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+ROS Log Match Failed:     result = cmd(*args)
+ROS Log Match Failed:   File "/opt/ros/melodic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+ROS Log Match Failed:     ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+ROS Log Match Failed:   File "/usr/lib/python2.7/xmlrpclib.py", line 1243, in __call__
+ROS Log Match Failed:     return self.__send(self.__name, args)
+ROS Log Match Failed:   File "/usr/lib/python2.7/xmlrpclib.py", line 1602, in __request
+ROS Log Match Failed:     verbose=self.__verbose
+ROS Log Match Failed:   File "/usr/lib/python2.7/xmlrpclib.py", line 1283, in request
+ROS Log Match Failed:     return self.single_request(host, handler, request_body, verbose)
+ROS Log Match Failed:   File "/usr/lib/python2.7/xmlrpclib.py", line 1311, in single_request
+ROS Log Match Failed:     self.send_content(h, request_body)
+ROS Log Match Failed:   File "/usr/lib/python2.7/xmlrpclib.py", line 1459, in send_content
+ROS Log Match Failed:     connection.endheaders(request_body)
+ROS Log Match Failed:   File "/usr/lib/python2.7/httplib.py", line 1095, in endheaders
+ROS Log Match Failed:     self._send_output(message_body)
+ROS Log Match Failed:   File "/usr/lib/python2.7/httplib.py", line 898, in _send_output
+ROS Log Match Failed:     self.send(msg)
+ROS Log Match Failed:   File "/usr/lib/python2.7/httplib.py", line 860, in send
+ROS Log Match Failed:     self.connect()
+ROS Log Match Failed:   File "/usr/lib/python2.7/httplib.py", line 837, in connect
+ROS Log Match Failed:     self.timeout, self.source_address)
+ROS Log Match Failed:   File "/usr/lib/python2.7/socket.py", line 575, in create_connection
+ROS Log Match Failed:     raise err
+ROS Log Match Failed: error: [Errno 111] Connection refused
+ROS Log Match Failed: 
+ROS Log Match Failed:   File "/opt/ros/melodic/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+ROS Log Match Failed:     result = cmd(*args)
+ROS Log Match Failed:   File "/opt/ros/melodic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+ROS Log Match Failed:     ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+ROS Log Match Failed:   File "/usr/lib/python2.7/xmlrpclib.py", line 1243, in __call__
+ROS Log Match Failed:     return self.__send(self.__name, args)
+ROS Log Match Failed:   File "/usr/lib/python2.7/xmlrpclib.py", line 1602, in __request
+ROS Log Match Failed:     verbose=self.__verbose
+ROS Log Match Failed:   File "/usr/lib/python2.7/xmlrpclib.py", line 1283, in request
+ROS Log Match Failed:     return self.single_request(host, handler, request_body, verbose)
+ROS Log Match Failed:   File "/usr/lib/python2.7/xmlrpclib.py", line 1311, in single_request
+ROS Log Match Failed:     self.send_content(h, request_body)
+ROS Log Match Failed:   File "/usr/lib/python2.7/xmlrpclib.py", line 1459, in send_content
+ROS Log Match Failed:     connection.endheaders(request_body)
+ROS Log Match Failed:   File "/usr/lib/python2.7/httplib.py", line 1095, in endheaders
+ROS Log Match Failed:     self._send_output(message_body)
+ROS Log Match Failed:   File "/usr/lib/python2.7/httplib.py", line 898, in _send_output
+ROS Log Match Failed:     self.send(msg)
+ROS Log Match Failed:   File "/usr/lib/python2.7/httplib.py", line 860, in send
+ROS Log Match Failed:     self.connect()
+ROS Log Match Failed:   File "/usr/lib/python2.7/httplib.py", line 837, in connect
+ROS Log Match Failed:     self.timeout, self.source_address)
+ROS Log Match Failed:   File "/usr/lib/python2.7/socket.py", line 575, in create_connection
+ROS Log Match Failed:     raise err
+ROS Log Match Failed: error: [Errno 111] Connection refused
+ROS Log Match Failed: 
+Insert Row to Table ROSLog Failed
+Insert Row to Table ROSLog Failed
+ROS Log Match Failed:   File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 737, in receive_once
+ROS Log Match Failed:     self.stat_bytes += recv_buff(sock, b, p.buff_size)
+ROS Log Match Failed:   File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 104, in recv_buff
+ROS Log Match Failed:     d = sock.recv(buff_size)
+ROS Log Match Failed: error: [Errno 104] Connection reset by peer
+ROS Log Match Failed: 
+Computing Problem Spotlight
+Create Table ROSMsg Success
+Unrecognized Priority: WARNING
+Mysql DisConnect
+Using Augeas to Parse Configuration File
+Extract key-value Finished
+Extract Env Finished
+Connect Database wise success
+Giving Problem Spotlight and Resolve Spotlight
+Problem Spotlight No.0 : Traceback (most recent call last):
+Problem Spotlight No.1 : [gazebo-2] escalating to SIGTERM
+Problem Spotlight No.2 : [gazebo_gui-3] escalating to SIGTERM
+Problem Spotlight No.3 : [racecar/controller_manager-5] escalating to SIGTERM
+Problem Spotlight No.4 : WARNING: WARN: illegal <node> name 'gazebo_odometry.node'.
+Suspicious word:    gazebo_odometry.node    with key:    Conf: racecar_gazebo    and value:    gazebo_odometry.node
+Problem Spotlight No.5 : topic[/gazebo/link_states] removing connection to http://ubuntu:37271/
+FilePath:    /gazebo/link_states    not Exist
+FilePath:    //ubuntu    not Exist
+Problem Spotlight No.6 : topic[/vesc/odom] removing connection to /better_odom
+FilePath:    /vesc/odom    not Exist
+FilePath:    /better_odom    not Exist
+Problem Spotlight No.7 : signal_shutdown [signal-2]
+Problem Spotlight No.8 : topic[/gazebo/link_states] adding connection to [http://ubuntu:37271/], count 0
+Problem Spotlight No.9 : topic[/clock] adding connection to [http://ubuntu:37271/], count 0
+FilePath:    /clock    not Exist
+Mysql DisConnect

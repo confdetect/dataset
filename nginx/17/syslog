@@ -1,0 +1,187 @@
+Apr 26 17:33:28 ubuntu NetworkManager[686]: <info>  [1619429608.0504] manager: disable requested (sleeping: no  enabled: yes)
+Apr 26 17:33:28 ubuntu NetworkManager[686]: <info>  [1619429608.0508] manager: NetworkManager state is now ASLEEP
+Apr 26 17:33:28 ubuntu whoopsie[1323]: [17:33:28] offline
+Apr 26 17:33:28 ubuntu NetworkManager[686]: <info>  [1619429608.0528] audit: op="networking-control" arg="off" pid=45444 uid=0 result="success"
+Apr 26 17:33:28 ubuntu NetworkManager[686]: <info>  [1619429608.0568] device (ens33): state change: activated -> deactivating (reason 'sleeping', sys-iface-state: 'managed')
+Apr 26 17:33:28 ubuntu dbus-daemon[662]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.10' (uid=0 pid=686 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Apr 26 17:33:28 ubuntu NetworkManager[686]: <info>  [1619429608.0671] device (ens33): state change: deactivating -> disconnected (reason 'sleeping', sys-iface-state: 'managed')
+Apr 26 17:33:28 ubuntu systemd[1]: Starting Network Manager Script Dispatcher Service...
+Apr 26 17:33:28 ubuntu avahi-daemon[657]: Withdrawing address record for fe80::c84e:ac72:af90:386b on ens33.
+Apr 26 17:33:28 ubuntu deja-dup-monito[2616]: Source ID 732 was not found when attempting to remove it
+Apr 27 13:32:40 ubuntu avahi-daemon[657]: Leaving mDNS multicast group on interface ens33.IPv6 with address fe80::c84e:ac72:af90:386b.
+Apr 27 13:32:40 ubuntu systemd[1]: Started Network Manager Script Dispatcher Service.
+Apr 27 13:32:40 ubuntu dbus-daemon[662]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Apr 27 13:32:40 ubuntu nm-dispatcher: req:1 'connectivity-change': new request (1 scripts)
+Apr 27 13:32:40 ubuntu nm-dispatcher: req:1 'connectivity-change': start running ordered scripts...
+Apr 27 13:32:40 ubuntu avahi-daemon[657]: Interface ens33.IPv6 no longer relevant for mDNS.
+Apr 27 13:32:40 ubuntu systemd[1]: Starting Daily apt download activities...
+Apr 27 13:32:40 ubuntu NetworkManager[686]: <info>  [1619501560.6819] dhcp4 (ens33): canceled DHCP transaction, DHCP client pid 38235
+Apr 27 13:32:40 ubuntu NetworkManager[686]: <info>  [1619501560.6820] dhcp4 (ens33): state changed bound -> done
+Apr 27 13:32:40 ubuntu avahi-daemon[657]: Withdrawing address record for 192.168.182.129 on ens33.
+Apr 27 13:32:40 ubuntu NetworkManager[686]: <info>  [1619501560.6978] device (ens33): state change: disconnected -> unmanaged (reason 'sleeping', sys-iface-state: 'managed')
+Apr 27 13:32:40 ubuntu avahi-daemon[657]: Leaving mDNS multicast group on interface ens33.IPv4 with address 192.168.182.129.
+Apr 27 13:32:40 ubuntu systemd[1]: Started Run anacron jobs.
+Apr 27 13:32:40 ubuntu avahi-daemon[657]: Interface ens33.IPv4 no longer relevant for mDNS.
+Apr 27 13:32:40 ubuntu systemd[1]: Starting Message of the Day...
+Apr 27 13:32:40 ubuntu nm-dispatcher: req:2 'down' [ens33]: new request (1 scripts)
+Apr 27 13:32:40 ubuntu nm-dispatcher: req:2 'down' [ens33]: start running ordered scripts...
+Apr 27 13:32:40 ubuntu systemd[1]: Started Message of the Day.
+Apr 27 13:32:40 ubuntu anacron[45453]: Anacron 2.3 started on 2021-04-27
+Apr 27 13:32:40 ubuntu gsd-sharing[1956]: Failed to StopUnit service: GDBus.Error:org.freedesktop.systemd1.NoSuchUnit: Unit gnome-user-share-webdav.service not loaded.
+Apr 27 13:32:40 ubuntu anacron[45453]: Will run job `cron.daily' in 5 min.
+Apr 27 13:32:40 ubuntu gsd-sharing[1956]: Failed to StopUnit service: GDBus.Error:org.freedesktop.systemd1.NoSuchUnit: Unit rygel.service not loaded.
+Apr 27 13:32:40 ubuntu anacron[45453]: Jobs will be executed sequentially
+Apr 27 13:32:40 ubuntu gsd-sharing[1956]: Failed to StopUnit service: GDBus.Error:org.freedesktop.systemd1.NoSuchUnit: Unit gnome-remote-desktop.service not loaded.
+Apr 27 13:32:40 ubuntu NetworkManager[686]: <info>  [1619501560.8956] manager: enable requested (sleeping: no  enabled: no)
+Apr 27 13:32:40 ubuntu NetworkManager[686]: <info>  [1619501560.8960] device (ens33): state change: unmanaged -> unavailable (reason 'managed', sys-iface-state: 'managed')
+Apr 27 13:32:40 ubuntu NetworkManager[686]: <info>  [1619501560.9079] manager: NetworkManager state is now DISCONNECTED
+Apr 27 13:32:40 ubuntu NetworkManager[686]: <info>  [1619501560.9081] audit: op="networking-control" arg="on" pid=45502 uid=0 result="success"
+Apr 27 13:32:40 ubuntu kernel: [72976.520186] e1000: ens33 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: None
+Apr 27 13:32:40 ubuntu kernel: [72976.521167] IPv6: ADDRCONF(NETDEV_CHANGE): ens33: link becomes ready
+Apr 27 13:32:40 ubuntu NetworkManager[686]: <info>  [1619501560.9146] device (ens33): carrier: link connected
+Apr 27 13:32:40 ubuntu NetworkManager[686]: <info>  [1619501560.9153] device (ens33): state change: unavailable -> disconnected (reason 'carrier-changed', sys-iface-state: 'managed')
+Apr 27 13:32:40 ubuntu NetworkManager[686]: <info>  [1619501560.9234] policy: auto-activating connection 'Wired connection 1'
+Apr 27 13:32:40 ubuntu NetworkManager[686]: <info>  [1619501560.9267] device (ens33): Activation: starting connection 'Wired connection 1' (fc53b11f-8d7b-37c0-ade5-2b5b03e4ee92)
+Apr 27 13:32:40 ubuntu NetworkManager[686]: <info>  [1619501560.9270] device (ens33): state change: disconnected -> prepare (reason 'none', sys-iface-state: 'managed')
+Apr 27 13:32:40 ubuntu NetworkManager[686]: <info>  [1619501560.9271] manager: NetworkManager state is now CONNECTING
+Apr 27 13:32:40 ubuntu NetworkManager[686]: <info>  [1619501560.9288] device (ens33): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+Apr 27 13:32:40 ubuntu NetworkManager[686]: <info>  [1619501560.9321] device (ens33): state change: config -> ip-config (reason 'none', sys-iface-state: 'managed')
+Apr 27 13:32:40 ubuntu NetworkManager[686]: <info>  [1619501560.9350] dhcp4 (ens33): activation: beginning transaction (timeout in 45 seconds)
+Apr 27 13:32:40 ubuntu NetworkManager[686]: <info>  [1619501560.9676] dhcp4 (ens33): dhclient started with pid 45507
+Apr 27 13:32:40 ubuntu avahi-daemon[657]: Joining mDNS multicast group on interface ens33.IPv6 with address fe80::c84e:ac72:af90:386b.
+Apr 27 13:32:40 ubuntu avahi-daemon[657]: New relevant interface ens33.IPv6 for mDNS.
+Apr 27 13:32:40 ubuntu avahi-daemon[657]: Registering new address record for fe80::c84e:ac72:af90:386b on ens33.*.
+Apr 27 13:32:41 ubuntu dhclient[45507]: DHCPDISCOVER on ens33 to 255.255.255.255 port 67 interval 3 (xid=0x1fba3b44)
+Apr 27 13:32:42 ubuntu dhclient[45507]: DHCPREQUEST of 192.168.182.129 on ens33 to 255.255.255.255 port 67 (xid=0x443bba1f)
+Apr 27 13:32:42 ubuntu dhclient[45507]: DHCPOFFER of 192.168.182.129 from 192.168.182.254
+Apr 27 13:32:42 ubuntu dhclient[45507]: DHCPACK of 192.168.182.129 from 192.168.182.254
+Apr 27 13:32:42 ubuntu NetworkManager[686]: <info>  [1619501562.0859] dhcp4 (ens33):   address 192.168.182.129
+Apr 27 13:32:42 ubuntu NetworkManager[686]: <info>  [1619501562.0860] dhcp4 (ens33):   plen 24 (255.255.255.0)
+Apr 27 13:32:42 ubuntu NetworkManager[686]: <info>  [1619501562.0860] dhcp4 (ens33):   gateway 192.168.182.2
+Apr 27 13:32:42 ubuntu NetworkManager[686]: <info>  [1619501562.0860] dhcp4 (ens33):   lease time 1800
+Apr 27 13:32:42 ubuntu NetworkManager[686]: <info>  [1619501562.0861] dhcp4 (ens33):   nameserver '192.168.182.2'
+Apr 27 13:32:42 ubuntu NetworkManager[686]: <info>  [1619501562.0861] dhcp4 (ens33):   domain name 'localdomain'
+Apr 27 13:32:42 ubuntu avahi-daemon[657]: Joining mDNS multicast group on interface ens33.IPv4 with address 192.168.182.129.
+Apr 27 13:32:42 ubuntu NetworkManager[686]: <info>  [1619501562.0861] dhcp4 (ens33):   wins '192.168.182.2'
+Apr 27 13:32:42 ubuntu NetworkManager[686]: <info>  [1619501562.0861] dhcp4 (ens33): state changed unknown -> bound
+Apr 27 13:32:42 ubuntu avahi-daemon[657]: New relevant interface ens33.IPv4 for mDNS.
+Apr 27 13:32:42 ubuntu NetworkManager[686]: <info>  [1619501562.0904] device (ens33): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'managed')
+Apr 27 13:32:42 ubuntu avahi-daemon[657]: Registering new address record for 192.168.182.129 on ens33.IPv4.
+Apr 27 13:32:42 ubuntu NetworkManager[686]: <info>  [1619501562.0910] device (ens33): state change: ip-check -> secondaries (reason 'none', sys-iface-state: 'managed')
+Apr 27 13:32:42 ubuntu NetworkManager[686]: <info>  [1619501562.0935] device (ens33): state change: secondaries -> activated (reason 'none', sys-iface-state: 'managed')
+Apr 27 13:32:42 ubuntu NetworkManager[686]: <info>  [1619501562.0938] manager: NetworkManager state is now CONNECTED_LOCAL
+Apr 27 13:32:42 ubuntu whoopsie[1323]: [13:32:42] Cannot reach: https://daisy.ubuntu.com
+Apr 27 13:32:42 ubuntu dhclient[45507]: bound to 192.168.182.129 -- renewal in 732 seconds.
+Apr 27 13:32:42 ubuntu NetworkManager[686]: <info>  [1619501562.2231] manager: NetworkManager state is now CONNECTED_SITE
+Apr 27 13:32:42 ubuntu NetworkManager[686]: <info>  [1619501562.2233] policy: set 'Wired connection 1' (ens33) as default for IPv4 routing and DNS
+Apr 27 13:32:42 ubuntu NetworkManager[686]: <info>  [1619501562.2241] device (ens33): Activation: successful, device activated.
+Apr 27 13:32:42 ubuntu nm-dispatcher: req:3 'up' [ens33]: new request (1 scripts)
+Apr 27 13:32:42 ubuntu nm-dispatcher: req:3 'up' [ens33]: start running ordered scripts...
+Apr 27 13:32:42 ubuntu gsd-sharing[1956]: Failed to StopUnit service: GDBus.Error:org.freedesktop.systemd1.NoSuchUnit: Unit gnome-user-share-webdav.service not loaded.
+Apr 27 13:32:42 ubuntu gsd-sharing[1956]: Failed to StopUnit service: GDBus.Error:org.freedesktop.systemd1.NoSuchUnit: Unit rygel.service not loaded.
+Apr 27 13:32:42 ubuntu gsd-sharing[1956]: Failed to StopUnit service: GDBus.Error:org.freedesktop.systemd1.NoSuchUnit: Unit gnome-remote-desktop.service not loaded.
+Apr 27 13:32:42 ubuntu systemd-resolved[582]: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+Apr 27 13:32:45 ubuntu systemd-resolved[582]: message repeated 5 times: [ Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.]
+Apr 27 13:32:46 ubuntu NetworkManager[686]: <info>  [1619501566.7954] manager: NetworkManager state is now CONNECTED_GLOBAL
+Apr 27 13:32:46 ubuntu nm-dispatcher: req:4 'connectivity-change': new request (1 scripts)
+Apr 27 13:32:46 ubuntu nm-dispatcher: req:4 'connectivity-change': start running ordered scripts...
+Apr 27 13:32:46 ubuntu whoopsie[1323]: [13:32:46] The default IPv4 route is: /org/freedesktop/NetworkManager/ActiveConnection/10
+Apr 27 13:32:46 ubuntu whoopsie[1323]: [13:32:46] Not a paid data plan: /org/freedesktop/NetworkManager/ActiveConnection/10
+Apr 27 13:32:46 ubuntu whoopsie[1323]: [13:32:46] Found usable connection: /org/freedesktop/NetworkManager/ActiveConnection/10
+Apr 27 13:32:48 ubuntu whoopsie[1323]: [13:32:48] online
+Apr 27 13:32:48 ubuntu dbus-daemon[662]: [system] Activating via systemd: service name='org.freedesktop.fwupd' unit='fwupd.service' requested by ':1.109' (uid=1000 pid=2519 comm="/usr/bin/gnome-software --gapplication-service " label="unconfined")
+Apr 27 13:32:48 ubuntu systemd[1]: Starting Firmware update daemon...
+Apr 27 13:32:48 ubuntu dbus-daemon[662]: [system] Successfully activated service 'org.freedesktop.fwupd'
+Apr 27 13:32:48 ubuntu systemd[1]: Started Firmware update daemon.
+Apr 27 13:32:51 ubuntu PackageKit: get-updates transaction /630_eaacaebd from uid 1000 finished with success after 1037ms
+Apr 27 13:33:18 ubuntu systemd-resolved[582]: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+Apr 27 13:33:59 ubuntu systemd[1]: Starting A high performance web server and a reverse proxy server...
+Apr 27 13:34:00 ubuntu systemd[1]: Started A high performance web server and a reverse proxy server.
+Apr 27 13:34:01 ubuntu systemd[1]: Stopping A high performance web server and a reverse proxy server...
+Apr 27 13:34:01 ubuntu systemd[1]: Stopped A high performance web server and a reverse proxy server.
+Apr 27 13:34:01 ubuntu systemd[1]: Starting A high performance web server and a reverse proxy server...
+Apr 27 13:34:01 ubuntu systemd[1]: Started A high performance web server and a reverse proxy server.
+Apr 27 13:34:54 ubuntu systemd[1]: Started Daily apt download activities.
+Apr 27 13:34:54 ubuntu systemd[1]: Starting Daily apt upgrade and clean activities...
+Apr 27 13:35:07 ubuntu gnome-software[2519]: failed to rescan: Failed to parse /usr/share/applications/file-roller.desktop.dpkg-new file: cannot process file of type text/plain
+Apr 27 13:35:07 ubuntu gnome-software[2519]: failed to rescan: Failed to parse /usr/share/applications/file-roller.desktop.dpkg-tmp file: cannot process file of type text/plain
+Apr 27 13:35:07 ubuntu dbus-daemon[1699]: [session uid=1000 pid=1699] Reloaded configuration
+Apr 27 13:35:07 ubuntu dbus-daemon[1699]: [session uid=1000 pid=1699] Reloaded configuration
+Apr 27 13:35:07 ubuntu gnome-software[2519]: failed to rescan: Failed to parse /usr/share/applications/org.gnome.FileRoller.desktop.dpkg-new file: cannot process file of type text/plain
+Apr 27 13:35:07 ubuntu gnome-software[2519]: failed to rescan: Failed to parse /usr/share/applications/org.gnome.FileRoller.desktop.dpkg-tmp file: cannot process file of type text/plain
+Apr 27 13:35:07 ubuntu dbus-daemon[1489]: [session uid=121 pid=1489] Reloaded configuration
+Apr 27 13:35:07 ubuntu gnome-software[2519]: failed to rescan: No valid root node specified
+Apr 27 13:35:07 ubuntu gnome-software[2519]: failed to rescan: No valid root node specified
+Apr 27 13:35:07 ubuntu dbus-daemon[1699]: [session uid=1000 pid=1699] Reloaded configuration
+Apr 27 13:35:07 ubuntu dbus-daemon[1489]: [session uid=121 pid=1489] Reloaded configuration
+Apr 27 13:35:07 ubuntu dbus-daemon[1699]: [session uid=1000 pid=1699] Reloaded configuration
+Apr 27 13:35:07 ubuntu dbus-daemon[1489]: [session uid=121 pid=1489] Reloaded configuration
+Apr 27 13:35:07 ubuntu dbus-daemon[1699]: [session uid=1000 pid=1699] Reloaded configuration
+Apr 27 13:35:07 ubuntu gnome-software[2519]: failed to rescan: No valid root node specified
+Apr 27 13:35:07 ubuntu gnome-software[2519]: failed to rescan: Failed to parse /usr/share/applications/file-roller.desktop file: cannot process file of type application/x-desktop
+Apr 27 13:35:07 ubuntu gnome-software[2519]: failed to rescan: Failed to parse /usr/share/applications/org.gnome.FileRoller.desktop file: cannot process file of type application/x-desktop
+Apr 27 13:35:07 ubuntu dbus-daemon[1489]: [session uid=121 pid=1489] Reloaded configuration
+Apr 27 13:35:07 ubuntu dbus-daemon[1699]: [session uid=1000 pid=1699] Reloaded configuration
+Apr 27 13:35:07 ubuntu dbus-daemon[1489]: [session uid=121 pid=1489] Reloaded configuration
+Apr 27 13:35:13 ubuntu gnome-software[2519]: Only 0 apps for recent list, hiding
+Apr 27 13:35:14 ubuntu PackageKit: search-file transaction /631_deeeeccb from uid 1000 finished with success after 731ms
+Apr 27 13:35:14 ubuntu gnome-software[2519]: Failed to find one package for evince-dvidocument, /usr/share/metainfo/evince-dvidocument.metainfo.xml, [0]
+Apr 27 13:35:14 ubuntu PackageKit: search-file transaction /632_dacdeeac from uid 1000 finished with success after 676ms
+Apr 27 13:35:14 ubuntu gnome-software[2519]: Failed to find one package for evince-psdocument, /usr/share/metainfo/evince-psdocument.metainfo.xml, [0]
+Apr 27 13:35:15 ubuntu gnome-software[2519]: tried overwriting io.snapcraft.nordpass-00CQ2MvSr0Ex7zwdGhCYTa0ZLMw3H6hf key GnomeSoftware::FeatureTile-css from border-color: #000000;#012text-shadow: 0 1px 1px rgba(255,255,255,0.5);#012color: #000000;#012outline-offset: 0;#012outline-color: alpha(#ffffff, 0.75);#012outline-style: dashed;#012outline-offset: 2px;#012background: url('/home/liike/.cache/gnome-software/cssresource/c8aef6476c95e2f699a4754681bb630c7154fd70-icon_sMKeoSb.png') left center / auto 100% no-repeat, #FFFFFF;; to border-color: #000000;#012text-shadow: 0 1px 1px rgba(255,255,255,0.5);#012color: #000000;#012outline-offset: 0;#012outline-color: alpha(#ffffff, 0.75);#012outline-style: dashed;#012outline-offset: 2px;#012background: url('https://dashboard.snapcraft.io/site_media/appmedia/2019/11/icon_sMKeoSb.png') left center / auto 100% no-repeat, #FFFFFF;;
+Apr 27 13:35:16 ubuntu PackageKit: search-file transaction /633_cacbddbd from uid 1000 finished with success after 1250ms
+Apr 27 13:35:16 ubuntu gnome-software[2519]: Failed to find one package for evince-tiffdocument, /usr/share/metainfo/evince-tiffdocument.metainfo.xml, [0]
+Apr 27 13:35:17 ubuntu PackageKit: search-file transaction /634_ebdcddda from uid 1000 finished with success after 963ms
+Apr 27 13:35:17 ubuntu gnome-software[2519]: Failed to find one package for evince-xpsdocument, /usr/share/metainfo/evince-xpsdocument.metainfo.xml, [0]
+Apr 27 13:35:18 ubuntu PackageKit: search-file transaction /635_edeababe from uid 1000 finished with success after 1287ms
+Apr 27 13:35:18 ubuntu gnome-software[2519]: Failed to find one package for evince-djvudocument, /usr/share/metainfo/evince-djvudocument.metainfo.xml, [0]
+Apr 27 13:35:19 ubuntu PackageKit: search-file transaction /636_dadaaeaa from uid 1000 finished with success after 860ms
+Apr 27 13:35:19 ubuntu gnome-software[2519]: Failed to find one package for evince-comicsdocument, /usr/share/metainfo/evince-comicsdocument.metainfo.xml, [0]
+Apr 27 13:35:20 ubuntu PackageKit: search-file transaction /637_daeadbda from uid 1000 finished with success after 793ms
+Apr 27 13:35:20 ubuntu gnome-software[2519]: Failed to find one package for jetbrains-clion.desktop, /usr/share/applications/jetbrains-clion.desktop, [0]
+Apr 27 13:35:24 ubuntu gnome-software[2519]: failed to rescan: Failed to parse /usr/share/applications/firefox.desktop file: cannot process file of type application/x-desktop
+Apr 27 13:35:32 ubuntu systemd[1]: Stopping A high performance web server and a reverse proxy server...
+Apr 27 13:35:32 ubuntu systemd[1]: Stopped A high performance web server and a reverse proxy server.
+Apr 27 13:35:32 ubuntu systemd[1]: Starting A high performance web server and a reverse proxy server...
+Apr 27 13:35:33 ubuntu systemd[1]: Started A high performance web server and a reverse proxy server.
+Apr 27 13:35:39 ubuntu systemd[1]: Started Daily apt upgrade and clean activities.
+Apr 27 13:36:33 ubuntu snapd[732]: storehelpers.go:551: cannot refresh: snap has no updates available: "core", "core18", "gnome-3-28-1804", "gnome-3-34-1804", "gnome-calculator", "gnome-characters", "gnome-logs", "gnome-system-monitor", "gtk-common-themes"
+Apr 27 13:36:59 ubuntu systemd[1]: Stopping A high performance web server and a reverse proxy server...
+Apr 27 13:36:59 ubuntu systemd[1]: Stopped A high performance web server and a reverse proxy server.
+Apr 27 13:36:59 ubuntu systemd[1]: Starting A high performance web server and a reverse proxy server...
+Apr 27 13:36:59 ubuntu nginx[47112]: nginx: [emerg] invalid value "TLSv1.0" in /etc/nginx/nginx.conf:34
+Apr 27 13:36:59 ubuntu nginx[47112]: nginx: configuration file /etc/nginx/nginx.conf test failed
+Apr 27 13:36:59 ubuntu systemd[1]: nginx.service: Control process exited, code=exited status=1
+Apr 27 13:36:59 ubuntu systemd[1]: nginx.service: Failed with result 'exit-code'.
+Apr 27 13:36:59 ubuntu systemd[1]: Failed to start A high performance web server and a reverse proxy server.
+Apr 27 13:37:00 ubuntu systemd[1]: Starting A high performance web server and a reverse proxy server...
+Apr 27 13:37:00 ubuntu nginx[47118]: nginx: [emerg] invalid value "TLSv1.0" in /etc/nginx/nginx.conf:34
+Apr 27 13:37:00 ubuntu nginx[47118]: nginx: configuration file /etc/nginx/nginx.conf test failed
+Apr 27 13:37:00 ubuntu systemd[1]: nginx.service: Control process exited, code=exited status=1
+Apr 27 13:37:00 ubuntu systemd[1]: nginx.service: Failed with result 'exit-code'.
+Apr 27 13:37:00 ubuntu systemd[1]: Failed to start A high performance web server and a reverse proxy server.
+Apr 27 13:37:15 ubuntu jetbrains-pycharm-ce.desktop[47120]: OpenJDK 64-Bit Server VM warning: Option UseConcMarkSweepGC was deprecated in version 9.0 and will likely be removed in a future release.
+Apr 27 13:37:17 ubuntu jetbrains-pycharm-ce.desktop[47120]: 2021-04-27 13:37:17,817 [   1637]   WARN - llij.ide.plugins.PluginManager - Resource bundle redefinition for plugin 'com.jetbrains.pycharm.community.customization'. Old value: messages.ActionsBundle, new value: messages.PyBundle
+Apr 27 13:37:18 ubuntu org.gnome.Shell.desktop[1827]: Window manager warning: Window 0x520002e (win0) sets an MWM hint indicating it isn't resizable, but sets min size 1 x 1 and max size 2147483647 x 2147483647; this doesn't make much sense.
+Apr 27 13:37:20 ubuntu jetbrains-pycharm-ce.desktop[47120]: 2021-04-27 13:37:20,257 [   4077]   WARN - nSystem.impl.ActionManagerImpl - keymap "Visual Studio" not found [Plugin: com.intellij]
+Apr 27 13:37:20 ubuntu jetbrains-pycharm-ce.desktop[47120]: 2021-04-27 13:37:20,271 [   4091]   WARN - nSystem.impl.ActionManagerImpl - keymap "Eclipse" not found [Plugin: com.intellij]
+Apr 27 13:37:20 ubuntu jetbrains-pycharm-ce.desktop[47120]: 2021-04-27 13:37:20,272 [   4092]   WARN - nSystem.impl.ActionManagerImpl - keymap "NetBeans 6.5" not found [Plugin: com.intellij]
+Apr 27 13:37:20 ubuntu jetbrains-pycharm-ce.desktop[47120]: 2021-04-27 13:37:20,272 [   4092]   WARN - nSystem.impl.ActionManagerImpl - keymap "Visual Studio" not found [Plugin: com.intellij]
+Apr 27 13:37:20 ubuntu jetbrains-pycharm-ce.desktop[47120]: 2021-04-27 13:37:20,460 [   4280]   WARN - nSystem.impl.ActionManagerImpl - keymap "Eclipse" not found [Plugin: org.jetbrains.plugins.github]
+Apr 27 13:37:20 ubuntu jetbrains-pycharm-ce.desktop[47120]: 2021-04-27 13:37:20,483 [   4303]   WARN - nSystem.impl.ActionManagerImpl - keymap "Eclipse" not found [Plugin: PythonCore]
+Apr 27 13:37:20 ubuntu jetbrains-pycharm-ce.desktop[47120]: 2021-04-27 13:37:20,484 [   4304]   WARN - nSystem.impl.ActionManagerImpl - keymap "NetBeans 6.5" not found [Plugin: PythonCore]
+Apr 27 13:37:41 ubuntu anacron[45453]: Job `cron.daily' started
+Apr 27 13:37:41 ubuntu anacron[47437]: Updated timestamp for job `cron.daily' to 2021-04-27
+Apr 27 13:37:42 ubuntu cracklib: no dictionary update necessary.
+Apr 27 13:37:42 ubuntu systemd[1]: Stopping Make remote CUPS printers available locally...
+Apr 27 13:37:42 ubuntu systemd[1]: Stopped Make remote CUPS printers available locally.
+Apr 27 13:37:42 ubuntu systemd[1]: Stopping CUPS Scheduler...
+Apr 27 13:37:42 ubuntu systemd[1]: Stopped CUPS Scheduler.
+Apr 27 13:37:42 ubuntu systemd[1]: Closed CUPS Scheduler.
+Apr 27 13:37:42 ubuntu systemd[1]: Stopping CUPS Scheduler.
+Apr 27 13:37:42 ubuntu systemd[1]: Listening on CUPS Scheduler.
+Apr 27 13:37:42 ubuntu systemd[1]: Stopped CUPS Scheduler.
+Apr 27 13:37:42 ubuntu systemd[1]: Stopping CUPS Scheduler.
+Apr 27 13:37:42 ubuntu systemd[1]: Started CUPS Scheduler.
+Apr 27 13:37:42 ubuntu systemd[1]: Started CUPS Scheduler.
+Apr 27 13:37:42 ubuntu systemd[1]: Started Make remote CUPS printers available locally.

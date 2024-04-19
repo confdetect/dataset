@@ -1,0 +1,562 @@
+2021/04/26 10:37:15 [debug] 40347#40347: epoll add event: fd:6 op:1 ev:10000001
+2021/04/26 10:37:15 [debug] 40348#40348: epoll add event: fd:6 op:1 ev:10000001
+2021/04/26 10:37:15 [debug] 40347#40347: epoll add event: fd:7 op:1 ev:10000001
+2021/04/26 10:37:15 [debug] 40348#40348: epoll add event: fd:7 op:1 ev:10000001
+2021/04/26 10:37:15 [debug] 40349#40349: epoll add event: fd:6 op:1 ev:10000001
+2021/04/26 10:37:15 [debug] 40349#40349: epoll add event: fd:7 op:1 ev:10000001
+2021/04/26 10:37:15 [debug] 40350#40350: epoll add event: fd:6 op:1 ev:10000001
+2021/04/26 10:37:15 [debug] 40350#40350: epoll add event: fd:7 op:1 ev:10000001
+2021/04/26 10:37:17 [debug] 40348#40348: epoll del event: fd:6 op:2 ev:00000000
+2021/04/26 10:37:17 [debug] 40348#40348: epoll del event: fd:7 op:2 ev:00000000
+2021/04/26 10:37:17 [debug] 40347#40347: epoll del event: fd:6 op:2 ev:00000000
+2021/04/26 10:37:17 [debug] 40347#40347: epoll del event: fd:7 op:2 ev:00000000
+2021/04/26 10:37:17 [debug] 40349#40349: epoll del event: fd:6 op:2 ev:00000000
+2021/04/26 10:37:17 [debug] 40349#40349: epoll del event: fd:7 op:2 ev:00000000
+2021/04/26 10:37:17 [debug] 40350#40350: epoll del event: fd:6 op:2 ev:00000000
+2021/04/26 10:37:17 [debug] 40350#40350: epoll del event: fd:7 op:2 ev:00000000
+2021/04/26 10:37:17 [debug] 40361#40361: epoll add event: fd:6 op:1 ev:10000001
+2021/04/26 10:37:17 [debug] 40362#40362: epoll add event: fd:6 op:1 ev:10000001
+2021/04/26 10:37:17 [debug] 40361#40361: epoll add event: fd:7 op:1 ev:10000001
+2021/04/26 10:37:17 [debug] 40362#40362: epoll add event: fd:7 op:1 ev:10000001
+2021/04/26 10:37:17 [debug] 40363#40363: epoll add event: fd:6 op:1 ev:10000001
+2021/04/26 10:37:17 [debug] 40363#40363: epoll add event: fd:7 op:1 ev:10000001
+2021/04/26 10:37:17 [debug] 40364#40364: epoll add event: fd:6 op:1 ev:10000001
+2021/04/26 10:37:17 [debug] 40364#40364: epoll add event: fd:7 op:1 ev:10000001
+2021/04/26 10:37:18 [debug] 40364#40364: epoll del event: fd:6 op:2 ev:00000000
+2021/04/26 10:37:18 [debug] 40363#40363: epoll del event: fd:6 op:2 ev:00000000
+2021/04/26 10:37:18 [debug] 40362#40362: epoll del event: fd:6 op:2 ev:00000000
+2021/04/26 10:37:18 [debug] 40364#40364: epoll del event: fd:7 op:2 ev:00000000
+2021/04/26 10:37:18 [debug] 40361#40361: epoll del event: fd:6 op:2 ev:00000000
+2021/04/26 10:37:18 [debug] 40363#40363: epoll del event: fd:7 op:2 ev:00000000
+2021/04/26 10:37:18 [debug] 40362#40362: epoll del event: fd:7 op:2 ev:00000000
+2021/04/26 10:37:18 [debug] 40361#40361: epoll del event: fd:7 op:2 ev:00000000
+2021/04/26 10:37:18 [debug] 40375#40375: epoll add event: fd:6 op:1 ev:10000001
+2021/04/26 10:37:18 [debug] 40375#40375: epoll add event: fd:7 op:1 ev:10000001
+2021/04/26 10:37:18 [debug] 40376#40376: epoll add event: fd:6 op:1 ev:10000001
+2021/04/26 10:37:18 [debug] 40376#40376: epoll add event: fd:7 op:1 ev:10000001
+2021/04/26 10:37:18 [debug] 40377#40377: epoll add event: fd:6 op:1 ev:10000001
+2021/04/26 10:37:18 [debug] 40377#40377: epoll add event: fd:7 op:1 ev:10000001
+2021/04/26 10:37:18 [debug] 40378#40378: epoll add event: fd:6 op:1 ev:10000001
+2021/04/26 10:37:18 [debug] 40378#40378: epoll add event: fd:7 op:1 ev:10000001
+2021/04/26 10:37:22 [debug] 40375#40375: accept on 0.0.0.0:80, ready: 0
+2021/04/26 10:37:22 [debug] 40375#40375: posix_memalign: 000055DF544E8920:512 @16
+2021/04/26 10:37:22 [debug] 40375#40375: *1 accept: 127.0.0.1:45834 fd:13
+2021/04/26 10:37:22 [debug] 40375#40375: *1 event timer add: 13: 60000:48071015
+2021/04/26 10:37:22 [debug] 40375#40375: *1 reusable connection: 1
+2021/04/26 10:37:22 [debug] 40375#40375: *1 epoll add event: fd:13 op:1 ev:80002001
+2021/04/26 10:37:22 [debug] 40375#40375: *1 http wait request handler
+2021/04/26 10:37:22 [debug] 40375#40375: *1 malloc: 000055DF544E9330:1024
+2021/04/26 10:37:22 [debug] 40375#40375: *1 recv: eof:0, avail:1
+2021/04/26 10:37:22 [debug] 40375#40375: *1 recv: fd:13 482 of 1024
+2021/04/26 10:37:22 [debug] 40375#40375: *1 reusable connection: 0
+2021/04/26 10:37:22 [debug] 40375#40375: *1 posix_memalign: 000055DF544FFB40:4096 @16
+2021/04/26 10:37:22 [debug] 40375#40375: *1 http process request line
+2021/04/26 10:37:22 [debug] 40375#40375: *1 http request line: "GET / HTTP/1.1"
+2021/04/26 10:37:22 [debug] 40375#40375: *1 http uri: "/"
+2021/04/26 10:37:22 [debug] 40375#40375: *1 http args: ""
+2021/04/26 10:37:22 [debug] 40375#40375: *1 http exten: ""
+2021/04/26 10:37:22 [debug] 40375#40375: *1 posix_memalign: 000055DF54547B60:4096 @16
+2021/04/26 10:37:22 [debug] 40375#40375: *1 http process request header line
+2021/04/26 10:37:22 [debug] 40375#40375: *1 http header: "Host: localhost"
+2021/04/26 10:37:22 [debug] 40375#40375: *1 http header: "User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:87.0) Gecko/20100101 Firefox/87.0"
+2021/04/26 10:37:22 [debug] 40375#40375: *1 http header: "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8"
+2021/04/26 10:37:22 [debug] 40375#40375: *1 http header: "Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2"
+2021/04/26 10:37:22 [debug] 40375#40375: *1 http header: "Accept-Encoding: gzip, deflate"
+2021/04/26 10:37:22 [debug] 40375#40375: *1 http header: "Connection: keep-alive"
+2021/04/26 10:37:22 [debug] 40375#40375: *1 http header: "Upgrade-Insecure-Requests: 1"
+2021/04/26 10:37:22 [debug] 40375#40375: *1 http header: "If-Modified-Since: Fri, 23 Apr 2021 07:39:14 GMT"
+2021/04/26 10:37:22 [debug] 40375#40375: *1 http header: "If-None-Match: W/"608279a2-264""
+2021/04/26 10:37:22 [debug] 40375#40375: *1 http header: "Cache-Control: max-age=0"
+2021/04/26 10:37:22 [debug] 40375#40375: *1 http header done
+2021/04/26 10:37:22 [debug] 40375#40375: *1 event timer del: 13: 48071015
+2021/04/26 10:37:22 [debug] 40375#40375: *1 generic phase: 0
+2021/04/26 10:37:22 [debug] 40375#40375: *1 rewrite phase: 1
+2021/04/26 10:37:22 [debug] 40375#40375: *1 test location: "/"
+2021/04/26 10:37:22 [debug] 40375#40375: *1 using configuration "/"
+2021/04/26 10:37:22 [debug] 40375#40375: *1 http cl:-1 max:1048576
+2021/04/26 10:37:22 [debug] 40375#40375: *1 rewrite phase: 3
+2021/04/26 10:37:22 [debug] 40375#40375: *1 post rewrite phase: 4
+2021/04/26 10:37:22 [debug] 40375#40375: *1 generic phase: 5
+2021/04/26 10:37:22 [debug] 40375#40375: *1 generic phase: 6
+2021/04/26 10:37:22 [debug] 40375#40375: *1 generic phase: 7
+2021/04/26 10:37:22 [debug] 40375#40375: *1 access phase: 8
+2021/04/26 10:37:22 [debug] 40375#40375: *1 access phase: 9
+2021/04/26 10:37:22 [debug] 40375#40375: *1 access phase: 10
+2021/04/26 10:37:22 [debug] 40375#40375: *1 post access phase: 11
+2021/04/26 10:37:22 [debug] 40375#40375: *1 generic phase: 12
+2021/04/26 10:37:22 [debug] 40375#40375: *1 try files handler
+2021/04/26 10:37:22 [debug] 40375#40375: *1 http script var: "/"
+2021/04/26 10:37:22 [debug] 40375#40375: *1 trying to use file: "/" "/var/www/html/"
+2021/04/26 10:37:22 [debug] 40375#40375: *1 http script var: "/"
+2021/04/26 10:37:22 [debug] 40375#40375: *1 trying to use dir: "/" "/var/www/html/"
+2021/04/26 10:37:22 [debug] 40375#40375: *1 try file uri: "/"
+2021/04/26 10:37:22 [debug] 40375#40375: *1 generic phase: 13
+2021/04/26 10:37:22 [debug] 40375#40375: *1 content phase: 14
+2021/04/26 10:37:22 [debug] 40375#40375: *1 open index "/var/www/html/index.html"
+2021/04/26 10:37:22 [debug] 40375#40375: *1 stat() "/var/www/html/index.html" failed (2: No such file or directory)
+2021/04/26 10:37:22 [debug] 40375#40375: *1 http index check dir: "/var/www/html"
+2021/04/26 10:37:22 [debug] 40375#40375: *1 open index "/var/www/html/index.htm"
+2021/04/26 10:37:22 [debug] 40375#40375: *1 stat() "/var/www/html/index.htm" failed (2: No such file or directory)
+2021/04/26 10:37:22 [debug] 40375#40375: *1 open index "/var/www/html/index.nginx-debian.html"
+2021/04/26 10:37:22 [debug] 40375#40375: *1 internal redirect: "/index.nginx-debian.html?"
+2021/04/26 10:37:22 [debug] 40375#40375: *1 rewrite phase: 1
+2021/04/26 10:37:22 [debug] 40375#40375: *1 test location: "/"
+2021/04/26 10:37:22 [debug] 40375#40375: *1 using configuration "/"
+2021/04/26 10:37:22 [debug] 40375#40375: *1 http cl:-1 max:1048576
+2021/04/26 10:37:22 [debug] 40375#40375: *1 rewrite phase: 3
+2021/04/26 10:37:22 [debug] 40375#40375: *1 post rewrite phase: 4
+2021/04/26 10:37:22 [debug] 40375#40375: *1 generic phase: 5
+2021/04/26 10:37:22 [debug] 40375#40375: *1 generic phase: 6
+2021/04/26 10:37:22 [debug] 40375#40375: *1 generic phase: 7
+2021/04/26 10:37:22 [debug] 40375#40375: *1 access phase: 8
+2021/04/26 10:37:22 [debug] 40375#40375: *1 access phase: 9
+2021/04/26 10:37:22 [debug] 40375#40375: *1 access phase: 10
+2021/04/26 10:37:22 [debug] 40375#40375: *1 post access phase: 11
+2021/04/26 10:37:22 [debug] 40375#40375: *1 generic phase: 12
+2021/04/26 10:37:22 [debug] 40375#40375: *1 try files handler
+2021/04/26 10:37:22 [debug] 40375#40375: *1 http script var: "/index.nginx-debian.html"
+2021/04/26 10:37:22 [debug] 40375#40375: *1 trying to use file: "/index.nginx-debian.html" "/var/www/html/index.nginx-debian.html"
+2021/04/26 10:37:22 [debug] 40375#40375: *1 try file uri: "/index.nginx-debian.html"
+2021/04/26 10:37:22 [debug] 40375#40375: *1 generic phase: 13
+2021/04/26 10:37:22 [debug] 40375#40375: *1 content phase: 14
+2021/04/26 10:37:22 [debug] 40375#40375: *1 content phase: 15
+2021/04/26 10:37:22 [debug] 40375#40375: *1 content phase: 16
+2021/04/26 10:37:22 [debug] 40375#40375: *1 content phase: 17
+2021/04/26 10:37:22 [debug] 40375#40375: *1 content phase: 18
+2021/04/26 10:37:22 [debug] 40375#40375: *1 http filename: "/var/www/html/index.nginx-debian.html"
+2021/04/26 10:37:22 [debug] 40375#40375: *1 add cleanup: 000055DF545009A0
+2021/04/26 10:37:22 [debug] 40375#40375: *1 http static fd: 14
+2021/04/26 10:37:22 [debug] 40375#40375: *1 http set discard body
+2021/04/26 10:37:22 [debug] 40375#40375: *1 http ims:1619163554 lm:1619163554
+2021/04/26 10:37:22 [debug] 40375#40375: *1 http im:"W/"608279a2-264"" etag:"608279a2-264"
+2021/04/26 10:37:22 [debug] 40375#40375: *1 xslt filter header
+2021/04/26 10:37:22 [debug] 40375#40375: *1 HTTP/1.1 304 Not Modified
+Server: nginx/1.14.0 (Ubuntu)
+Date: Mon, 26 Apr 2021 02:37:22 GMT
+Last-Modified: Fri, 23 Apr 2021 07:39:14 GMT
+Connection: keep-alive
+ETag: "608279a2-264"
+
+2021/04/26 10:37:22 [debug] 40375#40375: *1 write new buf t:1 f:0 000055DF54547F90, pos 000055DF54547F90, size: 189 file: 0, size: 0
+2021/04/26 10:37:22 [debug] 40375#40375: *1 http write filter: l:1 f:0 s:189
+2021/04/26 10:37:22 [debug] 40375#40375: *1 http write filter limit 0
+2021/04/26 10:37:22 [debug] 40375#40375: *1 writev: 189 of 189
+2021/04/26 10:37:22 [debug] 40375#40375: *1 http write filter 0000000000000000
+2021/04/26 10:37:22 [debug] 40375#40375: *1 http finalize request: 0, "/index.nginx-debian.html?" a:1, c:2
+2021/04/26 10:37:22 [debug] 40375#40375: *1 http request count:2 blk:0
+2021/04/26 10:37:22 [debug] 40375#40375: *1 http finalize request: -4, "/index.nginx-debian.html?" a:1, c:1
+2021/04/26 10:37:22 [debug] 40375#40375: *1 set http keepalive handler
+2021/04/26 10:37:22 [debug] 40375#40375: *1 http close request
+2021/04/26 10:37:22 [debug] 40375#40375: *1 http log handler
+2021/04/26 10:37:22 [debug] 40375#40375: *1 run cleanup: 000055DF545009A0
+2021/04/26 10:37:22 [debug] 40375#40375: *1 file cleanup: fd:14
+2021/04/26 10:37:22 [debug] 40375#40375: *1 free: 000055DF544FFB40, unused: 0
+2021/04/26 10:37:22 [debug] 40375#40375: *1 free: 000055DF54547B60, unused: 2650
+2021/04/26 10:37:22 [debug] 40375#40375: *1 free: 000055DF544E9330
+2021/04/26 10:37:22 [debug] 40375#40375: *1 hc free: 0000000000000000
+2021/04/26 10:37:22 [debug] 40375#40375: *1 hc busy: 0000000000000000 0
+2021/04/26 10:37:22 [debug] 40375#40375: *1 tcp_nodelay
+2021/04/26 10:37:22 [debug] 40375#40375: *1 reusable connection: 1
+2021/04/26 10:37:22 [debug] 40375#40375: *1 event timer add: 13: 65000:48076015
+2021/04/26 10:37:22 [debug] 40375#40375: *1 http keepalive handler
+2021/04/26 10:37:22 [debug] 40375#40375: *1 malloc: 000055DF544E9330:1024
+2021/04/26 10:37:22 [debug] 40375#40375: *1 recv: eof:0, avail:1
+2021/04/26 10:37:22 [debug] 40375#40375: *1 recv: fd:13 482 of 1024
+2021/04/26 10:37:22 [debug] 40375#40375: *1 reusable connection: 0
+2021/04/26 10:37:22 [debug] 40375#40375: *1 posix_memalign: 000055DF544FFB40:4096 @16
+2021/04/26 10:37:22 [debug] 40375#40375: *1 event timer del: 13: 48076015
+2021/04/26 10:37:22 [debug] 40375#40375: *1 http process request line
+2021/04/26 10:37:22 [debug] 40375#40375: *1 http request line: "GET / HTTP/1.1"
+2021/04/26 10:37:22 [debug] 40375#40375: *1 http uri: "/"
+2021/04/26 10:37:22 [debug] 40375#40375: *1 http args: ""
+2021/04/26 10:37:22 [debug] 40375#40375: *1 http exten: ""
+2021/04/26 10:37:22 [debug] 40375#40375: *1 posix_memalign: 000055DF54547B60:4096 @16
+2021/04/26 10:37:22 [debug] 40375#40375: *1 http process request header line
+2021/04/26 10:37:22 [debug] 40375#40375: *1 http header: "Host: localhost"
+2021/04/26 10:37:22 [debug] 40375#40375: *1 http header: "User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:87.0) Gecko/20100101 Firefox/87.0"
+2021/04/26 10:37:22 [debug] 40375#40375: *1 http header: "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8"
+2021/04/26 10:37:22 [debug] 40375#40375: *1 http header: "Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2"
+2021/04/26 10:37:22 [debug] 40375#40375: *1 http header: "Accept-Encoding: gzip, deflate"
+2021/04/26 10:37:22 [debug] 40375#40375: *1 http header: "Connection: keep-alive"
+2021/04/26 10:37:22 [debug] 40375#40375: *1 http header: "Upgrade-Insecure-Requests: 1"
+2021/04/26 10:37:22 [debug] 40375#40375: *1 http header: "If-Modified-Since: Fri, 23 Apr 2021 07:39:14 GMT"
+2021/04/26 10:37:22 [debug] 40375#40375: *1 http header: "If-None-Match: W/"608279a2-264""
+2021/04/26 10:37:22 [debug] 40375#40375: *1 http header: "Cache-Control: max-age=0"
+2021/04/26 10:37:22 [debug] 40375#40375: *1 http header done
+2021/04/26 10:37:22 [debug] 40375#40375: *1 generic phase: 0
+2021/04/26 10:37:22 [debug] 40375#40375: *1 rewrite phase: 1
+2021/04/26 10:37:22 [debug] 40375#40375: *1 test location: "/"
+2021/04/26 10:37:22 [debug] 40375#40375: *1 using configuration "/"
+2021/04/26 10:37:22 [debug] 40375#40375: *1 http cl:-1 max:1048576
+2021/04/26 10:37:22 [debug] 40375#40375: *1 rewrite phase: 3
+2021/04/26 10:37:22 [debug] 40375#40375: *1 post rewrite phase: 4
+2021/04/26 10:37:22 [debug] 40375#40375: *1 generic phase: 5
+2021/04/26 10:37:22 [debug] 40375#40375: *1 generic phase: 6
+2021/04/26 10:37:22 [debug] 40375#40375: *1 generic phase: 7
+2021/04/26 10:37:22 [debug] 40375#40375: *1 access phase: 8
+2021/04/26 10:37:22 [debug] 40375#40375: *1 access phase: 9
+2021/04/26 10:37:22 [debug] 40375#40375: *1 access phase: 10
+2021/04/26 10:37:22 [debug] 40375#40375: *1 post access phase: 11
+2021/04/26 10:37:22 [debug] 40375#40375: *1 generic phase: 12
+2021/04/26 10:37:22 [debug] 40375#40375: *1 try files handler
+2021/04/26 10:37:22 [debug] 40375#40375: *1 http script var: "/"
+2021/04/26 10:37:22 [debug] 40375#40375: *1 trying to use file: "/" "/var/www/html/"
+2021/04/26 10:37:22 [debug] 40375#40375: *1 http script var: "/"
+2021/04/26 10:37:22 [debug] 40375#40375: *1 trying to use dir: "/" "/var/www/html/"
+2021/04/26 10:37:22 [debug] 40375#40375: *1 try file uri: "/"
+2021/04/26 10:37:22 [debug] 40375#40375: *1 generic phase: 13
+2021/04/26 10:37:22 [debug] 40375#40375: *1 content phase: 14
+2021/04/26 10:37:22 [debug] 40375#40375: *1 open index "/var/www/html/index.html"
+2021/04/26 10:37:22 [debug] 40375#40375: *1 stat() "/var/www/html/index.html" failed (2: No such file or directory)
+2021/04/26 10:37:22 [debug] 40375#40375: *1 http index check dir: "/var/www/html"
+2021/04/26 10:37:22 [debug] 40375#40375: *1 open index "/var/www/html/index.htm"
+2021/04/26 10:37:22 [debug] 40375#40375: *1 stat() "/var/www/html/index.htm" failed (2: No such file or directory)
+2021/04/26 10:37:22 [debug] 40375#40375: *1 open index "/var/www/html/index.nginx-debian.html"
+2021/04/26 10:37:22 [debug] 40375#40375: *1 internal redirect: "/index.nginx-debian.html?"
+2021/04/26 10:37:22 [debug] 40375#40375: *1 rewrite phase: 1
+2021/04/26 10:37:22 [debug] 40375#40375: *1 test location: "/"
+2021/04/26 10:37:22 [debug] 40375#40375: *1 using configuration "/"
+2021/04/26 10:37:22 [debug] 40375#40375: *1 http cl:-1 max:1048576
+2021/04/26 10:37:22 [debug] 40375#40375: *1 rewrite phase: 3
+2021/04/26 10:37:22 [debug] 40375#40375: *1 post rewrite phase: 4
+2021/04/26 10:37:22 [debug] 40375#40375: *1 generic phase: 5
+2021/04/26 10:37:22 [debug] 40375#40375: *1 generic phase: 6
+2021/04/26 10:37:22 [debug] 40375#40375: *1 generic phase: 7
+2021/04/26 10:37:22 [debug] 40375#40375: *1 access phase: 8
+2021/04/26 10:37:22 [debug] 40375#40375: *1 access phase: 9
+2021/04/26 10:37:22 [debug] 40375#40375: *1 access phase: 10
+2021/04/26 10:37:22 [debug] 40375#40375: *1 post access phase: 11
+2021/04/26 10:37:22 [debug] 40375#40375: *1 generic phase: 12
+2021/04/26 10:37:22 [debug] 40375#40375: *1 try files handler
+2021/04/26 10:37:22 [debug] 40375#40375: *1 http script var: "/index.nginx-debian.html"
+2021/04/26 10:37:22 [debug] 40375#40375: *1 trying to use file: "/index.nginx-debian.html" "/var/www/html/index.nginx-debian.html"
+2021/04/26 10:37:22 [debug] 40375#40375: *1 try file uri: "/index.nginx-debian.html"
+2021/04/26 10:37:22 [debug] 40375#40375: *1 generic phase: 13
+2021/04/26 10:37:22 [debug] 40375#40375: *1 content phase: 14
+2021/04/26 10:37:22 [debug] 40375#40375: *1 content phase: 15
+2021/04/26 10:37:22 [debug] 40375#40375: *1 content phase: 16
+2021/04/26 10:37:22 [debug] 40375#40375: *1 content phase: 17
+2021/04/26 10:37:22 [debug] 40375#40375: *1 content phase: 18
+2021/04/26 10:37:22 [debug] 40375#40375: *1 http filename: "/var/www/html/index.nginx-debian.html"
+2021/04/26 10:37:22 [debug] 40375#40375: *1 add cleanup: 000055DF545009A0
+2021/04/26 10:37:22 [debug] 40375#40375: *1 http static fd: 14
+2021/04/26 10:37:22 [debug] 40375#40375: *1 http set discard body
+2021/04/26 10:37:22 [debug] 40375#40375: *1 http ims:1619163554 lm:1619163554
+2021/04/26 10:37:22 [debug] 40375#40375: *1 http im:"W/"608279a2-264"" etag:"608279a2-264"
+2021/04/26 10:37:22 [debug] 40375#40375: *1 xslt filter header
+2021/04/26 10:37:22 [debug] 40375#40375: *1 HTTP/1.1 304 Not Modified
+Server: nginx/1.14.0 (Ubuntu)
+Date: Mon, 26 Apr 2021 02:37:22 GMT
+Last-Modified: Fri, 23 Apr 2021 07:39:14 GMT
+Connection: keep-alive
+ETag: "608279a2-264"
+
+2021/04/26 10:37:22 [debug] 40375#40375: *1 write new buf t:1 f:0 000055DF54547F90, pos 000055DF54547F90, size: 189 file: 0, size: 0
+2021/04/26 10:37:22 [debug] 40375#40375: *1 http write filter: l:1 f:0 s:189
+2021/04/26 10:37:22 [debug] 40375#40375: *1 http write filter limit 0
+2021/04/26 10:37:22 [debug] 40375#40375: *1 writev: 189 of 189
+2021/04/26 10:37:22 [debug] 40375#40375: *1 http write filter 0000000000000000
+2021/04/26 10:37:22 [debug] 40375#40375: *1 http finalize request: 0, "/index.nginx-debian.html?" a:1, c:2
+2021/04/26 10:37:22 [debug] 40375#40375: *1 http request count:2 blk:0
+2021/04/26 10:37:22 [debug] 40375#40375: *1 http finalize request: -4, "/index.nginx-debian.html?" a:1, c:1
+2021/04/26 10:37:22 [debug] 40375#40375: *1 set http keepalive handler
+2021/04/26 10:37:22 [debug] 40375#40375: *1 http close request
+2021/04/26 10:37:22 [debug] 40375#40375: *1 http log handler
+2021/04/26 10:37:22 [debug] 40375#40375: *1 run cleanup: 000055DF545009A0
+2021/04/26 10:37:22 [debug] 40375#40375: *1 file cleanup: fd:14
+2021/04/26 10:37:22 [debug] 40375#40375: *1 free: 000055DF544FFB40, unused: 0
+2021/04/26 10:37:22 [debug] 40375#40375: *1 free: 000055DF54547B60, unused: 2650
+2021/04/26 10:37:22 [debug] 40375#40375: *1 free: 000055DF544E9330
+2021/04/26 10:37:22 [debug] 40375#40375: *1 hc free: 0000000000000000
+2021/04/26 10:37:22 [debug] 40375#40375: *1 hc busy: 0000000000000000 0
+2021/04/26 10:37:22 [debug] 40375#40375: *1 reusable connection: 1
+2021/04/26 10:37:22 [debug] 40375#40375: *1 event timer add: 13: 65000:48076739
+2021/04/26 10:37:56 [debug] 40375#40375: epoll del event: fd:6 op:2 ev:00000000
+2021/04/26 10:37:56 [debug] 40375#40375: epoll del event: fd:7 op:2 ev:00000000
+2021/04/26 10:37:56 [debug] 40375#40375: *1 http keepalive handler
+2021/04/26 10:37:56 [debug] 40375#40375: *1 close http connection: 13
+2021/04/26 10:37:56 [debug] 40375#40375: *1 event timer del: 13: 48076739
+2021/04/26 10:37:56 [debug] 40375#40375: *1 reusable connection: 0
+2021/04/26 10:37:56 [debug] 40376#40376: epoll del event: fd:6 op:2 ev:00000000
+2021/04/26 10:37:56 [debug] 40377#40377: epoll del event: fd:6 op:2 ev:00000000
+2021/04/26 10:37:56 [debug] 40378#40378: epoll del event: fd:6 op:2 ev:00000000
+2021/04/26 10:37:56 [debug] 40376#40376: epoll del event: fd:7 op:2 ev:00000000
+2021/04/26 10:37:56 [debug] 40378#40378: epoll del event: fd:7 op:2 ev:00000000
+2021/04/26 10:37:56 [debug] 40377#40377: epoll del event: fd:7 op:2 ev:00000000
+2021/04/26 10:37:56 [debug] 40375#40375: *1 free: 0000000000000000
+2021/04/26 10:37:56 [debug] 40375#40375: *1 free: 000055DF544E8920, unused: 136
+2021/04/26 10:37:56 [emerg] 40425#40425: unknown directive "tcp_no_push" in /etc/nginx/nginx.conf:18
+2021/04/26 10:37:57 [emerg] 40432#40432: unknown directive "tcp_no_push" in /etc/nginx/nginx.conf:18
+2021/04/26 10:41:50 [debug] 40652#40652: epoll add event: fd:6 op:1 ev:10000001
+2021/04/26 10:41:50 [debug] 40652#40652: epoll add event: fd:7 op:1 ev:10000001
+2021/04/26 10:41:50 [debug] 40653#40653: epoll add event: fd:6 op:1 ev:10000001
+2021/04/26 10:41:50 [debug] 40653#40653: epoll add event: fd:7 op:1 ev:10000001
+2021/04/26 10:41:50 [debug] 40654#40654: epoll add event: fd:6 op:1 ev:10000001
+2021/04/26 10:41:50 [debug] 40654#40654: epoll add event: fd:7 op:1 ev:10000001
+2021/04/26 10:41:50 [debug] 40655#40655: epoll add event: fd:6 op:1 ev:10000001
+2021/04/26 10:41:50 [debug] 40655#40655: epoll add event: fd:7 op:1 ev:10000001
+2021/04/26 10:41:51 [debug] 40653#40653: epoll del event: fd:6 op:2 ev:00000000
+2021/04/26 10:41:51 [debug] 40655#40655: epoll del event: fd:6 op:2 ev:00000000
+2021/04/26 10:41:51 [debug] 40653#40653: epoll del event: fd:7 op:2 ev:00000000
+2021/04/26 10:41:51 [debug] 40652#40652: epoll del event: fd:6 op:2 ev:00000000
+2021/04/26 10:41:51 [debug] 40655#40655: epoll del event: fd:7 op:2 ev:00000000
+2021/04/26 10:41:51 [debug] 40652#40652: epoll del event: fd:7 op:2 ev:00000000
+2021/04/26 10:41:51 [debug] 40654#40654: epoll del event: fd:6 op:2 ev:00000000
+2021/04/26 10:41:51 [debug] 40654#40654: epoll del event: fd:7 op:2 ev:00000000
+2021/04/26 10:41:51 [debug] 40665#40665: epoll add event: fd:6 op:1 ev:10000001
+2021/04/26 10:41:51 [debug] 40665#40665: epoll add event: fd:7 op:1 ev:10000001
+2021/04/26 10:41:51 [debug] 40666#40666: epoll add event: fd:6 op:1 ev:10000001
+2021/04/26 10:41:51 [debug] 40666#40666: epoll add event: fd:7 op:1 ev:10000001
+2021/04/26 10:41:51 [debug] 40667#40667: epoll add event: fd:6 op:1 ev:10000001
+2021/04/26 10:41:51 [debug] 40667#40667: epoll add event: fd:7 op:1 ev:10000001
+2021/04/26 10:41:51 [debug] 40668#40668: epoll add event: fd:6 op:1 ev:10000001
+2021/04/26 10:41:51 [debug] 40668#40668: epoll add event: fd:7 op:1 ev:10000001
+2021/04/26 10:41:54 [debug] 40665#40665: accept on 0.0.0.0:80, ready: 0
+2021/04/26 10:41:54 [debug] 40665#40665: posix_memalign: 00005599155F6920:512 @16
+2021/04/26 10:41:54 [debug] 40665#40665: *1 accept: 127.0.0.1:45876 fd:13
+2021/04/26 10:41:54 [debug] 40665#40665: *1 event timer add: 13: 60000:48343752
+2021/04/26 10:41:54 [debug] 40665#40665: *1 reusable connection: 1
+2021/04/26 10:41:54 [debug] 40665#40665: *1 epoll add event: fd:13 op:1 ev:80002001
+2021/04/26 10:41:54 [debug] 40665#40665: *1 http wait request handler
+2021/04/26 10:41:54 [debug] 40665#40665: *1 malloc: 00005599155F7330:1024
+2021/04/26 10:41:54 [debug] 40665#40665: *1 recv: eof:0, avail:1
+2021/04/26 10:41:54 [debug] 40665#40665: *1 recv: fd:13 482 of 1024
+2021/04/26 10:41:54 [debug] 40665#40665: *1 reusable connection: 0
+2021/04/26 10:41:54 [debug] 40665#40665: *1 posix_memalign: 000055991560DB40:4096 @16
+2021/04/26 10:41:54 [debug] 40665#40665: *1 http process request line
+2021/04/26 10:41:54 [debug] 40665#40665: *1 http request line: "GET / HTTP/1.1"
+2021/04/26 10:41:54 [debug] 40665#40665: *1 http uri: "/"
+2021/04/26 10:41:54 [debug] 40665#40665: *1 http args: ""
+2021/04/26 10:41:54 [debug] 40665#40665: *1 http exten: ""
+2021/04/26 10:41:54 [debug] 40665#40665: *1 posix_memalign: 0000559915655B20:4096 @16
+2021/04/26 10:41:54 [debug] 40665#40665: *1 http process request header line
+2021/04/26 10:41:54 [debug] 40665#40665: *1 http header: "Host: localhost"
+2021/04/26 10:41:54 [debug] 40665#40665: *1 http header: "User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:87.0) Gecko/20100101 Firefox/87.0"
+2021/04/26 10:41:54 [debug] 40665#40665: *1 http header: "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8"
+2021/04/26 10:41:54 [debug] 40665#40665: *1 http header: "Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2"
+2021/04/26 10:41:54 [debug] 40665#40665: *1 http header: "Accept-Encoding: gzip, deflate"
+2021/04/26 10:41:54 [debug] 40665#40665: *1 http header: "Connection: keep-alive"
+2021/04/26 10:41:54 [debug] 40665#40665: *1 http header: "Upgrade-Insecure-Requests: 1"
+2021/04/26 10:41:54 [debug] 40665#40665: *1 http header: "If-Modified-Since: Fri, 23 Apr 2021 07:39:14 GMT"
+2021/04/26 10:41:54 [debug] 40665#40665: *1 http header: "If-None-Match: W/"608279a2-264""
+2021/04/26 10:41:54 [debug] 40665#40665: *1 http header: "Cache-Control: max-age=0"
+2021/04/26 10:41:54 [debug] 40665#40665: *1 http header done
+2021/04/26 10:41:54 [debug] 40665#40665: *1 event timer del: 13: 48343752
+2021/04/26 10:41:54 [debug] 40665#40665: *1 generic phase: 0
+2021/04/26 10:41:54 [debug] 40665#40665: *1 rewrite phase: 1
+2021/04/26 10:41:54 [debug] 40665#40665: *1 test location: "/"
+2021/04/26 10:41:54 [debug] 40665#40665: *1 using configuration "/"
+2021/04/26 10:41:54 [debug] 40665#40665: *1 http cl:-1 max:1048576
+2021/04/26 10:41:54 [debug] 40665#40665: *1 rewrite phase: 3
+2021/04/26 10:41:54 [debug] 40665#40665: *1 post rewrite phase: 4
+2021/04/26 10:41:54 [debug] 40665#40665: *1 generic phase: 5
+2021/04/26 10:41:54 [debug] 40665#40665: *1 generic phase: 6
+2021/04/26 10:41:54 [debug] 40665#40665: *1 generic phase: 7
+2021/04/26 10:41:54 [debug] 40665#40665: *1 access phase: 8
+2021/04/26 10:41:54 [debug] 40665#40665: *1 access phase: 9
+2021/04/26 10:41:54 [debug] 40665#40665: *1 access phase: 10
+2021/04/26 10:41:54 [debug] 40665#40665: *1 post access phase: 11
+2021/04/26 10:41:54 [debug] 40665#40665: *1 generic phase: 12
+2021/04/26 10:41:54 [debug] 40665#40665: *1 try files handler
+2021/04/26 10:41:54 [debug] 40665#40665: *1 http script var: "/"
+2021/04/26 10:41:54 [debug] 40665#40665: *1 trying to use file: "/" "/var/www/html/"
+2021/04/26 10:41:54 [debug] 40665#40665: *1 http script var: "/"
+2021/04/26 10:41:54 [debug] 40665#40665: *1 trying to use dir: "/" "/var/www/html/"
+2021/04/26 10:41:54 [debug] 40665#40665: *1 try file uri: "/"
+2021/04/26 10:41:54 [debug] 40665#40665: *1 generic phase: 13
+2021/04/26 10:41:54 [debug] 40665#40665: *1 content phase: 14
+2021/04/26 10:41:54 [debug] 40665#40665: *1 open index "/var/www/html/index.html"
+2021/04/26 10:41:54 [debug] 40665#40665: *1 stat() "/var/www/html/index.html" failed (2: No such file or directory)
+2021/04/26 10:41:54 [debug] 40665#40665: *1 http index check dir: "/var/www/html"
+2021/04/26 10:41:54 [debug] 40665#40665: *1 open index "/var/www/html/index.htm"
+2021/04/26 10:41:54 [debug] 40665#40665: *1 stat() "/var/www/html/index.htm" failed (2: No such file or directory)
+2021/04/26 10:41:54 [debug] 40665#40665: *1 open index "/var/www/html/index.nginx-debian.html"
+2021/04/26 10:41:54 [debug] 40665#40665: *1 internal redirect: "/index.nginx-debian.html?"
+2021/04/26 10:41:54 [debug] 40665#40665: *1 rewrite phase: 1
+2021/04/26 10:41:54 [debug] 40665#40665: *1 test location: "/"
+2021/04/26 10:41:54 [debug] 40665#40665: *1 using configuration "/"
+2021/04/26 10:41:54 [debug] 40665#40665: *1 http cl:-1 max:1048576
+2021/04/26 10:41:54 [debug] 40665#40665: *1 rewrite phase: 3
+2021/04/26 10:41:54 [debug] 40665#40665: *1 post rewrite phase: 4
+2021/04/26 10:41:54 [debug] 40665#40665: *1 generic phase: 5
+2021/04/26 10:41:54 [debug] 40665#40665: *1 generic phase: 6
+2021/04/26 10:41:54 [debug] 40665#40665: *1 generic phase: 7
+2021/04/26 10:41:54 [debug] 40665#40665: *1 access phase: 8
+2021/04/26 10:41:54 [debug] 40665#40665: *1 access phase: 9
+2021/04/26 10:41:54 [debug] 40665#40665: *1 access phase: 10
+2021/04/26 10:41:54 [debug] 40665#40665: *1 post access phase: 11
+2021/04/26 10:41:54 [debug] 40665#40665: *1 generic phase: 12
+2021/04/26 10:41:54 [debug] 40665#40665: *1 try files handler
+2021/04/26 10:41:54 [debug] 40665#40665: *1 http script var: "/index.nginx-debian.html"
+2021/04/26 10:41:54 [debug] 40665#40665: *1 trying to use file: "/index.nginx-debian.html" "/var/www/html/index.nginx-debian.html"
+2021/04/26 10:41:54 [debug] 40665#40665: *1 try file uri: "/index.nginx-debian.html"
+2021/04/26 10:41:54 [debug] 40665#40665: *1 generic phase: 13
+2021/04/26 10:41:54 [debug] 40665#40665: *1 content phase: 14
+2021/04/26 10:41:54 [debug] 40665#40665: *1 content phase: 15
+2021/04/26 10:41:54 [debug] 40665#40665: *1 content phase: 16
+2021/04/26 10:41:54 [debug] 40665#40665: *1 content phase: 17
+2021/04/26 10:41:54 [debug] 40665#40665: *1 content phase: 18
+2021/04/26 10:41:54 [debug] 40665#40665: *1 http filename: "/var/www/html/index.nginx-debian.html"
+2021/04/26 10:41:54 [debug] 40665#40665: *1 add cleanup: 000055991560E9A0
+2021/04/26 10:41:54 [debug] 40665#40665: *1 http static fd: 14
+2021/04/26 10:41:54 [debug] 40665#40665: *1 http set discard body
+2021/04/26 10:41:54 [debug] 40665#40665: *1 http ims:1619163554 lm:1619163554
+2021/04/26 10:41:54 [debug] 40665#40665: *1 http im:"W/"608279a2-264"" etag:"608279a2-264"
+2021/04/26 10:41:54 [debug] 40665#40665: *1 xslt filter header
+2021/04/26 10:41:54 [debug] 40665#40665: *1 HTTP/1.1 304 Not Modified
+Server: nginx/1.14.0 (Ubuntu)
+Date: Mon, 26 Apr 2021 02:41:54 GMT
+Last-Modified: Fri, 23 Apr 2021 07:39:14 GMT
+Connection: keep-alive
+ETag: "608279a2-264"
+
+2021/04/26 10:41:54 [debug] 40665#40665: *1 write new buf t:1 f:0 0000559915655F50, pos 0000559915655F50, size: 189 file: 0, size: 0
+2021/04/26 10:41:54 [debug] 40665#40665: *1 http write filter: l:1 f:0 s:189
+2021/04/26 10:41:54 [debug] 40665#40665: *1 http write filter limit 0
+2021/04/26 10:41:54 [debug] 40665#40665: *1 writev: 189 of 189
+2021/04/26 10:41:54 [debug] 40665#40665: *1 http write filter 0000000000000000
+2021/04/26 10:41:54 [debug] 40665#40665: *1 http finalize request: 0, "/index.nginx-debian.html?" a:1, c:2
+2021/04/26 10:41:54 [debug] 40665#40665: *1 http request count:2 blk:0
+2021/04/26 10:41:54 [debug] 40665#40665: *1 http finalize request: -4, "/index.nginx-debian.html?" a:1, c:1
+2021/04/26 10:41:54 [debug] 40665#40665: *1 set http keepalive handler
+2021/04/26 10:41:54 [debug] 40665#40665: *1 http close request
+2021/04/26 10:41:54 [debug] 40665#40665: *1 http log handler
+2021/04/26 10:41:54 [debug] 40665#40665: *1 run cleanup: 000055991560E9A0
+2021/04/26 10:41:54 [debug] 40665#40665: *1 file cleanup: fd:14
+2021/04/26 10:41:54 [debug] 40665#40665: *1 free: 000055991560DB40, unused: 0
+2021/04/26 10:41:54 [debug] 40665#40665: *1 free: 0000559915655B20, unused: 2650
+2021/04/26 10:41:54 [debug] 40665#40665: *1 free: 00005599155F7330
+2021/04/26 10:41:54 [debug] 40665#40665: *1 hc free: 0000000000000000
+2021/04/26 10:41:54 [debug] 40665#40665: *1 hc busy: 0000000000000000 0
+2021/04/26 10:41:54 [debug] 40665#40665: *1 tcp_nodelay
+2021/04/26 10:41:54 [debug] 40665#40665: *1 reusable connection: 1
+2021/04/26 10:41:54 [debug] 40665#40665: *1 event timer add: 13: 65000:48348752
+2021/04/26 10:41:56 [debug] 40665#40665: *1 http keepalive handler
+2021/04/26 10:41:56 [debug] 40665#40665: *1 malloc: 00005599155F7330:1024
+2021/04/26 10:41:56 [debug] 40665#40665: *1 recv: eof:0, avail:1
+2021/04/26 10:41:56 [debug] 40665#40665: *1 recv: fd:13 482 of 1024
+2021/04/26 10:41:56 [debug] 40665#40665: *1 reusable connection: 0
+2021/04/26 10:41:56 [debug] 40665#40665: *1 posix_memalign: 000055991560DB40:4096 @16
+2021/04/26 10:41:56 [debug] 40665#40665: *1 event timer del: 13: 48348752
+2021/04/26 10:41:56 [debug] 40665#40665: *1 http process request line
+2021/04/26 10:41:56 [debug] 40665#40665: *1 http request line: "GET / HTTP/1.1"
+2021/04/26 10:41:56 [debug] 40665#40665: *1 http uri: "/"
+2021/04/26 10:41:56 [debug] 40665#40665: *1 http args: ""
+2021/04/26 10:41:56 [debug] 40665#40665: *1 http exten: ""
+2021/04/26 10:41:56 [debug] 40665#40665: *1 posix_memalign: 0000559915655B20:4096 @16
+2021/04/26 10:41:56 [debug] 40665#40665: *1 http process request header line
+2021/04/26 10:41:56 [debug] 40665#40665: *1 http header: "Host: localhost"
+2021/04/26 10:41:56 [debug] 40665#40665: *1 http header: "User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:87.0) Gecko/20100101 Firefox/87.0"
+2021/04/26 10:41:56 [debug] 40665#40665: *1 http header: "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8"
+2021/04/26 10:41:56 [debug] 40665#40665: *1 http header: "Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2"
+2021/04/26 10:41:56 [debug] 40665#40665: *1 http header: "Accept-Encoding: gzip, deflate"
+2021/04/26 10:41:56 [debug] 40665#40665: *1 http header: "Connection: keep-alive"
+2021/04/26 10:41:56 [debug] 40665#40665: *1 http header: "Upgrade-Insecure-Requests: 1"
+2021/04/26 10:41:56 [debug] 40665#40665: *1 http header: "If-Modified-Since: Fri, 23 Apr 2021 07:39:14 GMT"
+2021/04/26 10:41:56 [debug] 40665#40665: *1 http header: "If-None-Match: W/"608279a2-264""
+2021/04/26 10:41:56 [debug] 40665#40665: *1 http header: "Cache-Control: max-age=0"
+2021/04/26 10:41:56 [debug] 40665#40665: *1 http header done
+2021/04/26 10:41:56 [debug] 40665#40665: *1 generic phase: 0
+2021/04/26 10:41:56 [debug] 40665#40665: *1 rewrite phase: 1
+2021/04/26 10:41:56 [debug] 40665#40665: *1 test location: "/"
+2021/04/26 10:41:56 [debug] 40665#40665: *1 using configuration "/"
+2021/04/26 10:41:56 [debug] 40665#40665: *1 http cl:-1 max:1048576
+2021/04/26 10:41:56 [debug] 40665#40665: *1 rewrite phase: 3
+2021/04/26 10:41:56 [debug] 40665#40665: *1 post rewrite phase: 4
+2021/04/26 10:41:56 [debug] 40665#40665: *1 generic phase: 5
+2021/04/26 10:41:56 [debug] 40665#40665: *1 generic phase: 6
+2021/04/26 10:41:56 [debug] 40665#40665: *1 generic phase: 7
+2021/04/26 10:41:56 [debug] 40665#40665: *1 access phase: 8
+2021/04/26 10:41:56 [debug] 40665#40665: *1 access phase: 9
+2021/04/26 10:41:56 [debug] 40665#40665: *1 access phase: 10
+2021/04/26 10:41:56 [debug] 40665#40665: *1 post access phase: 11
+2021/04/26 10:41:56 [debug] 40665#40665: *1 generic phase: 12
+2021/04/26 10:41:56 [debug] 40665#40665: *1 try files handler
+2021/04/26 10:41:56 [debug] 40665#40665: *1 http script var: "/"
+2021/04/26 10:41:56 [debug] 40665#40665: *1 trying to use file: "/" "/var/www/html/"
+2021/04/26 10:41:56 [debug] 40665#40665: *1 http script var: "/"
+2021/04/26 10:41:56 [debug] 40665#40665: *1 trying to use dir: "/" "/var/www/html/"
+2021/04/26 10:41:56 [debug] 40665#40665: *1 try file uri: "/"
+2021/04/26 10:41:56 [debug] 40665#40665: *1 generic phase: 13
+2021/04/26 10:41:56 [debug] 40665#40665: *1 content phase: 14
+2021/04/26 10:41:56 [debug] 40665#40665: *1 open index "/var/www/html/index.html"
+2021/04/26 10:41:56 [debug] 40665#40665: *1 stat() "/var/www/html/index.html" failed (2: No such file or directory)
+2021/04/26 10:41:56 [debug] 40665#40665: *1 http index check dir: "/var/www/html"
+2021/04/26 10:41:56 [debug] 40665#40665: *1 open index "/var/www/html/index.htm"
+2021/04/26 10:41:56 [debug] 40665#40665: *1 stat() "/var/www/html/index.htm" failed (2: No such file or directory)
+2021/04/26 10:41:56 [debug] 40665#40665: *1 open index "/var/www/html/index.nginx-debian.html"
+2021/04/26 10:41:56 [debug] 40665#40665: *1 internal redirect: "/index.nginx-debian.html?"
+2021/04/26 10:41:56 [debug] 40665#40665: *1 rewrite phase: 1
+2021/04/26 10:41:56 [debug] 40665#40665: *1 test location: "/"
+2021/04/26 10:41:56 [debug] 40665#40665: *1 using configuration "/"
+2021/04/26 10:41:56 [debug] 40665#40665: *1 http cl:-1 max:1048576
+2021/04/26 10:41:56 [debug] 40665#40665: *1 rewrite phase: 3
+2021/04/26 10:41:56 [debug] 40665#40665: *1 post rewrite phase: 4
+2021/04/26 10:41:56 [debug] 40665#40665: *1 generic phase: 5
+2021/04/26 10:41:56 [debug] 40665#40665: *1 generic phase: 6
+2021/04/26 10:41:56 [debug] 40665#40665: *1 generic phase: 7
+2021/04/26 10:41:56 [debug] 40665#40665: *1 access phase: 8
+2021/04/26 10:41:56 [debug] 40665#40665: *1 access phase: 9
+2021/04/26 10:41:56 [debug] 40665#40665: *1 access phase: 10
+2021/04/26 10:41:56 [debug] 40665#40665: *1 post access phase: 11
+2021/04/26 10:41:56 [debug] 40665#40665: *1 generic phase: 12
+2021/04/26 10:41:56 [debug] 40665#40665: *1 try files handler
+2021/04/26 10:41:56 [debug] 40665#40665: *1 http script var: "/index.nginx-debian.html"
+2021/04/26 10:41:56 [debug] 40665#40665: *1 trying to use file: "/index.nginx-debian.html" "/var/www/html/index.nginx-debian.html"
+2021/04/26 10:41:56 [debug] 40665#40665: *1 try file uri: "/index.nginx-debian.html"
+2021/04/26 10:41:56 [debug] 40665#40665: *1 generic phase: 13
+2021/04/26 10:41:56 [debug] 40665#40665: *1 content phase: 14
+2021/04/26 10:41:56 [debug] 40665#40665: *1 content phase: 15
+2021/04/26 10:41:56 [debug] 40665#40665: *1 content phase: 16
+2021/04/26 10:41:56 [debug] 40665#40665: *1 content phase: 17
+2021/04/26 10:41:56 [debug] 40665#40665: *1 content phase: 18
+2021/04/26 10:41:56 [debug] 40665#40665: *1 http filename: "/var/www/html/index.nginx-debian.html"
+2021/04/26 10:41:56 [debug] 40665#40665: *1 add cleanup: 000055991560E9A0
+2021/04/26 10:41:56 [debug] 40665#40665: *1 http static fd: 14
+2021/04/26 10:41:56 [debug] 40665#40665: *1 http set discard body
+2021/04/26 10:41:56 [debug] 40665#40665: *1 http ims:1619163554 lm:1619163554
+2021/04/26 10:41:56 [debug] 40665#40665: *1 http im:"W/"608279a2-264"" etag:"608279a2-264"
+2021/04/26 10:41:56 [debug] 40665#40665: *1 xslt filter header
+2021/04/26 10:41:56 [debug] 40665#40665: *1 HTTP/1.1 304 Not Modified
+Server: nginx/1.14.0 (Ubuntu)
+Date: Mon, 26 Apr 2021 02:41:56 GMT
+Last-Modified: Fri, 23 Apr 2021 07:39:14 GMT
+Connection: keep-alive
+ETag: "608279a2-264"
+
+2021/04/26 10:41:56 [debug] 40665#40665: *1 write new buf t:1 f:0 0000559915655F50, pos 0000559915655F50, size: 189 file: 0, size: 0
+2021/04/26 10:41:56 [debug] 40665#40665: *1 http write filter: l:1 f:0 s:189
+2021/04/26 10:41:56 [debug] 40665#40665: *1 http write filter limit 0
+2021/04/26 10:41:56 [debug] 40665#40665: *1 writev: 189 of 189
+2021/04/26 10:41:56 [debug] 40665#40665: *1 http write filter 0000000000000000
+2021/04/26 10:41:56 [debug] 40665#40665: *1 http finalize request: 0, "/index.nginx-debian.html?" a:1, c:2
+2021/04/26 10:41:56 [debug] 40665#40665: *1 http request count:2 blk:0
+2021/04/26 10:41:56 [debug] 40665#40665: *1 http finalize request: -4, "/index.nginx-debian.html?" a:1, c:1
+2021/04/26 10:41:56 [debug] 40665#40665: *1 set http keepalive handler
+2021/04/26 10:41:56 [debug] 40665#40665: *1 http close request
+2021/04/26 10:41:56 [debug] 40665#40665: *1 http log handler
+2021/04/26 10:41:56 [debug] 40665#40665: *1 run cleanup: 000055991560E9A0
+2021/04/26 10:41:56 [debug] 40665#40665: *1 file cleanup: fd:14
+2021/04/26 10:41:56 [debug] 40665#40665: *1 free: 000055991560DB40, unused: 0
+2021/04/26 10:41:56 [debug] 40665#40665: *1 free: 0000559915655B20, unused: 2650
+2021/04/26 10:41:56 [debug] 40665#40665: *1 free: 00005599155F7330
+2021/04/26 10:41:56 [debug] 40665#40665: *1 hc free: 0000000000000000
+2021/04/26 10:41:56 [debug] 40665#40665: *1 hc busy: 0000000000000000 0
+2021/04/26 10:41:56 [debug] 40665#40665: *1 reusable connection: 1
+2021/04/26 10:41:56 [debug] 40665#40665: *1 event timer add: 13: 65000:48350352
+2021/04/26 10:43:01 [debug] 40665#40665: *1 event timer del: 13: 48350352
+2021/04/26 10:43:01 [debug] 40665#40665: *1 http keepalive handler
+2021/04/26 10:43:01 [debug] 40665#40665: *1 close http connection: 13
+2021/04/26 10:43:01 [debug] 40665#40665: *1 reusable connection: 0
+2021/04/26 10:43:01 [debug] 40665#40665: *1 free: 0000000000000000
+2021/04/26 10:43:01 [debug] 40665#40665: *1 free: 00005599155F6920, unused: 136
+2021/04/26 14:24:37 [debug] 40665#40665: epoll del event: fd:6 op:2 ev:00000000
+2021/04/26 14:24:37 [debug] 40667#40667: epoll del event: fd:6 op:2 ev:00000000
+2021/04/26 14:24:37 [debug] 40667#40667: epoll del event: fd:7 op:2 ev:00000000
+2021/04/26 14:24:37 [debug] 40666#40666: epoll del event: fd:6 op:2 ev:00000000
+2021/04/26 14:24:37 [debug] 40665#40665: epoll del event: fd:7 op:2 ev:00000000
+2021/04/26 14:24:37 [debug] 40666#40666: epoll del event: fd:7 op:2 ev:00000000
+2021/04/26 14:24:37 [debug] 40668#40668: epoll del event: fd:6 op:2 ev:00000000
+2021/04/26 14:24:37 [debug] 40668#40668: epoll del event: fd:7 op:2 ev:00000000
+2021/04/26 14:24:37 [emerg] 41302#41302: invalid value "yes" in "tcp_nodelay" directive, it must be "on" or "off" in /etc/nginx/nginx.conf:19
+2021/04/26 14:24:39 [emerg] 41310#41310: invalid value "yes" in "tcp_nodelay" directive, it must be "on" or "off" in /etc/nginx/nginx.conf:19

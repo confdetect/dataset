@@ -1,0 +1,154 @@
+2021/05/14 15:19:17 [debug] 831#831: epoll del event: fd:6 op:2 ev:00000000
+2021/05/14 15:19:17 [debug] 830#830: epoll del event: fd:6 op:2 ev:00000000
+2021/05/14 15:19:17 [debug] 831#831: epoll del event: fd:7 op:2 ev:00000000
+2021/05/14 15:19:17 [debug] 830#830: epoll del event: fd:7 op:2 ev:00000000
+2021/05/14 15:19:17 [debug] 829#829: epoll del event: fd:6 op:2 ev:00000000
+2021/05/14 15:19:17 [debug] 829#829: epoll del event: fd:7 op:2 ev:00000000
+2021/05/14 15:19:17 [debug] 828#828: epoll del event: fd:6 op:2 ev:00000000
+2021/05/14 15:19:17 [debug] 828#828: epoll del event: fd:7 op:2 ev:00000000
+2021/05/14 15:19:18 [debug] 26003#26003: epoll add event: fd:6 op:1 ev:10000001
+2021/05/14 15:19:18 [debug] 26003#26003: epoll add event: fd:7 op:1 ev:10000001
+2021/05/14 15:19:18 [debug] 26004#26004: epoll add event: fd:6 op:1 ev:10000001
+2021/05/14 15:19:18 [debug] 26004#26004: epoll add event: fd:7 op:1 ev:10000001
+2021/05/14 15:19:18 [debug] 26006#26006: epoll add event: fd:6 op:1 ev:10000001
+2021/05/14 15:19:18 [debug] 26006#26006: epoll add event: fd:7 op:1 ev:10000001
+2021/05/14 15:19:18 [debug] 26005#26005: epoll add event: fd:6 op:1 ev:10000001
+2021/05/14 15:19:18 [debug] 26005#26005: epoll add event: fd:7 op:1 ev:10000001
+2021/05/14 15:19:31 [debug] 26003#26003: accept on 0.0.0.0:80, ready: 0
+2021/05/14 15:19:31 [debug] 26003#26003: posix_memalign: 0000564B9195E920:512 @16
+2021/05/14 15:19:31 [debug] 26003#26003: *1 accept: 127.0.0.1:45588 fd:13
+2021/05/14 15:19:31 [debug] 26003#26003: *1 event timer add: 13: 60000:15357455
+2021/05/14 15:19:31 [debug] 26003#26003: *1 reusable connection: 1
+2021/05/14 15:19:31 [debug] 26003#26003: *1 epoll add event: fd:13 op:1 ev:80002001
+2021/05/14 15:19:31 [debug] 26003#26003: *1 http wait request handler
+2021/05/14 15:19:31 [debug] 26003#26003: *1 malloc: 0000564B9195F330:1024
+2021/05/14 15:19:31 [debug] 26003#26003: *1 recv: eof:0, avail:1
+2021/05/14 15:19:31 [debug] 26003#26003: *1 recv: fd:13 456 of 1024
+2021/05/14 15:19:31 [debug] 26003#26003: *1 reusable connection: 0
+2021/05/14 15:19:31 [debug] 26003#26003: *1 posix_memalign: 0000564B91975B40:4096 @16
+2021/05/14 15:19:31 [debug] 26003#26003: *1 http process request line
+2021/05/14 15:19:31 [debug] 26003#26003: *1 http request line: "GET / HTTP/1.1"
+2021/05/14 15:19:31 [debug] 26003#26003: *1 http uri: "/"
+2021/05/14 15:19:31 [debug] 26003#26003: *1 http args: ""
+2021/05/14 15:19:31 [debug] 26003#26003: *1 http exten: ""
+2021/05/14 15:19:31 [debug] 26003#26003: *1 posix_memalign: 0000564B919BDB20:4096 @16
+2021/05/14 15:19:31 [debug] 26003#26003: *1 http process request header line
+2021/05/14 15:19:31 [debug] 26003#26003: *1 http header: "Host: localhost"
+2021/05/14 15:19:31 [debug] 26003#26003: *1 http header: "User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:88.0) Gecko/20100101 Firefox/88.0"
+2021/05/14 15:19:31 [debug] 26003#26003: *1 http header: "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8"
+2021/05/14 15:19:31 [debug] 26003#26003: *1 http header: "Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2"
+2021/05/14 15:19:31 [debug] 26003#26003: *1 http header: "Accept-Encoding: gzip, deflate"
+2021/05/14 15:19:31 [debug] 26003#26003: *1 http header: "Connection: keep-alive"
+2021/05/14 15:19:31 [debug] 26003#26003: *1 http header: "Upgrade-Insecure-Requests: 1"
+2021/05/14 15:19:31 [debug] 26003#26003: *1 http header: "If-Modified-Since: Fri, 23 Apr 2021 07:39:14 GMT"
+2021/05/14 15:19:31 [debug] 26003#26003: *1 http header: "If-None-Match: W/"608279a2-264""
+2021/05/14 15:19:31 [debug] 26003#26003: *1 http header done
+2021/05/14 15:19:31 [debug] 26003#26003: *1 event timer del: 13: 15357455
+2021/05/14 15:19:31 [debug] 26003#26003: *1 generic phase: 0
+2021/05/14 15:19:31 [debug] 26003#26003: *1 rewrite phase: 1
+2021/05/14 15:19:31 [debug] 26003#26003: *1 test location: "/"
+2021/05/14 15:19:31 [debug] 26003#26003: *1 using configuration "/"
+2021/05/14 15:19:31 [debug] 26003#26003: *1 http cl:-1 max:1048576
+2021/05/14 15:19:31 [debug] 26003#26003: *1 rewrite phase: 3
+2021/05/14 15:19:31 [debug] 26003#26003: *1 post rewrite phase: 4
+2021/05/14 15:19:31 [debug] 26003#26003: *1 generic phase: 5
+2021/05/14 15:19:31 [debug] 26003#26003: *1 generic phase: 6
+2021/05/14 15:19:31 [debug] 26003#26003: *1 generic phase: 7
+2021/05/14 15:19:31 [debug] 26003#26003: *1 access phase: 8
+2021/05/14 15:19:31 [debug] 26003#26003: *1 access phase: 9
+2021/05/14 15:19:31 [debug] 26003#26003: *1 access phase: 10
+2021/05/14 15:19:31 [debug] 26003#26003: *1 post access phase: 11
+2021/05/14 15:19:31 [debug] 26003#26003: *1 generic phase: 12
+2021/05/14 15:19:31 [debug] 26003#26003: *1 try files handler
+2021/05/14 15:19:31 [debug] 26003#26003: *1 http script var: "/"
+2021/05/14 15:19:31 [debug] 26003#26003: *1 trying to use file: "/" "/var/www/html/"
+2021/05/14 15:19:31 [debug] 26003#26003: *1 http script var: "/"
+2021/05/14 15:19:31 [debug] 26003#26003: *1 trying to use dir: "/" "/var/www/html/"
+2021/05/14 15:19:31 [debug] 26003#26003: *1 try file uri: "/"
+2021/05/14 15:19:31 [debug] 26003#26003: *1 generic phase: 13
+2021/05/14 15:19:31 [debug] 26003#26003: *1 content phase: 14
+2021/05/14 15:19:31 [debug] 26003#26003: *1 open index "/var/www/html/index.html"
+2021/05/14 15:19:31 [debug] 26003#26003: *1 stat() "/var/www/html/index.html" failed (2: No such file or directory)
+2021/05/14 15:19:31 [debug] 26003#26003: *1 http index check dir: "/var/www/html"
+2021/05/14 15:19:31 [debug] 26003#26003: *1 open index "/var/www/html/index.htm"
+2021/05/14 15:19:31 [debug] 26003#26003: *1 stat() "/var/www/html/index.htm" failed (2: No such file or directory)
+2021/05/14 15:19:31 [debug] 26003#26003: *1 open index "/var/www/html/index.nginx-debian.html"
+2021/05/14 15:19:31 [debug] 26003#26003: *1 internal redirect: "/index.nginx-debian.html?"
+2021/05/14 15:19:31 [debug] 26003#26003: *1 rewrite phase: 1
+2021/05/14 15:19:31 [debug] 26003#26003: *1 test location: "/"
+2021/05/14 15:19:31 [debug] 26003#26003: *1 using configuration "/"
+2021/05/14 15:19:31 [debug] 26003#26003: *1 http cl:-1 max:1048576
+2021/05/14 15:19:31 [debug] 26003#26003: *1 rewrite phase: 3
+2021/05/14 15:19:31 [debug] 26003#26003: *1 post rewrite phase: 4
+2021/05/14 15:19:31 [debug] 26003#26003: *1 generic phase: 5
+2021/05/14 15:19:31 [debug] 26003#26003: *1 generic phase: 6
+2021/05/14 15:19:31 [debug] 26003#26003: *1 generic phase: 7
+2021/05/14 15:19:31 [debug] 26003#26003: *1 access phase: 8
+2021/05/14 15:19:31 [debug] 26003#26003: *1 access phase: 9
+2021/05/14 15:19:31 [debug] 26003#26003: *1 access phase: 10
+2021/05/14 15:19:31 [debug] 26003#26003: *1 post access phase: 11
+2021/05/14 15:19:31 [debug] 26003#26003: *1 generic phase: 12
+2021/05/14 15:19:31 [debug] 26003#26003: *1 try files handler
+2021/05/14 15:19:31 [debug] 26003#26003: *1 http script var: "/index.nginx-debian.html"
+2021/05/14 15:19:31 [debug] 26003#26003: *1 trying to use file: "/index.nginx-debian.html" "/var/www/html/index.nginx-debian.html"
+2021/05/14 15:19:31 [debug] 26003#26003: *1 try file uri: "/index.nginx-debian.html"
+2021/05/14 15:19:31 [debug] 26003#26003: *1 generic phase: 13
+2021/05/14 15:19:31 [debug] 26003#26003: *1 content phase: 14
+2021/05/14 15:19:31 [debug] 26003#26003: *1 content phase: 15
+2021/05/14 15:19:31 [debug] 26003#26003: *1 content phase: 16
+2021/05/14 15:19:31 [debug] 26003#26003: *1 content phase: 17
+2021/05/14 15:19:31 [debug] 26003#26003: *1 content phase: 18
+2021/05/14 15:19:31 [debug] 26003#26003: *1 http filename: "/var/www/html/index.nginx-debian.html"
+2021/05/14 15:19:31 [debug] 26003#26003: *1 add cleanup: 0000564B91976990
+2021/05/14 15:19:31 [debug] 26003#26003: *1 http static fd: 14
+2021/05/14 15:19:31 [debug] 26003#26003: *1 http set discard body
+2021/05/14 15:19:31 [debug] 26003#26003: *1 http ims:1619163554 lm:1619163554
+2021/05/14 15:19:31 [debug] 26003#26003: *1 http im:"W/"608279a2-264"" etag:"608279a2-264"
+2021/05/14 15:19:31 [debug] 26003#26003: *1 xslt filter header
+2021/05/14 15:19:31 [debug] 26003#26003: *1 HTTP/1.1 304 Not Modified
+Server: nginx/1.14.0 (Ubuntu)
+Date: Fri, 14 May 2021 07:19:31 GMT
+Last-Modified: Fri, 23 Apr 2021 07:39:14 GMT
+Connection: keep-alive
+ETag: "608279a2-264"
+
+2021/05/14 15:19:31 [debug] 26003#26003: *1 write new buf t:1 f:0 0000564B919BDF50, pos 0000564B919BDF50, size: 189 file: 0, size: 0
+2021/05/14 15:19:31 [debug] 26003#26003: *1 http write filter: l:1 f:0 s:189
+2021/05/14 15:19:31 [debug] 26003#26003: *1 http write filter limit 0
+2021/05/14 15:19:31 [debug] 26003#26003: *1 writev: 189 of 189
+2021/05/14 15:19:31 [debug] 26003#26003: *1 http write filter 0000000000000000
+2021/05/14 15:19:31 [debug] 26003#26003: *1 http finalize request: 0, "/index.nginx-debian.html?" a:1, c:2
+2021/05/14 15:19:31 [debug] 26003#26003: *1 http request count:2 blk:0
+2021/05/14 15:19:31 [debug] 26003#26003: *1 http finalize request: -4, "/index.nginx-debian.html?" a:1, c:1
+2021/05/14 15:19:31 [debug] 26003#26003: *1 set http keepalive handler
+2021/05/14 15:19:31 [debug] 26003#26003: *1 http close request
+2021/05/14 15:19:31 [debug] 26003#26003: *1 http log handler
+2021/05/14 15:19:31 [debug] 26003#26003: *1 run cleanup: 0000564B91976990
+2021/05/14 15:19:31 [debug] 26003#26003: *1 file cleanup: fd:14
+2021/05/14 15:19:31 [debug] 26003#26003: *1 free: 0000564B91975B40, unused: 16
+2021/05/14 15:19:31 [debug] 26003#26003: *1 free: 0000564B919BDB20, unused: 2650
+2021/05/14 15:19:31 [debug] 26003#26003: *1 free: 0000564B9195F330
+2021/05/14 15:19:31 [debug] 26003#26003: *1 hc free: 0000000000000000
+2021/05/14 15:19:31 [debug] 26003#26003: *1 hc busy: 0000000000000000 0
+2021/05/14 15:19:31 [debug] 26003#26003: *1 tcp_nodelay
+2021/05/14 15:19:31 [debug] 26003#26003: *1 reusable connection: 1
+2021/05/14 15:19:31 [debug] 26003#26003: *1 event timer add: 13: 65000:15362475
+2021/05/14 15:19:33 [debug] 26003#26003: *1 http keepalive handler
+2021/05/14 15:19:33 [debug] 26003#26003: *1 malloc: 0000564B9195F330:1024
+2021/05/14 15:19:33 [debug] 26003#26003: *1 recv: eof:1, avail:1
+2021/05/14 15:19:33 [debug] 26003#26003: *1 recv: fd:13 0 of 1024
+2021/05/14 15:19:33 [info] 26003#26003: *1 client 127.0.0.1 closed keepalive connection
+2021/05/14 15:19:33 [debug] 26003#26003: *1 close http connection: 13
+2021/05/14 15:19:33 [debug] 26003#26003: *1 event timer del: 13: 15362475
+2021/05/14 15:19:33 [debug] 26003#26003: *1 reusable connection: 0
+2021/05/14 15:19:33 [debug] 26003#26003: *1 free: 0000564B9195F330
+2021/05/14 15:19:33 [debug] 26003#26003: *1 free: 0000564B9195E920, unused: 136
+2021/05/14 15:49:21 [debug] 26005#26005: epoll del event: fd:6 op:2 ev:00000000
+2021/05/14 15:49:21 [debug] 26005#26005: epoll del event: fd:7 op:2 ev:00000000
+2021/05/14 15:49:21 [debug] 26006#26006: epoll del event: fd:6 op:2 ev:00000000
+2021/05/14 15:49:21 [debug] 26006#26006: epoll del event: fd:7 op:2 ev:00000000
+2021/05/14 15:49:21 [debug] 26004#26004: epoll del event: fd:6 op:2 ev:00000000
+2021/05/14 15:49:21 [debug] 26004#26004: epoll del event: fd:7 op:2 ev:00000000
+2021/05/14 15:49:21 [debug] 26003#26003: epoll del event: fd:6 op:2 ev:00000000
+2021/05/14 15:49:21 [debug] 26003#26003: epoll del event: fd:7 op:2 ev:00000000
+2021/05/14 15:49:21 [emerg] 29533#29533: "server_names_hash_bucket_size" directive invalid number in /etc/nginx/nginx.conf:24

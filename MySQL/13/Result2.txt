@@ -1,0 +1,35 @@
+Connect Database log success
+Create Table MysqlLog Success
+Starting Parse Mysql Log
+Starting Parse Sys Log
+Computing Problem Spotlight
+Create Table MysqlMsg Success
+Mysql DisConnect
+Using Augeas to Parse Configuration File
+Extract key-value Finished
+Extract Env Finished
+Connect Mysql wise success
+Giving Problem Spotlight and Resolve Spotlight
+Problem Spotlight No.0 : 2021-04-15 06:24:48 Warning CA certificate ca.pem is self signed.
+Problem Spotlight No.1 : 2021-04-15 06:24:47 Warning TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+Problem Spotlight No.2 : 2021-04-15 06:24:47 Warning option 'thread_cache_size': value -1 adjusted to 0
+Suspicious word:    thread_cache_size    with key:    Conf: thread_cache_size    and value:    -1
+Suspicious word:    -1    with key:    Conf: thread_cache_size    and value:    -1
+Suspicious word:    0    with key:    Conf: nice    and value:    0
+Problem Spotlight No.3 : 2021-04-15 06:24:48 Note Version: '5.7.33-0ubuntu0.18.04.1'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  (Ubuntu)
+Suspicious word:    /var/run/mysqld/mysqld.sock    with key:    Conf: socket  ||  Conf: socket    and value:    /var/run/mysqld/mysqld.sock  ||  /var/run/mysqld/mysqld.sock
+Suspicious word:    socket    with key:    Conf: socket  ||  Conf: socket    and value:    /var/run/mysqld/mysqld.sock  ||  /var/run/mysqld/mysqld.sock
+Suspicious word:    port    with key:    Conf: port    and value:    3306
+Suspicious word:    3306    with key:    Conf: port  ||  Program: 9909/mysqld    and value:    3306  ||  Port: tcp/3306
+Knowledge Database Configuration:    wrong Conf value's key: socket    Infomation:    
+Problem Spotlight No.4 : 2021-04-15 06:24:48 Note /usr/sbin/mysqld: ready for connections.
+Problem Spotlight No.5 : 2021-04-15 06:24:48 Note Event Scheduler: Loaded 0 events
+Problem Spotlight No.6 : 2021-04-15 06:24:48 Note Server socket created on IP: '127.0.0.1'.
+Suspicious word:    127.0.0.1    with key:    Conf: bind-address    and value:    127.0.0.1
+Problem Spotlight No.7 : 2021-04-15 06:24:48 Note   - '127.0.0.1' resolves to '127.0.0.1';
+Problem Spotlight No.8 : 2021-04-15 06:24:48 Note Server hostname (bind-address): '127.0.0.1'; port: 3306
+Suspicious word:    bind-address    with key:    Conf: bind-address    and value:    127.0.0.1
+Knowledge Database Configuration:    wrong Conf value's key: bind-address    Infomation:    
+Problem Spotlight No.9 : 2021-04-15 06:24:48 Note Skipping generation of RSA key pair as key files are present in data directory.
+Mysql DisConnect
+Time Using: 1.7471 s

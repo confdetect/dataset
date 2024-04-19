@@ -1,0 +1,39 @@
+Connect Mysql log success
+Create Table MysqlLog Success
+Starting Parse Mysql Log
+Mysql Log Match Failed: 
+Mysql Log Match Failed: Version: '5.7.33-0ubuntu0.18.04.1'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  (Ubuntu)
+Starting Parse Sys Log
+Computing Problem Spotlight
+Create Table MysqlMsg Success
+Mysql DisConnect
+Using Augeas to Parse Configuration File
+Extract key-value Finished
+Extract Env Finished
+Connect Mysql wise success
+Giving Problem Spotlight and Resolve Spotlight
+Problem Spotlight No.0 : Can't open shared library '/usr/base/lib/mysql/plugin/auth_socket.so' (errno: 2 /usr/base/lib/mysql/plugin/auth_socket.so: cannot open shared object file: No such file or directory)
+FilePath:    /usr/base/lib/mysql/plugin/auth_socket.so    not Exist
+FilePath:    /usr/base/lib/mysql/plugin/auth_socket.so    not Exist
+Suspicious word:    mysql    with key:    Conf: user    and value:    mysql
+Suspicious word:    mysql    with key:    Conf: user    and value:    mysql
+Suspicious word:    file    with key:    Software: file    and value:    Version: 1:5.32-2ubuntu0.4
+Suspicious word:    file    with key:    Software: file    and value:    Version: 1:5.32-2ubuntu0.4
+Problem Spotlight No.1 : The plugin 'auth_socket' used to authenticate user 'root'@'localhost' is not loaded. Nobody can currently login using this account.
+Suspicious word:    user    with key:    Conf: user    and value:    mysql
+Suspicious word:    root    with key:    EnvVar: USERNAME  ||  EnvVar: USER  ||  EnvVar: LOGNAME    and value:    root  ||  root  ||  root
+Problem Spotlight No.2 : CA certificate ca.pem is self signed.
+Problem Spotlight No.3 : Couldn't load plugin named 'auth_socket' with soname 'auth_socket.so'.
+Problem Spotlight No.4 : TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+Problem Spotlight No.5 : Plugin 'auth_socket' is not loaded
+Problem Spotlight No.6 : /usr/sbin/mysqld: ready for connections.
+Problem Spotlight No.7 : Event Scheduler: Loaded 0 events
+Suspicious word:    0    with key:    Conf: nice    and value:    0
+Problem Spotlight No.8 : Server socket created on IP: '127.0.0.1'.
+Suspicious word:    127.0.0.1    with key:    Conf: bind-address    and value:    127.0.0.1
+Suspicious word:    socket    with key:    Conf: socket  ||  Conf: socket    and value:    /var/run/mysqld/mysqld.sock  ||  /var/run/mysqld/mysqld.sock
+Problem Spotlight No.9 :   - '127.0.0.1' resolves to '127.0.0.1';
+Suspicious word:    127.0.0.1    with key:    Conf: bind-address    and value:    127.0.0.1
+Suspicious word:    127.0.0.1    with key:    Conf: bind-address    and value:    127.0.0.1
+Update Row to Table MysqlWise Failed
+Mysql DisConnect

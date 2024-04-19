@@ -1,0 +1,27 @@
+Connect Mysql log success
+Create Table NginxLog Success
+Starting Parse Nginx Log
+Starting Parse Sys Log
+Computing Problem Spotlight
+Create Table NginxMsg Success
+Unrecognized Priority: info
+Mysql DisConnect
+Using Augeas to Parse Configuration File
+Extract key-value Finished
+Extract Env Finished
+Connect Database wise success
+Giving Problem Spotlight and Resolve Spotlight
+Problem Spotlight No.0 : 2021-05-14 15:49:21 Error "server_names_hash_bucket_size" directive invalid number in /etc/nginx/nginx.conf:24
+Suspicious word:    server_names_hash_bucket_size    with key:    Conf: server_names_hash_bucket_size    and value:    -1
+Knowledge Database Configuration:    wrong Conf value's key: worker_connections    Infomation:    
+Problem Spotlight No.1 : 2021-05-14 15:49:21 Warning nginx.service: Failed with result 'exit-code'.
+Problem Spotlight No.2 : 2021-05-14 15:49:21 Warning nginx.service: Control process exited, code=exited status=1
+Problem Spotlight No.3 : 2021-05-14 15:49:21 Warning nginx: configuration file /etc/nginx/nginx.conf test failed
+Problem Spotlight No.4 : 2021-05-14 15:43:12 Warning [16718.742332] [  26006]    33 26006    35949      432   249856        0             0 nginx
+Problem Spotlight No.5 : 2021-05-14 15:43:12 Warning [16718.742331] [  26005]    33 26005    35949      432   249856        0             0 nginx
+Problem Spotlight No.6 : 2021-05-14 15:43:12 Warning [16718.742330] [  26004]    33 26004    35949      432   249856        0             0 nginx
+Problem Spotlight No.7 : 2021-05-14 15:43:12 Warning [16718.742329] [  26003]    33 26003    35949      432   249856        0             0 nginx
+Problem Spotlight No.8 : 2021-05-14 15:43:12 Warning [16718.742327] [  26002]     0 26002    35281      372   241664        0             0 nginx
+Problem Spotlight No.9 : 2021-05-14 14:50:50 Warning [13577.065582] [    831]    33   831    35949        0   249856      456             0 nginx
+Mysql DisConnect
+Time Using: 2.70715 s

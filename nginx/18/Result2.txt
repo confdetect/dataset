@@ -1,0 +1,30 @@
+Connect Mysql log success
+Create Table NginxLog Success
+Starting Parse Nginx Log
+Starting Parse Sys Log
+Computing Problem Spotlight
+Create Table NginxMsg Success
+Unrecognized Priority: info
+Mysql DisConnect
+Using Augeas to Parse Configuration File
+Extract key-value Finished
+Extract Env Finished
+Connect Database wise success
+Giving Problem Spotlight and Resolve Spotlight
+Problem Spotlight No.0 : 2021-04-27 13:49:30 Error invalid value "in" in "ssl_prefer_server_ciphers" directive, it must be "on" or "off" in /etc/nginx/nginx.conf:35
+Suspicious word:    in    with key:    Conf: ssl_prefer_server_ciphers    and value:    in
+Suspicious word:    ssl_prefer_server_ciphers    with key:    Conf: ssl_prefer_server_ciphers    and value:    in
+Suspicious word:    on    with key:    Conf: multi_accept  ||  Conf: sendfile  ||  Conf: tcp_nopush  ||  Conf: tcp_nodelay  ||  Conf: server_tokens  ||  Conf: gzip    and value:    on  ||  on  ||  on  ||  on  ||  on  ||  on
+Suspicious word:    off    with key:    Conf: server_name_in_redirect    and value:    off
+Knowledge Database Configuration:    wrong Conf value's key: tcp_nodelay    Infomation:    
+Problem Spotlight No.1 : 2021-04-27 13:49:30 Warning nginx.service: Failed with result 'exit-code'.
+Problem Spotlight No.2 : 2021-04-27 13:49:30 Warning nginx.service: Control process exited, code=exited status=1
+Problem Spotlight No.3 : 2021-04-27 13:49:30 Warning nginx: configuration file /etc/nginx/nginx.conf test failed
+Problem Spotlight No.4 : 2021-04-27 13:49:29 Note epoll del event: fd:7 op:2 ev:00000000
+Problem Spotlight No.5 : 2021-04-27 13:49:29 Note epoll del event: fd:6 op:2 ev:00000000
+Problem Spotlight No.6 : 2021-04-27 13:49:29 Note *2 free: 0000562906A0B920, unused: 136
+Problem Spotlight No.7 : 2021-04-27 13:49:29 Note *2 free: 0000000000000000
+Problem Spotlight No.8 : 2021-04-27 13:49:29 Note *2 reusable connection: 0
+Problem Spotlight No.9 : 2021-04-27 13:49:29 Note *2 event timer del: 13: 74014247
+Mysql DisConnect
+Time Using: 1.40233 s

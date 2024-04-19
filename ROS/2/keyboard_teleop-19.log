@@ -1,0 +1,37 @@
+[rospy.client][INFO] 2021-05-02 14:15:02,247: init_node, name[/keyboard_teleop], pid[17400]
+[xmlrpc][INFO] 2021-05-02 14:15:02,248: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2021-05-02 14:15:02,248: Started XML-RPC server [http://ubuntu:44231/]
+[rospy.impl.masterslave][INFO] 2021-05-02 14:15:02,248: _ready: http://ubuntu:44231/
+[rospy.init][INFO] 2021-05-02 14:15:02,260: ROS Slave URI: [http://ubuntu:44231/]
+[rospy.registration][INFO] 2021-05-02 14:15:02,261: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2021-05-02 14:15:02,266: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2021-05-02 14:15:02,362: registered with master
+[rospy.rosout][INFO] 2021-05-02 14:15:02,362: initializing /rosout core topic
+[rospy.rosout][INFO] 2021-05-02 14:15:02,365: connected to core topic /rosout
+[rospy.simtime][INFO] 2021-05-02 14:15:02,369: initializing /clock core topic
+[rospy.simtime][INFO] 2021-05-02 14:15:02,373: connected to core topic /clock
+[rospy.internal][INFO] 2021-05-02 14:15:02,731: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2021-05-02 14:15:02,731: topic[/vesc/low_level/ackermann_cmd_mux/input/teleop] adding connection to [/vesc/low_level/ackermann_cmd_mux_nodelet_manager], count 0
+[rospy.internal][INFO] 2021-05-02 14:15:04,315: topic[/clock] adding connection to [http://ubuntu:40925/], count 0
+[rospy.internal][ERROR] 2021-05-02 14:15:21,829: Unable to initiate TCP/IP socket to ubuntu:46911 (http://ubuntu:40925/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 600, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/clock] from [TCPROS connection on port 46911 to [127.0.0.1:43208 on socket 9]] [/keyboard_teleop].
+
+[rospy.internal][INFO] 2021-05-02 14:15:21,829: topic[/vesc/low_level/ackermann_cmd_mux/input/teleop] removing connection to /vesc/low_level/ackermann_cmd_mux_nodelet_manager
+[rospy.internal][WARNING] 2021-05-02 14:15:22,832: Unknown error initiating TCP/IP socket to ubuntu:46911 (http://ubuntu:40925/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 560, in connect
+    self.socket.connect((dest_addr, dest_port))
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+
+[rospy.internal][INFO] 2021-05-02 14:15:22,832: topic[/clock] removing connection to http://ubuntu:40925/
+[rospy.core][INFO] 2021-05-02 14:15:35,526: signal_shutdown [shutdown]
+[rospy.internal][INFO] 2021-05-02 14:15:35,530: topic[/rosout] removing connection to /rosout
+[rospy.impl.masterslave][INFO] 2021-05-02 14:15:35,530: shutdown
+[rospy.core][INFO] 2021-05-02 14:15:35,707: signal_shutdown [atexit]

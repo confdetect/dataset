@@ -1,0 +1,2 @@
+[0m[ INFO] [1619936101.703167779]: Initializing nodelet with 4 worker threads.[0m
+[0m[ INFO] [1619936101.884738390]: AckermannCmdMux : (re)configured [/home/liike/ROS/src/racecar/system/racecar/racecar/config/racecar-v2/high_level_mux.yaml][0m

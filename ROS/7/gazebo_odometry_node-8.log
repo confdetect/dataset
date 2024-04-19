@@ -1,0 +1,24 @@
+[rospy.client][INFO] 2021-05-02 14:40:28,702: init_node, name[/gazebo_odometry_node], pid[22948]
+[xmlrpc][INFO] 2021-05-02 14:40:28,702: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2021-05-02 14:40:28,703: Started XML-RPC server [http://ubuntu:42851/]
+[rospy.impl.masterslave][INFO] 2021-05-02 14:40:28,703: _ready: http://ubuntu:42851/
+[xmlrpc][INFO] 2021-05-02 14:40:28,703: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2021-05-02 14:40:28,703: ROS Slave URI: [http://ubuntu:42851/]
+[rospy.registration][INFO] 2021-05-02 14:40:28,704: Registering with master node http://localhost:11311
+[rospy.registration][INFO] 2021-05-02 14:40:28,704: Registering publisher topic [/vesc/odom] type [nav_msgs/Odometry] with master
+[rospy.init][INFO] 2021-05-02 14:40:28,804: registered with master
+[rospy.rosout][INFO] 2021-05-02 14:40:28,804: initializing /rosout core topic
+[rospy.rosout][INFO] 2021-05-02 14:40:28,805: connected to core topic /rosout
+[rospy.simtime][INFO] 2021-05-02 14:40:28,806: initializing /clock core topic
+[rospy.simtime][INFO] 2021-05-02 14:40:28,807: connected to core topic /clock
+[rospy.internal][INFO] 2021-05-02 14:40:28,951: topic[/vesc/odom] adding connection to [/better_odom], count 0
+[rospy.internal][INFO] 2021-05-02 14:40:29,051: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2021-05-02 14:40:30,749: topic[/gazebo/link_states] adding connection to [http://ubuntu:42509/], count 0
+[rospy.internal][INFO] 2021-05-02 14:40:30,752: topic[/clock] adding connection to [http://ubuntu:42509/], count 0
+[rospy.core][INFO] 2021-05-02 14:40:40,695: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2021-05-02 14:40:40,715: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2021-05-02 14:40:40,715: topic[/vesc/odom] removing connection to /better_odom
+[rospy.internal][INFO] 2021-05-02 14:40:40,715: topic[/clock] removing connection to http://ubuntu:42509/
+[rospy.internal][INFO] 2021-05-02 14:40:40,716: topic[/gazebo/link_states] removing connection to http://ubuntu:42509/
+[rospy.impl.masterslave][INFO] 2021-05-02 14:40:40,716: signal-2
+[rospy.core][INFO] 2021-05-02 14:40:40,833: signal_shutdown [atexit]

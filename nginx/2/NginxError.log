@@ -1,0 +1,251 @@
+2021/04/25 13:37:31 [debug] 31619#31619: epoll add event: fd:6 op:1 ev:10000001
+2021/04/25 13:37:31 [debug] 31619#31619: epoll add event: fd:7 op:1 ev:10000001
+2021/04/25 13:37:31 [debug] 31621#31621: epoll add event: fd:6 op:1 ev:10000001
+2021/04/25 13:37:31 [debug] 31621#31621: epoll add event: fd:7 op:1 ev:10000001
+2021/04/25 13:37:31 [debug] 31618#31618: epoll add event: fd:6 op:1 ev:10000001
+2021/04/25 13:37:31 [debug] 31618#31618: epoll add event: fd:7 op:1 ev:10000001
+2021/04/25 13:37:31 [debug] 31620#31620: epoll add event: fd:6 op:1 ev:10000001
+2021/04/25 13:37:31 [debug] 31620#31620: epoll add event: fd:7 op:1 ev:10000001
+2021/04/25 13:37:35 [debug] 31619#31619: accept on 0.0.0.0:80, ready: 0
+2021/04/25 13:37:35 [debug] 31619#31619: posix_memalign: 00005555EA2A1920:512 @16
+2021/04/25 13:37:35 [debug] 31619#31619: *1 accept: 127.0.0.1:45044 fd:13
+2021/04/25 13:37:35 [debug] 31619#31619: *1 event timer add: 13: 60000:38302368
+2021/04/25 13:37:35 [debug] 31619#31619: *1 reusable connection: 1
+2021/04/25 13:37:35 [debug] 31619#31619: *1 epoll add event: fd:13 op:1 ev:80002001
+2021/04/25 13:37:35 [debug] 31619#31619: *1 http wait request handler
+2021/04/25 13:37:35 [debug] 31619#31619: *1 malloc: 00005555EA2A2330:1024
+2021/04/25 13:37:35 [debug] 31619#31619: *1 recv: eof:0, avail:1
+2021/04/25 13:37:35 [debug] 31619#31619: *1 recv: fd:13 482 of 1024
+2021/04/25 13:37:35 [debug] 31619#31619: *1 reusable connection: 0
+2021/04/25 13:37:35 [debug] 31619#31619: *1 posix_memalign: 00005555EA2B8B40:4096 @16
+2021/04/25 13:37:35 [debug] 31619#31619: *1 http process request line
+2021/04/25 13:37:35 [debug] 31619#31619: *1 http request line: "GET / HTTP/1.1"
+2021/04/25 13:37:35 [debug] 31619#31619: *1 http uri: "/"
+2021/04/25 13:37:35 [debug] 31619#31619: *1 http args: ""
+2021/04/25 13:37:35 [debug] 31619#31619: *1 http exten: ""
+2021/04/25 13:37:35 [debug] 31619#31619: *1 posix_memalign: 00005555EA300B20:4096 @16
+2021/04/25 13:37:35 [debug] 31619#31619: *1 http process request header line
+2021/04/25 13:37:35 [debug] 31619#31619: *1 http header: "Host: localhost"
+2021/04/25 13:37:35 [debug] 31619#31619: *1 http header: "User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:87.0) Gecko/20100101 Firefox/87.0"
+2021/04/25 13:37:35 [debug] 31619#31619: *1 http header: "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8"
+2021/04/25 13:37:35 [debug] 31619#31619: *1 http header: "Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2"
+2021/04/25 13:37:35 [debug] 31619#31619: *1 http header: "Accept-Encoding: gzip, deflate"
+2021/04/25 13:37:35 [debug] 31619#31619: *1 http header: "Connection: keep-alive"
+2021/04/25 13:37:35 [debug] 31619#31619: *1 http header: "Upgrade-Insecure-Requests: 1"
+2021/04/25 13:37:35 [debug] 31619#31619: *1 http header: "If-Modified-Since: Fri, 23 Apr 2021 07:39:14 GMT"
+2021/04/25 13:37:35 [debug] 31619#31619: *1 http header: "If-None-Match: W/"608279a2-264""
+2021/04/25 13:37:35 [debug] 31619#31619: *1 http header: "Cache-Control: max-age=0"
+2021/04/25 13:37:35 [debug] 31619#31619: *1 http header done
+2021/04/25 13:37:35 [debug] 31619#31619: *1 event timer del: 13: 38302368
+2021/04/25 13:37:35 [debug] 31619#31619: *1 generic phase: 0
+2021/04/25 13:37:35 [debug] 31619#31619: *1 rewrite phase: 1
+2021/04/25 13:37:35 [debug] 31619#31619: *1 test location: "/"
+2021/04/25 13:37:35 [debug] 31619#31619: *1 using configuration "/"
+2021/04/25 13:37:35 [debug] 31619#31619: *1 http cl:-1 max:1048576
+2021/04/25 13:37:35 [debug] 31619#31619: *1 rewrite phase: 3
+2021/04/25 13:37:35 [debug] 31619#31619: *1 post rewrite phase: 4
+2021/04/25 13:37:35 [debug] 31619#31619: *1 generic phase: 5
+2021/04/25 13:37:35 [debug] 31619#31619: *1 generic phase: 6
+2021/04/25 13:37:35 [debug] 31619#31619: *1 generic phase: 7
+2021/04/25 13:37:35 [debug] 31619#31619: *1 access phase: 8
+2021/04/25 13:37:35 [debug] 31619#31619: *1 access phase: 9
+2021/04/25 13:37:35 [debug] 31619#31619: *1 access phase: 10
+2021/04/25 13:37:35 [debug] 31619#31619: *1 post access phase: 11
+2021/04/25 13:37:35 [debug] 31619#31619: *1 generic phase: 12
+2021/04/25 13:37:35 [debug] 31619#31619: *1 try files handler
+2021/04/25 13:37:35 [debug] 31619#31619: *1 http script var: "/"
+2021/04/25 13:37:35 [debug] 31619#31619: *1 trying to use file: "/" "/var/www/html/"
+2021/04/25 13:37:35 [debug] 31619#31619: *1 http script var: "/"
+2021/04/25 13:37:35 [debug] 31619#31619: *1 trying to use dir: "/" "/var/www/html/"
+2021/04/25 13:37:35 [debug] 31619#31619: *1 try file uri: "/"
+2021/04/25 13:37:35 [debug] 31619#31619: *1 generic phase: 13
+2021/04/25 13:37:35 [debug] 31619#31619: *1 content phase: 14
+2021/04/25 13:37:35 [debug] 31619#31619: *1 open index "/var/www/html/index.html"
+2021/04/25 13:37:35 [debug] 31619#31619: *1 stat() "/var/www/html/index.html" failed (2: No such file or directory)
+2021/04/25 13:37:35 [debug] 31619#31619: *1 http index check dir: "/var/www/html"
+2021/04/25 13:37:35 [debug] 31619#31619: *1 open index "/var/www/html/index.htm"
+2021/04/25 13:37:35 [debug] 31619#31619: *1 stat() "/var/www/html/index.htm" failed (2: No such file or directory)
+2021/04/25 13:37:35 [debug] 31619#31619: *1 open index "/var/www/html/index.nginx-debian.html"
+2021/04/25 13:37:35 [debug] 31619#31619: *1 internal redirect: "/index.nginx-debian.html?"
+2021/04/25 13:37:35 [debug] 31619#31619: *1 rewrite phase: 1
+2021/04/25 13:37:35 [debug] 31619#31619: *1 test location: "/"
+2021/04/25 13:37:35 [debug] 31619#31619: *1 using configuration "/"
+2021/04/25 13:37:35 [debug] 31619#31619: *1 http cl:-1 max:1048576
+2021/04/25 13:37:35 [debug] 31619#31619: *1 rewrite phase: 3
+2021/04/25 13:37:35 [debug] 31619#31619: *1 post rewrite phase: 4
+2021/04/25 13:37:35 [debug] 31619#31619: *1 generic phase: 5
+2021/04/25 13:37:35 [debug] 31619#31619: *1 generic phase: 6
+2021/04/25 13:37:35 [debug] 31619#31619: *1 generic phase: 7
+2021/04/25 13:37:35 [debug] 31619#31619: *1 access phase: 8
+2021/04/25 13:37:35 [debug] 31619#31619: *1 access phase: 9
+2021/04/25 13:37:35 [debug] 31619#31619: *1 access phase: 10
+2021/04/25 13:37:35 [debug] 31619#31619: *1 post access phase: 11
+2021/04/25 13:37:35 [debug] 31619#31619: *1 generic phase: 12
+2021/04/25 13:37:35 [debug] 31619#31619: *1 try files handler
+2021/04/25 13:37:35 [debug] 31619#31619: *1 http script var: "/index.nginx-debian.html"
+2021/04/25 13:37:35 [debug] 31619#31619: *1 trying to use file: "/index.nginx-debian.html" "/var/www/html/index.nginx-debian.html"
+2021/04/25 13:37:35 [debug] 31619#31619: *1 try file uri: "/index.nginx-debian.html"
+2021/04/25 13:37:35 [debug] 31619#31619: *1 generic phase: 13
+2021/04/25 13:37:35 [debug] 31619#31619: *1 content phase: 14
+2021/04/25 13:37:35 [debug] 31619#31619: *1 content phase: 15
+2021/04/25 13:37:35 [debug] 31619#31619: *1 content phase: 16
+2021/04/25 13:37:35 [debug] 31619#31619: *1 content phase: 17
+2021/04/25 13:37:35 [debug] 31619#31619: *1 content phase: 18
+2021/04/25 13:37:35 [debug] 31619#31619: *1 http filename: "/var/www/html/index.nginx-debian.html"
+2021/04/25 13:37:35 [debug] 31619#31619: *1 add cleanup: 00005555EA2B99A0
+2021/04/25 13:37:35 [debug] 31619#31619: *1 http static fd: 14
+2021/04/25 13:37:35 [debug] 31619#31619: *1 http set discard body
+2021/04/25 13:37:35 [debug] 31619#31619: *1 http ims:1619163554 lm:1619163554
+2021/04/25 13:37:35 [debug] 31619#31619: *1 http im:"W/"608279a2-264"" etag:"608279a2-264"
+2021/04/25 13:37:35 [debug] 31619#31619: *1 xslt filter header
+2021/04/25 13:37:35 [debug] 31619#31619: *1 HTTP/1.1 304 Not Modified
+Server: nginx/1.14.0 (Ubuntu)
+Date: Sun, 25 Apr 2021 05:37:35 GMT
+Last-Modified: Fri, 23 Apr 2021 07:39:14 GMT
+Connection: keep-alive
+ETag: "608279a2-264"
+
+2021/04/25 13:37:35 [debug] 31619#31619: *1 write new buf t:1 f:0 00005555EA300F50, pos 00005555EA300F50, size: 189 file: 0, size: 0
+2021/04/25 13:37:35 [debug] 31619#31619: *1 http write filter: l:1 f:0 s:189
+2021/04/25 13:37:35 [debug] 31619#31619: *1 http write filter limit 0
+2021/04/25 13:37:35 [debug] 31619#31619: *1 writev: 189 of 189
+2021/04/25 13:37:35 [debug] 31619#31619: *1 http write filter 0000000000000000
+2021/04/25 13:37:35 [debug] 31619#31619: *1 http finalize request: 0, "/index.nginx-debian.html?" a:1, c:2
+2021/04/25 13:37:35 [debug] 31619#31619: *1 http request count:2 blk:0
+2021/04/25 13:37:35 [debug] 31619#31619: *1 http finalize request: -4, "/index.nginx-debian.html?" a:1, c:1
+2021/04/25 13:37:35 [debug] 31619#31619: *1 set http keepalive handler
+2021/04/25 13:37:35 [debug] 31619#31619: *1 http close request
+2021/04/25 13:37:35 [debug] 31619#31619: *1 http log handler
+2021/04/25 13:37:35 [debug] 31619#31619: *1 run cleanup: 00005555EA2B99A0
+2021/04/25 13:37:35 [debug] 31619#31619: *1 file cleanup: fd:14
+2021/04/25 13:37:35 [debug] 31619#31619: *1 free: 00005555EA2B8B40, unused: 0
+2021/04/25 13:37:35 [debug] 31619#31619: *1 free: 00005555EA300B20, unused: 2650
+2021/04/25 13:37:35 [debug] 31619#31619: *1 free: 00005555EA2A2330
+2021/04/25 13:37:35 [debug] 31619#31619: *1 hc free: 0000000000000000
+2021/04/25 13:37:35 [debug] 31619#31619: *1 hc busy: 0000000000000000 0
+2021/04/25 13:37:35 [debug] 31619#31619: *1 tcp_nodelay
+2021/04/25 13:37:35 [debug] 31619#31619: *1 reusable connection: 1
+2021/04/25 13:37:35 [debug] 31619#31619: *1 event timer add: 13: 65000:38307368
+2021/04/25 13:37:35 [debug] 31619#31619: *1 http keepalive handler
+2021/04/25 13:37:35 [debug] 31619#31619: *1 malloc: 00005555EA2A2330:1024
+2021/04/25 13:37:35 [debug] 31619#31619: *1 recv: eof:0, avail:1
+2021/04/25 13:37:35 [debug] 31619#31619: *1 recv: fd:13 348 of 1024
+2021/04/25 13:37:35 [debug] 31619#31619: *1 reusable connection: 0
+2021/04/25 13:37:35 [debug] 31619#31619: *1 posix_memalign: 00005555EA2B8B40:4096 @16
+2021/04/25 13:37:35 [debug] 31619#31619: *1 event timer del: 13: 38307368
+2021/04/25 13:37:35 [debug] 31619#31619: *1 http process request line
+2021/04/25 13:37:35 [debug] 31619#31619: *1 http request line: "GET /favicon.ico HTTP/1.1"
+2021/04/25 13:37:35 [debug] 31619#31619: *1 http uri: "/favicon.ico"
+2021/04/25 13:37:35 [debug] 31619#31619: *1 http args: ""
+2021/04/25 13:37:35 [debug] 31619#31619: *1 http exten: "ico"
+2021/04/25 13:37:35 [debug] 31619#31619: *1 posix_memalign: 00005555EA300B20:4096 @16
+2021/04/25 13:37:35 [debug] 31619#31619: *1 http process request header line
+2021/04/25 13:37:35 [debug] 31619#31619: *1 http header: "Host: localhost"
+2021/04/25 13:37:35 [debug] 31619#31619: *1 http header: "User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:87.0) Gecko/20100101 Firefox/87.0"
+2021/04/25 13:37:35 [debug] 31619#31619: *1 http header: "Accept: image/webp,*/*"
+2021/04/25 13:37:35 [debug] 31619#31619: *1 http header: "Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2"
+2021/04/25 13:37:35 [debug] 31619#31619: *1 http header: "Accept-Encoding: gzip, deflate"
+2021/04/25 13:37:35 [debug] 31619#31619: *1 http header: "Connection: keep-alive"
+2021/04/25 13:37:35 [debug] 31619#31619: *1 http header: "Referer: http://localhost/"
+2021/04/25 13:37:35 [debug] 31619#31619: *1 http header: "Cache-Control: max-age=0"
+2021/04/25 13:37:35 [debug] 31619#31619: *1 http header done
+2021/04/25 13:37:35 [debug] 31619#31619: *1 generic phase: 0
+2021/04/25 13:37:35 [debug] 31619#31619: *1 rewrite phase: 1
+2021/04/25 13:37:35 [debug] 31619#31619: *1 test location: "/"
+2021/04/25 13:37:35 [debug] 31619#31619: *1 using configuration "/"
+2021/04/25 13:37:35 [debug] 31619#31619: *1 http cl:-1 max:1048576
+2021/04/25 13:37:35 [debug] 31619#31619: *1 rewrite phase: 3
+2021/04/25 13:37:35 [debug] 31619#31619: *1 post rewrite phase: 4
+2021/04/25 13:37:35 [debug] 31619#31619: *1 generic phase: 5
+2021/04/25 13:37:35 [debug] 31619#31619: *1 generic phase: 6
+2021/04/25 13:37:35 [debug] 31619#31619: *1 generic phase: 7
+2021/04/25 13:37:35 [debug] 31619#31619: *1 access phase: 8
+2021/04/25 13:37:35 [debug] 31619#31619: *1 access phase: 9
+2021/04/25 13:37:35 [debug] 31619#31619: *1 access phase: 10
+2021/04/25 13:37:35 [debug] 31619#31619: *1 post access phase: 11
+2021/04/25 13:37:35 [debug] 31619#31619: *1 generic phase: 12
+2021/04/25 13:37:35 [debug] 31619#31619: *1 try files handler
+2021/04/25 13:37:35 [debug] 31619#31619: *1 http script var: "/favicon.ico"
+2021/04/25 13:37:35 [debug] 31619#31619: *1 trying to use file: "/favicon.ico" "/var/www/html/favicon.ico"
+2021/04/25 13:37:35 [debug] 31619#31619: *1 http script var: "/favicon.ico"
+2021/04/25 13:37:35 [debug] 31619#31619: *1 trying to use dir: "/favicon.ico" "/var/www/html/favicon.ico"
+2021/04/25 13:37:35 [debug] 31619#31619: *1 trying to use file: "=404" "/var/www/html=404"
+2021/04/25 13:37:35 [debug] 31619#31619: *1 http finalize request: 404, "/favicon.ico?" a:1, c:1
+2021/04/25 13:37:35 [debug] 31619#31619: *1 http special response: 404, "/favicon.ico?"
+2021/04/25 13:37:35 [debug] 31619#31619: *1 http set discard body
+2021/04/25 13:37:35 [debug] 31619#31619: *1 xslt filter header
+2021/04/25 13:37:35 [debug] 31619#31619: *1 HTTP/1.1 404 Not Found
+Server: nginx/1.14.0 (Ubuntu)
+Date: Sun, 25 Apr 2021 05:37:35 GMT
+Content-Type: text/html
+Transfer-Encoding: chunked
+Connection: keep-alive
+Content-Encoding: gzip
+
+2021/04/25 13:37:35 [debug] 31619#31619: *1 write new buf t:1 f:0 00005555EA2B9A68, pos 00005555EA2B9A68, size: 195 file: 0, size: 0
+2021/04/25 13:37:35 [debug] 31619#31619: *1 http write filter: l:0 f:0 s:195
+2021/04/25 13:37:35 [debug] 31619#31619: *1 http output filter "/favicon.ico?"
+2021/04/25 13:37:35 [debug] 31619#31619: *1 http copy filter: "/favicon.ico?"
+2021/04/25 13:37:35 [debug] 31619#31619: *1 image filter
+2021/04/25 13:37:35 [debug] 31619#31619: *1 xslt filter body
+2021/04/25 13:37:35 [debug] 31619#31619: *1 http postpone filter "/favicon.ico?" 00005555EA301018
+2021/04/25 13:37:35 [debug] 31619#31619: *1 http gzip filter
+2021/04/25 13:37:35 [debug] 31619#31619: *1 malloc: 00005555EA2C1E40:12288
+2021/04/25 13:37:35 [debug] 31619#31619: *1 gzip alloc: n:1 s:5952 a:8192 p:00005555EA2C1E40
+2021/04/25 13:37:35 [debug] 31619#31619: *1 gzip alloc: n:512 s:2 a:1024 p:00005555EA2C3E40
+2021/04/25 13:37:35 [debug] 31619#31619: *1 gzip alloc: n:512 s:2 a:1024 p:00005555EA2C4240
+2021/04/25 13:37:35 [debug] 31619#31619: *1 gzip alloc: n:512 s:2 a:1024 p:00005555EA2C4640
+2021/04/25 13:37:35 [debug] 31619#31619: *1 gzip alloc: n:256 s:4 a:1024 p:00005555EA2C4A40
+2021/04/25 13:37:35 [debug] 31619#31619: *1 gzip in: 00005555EA301048
+2021/04/25 13:37:35 [debug] 31619#31619: *1 gzip in_buf:00005555EA300F00 ni:00005555E8BC7880 ai:116
+2021/04/25 13:37:35 [debug] 31619#31619: *1 malloc: 00005555EA2ECDE0:4096
+2021/04/25 13:37:35 [debug] 31619#31619: *1 deflate in: ni:00005555E8BC7880 no:00005555EA2ECDE0 ai:116 ao:4096 fl:0 redo:0
+2021/04/25 13:37:35 [debug] 31619#31619: *1 deflate out: ni:00005555E8BC78F4 no:00005555EA2ECDE0 ai:0 ao:4096 rc:0
+2021/04/25 13:37:35 [debug] 31619#31619: *1 gzip in_buf:00005555EA300F00 pos:00005555E8BC7880
+2021/04/25 13:37:35 [debug] 31619#31619: *1 gzip in: 00005555EA301058
+2021/04/25 13:37:35 [debug] 31619#31619: *1 gzip in_buf:00005555EA300F50 ni:00005555E8BC80A0 ai:62
+2021/04/25 13:37:35 [debug] 31619#31619: *1 deflate in: ni:00005555E8BC80A0 no:00005555EA2ECDE0 ai:62 ao:4096 fl:4 redo:0
+2021/04/25 13:37:35 [debug] 31619#31619: *1 deflate out: ni:00005555E8BC80DE no:00005555EA2ECE5B ai:0 ao:3973 rc:1
+2021/04/25 13:37:35 [debug] 31619#31619: *1 gzip in_buf:00005555EA300F50 pos:00005555E8BC80A0
+2021/04/25 13:37:35 [debug] 31619#31619: *1 free: 00005555EA2C1E40
+2021/04/25 13:37:35 [debug] 31619#31619: *1 http chunk: 10
+2021/04/25 13:37:35 [debug] 31619#31619: *1 http chunk: 131
+2021/04/25 13:37:35 [debug] 31619#31619: *1 write old buf t:1 f:0 00005555EA2B9A68, pos 00005555EA2B9A68, size: 195 file: 0, size: 0
+2021/04/25 13:37:35 [debug] 31619#31619: *1 write new buf t:1 f:0 00005555EA301198, pos 00005555EA301198, size: 4 file: 0, size: 0
+2021/04/25 13:37:35 [debug] 31619#31619: *1 write new buf t:0 f:0 0000000000000000, pos 00005555E8BCB1A0, size: 10 file: 0, size: 0
+2021/04/25 13:37:35 [debug] 31619#31619: *1 write new buf t:1 f:0 00005555EA2ECDE0, pos 00005555EA2ECDE0, size: 131 file: 0, size: 0
+2021/04/25 13:37:35 [debug] 31619#31619: *1 write new buf t:0 f:0 0000000000000000, pos 00005555E899E4F5, size: 7 file: 0, size: 0
+2021/04/25 13:37:35 [debug] 31619#31619: *1 http write filter: l:1 f:1 s:347
+2021/04/25 13:37:35 [debug] 31619#31619: *1 http write filter limit 0
+2021/04/25 13:37:35 [debug] 31619#31619: *1 writev: 347 of 347
+2021/04/25 13:37:35 [debug] 31619#31619: *1 http write filter 0000000000000000
+2021/04/25 13:37:35 [debug] 31619#31619: *1 http copy filter: 0 "/favicon.ico?"
+2021/04/25 13:37:35 [debug] 31619#31619: *1 http finalize request: 0, "/favicon.ico?" a:1, c:1
+2021/04/25 13:37:35 [debug] 31619#31619: *1 set http keepalive handler
+2021/04/25 13:37:35 [debug] 31619#31619: *1 http close request
+2021/04/25 13:37:35 [debug] 31619#31619: *1 http log handler
+2021/04/25 13:37:35 [debug] 31619#31619: *1 free: 00005555EA2ECDE0
+2021/04/25 13:37:35 [debug] 31619#31619: *1 free: 0000000000000000
+2021/04/25 13:37:35 [debug] 31619#31619: *1 free: 00005555EA2B8B40, unused: 0
+2021/04/25 13:37:35 [debug] 31619#31619: *1 free: 00005555EA300B20, unused: 2044
+2021/04/25 13:37:35 [debug] 31619#31619: *1 free: 00005555EA2A2330
+2021/04/25 13:37:35 [debug] 31619#31619: *1 hc free: 0000000000000000
+2021/04/25 13:37:35 [debug] 31619#31619: *1 hc busy: 0000000000000000 0
+2021/04/25 13:37:35 [debug] 31619#31619: *1 reusable connection: 1
+2021/04/25 13:37:35 [debug] 31619#31619: *1 event timer add: 13: 65000:38307520
+2021/04/25 13:38:13 [debug] 31619#31619: epoll del event: fd:6 op:2 ev:00000000
+2021/04/25 13:38:13 [debug] 31618#31618: epoll del event: fd:6 op:2 ev:00000000
+2021/04/25 13:38:13 [debug] 31619#31619: epoll del event: fd:7 op:2 ev:00000000
+2021/04/25 13:38:13 [debug] 31618#31618: epoll del event: fd:7 op:2 ev:00000000
+2021/04/25 13:38:13 [debug] 31619#31619: *1 http keepalive handler
+2021/04/25 13:38:13 [debug] 31619#31619: *1 close http connection: 13
+2021/04/25 13:38:13 [debug] 31621#31621: epoll del event: fd:6 op:2 ev:00000000
+2021/04/25 13:38:13 [debug] 31619#31619: *1 event timer del: 13: 38307520
+2021/04/25 13:38:13 [debug] 31619#31619: *1 reusable connection: 0
+2021/04/25 13:38:13 [debug] 31621#31621: epoll del event: fd:7 op:2 ev:00000000
+2021/04/25 13:38:13 [debug] 31619#31619: *1 free: 0000000000000000
+2021/04/25 13:38:13 [debug] 31619#31619: *1 free: 00005555EA2A1920, unused: 136
+2021/04/25 13:38:13 [debug] 31620#31620: epoll del event: fd:6 op:2 ev:00000000
+2021/04/25 13:38:13 [debug] 31620#31620: epoll del event: fd:7 op:2 ev:00000000
+2021/04/25 13:38:13 [emerg] 31642#31642: "worker_processes" directive invalid value in /etc/nginx/nginx.conf:2
+2021/04/25 13:38:17 [emerg] 31649#31649: "worker_processes" directive invalid value in /etc/nginx/nginx.conf:2

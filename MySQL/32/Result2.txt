@@ -1,0 +1,28 @@
+Connect Database log success
+Create Table MysqlLog Success
+Starting Parse Mysql Log
+Starting Parse Sys Log
+Computing Problem Spotlight
+Create Table MysqlMsg Success
+Mysql DisConnect
+Using Augeas to Parse Configuration File
+Extract key-value Finished
+Extract Env Finished
+Connect Mysql wise success
+Giving Problem Spotlight and Resolve Spotlight
+Problem Spotlight No.0 : 2021-04-21 08:22:10 Error Aborting
+Problem Spotlight No.1 : 2021-04-21 08:22:10 Error mysqld: Error while setting value 's' to 'query_cache_limit'
+Suspicious word:    query_cache_limit    with key:    Conf: query_cache_limit    and value:    s
+Suspicious word:    mysqld    with key:    Program: 9909/mysqld    and value:    Port: tcp/3306
+Suspicious word:    s    with key:    Conf: query_cache_limit    and value:    s
+Knowledge Database Configuration:    wrong Conf value's key: max_allowed_packet    Infomation:    
+Problem Spotlight No.2 : 2021-04-21 08:22:10 Error Unknown suffix 's' used for variable 'query_cache_limit' (value 's')
+Problem Spotlight No.3 : 2021-04-21 01:22:10 Warning Once the problem is resolved, restart the service.
+Problem Spotlight No.4 : 2021-04-21 01:22:10 Warning Please take a look at https://wiki.debian.org/Teams/MySQL/FAQ for tips on fixing common upgrade issues.
+Problem Spotlight No.5 : 2021-04-21 01:22:10 Warning ERROR: Unable to start MySQL server:
+Problem Spotlight No.6 : 2021-04-21 06:49:36 Warning CA certificate ca.pem is self signed.
+Problem Spotlight No.7 : 2021-04-21 06:49:31 Warning TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+Problem Spotlight No.8 : 2021-04-21 06:50:20 Note /usr/sbin/mysqld: Shutdown complete
+Problem Spotlight No.9 : 2021-04-21 06:50:20 Note Shutting down plugin 'binlog'
+Mysql DisConnect
+Time Using: 1.87442 s

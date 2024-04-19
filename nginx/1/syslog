@@ -1,0 +1,26 @@
+Apr 25 13:30:08 ubuntu rsyslogd:  message repeated 3 times: [cannot connect to 192.168.182.128:514: No route to host [v8.32.0 try http://www.rsyslog.com/e/2027 ]]
+Apr 25 13:30:08 ubuntu rsyslogd:  [origin software="rsyslogd" swVersion="8.32.0" x-pid="685" x-info="http://www.rsyslog.com"] rsyslogd was HUPed
+Apr 25 13:30:17 ubuntu anacron[29497]: Job `cron.daily' terminated
+Apr 25 13:30:17 ubuntu anacron[29497]: Normal exit (1 job run)
+Apr 25 13:31:13 ubuntu rsyslogd: cannot connect to 192.168.182.128:514: No route to host [v8.32.0 try http://www.rsyslog.com/e/2027 ]
+Apr 25 13:32:48 ubuntu nautilus[20088]: g_queue_foreach: assertion 'queue != NULL' failed
+Apr 25 13:32:48 ubuntu nautilus[20088]: g_queue_free: assertion 'queue != NULL' failed
+Apr 25 13:32:48 ubuntu nautilus[20088]: g_queue_foreach: assertion 'queue != NULL' failed
+Apr 25 13:32:49 ubuntu nautilus[20088]: g_queue_free: assertion 'queue != NULL' failed
+Apr 25 13:34:07 ubuntu dbus-daemon[662]: [system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service' requested by ':1.272' (uid=1000 pid=20088 comm="/usr/bin/nautilus --gapplication-service " label="unconfined")
+Apr 25 13:34:07 ubuntu systemd[1]: Starting Hostname Service...
+Apr 25 13:34:07 ubuntu dbus-daemon[662]: [system] Successfully activated service 'org.freedesktop.hostname1'
+Apr 25 13:34:07 ubuntu systemd[1]: Started Hostname Service.
+Apr 25 13:34:09 ubuntu gvfsd-metadata[2650]: g_udev_device_has_property: assertion 'G_UDEV_IS_DEVICE (device)' failed
+Apr 25 13:34:09 ubuntu gvfsd-metadata[2650]: message repeated 7 times: [ g_udev_device_has_property: assertion 'G_UDEV_IS_DEVICE (device)' failed]
+Apr 25 13:34:48 ubuntu jetbrains-clion.desktop[20663]: 2021-04-25 13:34:48,671 [165129056]   WARN - com.intellij.ide.IdeEventQueue - Too many mouse clicks (14)!!!
+Apr 25 13:34:48 ubuntu jetbrains-clion.desktop[20663]: 2021-04-25 13:34:48,679 [165129064]   WARN - com.intellij.ide.IdeEventQueue - Too many mouse clicks (14)!!!
+Apr 25 13:35:30 ubuntu jetbrains-clion.desktop[20663]: 2021-04-25 13:35:30,576 [165170961]   WARN - com.intellij.ide.IdeEventQueue - Too many mouse clicks (12)!!!
+Apr 25 13:35:31 ubuntu jetbrains-clion.desktop[20663]: 2021-04-25 13:35:31,581 [165171966]   WARN - com.intellij.ide.IdeEventQueue - Too many mouse clicks (12)!!!
+Apr 25 13:36:02 ubuntu nautilus[20088]: gtk_revealer_set_reveal_child: assertion 'GTK_IS_REVEALER (revealer)' failed
+Apr 25 13:36:09 ubuntu nautilus[20088]: message repeated 3 times: [ gtk_revealer_set_reveal_child: assertion 'GTK_IS_REVEALER (revealer)' failed]
+Apr 25 13:37:31 ubuntu systemd[1]: Starting A high performance web server and a reverse proxy server...
+Apr 25 13:37:31 ubuntu systemd[1]: Started A high performance web server and a reverse proxy server.
+Apr 25 13:38:13 ubuntu systemd[1]: Stopping A high performance web server and a reverse proxy server...
+Apr 25 13:38:13 ubuntu systemd[1]: Stopped A high performance web server and a reverse proxy server.
+Apr 25 13:38:13 ubuntu systemd[1]: Starting A high performance web server and a reverse proxy server...

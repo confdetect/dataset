@@ -1,0 +1,26 @@
+Connect Mysql log success
+Create Table NginxLog Success
+Starting Parse Nginx Log
+Starting Parse Sys Log
+Computing Problem Spotlight
+Create Table NginxMsg Success
+Mysql DisConnect
+Using Augeas to Parse Configuration File
+Extract key-value Finished
+Extract Env Finished
+Connect Database wise success
+Giving Problem Spotlight and Resolve Spotlight
+Problem Spotlight No.0 : 2021-04-27 16:19:41 Error invalid number of arguments in "gzip_vary" directive in /etc/nginx/nginx.conf:50
+Suspicious word:    gzip_vary    with key:    Conf: gzip_vary    and value:    on on
+Knowledge Database Configuration:    wrong Conf value's key: sendfile    Infomation:    
+Problem Spotlight No.1 : 2021-04-27 16:19:41 Warning nginx.service: Failed with result 'exit-code'.
+Problem Spotlight No.2 : 2021-04-27 16:19:41 Warning nginx.service: Control process exited, code=exited status=1
+Problem Spotlight No.3 : 2021-04-27 16:19:41 Warning nginx: configuration file /etc/nginx/nginx.conf test failed
+Problem Spotlight No.4 : 2021-04-27 16:19:40 Note *1 free: 0000562A0A9DA920, unused: 136
+Problem Spotlight No.5 : 2021-04-27 16:19:40 Note *1 free: 0000000000000000
+Problem Spotlight No.6 : 2021-04-27 16:19:40 Note *1 reusable connection: 0
+Problem Spotlight No.7 : 2021-04-27 16:19:40 Note *1 event timer del: 13: 83046955
+Problem Spotlight No.8 : 2021-04-27 16:19:40 Note *1 close http connection: 13
+Problem Spotlight No.9 : 2021-04-27 16:19:40 Note *1 http keepalive handler
+Mysql DisConnect
+Time Using: 1.00097 s

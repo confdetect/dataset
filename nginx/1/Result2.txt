@@ -1,0 +1,25 @@
+Connect Mysql log success
+Create Table NginxLog Success
+Starting Parse Nginx Log
+Starting Parse Sys Log
+Computing Problem Spotlight
+Create Table NginxMsg Success
+Mysql DisConnect
+Using Augeas to Parse Configuration File
+Extract key-value Finished
+Extract Env Finished
+Connect Database wise success
+Giving Problem Spotlight and Resolve Spotlight
+Problem Spotlight No.0 : 2021-04-25 13:26:18 Error getpwnam("www.data") failed in /etc/nginx/nginx.conf:1
+Suspicious word:    www.data    with key:    Conf: user    and value:    www.data
+Problem Spotlight No.1 : 2021-04-25 13:26:16 Note epoll del event: fd:7 op:2 ev:00000000
+Problem Spotlight No.2 : 2021-04-25 13:26:16 Note epoll del event: fd:6 op:2 ev:00000000
+Problem Spotlight No.3 : 2021-04-23 15:42:09 Note *1 free: 00005608B738C920, unused: 136
+Problem Spotlight No.4 : 2021-04-23 15:42:09 Note *1 free: 0000000000000000
+Problem Spotlight No.5 : 2021-04-23 15:42:09 Note *1 reusable connection: 0
+Problem Spotlight No.6 : 2021-04-23 15:42:09 Note *1 close http connection: 13
+Problem Spotlight No.7 : 2021-04-23 15:42:09 Note *1 http keepalive handler
+Problem Spotlight No.8 : 2021-04-23 15:42:09 Note *1 event timer del: 13: 3722132
+Problem Spotlight No.9 : 2021-04-23 15:41:04 Note *1 event timer add: 13: 65000:3722132
+Mysql DisConnect
+Time Using: 1.12352 s

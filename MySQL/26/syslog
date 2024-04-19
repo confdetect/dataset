@@ -1,0 +1,154 @@
+Apr 18 22:49:34 ubuntu gnome-shell[1797]: Object .Gjs_AppIndicatorIconActor__1 (0x5593582f65d0), has been already finalized. Impossible to set any property to it.
+Apr 18 22:49:34 ubuntu gnome-shell[1797]: Object .Gjs_AppIndicatorIconActor__1 (0x55935a19dc40), has been already finalized. Impossible to set any property to it.
+Apr 18 22:49:34 ubuntu org.gnome.Shell.desktop[1797]: == Stack trace for context 0x559355fbf320 ==
+Apr 18 22:49:34 ubuntu org.gnome.Shell.desktop[1797]: #0 0x7ffcda0f42b0 b   resource:///org/gnome/gjs/modules/_legacy.js:83 (0x7f8bd02b5de0 @ 87)
+Apr 18 22:49:34 ubuntu org.gnome.Shell.desktop[1797]: #1 0x5593563752f0 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/indicatorStatusIcon.js:93 (0x7f8ba61c8b38 @ 58)
+Apr 18 22:49:34 ubuntu org.gnome.Shell.desktop[1797]: #2 0x7ffcda0f5610 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f8bd02b5de0 @ 71)
+Apr 18 22:49:34 ubuntu org.gnome.Shell.desktop[1797]: #3 0x7ffcda0f56d0 b   self-hosted:916 (0x7f8bd02f12b8 @ 367)
+Apr 18 22:49:34 ubuntu org.gnome.Shell.desktop[1797]: #4 0x7ffcda0f57c0 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7f8bd02d2230 @ 386)
+Apr 18 22:49:34 ubuntu org.gnome.Shell.desktop[1797]: #5 0x559356375268 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/appIndicator.js:190 (0x7f8ba61bb808 @ 22)
+Apr 18 22:49:34 ubuntu org.gnome.Shell.desktop[1797]: #6 0x7ffcda0f6b20 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f8bd02b5de0 @ 71)
+Apr 18 22:49:34 ubuntu org.gnome.Shell.desktop[1797]: #7 0x5593563751c0 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/statusNotifierWatcher.js:219 (0x7f8ba61b4de0 @ 225)
+Apr 18 22:49:34 ubuntu org.gnome.Shell.desktop[1797]: #8 0x7ffcda0f7e80 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f8bd02b5de0 @ 71)
+Apr 18 22:49:34 ubuntu org.gnome.Shell.desktop[1797]: #9 0x559356375148 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/extension.js:61 (0x7f8ba61b4120 @ 37)
+Apr 18 22:49:34 ubuntu org.gnome.Shell.desktop[1797]: #10 0x559356375088 i   resource:///org/gnome/shell/ui/extensionSystem.js:83 (0x7f8bbe6592b8 @ 441)
+Apr 18 22:49:34 ubuntu org.gnome.Shell.desktop[1797]: #11 0x559356375008 i   resource:///org/gnome/shell/ui/extensionSystem.js:354 (0x7f8bbe659d58 @ 13)
+Apr 18 22:49:34 ubuntu org.gnome.Shell.desktop[1797]: #12 0x7ffcda0f8bf0 b   self-hosted:251 (0x7f8bd02c4ab0 @ 223)
+Apr 18 22:49:34 ubuntu org.gnome.Shell.desktop[1797]: #13 0x559356374f88 i   resource:///org/gnome/shell/ui/extensionSystem.js:353 (0x7f8bbe659cd0 @ 64)
+Apr 18 22:49:34 ubuntu org.gnome.Shell.desktop[1797]: #14 0x559356374f08 i   resource:///org/gnome/shell/ui/extensionSystem.js:371 (0x7f8bbe659de0 @ 87)
+Apr 18 22:49:34 ubuntu org.gnome.Shell.desktop[1797]: #15 0x7ffcda0fa0f0 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7f8bd02d2230 @ 386)
+Apr 18 22:49:34 ubuntu org.gnome.Shell.desktop[1797]: #16 0x7ffcda0fa890 b   resource:///org/gnome/shell/ui/sessionMode.js:205 (0x7f8bbe3705e8 @ 254)
+Apr 18 22:49:34 ubuntu org.gnome.Shell.desktop[1797]: #17 0x7ffcda0fbc80 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f8bd02b5de0 @ 71)
+Apr 18 22:49:34 ubuntu org.gnome.Shell.desktop[1797]: #18 0x559356374dc8 i   resource:///org/gnome/shell/ui/sessionMode.js:167 (0x7f8bbe3703c8 @ 40)
+Apr 18 22:49:34 ubuntu org.gnome.Shell.desktop[1797]: #19 0x7ffcda0fcfe0 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f8bd02b5de0 @ 71)
+Apr 18 22:49:34 ubuntu gnome-software[2674]: no app for changed ubuntu-appindicators@ubuntu.com
+Apr 18 22:49:34 ubuntu org.gnome.Shell.desktop[1797]: #20 0x559356374d20 i   resource:///org/gnome/shell/ui/screenShield.js:1282 (0x7f8bbe353a28 @ 188)
+Apr 18 22:49:34 ubuntu org.gnome.Shell.desktop[1797]: #21 0x7ffcda0fe340 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f8bd02b5de0 @ 71)
+Apr 18 22:49:34 ubuntu org.gnome.Shell.desktop[1797]: #22 0x559356374c70 i   resource:///org/gnome/shell/ui/screenShield.js:1331 (0x7f8bbe353ab0 @ 391)
+Apr 18 22:49:34 ubuntu org.gnome.Shell.desktop[1797]: #23 0x7ffcda0ff6a0 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f8bd02b5de0 @ 71)
+Apr 18 22:49:34 ubuntu org.gnome.Shell.desktop[1797]: #24 0x559356374bf0 i   resource:///org/gnome/shell/ui/screenShield.js:854 (0x7f8bbe3519a0 @ 25)
+Apr 18 22:49:34 ubuntu org.gnome.Shell.desktop[1797]: == Stack trace for context 0x559355fbf320 ==
+Apr 18 22:49:34 ubuntu org.gnome.Shell.desktop[1797]: #0 0x7ffcda0f42b0 b   resource:///org/gnome/gjs/modules/_legacy.js:83 (0x7f8bd02b5de0 @ 87)
+Apr 18 22:49:34 ubuntu org.gnome.Shell.desktop[1797]: #1 0x5593563752f0 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/indicatorStatusIcon.js:93 (0x7f8ba61c8b38 @ 58)
+Apr 18 22:49:34 ubuntu org.gnome.Shell.desktop[1797]: #2 0x7ffcda0f5610 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f8bd02b5de0 @ 71)
+Apr 18 22:49:34 ubuntu org.gnome.Shell.desktop[1797]: #3 0x7ffcda0f56d0 b   self-hosted:916 (0x7f8bd02f12b8 @ 367)
+Apr 18 22:49:34 ubuntu org.gnome.Shell.desktop[1797]: #4 0x7ffcda0f57c0 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7f8bd02d2230 @ 386)
+Apr 18 22:49:34 ubuntu org.gnome.Shell.desktop[1797]: #5 0x559356375268 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/appIndicator.js:190 (0x7f8ba61bb808 @ 22)
+Apr 18 22:49:34 ubuntu org.gnome.Shell.desktop[1797]: #6 0x7ffcda0f6b20 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f8bd02b5de0 @ 71)
+Apr 18 22:49:34 ubuntu org.gnome.Shell.desktop[1797]: #7 0x5593563751c0 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/statusNotifierWatcher.js:219 (0x7f8ba61b4de0 @ 225)
+Apr 18 22:49:34 ubuntu org.gnome.Shell.desktop[1797]: #8 0x7ffcda0f7e80 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f8bd02b5de0 @ 71)
+Apr 18 22:49:34 ubuntu org.gnome.Shell.desktop[1797]: #9 0x559356375148 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/extension.js:61 (0x7f8ba61b4120 @ 37)
+Apr 18 22:49:34 ubuntu org.gnome.Shell.desktop[1797]: #10 0x559356375088 i   resource:///org/gnome/shell/ui/extensionSystem.js:83 (0x7f8bbe6592b8 @ 441)
+Apr 18 22:49:34 ubuntu org.gnome.Shell.desktop[1797]: #11 0x559356375008 i   resource:///org/gnome/shell/ui/extensionSystem.js:354 (0x7f8bbe659d58 @ 13)
+Apr 18 22:49:34 ubuntu org.gnome.Shell.desktop[1797]: #12 0x7ffcda0f8bf0 b   self-hosted:251 (0x7f8bd02c4ab0 @ 223)
+Apr 18 22:49:34 ubuntu org.gnome.Shell.desktop[1797]: #13 0x559356374f88 i   resource:///org/gnome/shell/ui/extensionSystem.js:353 (0x7f8bbe659cd0 @ 64)
+Apr 18 22:49:34 ubuntu org.gnome.Shell.desktop[1797]: #14 0x559356374f08 i   resource:///org/gnome/shell/ui/extensionSystem.js:371 (0x7f8bbe659de0 @ 87)
+Apr 18 22:49:34 ubuntu org.gnome.Shell.desktop[1797]: #15 0x7ffcda0fa0f0 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7f8bd02d2230 @ 386)
+Apr 18 22:49:34 ubuntu org.gnome.Shell.desktop[1797]: #16 0x7ffcda0fa890 b   resource:///org/gnome/shell/ui/sessionMode.js:205 (0x7f8bbe3705e8 @ 254)
+Apr 18 22:49:34 ubuntu org.gnome.Shell.desktop[1797]: #17 0x7ffcda0fbc80 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f8bd02b5de0 @ 71)
+Apr 18 22:49:34 ubuntu org.gnome.Shell.desktop[1797]: #18 0x559356374dc8 i   resource:///org/gnome/shell/ui/sessionMode.js:167 (0x7f8bbe3703c8 @ 40)
+Apr 18 22:49:34 ubuntu org.gnome.Shell.desktop[1797]: #19 0x7ffcda0fcfe0 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f8bd02b5de0 @ 71)
+Apr 18 22:49:34 ubuntu org.gnome.Shell.desktop[1797]: #20 0x559356374d20 i   resource:///org/gnome/shell/ui/screenShield.js:1282 (0x7f8bbe353a28 @ 188)
+Apr 18 22:49:34 ubuntu org.gnome.Shell.desktop[1797]: #21 0x7ffcda0fe340 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f8bd02b5de0 @ 71)
+Apr 18 22:49:34 ubuntu org.gnome.Shell.desktop[1797]: #22 0x559356374c70 i   resource:///org/gnome/shell/ui/screenShield.js:1331 (0x7f8bbe353ab0 @ 391)
+Apr 18 22:49:34 ubuntu org.gnome.Shell.desktop[1797]: #23 0x7ffcda0ff6a0 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f8bd02b5de0 @ 71)
+Apr 18 22:49:34 ubuntu org.gnome.Shell.desktop[1797]: #24 0x559356374bf0 i   resource:///org/gnome/shell/ui/screenShield.js:854 (0x7f8bbe3519a0 @ 25)
+Apr 18 22:49:34 ubuntu gnome-software[2674]: no app for changed ubuntu-dock@ubuntu.com
+Apr 18 22:53:30 ubuntu dhclient[3027]: DHCPREQUEST of 192.168.182.128 on ens33 to 192.168.182.254 port 67 (xid=0x1ec8c12)
+Apr 18 22:53:30 ubuntu dhclient[3027]: DHCPACK of 192.168.182.128 from 192.168.182.254
+Apr 18 22:53:30 ubuntu NetworkManager[641]: <info>  [1618811610.1127] dhcp4 (ens33):   address 192.168.182.128
+Apr 18 22:53:30 ubuntu dbus-daemon[633]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.11' (uid=0 pid=641 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Apr 18 22:53:30 ubuntu NetworkManager[641]: <info>  [1618811610.1127] dhcp4 (ens33):   plen 24 (255.255.255.0)
+Apr 18 22:53:30 ubuntu dhclient[3027]: bound to 192.168.182.128 -- renewal in 777 seconds.
+Apr 18 22:53:30 ubuntu NetworkManager[641]: <info>  [1618811610.1127] dhcp4 (ens33):   gateway 192.168.182.2
+Apr 18 22:53:30 ubuntu NetworkManager[641]: <info>  [1618811610.1128] dhcp4 (ens33):   lease time 1800
+Apr 18 22:53:30 ubuntu NetworkManager[641]: <info>  [1618811610.1128] dhcp4 (ens33):   nameserver '192.168.182.2'
+Apr 18 22:53:30 ubuntu NetworkManager[641]: <info>  [1618811610.1128] dhcp4 (ens33):   domain name 'localdomain'
+Apr 18 22:53:30 ubuntu NetworkManager[641]: <info>  [1618811610.1128] dhcp4 (ens33):   wins '192.168.182.2'
+Apr 18 22:53:30 ubuntu NetworkManager[641]: <info>  [1618811610.1128] dhcp4 (ens33): state changed bound -> bound
+Apr 18 22:53:30 ubuntu systemd[1]: Starting Network Manager Script Dispatcher Service...
+Apr 18 22:53:30 ubuntu systemd[1]: Started Network Manager Script Dispatcher Service.
+Apr 18 22:53:30 ubuntu dbus-daemon[633]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Apr 18 22:53:30 ubuntu nm-dispatcher: req:1 'dhcp4-change' [ens33]: new request (1 scripts)
+Apr 18 22:53:30 ubuntu nm-dispatcher: req:1 'dhcp4-change' [ens33]: start running ordered scripts...
+Apr 18 22:58:34 ubuntu gnome-software[2674]: no app for changed ubuntu-dock@ubuntu.com
+Apr 18 22:58:34 ubuntu gnome-software[2674]: no app for changed ubuntu-appindicators@ubuntu.com
+Apr 18 22:58:34 ubuntu gvfsd-metadata[2164]: g_udev_device_has_property: assertion 'G_UDEV_IS_DEVICE (device)' failed
+Apr 18 22:58:34 ubuntu gvfsd-metadata[2164]: g_udev_device_has_property: assertion 'G_UDEV_IS_DEVICE (device)' failed
+Apr 18 22:58:34 ubuntu gnome-shell[1797]: [AppIndicatorSupport-DEBUG] Registering StatusNotifierItem :1.75/org/ayatana/NotificationItem/software_update_available
+Apr 18 22:58:34 ubuntu gnome-shell[1797]: [AppIndicatorSupport-DEBUG] Registering StatusNotifierItem :1.75/org/ayatana/NotificationItem/livepatch
+Apr 18 23:00:12 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 18 23:00:14 ubuntu systemd[1]: Started MySQL Community Server.
+Apr 18 23:02:45 ubuntu systemd[1]: Stopping MySQL Community Server...
+Apr 18 23:02:46 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 18 23:02:46 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 18 23:02:46 ubuntu mysql-systemd-start[6364]: ERROR: Unable to start MySQL server:
+Apr 18 23:02:46 ubuntu mysql-systemd-start[6364]: 2021-04-19T06:02:46.942759Z 0 [ERROR] Unknown suffix 'd' used for variable 'expire_logs_days' (value '10d')
+Apr 18 23:02:46 ubuntu mysql-systemd-start[6364]: 2021-04-19T06:02:46.942811Z 0 [ERROR] mysqld: Error while setting value '10d' to 'expire_logs_days'
+Apr 18 23:02:46 ubuntu mysql-systemd-start[6364]: 2021-04-19T06:02:46.944911Z 0 [ERROR] Aborting
+Apr 18 23:02:46 ubuntu mysql-systemd-start[6364]: Please take a look at https://wiki.debian.org/Teams/MySQL/FAQ for tips on fixing common upgrade issues.
+Apr 18 23:02:46 ubuntu mysql-systemd-start[6364]: Once the problem is resolved, restart the service.
+Apr 18 23:02:46 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 18 23:02:46 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 18 23:02:46 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 18 23:02:47 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 18 23:02:47 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 1.
+Apr 18 23:02:47 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 18 23:02:47 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 18 23:02:47 ubuntu mysql-systemd-start[6372]: ERROR: Unable to start MySQL server:
+Apr 18 23:02:47 ubuntu mysql-systemd-start[6372]: 2021-04-19T06:02:47.302668Z 0 [ERROR] Unknown suffix 'd' used for variable 'expire_logs_days' (value '10d')
+Apr 18 23:02:47 ubuntu mysql-systemd-start[6372]: 2021-04-19T06:02:47.302707Z 0 [ERROR] mysqld: Error while setting value '10d' to 'expire_logs_days'
+Apr 18 23:02:47 ubuntu mysql-systemd-start[6372]: 2021-04-19T06:02:47.305004Z 0 [ERROR] Aborting
+Apr 18 23:02:47 ubuntu mysql-systemd-start[6372]: Please take a look at https://wiki.debian.org/Teams/MySQL/FAQ for tips on fixing common upgrade issues.
+Apr 18 23:02:47 ubuntu mysql-systemd-start[6372]: Once the problem is resolved, restart the service.
+Apr 18 23:02:47 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 18 23:02:47 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 18 23:02:47 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 18 23:02:47 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 18 23:02:47 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 2.
+Apr 18 23:02:47 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 18 23:02:47 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 18 23:02:47 ubuntu mysql-systemd-start[6380]: ERROR: Unable to start MySQL server:
+Apr 18 23:02:47 ubuntu mysql-systemd-start[6380]: 2021-04-19T06:02:47.560127Z 0 [ERROR] Unknown suffix 'd' used for variable 'expire_logs_days' (value '10d')
+Apr 18 23:02:47 ubuntu mysql-systemd-start[6380]: 2021-04-19T06:02:47.560180Z 0 [ERROR] mysqld: Error while setting value '10d' to 'expire_logs_days'
+Apr 18 23:02:47 ubuntu mysql-systemd-start[6380]: 2021-04-19T06:02:47.561420Z 0 [ERROR] Aborting
+Apr 18 23:02:47 ubuntu mysql-systemd-start[6380]: Please take a look at https://wiki.debian.org/Teams/MySQL/FAQ for tips on fixing common upgrade issues.
+Apr 18 23:02:47 ubuntu mysql-systemd-start[6380]: Once the problem is resolved, restart the service.
+Apr 18 23:02:47 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 18 23:02:47 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 18 23:02:47 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 18 23:02:47 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 18 23:02:47 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 3.
+Apr 18 23:02:47 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 18 23:02:47 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 18 23:02:47 ubuntu mysql-systemd-start[6388]: ERROR: Unable to start MySQL server:
+Apr 18 23:02:47 ubuntu mysql-systemd-start[6388]: 2021-04-19T06:02:47.801311Z 0 [ERROR] Unknown suffix 'd' used for variable 'expire_logs_days' (value '10d')
+Apr 18 23:02:47 ubuntu mysql-systemd-start[6388]: 2021-04-19T06:02:47.801351Z 0 [ERROR] mysqld: Error while setting value '10d' to 'expire_logs_days'
+Apr 18 23:02:47 ubuntu mysql-systemd-start[6388]: 2021-04-19T06:02:47.802550Z 0 [ERROR] Aborting
+Apr 18 23:02:47 ubuntu mysql-systemd-start[6388]: Please take a look at https://wiki.debian.org/Teams/MySQL/FAQ for tips on fixing common upgrade issues.
+Apr 18 23:02:47 ubuntu mysql-systemd-start[6388]: Once the problem is resolved, restart the service.
+Apr 18 23:02:47 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 18 23:02:47 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 18 23:02:47 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 18 23:02:48 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 18 23:02:48 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 4.
+Apr 18 23:02:48 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 18 23:02:48 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 18 23:02:48 ubuntu mysql-systemd-start[6396]: ERROR: Unable to start MySQL server:
+Apr 18 23:02:48 ubuntu mysql-systemd-start[6396]: 2021-04-19T06:02:48.051118Z 0 [ERROR] Unknown suffix 'd' used for variable 'expire_logs_days' (value '10d')
+Apr 18 23:02:48 ubuntu mysql-systemd-start[6396]: 2021-04-19T06:02:48.051156Z 0 [ERROR] mysqld: Error while setting value '10d' to 'expire_logs_days'
+Apr 18 23:02:48 ubuntu mysql-systemd-start[6396]: 2021-04-19T06:02:48.052232Z 0 [ERROR] Aborting
+Apr 18 23:02:48 ubuntu mysql-systemd-start[6396]: Please take a look at https://wiki.debian.org/Teams/MySQL/FAQ for tips on fixing common upgrade issues.
+Apr 18 23:02:48 ubuntu mysql-systemd-start[6396]: Once the problem is resolved, restart the service.
+Apr 18 23:02:48 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 18 23:02:48 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 18 23:02:48 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 18 23:02:48 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 18 23:02:48 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 5.
+Apr 18 23:02:48 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 18 23:02:48 ubuntu systemd[1]: mysql.service: Start request repeated too quickly.
+Apr 18 23:02:48 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 18 23:02:48 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 18 23:02:49 ubuntu systemd[1]: mysql.service: Start request repeated too quickly.
+Apr 18 23:02:49 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 18 23:02:49 ubuntu systemd[1]: Failed to start MySQL Community Server.

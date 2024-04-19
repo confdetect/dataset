@@ -1,0 +1,146 @@
+Apr 14 04:38:38 ubuntu dhclient[6369]: DHCPREQUEST of 192.168.182.128 on ens33 to 192.168.182.254 port 67 (xid=0x35d3d2ba)
+Apr 14 04:38:38 ubuntu dhclient[6369]: DHCPACK of 192.168.182.128 from 192.168.182.254
+Apr 14 04:38:38 ubuntu NetworkManager[604]: <info>  [1618400318.9740] dhcp4 (ens33):   address 192.168.182.128
+Apr 14 04:38:38 ubuntu NetworkManager[604]: <info>  [1618400318.9741] dhcp4 (ens33):   plen 24 (255.255.255.0)
+Apr 14 04:38:38 ubuntu NetworkManager[604]: <info>  [1618400318.9741] dhcp4 (ens33):   gateway 192.168.182.2
+Apr 14 04:38:38 ubuntu NetworkManager[604]: <info>  [1618400318.9741] dhcp4 (ens33):   lease time 1800
+Apr 14 04:38:38 ubuntu NetworkManager[604]: <info>  [1618400318.9741] dhcp4 (ens33):   nameserver '192.168.182.2'
+Apr 14 04:38:38 ubuntu NetworkManager[604]: <info>  [1618400318.9741] dhcp4 (ens33):   domain name 'localdomain'
+Apr 14 04:38:38 ubuntu NetworkManager[604]: <info>  [1618400318.9742] dhcp4 (ens33):   wins '192.168.182.2'
+Apr 14 04:38:38 ubuntu NetworkManager[604]: <info>  [1618400318.9742] dhcp4 (ens33): state changed bound -> bound
+Apr 14 04:38:38 ubuntu dbus-daemon[591]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.10' (uid=0 pid=604 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Apr 14 04:38:38 ubuntu dhclient[6369]: bound to 192.168.182.128 -- renewal in 792 seconds.
+Apr 14 04:38:38 ubuntu systemd[1]: Starting Network Manager Script Dispatcher Service...
+Apr 14 04:38:39 ubuntu dbus-daemon[591]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Apr 14 04:38:39 ubuntu systemd[1]: Started Network Manager Script Dispatcher Service.
+Apr 14 04:38:39 ubuntu nm-dispatcher: req:1 'dhcp4-change' [ens33]: new request (1 scripts)
+Apr 14 04:38:39 ubuntu nm-dispatcher: req:1 'dhcp4-change' [ens33]: start running ordered scripts...
+Apr 14 04:39:45 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 14 04:39:45 ubuntu mysql-systemd-start[6856]: ERROR: Unable to start MySQL server:
+Apr 14 04:39:45 ubuntu mysql-systemd-start[6856]: 2021-04-14T11:39:45.595353Z 0 [ERROR] unknown variable 'default-character-set=UTF-8'
+Apr 14 04:39:45 ubuntu mysql-systemd-start[6856]: 2021-04-14T11:39:45.599154Z 0 [ERROR] Aborting
+Apr 14 04:39:45 ubuntu mysql-systemd-start[6856]: Please take a look at https://wiki.debian.org/Teams/MySQL/FAQ for tips on fixing common upgrade issues.
+Apr 14 04:39:45 ubuntu mysql-systemd-start[6856]: Once the problem is resolved, restart the service.
+Apr 14 04:39:45 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 14 04:39:45 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 14 04:39:45 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 14 04:39:45 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 14 04:39:45 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 1.
+Apr 14 04:39:45 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 14 04:39:45 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 14 04:39:45 ubuntu mysql-systemd-start[6865]: ERROR: Unable to start MySQL server:
+Apr 14 04:39:45 ubuntu mysql-systemd-start[6865]: 2021-04-14T11:39:45.747298Z 0 [ERROR] unknown variable 'default-character-set=UTF-8'
+Apr 14 04:39:45 ubuntu mysql-systemd-start[6865]: 2021-04-14T11:39:45.749717Z 0 [ERROR] Aborting
+Apr 14 04:39:45 ubuntu mysql-systemd-start[6865]: Please take a look at https://wiki.debian.org/Teams/MySQL/FAQ for tips on fixing common upgrade issues.
+Apr 14 04:39:45 ubuntu mysql-systemd-start[6865]: Once the problem is resolved, restart the service.
+Apr 14 04:39:45 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 14 04:39:45 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 14 04:39:45 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 14 04:39:45 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 14 04:39:45 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 2.
+Apr 14 04:39:45 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 14 04:39:45 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 14 04:39:45 ubuntu mysql-systemd-start[6874]: ERROR: Unable to start MySQL server:
+Apr 14 04:39:45 ubuntu mysql-systemd-start[6874]: 2021-04-14T11:39:45.991075Z 0 [ERROR] unknown variable 'default-character-set=UTF-8'
+Apr 14 04:39:45 ubuntu mysql-systemd-start[6874]: 2021-04-14T11:39:45.993521Z 0 [ERROR] Aborting
+Apr 14 04:39:45 ubuntu mysql-systemd-start[6874]: Please take a look at https://wiki.debian.org/Teams/MySQL/FAQ for tips on fixing common upgrade issues.
+Apr 14 04:39:45 ubuntu mysql-systemd-start[6874]: Once the problem is resolved, restart the service.
+Apr 14 04:39:45 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 14 04:39:45 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 14 04:39:45 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 14 04:39:46 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 14 04:39:46 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 3.
+Apr 14 04:39:46 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 14 04:39:46 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 14 04:39:46 ubuntu mysql-systemd-start[6883]: ERROR: Unable to start MySQL server:
+Apr 14 04:39:46 ubuntu mysql-systemd-start[6883]: 2021-04-14T11:39:46.258462Z 0 [ERROR] unknown variable 'default-character-set=UTF-8'
+Apr 14 04:39:46 ubuntu mysql-systemd-start[6883]: 2021-04-14T11:39:46.260936Z 0 [ERROR] Aborting
+Apr 14 04:39:46 ubuntu mysql-systemd-start[6883]: Please take a look at https://wiki.debian.org/Teams/MySQL/FAQ for tips on fixing common upgrade issues.
+Apr 14 04:39:46 ubuntu mysql-systemd-start[6883]: Once the problem is resolved, restart the service.
+Apr 14 04:39:46 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 14 04:39:46 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 14 04:39:46 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 14 04:39:46 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 14 04:39:46 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 4.
+Apr 14 04:39:46 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 14 04:39:46 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 14 04:39:46 ubuntu mysql-systemd-start[6892]: ERROR: Unable to start MySQL server:
+Apr 14 04:39:46 ubuntu mysql-systemd-start[6892]: 2021-04-14T11:39:46.490209Z 0 [ERROR] unknown variable 'default-character-set=UTF-8'
+Apr 14 04:39:46 ubuntu mysql-systemd-start[6892]: 2021-04-14T11:39:46.492551Z 0 [ERROR] Aborting
+Apr 14 04:39:46 ubuntu mysql-systemd-start[6892]: Please take a look at https://wiki.debian.org/Teams/MySQL/FAQ for tips on fixing common upgrade issues.
+Apr 14 04:39:46 ubuntu mysql-systemd-start[6892]: Once the problem is resolved, restart the service.
+Apr 14 04:39:46 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 14 04:39:46 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 14 04:39:46 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 14 04:39:46 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 14 04:39:46 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 5.
+Apr 14 04:39:46 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 14 04:39:46 ubuntu systemd[1]: mysql.service: Start request repeated too quickly.
+Apr 14 04:39:46 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 14 04:39:46 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 14 04:39:47 ubuntu systemd[1]: mysql.service: Start request repeated too quickly.
+Apr 14 04:39:47 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 14 04:39:47 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 14 04:40:01 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 14 04:40:01 ubuntu mysql-systemd-start[6912]: ERROR: Unable to start MySQL server:
+Apr 14 04:40:01 ubuntu mysql-systemd-start[6912]: 2021-04-14T11:40:01.166709Z 0 [ERROR] unknown variable 'default-character-set=UTF-8'
+Apr 14 04:40:01 ubuntu mysql-systemd-start[6912]: 2021-04-14T11:40:01.169121Z 0 [ERROR] Aborting
+Apr 14 04:40:01 ubuntu mysql-systemd-start[6912]: Please take a look at https://wiki.debian.org/Teams/MySQL/FAQ for tips on fixing common upgrade issues.
+Apr 14 04:40:01 ubuntu mysql-systemd-start[6912]: Once the problem is resolved, restart the service.
+Apr 14 04:40:01 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 14 04:40:01 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 14 04:40:01 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 14 04:40:01 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 14 04:40:01 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 1.
+Apr 14 04:40:01 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 14 04:40:01 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 14 04:40:01 ubuntu mysql-systemd-start[6921]: ERROR: Unable to start MySQL server:
+Apr 14 04:40:01 ubuntu mysql-systemd-start[6921]: 2021-04-14T11:40:01.504018Z 0 [ERROR] unknown variable 'default-character-set=UTF-8'
+Apr 14 04:40:01 ubuntu mysql-systemd-start[6921]: 2021-04-14T11:40:01.506428Z 0 [ERROR] Aborting
+Apr 14 04:40:01 ubuntu mysql-systemd-start[6921]: Please take a look at https://wiki.debian.org/Teams/MySQL/FAQ for tips on fixing common upgrade issues.
+Apr 14 04:40:01 ubuntu mysql-systemd-start[6921]: Once the problem is resolved, restart the service.
+Apr 14 04:40:01 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 14 04:40:01 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 14 04:40:01 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 14 04:40:01 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 14 04:40:01 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 2.
+Apr 14 04:40:01 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 14 04:40:01 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 14 04:40:01 ubuntu mysql-systemd-start[6930]: ERROR: Unable to start MySQL server:
+Apr 14 04:40:01 ubuntu mysql-systemd-start[6930]: 2021-04-14T11:40:01.752616Z 0 [ERROR] unknown variable 'default-character-set=UTF-8'
+Apr 14 04:40:01 ubuntu mysql-systemd-start[6930]: 2021-04-14T11:40:01.755714Z 0 [ERROR] Aborting
+Apr 14 04:40:01 ubuntu mysql-systemd-start[6930]: Please take a look at https://wiki.debian.org/Teams/MySQL/FAQ for tips on fixing common upgrade issues.
+Apr 14 04:40:01 ubuntu mysql-systemd-start[6930]: Once the problem is resolved, restart the service.
+Apr 14 04:40:01 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 14 04:40:01 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 14 04:40:01 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 14 04:40:01 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 14 04:40:01 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 3.
+Apr 14 04:40:01 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 14 04:40:01 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 14 04:40:01 ubuntu mysql-systemd-start[6939]: ERROR: Unable to start MySQL server:
+Apr 14 04:40:01 ubuntu mysql-systemd-start[6939]: 2021-04-14T11:40:01.990548Z 0 [ERROR] unknown variable 'default-character-set=UTF-8'
+Apr 14 04:40:01 ubuntu mysql-systemd-start[6939]: 2021-04-14T11:40:01.993439Z 0 [ERROR] Aborting
+Apr 14 04:40:01 ubuntu mysql-systemd-start[6939]: Please take a look at https://wiki.debian.org/Teams/MySQL/FAQ for tips on fixing common upgrade issues.
+Apr 14 04:40:01 ubuntu mysql-systemd-start[6939]: Once the problem is resolved, restart the service.
+Apr 14 04:40:01 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 14 04:40:01 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 14 04:40:01 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 14 04:40:02 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 14 04:40:02 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 4.
+Apr 14 04:40:02 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 14 04:40:02 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 14 04:40:02 ubuntu mysql-systemd-start[6948]: ERROR: Unable to start MySQL server:
+Apr 14 04:40:02 ubuntu mysql-systemd-start[6948]: 2021-04-14T11:40:02.239178Z 0 [ERROR] unknown variable 'default-character-set=UTF-8'
+Apr 14 04:40:02 ubuntu mysql-systemd-start[6948]: 2021-04-14T11:40:02.241607Z 0 [ERROR] Aborting
+Apr 14 04:40:02 ubuntu mysql-systemd-start[6948]: Please take a look at https://wiki.debian.org/Teams/MySQL/FAQ for tips on fixing common upgrade issues.
+Apr 14 04:40:02 ubuntu mysql-systemd-start[6948]: Once the problem is resolved, restart the service.
+Apr 14 04:40:02 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 14 04:40:02 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 14 04:40:02 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 14 04:40:02 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 14 04:40:02 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 5.
+Apr 14 04:40:02 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 14 04:40:02 ubuntu systemd[1]: mysql.service: Start request repeated too quickly.
+Apr 14 04:40:02 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 14 04:40:02 ubuntu systemd[1]: Failed to start MySQL Community Server.

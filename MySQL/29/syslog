@@ -1,0 +1,88 @@
+Apr 19 00:06:35 ubuntu rsyslogd:  [origin software="rsyslogd" swVersion="8.32.0" x-pid="646" x-info="http://www.rsyslog.com"] rsyslogd was HUPed
+Apr 19 00:06:40 ubuntu anacron[7340]: Job `cron.daily' terminated
+Apr 19 00:09:08 ubuntu systemd[1]: Stopping MySQL Community Server...
+Apr 19 00:09:10 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 19 00:09:10 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 19 00:09:10 ubuntu systemd[1]: Started MySQL Community Server.
+Apr 19 00:09:34 ubuntu dhclient[3027]: DHCPREQUEST of 192.168.182.128 on ens33 to 192.168.182.254 port 67 (xid=0x1ec8c12)
+Apr 19 00:09:34 ubuntu dhclient[3027]: DHCPACK of 192.168.182.128 from 192.168.182.254
+Apr 19 00:09:34 ubuntu NetworkManager[641]: <info>  [1618816174.3239] dhcp4 (ens33):   address 192.168.182.128
+Apr 19 00:09:34 ubuntu NetworkManager[641]: <info>  [1618816174.3250] dhcp4 (ens33):   plen 24 (255.255.255.0)
+Apr 19 00:09:34 ubuntu NetworkManager[641]: <info>  [1618816174.3250] dhcp4 (ens33):   gateway 192.168.182.2
+Apr 19 00:09:34 ubuntu NetworkManager[641]: <info>  [1618816174.3251] dhcp4 (ens33):   lease time 1800
+Apr 19 00:09:34 ubuntu NetworkManager[641]: <info>  [1618816174.3251] dhcp4 (ens33):   nameserver '192.168.182.2'
+Apr 19 00:09:34 ubuntu NetworkManager[641]: <info>  [1618816174.3251] dhcp4 (ens33):   domain name 'localdomain'
+Apr 19 00:09:34 ubuntu NetworkManager[641]: <info>  [1618816174.3251] dhcp4 (ens33):   wins '192.168.182.2'
+Apr 19 00:09:34 ubuntu NetworkManager[641]: <info>  [1618816174.3251] dhcp4 (ens33): state changed bound -> bound
+Apr 19 00:09:34 ubuntu dbus-daemon[633]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.11' (uid=0 pid=641 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Apr 19 00:09:34 ubuntu systemd[1]: Starting Network Manager Script Dispatcher Service...
+Apr 19 00:09:34 ubuntu dhclient[3027]: bound to 192.168.182.128 -- renewal in 885 seconds.
+Apr 19 00:09:34 ubuntu dbus-daemon[633]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Apr 19 00:09:34 ubuntu systemd[1]: Started Network Manager Script Dispatcher Service.
+Apr 19 00:09:34 ubuntu nm-dispatcher: req:1 'dhcp4-change' [ens33]: new request (1 scripts)
+Apr 19 00:09:34 ubuntu nm-dispatcher: req:1 'dhcp4-change' [ens33]: start running ordered scripts...
+Apr 19 00:11:33 ubuntu anacron[7340]: Job `cron.weekly' started
+Apr 19 00:11:33 ubuntu anacron[7730]: Updated timestamp for job `cron.weekly' to 2021-04-19
+Apr 19 00:11:33 ubuntu anacron[7340]: Job `cron.weekly' terminated
+Apr 19 00:11:33 ubuntu anacron[7340]: Normal exit (2 jobs run)
+Apr 19 00:11:45 ubuntu systemd[1]: Stopping MySQL Community Server...
+Apr 19 00:11:47 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 19 00:11:47 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 19 00:11:47 ubuntu systemd[1]: Started MySQL Community Server.
+Apr 19 00:14:59 ubuntu systemd[1]: Stopping MySQL Community Server...
+Apr 19 00:15:00 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 19 00:15:00 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 19 00:15:01 ubuntu systemd[1]: Started MySQL Community Server.
+Apr 19 00:15:36 ubuntu systemd[1]: Stopping MySQL Community Server...
+Apr 19 00:15:38 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 19 00:15:38 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 19 00:15:38 ubuntu systemd[1]: Started MySQL Community Server.
+Apr 19 00:16:34 ubuntu systemd[1]: Stopping MySQL Community Server...
+Apr 19 00:16:36 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 19 00:16:36 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 19 00:16:36 ubuntu systemd[1]: Started MySQL Community Server.
+Apr 19 00:16:41 ubuntu NetworkManager[641]: <info>  [1618816601.0438] manager: disable requested (sleeping: no  enabled: yes)
+Apr 19 00:16:41 ubuntu NetworkManager[641]: <info>  [1618816601.0443] manager: NetworkManager state is now ASLEEP
+Apr 19 00:16:41 ubuntu NetworkManager[641]: <info>  [1618816601.0478] audit: op="networking-control" arg="off" pid=7987 uid=0 result="success"
+Apr 19 00:16:41 ubuntu NetworkManager[641]: <info>  [1618816601.0480] device (ens33): state change: activated -> deactivating (reason 'sleeping', sys-iface-state: 'managed')
+Apr 19 00:16:41 ubuntu NetworkManager[641]: <info>  [1618816601.0671] device (ens33): state change: deactivating -> disconnected (reason 'sleeping', sys-iface-state: 'managed')
+Apr 19 00:16:41 ubuntu whoopsie[1179]: [00:16:41] offline
+Apr 19 00:16:41 ubuntu dbus-daemon[633]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.11' (uid=0 pid=641 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Apr 19 00:16:41 ubuntu systemd[1]: Starting Network Manager Script Dispatcher Service...
+Apr 19 00:16:41 ubuntu avahi-daemon[644]: Withdrawing address record for fe80::734d:d920:e31c:e18f on ens33.
+Apr 19 00:16:41 ubuntu avahi-daemon[644]: Leaving mDNS multicast group on interface ens33.IPv6 with address fe80::734d:d920:e31c:e18f.
+Apr 19 00:16:41 ubuntu avahi-daemon[644]: Interface ens33.IPv6 no longer relevant for mDNS.
+Apr 19 00:16:41 ubuntu kernel: [ 8295.328661] e1000: ens33 NIC Link is Down
+Apr 19 00:16:41 ubuntu kernel: [ 8295.347225] e1000 0000:02:01.0 ens33: Reset adapter
+Apr 19 00:19:47 ubuntu dbus-daemon[633]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Apr 19 00:19:47 ubuntu systemd[1]: Started Network Manager Script Dispatcher Service.
+Apr 19 00:19:47 ubuntu nm-dispatcher: req:1 'connectivity-change': new request (1 scripts)
+Apr 19 00:19:47 ubuntu nm-dispatcher: req:1 'connectivity-change': start running ordered scripts...
+Apr 19 00:19:47 ubuntu whoopsie[1179]: [00:19:47] Cannot reach: https://daisy.ubuntu.com
+Apr 19 00:19:47 ubuntu NetworkManager[641]: <info>  [1618816787.3105] dhcp4 (ens33): canceled DHCP transaction, DHCP client pid 3027
+Apr 19 00:19:47 ubuntu NetworkManager[641]: <info>  [1618816787.3111] dhcp4 (ens33): state changed bound -> done
+Apr 19 00:19:47 ubuntu whoopsie[1179]: [00:19:47] Cannot reach: https://daisy.ubuntu.com
+Apr 19 00:19:47 ubuntu avahi-daemon[644]: Withdrawing address record for 192.168.182.128 on ens33.
+Apr 19 00:19:47 ubuntu avahi-daemon[644]: Leaving mDNS multicast group on interface ens33.IPv4 with address 192.168.182.128.
+Apr 19 00:19:47 ubuntu deja-dup-monito[2820]: Source ID 89 was not found when attempting to remove it
+Apr 19 00:19:47 ubuntu NetworkManager[641]: <warn>  [1618816787.3649] device (ens33): queue-state[unmanaged, reason:sleeping, id:1341]: replace previously queued state change
+Apr 19 00:19:47 ubuntu avahi-daemon[644]: Interface ens33.IPv4 no longer relevant for mDNS.
+Apr 19 00:19:47 ubuntu NetworkManager[641]: <info>  [1618816787.3673] device (ens33): state change: disconnected -> unavailable (reason 'carrier-changed', sys-iface-state: 'managed')
+Apr 19 00:19:47 ubuntu nm-dispatcher: req:2 'down' [ens33]: new request (1 scripts)
+Apr 19 00:19:47 ubuntu gsd-sharing[1919]: Failed to StopUnit service: GDBus.Error:org.freedesktop.systemd1.NoSuchUnit: Unit gnome-user-share-webdav.service not loaded.
+Apr 19 00:19:47 ubuntu nm-dispatcher: req:2 'down' [ens33]: start running ordered scripts...
+Apr 19 00:19:47 ubuntu gsd-sharing[1919]: Failed to StopUnit service: GDBus.Error:org.freedesktop.systemd1.NoSuchUnit: Unit rygel.service not loaded.
+Apr 19 00:19:47 ubuntu gsd-sharing[1919]: Failed to StopUnit service: GDBus.Error:org.freedesktop.systemd1.NoSuchUnit: Unit gnome-remote-desktop.service not loaded.
+Apr 19 00:19:47 ubuntu NetworkManager[641]: <info>  [1618816787.6370] manager: enable requested (sleeping: no  enabled: no)
+Apr 19 00:19:47 ubuntu NetworkManager[641]: <info>  [1618816787.6372] manager: NetworkManager state is now DISCONNECTED
+Apr 19 00:19:47 ubuntu NetworkManager[641]: <info>  [1618816787.6379] audit: op="networking-control" arg="on" pid=8042 uid=0 result="success"
+Apr 19 00:19:49 ubuntu kernel: [ 8297.452795] e1000: ens33 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: None
+Apr 19 00:19:49 ubuntu NetworkManager[641]: <info>  [1618816789.2616] device (ens33): carrier: link connected
+Apr 19 00:19:49 ubuntu NetworkManager[641]: <info>  [1618816789.2631] device (ens33): state change: unavailable -> disconnected (reason 'carrier-changed', sys-iface-state: 'managed')
+Apr 19 00:19:49 ubuntu NetworkManager[641]: <info>  [1618816789.2790] device (ens33): state change: disconnected -> unmanaged (reason 'sleeping', sys-iface-state: 'managed')
+Apr 19 00:20:07 ubuntu CRON[8056]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Apr 19 00:20:43 ubuntu systemd[1]: Stopping MySQL Community Server...
+Apr 19 00:20:44 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 19 00:20:44 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 19 00:20:45 ubuntu systemd[1]: Started MySQL Community Server.
+Apr 19 00:22:12 ubuntu nautilus[2142]: Called "net usershare info" but it failed: Failed to execute child process “net” (No such file or directory)

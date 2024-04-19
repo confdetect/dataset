@@ -1,0 +1,1188 @@
+May 14 13:14:01 ubuntu rsyslogd:  message repeated 32 times: [cannot connect to 192.168.182.128:514: No route to host [v8.32.0 try http://www.rsyslog.com/e/2027 ]]
+May 14 13:14:01 ubuntu rsyslogd:  [origin software="rsyslogd" swVersion="8.32.0" x-pid="647" x-info="http://www.rsyslog.com"] rsyslogd was HUPed
+May 14 13:14:13 ubuntu anacron[7351]: Job `cron.daily' terminated
+May 14 13:14:13 ubuntu anacron[7351]: Normal exit (1 job run)
+May 14 13:14:24 ubuntu nautilus[4180]: Called "net usershare info" but it failed: Failed to execute child process “net” (No such file or directory)
+May 14 13:15:15 ubuntu rsyslogd: cannot connect to 192.168.182.128:514: No route to host [v8.32.0 try http://www.rsyslog.com/e/2027 ]
+May 14 13:17:02 ubuntu CRON[17826]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+May 14 13:18:29 ubuntu /usr/lib/gdm3/gdm-x-session[1681]: (EE) client bug: timer event2 debounce: offset negative (-30ms)
+May 14 13:21:52 ubuntu dhclient[7403]: DHCPREQUEST of 192.168.182.129 on ens33 to 192.168.182.254 port 67 (xid=0x18d5c918)
+May 14 13:21:52 ubuntu dhclient[7403]: DHCPACK of 192.168.182.129 from 192.168.182.254
+May 14 13:21:52 ubuntu NetworkManager[704]: <info>  [1620969712.4248] dhcp4 (ens33):   address 192.168.182.129
+May 14 13:21:52 ubuntu NetworkManager[704]: <info>  [1620969712.4254] dhcp4 (ens33):   plen 24 (255.255.255.0)
+May 14 13:21:52 ubuntu NetworkManager[704]: <info>  [1620969712.4254] dhcp4 (ens33):   gateway 192.168.182.2
+May 14 13:21:52 ubuntu NetworkManager[704]: <info>  [1620969712.4264] dhcp4 (ens33):   lease time 1800
+May 14 13:21:52 ubuntu NetworkManager[704]: <info>  [1620969712.4264] dhcp4 (ens33):   nameserver '192.168.182.2'
+May 14 13:21:52 ubuntu NetworkManager[704]: <info>  [1620969712.4264] dhcp4 (ens33):   domain name 'localdomain'
+May 14 13:21:52 ubuntu NetworkManager[704]: <info>  [1620969712.4264] dhcp4 (ens33):   wins '192.168.182.2'
+May 14 13:21:52 ubuntu NetworkManager[704]: <info>  [1620969712.4264] dhcp4 (ens33): state changed bound -> bound
+May 14 13:21:52 ubuntu dbus-daemon[689]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.14' (uid=0 pid=704 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+May 14 13:21:52 ubuntu dhclient[7403]: bound to 192.168.182.129 -- renewal in 867 seconds.
+May 14 13:21:52 ubuntu systemd[1]: Starting Network Manager Script Dispatcher Service...
+May 14 13:21:52 ubuntu dbus-daemon[689]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+May 14 13:21:52 ubuntu systemd[1]: Started Network Manager Script Dispatcher Service.
+May 14 13:21:52 ubuntu nm-dispatcher: req:1 'dhcp4-change' [ens33]: new request (1 scripts)
+May 14 13:21:52 ubuntu nm-dispatcher: req:1 'dhcp4-change' [ens33]: start running ordered scripts...
+May 14 13:26:31 ubuntu nautilus[4180]: Called "net usershare info" but it failed: Failed to execute child process “net” (No such file or directory)
+May 14 13:30:38 ubuntu nautilus[4180]: gtk_revealer_set_reveal_child: assertion 'GTK_IS_REVEALER (revealer)' failed
+May 14 13:31:40 ubuntu jetbrains-clion.desktop[2565]: 2021-05-14 13:31:40,117 [77199104]   WARN - ion.process.BaseProcessHandler - Stream closed
+May 14 13:31:40 ubuntu jetbrains-clion.desktop[2565]: java.io.IOException: Stream closed
+May 14 13:31:40 ubuntu jetbrains-clion.desktop[2565]: #011at com.intellij.execution.process.mediator.util.ChannelOutputStream.flush(ChannelOutputStream.kt:66)
+May 14 13:31:40 ubuntu jetbrains-clion.desktop[2565]: #011at java.base/java.io.BufferedOutputStream.flush(BufferedOutputStream.java:143)
+May 14 13:31:40 ubuntu jetbrains-clion.desktop[2565]: #011at java.base/java.io.FilterOutputStream.close(FilterOutputStream.java:182)
+May 14 13:31:40 ubuntu jetbrains-clion.desktop[2565]: #011at com.intellij.execution.process.BaseProcessHandler.closeStreams(BaseProcessHandler.java:97)
+May 14 13:31:40 ubuntu jetbrains-clion.desktop[2565]: #011at com.intellij.execution.process.KillableProcessHandler.notifyProcessTerminated(KillableProcessHandler.java:133)
+May 14 13:31:40 ubuntu jetbrains-clion.desktop[2565]: #011at com.intellij.execution.process.BaseProcessHandler.onOSProcessTerminated(BaseProcessHandler.java:61)
+May 14 13:31:40 ubuntu jetbrains-clion.desktop[2565]: #011at com.intellij.execution.process.OSProcessHandler.onOSProcessTerminated(OSProcessHandler.java:206)
+May 14 13:31:40 ubuntu jetbrains-clion.desktop[2565]: #011at com.intellij.execution.process.BaseOSProcessHandler$1.lambda$startNotified$0(BaseOSProcessHandler.java:97)
+May 14 13:31:40 ubuntu jetbrains-clion.desktop[2565]: #011at com.intellij.execution.process.ProcessWaitFor.lambda$new$0(ProcessWaitFor.java:55)
+May 14 13:31:40 ubuntu jetbrains-clion.desktop[2565]: #011at com.intellij.util.ConcurrencyUtil.runUnderThreadName(ConcurrencyUtil.java:208)
+May 14 13:31:40 ubuntu jetbrains-clion.desktop[2565]: #011at com.intellij.execution.process.ProcessWaitFor.lambda$new$1(ProcessWaitFor.java:33)
+May 14 13:31:40 ubuntu jetbrains-clion.desktop[2565]: #011at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+May 14 13:31:40 ubuntu jetbrains-clion.desktop[2565]: #011at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+May 14 13:31:40 ubuntu jetbrains-clion.desktop[2565]: #011at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+May 14 13:31:40 ubuntu jetbrains-clion.desktop[2565]: #011at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+May 14 13:31:40 ubuntu jetbrains-clion.desktop[2565]: #011at java.base/java.util.concurrent.Executors$PrivilegedThreadFactory$1$1.run(Executors.java:668)
+May 14 13:31:40 ubuntu jetbrains-clion.desktop[2565]: #011at java.base/java.util.concurrent.Executors$PrivilegedThreadFactory$1$1.run(Executors.java:665)
+May 14 13:31:40 ubuntu jetbrains-clion.desktop[2565]: #011at java.base/java.security.AccessController.doPrivileged(Native Method)
+May 14 13:31:40 ubuntu jetbrains-clion.desktop[2565]: #011at java.base/java.util.concurrent.Executors$PrivilegedThreadFactory$1.run(Executors.java:665)
+May 14 13:31:40 ubuntu jetbrains-clion.desktop[2565]: #011at java.base/java.lang.Thread.run(Thread.java:834)
+May 14 13:33:56 ubuntu nautilus[4180]: gtk_revealer_set_reveal_child: assertion 'GTK_IS_REVEALER (revealer)' failed
+May 14 13:35:23 ubuntu nautilus[4180]: gtk_revealer_set_reveal_child: assertion 'GTK_IS_REVEALER (revealer)' failed
+May 14 13:36:01 ubuntu jetbrains-clion.desktop[2565]: 2021-05-14 13:36:01,117 [77460104]   WARN - ion.process.BaseProcessHandler - Stream closed
+May 14 13:36:01 ubuntu jetbrains-clion.desktop[2565]: java.io.IOException: Stream closed
+May 14 13:36:01 ubuntu jetbrains-clion.desktop[2565]: #011at com.intellij.execution.process.mediator.util.ChannelOutputStream.flush(ChannelOutputStream.kt:66)
+May 14 13:36:01 ubuntu jetbrains-clion.desktop[2565]: #011at java.base/java.io.BufferedOutputStream.flush(BufferedOutputStream.java:143)
+May 14 13:36:01 ubuntu jetbrains-clion.desktop[2565]: #011at java.base/java.io.FilterOutputStream.close(FilterOutputStream.java:182)
+May 14 13:36:01 ubuntu jetbrains-clion.desktop[2565]: #011at com.intellij.execution.process.BaseProcessHandler.closeStreams(BaseProcessHandler.java:97)
+May 14 13:36:01 ubuntu jetbrains-clion.desktop[2565]: #011at com.intellij.execution.process.KillableProcessHandler.notifyProcessTerminated(KillableProcessHandler.java:133)
+May 14 13:36:01 ubuntu jetbrains-clion.desktop[2565]: #011at com.intellij.execution.process.BaseProcessHandler.onOSProcessTerminated(BaseProcessHandler.java:61)
+May 14 13:36:01 ubuntu jetbrains-clion.desktop[2565]: #011at com.intellij.execution.process.OSProcessHandler.onOSProcessTerminated(OSProcessHandler.java:206)
+May 14 13:36:01 ubuntu jetbrains-clion.desktop[2565]: #011at com.intellij.execution.process.BaseOSProcessHandler$1.lambda$startNotified$0(BaseOSProcessHandler.java:97)
+May 14 13:36:01 ubuntu jetbrains-clion.desktop[2565]: #011at com.intellij.execution.process.ProcessWaitFor.lambda$new$0(ProcessWaitFor.java:55)
+May 14 13:36:01 ubuntu jetbrains-clion.desktop[2565]: #011at com.intellij.util.ConcurrencyUtil.runUnderThreadName(ConcurrencyUtil.java:208)
+May 14 13:36:01 ubuntu jetbrains-clion.desktop[2565]: #011at com.intellij.execution.process.ProcessWaitFor.lambda$new$1(ProcessWaitFor.java:33)
+May 14 13:36:01 ubuntu jetbrains-clion.desktop[2565]: #011at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+May 14 13:36:01 ubuntu jetbrains-clion.desktop[2565]: #011at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+May 14 13:36:01 ubuntu jetbrains-clion.desktop[2565]: #011at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+May 14 13:36:01 ubuntu jetbrains-clion.desktop[2565]: #011at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+May 14 13:36:01 ubuntu jetbrains-clion.desktop[2565]: #011at java.base/java.util.concurrent.Executors$PrivilegedThreadFactory$1$1.run(Executors.java:668)
+May 14 13:36:01 ubuntu jetbrains-clion.desktop[2565]: #011at java.base/java.util.concurrent.Executors$PrivilegedThreadFactory$1$1.run(Executors.java:665)
+May 14 13:36:01 ubuntu jetbrains-clion.desktop[2565]: #011at java.base/java.security.AccessController.doPrivileged(Native Method)
+May 14 13:36:01 ubuntu jetbrains-clion.desktop[2565]: #011at java.base/java.util.concurrent.Executors$PrivilegedThreadFactory$1.run(Executors.java:665)
+May 14 13:36:01 ubuntu jetbrains-clion.desktop[2565]: #011at java.base/java.lang.Thread.run(Thread.java:834)
+May 14 13:36:20 ubuntu dhclient[7403]: DHCPREQUEST of 192.168.182.129 on ens33 to 192.168.182.254 port 67 (xid=0x18d5c918)
+May 14 13:36:20 ubuntu dhclient[7403]: DHCPACK of 192.168.182.129 from 192.168.182.254
+May 14 13:36:20 ubuntu NetworkManager[704]: <info>  [1620970580.0410] dhcp4 (ens33):   address 192.168.182.129
+May 14 13:36:20 ubuntu NetworkManager[704]: <info>  [1620970580.0412] dhcp4 (ens33):   plen 24 (255.255.255.0)
+May 14 13:36:20 ubuntu NetworkManager[704]: <info>  [1620970580.0413] dhcp4 (ens33):   gateway 192.168.182.2
+May 14 13:36:20 ubuntu dbus-daemon[689]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.14' (uid=0 pid=704 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+May 14 13:36:20 ubuntu NetworkManager[704]: <info>  [1620970580.0413] dhcp4 (ens33):   lease time 1800
+May 14 13:36:20 ubuntu NetworkManager[704]: <info>  [1620970580.0413] dhcp4 (ens33):   nameserver '192.168.182.2'
+May 14 13:36:20 ubuntu NetworkManager[704]: <info>  [1620970580.0413] dhcp4 (ens33):   domain name 'localdomain'
+May 14 13:36:20 ubuntu NetworkManager[704]: <info>  [1620970580.0414] dhcp4 (ens33):   wins '192.168.182.2'
+May 14 13:36:20 ubuntu NetworkManager[704]: <info>  [1620970580.0414] dhcp4 (ens33): state changed bound -> bound
+May 14 13:36:20 ubuntu systemd[1]: Starting Network Manager Script Dispatcher Service...
+May 14 13:36:20 ubuntu dhclient[7403]: bound to 192.168.182.129 -- renewal in 880 seconds.
+May 14 13:36:20 ubuntu dbus-daemon[689]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+May 14 13:36:20 ubuntu systemd[1]: Started Network Manager Script Dispatcher Service.
+May 14 13:36:20 ubuntu nm-dispatcher: req:1 'dhcp4-change' [ens33]: new request (1 scripts)
+May 14 13:36:20 ubuntu nm-dispatcher: req:1 'dhcp4-change' [ens33]: start running ordered scripts...
+May 14 13:36:37 ubuntu nautilus[4180]: gtk_revealer_set_reveal_child: assertion 'GTK_IS_REVEALER (revealer)' failed
+May 14 13:37:50 ubuntu nautilus[4180]: gtk_revealer_set_reveal_child: assertion 'GTK_IS_REVEALER (revealer)' failed
+May 14 13:37:52 ubuntu nautilus[4180]: Called "net usershare info" but it failed: Failed to execute child process “net” (No such file or directory)
+May 14 13:38:27 ubuntu org.gnome.Shell.desktop[1805]: polkit-agent-helper-1: pam_authenticate failed: Authentication failure
+May 14 13:39:05 ubuntu nautilus[4180]: gtk_revealer_set_reveal_child: assertion 'GTK_IS_REVEALER (revealer)' failed
+May 14 13:51:00 ubuntu dhclient[7403]: DHCPREQUEST of 192.168.182.129 on ens33 to 192.168.182.254 port 67 (xid=0x18d5c918)
+May 14 13:51:00 ubuntu dhclient[7403]: DHCPACK of 192.168.182.129 from 192.168.182.254
+May 14 13:51:00 ubuntu NetworkManager[704]: <info>  [1620971460.2208] dhcp4 (ens33):   address 192.168.182.129
+May 14 13:51:00 ubuntu NetworkManager[704]: <info>  [1620971460.2209] dhcp4 (ens33):   plen 24 (255.255.255.0)
+May 14 13:51:00 ubuntu dbus-daemon[689]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.14' (uid=0 pid=704 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+May 14 13:51:00 ubuntu NetworkManager[704]: <info>  [1620971460.2209] dhcp4 (ens33):   gateway 192.168.182.2
+May 14 13:51:00 ubuntu dhclient[7403]: bound to 192.168.182.129 -- renewal in 889 seconds.
+May 14 13:51:00 ubuntu NetworkManager[704]: <info>  [1620971460.2209] dhcp4 (ens33):   lease time 1800
+May 14 13:51:00 ubuntu NetworkManager[704]: <info>  [1620971460.2210] dhcp4 (ens33):   nameserver '192.168.182.2'
+May 14 13:51:00 ubuntu NetworkManager[704]: <info>  [1620971460.2210] dhcp4 (ens33):   domain name 'localdomain'
+May 14 13:51:00 ubuntu NetworkManager[704]: <info>  [1620971460.2210] dhcp4 (ens33):   wins '192.168.182.2'
+May 14 13:51:00 ubuntu NetworkManager[704]: <info>  [1620971460.2210] dhcp4 (ens33): state changed bound -> bound
+May 14 13:51:00 ubuntu systemd[1]: Starting Network Manager Script Dispatcher Service...
+May 14 13:51:00 ubuntu dbus-daemon[689]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+May 14 13:51:00 ubuntu systemd[1]: Started Network Manager Script Dispatcher Service.
+May 14 13:51:00 ubuntu nm-dispatcher: req:1 'dhcp4-change' [ens33]: new request (1 scripts)
+May 14 13:51:00 ubuntu nm-dispatcher: req:1 'dhcp4-change' [ens33]: start running ordered scripts...
+May 14 14:01:01 ubuntu systemd[1]: Started Run anacron jobs.
+May 14 14:01:01 ubuntu anacron[19239]: Anacron 2.3 started on 2021-05-14
+May 14 14:01:01 ubuntu anacron[19239]: Normal exit (0 jobs run)
+May 14 14:05:47 ubuntu gnome-shell[1805]: Object .Gjs_AppIndicatorIconActor__1 (0x560fa2b14a50), has been already finalized. Impossible to set any property to it.
+May 14 14:05:47 ubuntu org.gnome.Shell.desktop[1805]: == Stack trace for context 0x560fa293e320 ==
+May 14 14:05:47 ubuntu org.gnome.Shell.desktop[1805]: #0 0x7fff3d8e5be0 b   resource:///org/gnome/gjs/modules/_legacy.js:83 (0x7fd4a00b5de0 @ 87)
+May 14 14:05:47 ubuntu org.gnome.Shell.desktop[1805]: #1 0x560fa2d0b960 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/indicatorStatusIcon.js:93 (0x7fd4511c66f8 @ 58)
+May 14 14:05:47 ubuntu org.gnome.Shell.desktop[1805]: #2 0x7fff3d8e6f40 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7fd4a00b5de0 @ 71)
+May 14 14:05:47 ubuntu org.gnome.Shell.desktop[1805]: #3 0x7fff3d8e7000 b   self-hosted:916 (0x7fd4a00f12b8 @ 367)
+May 14 14:05:47 ubuntu org.gnome.Shell.desktop[1805]: #4 0x7fff3d8e70f0 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7fd4a00d2230 @ 386)
+May 14 14:05:47 ubuntu org.gnome.Shell.desktop[1805]: #5 0x560fa2d0b8d8 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/appIndicator.js:190 (0x7fd4511b63c8 @ 22)
+May 14 14:05:47 ubuntu org.gnome.Shell.desktop[1805]: #6 0x7fff3d8e8450 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7fd4a00b5de0 @ 71)
+May 14 14:05:47 ubuntu org.gnome.Shell.desktop[1805]: #7 0x560fa2d0b830 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/statusNotifierWatcher.js:219 (0x7fd4511b29a0 @ 225)
+May 14 14:05:47 ubuntu org.gnome.Shell.desktop[1805]: #8 0x7fff3d8e97b0 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7fd4a00b5de0 @ 71)
+May 14 14:05:47 ubuntu org.gnome.Shell.desktop[1805]: #9 0x560fa2d0b7b8 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/extension.js:61 (0x7fd45118bc48 @ 37)
+May 14 14:05:47 ubuntu org.gnome.Shell.desktop[1805]: #10 0x560fa2d0b6f8 i   resource:///org/gnome/shell/ui/extensionSystem.js:83 (0x7fd4845592b8 @ 441)
+May 14 14:05:47 ubuntu org.gnome.Shell.desktop[1805]: #11 0x560fa2d0b678 i   resource:///org/gnome/shell/ui/extensionSystem.js:354 (0x7fd484559d58 @ 13)
+May 14 14:05:47 ubuntu org.gnome.Shell.desktop[1805]: #12 0x7fff3d8ea520 b   self-hosted:251 (0x7fd4a00c4ab0 @ 223)
+May 14 14:05:47 ubuntu org.gnome.Shell.desktop[1805]: #13 0x560fa2d0b5f8 i   resource:///org/gnome/shell/ui/extensionSystem.js:353 (0x7fd484559cd0 @ 64)
+May 14 14:05:47 ubuntu org.gnome.Shell.desktop[1805]: #14 0x560fa2d0b578 i   resource:///org/gnome/shell/ui/extensionSystem.js:371 (0x7fd484559de0 @ 87)
+May 14 14:05:47 ubuntu org.gnome.Shell.desktop[1805]: #15 0x7fff3d8eba20 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7fd4a00d2230 @ 386)
+May 14 14:05:47 ubuntu org.gnome.Shell.desktop[1805]: #16 0x7fff3d8ec230 b   resource:///org/gnome/shell/ui/sessionMode.js:205 (0x7fd4841704d8 @ 254)
+May 14 14:05:47 ubuntu org.gnome.Shell.desktop[1805]: #17 0x7fff3d8ed620 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7fd4a00b5de0 @ 71)
+May 14 14:05:47 ubuntu org.gnome.Shell.desktop[1805]: #18 0x560fa2d0b438 i   resource:///org/gnome/shell/ui/sessionMode.js:167 (0x7fd4841702b8 @ 40)
+May 14 14:05:47 ubuntu org.gnome.Shell.desktop[1805]: #19 0x7fff3d8ee980 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7fd4a00b5de0 @ 71)
+May 14 14:05:47 ubuntu org.gnome.Shell.desktop[1805]: #20 0x560fa2d0b390 i   resource:///org/gnome/shell/ui/screenShield.js:1282 (0x7fd484153a28 @ 188)
+May 14 14:05:47 ubuntu org.gnome.Shell.desktop[1805]: #21 0x7fff3d8efce0 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7fd4a00b5de0 @ 71)
+May 14 14:05:47 ubuntu org.gnome.Shell.desktop[1805]: #22 0x560fa2d0b2e0 i   resource:///org/gnome/shell/ui/screenShield.js:1331 (0x7fd484153ab0 @ 391)
+May 14 14:05:47 ubuntu org.gnome.Shell.desktop[1805]: #23 0x7fff3d8f1040 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7fd4a00b5de0 @ 71)
+May 14 14:05:47 ubuntu org.gnome.Shell.desktop[1805]: #24 0x560fa2d0b260 i   resource:///org/gnome/shell/ui/screenShield.js:854 (0x7fd4841519a0 @ 25)
+May 14 14:05:47 ubuntu gnome-shell[1805]: Object .Gjs_AppIndicatorIconActor__1 (0x560fa6f034d0), has been already finalized. Impossible to set any property to it.
+May 14 14:05:47 ubuntu org.gnome.Shell.desktop[1805]: == Stack trace for context 0x560fa293e320 ==
+May 14 14:05:47 ubuntu org.gnome.Shell.desktop[1805]: #0 0x7fff3d8e5be0 b   resource:///org/gnome/gjs/modules/_legacy.js:83 (0x7fd4a00b5de0 @ 87)
+May 14 14:05:47 ubuntu org.gnome.Shell.desktop[1805]: #1 0x560fa2d0b960 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/indicatorStatusIcon.js:93 (0x7fd4511c66f8 @ 58)
+May 14 14:05:47 ubuntu org.gnome.Shell.desktop[1805]: #2 0x7fff3d8e6f40 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7fd4a00b5de0 @ 71)
+May 14 14:05:47 ubuntu org.gnome.Shell.desktop[1805]: #3 0x7fff3d8e7000 b   self-hosted:916 (0x7fd4a00f12b8 @ 367)
+May 14 14:05:47 ubuntu org.gnome.Shell.desktop[1805]: #4 0x7fff3d8e70f0 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7fd4a00d2230 @ 386)
+May 14 14:05:47 ubuntu org.gnome.Shell.desktop[1805]: #5 0x560fa2d0b8d8 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/appIndicator.js:190 (0x7fd4511b63c8 @ 22)
+May 14 14:05:47 ubuntu org.gnome.Shell.desktop[1805]: #6 0x7fff3d8e8450 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7fd4a00b5de0 @ 71)
+May 14 14:05:47 ubuntu org.gnome.Shell.desktop[1805]: #7 0x560fa2d0b830 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/statusNotifierWatcher.js:219 (0x7fd4511b29a0 @ 225)
+May 14 14:05:47 ubuntu org.gnome.Shell.desktop[1805]: #8 0x7fff3d8e97b0 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7fd4a00b5de0 @ 71)
+May 14 14:05:47 ubuntu org.gnome.Shell.desktop[1805]: #9 0x560fa2d0b7b8 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/extension.js:61 (0x7fd45118bc48 @ 37)
+May 14 14:05:47 ubuntu org.gnome.Shell.desktop[1805]: #10 0x560fa2d0b6f8 i   resource:///org/gnome/shell/ui/extensionSystem.js:83 (0x7fd4845592b8 @ 441)
+May 14 14:05:47 ubuntu org.gnome.Shell.desktop[1805]: #11 0x560fa2d0b678 i   resource:///org/gnome/shell/ui/extensionSystem.js:354 (0x7fd484559d58 @ 13)
+May 14 14:05:47 ubuntu org.gnome.Shell.desktop[1805]: #12 0x7fff3d8ea520 b   self-hosted:251 (0x7fd4a00c4ab0 @ 223)
+May 14 14:05:47 ubuntu org.gnome.Shell.desktop[1805]: #13 0x560fa2d0b5f8 i   resource:///org/gnome/shell/ui/extensionSystem.js:353 (0x7fd484559cd0 @ 64)
+May 14 14:05:47 ubuntu org.gnome.Shell.desktop[1805]: #14 0x560fa2d0b578 i   resource:///org/gnome/shell/ui/extensionSystem.js:371 (0x7fd484559de0 @ 87)
+May 14 14:05:47 ubuntu org.gnome.Shell.desktop[1805]: #15 0x7fff3d8eba20 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7fd4a00d2230 @ 386)
+May 14 14:05:47 ubuntu org.gnome.Shell.desktop[1805]: #16 0x7fff3d8ec230 b   resource:///org/gnome/shell/ui/sessionMode.js:205 (0x7fd4841704d8 @ 254)
+May 14 14:05:47 ubuntu org.gnome.Shell.desktop[1805]: #17 0x7fff3d8ed620 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7fd4a00b5de0 @ 71)
+May 14 14:05:47 ubuntu org.gnome.Shell.desktop[1805]: #18 0x560fa2d0b438 i   resource:///org/gnome/shell/ui/sessionMode.js:167 (0x7fd4841702b8 @ 40)
+May 14 14:05:47 ubuntu org.gnome.Shell.desktop[1805]: #19 0x7fff3d8ee980 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7fd4a00b5de0 @ 71)
+May 14 14:05:47 ubuntu org.gnome.Shell.desktop[1805]: #20 0x560fa2d0b390 i   resource:///org/gnome/shell/ui/screenShield.js:1282 (0x7fd484153a28 @ 188)
+May 14 14:05:47 ubuntu org.gnome.Shell.desktop[1805]: #21 0x7fff3d8efce0 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7fd4a00b5de0 @ 71)
+May 14 14:05:47 ubuntu org.gnome.Shell.desktop[1805]: #22 0x560fa2d0b2e0 i   resource:///org/gnome/shell/ui/screenShield.js:1331 (0x7fd484153ab0 @ 391)
+May 14 14:05:47 ubuntu org.gnome.Shell.desktop[1805]: #23 0x7fff3d8f1040 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7fd4a00b5de0 @ 71)
+May 14 14:05:47 ubuntu org.gnome.Shell.desktop[1805]: #24 0x560fa2d0b260 i   resource:///org/gnome/shell/ui/screenShield.js:854 (0x7fd4841519a0 @ 25)
+May 14 14:05:47 ubuntu gnome-shell[1805]: Object .Gjs_AppIndicatorIconActor__1 (0x560fa6e70920), has been already finalized. Impossible to set any property to it.
+May 14 14:05:47 ubuntu org.gnome.Shell.desktop[1805]: == Stack trace for context 0x560fa293e320 ==
+May 14 14:05:47 ubuntu org.gnome.Shell.desktop[1805]: #0 0x7fff3d8e6ae0 I   resource:///org/gnome/gjs/modules/_legacy.js:83 (0x7fd4a00b5de0 @ 87)
+May 14 14:05:47 ubuntu org.gnome.Shell.desktop[1805]: #1 0x560fa2d0b960 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/indicatorStatusIcon.js:93 (0x7fd4511c66f8 @ 58)
+May 14 14:05:47 ubuntu org.gnome.Shell.desktop[1805]: #2 0x7fff3d8e76c0 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7fd4a00b5de0 @ 71)
+May 14 14:05:47 ubuntu org.gnome.Shell.desktop[1805]: #3 0x7fff3d8e7780 b   self-hosted:916 (0x7fd4a00f12b8 @ 367)
+May 14 14:05:47 ubuntu org.gnome.Shell.desktop[1805]: #4 0x7fff3d8e7870 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7fd4a00d2230 @ 386)
+May 14 14:05:47 ubuntu org.gnome.Shell.desktop[1805]: #5 0x560fa2d0b8d8 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/appIndicator.js:190 (0x7fd4511b63c8 @ 22)
+May 14 14:05:47 ubuntu org.gnome.Shell.desktop[1805]: #6 0x7fff3d8e84c0 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7fd4a00b5de0 @ 71)
+May 14 14:05:47 ubuntu org.gnome.Shell.desktop[1805]: #7 0x560fa2d0b830 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/statusNotifierWatcher.js:219 (0x7fd4511b29a0 @ 225)
+May 14 14:05:47 ubuntu org.gnome.Shell.desktop[1805]: #8 0x7fff3d8e97b0 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7fd4a00b5de0 @ 71)
+May 14 14:05:47 ubuntu org.gnome.Shell.desktop[1805]: #9 0x560fa2d0b7b8 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/extension.js:61 (0x7fd45118bc48 @ 37)
+May 14 14:05:47 ubuntu org.gnome.Shell.desktop[1805]: #10 0x560fa2d0b6f8 i   resource:///org/gnome/shell/ui/extensionSystem.js:83 (0x7fd4845592b8 @ 441)
+May 14 14:05:47 ubuntu org.gnome.Shell.desktop[1805]: #11 0x560fa2d0b678 i   resource:///org/gnome/shell/ui/extensionSystem.js:354 (0x7fd484559d58 @ 13)
+May 14 14:05:47 ubuntu org.gnome.Shell.desktop[1805]: #12 0x7fff3d8ea520 b   self-hosted:251 (0x7fd4a00c4ab0 @ 223)
+May 14 14:05:47 ubuntu org.gnome.Shell.desktop[1805]: #13 0x560fa2d0b5f8 i   resource:///org/gnome/shell/ui/extensionSystem.js:353 (0x7fd484559cd0 @ 64)
+May 14 14:05:47 ubuntu org.gnome.Shell.desktop[1805]: #14 0x560fa2d0b578 i   resource:///org/gnome/shell/ui/extensionSystem.js:371 (0x7fd484559de0 @ 87)
+May 14 14:05:47 ubuntu org.gnome.Shell.desktop[1805]: #15 0x7fff3d8eba20 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7fd4a00d2230 @ 386)
+May 14 14:05:47 ubuntu org.gnome.Shell.desktop[1805]: #16 0x7fff3d8ec230 b   resource:///org/gnome/shell/ui/sessionMode.js:205 (0x7fd4841704d8 @ 254)
+May 14 14:05:47 ubuntu org.gnome.Shell.desktop[1805]: #17 0x7fff3d8ed620 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7fd4a00b5de0 @ 71)
+May 14 14:05:47 ubuntu org.gnome.Shell.desktop[1805]: #18 0x560fa2d0b438 i   resource:///org/gnome/shell/ui/sessionMode.js:167 (0x7fd4841702b8 @ 40)
+May 14 14:05:47 ubuntu org.gnome.Shell.desktop[1805]: #19 0x7fff3d8ee980 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7fd4a00b5de0 @ 71)
+May 14 14:05:47 ubuntu org.gnome.Shell.desktop[1805]: #20 0x560fa2d0b390 i   resource:///org/gnome/shell/ui/screenShield.js:1282 (0x7fd484153a28 @ 188)
+May 14 14:05:47 ubuntu org.gnome.Shell.desktop[1805]: #21 0x7fff3d8efce0 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7fd4a00b5de0 @ 71)
+May 14 14:05:47 ubuntu org.gnome.Shell.desktop[1805]: #22 0x560fa2d0b2e0 i   resource:///org/gnome/shell/ui/screenShield.js:1331 (0x7fd484153ab0 @ 391)
+May 14 14:05:47 ubuntu org.gnome.Shell.desktop[1805]: #23 0x7fff3d8f1040 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7fd4a00b5de0 @ 71)
+May 14 14:05:47 ubuntu org.gnome.Shell.desktop[1805]: #24 0x560fa2d0b260 i   resource:///org/gnome/shell/ui/screenShield.js:854 (0x7fd4841519a0 @ 25)
+May 14 14:05:47 ubuntu gnome-software[2449]: no app for changed ubuntu-appindicators@ubuntu.com
+May 14 14:05:47 ubuntu gnome-software[2449]: no app for changed ubuntu-dock@ubuntu.com
+May 14 14:05:49 ubuntu dhclient[7403]: DHCPREQUEST of 192.168.182.129 on ens33 to 192.168.182.254 port 67 (xid=0x18d5c918)
+May 14 14:05:49 ubuntu dhclient[7403]: DHCPACK of 192.168.182.129 from 192.168.182.254
+May 14 14:05:49 ubuntu NetworkManager[704]: <info>  [1620972349.6012] dhcp4 (ens33):   address 192.168.182.129
+May 14 14:05:49 ubuntu NetworkManager[704]: <info>  [1620972349.6012] dhcp4 (ens33):   plen 24 (255.255.255.0)
+May 14 14:05:49 ubuntu NetworkManager[704]: <info>  [1620972349.6015] dhcp4 (ens33):   gateway 192.168.182.2
+May 14 14:05:49 ubuntu NetworkManager[704]: <info>  [1620972349.6016] dhcp4 (ens33):   lease time 1800
+May 14 14:05:49 ubuntu NetworkManager[704]: <info>  [1620972349.6016] dhcp4 (ens33):   nameserver '192.168.182.2'
+May 14 14:05:49 ubuntu NetworkManager[704]: <info>  [1620972349.6016] dhcp4 (ens33):   domain name 'localdomain'
+May 14 14:05:49 ubuntu dbus-daemon[689]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.14' (uid=0 pid=704 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+May 14 14:05:49 ubuntu NetworkManager[704]: <info>  [1620972349.6016] dhcp4 (ens33):   wins '192.168.182.2'
+May 14 14:05:49 ubuntu NetworkManager[704]: <info>  [1620972349.6016] dhcp4 (ens33): state changed bound -> bound
+May 14 14:05:49 ubuntu systemd[1]: Starting Network Manager Script Dispatcher Service...
+May 14 14:05:49 ubuntu dhclient[7403]: bound to 192.168.182.129 -- renewal in 778 seconds.
+May 14 14:05:49 ubuntu dbus-daemon[689]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+May 14 14:05:49 ubuntu systemd[1]: Started Network Manager Script Dispatcher Service.
+May 14 14:05:49 ubuntu nm-dispatcher: req:1 'dhcp4-change' [ens33]: new request (1 scripts)
+May 14 14:05:49 ubuntu nm-dispatcher: req:1 'dhcp4-change' [ens33]: start running ordered scripts...
+May 14 14:05:55 ubuntu gnome-software[2449]: no app for changed ubuntu-dock@ubuntu.com
+May 14 14:05:55 ubuntu gnome-software[2449]: no app for changed ubuntu-appindicators@ubuntu.com
+May 14 14:05:55 ubuntu gvfsd-metadata[3286]: g_udev_device_has_property: assertion 'G_UDEV_IS_DEVICE (device)' failed
+May 14 14:05:55 ubuntu gvfsd-metadata[3286]: g_udev_device_has_property: assertion 'G_UDEV_IS_DEVICE (device)' failed
+May 14 14:05:55 ubuntu gnome-shell[1805]: [AppIndicatorSupport-DEBUG] Registering StatusNotifierItem :1.2/StatusNotifierItem
+May 14 14:05:55 ubuntu gnome-shell[1805]: [AppIndicatorSupport-DEBUG] Registering StatusNotifierItem :1.78/org/ayatana/NotificationItem/software_update_available
+May 14 14:05:55 ubuntu gnome-shell[1805]: [AppIndicatorSupport-DEBUG] Registering StatusNotifierItem :1.78/org/ayatana/NotificationItem/livepatch
+May 14 14:05:55 ubuntu gnome-shell[1805]: JS ERROR: GLib.MarkupError: 1:424: Only direction 'out' is allowed for <arg> elements embedded in <signal>#012_newNodeInfo@resource:///org/gnome/gjs/modules/overrides/Gio.js:205:16#012_wrapFunction/klass[method]@resource:///org/gnome/gjs/modules/overrides/Gio.js:239:16#012introspectBusObject/<@/usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/util.js:106:33
+May 14 14:07:41 ubuntu kernel: [10987.683262] hrtimer: interrupt took 11962356 ns
+May 14 14:11:32 ubuntu nautilus[4180]: gtk_revealer_set_reveal_child: assertion 'GTK_IS_REVEALER (revealer)' failed
+May 14 14:13:44 ubuntu nautilus[4180]: gtk_revealer_set_reveal_child: assertion 'GTK_IS_REVEALER (revealer)' failed
+May 14 14:16:42 ubuntu jetbrains-clion.desktop[2565]: 2021-05-14 14:16:42,535 [79901522]   WARN - com.intellij.ide.IdeEventQueue - Too many mouse clicks (13)!!!
+May 14 14:16:42 ubuntu jetbrains-clion.desktop[2565]: 2021-05-14 14:16:42,541 [79901528]   WARN - com.intellij.ide.IdeEventQueue - Too many mouse clicks (13)!!!
+May 14 14:16:42 ubuntu jetbrains-clion.desktop[2565]: 2021-05-14 14:16:42,548 [79901535]   WARN - com.intellij.ide.IdeEventQueue - Too many mouse clicks (13)!!!
+May 14 14:16:42 ubuntu jetbrains-clion.desktop[2565]: 2021-05-14 14:16:42,559 [79901546]   WARN - com.intellij.ide.IdeEventQueue - Too many mouse clicks (13)!!!
+May 14 14:17:01 ubuntu CRON[19530]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+May 14 14:18:47 ubuntu dhclient[7403]: DHCPREQUEST of 192.168.182.129 on ens33 to 192.168.182.254 port 67 (xid=0x18d5c918)
+May 14 14:18:47 ubuntu dhclient[7403]: DHCPACK of 192.168.182.129 from 192.168.182.254
+May 14 14:18:47 ubuntu NetworkManager[704]: <info>  [1620973127.6517] dhcp4 (ens33):   address 192.168.182.129
+May 14 14:18:47 ubuntu NetworkManager[704]: <info>  [1620973127.6518] dhcp4 (ens33):   plen 24 (255.255.255.0)
+May 14 14:18:47 ubuntu dbus-daemon[689]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.14' (uid=0 pid=704 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+May 14 14:18:47 ubuntu NetworkManager[704]: <info>  [1620973127.6518] dhcp4 (ens33):   gateway 192.168.182.2
+May 14 14:18:47 ubuntu NetworkManager[704]: <info>  [1620973127.6518] dhcp4 (ens33):   lease time 1800
+May 14 14:18:47 ubuntu dhclient[7403]: bound to 192.168.182.129 -- renewal in 855 seconds.
+May 14 14:18:47 ubuntu NetworkManager[704]: <info>  [1620973127.6518] dhcp4 (ens33):   nameserver '192.168.182.2'
+May 14 14:18:47 ubuntu NetworkManager[704]: <info>  [1620973127.6518] dhcp4 (ens33):   domain name 'localdomain'
+May 14 14:18:47 ubuntu NetworkManager[704]: <info>  [1620973127.6518] dhcp4 (ens33):   wins '192.168.182.2'
+May 14 14:18:47 ubuntu NetworkManager[704]: <info>  [1620973127.6518] dhcp4 (ens33): state changed bound -> bound
+May 14 14:18:47 ubuntu systemd[1]: Starting Network Manager Script Dispatcher Service...
+May 14 14:18:47 ubuntu dbus-daemon[689]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+May 14 14:18:47 ubuntu systemd[1]: Started Network Manager Script Dispatcher Service.
+May 14 14:18:47 ubuntu nm-dispatcher: req:1 'dhcp4-change' [ens33]: new request (1 scripts)
+May 14 14:18:47 ubuntu nm-dispatcher: req:1 'dhcp4-change' [ens33]: start running ordered scripts...
+May 14 14:25:09 ubuntu NetworkManager[704]: <info>  [1620973509.6400] connectivity: (ens33) timed out
+May 14 14:25:09 ubuntu NetworkManager[704]: <info>  [1620973509.6437] manager: NetworkManager state is now CONNECTED_SITE
+May 14 14:25:09 ubuntu dbus-daemon[689]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.14' (uid=0 pid=704 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+May 14 14:25:09 ubuntu whoopsie[1176]: [14:25:09] offline
+May 14 14:25:09 ubuntu systemd[1]: Starting Network Manager Script Dispatcher Service...
+May 14 14:25:09 ubuntu dbus-daemon[689]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+May 14 14:25:09 ubuntu systemd[1]: Started Network Manager Script Dispatcher Service.
+May 14 14:25:09 ubuntu nm-dispatcher: req:1 'connectivity-change': new request (1 scripts)
+May 14 14:25:09 ubuntu nm-dispatcher: req:1 'connectivity-change': start running ordered scripts...
+May 14 14:30:04 ubuntu NetworkManager[704]: <info>  [1620973804.8657] manager: NetworkManager state is now CONNECTED_GLOBAL
+May 14 14:30:04 ubuntu dbus-daemon[689]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.14' (uid=0 pid=704 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+May 14 14:30:04 ubuntu whoopsie[1176]: [14:30:04] The default IPv4 route is: /org/freedesktop/NetworkManager/ActiveConnection/5
+May 14 14:30:04 ubuntu systemd[1]: Starting Network Manager Script Dispatcher Service...
+May 14 14:30:04 ubuntu whoopsie[1176]: [14:30:04] Not a paid data plan: /org/freedesktop/NetworkManager/ActiveConnection/5
+May 14 14:30:04 ubuntu whoopsie[1176]: [14:30:04] Found usable connection: /org/freedesktop/NetworkManager/ActiveConnection/5
+May 14 14:30:04 ubuntu dbus-daemon[689]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+May 14 14:30:04 ubuntu systemd[1]: Started Network Manager Script Dispatcher Service.
+May 14 14:30:04 ubuntu nm-dispatcher: req:1 'connectivity-change': new request (1 scripts)
+May 14 14:30:04 ubuntu nm-dispatcher: req:1 'connectivity-change': start running ordered scripts...
+May 14 14:30:06 ubuntu whoopsie[1176]: [14:30:06] online
+May 14 14:33:02 ubuntu dhclient[7403]: DHCPREQUEST of 192.168.182.129 on ens33 to 192.168.182.254 port 67 (xid=0x18d5c918)
+May 14 14:33:02 ubuntu dhclient[7403]: DHCPACK of 192.168.182.129 from 192.168.182.254
+May 14 14:33:02 ubuntu NetworkManager[704]: <info>  [1620973982.8788] dhcp4 (ens33):   address 192.168.182.129
+May 14 14:33:02 ubuntu NetworkManager[704]: <info>  [1620973982.8789] dhcp4 (ens33):   plen 24 (255.255.255.0)
+May 14 14:33:02 ubuntu NetworkManager[704]: <info>  [1620973982.8789] dhcp4 (ens33):   gateway 192.168.182.2
+May 14 14:33:02 ubuntu NetworkManager[704]: <info>  [1620973982.8790] dhcp4 (ens33):   lease time 1800
+May 14 14:33:02 ubuntu NetworkManager[704]: <info>  [1620973982.8790] dhcp4 (ens33):   nameserver '192.168.182.2'
+May 14 14:33:02 ubuntu NetworkManager[704]: <info>  [1620973982.8790] dhcp4 (ens33):   domain name 'localdomain'
+May 14 14:33:02 ubuntu NetworkManager[704]: <info>  [1620973982.8790] dhcp4 (ens33):   wins '192.168.182.2'
+May 14 14:33:02 ubuntu dbus-daemon[689]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.14' (uid=0 pid=704 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+May 14 14:33:02 ubuntu NetworkManager[704]: <info>  [1620973982.8790] dhcp4 (ens33): state changed bound -> bound
+May 14 14:33:02 ubuntu dhclient[7403]: bound to 192.168.182.129 -- renewal in 781 seconds.
+May 14 14:33:02 ubuntu systemd[1]: Starting Network Manager Script Dispatcher Service...
+May 14 14:33:02 ubuntu dbus-daemon[689]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+May 14 14:33:02 ubuntu systemd[1]: Started Network Manager Script Dispatcher Service.
+May 14 14:33:02 ubuntu nm-dispatcher: req:1 'dhcp4-change' [ens33]: new request (1 scripts)
+May 14 14:33:02 ubuntu nm-dispatcher: req:1 'dhcp4-change' [ens33]: start running ordered scripts...
+May 14 14:34:26 ubuntu nautilus[4180]: Called "net usershare info" but it failed: Failed to execute child process “net” (No such file or directory)
+May 14 14:35:25 ubuntu nautilus[4180]: gtk_revealer_set_reveal_child: assertion 'GTK_IS_REVEALER (revealer)' failed
+May 14 14:35:38 ubuntu /usr/lib/gdm3/gdm-x-session[1681]: 2021-05-13 21:15:12:464 [1819:140045794842752] SOGOU: virtual bool CSogouShellPCPy::NeedInsert(int) INFO: -----------======---capital = 0, vkey = 160, laskkey = 0, down = 1.
+May 14 14:35:38 ubuntu /usr/lib/gdm3/gdm-x-session[1681]: 2021-05-13 21:15:12:465 [1819:140045794842752] SOGOU: n_sgxx::UINT ImeProcessKey_L(n_sgxx::UINT, DWORD, const BYTE*) INFO: ImeProcessKey:a0
+May 14 14:35:38 ubuntu /usr/lib/gdm3/gdm-x-session[1681]:  
+May 14 14:35:38 ubuntu /usr/lib/gdm3/gdm-x-session[1681]: 2021-05-13 21:15:12:474 [1819:140045794842752] SOGOU: virtual n_sgxx::UINT ImeState::ImeProcessKey2(ImeContext*, t_dataImc*, n_sgxx::UINT, DWORD, const BYTE*, t_env*) INFO: ImeProcessKey2, unScancode = 0x002a0001, vk =
+May 14 14:35:38 ubuntu /usr/lib/gdm3/gdm-x-session[1681]: 2021-05-13 21:15:12:483 [1819:140045794842752] SOGOU: virtual int CSogouShellPCPy::GetInfo(unsigned int) INFO: -----------======---m_nSimulateKey = 0
+May 14 14:35:38 ubuntu /usr/lib/gdm3/gdm-x-session[1681]: 2021-05-13 21:15:12:518 [1819:140045794842752] SOGOU: virtual bool CSogouShellPCPy::NeedInsert(int) INFO: -----------======---capital = 0, vkey = 27, laskkey = 160, down = 1.
+May 14 14:35:38 ubuntu /usr/lib/gdm3/gdm-x-session[1681]: 2021-05-13 21:15:12:518 [1819:140045794842752] SOGOU: n_sgxx::UINT ImeProcessKey_L(n_sgxx::UINT, DWORD, const BYTE*) INFO: ImeProcessKey:1b
+May 14 14:35:38 ubuntu /usr/lib/gdm3/gdm-x-session[1681]:  
+May 14 14:35:38 ubuntu /usr/lib/gdm3/gdm-x-session[1681]: 2021-05-13 21:15:12:518 [1819:140045794842752] SOGOU: virtual n_sgxx::UINT ImeState::ImeProcessKey2(ImeContext*, t_dataImc*, n_sgxx::UINT, DWORD, const BYTE*, t_env*) INFO: ImeProcessKey2, unScancode = 0x00010001, vk =
+May 14 14:35:38 ubuntu /usr/lib/gdm3/gdm-x-session[1681]: 2021-05-13 21:15:12:518 [1819:140045794842752] SOGOU: virtual bool CSogouShellPCPy::NeedInsert(int) INFO: -----------======---capital = 0, vkey = 27, laskkey = 27, down = 0.
+May 14 14:35:38 ubuntu /usr/lib/gdm3/gdm-x-session[1681]: 2021-05-13 21:15:12:518 [1819:140045794842752] SOGOU: n_sgxx::UINT ImeProcessKey_L(n_sgxx::UINT, DWORD, const BYTE*) INFO: ImeProcessKey:1b
+May 14 14:35:38 ubuntu /usr/lib/gdm3/gdm-x-session[1681]:  
+May 14 14:35:38 ubuntu /usr/lib/gdm3/gdm-x-session[1681]: 2021-05-13 21:15:12:518 [1819:140045794842752] SOGOU: virtual n_sgxx::UINT ImeState::ImeProcessKey2(ImeContext*, t_dataImc*, n_sgxx::UINT, DWORD, const BYTE*, t_env*) INFO: ImeProcessKey2, unScancode = 0xc0010001, vk =
+May 14 14:35:38 ubuntu /usr/lib/gdm3/gdm-x-session[1681]: 2021-05-13 21:15:53:822 [1819:140044898486016] SOGOU: virtual bool CSogouShellPCPy::SetParam(unsigned int, unsigned int) INFO: -----==SaveDict---
+May 14 14:35:38 ubuntu /usr/lib/gdm3/gdm-x-session[1681]: 2021-05-13 21:45:53:834 [1819:140044898486016] SOGOU: virtual bool CSogouShellPCPy::SetParam(unsigned int, unsigned int) INFO: -----==SaveDict---
+May 14 14:35:38 ubuntu /usr/lib/gdm3/gdm-x-session[1681]: 2021-05-14 13:35:07:244 [1819:140044898486016] SOGOU: virtual bool CSogouShellPCPy::SetParam(unsigned int, unsigned int) INFO: -----==SaveDict---
+May 14 14:35:38 ubuntu /usr/lib/gdm3/gdm-x-session[1681]: 2021-05-14 14:05:07:255 [1819:140044898486016] SOGOU: virtual bool CSogouShellPCPy::SetParam(unsigned int, unsigned int) INFO: -----==SaveDict---
+May 14 14:35:38 ubuntu /usr/lib/gdm3/gdm-x-session[1681]: 2021-05-14 14:35:07:296 [1819:140044898486016] SOGOU: virtual bool CSogouShellPCPy::SetParam(unsigned int, unsigned int) INFO: -----==SaveDict---
+May 14 14:35:38 ubuntu /usr/lib/gdm3/gdm-x-session[1681]: 2021-05-14 14:35:38:048 [1819:140045794842752] SOGOU: virtual bool CSogouShellPCPy::NeedInsert(int) INFO: -----------======---capital = 0, vkey = 160, laskkey = 27, down = 1.
+May 14 14:35:38 ubuntu /usr/lib/gdm3/gdm-x-session[1681]: 2021-05-14 14:35:38:051 [1819:140045794842752] SOGOU: n_sgxx::UINT ImeProcessKey_L(n_sgxx::UINT, DWORD, const BYTE*) INFO: ImeProcessKey:a0
+May 14 14:35:38 ubuntu /usr/lib/gdm3/gdm-x-session[1681]:  
+May 14 14:35:38 ubuntu /usr/lib/gdm3/gdm-x-session[1681]: 2021-05-14 14:35:38:058 [1819:140045794842752] SOGOU: virtual n_sgxx::UINT ImeState::ImeProcessKey2(ImeContext*, t_dataImc*, n_sgxx::UINT, DWORD, const BYTE*, t_env*) INFO: ImeProcessKey2, unScancode = 0x002a0001, vk =
+May 14 14:35:38 ubuntu /usr/lib/gdm3/gdm-x-session[1681]: 2021-05-14 14:35:38:060 [1819:140045794842752] SOGOU: virtual int CSogouShellPCPy::GetInfo(unsigned int) INFO: -----------======---m_nSimulateKey = 0
+May 14 14:35:38 ubuntu /usr/lib/gdm3/gdm-x-session[1681]: 2021-05-14 14:35:38:212 [1819:140045794842752] SOGOU: virtual bool CSogouShellPCPy::NeedInsert(int) INFO: -----------======---capital = 0, vkey = 27, laskkey = 160, down = 1.
+May 14 14:35:38 ubuntu /usr/lib/gdm3/gdm-x-session[1681]: 2021-05-14 14:35:38:212 [1819:140045794842752] SOGOU: n_sgxx::UINT ImeProcessKey_L(n_sgxx::UINT, DWORD, const BYTE*) INFO: ImeProcessKey:1b
+May 14 14:35:38 ubuntu /usr/lib/gdm3/gdm-x-session[1681]:  
+May 14 14:35:38 ubuntu /usr/lib/gdm3/gdm-x-session[1681]: 2021-05-14 14:35:38:212 [1819:140045794842752] SOGOU: virtual n_sgxx::UINT ImeState::ImeProcessKey2(ImeContext*, t_dataImc*, n_sgxx::UINT, DWORD, const BYTE*, t_env*) INFO: ImeProcessKey2, unScancode = 0x00010001, vk =
+May 14 14:35:38 ubuntu /usr/lib/gdm3/gdm-x-session[1681]: 2021-05-14 14:35:38:214 [1819:140045794842752] SOGOU: virtual bool CSogouShellPCPy::NeedInsert(int) INFO: -----------======---capital = 0, vkey = 27, laskkey = 27, down = 0.
+May 14 14:35:38 ubuntu /usr/lib/gdm3/gdm-x-session[1681]: 2021-05-14 14:35:38:214 [1819:140045794842752] SOGOU: n_sgxx::UINT ImeProcessKey_L(n_sgxx::UINT, DWORD, const BYTE*) INFO: ImeProcessKey:1b
+May 14 14:35:38 ubuntu /usr/lib/gdm3/gdm-x-session[1681]:  
+May 14 14:40:02 ubuntu nautilus[4180]: gtk_revealer_set_reveal_child: assertion 'GTK_IS_REVEALER (revealer)' failed
+May 14 14:40:23 ubuntu jetbrains-clion.desktop[2565]: 2021-05-14 14:40:23,352 [81322339]   WARN - ion.process.BaseProcessHandler - Stream closed
+May 14 14:40:23 ubuntu jetbrains-clion.desktop[2565]: java.io.IOException: Stream closed
+May 14 14:40:23 ubuntu jetbrains-clion.desktop[2565]: #011at com.intellij.execution.process.mediator.util.ChannelOutputStream.flush(ChannelOutputStream.kt:66)
+May 14 14:40:23 ubuntu jetbrains-clion.desktop[2565]: #011at java.base/java.io.BufferedOutputStream.flush(BufferedOutputStream.java:143)
+May 14 14:40:23 ubuntu jetbrains-clion.desktop[2565]: #011at java.base/java.io.FilterOutputStream.close(FilterOutputStream.java:182)
+May 14 14:40:23 ubuntu jetbrains-clion.desktop[2565]: #011at com.intellij.execution.process.BaseProcessHandler.closeStreams(BaseProcessHandler.java:97)
+May 14 14:40:23 ubuntu jetbrains-clion.desktop[2565]: #011at com.intellij.execution.process.KillableProcessHandler.notifyProcessTerminated(KillableProcessHandler.java:133)
+May 14 14:40:23 ubuntu jetbrains-clion.desktop[2565]: #011at com.intellij.execution.process.BaseProcessHandler.onOSProcessTerminated(BaseProcessHandler.java:61)
+May 14 14:40:23 ubuntu jetbrains-clion.desktop[2565]: #011at com.intellij.execution.process.OSProcessHandler.onOSProcessTerminated(OSProcessHandler.java:206)
+May 14 14:40:23 ubuntu jetbrains-clion.desktop[2565]: #011at com.intellij.execution.process.BaseOSProcessHandler$1.lambda$startNotified$0(BaseOSProcessHandler.java:97)
+May 14 14:40:23 ubuntu jetbrains-clion.desktop[2565]: #011at com.intellij.execution.process.ProcessWaitFor.lambda$new$0(ProcessWaitFor.java:55)
+May 14 14:40:23 ubuntu jetbrains-clion.desktop[2565]: #011at com.intellij.util.ConcurrencyUtil.runUnderThreadName(ConcurrencyUtil.java:208)
+May 14 14:40:23 ubuntu jetbrains-clion.desktop[2565]: #011at com.intellij.execution.process.ProcessWaitFor.lambda$new$1(ProcessWaitFor.java:33)
+May 14 14:40:23 ubuntu jetbrains-clion.desktop[2565]: #011at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+May 14 14:40:23 ubuntu jetbrains-clion.desktop[2565]: #011at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+May 14 14:40:23 ubuntu jetbrains-clion.desktop[2565]: #011at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+May 14 14:40:23 ubuntu jetbrains-clion.desktop[2565]: #011at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+May 14 14:40:23 ubuntu jetbrains-clion.desktop[2565]: #011at java.base/java.util.concurrent.Executors$PrivilegedThreadFactory$1$1.run(Executors.java:668)
+May 14 14:40:23 ubuntu jetbrains-clion.desktop[2565]: #011at java.base/java.util.concurrent.Executors$PrivilegedThreadFactory$1$1.run(Executors.java:665)
+May 14 14:40:23 ubuntu jetbrains-clion.desktop[2565]: #011at java.base/java.security.AccessController.doPrivileged(Native Method)
+May 14 14:40:23 ubuntu jetbrains-clion.desktop[2565]: #011at java.base/java.util.concurrent.Executors$PrivilegedThreadFactory$1.run(Executors.java:665)
+May 14 14:40:23 ubuntu jetbrains-clion.desktop[2565]: #011at java.base/java.lang.Thread.run(Thread.java:834)
+May 14 14:41:02 ubuntu nautilus[4180]: gtk_revealer_set_reveal_child: assertion 'GTK_IS_REVEALER (revealer)' failed
+May 14 14:42:11 ubuntu nautilus[4180]: gtk_revealer_set_reveal_child: assertion 'GTK_IS_REVEALER (revealer)' failed
+May 14 14:43:27 ubuntu nautilus[4180]: gtk_revealer_set_reveal_child: assertion 'GTK_IS_REVEALER (revealer)' failed
+May 14 14:44:23 ubuntu nautilus[4180]: gtk_revealer_set_reveal_child: assertion 'GTK_IS_REVEALER (revealer)' failed
+May 14 14:45:27 ubuntu nautilus[4180]: gtk_revealer_set_reveal_child: assertion 'GTK_IS_REVEALER (revealer)' failed
+May 14 14:46:03 ubuntu dhclient[7403]: DHCPREQUEST of 192.168.182.129 on ens33 to 192.168.182.254 port 67 (xid=0x18d5c918)
+May 14 14:46:03 ubuntu dhclient[7403]: DHCPACK of 192.168.182.129 from 192.168.182.254
+May 14 14:46:03 ubuntu NetworkManager[704]: <info>  [1620974763.8623] dhcp4 (ens33):   address 192.168.182.129
+May 14 14:46:03 ubuntu NetworkManager[704]: <info>  [1620974763.8629] dhcp4 (ens33):   plen 24 (255.255.255.0)
+May 14 14:46:03 ubuntu NetworkManager[704]: <info>  [1620974763.8632] dhcp4 (ens33):   gateway 192.168.182.2
+May 14 14:46:03 ubuntu NetworkManager[704]: <info>  [1620974763.8632] dhcp4 (ens33):   lease time 1800
+May 14 14:46:03 ubuntu NetworkManager[704]: <info>  [1620974763.8632] dhcp4 (ens33):   nameserver '192.168.182.2'
+May 14 14:46:03 ubuntu NetworkManager[704]: <info>  [1620974763.8632] dhcp4 (ens33):   domain name 'localdomain'
+May 14 14:46:03 ubuntu NetworkManager[704]: <info>  [1620974763.8632] dhcp4 (ens33):   wins '192.168.182.2'
+May 14 14:46:03 ubuntu dbus-daemon[689]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.14' (uid=0 pid=704 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+May 14 14:46:03 ubuntu NetworkManager[704]: <info>  [1620974763.8632] dhcp4 (ens33): state changed bound -> bound
+May 14 14:46:03 ubuntu dhclient[7403]: bound to 192.168.182.129 -- renewal in 819 seconds.
+May 14 14:46:03 ubuntu systemd[1]: Starting Network Manager Script Dispatcher Service...
+May 14 14:46:03 ubuntu dbus-daemon[689]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+May 14 14:46:03 ubuntu systemd[1]: Started Network Manager Script Dispatcher Service.
+May 14 14:46:03 ubuntu nm-dispatcher: req:1 'dhcp4-change' [ens33]: new request (1 scripts)
+May 14 14:46:03 ubuntu nm-dispatcher: req:1 'dhcp4-change' [ens33]: start running ordered scripts...
+May 14 14:47:38 ubuntu /usr/lib/gdm3/gdm-x-session[1681]: (EE) client bug: timer event2 debounce: offset negative (-101ms)
+May 14 14:47:38 ubuntu /usr/lib/gdm3/gdm-x-session[1681]: (EE) client bug: timer event2 debounce short: offset negative (-9ms)
+May 14 14:48:38 ubuntu nautilus[4180]: gtk_revealer_set_reveal_child: assertion 'GTK_IS_REVEALER (revealer)' failed
+May 14 14:49:21 ubuntu nautilus[4180]: gtk_revealer_set_reveal_child: assertion 'GTK_IS_REVEALER (revealer)' failed
+May 14 14:50:02 ubuntu mysql 2021-05-14T06:50:02.691797Z 42 [Note] Aborted connection 42 to db: 'wise' user: 'root' host: 'localhost' (Got an error reading communication packets)
+May 14 14:50:50 ubuntu kernel: [13577.057490] GC Thread#3 invoked oom-killer: gfp_mask=0x100cca(GFP_HIGHUSER_MOVABLE), order=0, oom_score_adj=0
+May 14 14:50:50 ubuntu kernel: [13577.057755] CPU: 1 PID: 21503 Comm: GC Thread#3 Not tainted 5.4.0-72-generic #80~18.04.1-Ubuntu
+May 14 14:50:50 ubuntu kernel: [13577.057756] Hardware name: VMware, Inc. VMware Virtual Platform/440BX Desktop Reference Platform, BIOS 6.00 04/13/2018
+May 14 14:50:50 ubuntu kernel: [13577.057756] Call Trace:
+May 14 14:50:50 ubuntu kernel: [13577.060087]  dump_stack+0x6d/0x8b
+May 14 14:50:50 ubuntu kernel: [13577.061304]  dump_header+0x4f/0x200
+May 14 14:50:50 ubuntu kernel: [13577.061312]  oom_kill_process+0xe6/0x120
+May 14 14:50:50 ubuntu kernel: [13577.061313]  out_of_memory+0x109/0x510
+May 14 14:50:50 ubuntu kernel: [13577.061386]  __alloc_pages_slowpath+0xa9b/0xe50
+May 14 14:50:50 ubuntu kernel: [13577.061421]  ? __switch_to_asm+0x34/0x70
+May 14 14:50:50 ubuntu kernel: [13577.061423]  __alloc_pages_nodemask+0x2cd/0x320
+May 14 14:50:50 ubuntu kernel: [13577.061443]  alloc_pages_current+0x6a/0xe0
+May 14 14:50:50 ubuntu kernel: [13577.061446]  __page_cache_alloc+0x6a/0xa0
+May 14 14:50:50 ubuntu kernel: [13577.061447]  pagecache_get_page+0xab/0x2c0
+May 14 14:50:50 ubuntu kernel: [13577.061448]  filemap_fault+0x685/0xb80
+May 14 14:50:50 ubuntu kernel: [13577.061683]  ? unlock_page_memcg+0x12/0x20
+May 14 14:50:50 ubuntu kernel: [13577.061686]  ? page_add_file_rmap+0x13a/0x180
+May 14 14:50:50 ubuntu kernel: [13577.061972]  ? xas_load+0xc/0x80
+May 14 14:50:50 ubuntu kernel: [13577.061975]  ? xas_find+0x16f/0x1b0
+May 14 14:50:50 ubuntu kernel: [13577.061977]  ? filemap_map_pages+0x181/0x3b0
+May 14 14:50:50 ubuntu kernel: [13577.062648]  ext4_filemap_fault+0x31/0x50
+May 14 14:50:50 ubuntu kernel: [13577.062652]  __do_fault+0x57/0x110
+May 14 14:50:50 ubuntu kernel: [13577.062653]  __handle_mm_fault+0xdde/0x1270
+May 14 14:50:50 ubuntu kernel: [13577.062655]  ? __switch_to_asm+0x34/0x70
+May 14 14:50:50 ubuntu kernel: [13577.062656]  handle_mm_fault+0xcb/0x210
+May 14 14:50:50 ubuntu kernel: [13577.063248]  __do_page_fault+0x2a1/0x4d0
+May 14 14:50:50 ubuntu kernel: [13577.063252]  do_page_fault+0x2c/0xe0
+May 14 14:50:50 ubuntu kernel: [13577.063254]  page_fault+0x34/0x40
+May 14 14:50:50 ubuntu kernel: [13577.063256] RIP: 0033:0x7fb09c7b14c0
+May 14 14:50:50 ubuntu kernel: [13577.063262] Code: Bad RIP value.
+May 14 14:50:50 ubuntu kernel: [13577.063263] RSP: 002b:00007fb027eb6bf8 EFLAGS: 00010206
+May 14 14:50:50 ubuntu kernel: [13577.063304] RAX: 0000000000000001 RBX: 00007fb07c24a3b8 RCX: 00000000000020d2
+May 14 14:50:50 ubuntu kernel: [13577.063305] RDX: 00007fb09d1696b0 RSI: 00007fb094030fd0 RDI: 00007fb09d1696a0
+May 14 14:50:50 ubuntu kernel: [13577.063305] RBP: 00007fb027eb6c40 R08: 0000000000003509 R09: 00007fb027eb6c30
+May 14 14:50:50 ubuntu kernel: [13577.063306] R10: 00007fb027eb6bf0 R11: 0000000000000246 R12: 0000000000001000
+May 14 14:50:50 ubuntu kernel: [13577.063307] R13: 0000000000000d67 R14: 0000000000000000 R15: 0000000000000a10
+May 14 14:50:50 ubuntu kernel: [13577.063347] Mem-Info:
+May 14 14:50:50 ubuntu kernel: [13577.063352] active_anon:1156689 inactive_anon:165242 isolated_anon:0
+May 14 14:50:50 ubuntu kernel: [13577.063352]  active_file:27 inactive_file:284 isolated_file:0
+May 14 14:50:50 ubuntu kernel: [13577.063352]  unevictable:4 dirty:6 writeback:0 unstable:0
+May 14 14:50:50 ubuntu kernel: [13577.063352]  slab_reclaimable:15904 slab_unreclaimable:26351
+May 14 14:50:50 ubuntu kernel: [13577.063352]  mapped:2071 shmem:2997 pagetables:18699 bounce:0
+May 14 14:50:50 ubuntu kernel: [13577.063352]  free:23738 free_pcp:1437 free_cma:0
+May 14 14:50:50 ubuntu kernel: [13577.063539] Node 0 active_anon:4626756kB inactive_anon:660968kB active_file:108kB inactive_file:1404kB unevictable:16kB isolated(anon):0kB isolated(file):0kB mapped:8284kB dirty:24kB writeback:0kB shmem:11988kB shmem_thp: 0kB shmem_pmdmapped: 0kB anon_thp: 0kB writeback_tmp:0kB unstable:0kB all_unreclaimable? yes
+May 14 14:50:50 ubuntu kernel: [13577.063540] Node 0 DMA free:15872kB min:176kB low:220kB high:264kB active_anon:0kB inactive_anon:0kB active_file:0kB inactive_file:0kB unevictable:0kB writepending:0kB present:15988kB managed:15904kB mlocked:0kB kernel_stack:0kB pagetables:0kB bounce:0kB free_pcp:0kB local_pcp:0kB free_cma:0kB
+May 14 14:50:50 ubuntu kernel: [13577.063542] lowmem_reserve[]: 0 2951 5854 5854 5854
+May 14 14:50:50 ubuntu kernel: [13577.063543] Node 0 DMA32 free:45672kB min:33980kB low:42472kB high:50964kB active_anon:2503484kB inactive_anon:372040kB active_file:72kB inactive_file:888kB unevictable:0kB writepending:0kB present:3129152kB managed:3063616kB mlocked:0kB kernel_stack:7920kB pagetables:17188kB bounce:0kB free_pcp:2544kB local_pcp:1020kB free_cma:0kB
+May 14 14:50:50 ubuntu kernel: [13577.063545] lowmem_reserve[]: 0 0 2902 2902 2902
+May 14 14:50:50 ubuntu kernel: [13577.063546] Node 0 Normal free:33408kB min:33420kB low:41772kB high:50124kB active_anon:2123272kB inactive_anon:288928kB active_file:540kB inactive_file:264kB unevictable:16kB writepending:24kB present:3145728kB managed:2980432kB mlocked:16kB kernel_stack:23120kB pagetables:57608kB bounce:0kB free_pcp:2932kB local_pcp:520kB free_cma:0kB
+May 14 14:50:50 ubuntu kernel: [13577.063548] lowmem_reserve[]: 0 0 0 0 0
+May 14 14:50:50 ubuntu kernel: [13577.063549] Node 0 DMA: 0*4kB 0*8kB 0*16kB 0*32kB 2*64kB (U) 1*128kB (U) 1*256kB (U) 0*512kB 1*1024kB (U) 1*2048kB (M) 3*4096kB (M) = 15872kB
+May 14 14:50:50 ubuntu kernel: [13577.063552] Node 0 DMA32: 295*4kB (UE) 350*8kB (UE) 322*16kB (UME) 194*32kB (UME) 112*64kB (UE) 93*128kB (UME) 35*256kB (UME) 4*512kB (UME) 0*1024kB 0*2048kB 0*4096kB = 45420kB
+May 14 14:50:50 ubuntu kernel: [13577.063556] Node 0 Normal: 1042*4kB (UME) 641*8kB (UME) 215*16kB (UME) 272*32kB (UME) 111*64kB (UME) 30*128kB (UME) 4*256kB (UM) 0*512kB 0*1024kB 0*2048kB 0*4096kB = 33408kB
+May 14 14:50:50 ubuntu kernel: [13577.064463] Node 0 hugepages_total=0 hugepages_free=0 hugepages_surp=0 hugepages_size=1048576kB
+May 14 14:50:50 ubuntu kernel: [13577.065311] Node 0 hugepages_total=0 hugepages_free=0 hugepages_surp=0 hugepages_size=2048kB
+May 14 14:50:50 ubuntu kernel: [13577.065312] 8352 total pagecache pages
+May 14 14:50:50 ubuntu kernel: [13577.065313] 4903 pages in swap cache
+May 14 14:50:50 ubuntu kernel: [13577.065313] Swap cache stats: add 310640, delete 305737, find 25260/40751
+May 14 14:50:50 ubuntu kernel: [13577.065314] Free swap  = 0kB
+May 14 14:50:50 ubuntu kernel: [13577.065314] Total swap = 969960kB
+May 14 14:50:50 ubuntu kernel: [13577.065315] 1572717 pages RAM
+May 14 14:50:50 ubuntu kernel: [13577.065315] 0 pages HighMem/MovableOnly
+May 14 14:50:50 ubuntu kernel: [13577.065315] 57729 pages reserved
+May 14 14:50:50 ubuntu kernel: [13577.065315] 0 pages cma reserved
+May 14 14:50:50 ubuntu kernel: [13577.065316] 0 pages hwpoisoned
+May 14 14:50:50 ubuntu kernel: [13577.065316] Tasks state (memory values in pages):
+May 14 14:50:50 ubuntu kernel: [13577.065317] [  pid  ]   uid  tgid total_vm      rss pgtables_bytes swapents oom_score_adj name
+May 14 14:50:50 ubuntu kernel: [13577.065341] [    392]     0   392    32059      170   225280      162             0 systemd-journal
+May 14 14:50:50 ubuntu kernel: [13577.065547] [    418]     0   418    11840      380   131072      142         -1000 systemd-udevd
+May 14 14:50:50 ubuntu kernel: [13577.065553] [    574]   101   574    17698       83   192512      119             0 systemd-resolve
+May 14 14:50:50 ubuntu kernel: [13577.065554] [    575] 62583   575    36535       13   192512      144             0 systemd-timesyn
+May 14 14:50:50 ubuntu kernel: [13577.065556] [    643]     0   643   108583        0   348160      381             0 ModemManager
+May 14 14:50:50 ubuntu kernel: [13577.065557] [    647]   102   647    84725      156   184320      341             0 rsyslogd
+May 14 14:50:50 ubuntu kernel: [13577.065558] [    653]     0   653     1139        0    53248       34             0 acpid
+May 14 14:50:50 ubuntu kernel: [13577.065560] [    660]     0   660    17710       73   188416      159             0 systemd-logind
+May 14 14:50:50 ubuntu kernel: [13577.065561] [    662]     0   662    72345      124   200704      131             0 accounts-daemon
+May 14 14:50:50 ubuntu kernel: [13577.065562] [    663]     0   663     8269       25   114688       48             0 cron
+May 14 14:50:50 ubuntu kernel: [13577.065563] [    679]     0   679   125865       59   348160      505             0 udisksd
+May 14 14:50:50 ubuntu kernel: [13577.065564] [    687]     0   687    43070        1   233472     1987             0 networkd-dispat
+May 14 14:50:50 ubuntu kernel: [13577.065566] [    689]   103   689    12937      485   143360      100          -900 dbus-daemon
+May 14 14:50:50 ubuntu kernel: [13577.065567] [    704]     0   704   140631      453   458752      301             0 NetworkManager
+May 14 14:50:50 ubuntu kernel: [13577.065569] [    705]     0   705    11309        8   126976      127             0 wpa_supplicant
+May 14 14:50:50 ubuntu kernel: [13577.065570] [    707]     0   707    27630       39   118784       59             0 irqbalance
+May 14 14:50:50 ubuntu kernel: [13577.065571] [    708]   116   708    11816       52   143360       58             0 avahi-daemon
+May 14 14:50:50 ubuntu kernel: [13577.065572] [    710]   116   710    11770       10   131072       75             0 avahi-daemon
+May 14 14:50:50 ubuntu kernel: [13577.065573] [    754]     0   754    74574      689   217088      119             0 polkitd
+May 14 14:50:50 ubuntu kernel: [13577.065574] [    756]     0   756   364870     2167   352256     1403          -900 snapd
+May 14 14:50:50 ubuntu kernel: [13577.065575] [    777]     0   777    47250        0   262144     2001             0 unattended-upgr
+May 14 14:50:50 ubuntu kernel: [13577.065576] [    798]     0   798    75709      113   225280      196             0 gdm3
+May 14 14:50:50 ubuntu kernel: [13577.065577] [    827]     0   827    35281        1   233472      371             0 nginx
+May 14 14:50:50 ubuntu kernel: [13577.065578] [    828]    33   828    35949        0   249856      456             0 nginx
+May 14 14:50:50 ubuntu kernel: [13577.065579] [    829]    33   829    35949        0   249856      456             0 nginx
+May 14 14:50:50 ubuntu kernel: [13577.065580] [    830]    33   830    35949        0   249856      456             0 nginx
+May 14 14:50:50 ubuntu kernel: [13577.065582] [    831]    33   831    35949        0   249856      456             0 nginx
+May 14 14:50:50 ubuntu kernel: [13577.065583] [   1005]     0  1005    48282       18   139264      133             0 vmware-vmblock-
+May 14 14:50:50 ubuntu kernel: [13577.065585] [   1030]     0  1030    79247      111   241664      179             0 upowerd
+May 14 14:50:50 ubuntu kernel: [13577.065586] [   1061]     0  1061    64050        1   274432      300             0 gdm-session-wor
+May 14 14:50:50 ubuntu kernel: [13577.065587] [   1071]     0  1071    47266      251   262144      399             0 vmtoolsd
+May 14 14:50:50 ubuntu kernel: [13577.065588] [   1121]   121  1121    19259      106   188416      244             0 systemd
+May 14 14:50:50 ubuntu kernel: [13577.065590] [   1122]   121  1122    28488       89   253952      540             0 (sd-pam)
+May 14 14:50:50 ubuntu kernel: [13577.065591] [   1150]   121  1150    51695        1   172032      165             0 gdm-x-session
+May 14 14:50:50 ubuntu kernel: [13577.065592] [   1153]   121  1153    90979       67   516096     3799             0 Xorg
+May 14 14:50:50 ubuntu kernel: [13577.065593] [   1160]     0  1160    16842        0   176128      399             0 VGAuthService
+May 14 14:50:50 ubuntu kernel: [13577.065595] [   1176]   112  1176   116083      140   393216      284             0 whoopsie
+May 14 14:50:50 ubuntu kernel: [13577.065596] [   1189]   113  1189    14236       27   147456       86             0 kerneloops
+May 14 14:50:50 ubuntu kernel: [13577.065597] [   1198]   113  1198    14236       27   143360       86             0 kerneloops
+May 14 14:50:50 ubuntu kernel: [13577.065598] [   1478]   121  1478    12567        1   147456      215             0 dbus-daemon
+May 14 14:50:50 ubuntu kernel: [13577.065599] [   1481]   121  1481   156843      152   438272      436             0 gnome-session-b
+May 14 14:50:50 ubuntu kernel: [13577.065600] [   1484]   121  1484    87323        1   172032      196             0 at-spi-bus-laun
+May 14 14:50:50 ubuntu kernel: [13577.065654] [   1489]   121  1489    12483        0   151552      119             0 dbus-daemon
+May 14 14:50:50 ubuntu kernel: [13577.065656] [   1491]   121  1491    55178        0   204800      207             0 at-spi2-registr
+May 14 14:50:50 ubuntu kernel: [13577.065657] [   1501]   121  1501   854296      813  1523712    16045             0 gnome-shell
+May 14 14:50:50 ubuntu kernel: [13577.065658] [   1508]   121  1508   329782       44   516096      879             0 pulseaudio
+May 14 14:50:50 ubuntu kernel: [13577.065660] [   1509]   109  1509    45878        0   126976       75             0 rtkit-daemon
+May 14 14:50:50 ubuntu kernel: [13577.065661] [   1524]   121  1524    89033        1   204800      366             0 ibus-daemon
+May 14 14:50:50 ubuntu kernel: [13577.065662] [   1527]   121  1527    68848        0   172032      180             0 ibus-dconf
+May 14 14:50:50 ubuntu kernel: [13577.065663] [   1530]   121  1530    84684        1   413696     1183             0 ibus-x11
+May 14 14:50:50 ubuntu kernel: [13577.065664] [   1533]   121  1533    68301        0   172032      173             0 ibus-portal
+May 14 14:50:50 ubuntu kernel: [13577.065665] [   1542]   121  1542    66552        0   147456      147             0 xdg-permission-
+May 14 14:50:50 ubuntu kernel: [13577.065666] [   1549]     0  1549    72880       77   200704      107             0 boltd
+May 14 14:50:50 ubuntu kernel: [13577.065668] [   1553]     0  1553   129378     2759   425984     1743             0 packagekitd
+May 14 14:50:50 ubuntu kernel: [13577.065669] [   1557]   121  1557   122427        2   454656     1370             0 gsd-xsettings
+May 14 14:50:50 ubuntu kernel: [13577.065670] [   1558]   121  1558    68202        0   176128      179             0 gsd-a11y-settin
+May 14 14:50:50 ubuntu kernel: [13577.065671] [   1561]   121  1561    84585        1   430080     1188             0 gsd-clipboard
+May 14 14:50:50 ubuntu kernel: [13577.065672] [   1566]   121  1566   163395      210   499712     1056             0 gsd-color
+May 14 14:50:50 ubuntu kernel: [13577.065673] [   1567]   121  1567    97091        0   425984      490             0 gsd-datetime
+May 14 14:50:50 ubuntu kernel: [13577.065674] [   1569]   121  1569    69597        0   172032      164             0 gsd-housekeepin
+May 14 14:50:50 ubuntu kernel: [13577.065675] [   1574]   121  1574   125315        1   479232     1257             0 gsd-keyboard
+May 14 14:50:50 ubuntu kernel: [13577.065676] [   1576]   121  1576   252758      525   557056      815             0 gsd-media-keys
+May 14 14:50:50 ubuntu kernel: [13577.065677] [   1578]   121  1578    49161        0   147456      151             0 gsd-mouse
+May 14 14:50:50 ubuntu kernel: [13577.065678] [   1583]   121  1583   146452      172   503808     1150             0 gsd-power
+May 14 14:50:50 ubuntu kernel: [13577.065679] [   1584]   121  1584    65415        0   266240      304             0 gsd-print-notif
+May 14 14:50:50 ubuntu kernel: [13577.065680] [   1587]   121  1587    49166        0   151552      149             0 gsd-rfkill
+May 14 14:50:50 ubuntu kernel: [13577.065681] [   1589]   121  1589    67595        0   159744      161             0 gsd-screensaver
+May 14 14:50:50 ubuntu kernel: [13577.065682] [   1595]   121  1595    74941        0   208896      278             0 gsd-sharing
+May 14 14:50:50 ubuntu kernel: [13577.065683] [   1603]   121  1603    93181        1   225280      262             0 gsd-smartcard
+May 14 14:50:50 ubuntu kernel: [13577.065684] [   1608]   121  1608    82407        0   266240      283             0 gsd-sound
+May 14 14:50:50 ubuntu kernel: [13577.065685] [   1612]   121  1612   105813        1   466944     1275             0 gsd-wacom
+May 14 14:50:50 ubuntu kernel: [13577.065687] [   1628]   117  1628    79907        1   274432     1207             0 colord
+May 14 14:50:50 ubuntu kernel: [13577.065688] [   1651]   121  1651    49884        0   163840      181             0 ibus-engine-sim
+May 14 14:50:50 ubuntu kernel: [13577.065689] [   1660]     0  1660   102496      197   303104      169             0 gdm-session-wor
+May 14 14:50:50 ubuntu kernel: [13577.065690] [   1663]  1000  1663    19290      164   192512      237             0 systemd
+May 14 14:50:50 ubuntu kernel: [13577.065691] [   1664]  1000  1664    28490       93   253952      541             0 (sd-pam)
+May 14 14:50:50 ubuntu kernel: [13577.065692] [   1677]  1000  1677    70825      116   184320      136             0 gnome-keyring-d
+May 14 14:50:50 ubuntu kernel: [13577.065693] [   1681]  1000  1681    51724       30   167936      137             0 gdm-x-session
+May 14 14:50:50 ubuntu kernel: [13577.065694] [   1683]  1000  1683   131355    10953   737280     4929             0 Xorg
+May 14 14:50:50 ubuntu kernel: [13577.065695] [   1687]  1000  1687    13404      986   155648       75             0 dbus-daemon
+May 14 14:50:50 ubuntu kernel: [13577.065713] [   1690]  1000  1690   159247      330   442368      370             0 gnome-session-b
+May 14 14:50:50 ubuntu kernel: [13577.065714] [   1714]  1000  1714   107754      527   552960     2999             0 fcitx
+May 14 14:50:50 ubuntu kernel: [13577.065715] [   1733]  1000  1733    12520       79   139264       74             0 dbus-daemon
+May 14 14:50:50 ubuntu kernel: [13577.065751] [   1741]  1000  1741     6900       12    98304       41             0 fcitx-dbus-watc
+May 14 14:50:50 ubuntu kernel: [13577.065755] [   1777]  1000  1777     2828       10    61440       70             0 ssh-agent
+May 14 14:50:50 ubuntu kernel: [13577.065759] [   1781]  1000  1781    87326       42   176128      124             0 at-spi-bus-laun
+May 14 14:50:50 ubuntu kernel: [13577.065761] [   1786]  1000  1786    12514       80   147456       70             0 dbus-daemon
+May 14 14:50:50 ubuntu kernel: [13577.065762] [   1788]  1000  1788    55178       75   204800      113             0 at-spi2-registr
+May 14 14:50:50 ubuntu kernel: [13577.065764] [   1805]  1000  1805   912737    23873  1843200     8514             0 gnome-shell
+May 14 14:50:50 ubuntu kernel: [13577.065765] [   1819]  1000  1819   341976     2851  1216512     6383             0 sogoupinyinServ
+May 14 14:50:50 ubuntu kernel: [13577.065766] [   1821]  1000  1821    71689       58   196608      182             0 gvfsd
+May 14 14:50:50 ubuntu kernel: [13577.065767] [   1826]  1000  1826   104029        2   172032      156             0 gvfsd-fuse
+May 14 14:50:50 ubuntu kernel: [13577.065769] [   1840]  1000  1840   399594      430   577536      580             0 pulseaudio
+May 14 14:50:50 ubuntu kernel: [13577.065770] [   1858]  1000  1858    89096      199   196608      157             0 ibus-daemon
+May 14 14:50:50 ubuntu kernel: [13577.065771] [   1862]  1000  1862    68909       37   167936      127             0 ibus-dconf
+May 14 14:50:50 ubuntu kernel: [13577.065772] [   1864]  1000  1864    84835      143   438272     1037             0 ibus-x11
+May 14 14:50:50 ubuntu kernel: [13577.065773] [   1866]  1000  1866    68392       59   167936       98             0 ibus-portal
+May 14 14:50:50 ubuntu kernel: [13577.065775] [   1874]  1000  1874    66611       35   155648       71             0 xdg-permission-
+May 14 14:50:50 ubuntu kernel: [13577.065776] [   1881]  1000  1881   172482      179   520192      618             0 gnome-shell-cal
+May 14 14:50:50 ubuntu kernel: [13577.065778] [   1885]  1000  1885   309019       69   790528      993             0 evolution-sourc
+May 14 14:50:50 ubuntu kernel: [13577.065783] [   1893]  1000  1893   195659       82   696320     1392             0 goa-daemon
+May 14 14:50:50 ubuntu kernel: [13577.065787] [   1901]  1000  1901    47006      144   135168       54             0 dconf-service
+May 14 14:50:50 ubuntu kernel: [13577.065790] [   1904]  1000  1904    75347      218   225280      197             0 gvfs-udisks2-vo
+May 14 14:50:50 ubuntu kernel: [13577.065791] [   1908]  1000  1908    70887       96   188416      108             0 gvfs-gphoto2-vo
+May 14 14:50:50 ubuntu kernel: [13577.065792] [   1912]  1000  1912    67206       61   155648       76             0 gvfs-goa-volume
+May 14 14:50:50 ubuntu kernel: [13577.065814] [   1921]  1000  1921    93031       54   229376      199             0 goa-identity-se
+May 14 14:50:50 ubuntu kernel: [13577.065820] [   1924]  1000  1924    93400       67   225280      147             0 gvfs-afc-volume
+May 14 14:50:50 ubuntu kernel: [13577.065822] [   1932]  1000  1932    67656       88   163840       72             0 gvfs-mtp-volume
+May 14 14:50:50 ubuntu kernel: [13577.065824] [   1936]  1000  1936   128121      430   503808      887             0 gsd-power
+May 14 14:50:50 ubuntu kernel: [13577.065825] [   1938]  1000  1938    86030      104   299008      233             0 gsd-print-notif
+May 14 14:50:50 ubuntu kernel: [13577.065827] [   1940]  1000  1940   104535       78   180224       81             0 gsd-rfkill
+May 14 14:50:50 ubuntu kernel: [13577.065828] [   1943]  1000  1943    67632       73   159744       67             0 gsd-screensaver
+May 14 14:50:50 ubuntu kernel: [13577.065829] [   1946]  1000  1946   111946      243   229376      162             0 gsd-sharing
+May 14 14:50:50 ubuntu kernel: [13577.065831] [   1951]  1000  1951   122593      394   442368      944             0 gsd-xsettings
+May 14 14:50:50 ubuntu kernel: [13577.065833] [   1960]  1000  1960   111686       42   233472      161             0 gsd-smartcard
+May 14 14:50:50 ubuntu kernel: [13577.065834] [   1961]  1000  1961    82481       59   270336      188             0 gsd-sound
+May 14 14:50:50 ubuntu kernel: [13577.065835] [   1964]  1000  1964   105965      202   462848     1047             0 gsd-wacom
+May 14 14:50:50 ubuntu kernel: [13577.065836] [   1968]  1000  1968    68277       55   180224       81             0 gsd-a11y-settin
+May 14 14:50:50 ubuntu kernel: [13577.065837] [   1972]  1000  1972    84721      198   434176      981             0 gsd-clipboard
+May 14 14:50:50 ubuntu kernel: [13577.065838] [   1976]  1000  1976   163549      671   495616      645             0 gsd-color
+May 14 14:50:50 ubuntu kernel: [13577.065840] [   1978]  1000  1978   116170       47   442368      419             0 gsd-datetime
+May 14 14:50:50 ubuntu kernel: [13577.065841] [   1979]  1000  1979    89849       88   212992      105             0 gsd-housekeepin
+May 14 14:50:50 ubuntu kernel: [13577.065842] [   1983]  1000  1983   125460      202   466944     1006             0 gsd-keyboard
+May 14 14:50:50 ubuntu kernel: [13577.066232] [   1987]  1000  1987   335314      637   577536      710             0 gsd-media-keys
+May 14 14:50:50 ubuntu kernel: [13577.066238] [   1992]  1000  1992    68277       59   167936       79             0 gsd-mouse
+May 14 14:50:50 ubuntu kernel: [13577.066240] [   2019]  1000  2019   125891       72   450560      357             0 gsd-printer
+May 14 14:50:50 ubuntu kernel: [13577.066242] [   2036]  1000  2036    67984        2   155648      262             0 gsd-disk-utilit
+May 14 14:50:50 ubuntu kernel: [13577.066244] [   2041]  1000  2041   248153     1579   856064     2597             0 nautilus-deskto
+May 14 14:50:50 ubuntu kernel: [13577.066247] [   2042]  1000  2042    68554     1250   430080      589             0 vmtoolsd
+May 14 14:50:50 ubuntu kernel: [13577.066249] [   2063]  1000  2063    90792       93   217088      181             0 gvfsd-trash
+May 14 14:50:50 ubuntu kernel: [13577.066252] [   2090]  1000  2090   221898       60   892928    10046             0 evolution-calen
+May 14 14:50:50 ubuntu kernel: [13577.066254] [   2112]  1000  2112   282847      164   704512     9704             0 evolution-calen
+May 14 14:50:50 ubuntu kernel: [13577.066256] [   2113]  1000  2113    49943       69   155648       92             0 ibus-engine-sim
+May 14 14:50:50 ubuntu kernel: [13577.066258] [   2134]  1000  2134   181950       57   573440      794             0 evolution-addre
+May 14 14:50:50 ubuntu kernel: [13577.066260] [   2146]  1000  2146   253031       52   618496      816             0 evolution-addre
+May 14 14:50:50 ubuntu kernel: [13577.066261] [   2210]  1000  2210   155289      540   647168     1042             0 sogoupinyinServ
+May 14 14:50:50 ubuntu kernel: [13577.066277] [   2332]  1000  2332   174770     2925   659456     1297             0 gnome-terminal-
+May 14 14:50:50 ubuntu kernel: [13577.066279] [   2339]  1000  2339     6319       20    98304      563             0 bash
+May 14 14:50:50 ubuntu kernel: [13577.066281] [   2449]  1000  2449   347741     7800  1286144    29100             0 gnome-software
+May 14 14:50:50 ubuntu kernel: [13577.066284] [   2451]  1000  2451   153371      788   552960      862             0 update-notifier
+May 14 14:50:50 ubuntu kernel: [13577.066287] [   2493]  1000  2493    10969      227   118784      156             0 mysql
+May 14 14:50:50 ubuntu kernel: [13577.066289] [   2565]  1000  2565     1158        2    57344       25             0 clion.sh
+May 14 14:50:50 ubuntu kernel: [13577.066291] [   2608]  1000  2608  1662294   366881  4526080    42041             0 java
+May 14 14:50:50 ubuntu kernel: [13577.066293] [   2622]  1000  2622   198998       33   712704     1519             0 deja-dup-monito
+May 14 14:50:50 ubuntu kernel: [13577.066296] [   2675]  1000  2675     1262       40    53248      119             0 fsnotifier64
+May 14 14:50:50 ubuntu kernel: [13577.066298] [   2874]  1000  2874   115331    17245   565248      172             0 ion.clangd.main
+May 14 14:50:50 ubuntu kernel: [13577.066299] [   3218]  1000  3218   109761        0   217088      324             0 gvfsd-network
+May 14 14:50:50 ubuntu kernel: [13577.066301] [   3230]  1000  3230    94018        0   217088      252             0 gvfsd-dnssd
+May 14 14:50:50 ubuntu kernel: [13577.066302] [   3286]  1000  3286    49893      158   155648       81             0 gvfsd-metadata
+May 14 14:50:50 ubuntu kernel: [13577.066304] [   4180]  1000  4180   432516     5283   999424     2975             0 nautilus
+May 14 14:50:50 ubuntu kernel: [13577.066306] [   4326]     0  4326  1285078      368   667648    19327             0 java
+May 14 14:50:50 ubuntu kernel: [13577.066307] [   4422]     0  4422  1268437      844   667648    18547             0 java
+May 14 14:50:50 ubuntu kernel: [13577.066309] [   4483]  1000  4483   107108      243   200704      105             0 zeitgeist-daemo
+May 14 14:50:50 ubuntu kernel: [13577.066311] [   4491]  1000  4491    82120      346   237568      757             0 zeitgeist-fts
+May 14 14:50:50 ubuntu kernel: [13577.066312] [   4857]     0  4857  1267924    13205   671744     8812             0 java
+May 14 14:50:50 ubuntu kernel: [13577.066314] [   5496]     0  5496  1268437    22090   679936        1             0 java
+May 14 14:50:50 ubuntu kernel: [13577.066316] [   5660]     0  5660  1270488    24873   708608        0             0 java
+May 14 14:50:50 ubuntu kernel: [13577.066317] [   5799]     0  5799  1269974    22591   675840        0             0 java
+May 14 14:50:50 ubuntu kernel: [13577.066319] [   5957]     0  5957  1287938    24109   700416        0             0 java
+May 14 14:50:50 ubuntu kernel: [13577.066320] [   6047]     0  6047  1286872    25393   720896        0             0 java
+May 14 14:50:50 ubuntu kernel: [13577.066321] [   6183]     0  6183  1287128    26417   712704        0             0 java
+May 14 14:50:50 ubuntu kernel: [13577.066322] [   6289]     0  6289  1286103    23054   688128        0             0 java
+May 14 14:50:50 ubuntu kernel: [13577.066324] [   6383]     0  6383  1286615    23925   708608        0             0 java
+May 14 14:50:50 ubuntu kernel: [13577.066326] [   6509]     0  6509  1285118    21845   684032        0             0 java
+May 14 14:50:50 ubuntu kernel: [13577.066327] [   6775]     0  6775  1268950    22837   684032        0             0 java
+May 14 14:50:50 ubuntu kernel: [13577.066385] [   7023]     0  7023  1284822    21727   684032        0             0 java
+May 14 14:50:50 ubuntu kernel: [13577.066387] [   7195]     0  7195  1285368    19504   667648        0             0 java
+May 14 14:50:50 ubuntu kernel: [13577.066389] [   7403]     0  7403     6497      320    90112        0             0 dhclient
+May 14 14:50:50 ubuntu kernel: [13577.066390] [   7693]     0  7693   149817     9030   589824        0             0 fwupd
+May 14 14:50:50 ubuntu kernel: [13577.066391] [   9909]   122  9909   437959    48791   790528        0             0 mysqld
+May 14 14:50:50 ubuntu kernel: [13577.066395] [  16952]     0 16952    25690      438   249856        0             0 cupsd
+May 14 14:50:50 ubuntu kernel: [13577.066396] [  16953]     0 16953    75883      359   339968        0             0 cups-browsed
+May 14 14:50:50 ubuntu kernel: [13577.066398] [  17615]  1000 17615   207961     9678   782336        0             0 gedit
+May 14 14:50:50 ubuntu kernel: [13577.066399] [  17726]     0 17726  1285078    19413   659456        0             0 java
+May 14 14:50:50 ubuntu kernel: [13577.066400] [  17983]     0 17983  1285591    21250   675840        0             0 java
+May 14 14:50:50 ubuntu kernel: [13577.066402] [  18198]     0 18198  1285335    19182   667648        0             0 java
+May 14 14:50:50 ubuntu kernel: [13577.066403] [  18380]     0 18380  1286874    23600   712704        0             0 java
+May 14 14:50:50 ubuntu kernel: [13577.066405] [  18581]     0 18581  1285881    20054   667648        0             0 java
+May 14 14:50:50 ubuntu kernel: [13577.066406] [  18766]     0 18766  1286617    23474   692224        0             0 java
+May 14 14:50:50 ubuntu kernel: [13577.066407] [  18942]     0 18942  1286104    22853   692224        0             0 java
+May 14 14:50:50 ubuntu kernel: [13577.066408] [  19112]     0 19112  1285591    22260   696320        0             0 java
+May 14 14:50:50 ubuntu kernel: [13577.066410] [  19367]     0 19367  1285848    22680   679936        0             0 java
+May 14 14:50:50 ubuntu kernel: [13577.066412] [  19654]     0 19654  1285078    22712   684032        0             0 java
+May 14 14:50:50 ubuntu kernel: [13577.066413] [  19854]     0 19854  1285078    19207   647168        0             0 java
+May 14 14:50:50 ubuntu kernel: [13577.066414] [  20022]     0 20022  1286104    22854   700416        0             0 java
+May 14 14:50:50 ubuntu kernel: [13577.066415] [  20187]     0 20187  1284565    21604   688128        0             0 java
+May 14 14:50:50 ubuntu kernel: [13577.066416] [  20371]     0 20371  1285078    21854   679936        0             0 java
+May 14 14:50:50 ubuntu kernel: [13577.066418] [  20563]     0 20563  1285078    20137   655360        0             0 java
+May 14 14:50:50 ubuntu kernel: [13577.066419] [  20736]     0 20736  1284822    21667   679936        0             0 java
+May 14 14:50:50 ubuntu kernel: [13577.066420] [  20937]     0 20937  1285078    22166   684032        0             0 java
+May 14 14:50:50 ubuntu kernel: [13577.066421] [  21115]     0 21115  1285591    22473   684032        0             0 java
+May 14 14:50:50 ubuntu kernel: [13577.066422] [  21290]     0 21290  1285591    19567   659456        0             0 java
+May 14 14:50:50 ubuntu kernel: [13577.066424] [  21419]     0 21419  1250770    20817   679936        0             0 java
+May 14 14:50:50 ubuntu kernel: [13577.066425] [  21449]     0 21449    22487     4536   204800        0             0 CofErrDet
+May 14 14:50:50 ubuntu kernel: [13577.066426] [  21479]     0 21479     1158       17    57344        0             0 sh
+May 14 14:50:50 ubuntu kernel: [13577.066427] [  21480]     0 21480  1914384    38182   765952        0             0 java
+May 14 14:50:50 ubuntu kernel: [13577.066429] oom-kill:constraint=CONSTRAINT_NONE,nodemask=(null),cpuset=/,mems_allowed=0,global_oom,task_memcg=/,task=java,pid=2608,uid=1000
+May 14 14:50:50 ubuntu kernel: [13577.066619] Out of memory: Killed process 2608 (java) total-vm:6649176kB, anon-rss:1467496kB, file-rss:0kB, shmem-rss:28kB, UID:1000 pgtables:4420kB oom_score_adj:0
+May 14 14:50:50 ubuntu kernel: [13577.220979] oom_reaper: reaped process 2608 (java), now anon-rss:0kB, file-rss:0kB, shmem-rss:28kB
+May 14 14:50:51 ubuntu jetbrains-clion.desktop[2565]: Killed
+May 14 14:50:56 ubuntu jetbrains-clion.desktop[21596]: OpenJDK 64-Bit Server VM warning: Option UseConcMarkSweepGC was deprecated in version 9.0 and will likely be removed in a future release.
+May 14 14:51:00 ubuntu org.gnome.Shell.desktop[1805]: Window manager warning: Window 0x3a00007 (win0) sets an MWM hint indicating it isn't resizable, but sets min size 1 x 1 and max size 2147483647 x 2147483647; this doesn't make much sense.
+May 14 14:53:30 ubuntu /usr/lib/gdm3/gdm-x-session[1681]: 2021-05-14 14:35:38:215 [1819:140045794842752] SOGOU: virtual n_sgxx::UINT ImeState::ImeProcessKey2(ImeContext*, t_dataImc*, n_sgxx::UINT, DWORD, const BYTE*, t_env*) INFO: ImeProcessKey2, unScancode = 0xc0010001, vk =
+May 14 14:53:30 ubuntu /usr/lib/gdm3/gdm-x-session[1681]: 2021-05-14 14:53:29:436 [1819:140045794842752] SOGOU: virtual bool CSogouShellPCPy::NeedInsert(int) INFO: -----------======---capital = 0, vkey = 49, laskkey = 27, down = 1.
+May 14 14:53:30 ubuntu /usr/lib/gdm3/gdm-x-session[1681]: 2021-05-14 14:53:29:436 [1819:140045794842752] SOGOU: n_sgxx::UINT ImeProcessKey_L(n_sgxx::UINT, DWORD, const BYTE*) INFO: ImeProcessKey:31
+May 14 14:53:30 ubuntu /usr/lib/gdm3/gdm-x-session[1681]:  
+May 14 14:53:30 ubuntu /usr/lib/gdm3/gdm-x-session[1681]: 2021-05-14 14:53:29:440 [1819:140045794842752] SOGOU: virtual n_sgxx::UINT ImeState::ImeProcessKey2(ImeContext*, t_dataImc*, n_sgxx::UINT, DWORD, const BYTE*, t_env*) INFO: ImeProcessKey2, unScancode = 0x00020001, vk = 1
+May 14 14:53:30 ubuntu /usr/lib/gdm3/gdm-x-session[1681]: 2021-05-14 14:53:29:441 [1819:140045794842752] SOGOU: virtual int CSogouShellPCPy::GetInfo(unsigned int) INFO: -----------======---m_nSimulateKey = 0
+May 14 14:53:30 ubuntu /usr/lib/gdm3/gdm-x-session[1681]: 2021-05-14 14:53:29:589 [1819:140045794842752] SOGOU: virtual bool CSogouShellPCPy::NeedInsert(int) INFO: -----------======---capital = 0, vkey = 49, laskkey = 49, down = 0.
+May 14 14:53:30 ubuntu /usr/lib/gdm3/gdm-x-session[1681]: 2021-05-14 14:53:29:589 [1819:140045794842752] SOGOU: n_sgxx::UINT ImeProcessKey_L(n_sgxx::UINT, DWORD, const BYTE*) INFO: ImeProcessKey:31
+May 14 14:53:30 ubuntu /usr/lib/gdm3/gdm-x-session[1681]:  
+May 14 14:53:30 ubuntu /usr/lib/gdm3/gdm-x-session[1681]: 2021-05-14 14:53:29:589 [1819:140045794842752] SOGOU: virtual n_sgxx::UINT ImeState::ImeProcessKey2(ImeContext*, t_dataImc*, n_sgxx::UINT, DWORD, const BYTE*, t_env*) INFO: ImeProcessKey2, unScancode = 0xc0020001, vk =
+May 14 14:53:30 ubuntu /usr/lib/gdm3/gdm-x-session[1681]: 2021-05-14 14:53:29:589 [1819:140045794842752] SOGOU: virtual int CSogouShellPCPy::GetInfo(unsigned int) INFO: -----------======---m_nSimulateKey = 0
+May 14 14:53:30 ubuntu /usr/lib/gdm3/gdm-x-session[1681]: 2021-05-14 14:53:30:120 [1819:140045794842752] SOGOU: virtual bool CSogouShellPCPy::NeedInsert(int) INFO: -----------======---capital = 0, vkey = 160, laskkey = 49, down = 1.
+May 14 14:53:30 ubuntu /usr/lib/gdm3/gdm-x-session[1681]: 2021-05-14 14:53:30:120 [1819:140045794842752] SOGOU: n_sgxx::UINT ImeProcessKey_L(n_sgxx::UINT, DWORD, const BYTE*) INFO: ImeProcessKey:a0
+May 14 14:53:30 ubuntu /usr/lib/gdm3/gdm-x-session[1681]:  
+May 14 14:53:30 ubuntu /usr/lib/gdm3/gdm-x-session[1681]: 2021-05-14 14:53:30:120 [1819:140045794842752] SOGOU: virtual n_sgxx::UINT ImeState::ImeProcessKey2(ImeContext*, t_dataImc*, n_sgxx::UINT, DWORD, const BYTE*, t_env*) INFO: ImeProcessKey2, unScancode = 0x002a0001, vk =
+May 14 14:53:30 ubuntu /usr/lib/gdm3/gdm-x-session[1681]: 2021-05-14 14:53:30:120 [1819:140045794842752] SOGOU: virtual int CSogouShellPCPy::GetInfo(unsigned int) INFO: -----------======---m_nSimulateKey = 0
+May 14 14:53:30 ubuntu /usr/lib/gdm3/gdm-x-session[1681]: 2021-05-14 14:53:30:806 [1819:140045794842752] SOGOU: virtual bool CSogouShellPCPy::NeedInsert(int) INFO: -----------======---capital = 0, vkey = 77, laskkey = 160, down = 1.
+May 14 14:53:30 ubuntu /usr/lib/gdm3/gdm-x-session[1681]: 2021-05-14 14:53:30:806 [1819:140045794842752] SOGOU: n_sgxx::UINT ImeProcessKey_L(n_sgxx::UINT, DWORD, const BYTE*) INFO: ImeProcessKey:4d
+May 14 14:53:30 ubuntu /usr/lib/gdm3/gdm-x-session[1681]:  
+May 14 14:53:30 ubuntu /usr/lib/gdm3/gdm-x-session[1681]: 2021-05-14 14:53:30:806 [1819:140045794842752] SOGOU: virtual n_sgxx::UINT ImeState::ImeProcessKey2(ImeContext*, t_dataImc*, n_sgxx::UINT, DWORD, const BYTE*, t_env*) INFO: ImeProcessKey2, unScancode = 0x00320001, vk = M
+May 14 14:53:30 ubuntu /usr/lib/gdm3/gdm-x-session[1681]: 2021-05-14 14:53:30:818 [1819:140045794842752] SOGOU: int ToAscii(unsigned int, unsigned int, const BYTE*, short unsigned int*, unsigned int) INFO: VK_SHIFT-----down-------
+May 14 14:53:30 ubuntu /usr/lib/gdm3/gdm-x-session[1681]: 2021-05-14 14:53:30:819 [1819:140045794842752] SOGOU: virtual bool CSogouShellPCPy::InsertChar(int) INFO: ToAscii: vkey = 77(M), dwScan = 50, sC  = 77
+May 14 14:53:30 ubuntu /usr/lib/gdm3/gdm-x-session[1681]: 2021-05-14 14:53:30:823 [1819:140045794842752] SOGOU: BOOL ImeState::OnImeToAsciiEx(ImeContext*, PARAM_TOASCIIEX&, n_sgxx::UINT*) INFO: OnImeToAsciiEx, unScancode = 0x00000032, vk =
+May 14 14:53:30 ubuntu /usr/lib/gdm3/gdm-x-session[1681]: 2021-05-14 14:53:30:855 [1819:140045794842752] SOGOU: virtual bool t_PluginManager::OnBeginInput(const wchar_t*) INFO: pluginManager::OnBeginInput, compStr is M
+May 14 14:53:30 ubuntu /usr/lib/gdm3/gdm-x-session[1681]: 2021-05-14 14:53:30:856 [1819:140045794842752] SOGOU: void CSogouShellPCPy::RefreshCompResult() INFO: m_pImcUiWrapper->GetResultStr
+May 14 14:53:30 ubuntu /usr/lib/gdm3/gdm-x-session[1681]: 2021-05-14 14:53:30:856 [1819:140045794842752] SOGOU: void CSogouShellPCPy::RefreshCompResult() INFO: t_autoStrConvW2UTF8 m_strResult
+May 14 14:53:30 ubuntu /usr/lib/gdm3/gdm-x-session[1681]: 2021-05-14 14:53:30:986 [1819:140045794842752] SOGOU: virtual int CSogouShellPCPy::GetInfo(unsigned int) INFO: -----------======---m_nSimulateKey = 0
+May 14 14:53:30 ubuntu /usr/lib/gdm3/gdm-x-session[1681]: 2021-05-14 14:53:30:987 [1819:140045794842752] SOGOU: virtual bool CSogouShellPCPy::NeedInsert(int) INFO: -----------======---capital = 0, vkey = 77, laskkey = 77, down = 0.
+May 14 14:53:31 ubuntu /usr/lib/gdm3/gdm-x-session[1681]: 2021-05-14 14:53:30:988 [1819:140045794842752] SOGOU: n_sgxx::UINT ImeProcessKey_L(n_sgxx::UINT, DWORD, const BYTE*) INFO: ImeProcessKey:4d
+May 14 14:53:31 ubuntu /usr/lib/gdm3/gdm-x-session[1681]:  
+May 14 14:53:31 ubuntu /usr/lib/gdm3/gdm-x-session[1681]: 2021-05-14 14:53:30:988 [1819:140045794842752] SOGOU: virtual n_sgxx::UINT ImeState::ImeProcessKey2(ImeContext*, t_dataImc*, n_sgxx::UINT, DWORD, const BYTE*, t_env*) INFO: ImeProcessKey2, unScancode = 0xc0320001, vk =
+May 14 14:53:31 ubuntu /usr/lib/gdm3/gdm-x-session[1681]: 2021-05-14 14:53:30:988 [1819:140045794842752] SOGOU: virtual int CSogouShellPCPy::GetInfo(unsigned int) INFO: -----------======---m_nSimulateKey = 0
+May 14 14:53:31 ubuntu /usr/lib/gdm3/gdm-x-session[1681]: 2021-05-14 14:53:30:989 [1819:140045794842752] SOGOU: virtual bool CSogouShellPCPy::NeedInsert(int) INFO: -----------======---capital = 0, vkey = 160, laskkey = 77, down = 0.
+May 14 14:53:31 ubuntu /usr/lib/gdm3/gdm-x-session[1681]: 2021-05-14 14:53:30:989 [1819:140045794842752] SOGOU: n_sgxx::UINT ImeProcessKey_L(n_sgxx::UINT, DWORD, const BYTE*) INFO: ImeProcessKey:a0
+May 14 14:53:31 ubuntu /usr/lib/gdm3/gdm-x-session[1681]:  
+May 14 14:53:31 ubuntu /usr/lib/gdm3/gdm-x-session[1681]: 2021-05-14 14:53:30:989 [1819:140045794842752] SOGOU: virtual n_sgxx::UINT ImeState::ImeProcessKey2(ImeContext*, t_dataImc*, n_sgxx::UINT, DWORD, const BYTE*, t_env*) INFO: ImeProcessKey2, unScancode = 0xc02a0001, vk =
+May 14 14:53:31 ubuntu /usr/lib/gdm3/gdm-x-session[1681]: 2021-05-14 14:53:30:990 [1819:140045794842752] SOGOU: virtual int CSogouShellPCPy::GetInfo(unsigned int) INFO: -----------======---m_nSimulateKey = 0
+May 14 14:53:31 ubuntu /usr/lib/gdm3/gdm-x-session[1681]: 2021-05-14 14:53:31:118 [1819:140045794842752] SOGOU: virtual bool CSogouShellPCPy::NeedInsert(int) INFO: -----------======---capital = 0, vkey = 160, laskkey = 160, down = 1.
+May 14 14:53:31 ubuntu /usr/lib/gdm3/gdm-x-session[1681]: 2021-05-14 14:53:31:118 [1819:140045794842752] SOGOU: n_sgxx::UINT ImeProcessKey_L(n_sgxx::UINT, DWORD, const BYTE*) INFO: ImeProcessKey:a0
+May 14 14:53:31 ubuntu /usr/lib/gdm3/gdm-x-session[1681]:  
+May 14 14:53:31 ubuntu /usr/lib/gdm3/gdm-x-session[1681]: 2021-05-14 14:53:31:119 [1819:140045794842752] SOGOU: virtual n_sgxx::UINT ImeState::ImeProcessKey2(ImeContext*, t_dataImc*, n_sgxx::UINT, DWORD, const BYTE*, t_env*) INFO: ImeProcessKey2, unScancode = 0x002a0001, vk =
+May 14 14:53:31 ubuntu /usr/lib/gdm3/gdm-x-session[1681]: 2021-05-14 14:53:31:119 [1819:140045794842752] SOGOU: int ToAscii(unsigned int, unsigned int, const BYTE*, short unsigned int*, unsigned int) INFO: VK_SHIFT-----down-------
+May 14 14:53:31 ubuntu /usr/lib/gdm3/gdm-x-session[1681]: 2021-05-14 14:53:31:119 [1819:140045794842752] SOGOU: virtual bool CSogouShellPCPy::InsertChar(int) INFO: ToAscii: vkey = 160(
+May 14 14:53:31 ubuntu /usr/lib/gdm3/gdm-x-session[1681]: 2021-05-14 14:53:31:119 [1819:140045794842752] SOGOU: BOOL ImeState::OnImeToAsciiEx(ImeContext*, PARAM_TOASCIIEX&, n_sgxx::UINT*) INFO: OnImeToAsciiEx, unScancode = 0x0000002a, vk =
+May 14 14:53:31 ubuntu /usr/lib/gdm3/gdm-x-session[1681]: 2021-05-14 14:53:31:119 [1819:140045794842752] SOGOU: void CSogouShellPCPy::RefreshCompResult() INFO: m_pImcUiWrapper->GetResultStr
+May 14 14:53:31 ubuntu /usr/lib/gdm3/gdm-x-session[1681]: 2021-05-14 14:53:31:119 [1819:140045794842752] SOGOU: void CSogouShellPCPy::RefreshCompResult() INFO: t_autoStrConvW2UTF8 m_strResult
+May 14 14:53:31 ubuntu /usr/lib/gdm3/gdm-x-session[1681]: 2021-05-14 14:53:31:119 [1819:140045794842752] SOGOU: virtual int CSogouShellPCPy::GetInfo(unsigned int) INFO: -----------======---m_nSimulateKey = 0
+May 14 14:53:31 ubuntu /usr/lib/gdm3/gdm-x-session[1681]: 2021-05-14 14:53:31:235 [1819:140045794842752] SOGOU: virtual bool CSogouShellPCPy::NeedInsert(int) INFO: -----------======---capital = 0, vkey = 27, laskkey = 160, down = 1.
+May 14 14:53:31 ubuntu /usr/lib/gdm3/gdm-x-session[1681]: 2021-05-14 14:53:31:235 [1819:140045794842752] SOGOU: n_sgxx::UINT ImeProcessKey_L(n_sgxx::UINT, DWORD, const BYTE*) INFO: ImeProcessKey:1b
+May 14 14:53:31 ubuntu /usr/lib/gdm3/gdm-x-session[1681]:  
+May 14 14:53:31 ubuntu /usr/lib/gdm3/gdm-x-session[1681]: 2021-05-14 14:53:31:236 [1819:140045794842752] SOGOU: virtual n_sgxx::UINT ImeState::ImeProcessKey2(ImeContext*, t_dataImc*, n_sgxx::UINT, DWORD, const BYTE*, t_env*) INFO: ImeProcessKey2, unScancode = 0x00010001, vk =
+May 14 14:53:31 ubuntu /usr/lib/gdm3/gdm-x-session[1681]: 2021-05-14 14:53:31:236 [1819:140045794842752] SOGOU: int ToAscii(unsigned int, unsigned int, const BYTE*, short unsigned int*, unsigned int) INFO: VK_SHIFT-----up-------
+May 14 14:53:31 ubuntu /usr/lib/gdm3/gdm-x-session[1681]: 2021-05-14 14:53:31:236 [1819:140045794842752] SOGOU: virtual bool CSogouShellPCPy::InsertChar(int) INFO: ToAscii: vkey = 27(#033), dwScan = 1, sC  = 27
+May 14 14:53:31 ubuntu /usr/lib/gdm3/gdm-x-session[1681]: 2021-05-14 14:53:31:236 [1819:140045794842752] SOGOU: BOOL ImeState::OnImeToAsciiEx(ImeContext*, PARAM_TOASCIIEX&, n_sgxx::UINT*) INFO: OnImeToAsciiEx, unScancode = 0x00000001, vk =
+May 14 14:53:31 ubuntu /usr/lib/gdm3/gdm-x-session[1681]: 2021-05-14 14:53:31:239 [1819:140045794842752] SOGOU: void CSogouShellPCPy::RefreshCompResult() INFO: m_pImcUiWrapper->GetResultStr
+May 14 14:53:31 ubuntu /usr/lib/gdm3/gdm-x-session[1681]: 2021-05-14 14:53:31:239 [1819:140045794842752] SOGOU: void CSogouShellPCPy::RefreshCompResult() INFO: t_autoStrConvW2UTF8 m_strResult
+May 14 14:53:31 ubuntu /usr/lib/gdm3/gdm-x-session[1681]: 2021-05-14 14:53:31:239 [1819:140045794842752] SOGOU: virtual bool CSogouShellPCPy::NeedInsert(int) INFO: -----------======---capital = 0, vkey = 27, laskkey = 27, down = 0.
+May 14 14:55:05 ubuntu nautilus[4180]: gtk_revealer_set_reveal_child: assertion 'GTK_IS_REVEALER (revealer)' failed
+May 14 14:57:22 ubuntu nautilus[4180]: gtk_revealer_set_reveal_child: assertion 'GTK_IS_REVEALER (revealer)' failed
+May 14 14:58:52 ubuntu nautilus[4180]: gtk_revealer_set_reveal_child: assertion 'GTK_IS_REVEALER (revealer)' failed
+May 14 14:59:42 ubuntu dhclient[7403]: DHCPREQUEST of 192.168.182.129 on ens33 to 192.168.182.254 port 67 (xid=0x18d5c918)
+May 14 14:59:42 ubuntu dhclient[7403]: DHCPACK of 192.168.182.129 from 192.168.182.254
+May 14 14:59:42 ubuntu NetworkManager[704]: <info>  [1620975582.2239] dhcp4 (ens33):   address 192.168.182.129
+May 14 14:59:42 ubuntu NetworkManager[704]: <info>  [1620975582.2240] dhcp4 (ens33):   plen 24 (255.255.255.0)
+May 14 14:59:42 ubuntu NetworkManager[704]: <info>  [1620975582.2240] dhcp4 (ens33):   gateway 192.168.182.2
+May 14 14:59:42 ubuntu NetworkManager[704]: <info>  [1620975582.2241] dhcp4 (ens33):   lease time 1800
+May 14 14:59:42 ubuntu NetworkManager[704]: <info>  [1620975582.2241] dhcp4 (ens33):   nameserver '192.168.182.2'
+May 14 14:59:42 ubuntu NetworkManager[704]: <info>  [1620975582.2241] dhcp4 (ens33):   domain name 'localdomain'
+May 14 14:59:42 ubuntu NetworkManager[704]: <info>  [1620975582.2241] dhcp4 (ens33):   wins '192.168.182.2'
+May 14 14:59:42 ubuntu NetworkManager[704]: <info>  [1620975582.2241] dhcp4 (ens33): state changed bound -> bound
+May 14 14:59:42 ubuntu dbus-daemon[689]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.14' (uid=0 pid=704 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+May 14 14:59:42 ubuntu dhclient[7403]: bound to 192.168.182.129 -- renewal in 756 seconds.
+May 14 14:59:42 ubuntu systemd[1]: Starting Network Manager Script Dispatcher Service...
+May 14 14:59:42 ubuntu dbus-daemon[689]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+May 14 14:59:42 ubuntu systemd[1]: Started Network Manager Script Dispatcher Service.
+May 14 14:59:42 ubuntu nm-dispatcher: req:1 'dhcp4-change' [ens33]: new request (1 scripts)
+May 14 14:59:42 ubuntu nm-dispatcher: req:1 'dhcp4-change' [ens33]: start running ordered scripts...
+May 14 15:00:07 ubuntu nautilus[4180]: gtk_revealer_set_reveal_child: assertion 'GTK_IS_REVEALER (revealer)' failed
+May 14 15:00:40 ubuntu nautilus[4180]: gtk_revealer_set_reveal_child: assertion 'GTK_IS_REVEALER (revealer)' failed
+May 14 15:02:07 ubuntu nautilus[4180]: Called "net usershare info" but it failed: Failed to execute child process “net” (No such file or directory)
+May 14 15:02:12 ubuntu nautilus[4180]: gtk_revealer_set_reveal_child: assertion 'GTK_IS_REVEALER (revealer)' failed
+May 14 15:03:49 ubuntu nautilus[4180]: gtk_revealer_set_reveal_child: assertion 'GTK_IS_REVEALER (revealer)' failed
+May 14 15:03:50 ubuntu nautilus[4180]: Called "net usershare info" but it failed: Failed to execute child process “net” (No such file or directory)
+May 14 15:03:52 ubuntu nautilus[4180]: gtk_revealer_set_reveal_child: assertion 'GTK_IS_REVEALER (revealer)' failed
+May 14 15:04:01 ubuntu systemd[1]: Started Run anacron jobs.
+May 14 15:04:01 ubuntu anacron[23838]: Anacron 2.3 started on 2021-05-14
+May 14 15:04:01 ubuntu anacron[23838]: Normal exit (0 jobs run)
+May 14 15:04:50 ubuntu nautilus[4180]: gtk_revealer_set_reveal_child: assertion 'GTK_IS_REVEALER (revealer)' failed
+May 14 15:05:59 ubuntu nautilus[4180]: gtk_revealer_set_reveal_child: assertion 'GTK_IS_REVEALER (revealer)' failed
+May 14 15:06:55 ubuntu nautilus[4180]: gtk_revealer_set_reveal_child: assertion 'GTK_IS_REVEALER (revealer)' failed
+May 14 15:08:53 ubuntu nautilus[4180]: gtk_revealer_set_reveal_child: assertion 'GTK_IS_REVEALER (revealer)' failed
+May 14 15:09:35 ubuntu nautilus[4180]: gtk_revealer_set_reveal_child: assertion 'GTK_IS_REVEALER (revealer)' failed
+May 14 15:10:22 ubuntu nautilus[4180]: gtk_revealer_set_reveal_child: assertion 'GTK_IS_REVEALER (revealer)' failed
+May 14 15:12:18 ubuntu dhclient[7403]: DHCPREQUEST of 192.168.182.129 on ens33 to 192.168.182.254 port 67 (xid=0x18d5c918)
+May 14 15:12:18 ubuntu dhclient[7403]: DHCPACK of 192.168.182.129 from 192.168.182.254
+May 14 15:12:18 ubuntu NetworkManager[704]: <info>  [1620976338.2521] dhcp4 (ens33):   address 192.168.182.129
+May 14 15:12:18 ubuntu NetworkManager[704]: <info>  [1620976338.2530] dhcp4 (ens33):   plen 24 (255.255.255.0)
+May 14 15:12:18 ubuntu NetworkManager[704]: <info>  [1620976338.2533] dhcp4 (ens33):   gateway 192.168.182.2
+May 14 15:12:18 ubuntu NetworkManager[704]: <info>  [1620976338.2535] dhcp4 (ens33):   lease time 1800
+May 14 15:12:18 ubuntu NetworkManager[704]: <info>  [1620976338.2536] dhcp4 (ens33):   nameserver '192.168.182.2'
+May 14 15:12:18 ubuntu NetworkManager[704]: <info>  [1620976338.2538] dhcp4 (ens33):   domain name 'localdomain'
+May 14 15:12:18 ubuntu NetworkManager[704]: <info>  [1620976338.2539] dhcp4 (ens33):   wins '192.168.182.2'
+May 14 15:12:18 ubuntu NetworkManager[704]: <info>  [1620976338.2540] dhcp4 (ens33): state changed bound -> bound
+May 14 15:12:18 ubuntu dbus-daemon[689]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.14' (uid=0 pid=704 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+May 14 15:12:18 ubuntu dhclient[7403]: bound to 192.168.182.129 -- renewal in 781 seconds.
+May 14 15:12:18 ubuntu systemd[1]: Starting Network Manager Script Dispatcher Service...
+May 14 15:12:18 ubuntu dbus-daemon[689]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+May 14 15:12:18 ubuntu systemd[1]: Started Network Manager Script Dispatcher Service.
+May 14 15:12:18 ubuntu nm-dispatcher: req:1 'dhcp4-change' [ens33]: new request (1 scripts)
+May 14 15:12:18 ubuntu nm-dispatcher: req:1 'dhcp4-change' [ens33]: start running ordered scripts...
+May 14 15:12:56 ubuntu nautilus[4180]: gtk_revealer_set_reveal_child: assertion 'GTK_IS_REVEALER (revealer)' failed
+May 14 15:14:12 ubuntu nautilus[4180]: gtk_revealer_set_reveal_child: assertion 'GTK_IS_REVEALER (revealer)' failed
+May 14 15:15:18 ubuntu jetbrains-clion.desktop[21596]: 2021-05-14 15:15:18,772 [1461495]   WARN - com.intellij.ide.IdeEventQueue - Too many mouse clicks (11)!!!
+May 14 15:15:32 ubuntu nautilus[4180]: gtk_label_set_markup: assertion 'GTK_IS_LABEL (label)' failed
+May 14 15:15:32 ubuntu nautilus[4180]: gtk_revealer_set_reveal_child: assertion 'GTK_IS_REVEALER (revealer)' failed
+May 14 15:15:38 ubuntu nautilus[4180]: g_queue_foreach: assertion 'queue != NULL' failed
+May 14 15:15:38 ubuntu nautilus[4180]: g_queue_free: assertion 'queue != NULL' failed
+May 14 15:15:38 ubuntu nautilus[4180]: g_queue_foreach: assertion 'queue != NULL' failed
+May 14 15:15:38 ubuntu nautilus[4180]: g_queue_free: assertion 'queue != NULL' failed
+May 14 15:15:38 ubuntu nautilus[4180]: gtk_revealer_set_reveal_child: assertion 'GTK_IS_REVEALER (revealer)' failed
+May 14 15:15:44 ubuntu nautilus[4180]: gtk_label_set_markup: assertion 'GTK_IS_LABEL (label)' failed
+May 14 15:15:44 ubuntu nautilus[4180]: gtk_revealer_set_reveal_child: assertion 'GTK_IS_REVEALER (revealer)' failed
+May 14 15:15:51 ubuntu nautilus[4180]: gtk_revealer_set_reveal_child: assertion 'GTK_IS_REVEALER (revealer)' failed
+May 14 15:17:01 ubuntu CRON[25562]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+May 14 15:17:32 ubuntu nautilus[4180]: Called "net usershare info" but it failed: Failed to execute child process “net” (No such file or directory)
+May 14 15:18:28 ubuntu nautilus[4180]: gtk_label_set_markup: assertion 'GTK_IS_LABEL (label)' failed
+May 14 15:18:28 ubuntu nautilus[4180]: gtk_revealer_set_reveal_child: assertion 'GTK_IS_REVEALER (revealer)' failed
+May 14 15:18:29 ubuntu nautilus[4180]: gtk_widget_get_mapped: assertion 'GTK_IS_WIDGET (widget)' failed
+May 14 15:18:29 ubuntu nautilus[4180]: gdk_window_is_visible: assertion 'GDK_IS_WINDOW (window)' failed
+May 14 15:18:29 ubuntu nautilus[4180]: gdk_window_show_internal: assertion 'GDK_IS_WINDOW (window)' failed
+May 14 15:18:29 ubuntu nautilus[4180]: gtk_widget_set_opacity: assertion 'GTK_IS_WIDGET (widget)' failed
+May 14 15:18:29 ubuntu nautilus[4180]: gtk_widget_queue_draw: assertion 'GTK_IS_WIDGET (widget)' failed
+May 14 15:18:30 ubuntu gvfsd-metadata[3286]: g_udev_device_has_property: assertion 'G_UDEV_IS_DEVICE (device)' failed
+May 14 15:18:30 ubuntu gvfsd-metadata[3286]: message repeated 7 times: [ g_udev_device_has_property: assertion 'G_UDEV_IS_DEVICE (device)' failed]
+May 14 15:18:33 ubuntu nautilus[4180]: Called "net usershare info" but it failed: Failed to execute child process “net” (No such file or directory)
+May 14 15:18:34 ubuntu nautilus[4180]: gtk_revealer_set_reveal_child: assertion 'GTK_IS_REVEALER (revealer)' failed
+May 14 15:18:39 ubuntu rtkit-daemon[1509]: Supervising 3 threads of 1 processes of 1 users.
+May 14 15:18:39 ubuntu rtkit-daemon[1509]: message repeated 5 times: [ Supervising 3 threads of 1 processes of 1 users.]
+May 14 15:18:39 ubuntu rtkit-daemon[1509]: Successfully made thread 25728 of process 25620 (n/a) owned by '1000' RT at priority 10.
+May 14 15:18:39 ubuntu rtkit-daemon[1509]: Supervising 4 threads of 2 processes of 1 users.
+May 14 15:18:42 ubuntu rtkit-daemon[1509]: message repeated 6 times: [ Supervising 4 threads of 2 processes of 1 users.]
+May 14 15:19:17 ubuntu systemd[1]: Stopping A high performance web server and a reverse proxy server...
+May 14 15:19:18 ubuntu systemd[1]: Stopped A high performance web server and a reverse proxy server.
+May 14 15:19:18 ubuntu systemd[1]: Starting A high performance web server and a reverse proxy server...
+May 14 15:19:18 ubuntu systemd[1]: Started A high performance web server and a reverse proxy server.
+May 14 15:20:03 ubuntu nautilus[4180]: gtk_revealer_set_reveal_child: assertion 'GTK_IS_REVEALER (revealer)' failed
+May 14 15:20:03 ubuntu nautilus[4180]: gtk_revealer_set_reveal_child: assertion 'GTK_IS_REVEALER (revealer)' failed
+May 14 15:20:31 ubuntu nautilus[4180]: gtk_widget_get_mapped: assertion 'GTK_IS_WIDGET (widget)' failed
+May 14 15:20:31 ubuntu nautilus[4180]: gdk_window_is_visible: assertion 'GDK_IS_WINDOW (window)' failed
+May 14 15:20:31 ubuntu nautilus[4180]: gdk_window_show_internal: assertion 'GDK_IS_WINDOW (window)' failed
+May 14 15:20:31 ubuntu nautilus[4180]: gtk_widget_set_opacity: assertion 'GTK_IS_WIDGET (widget)' failed
+May 14 15:20:31 ubuntu nautilus[4180]: gtk_widget_queue_draw: assertion 'GTK_IS_WIDGET (widget)' failed
+May 14 15:20:32 ubuntu gvfsd-metadata[3286]: g_udev_device_has_property: assertion 'G_UDEV_IS_DEVICE (device)' failed
+May 14 15:20:32 ubuntu gvfsd-metadata[3286]: message repeated 7 times: [ g_udev_device_has_property: assertion 'G_UDEV_IS_DEVICE (device)' failed]
+May 14 15:20:33 ubuntu nautilus[4180]: Called "net usershare info" but it failed: Failed to execute child process “net” (No such file or directory)
+May 14 15:20:36 ubuntu nautilus[4180]: g_queue_pop_head: assertion 'queue != NULL' failed
+May 14 15:20:36 ubuntu nautilus[4180]: message repeated 2 times: [ g_queue_pop_head: assertion 'queue != NULL' failed]
+May 14 15:25:09 ubuntu NetworkManager[704]: <info>  [1620977109.6310] connectivity: (ens33) timed out
+May 14 15:25:09 ubuntu NetworkManager[704]: <info>  [1620977109.6330] manager: NetworkManager state is now CONNECTED_SITE
+May 14 15:25:09 ubuntu dbus-daemon[689]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.14' (uid=0 pid=704 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+May 14 15:25:09 ubuntu whoopsie[1176]: [15:25:09] offline
+May 14 15:25:09 ubuntu systemd[1]: Starting Network Manager Script Dispatcher Service...
+May 14 15:25:09 ubuntu dbus-daemon[689]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+May 14 15:25:09 ubuntu systemd[1]: Started Network Manager Script Dispatcher Service.
+May 14 15:25:09 ubuntu nm-dispatcher: req:1 'connectivity-change': new request (1 scripts)
+May 14 15:25:09 ubuntu nm-dispatcher: req:1 'connectivity-change': start running ordered scripts...
+May 14 15:25:19 ubuntu dhclient[7403]: DHCPREQUEST of 192.168.182.129 on ens33 to 192.168.182.254 port 67 (xid=0x18d5c918)
+May 14 15:25:19 ubuntu dhclient[7403]: DHCPACK of 192.168.182.129 from 192.168.182.254
+May 14 15:25:19 ubuntu NetworkManager[704]: <info>  [1620977119.9413] dhcp4 (ens33):   address 192.168.182.129
+May 14 15:25:19 ubuntu NetworkManager[704]: <info>  [1620977119.9418] dhcp4 (ens33):   plen 24 (255.255.255.0)
+May 14 15:25:19 ubuntu NetworkManager[704]: <info>  [1620977119.9420] dhcp4 (ens33):   gateway 192.168.182.2
+May 14 15:25:19 ubuntu NetworkManager[704]: <info>  [1620977119.9422] dhcp4 (ens33):   lease time 1800
+May 14 15:25:19 ubuntu NetworkManager[704]: <info>  [1620977119.9424] dhcp4 (ens33):   nameserver '192.168.182.2'
+May 14 15:25:19 ubuntu NetworkManager[704]: <info>  [1620977119.9425] dhcp4 (ens33):   domain name 'localdomain'
+May 14 15:25:19 ubuntu NetworkManager[704]: <info>  [1620977119.9426] dhcp4 (ens33):   wins '192.168.182.2'
+May 14 15:25:19 ubuntu NetworkManager[704]: <info>  [1620977119.9429] dhcp4 (ens33): state changed bound -> bound
+May 14 15:25:19 ubuntu dbus-daemon[689]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.14' (uid=0 pid=704 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+May 14 15:25:19 ubuntu systemd[1]: Starting Network Manager Script Dispatcher Service...
+May 14 15:25:19 ubuntu dbus-daemon[689]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+May 14 15:25:19 ubuntu dhclient[7403]: bound to 192.168.182.129 -- renewal in 888 seconds.
+May 14 15:25:19 ubuntu systemd[1]: Started Network Manager Script Dispatcher Service.
+May 14 15:25:19 ubuntu nm-dispatcher: req:1 'dhcp4-change' [ens33]: new request (1 scripts)
+May 14 15:25:19 ubuntu nm-dispatcher: req:1 'dhcp4-change' [ens33]: start running ordered scripts...
+May 14 15:27:50 ubuntu mysql 2021-05-14T07:27:50.215496Z 88 [Note] Aborted connection 88 to db: 'wise' user: 'root' host: 'localhost' (Got an error reading communication packets)
+May 14 15:27:52 ubuntu jetbrains-clion.desktop[21596]: 2021-05-14 15:27:52,021 [2214744]   WARN - com.intellij.ide.IdeEventQueue - Too many mouse clicks (15)!!!
+May 14 15:27:52 ubuntu jetbrains-clion.desktop[21596]: 2021-05-14 15:27:52,074 [2214797]   WARN - com.intellij.ide.IdeEventQueue - Too many mouse clicks (15)!!!
+May 14 15:27:52 ubuntu jetbrains-clion.desktop[21596]: 2021-05-14 15:27:52,120 [2214843]   WARN - com.intellij.ide.IdeEventQueue - Too many mouse clicks (15)!!!
+May 14 15:27:53 ubuntu jetbrains-clion.desktop[21596]: 2021-05-14 15:27:53,237 [2215960]   WARN - com.intellij.ide.IdeEventQueue - Too many mouse clicks (12)!!!
+May 14 15:27:53 ubuntu jetbrains-clion.desktop[21596]: 2021-05-14 15:27:53,280 [2216003]   WARN - com.intellij.ide.IdeEventQueue - Too many mouse clicks (12)!!!
+May 14 15:27:53 ubuntu jetbrains-clion.desktop[21596]: 2021-05-14 15:27:53,288 [2216011]   WARN - com.intellij.ide.IdeEventQueue - Too many mouse clicks (12)!!!
+May 14 15:27:53 ubuntu jetbrains-clion.desktop[21596]: 2021-05-14 15:27:53,351 [2216074]   WARN - com.intellij.ide.IdeEventQueue - Too many mouse clicks (12)!!!
+May 14 15:28:08 ubuntu nautilus[4180]: Called "net usershare info" but it failed: Failed to execute child process “net” (No such file or directory)
+May 14 15:28:10 ubuntu nautilus[4180]: gtk_label_set_markup: assertion 'GTK_IS_LABEL (label)' failed
+May 14 15:28:10 ubuntu nautilus[4180]: gtk_revealer_set_reveal_child: assertion 'GTK_IS_REVEALER (revealer)' failed
+May 14 15:28:45 ubuntu nautilus[4180]: message repeated 2 times: [ gtk_revealer_set_reveal_child: assertion 'GTK_IS_REVEALER (revealer)' failed]
+May 14 15:29:41 ubuntu NetworkManager[704]: <info>  [1620977381.2154] manager: NetworkManager state is now CONNECTED_GLOBAL
+May 14 15:29:41 ubuntu dbus-daemon[689]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.14' (uid=0 pid=704 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+May 14 15:29:41 ubuntu whoopsie[1176]: [15:29:41] The default IPv4 route is: /org/freedesktop/NetworkManager/ActiveConnection/5
+May 14 15:29:41 ubuntu systemd[1]: Starting Network Manager Script Dispatcher Service...
+May 14 15:29:41 ubuntu whoopsie[1176]: [15:29:41] Not a paid data plan: /org/freedesktop/NetworkManager/ActiveConnection/5
+May 14 15:29:41 ubuntu whoopsie[1176]: [15:29:41] Found usable connection: /org/freedesktop/NetworkManager/ActiveConnection/5
+May 14 15:29:41 ubuntu dbus-daemon[689]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+May 14 15:29:41 ubuntu systemd[1]: Started Network Manager Script Dispatcher Service.
+May 14 15:29:41 ubuntu nm-dispatcher: req:1 'connectivity-change': new request (1 scripts)
+May 14 15:29:41 ubuntu nm-dispatcher: req:1 'connectivity-change': start running ordered scripts...
+May 14 15:29:42 ubuntu whoopsie[1176]: [15:29:42] online
+May 14 15:29:46 ubuntu nautilus[4180]: gtk_revealer_set_reveal_child: assertion 'GTK_IS_REVEALER (revealer)' failed
+May 14 15:34:40 ubuntu nautilus[4180]: gtk_revealer_set_reveal_child: assertion 'GTK_IS_REVEALER (revealer)' failed
+May 14 15:35:27 ubuntu nautilus[4180]: gtk_revealer_set_reveal_child: assertion 'GTK_IS_REVEALER (revealer)' failed
+May 14 15:36:17 ubuntu nautilus[4180]: gtk_revealer_set_reveal_child: assertion 'GTK_IS_REVEALER (revealer)' failed
+May 14 15:37:14 ubuntu nautilus[4180]: gtk_revealer_set_reveal_child: assertion 'GTK_IS_REVEALER (revealer)' failed
+May 14 15:38:56 ubuntu nautilus[4180]: gtk_revealer_set_reveal_child: assertion 'GTK_IS_REVEALER (revealer)' failed
+May 14 15:39:30 ubuntu nautilus[4180]: gtk_revealer_set_reveal_child: assertion 'GTK_IS_REVEALER (revealer)' failed
+May 14 15:40:07 ubuntu dhclient[7403]: DHCPREQUEST of 192.168.182.129 on ens33 to 192.168.182.254 port 67 (xid=0x18d5c918)
+May 14 15:40:07 ubuntu dhclient[7403]: DHCPACK of 192.168.182.129 from 192.168.182.254
+May 14 15:40:07 ubuntu NetworkManager[704]: <info>  [1620978007.3218] dhcp4 (ens33):   address 192.168.182.129
+May 14 15:40:07 ubuntu NetworkManager[704]: <info>  [1620978007.3230] dhcp4 (ens33):   plen 24 (255.255.255.0)
+May 14 15:40:07 ubuntu NetworkManager[704]: <info>  [1620978007.3239] dhcp4 (ens33):   gateway 192.168.182.2
+May 14 15:40:07 ubuntu NetworkManager[704]: <info>  [1620978007.3239] dhcp4 (ens33):   lease time 1800
+May 14 15:40:07 ubuntu NetworkManager[704]: <info>  [1620978007.3239] dhcp4 (ens33):   nameserver '192.168.182.2'
+May 14 15:40:07 ubuntu NetworkManager[704]: <info>  [1620978007.3240] dhcp4 (ens33):   domain name 'localdomain'
+May 14 15:40:07 ubuntu NetworkManager[704]: <info>  [1620978007.3240] dhcp4 (ens33):   wins '192.168.182.2'
+May 14 15:40:07 ubuntu NetworkManager[704]: <info>  [1620978007.3240] dhcp4 (ens33): state changed bound -> bound
+May 14 15:40:07 ubuntu dbus-daemon[689]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.14' (uid=0 pid=704 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+May 14 15:40:07 ubuntu dhclient[7403]: bound to 192.168.182.129 -- renewal in 710 seconds.
+May 14 15:40:07 ubuntu systemd[1]: Starting Network Manager Script Dispatcher Service...
+May 14 15:40:07 ubuntu dbus-daemon[689]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+May 14 15:40:07 ubuntu systemd[1]: Started Network Manager Script Dispatcher Service.
+May 14 15:40:07 ubuntu nm-dispatcher: req:1 'dhcp4-change' [ens33]: new request (1 scripts)
+May 14 15:40:07 ubuntu nm-dispatcher: req:1 'dhcp4-change' [ens33]: start running ordered scripts...
+May 14 15:40:31 ubuntu nautilus[4180]: gtk_revealer_set_reveal_child: assertion 'GTK_IS_REVEALER (revealer)' failed
+May 14 15:41:19 ubuntu nautilus[4180]: gtk_revealer_set_reveal_child: assertion 'GTK_IS_REVEALER (revealer)' failed
+May 14 15:42:03 ubuntu nautilus[4180]: gtk_revealer_set_reveal_child: assertion 'GTK_IS_REVEALER (revealer)' failed
+May 14 15:42:31 ubuntu nautilus[4180]: gtk_label_set_markup: assertion 'GTK_IS_LABEL (label)' failed
+May 14 15:42:31 ubuntu nautilus[4180]: gtk_revealer_set_reveal_child: assertion 'GTK_IS_REVEALER (revealer)' failed
+May 14 15:42:33 ubuntu nautilus[4180]: Called "net usershare info" but it failed: Failed to execute child process “net” (No such file or directory)
+May 14 15:42:37 ubuntu nautilus[4180]: gtk_revealer_set_reveal_child: assertion 'GTK_IS_REVEALER (revealer)' failed
+May 14 15:42:37 ubuntu /usr/lib/gdm3/gdm-x-session[1681]: (EE) client bug: timer event2 debounce short: offset negative (-0ms)
+May 14 15:42:44 ubuntu /usr/lib/gdm3/gdm-x-session[1681]: (EE) client bug: timer event2 debounce: offset negative (-413ms)
+May 14 15:42:45 ubuntu /usr/lib/gdm3/gdm-x-session[1681]: (EE) client bug: timer event2 debounce short: offset negative (-537ms)
+May 14 15:42:49 ubuntu /usr/lib/gdm3/gdm-x-session[1681]: (II) event2  - VirtualPS/2 VMware VMMouse: SYN_DROPPED event - some input events have been lost.
+May 14 15:42:53 ubuntu /usr/lib/gdm3/gdm-x-session[1681]: (EE) client bug: timer event2 debounce: offset negative (-3ms)
+May 14 15:42:53 ubuntu /usr/lib/gdm3/gdm-x-session[1681]: (EE) client bug: timer event2 debounce short: offset negative (-2ms)
+May 14 15:42:59 ubuntu /usr/lib/gdm3/gdm-x-session[1681]: (EE) client bug: timer event2 debounce: offset negative (-2844ms)
+May 14 15:43:00 ubuntu /usr/lib/gdm3/gdm-x-session[1681]: (EE) client bug: timer event2 debounce: offset negative (-2769ms)
+May 14 15:43:02 ubuntu /usr/lib/gdm3/gdm-x-session[1681]: (EE) client bug: timer event2 debounce short: offset negative (-2782ms)
+May 14 15:43:12 ubuntu kernel: [16718.739588] VM Periodic Tas invoked oom-killer: gfp_mask=0x100cca(GFP_HIGHUSER_MOVABLE), order=0, oom_score_adj=0
+May 14 15:43:12 ubuntu kernel: [16718.741029] CPU: 2 PID: 28248 Comm: VM Periodic Tas Not tainted 5.4.0-72-generic #80~18.04.1-Ubuntu
+May 14 15:43:12 ubuntu kernel: [16718.741030] Hardware name: VMware, Inc. VMware Virtual Platform/440BX Desktop Reference Platform, BIOS 6.00 04/13/2018
+May 14 15:43:12 ubuntu kernel: [16718.741030] Call Trace:
+May 14 15:43:12 ubuntu kernel: [16718.741098]  dump_stack+0x6d/0x8b
+May 14 15:43:12 ubuntu kernel: [16718.741101]  dump_header+0x4f/0x200
+May 14 15:43:12 ubuntu kernel: [16718.741103]  oom_kill_process+0xe6/0x120
+May 14 15:43:12 ubuntu kernel: [16718.741104]  out_of_memory+0x109/0x510
+May 14 15:43:12 ubuntu kernel: [16718.741106]  __alloc_pages_slowpath+0xa9b/0xe50
+May 14 15:43:12 ubuntu kernel: [16718.741108]  ? __switch_to_asm+0x34/0x70
+May 14 15:43:12 ubuntu kernel: [16718.741110]  __alloc_pages_nodemask+0x2cd/0x320
+May 14 15:43:12 ubuntu kernel: [16718.741112]  alloc_pages_current+0x6a/0xe0
+May 14 15:43:12 ubuntu kernel: [16718.741113]  __page_cache_alloc+0x6a/0xa0
+May 14 15:43:12 ubuntu kernel: [16718.741397]  pagecache_get_page+0xab/0x2c0
+May 14 15:43:12 ubuntu kernel: [16718.741401]  filemap_fault+0x685/0xb80
+May 14 15:43:12 ubuntu kernel: [16718.741403]  ? unlock_page_memcg+0x12/0x20
+May 14 15:43:12 ubuntu kernel: [16718.741405]  ? page_add_file_rmap+0x13a/0x180
+May 14 15:43:12 ubuntu kernel: [16718.741407]  ? xas_load+0xc/0x80
+May 14 15:43:12 ubuntu kernel: [16718.741408]  ? xas_find+0x16f/0x1b0
+May 14 15:43:12 ubuntu kernel: [16718.741421]  ? filemap_map_pages+0x181/0x3b0
+May 14 15:43:12 ubuntu kernel: [16718.741423]  ext4_filemap_fault+0x31/0x50
+May 14 15:43:12 ubuntu kernel: [16718.741425]  __do_fault+0x57/0x110
+May 14 15:43:12 ubuntu kernel: [16718.741426]  __handle_mm_fault+0xdde/0x1270
+May 14 15:43:12 ubuntu kernel: [16718.741428]  handle_mm_fault+0xcb/0x210
+May 14 15:43:12 ubuntu kernel: [16718.741717]  __do_page_fault+0x2a1/0x4d0
+May 14 15:43:12 ubuntu kernel: [16718.741720]  do_page_fault+0x2c/0xe0
+May 14 15:43:12 ubuntu kernel: [16718.741722]  page_fault+0x34/0x40
+May 14 15:43:12 ubuntu kernel: [16718.741723] RIP: 0033:0x7ff1c52a3960
+May 14 15:43:12 ubuntu kernel: [16718.741727] Code: Bad RIP value.
+May 14 15:43:12 ubuntu kernel: [16718.741728] RSP: 002b:00007ff18d665d38 EFLAGS: 00010202
+May 14 15:43:12 ubuntu kernel: [16718.741729] RAX: 00007ff1c5a2b1e8 RBX: 00007ff1c69cb5e8 RCX: 0000000000000002
+May 14 15:43:12 ubuntu kernel: [16718.741730] RDX: 0000000000000001 RSI: 0000000000000002 RDI: 00007ff1bc159970
+May 14 15:43:12 ubuntu kernel: [16718.741731] RBP: 00007ff18d665d50 R08: 000000000000414e R09: 0000000000000032
+May 14 15:43:12 ubuntu kernel: [16718.741731] R10: 00007ff18d665d20 R11: 0000000000000206 R12: 00007ff1bc14f2e0
+May 14 15:43:12 ubuntu kernel: [16718.741731] R13: 0000000000000001 R14: 0000000000000001 R15: 0000000000000002
+May 14 15:43:12 ubuntu kernel: [16718.741733] Mem-Info:
+May 14 15:43:12 ubuntu kernel: [16718.741736] active_anon:1155585 inactive_anon:165089 isolated_anon:0
+May 14 15:43:12 ubuntu kernel: [16718.741736]  active_file:27 inactive_file:61 isolated_file:0
+May 14 15:43:12 ubuntu kernel: [16718.741736]  unevictable:4 dirty:29 writeback:0 unstable:0
+May 14 15:43:12 ubuntu kernel: [16718.741736]  slab_reclaimable:15826 slab_unreclaimable:26554
+May 14 15:43:12 ubuntu kernel: [16718.741736]  mapped:754 shmem:1496 pagetables:18499 bounce:0
+May 14 15:43:12 ubuntu kernel: [16718.741736]  free:23640 free_pcp:1270 free_cma:0
+May 14 15:43:12 ubuntu kernel: [16718.741738] Node 0 active_anon:4622340kB inactive_anon:660356kB active_file:108kB inactive_file:244kB unevictable:16kB isolated(anon):0kB isolated(file):0kB mapped:3016kB dirty:116kB writeback:0kB shmem:5984kB shmem_thp: 0kB shmem_pmdmapped: 0kB anon_thp: 0kB writeback_tmp:0kB unstable:0kB all_unreclaimable? no
+May 14 15:43:12 ubuntu kernel: [16718.741739] Node 0 DMA free:15872kB min:176kB low:220kB high:264kB active_anon:0kB inactive_anon:0kB active_file:0kB inactive_file:0kB unevictable:0kB writepending:0kB present:15988kB managed:15904kB mlocked:0kB kernel_stack:0kB pagetables:0kB bounce:0kB free_pcp:0kB local_pcp:0kB free_cma:0kB
+May 14 15:43:12 ubuntu kernel: [16718.741741] lowmem_reserve[]: 0 2951 5854 5854 5854
+May 14 15:43:12 ubuntu kernel: [16718.741742] Node 0 DMA32 free:45452kB min:33980kB low:42472kB high:50964kB active_anon:2440948kB inactive_anon:418804kB active_file:320kB inactive_file:460kB unevictable:0kB writepending:0kB present:3129152kB managed:3063616kB mlocked:0kB kernel_stack:11552kB pagetables:20188kB bounce:0kB free_pcp:1068kB local_pcp:288kB free_cma:0kB
+May 14 15:43:12 ubuntu kernel: [16718.741745] lowmem_reserve[]: 0 0 2902 2902 2902
+May 14 15:43:12 ubuntu kernel: [16718.741746] Node 0 Normal free:33236kB min:33420kB low:41772kB high:50124kB active_anon:2181392kB inactive_anon:241552kB active_file:228kB inactive_file:1060kB unevictable:16kB writepending:116kB present:3145728kB managed:2980432kB mlocked:16kB kernel_stack:19056kB pagetables:53808kB bounce:0kB free_pcp:4012kB local_pcp:1052kB free_cma:0kB
+May 14 15:43:12 ubuntu kernel: [16718.741748] lowmem_reserve[]: 0 0 0 0 0
+May 14 15:43:12 ubuntu kernel: [16718.741749] Node 0 DMA: 0*4kB 0*8kB 0*16kB 0*32kB 2*64kB (U) 1*128kB (U) 1*256kB (U) 0*512kB 1*1024kB (U) 1*2048kB (M) 3*4096kB (M) = 15872kB
+May 14 15:43:12 ubuntu kernel: [16718.741753] Node 0 DMA32: 221*4kB (UME) 622*8kB (UME) 366*16kB (UME) 181*32kB (UME) 124*64kB (UME) 59*128kB (UE) 21*256kB (UME) 5*512kB (UE) 3*1024kB (UME) 1*2048kB (U) 0*4096kB = 46052kB
+May 14 15:43:12 ubuntu kernel: [16718.741757] Node 0 Normal: 1791*4kB (UME) 647*8kB (UME) 321*16kB (UME) 227*32kB (UME) 112*64kB (UME) 18*128kB (UME) 0*256kB 0*512kB 0*1024kB 0*2048kB 0*4096kB = 34212kB
+May 14 15:43:12 ubuntu kernel: [16718.741762] Node 0 hugepages_total=0 hugepages_free=0 hugepages_surp=0 hugepages_size=1048576kB
+May 14 15:43:12 ubuntu kernel: [16718.741763] Node 0 hugepages_total=0 hugepages_free=0 hugepages_surp=0 hugepages_size=2048kB
+May 14 15:43:12 ubuntu kernel: [16718.741763] 1831 total pagecache pages
+May 14 15:43:12 ubuntu kernel: [16718.741767] 99 pages in swap cache
+May 14 15:43:12 ubuntu kernel: [16718.741768] Swap cache stats: add 428154, delete 428056, find 31391/57878
+May 14 15:43:12 ubuntu kernel: [16718.741768] Free swap  = 0kB
+May 14 15:43:12 ubuntu kernel: [16718.741769] Total swap = 969960kB
+May 14 15:43:12 ubuntu kernel: [16718.741769] 1572717 pages RAM
+May 14 15:43:12 ubuntu kernel: [16718.741770] 0 pages HighMem/MovableOnly
+May 14 15:43:12 ubuntu kernel: [16718.741770] 57729 pages reserved
+May 14 15:43:12 ubuntu kernel: [16718.741770] 0 pages cma reserved
+May 14 15:43:12 ubuntu kernel: [16718.741771] 0 pages hwpoisoned
+May 14 15:43:12 ubuntu kernel: [16718.741795] Tasks state (memory values in pages):
+May 14 15:43:12 ubuntu kernel: [16718.741796] [  pid  ]   uid  tgid total_vm      rss pgtables_bytes swapents oom_score_adj name
+May 14 15:43:12 ubuntu kernel: [16718.741810] [    392]     0   392    32084      155   225280      208             0 systemd-journal
+May 14 15:43:12 ubuntu kernel: [16718.741812] [    418]     0   418    11840       13   131072      509         -1000 systemd-udevd
+May 14 15:43:12 ubuntu kernel: [16718.741814] [    574]   101   574    17698       77   192512      125             0 systemd-resolve
+May 14 15:43:12 ubuntu kernel: [16718.741815] [    575] 62583   575    36535       13   192512      144             0 systemd-timesyn
+May 14 15:43:12 ubuntu kernel: [16718.741817] [    643]     0   643   108583       51   348160      327             0 ModemManager
+May 14 15:43:12 ubuntu kernel: [16718.741818] [    647]   102   647    84725      120   184320      378             0 rsyslogd
+May 14 15:43:12 ubuntu kernel: [16718.741820] [    653]     0   653     1139        0    53248       34             0 acpid
+May 14 15:43:12 ubuntu kernel: [16718.741821] [    660]     0   660    17710       73   188416      159             0 systemd-logind
+May 14 15:43:12 ubuntu kernel: [16718.741822] [    662]     0   662    72345       55   200704      200             0 accounts-daemon
+May 14 15:43:12 ubuntu kernel: [16718.741823] [    663]     0   663     8269       25   114688       48             0 cron
+May 14 15:43:12 ubuntu kernel: [16718.741825] [    679]     0   679   125865      238   348160      371             0 udisksd
+May 14 15:43:12 ubuntu kernel: [16718.741825] [    687]     0   687    43070        1   233472     1987             0 networkd-dispat
+May 14 15:43:12 ubuntu kernel: [16718.741827] [    689]   103   689    12937      480   143360      105          -900 dbus-daemon
+May 14 15:43:12 ubuntu kernel: [16718.741828] [    704]     0   704   140631      427   458752      335             0 NetworkManager
+May 14 15:43:12 ubuntu kernel: [16718.741829] [    705]     0   705    11309       16   126976      127             0 wpa_supplicant
+May 14 15:43:12 ubuntu kernel: [16718.741830] [    707]     0   707    27630       39   118784       59             0 irqbalance
+May 14 15:43:12 ubuntu kernel: [16718.741831] [    708]   116   708    11816       44   143360       66             0 avahi-daemon
+May 14 15:43:12 ubuntu kernel: [16718.741832] [    710]   116   710    11770        7   131072       78             0 avahi-daemon
+May 14 15:43:12 ubuntu kernel: [16718.741833] [    754]     0   754    74578      763   221184       99             0 polkitd
+May 14 15:43:12 ubuntu kernel: [16718.741834] [    756]     0   756   364870     1203   352256     2319          -900 snapd
+May 14 15:43:12 ubuntu kernel: [16718.741835] [    777]     0   777    47250        0   262144     2001             0 unattended-upgr
+May 14 15:43:12 ubuntu kernel: [16718.741837] [    798]     0   798    75709        0   225280      375             0 gdm3
+May 14 15:43:12 ubuntu kernel: [16718.741838] [   1005]     0  1005    48282       11   139264      140             0 vmware-vmblock-
+May 14 15:43:12 ubuntu kernel: [16718.741839] [   1030]     0  1030    79247      108   241664      202             0 upowerd
+May 14 15:43:12 ubuntu kernel: [16718.741840] [   1061]     0  1061    64050        1   274432      300             0 gdm-session-wor
+May 14 15:43:12 ubuntu kernel: [16718.741842] [   1071]     0  1071    47266      215   262144      437             0 vmtoolsd
+May 14 15:43:12 ubuntu kernel: [16718.741843] [   1121]   121  1121    19259        1   188416      352             0 systemd
+May 14 15:43:12 ubuntu kernel: [16718.741844] [   1122]   121  1122    28488       31   253952      598             0 (sd-pam)
+May 14 15:43:12 ubuntu kernel: [16718.741845] [   1150]   121  1150    51695        1   172032      165             0 gdm-x-session
+May 14 15:43:12 ubuntu kernel: [16718.741846] [   1153]   121  1153    90979       61   516096     3805             0 Xorg
+May 14 15:43:12 ubuntu kernel: [16718.741847] [   1160]     0  1160    16842        0   176128      399             0 VGAuthService
+May 14 15:43:12 ubuntu kernel: [16718.741848] [   1176]   112  1176   116083      157   393216      276             0 whoopsie
+May 14 15:43:12 ubuntu kernel: [16718.741849] [   1189]   113  1189    14236       27   147456       86             0 kerneloops
+May 14 15:43:12 ubuntu kernel: [16718.741851] [   1198]   113  1198    14236       27   143360       86             0 kerneloops
+May 14 15:43:12 ubuntu kernel: [16718.741852] [   1478]   121  1478    12567        1   147456      215             0 dbus-daemon
+May 14 15:43:12 ubuntu kernel: [16718.741853] [   1481]   121  1481   156843      149   438272      444             0 gnome-session-b
+May 14 15:43:12 ubuntu kernel: [16718.741854] [   1484]   121  1484    87323        1   172032      196             0 at-spi-bus-laun
+May 14 15:43:12 ubuntu kernel: [16718.741855] [   1489]   121  1489    12483        0   151552      119             0 dbus-daemon
+May 14 15:43:12 ubuntu kernel: [16718.741856] [   1491]   121  1491    55178        0   204800      207             0 at-spi2-registr
+May 14 15:43:12 ubuntu kernel: [16718.741896] [   1501]   121  1501   854296      186  1523712    16801             0 gnome-shell
+May 14 15:43:12 ubuntu kernel: [16718.741899] [   1508]   121  1508   329782        0   516096      932             0 pulseaudio
+May 14 15:43:12 ubuntu kernel: [16718.741900] [   1509]   109  1509    45878       22   126976       55             0 rtkit-daemon
+May 14 15:43:12 ubuntu kernel: [16718.741901] [   1524]   121  1524    89033        1   204800      366             0 ibus-daemon
+May 14 15:43:12 ubuntu kernel: [16718.741902] [   1527]   121  1527    68848        0   172032      180             0 ibus-dconf
+May 14 15:43:12 ubuntu kernel: [16718.741904] [   1530]   121  1530    84684        1   413696     1183             0 ibus-x11
+May 14 15:43:12 ubuntu kernel: [16718.741905] [   1533]   121  1533    68301        0   172032      173             0 ibus-portal
+May 14 15:43:12 ubuntu kernel: [16718.741906] [   1542]   121  1542    66552        0   147456      147             0 xdg-permission-
+May 14 15:43:12 ubuntu kernel: [16718.741907] [   1549]     0  1549    72880       51   200704      133             0 boltd
+May 14 15:43:12 ubuntu kernel: [16718.741908] [   1553]     0  1553   129378      161   425984     4341             0 packagekitd
+May 14 15:43:12 ubuntu kernel: [16718.741909] [   1557]   121  1557   122427        2   454656     1370             0 gsd-xsettings
+May 14 15:43:12 ubuntu kernel: [16718.741929] [   1558]   121  1558    68202        0   176128      179             0 gsd-a11y-settin
+May 14 15:43:12 ubuntu kernel: [16718.741931] [   1561]   121  1561    84585        1   430080     1188             0 gsd-clipboard
+May 14 15:43:12 ubuntu kernel: [16718.741932] [   1566]   121  1566   163395      222   499712     1044             0 gsd-color
+May 14 15:43:12 ubuntu kernel: [16718.741933] [   1567]   121  1567    97091        0   425984      490             0 gsd-datetime
+May 14 15:43:12 ubuntu kernel: [16718.741934] [   1569]   121  1569    69597        0   172032      164             0 gsd-housekeepin
+May 14 15:43:12 ubuntu kernel: [16718.741935] [   1574]   121  1574   125315        1   479232     1257             0 gsd-keyboard
+May 14 15:43:12 ubuntu kernel: [16718.741936] [   1576]   121  1576   252758      154   557056     1214             0 gsd-media-keys
+May 14 15:43:12 ubuntu kernel: [16718.741937] [   1578]   121  1578    49161        0   147456      151             0 gsd-mouse
+May 14 15:43:12 ubuntu kernel: [16718.741938] [   1583]   121  1583   146452      162   503808     1164             0 gsd-power
+May 14 15:43:12 ubuntu kernel: [16718.741940] [   1584]   121  1584    65415        0   266240      304             0 gsd-print-notif
+May 14 15:43:12 ubuntu kernel: [16718.741941] [   1587]   121  1587    49166        0   151552      149             0 gsd-rfkill
+May 14 15:43:12 ubuntu kernel: [16718.741941] [   1589]   121  1589    67595        0   159744      161             0 gsd-screensaver
+May 14 15:43:12 ubuntu kernel: [16718.741943] [   1595]   121  1595    74941        0   208896      278             0 gsd-sharing
+May 14 15:43:12 ubuntu kernel: [16718.741944] [   1603]   121  1603    93181        1   225280      262             0 gsd-smartcard
+May 14 15:43:12 ubuntu kernel: [16718.741945] [   1608]   121  1608    82407        0   266240      283             0 gsd-sound
+May 14 15:43:12 ubuntu kernel: [16718.741946] [   1612]   121  1612   105813        1   466944     1275             0 gsd-wacom
+May 14 15:43:12 ubuntu kernel: [16718.741947] [   1628]   117  1628    79907        1   274432     1207             0 colord
+May 14 15:43:12 ubuntu kernel: [16718.741948] [   1651]   121  1651    49884        0   163840      181             0 ibus-engine-sim
+May 14 15:43:12 ubuntu kernel: [16718.741949] [   1660]     0  1660   102496        1   303104      367             0 gdm-session-wor
+May 14 15:43:12 ubuntu kernel: [16718.741950] [   1663]  1000  1663    19290       39   192512      362             0 systemd
+May 14 15:43:12 ubuntu kernel: [16718.741952] [   1664]  1000  1664    28490       31   253952      603             0 (sd-pam)
+May 14 15:43:12 ubuntu kernel: [16718.741953] [   1677]  1000  1677    70825      108   184320      175             0 gnome-keyring-d
+May 14 15:43:12 ubuntu kernel: [16718.741954] [   1681]  1000  1681    51724        1   167936      208             0 gdm-x-session
+May 14 15:43:12 ubuntu kernel: [16718.741955] [   1683]  1000  1683   133525    12184   745472     4908             0 Xorg
+May 14 15:43:12 ubuntu kernel: [16718.741956] [   1687]  1000  1687    13404      366   155648      695             0 dbus-daemon
+May 14 15:43:12 ubuntu kernel: [16718.741957] [   1690]  1000  1690   159247      279   442368      433             0 gnome-session-b
+May 14 15:43:12 ubuntu kernel: [16718.741958] [   1714]  1000  1714   107754      332   552960     3186             0 fcitx
+May 14 15:43:12 ubuntu kernel: [16718.741960] [   1733]  1000  1733    12520       79   139264       74             0 dbus-daemon
+May 14 15:43:12 ubuntu kernel: [16718.741961] [   1741]  1000  1741     6900       12    98304       41             0 fcitx-dbus-watc
+May 14 15:43:12 ubuntu kernel: [16718.741962] [   1777]  1000  1777     2828       10    61440       70             0 ssh-agent
+May 14 15:43:12 ubuntu kernel: [16718.742148] [   1781]  1000  1781    87326        0   176128      199             0 at-spi-bus-laun
+May 14 15:43:12 ubuntu kernel: [16718.742150] [   1786]  1000  1786    12514       83   147456       77             0 dbus-daemon
+May 14 15:43:12 ubuntu kernel: [16718.742151] [   1788]  1000  1788    55178      103   204800      115             0 at-spi2-registr
+May 14 15:43:12 ubuntu kernel: [16718.742153] [   1805]  1000  1805   914167    18152  1863680    14794             0 gnome-shell
+May 14 15:43:12 ubuntu kernel: [16718.742154] [   1819]  1000  1819   347519     3054  1241088     6626             0 sogoupinyinServ
+May 14 15:43:12 ubuntu kernel: [16718.742155] [   1821]  1000  1821    71689      132   196608      122             0 gvfsd
+May 14 15:43:12 ubuntu kernel: [16718.742157] [   1826]  1000  1826   104029        0   172032      236             0 gvfsd-fuse
+May 14 15:43:12 ubuntu kernel: [16718.742158] [   1840]  1000  1840   399594        0   577536      979             0 pulseaudio
+May 14 15:43:12 ubuntu kernel: [16718.742159] [   1858]  1000  1858    89096      211   196608      158             0 ibus-daemon
+May 14 15:43:12 ubuntu kernel: [16718.742160] [   1862]  1000  1862    68909        0   167936      199             0 ibus-dconf
+May 14 15:43:12 ubuntu kernel: [16718.742161] [   1864]  1000  1864    84835       93   438272     1087             0 ibus-x11
+May 14 15:43:12 ubuntu kernel: [16718.742163] [   1866]  1000  1866    68392       80   167936      102             0 ibus-portal
+May 14 15:43:12 ubuntu kernel: [16718.742164] [   1874]  1000  1874    66611        0   155648      154             0 xdg-permission-
+May 14 15:43:12 ubuntu kernel: [16718.742165] [   1881]  1000  1881   172482        0   520192      933             0 gnome-shell-cal
+May 14 15:43:12 ubuntu kernel: [16718.742166] [   1885]  1000  1885   309019        0   790528     1130             0 evolution-sourc
+May 14 15:43:12 ubuntu kernel: [16718.742168] [   1893]  1000  1893   195659       97   696320     1403             0 goa-daemon
+May 14 15:43:12 ubuntu kernel: [16718.742169] [   1901]  1000  1901    47006      161   135168       59             0 dconf-service
+May 14 15:43:12 ubuntu kernel: [16718.742170] [   1904]  1000  1904    75347      156   225280      259             0 gvfs-udisks2-vo
+May 14 15:43:12 ubuntu kernel: [16718.742171] [   1908]  1000  1908    70887       89   188416      115             0 gvfs-gphoto2-vo
+May 14 15:43:12 ubuntu kernel: [16718.742172] [   1912]  1000  1912    67206       79   155648       84             0 gvfs-goa-volume
+May 14 15:43:12 ubuntu kernel: [16718.742174] [   1921]  1000  1921    93031        0   229376      277             0 goa-identity-se
+May 14 15:43:12 ubuntu kernel: [16718.742175] [   1924]  1000  1924    93400       78   225280      156             0 gvfs-afc-volume
+May 14 15:43:12 ubuntu kernel: [16718.742176] [   1932]  1000  1932    67656      101   163840       81             0 gvfs-mtp-volume
+May 14 15:43:12 ubuntu kernel: [16718.742177] [   1936]  1000  1936   128121      269   503808     1048             0 gsd-power
+May 14 15:43:12 ubuntu kernel: [16718.742179] [   1938]  1000  1938    86030      110   299008      258             0 gsd-print-notif
+May 14 15:43:12 ubuntu kernel: [16718.742180] [   1940]  1000  1940   104535       99   180224       86             0 gsd-rfkill
+May 14 15:43:12 ubuntu kernel: [16718.742181] [   1943]  1000  1943    67632       89   159744       73             0 gsd-screensaver
+May 14 15:43:12 ubuntu kernel: [16718.742182] [   1946]  1000  1946   111946      222   229376      183             0 gsd-sharing
+May 14 15:43:12 ubuntu kernel: [16718.742183] [   1951]  1000  1951   122593      292   442368     1082             0 gsd-xsettings
+May 14 15:43:12 ubuntu kernel: [16718.742185] [   1960]  1000  1960   111686       91   233472      168             0 gsd-smartcard
+May 14 15:43:12 ubuntu kernel: [16718.742186] [   1961]  1000  1961    82481       78   270336      195             0 gsd-sound
+May 14 15:43:12 ubuntu kernel: [16718.742187] [   1964]  1000  1964   105965      230   462848     1057             0 gsd-wacom
+May 14 15:43:12 ubuntu kernel: [16718.742188] [   1968]  1000  1968    68277       67   180224       87             0 gsd-a11y-settin
+May 14 15:43:12 ubuntu kernel: [16718.742189] [   1972]  1000  1972    84721      433   434176      773             0 gsd-clipboard
+May 14 15:43:12 ubuntu kernel: [16718.742190] [   1976]  1000  1976   163549      406   495616      910             0 gsd-color
+May 14 15:43:12 ubuntu kernel: [16718.742191] [   1978]  1000  1978   116170       96   442368      424             0 gsd-datetime
+May 14 15:43:12 ubuntu kernel: [16718.742192] [   1979]  1000  1979    89849      116   212992      110             0 gsd-housekeepin
+May 14 15:43:12 ubuntu kernel: [16718.742194] [   1983]  1000  1983   125460      227   466944     1015             0 gsd-keyboard
+May 14 15:43:12 ubuntu kernel: [16718.742195] [   1987]  1000  1987   335314      317   577536     1030             0 gsd-media-keys
+May 14 15:43:12 ubuntu kernel: [16718.742196] [   1992]  1000  1992    68277       68   167936       87             0 gsd-mouse
+May 14 15:43:12 ubuntu kernel: [16718.742225] [   2019]  1000  2019   125891        0   450560      481             0 gsd-printer
+May 14 15:43:12 ubuntu kernel: [16718.742228] [   2036]  1000  2036    67984        0   155648      345             0 gsd-disk-utilit
+May 14 15:43:12 ubuntu kernel: [16718.742232] [   2041]  1000  2041   248153     1038   856064     2656             0 nautilus-deskto
+May 14 15:43:12 ubuntu kernel: [16718.742236] [   2042]  1000  2042    68554      340   430080     1499             0 vmtoolsd
+May 14 15:43:12 ubuntu kernel: [16718.742238] [   2063]  1000  2063    90824      234   217088      124             0 gvfsd-trash
+May 14 15:43:12 ubuntu kernel: [16718.742240] [   2090]  1000  2090   221898        0   892928    10154             0 evolution-calen
+May 14 15:43:12 ubuntu kernel: [16718.742241] [   2112]  1000  2112   282847       63   704512     9868             0 evolution-calen
+May 14 15:43:12 ubuntu kernel: [16718.742242] [   2113]  1000  2113    49943      129   155648       92             0 ibus-engine-sim
+May 14 15:43:12 ubuntu kernel: [16718.742243] [   2134]  1000  2134   181950        0   573440      901             0 evolution-addre
+May 14 15:43:12 ubuntu kernel: [16718.742244] [   2146]  1000  2146   253031       87   618496      836             0 evolution-addre
+May 14 15:43:12 ubuntu kernel: [16718.742246] [   2210]  1000  2210   155289      484   647168     1107             0 sogoupinyinServ
+May 14 15:43:12 ubuntu kernel: [16718.742247] [   2332]  1000  2332   174815     2460   659456     1913             0 gnome-terminal-
+May 14 15:43:12 ubuntu kernel: [16718.742248] [   2339]  1000  2339     6319        1    98304      582             0 bash
+May 14 15:43:12 ubuntu kernel: [16718.742249] [   2449]  1000  2449   347741      702  1286144    35885             0 gnome-software
+May 14 15:43:12 ubuntu kernel: [16718.742251] [   2451]  1000  2451   153371      197   552960     1453             0 update-notifier
+May 14 15:43:12 ubuntu kernel: [16718.742252] [   2493]  1000  2493    10969      140   118784      243             0 mysql
+May 14 15:43:12 ubuntu kernel: [16718.742253] [   2622]  1000  2622   198998       72   712704     1482             0 deja-dup-monito
+May 14 15:43:12 ubuntu kernel: [16718.742254] [   3218]  1000  3218   109761       98   217088      220             0 gvfsd-network
+May 14 15:43:12 ubuntu kernel: [16718.742256] [   3230]  1000  3230    94018        8   217088      252             0 gvfsd-dnssd
+May 14 15:43:12 ubuntu kernel: [16718.742257] [   3286]  1000  3286    49907      203   155648       65             0 gvfsd-metadata
+May 14 15:43:12 ubuntu kernel: [16718.742259] [   4180]  1000  4180   432004     5675   995328     2231             0 nautilus
+May 14 15:43:12 ubuntu kernel: [16718.742260] [   4483]  1000  4483   107108      258   200704      106             0 zeitgeist-daemo
+May 14 15:43:12 ubuntu kernel: [16718.742261] [   4491]  1000  4491    82120      391   237568      739             0 zeitgeist-fts
+May 14 15:43:12 ubuntu kernel: [16718.742263] [   7403]     0  7403     6497       58    90112      262             0 dhclient
+May 14 15:43:12 ubuntu kernel: [16718.742264] [   9909]   122  9909   454393     9715   839680    44253             0 mysqld
+May 14 15:43:12 ubuntu kernel: [16718.742267] [  16952]     0 16952    25690        1   249856      436             0 cupsd
+May 14 15:43:12 ubuntu kernel: [16718.742268] [  16953]     0 16953    75883       89   339968      293             0 cups-browsed
+May 14 15:43:12 ubuntu kernel: [16718.742270] [  21479]     0 21479     1158        0    57344       22             0 sh
+May 14 15:43:12 ubuntu kernel: [16718.742271] [  21480]     0 21480  1947706    31708   901120    18869             0 java
+May 14 15:43:12 ubuntu kernel: [16718.742273] [  21596]  1000 21596     1158       28    57344        0             0 clion.sh
+May 14 15:43:12 ubuntu kernel: [16718.742274] [  21641]  1000 21641  1653121   402783  4399104       16             0 java
+May 14 15:43:12 ubuntu kernel: [16718.742275] [  21695]  1000 21695     1272      152    53248        0             0 fsnotifier64
+May 14 15:43:12 ubuntu kernel: [16718.742276] [  21898]  1000 21898    57768     4990   249856        0             0 ion.clangd.main
+May 14 15:43:12 ubuntu kernel: [16718.742278] [  22009]     0 22009  1267924    21712   667648        0             0 java
+May 14 15:43:12 ubuntu kernel: [16718.742279] [  22201]     0 22201  1285375    22889   688128        0             0 java
+May 14 15:43:12 ubuntu kernel: [16718.742280] [  22385]     0 22385  1285078    24070   688128        0             0 java
+May 14 15:43:12 ubuntu kernel: [16718.742282] [  22557]     0 22557  1285078    19978   667648        0             0 java
+May 14 15:43:12 ubuntu kernel: [16718.742283] [  22716]     0 22716  1285335    23248   700416        0             0 java
+May 14 15:43:12 ubuntu kernel: [16718.742284] [  22884]     0 22884  1268437    22928   679936        0             0 java
+May 14 15:43:12 ubuntu kernel: [16718.742285] [  23026]     0 23026  1285591    22770   679936        0             0 java
+May 14 15:43:12 ubuntu kernel: [16718.742286] [  23194]     0 23194  1284565    19226   655360        0             0 java
+May 14 15:43:12 ubuntu kernel: [16718.742309] [  23354]     0 23354  1268950    23404   688128        0             0 java
+May 14 15:43:12 ubuntu kernel: [16718.742312] [  23542]     0 23542  1285375    22367   692224        0             0 java
+May 14 15:43:12 ubuntu kernel: [16718.742313] [  23719]     0 23719  1285078    22795   684032        0             0 java
+May 14 15:43:12 ubuntu kernel: [16718.742315] [  23920]     0 23920  1285078    24029   688128        0             0 java
+May 14 15:43:12 ubuntu kernel: [16718.742316] [  24087]     0 24087  1285335    20444   671744        0             0 java
+May 14 15:43:12 ubuntu kernel: [16718.742317] [  24270]     0 24270  1285629    22289   696320        0             0 java
+May 14 15:43:12 ubuntu kernel: [16718.742319] [  24433]     0 24433  1284822    21834   663552        0             0 java
+May 14 15:43:12 ubuntu kernel: [16718.742320] [  24615]     0 24615  1285404    20047   663552        0             0 java
+May 14 15:43:12 ubuntu kernel: [16718.742321] [  24778]     0 24778  1268437    24074   700416        0             0 java
+May 14 15:43:12 ubuntu kernel: [16718.742322] [  24944]     0 24944  1284822    21262   692224        0             0 java
+May 14 15:43:12 ubuntu kernel: [16718.742323] [  25100]     0 25100  1285591    20133   659456        0             0 java
+May 14 15:43:12 ubuntu kernel: [16718.742325] [  25271]     0 25271  1268437    21980   692224        0             0 java
+May 14 15:43:12 ubuntu kernel: [16718.742326] [  25446]     0 25446  1285848    19938   671744        0             0 java
+May 14 15:43:12 ubuntu kernel: [16718.742327] [  26002]     0 26002    35281      372   241664        0             0 nginx
+May 14 15:43:12 ubuntu kernel: [16718.742329] [  26003]    33 26003    35949      432   249856        0             0 nginx
+May 14 15:43:12 ubuntu kernel: [16718.742330] [  26004]    33 26004    35949      432   249856        0             0 nginx
+May 14 15:43:12 ubuntu kernel: [16718.742331] [  26005]    33 26005    35949      432   249856        0             0 nginx
+May 14 15:43:12 ubuntu kernel: [16718.742332] [  26006]    33 26006    35949      432   249856        0             0 nginx
+May 14 15:43:12 ubuntu kernel: [16718.742334] [  26143]  1000 26143   186313     6393   753664        0             0 gedit
+May 14 15:43:12 ubuntu kernel: [16718.742336] [  26213]     0 26213  1268437    21824   663552        0             0 java
+May 14 15:43:12 ubuntu kernel: [16718.742337] [  26333]     0 26333  1285078    19666   671744        0             0 java
+May 14 15:43:12 ubuntu kernel: [16718.742338] [  26509]     0 26509  1268950    22503   688128        0             0 java
+May 14 15:43:12 ubuntu kernel: [16718.742339] [  26678]     0 26678  1267924    21780   663552        0             0 java
+May 14 15:43:12 ubuntu kernel: [16718.742341] [  26862]     0 26862  1284565    21485   688128        0             0 java
+May 14 15:43:12 ubuntu kernel: [16718.742342] [  27025]     0 27025  1285335    22301   692224        0             0 java
+May 14 15:43:12 ubuntu kernel: [16718.742343] [  27185]     0 27185  1285335    22604   692224        0             0 java
+May 14 15:43:12 ubuntu kernel: [16718.742344] [  27347]     0 27347  1268437    19207   634880        0             0 java
+May 14 15:43:12 ubuntu kernel: [16718.742345] [  27526]     0 27526  1284855    18827   655360        0             0 java
+May 14 15:43:12 ubuntu kernel: [16718.742346] [  27691]     0 27691  1285078    22460   684032        0             0 java
+May 14 15:43:12 ubuntu kernel: [16718.742347] [  27863]     0 27863  1284052    18580   651264        0             0 java
+May 14 15:43:12 ubuntu kernel: [16718.742348] [  28026]     0 28026  1285591    23142   696320        0             0 java
+May 14 15:43:12 ubuntu kernel: [16718.742350] [  28168]     0 28168  1251283    19279   651264        0             0 java
+May 14 15:43:12 ubuntu kernel: [16718.742351] [  28199]     0 28199    22497     4547   212992        0             0 CofErrDet
+May 14 15:43:12 ubuntu kernel: [16718.742352] [  28232]     0 28232     1158       17    57344        0             0 sh
+May 14 15:43:12 ubuntu kernel: [16718.742353] [  28233]     0 28233  1931528    48781   888832        0             0 java
+May 14 15:43:12 ubuntu kernel: [16718.742354] oom-kill:constraint=CONSTRAINT_NONE,nodemask=(null),cpuset=/,mems_allowed=0,global_oom,task_memcg=/,task=java,pid=21641,uid=1000
+May 14 15:43:12 ubuntu kernel: [16718.742596] Out of memory: Killed process 21641 (java) total-vm:6612484kB, anon-rss:1611100kB, file-rss:0kB, shmem-rss:32kB, UID:1000 pgtables:4296kB oom_score_adj:0
+May 14 15:43:12 ubuntu kernel: [16718.849680] oom_reaper: reaped process 21641 (java), now anon-rss:0kB, file-rss:0kB, shmem-rss:32kB
+May 14 15:43:12 ubuntu jetbrains-clion.desktop[21596]: Killed
+May 14 15:43:19 ubuntu jetbrains-clion.desktop[28363]: OpenJDK 64-Bit Server VM warning: Option UseConcMarkSweepGC was deprecated in version 9.0 and will likely be removed in a future release.
+May 14 15:43:24 ubuntu org.gnome.Shell.desktop[1805]: Window manager warning: Window 0x3a00007 (win0) sets an MWM hint indicating it isn't resizable, but sets min size 1 x 1 and max size 2147483647 x 2147483647; this doesn't make much sense.
+May 14 15:43:25 ubuntu jetbrains-clion.desktop[28446]: OpenJDK 64-Bit Server VM warning: Option UseConcMarkSweepGC was deprecated in version 9.0 and will likely be removed in a future release.
+May 14 15:43:27 ubuntu jetbrains-clion.desktop[28446]: IDE has not been initialized yet
+May 14 15:44:31 ubuntu nautilus[4180]: gtk_revealer_set_reveal_child: assertion 'GTK_IS_REVEALER (revealer)' failed
+May 14 15:46:34 ubuntu nautilus[4180]: Called "net usershare info" but it failed: Failed to execute child process “net” (No such file or directory)
+May 14 15:47:15 ubuntu nautilus[4180]: gtk_revealer_set_reveal_child: assertion 'GTK_IS_REVEALER (revealer)' failed
+May 14 15:47:18 ubuntu nautilus[4180]: gtk_label_set_markup: assertion 'GTK_IS_LABEL (label)' failed
+May 14 15:47:18 ubuntu nautilus[4180]: gtk_revealer_set_reveal_child: assertion 'GTK_IS_REVEALER (revealer)' failed
+May 14 15:47:25 ubuntu nautilus[4180]: gtk_revealer_set_reveal_child: assertion 'GTK_IS_REVEALER (revealer)' failed
+May 14 15:47:38 ubuntu nautilus[4180]: g_queue_foreach: assertion 'queue != NULL' failed
+May 14 15:47:38 ubuntu nautilus[4180]: g_queue_free: assertion 'queue != NULL' failed
+May 14 15:47:38 ubuntu nautilus[4180]: g_queue_foreach: assertion 'queue != NULL' failed
+May 14 15:47:38 ubuntu nautilus[4180]: g_queue_free: assertion 'queue != NULL' failed
+May 14 15:47:39 ubuntu gvfsd-metadata[3286]: g_udev_device_has_property: assertion 'G_UDEV_IS_DEVICE (device)' failed
+May 14 15:47:39 ubuntu gvfsd-metadata[3286]: message repeated 7 times: [ g_udev_device_has_property: assertion 'G_UDEV_IS_DEVICE (device)' failed]
+May 14 15:47:39 ubuntu nautilus[4180]: Called "net usershare info" but it failed: Failed to execute child process “net” (No such file or directory)
+May 14 15:47:50 ubuntu nautilus[4180]: g_queue_pop_head: assertion 'queue != NULL' failed
+May 14 15:47:50 ubuntu nautilus[4180]: g_queue_pop_head: assertion 'queue != NULL' failed
+May 14 15:47:50 ubuntu nautilus[4180]: g_queue_foreach: assertion 'queue != NULL' failed
+May 14 15:47:50 ubuntu nautilus[4180]: g_queue_free: assertion 'queue != NULL' failed
+May 14 15:49:21 ubuntu systemd[1]: Stopping A high performance web server and a reverse proxy server...
+May 14 15:49:21 ubuntu systemd[1]: Stopped A high performance web server and a reverse proxy server.
+May 14 15:49:21 ubuntu systemd[1]: Starting A high performance web server and a reverse proxy server...
+May 14 15:49:21 ubuntu nginx[29533]: nginx: [emerg] "server_names_hash_bucket_size" directive invalid number in /etc/nginx/nginx.conf:24
+May 14 15:49:21 ubuntu nginx[29533]: nginx: configuration file /etc/nginx/nginx.conf test failed
+May 14 15:49:21 ubuntu systemd[1]: nginx.service: Control process exited, code=exited status=1
+May 14 15:49:21 ubuntu systemd[1]: nginx.service: Failed with result 'exit-code'.
+May 14 15:49:21 ubuntu systemd[1]: Failed to start A high performance web server and a reverse proxy server.
+May 14 15:49:24 ubuntu nautilus[4180]: g_queue_foreach: assertion 'queue != NULL' failed
+May 14 15:49:24 ubuntu nautilus[4180]: g_queue_free: assertion 'queue != NULL' failed
+May 14 15:49:25 ubuntu gvfsd-metadata[3286]: g_udev_device_has_property: assertion 'G_UDEV_IS_DEVICE (device)' failed
+May 14 15:49:25 ubuntu gvfsd-metadata[3286]: message repeated 7 times: [ g_udev_device_has_property: assertion 'G_UDEV_IS_DEVICE (device)' failed]
+May 14 15:49:25 ubuntu nautilus[4180]: Called "net usershare info" but it failed: Failed to execute child process “net” (No such file or directory)
+May 14 15:49:49 ubuntu dbus-daemon[689]: [system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service' requested by ':1.149' (uid=1000 pid=4180 comm="/usr/bin/nautilus --gapplication-service " label="unconfined")
+May 14 15:49:49 ubuntu systemd[1]: Starting Hostname Service...
+May 14 15:49:50 ubuntu dbus-daemon[689]: [system] Successfully activated service 'org.freedesktop.hostname1'
+May 14 15:49:50 ubuntu systemd[1]: Started Hostname Service.
+May 14 15:49:53 ubuntu nautilus[4180]: Called "net usershare info" but it failed: Failed to execute child process “net” (No such file or directory)
+May 14 15:49:55 ubuntu nautilus[4180]: gtk_revealer_set_reveal_child: assertion 'GTK_IS_REVEALER (revealer)' failed

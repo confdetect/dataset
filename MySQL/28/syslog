@@ -1,0 +1,65 @@
+Apr 18 23:37:14 ubuntu mysql-systemd-start[7046]: ERROR: Unable to start MySQL server:
+Apr 18 23:37:14 ubuntu mysql-systemd-start[7046]: 2021-04-19T06:37:14.152453Z 0 [ERROR] Path '/var/log/mysql/' is a directory name, please specify a file name for --log-bin option
+Apr 18 23:37:14 ubuntu mysql-systemd-start[7046]: 2021-04-19T06:37:14.154284Z 0 [ERROR] Aborting
+Apr 18 23:37:14 ubuntu mysql-systemd-start[7046]: Please take a look at https://wiki.debian.org/Teams/MySQL/FAQ for tips on fixing common upgrade issues.
+Apr 18 23:37:14 ubuntu mysql-systemd-start[7046]: Once the problem is resolved, restart the service.
+Apr 18 23:37:14 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 18 23:37:14 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 18 23:37:14 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 18 23:37:14 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 18 23:37:14 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 1.
+Apr 18 23:37:14 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 18 23:37:14 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 18 23:37:14 ubuntu mysql-systemd-start[7056]: ERROR: Unable to start MySQL server:
+Apr 18 23:37:14 ubuntu mysql-systemd-start[7056]: 2021-04-19T06:37:14.309778Z 0 [ERROR] Path '/var/log/mysql/' is a directory name, please specify a file name for --log-bin option
+Apr 18 23:37:14 ubuntu mysql-systemd-start[7056]: 2021-04-19T06:37:14.311652Z 0 [ERROR] Aborting
+Apr 18 23:37:14 ubuntu mysql-systemd-start[7056]: Please take a look at https://wiki.debian.org/Teams/MySQL/FAQ for tips on fixing common upgrade issues.
+Apr 18 23:37:14 ubuntu mysql-systemd-start[7056]: Once the problem is resolved, restart the service.
+Apr 18 23:37:14 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 18 23:37:14 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 18 23:37:14 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 18 23:37:14 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 18 23:37:14 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 2.
+Apr 18 23:37:14 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 18 23:37:14 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 18 23:37:14 ubuntu mysql-systemd-start[7065]: ERROR: Unable to start MySQL server:
+Apr 18 23:37:14 ubuntu mysql-systemd-start[7065]: 2021-04-19T06:37:14.553657Z 0 [ERROR] Path '/var/log/mysql/' is a directory name, please specify a file name for --log-bin option
+Apr 18 23:37:14 ubuntu mysql-systemd-start[7065]: 2021-04-19T06:37:14.555431Z 0 [ERROR] Aborting
+Apr 18 23:37:14 ubuntu mysql-systemd-start[7065]: Please take a look at https://wiki.debian.org/Teams/MySQL/FAQ for tips on fixing common upgrade issues.
+Apr 18 23:37:14 ubuntu mysql-systemd-start[7065]: Once the problem is resolved, restart the service.
+Apr 18 23:37:14 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 18 23:37:14 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 18 23:37:14 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 18 23:37:14 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 18 23:37:14 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 3.
+Apr 18 23:37:14 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 18 23:37:14 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 18 23:37:14 ubuntu mysql-systemd-start[7074]: ERROR: Unable to start MySQL server:
+Apr 18 23:37:14 ubuntu mysql-systemd-start[7074]: 2021-04-19T06:37:14.808491Z 0 [ERROR] Path '/var/log/mysql/' is a directory name, please specify a file name for --log-bin option
+Apr 18 23:37:14 ubuntu mysql-systemd-start[7074]: 2021-04-19T06:37:14.810241Z 0 [ERROR] Aborting
+Apr 18 23:37:14 ubuntu mysql-systemd-start[7074]: Please take a look at https://wiki.debian.org/Teams/MySQL/FAQ for tips on fixing common upgrade issues.
+Apr 18 23:37:14 ubuntu mysql-systemd-start[7074]: Once the problem is resolved, restart the service.
+Apr 18 23:37:14 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 18 23:37:14 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 18 23:37:14 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 18 23:37:15 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 18 23:37:15 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 4.
+Apr 18 23:37:15 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 18 23:37:15 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 18 23:37:15 ubuntu mysql-systemd-start[7083]: ERROR: Unable to start MySQL server:
+Apr 18 23:37:15 ubuntu mysql-systemd-start[7083]: 2021-04-19T06:37:15.060027Z 0 [ERROR] Path '/var/log/mysql/' is a directory name, please specify a file name for --log-bin option
+Apr 18 23:37:15 ubuntu mysql-systemd-start[7083]: 2021-04-19T06:37:15.062112Z 0 [ERROR] Aborting
+Apr 18 23:37:15 ubuntu mysql-systemd-start[7083]: Please take a look at https://wiki.debian.org/Teams/MySQL/FAQ for tips on fixing common upgrade issues.
+Apr 18 23:37:15 ubuntu mysql-systemd-start[7083]: Once the problem is resolved, restart the service.
+Apr 18 23:37:15 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 18 23:37:15 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 18 23:37:15 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 18 23:37:15 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 18 23:37:15 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 5.
+Apr 18 23:37:15 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 18 23:37:15 ubuntu systemd[1]: mysql.service: Start request repeated too quickly.
+Apr 18 23:37:15 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 18 23:37:15 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 18 23:37:15 ubuntu systemd[1]: mysql.service: Start request repeated too quickly.
+Apr 18 23:37:15 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 18 23:37:15 ubuntu systemd[1]: Failed to start MySQL Community Server.

@@ -1,0 +1,33 @@
+[rospy.client][INFO] 2021-05-02 14:57:32,233: init_node, name[/servo_commands], pid[25370]
+[xmlrpc][INFO] 2021-05-02 14:57:32,234: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2021-05-02 14:57:32,234: Started XML-RPC server [http://ubuntu:43509/]
+[rospy.impl.masterslave][INFO] 2021-05-02 14:57:32,234: _ready: http://ubuntu:43509/
+[rospy.init][INFO] 2021-05-02 14:57:32,240: ROS Slave URI: [http://ubuntu:43509/]
+[rospy.registration][INFO] 2021-05-02 14:57:32,240: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2021-05-02 14:57:32,240: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2021-05-02 14:57:32,340: registered with master
+[rospy.rosout][INFO] 2021-05-02 14:57:32,340: initializing /rosout core topic
+[rospy.rosout][INFO] 2021-05-02 14:57:32,343: connected to core topic /rosout
+[rospy.simtime][INFO] 2021-05-02 14:57:32,350: initializing /clock core topic
+[rospy.simtime][INFO] 2021-05-02 14:57:32,353: connected to core topic /clock
+[rospy.internal][INFO] 2021-05-02 14:57:32,371: topic[/vesc/low_level/ackermann_cmd_mux/output] adding connection to [http://ubuntu:43149/], count 0
+[rospy.internal][INFO] 2021-05-02 14:57:32,552: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2021-05-02 14:57:34,305: topic[/clock] adding connection to [http://ubuntu:37271/], count 0
+[rospy.internal][INFO] 2021-05-02 14:57:35,956: topic[/racecar/left_rear_wheel_velocity_controller/command] adding connection to [/gazebo], count 0
+[rospy.internal][INFO] 2021-05-02 14:57:36,031: topic[/racecar/right_rear_wheel_velocity_controller/command] adding connection to [/gazebo], count 0
+[rospy.internal][INFO] 2021-05-02 14:57:36,131: topic[/racecar/left_front_wheel_velocity_controller/command] adding connection to [/gazebo], count 0
+[rospy.internal][INFO] 2021-05-02 14:57:36,331: topic[/racecar/right_front_wheel_velocity_controller/command] adding connection to [/gazebo], count 0
+[rospy.internal][INFO] 2021-05-02 14:57:36,434: topic[/racecar/right_steering_hinge_position_controller/command] adding connection to [/gazebo], count 0
+[rospy.internal][INFO] 2021-05-02 14:57:36,439: topic[/racecar/left_steering_hinge_position_controller/command] adding connection to [/gazebo], count 0
+[rospy.core][INFO] 2021-05-02 14:57:44,590: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2021-05-02 14:57:44,598: topic[/racecar/right_steering_hinge_position_controller/command] removing connection to /gazebo
+[rospy.internal][INFO] 2021-05-02 14:57:44,598: topic[/racecar/left_rear_wheel_velocity_controller/command] removing connection to /gazebo
+[rospy.internal][INFO] 2021-05-02 14:57:44,605: topic[/racecar/left_steering_hinge_position_controller/command] removing connection to /gazebo
+[rospy.internal][INFO] 2021-05-02 14:57:44,605: topic[/racecar/right_rear_wheel_velocity_controller/command] removing connection to /gazebo
+[rospy.internal][INFO] 2021-05-02 14:57:44,606: topic[/racecar/left_front_wheel_velocity_controller/command] removing connection to /gazebo
+[rospy.internal][INFO] 2021-05-02 14:57:44,606: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2021-05-02 14:57:44,607: topic[/racecar/right_front_wheel_velocity_controller/command] removing connection to /gazebo
+[rospy.internal][INFO] 2021-05-02 14:57:44,610: topic[/clock] removing connection to http://ubuntu:37271/
+[rospy.internal][INFO] 2021-05-02 14:57:44,611: topic[/vesc/low_level/ackermann_cmd_mux/output] removing connection to http://ubuntu:43149/
+[rospy.impl.masterslave][INFO] 2021-05-02 14:57:44,611: signal-2
+[rospy.core][INFO] 2021-05-02 14:57:44,744: signal_shutdown [atexit]

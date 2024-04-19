@@ -1,0 +1,306 @@
+Apr 15 00:07:19 ubuntu rsyslogd:  [origin software="rsyslogd" swVersion="8.32.0" x-pid="597" x-info="http://www.rsyslog.com"] rsyslogd was HUPed
+Apr 15 00:07:27 ubuntu anacron[7698]: Job `cron.daily' terminated
+Apr 15 00:07:27 ubuntu anacron[7698]: Normal exit (1 job run)
+Apr 15 00:08:29 ubuntu dhclient[737]: DHCPREQUEST of 192.168.182.128 on ens33 to 192.168.182.254 port 67 (xid=0xee7c269)
+Apr 15 00:08:29 ubuntu dhclient[737]: DHCPACK of 192.168.182.128 from 192.168.182.254
+Apr 15 00:08:29 ubuntu NetworkManager[623]: <info>  [1618470509.5856] dhcp4 (ens33):   address 192.168.182.128
+Apr 15 00:08:29 ubuntu NetworkManager[623]: <info>  [1618470509.5866] dhcp4 (ens33):   plen 24 (255.255.255.0)
+Apr 15 00:08:29 ubuntu NetworkManager[623]: <info>  [1618470509.5866] dhcp4 (ens33):   gateway 192.168.182.2
+Apr 15 00:08:29 ubuntu NetworkManager[623]: <info>  [1618470509.5866] dhcp4 (ens33):   lease time 1800
+Apr 15 00:08:29 ubuntu NetworkManager[623]: <info>  [1618470509.5867] dhcp4 (ens33):   nameserver '192.168.182.2'
+Apr 15 00:08:29 ubuntu NetworkManager[623]: <info>  [1618470509.5867] dhcp4 (ens33):   domain name 'localdomain'
+Apr 15 00:08:29 ubuntu NetworkManager[623]: <info>  [1618470509.5867] dhcp4 (ens33):   wins '192.168.182.2'
+Apr 15 00:08:29 ubuntu NetworkManager[623]: <info>  [1618470509.5867] dhcp4 (ens33): state changed bound -> bound
+Apr 15 00:08:29 ubuntu dbus-daemon[606]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.11' (uid=0 pid=623 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Apr 15 00:08:29 ubuntu systemd[1]: Starting Network Manager Script Dispatcher Service...
+Apr 15 00:08:29 ubuntu dhclient[737]: bound to 192.168.182.128 -- renewal in 810 seconds.
+Apr 15 00:08:29 ubuntu dbus-daemon[606]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Apr 15 00:08:29 ubuntu systemd[1]: Started Network Manager Script Dispatcher Service.
+Apr 15 00:08:29 ubuntu nm-dispatcher: req:1 'dhcp4-change' [ens33]: new request (1 scripts)
+Apr 15 00:08:29 ubuntu nm-dispatcher: req:1 'dhcp4-change' [ens33]: start running ordered scripts...
+Apr 15 00:17:01 ubuntu CRON[7842]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Apr 15 00:21:59 ubuntu dhclient[737]: DHCPREQUEST of 192.168.182.128 on ens33 to 192.168.182.254 port 67 (xid=0xee7c269)
+Apr 15 00:21:59 ubuntu dhclient[737]: DHCPACK of 192.168.182.128 from 192.168.182.254
+Apr 15 00:21:59 ubuntu NetworkManager[623]: <info>  [1618471319.5827] dhcp4 (ens33):   address 192.168.182.128
+Apr 15 00:21:59 ubuntu NetworkManager[623]: <info>  [1618471319.5828] dhcp4 (ens33):   plen 24 (255.255.255.0)
+Apr 15 00:21:59 ubuntu NetworkManager[623]: <info>  [1618471319.5828] dhcp4 (ens33):   gateway 192.168.182.2
+Apr 15 00:21:59 ubuntu NetworkManager[623]: <info>  [1618471319.5828] dhcp4 (ens33):   lease time 1800
+Apr 15 00:21:59 ubuntu NetworkManager[623]: <info>  [1618471319.5828] dhcp4 (ens33):   nameserver '192.168.182.2'
+Apr 15 00:21:59 ubuntu NetworkManager[623]: <info>  [1618471319.5829] dhcp4 (ens33):   domain name 'localdomain'
+Apr 15 00:21:59 ubuntu NetworkManager[623]: <info>  [1618471319.5829] dhcp4 (ens33):   wins '192.168.182.2'
+Apr 15 00:21:59 ubuntu NetworkManager[623]: <info>  [1618471319.5829] dhcp4 (ens33): state changed bound -> bound
+Apr 15 00:21:59 ubuntu dbus-daemon[606]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.11' (uid=0 pid=623 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Apr 15 00:21:59 ubuntu systemd[1]: Starting Network Manager Script Dispatcher Service...
+Apr 15 00:21:59 ubuntu dhclient[737]: bound to 192.168.182.128 -- renewal in 899 seconds.
+Apr 15 00:21:59 ubuntu dbus-daemon[606]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Apr 15 00:21:59 ubuntu systemd[1]: Started Network Manager Script Dispatcher Service.
+Apr 15 00:21:59 ubuntu nm-dispatcher: req:1 'dhcp4-change' [ens33]: new request (1 scripts)
+Apr 15 00:21:59 ubuntu nm-dispatcher: req:1 'dhcp4-change' [ens33]: start running ordered scripts...
+Apr 15 00:34:42 ubuntu NetworkManager[623]: <info>  [1618472082.3433] connectivity: (ens33) timed out
+Apr 15 00:34:42 ubuntu NetworkManager[623]: <info>  [1618472082.3438] manager: NetworkManager state is now CONNECTED_SITE
+Apr 15 00:34:42 ubuntu dbus-daemon[606]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.11' (uid=0 pid=623 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Apr 15 00:34:42 ubuntu whoopsie[1191]: [00:34:42] offline
+Apr 15 00:34:42 ubuntu systemd[1]: Starting Network Manager Script Dispatcher Service...
+Apr 15 00:34:42 ubuntu dbus-daemon[606]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Apr 15 00:34:42 ubuntu systemd[1]: Started Network Manager Script Dispatcher Service.
+Apr 15 00:34:42 ubuntu nm-dispatcher: req:1 'connectivity-change': new request (1 scripts)
+Apr 15 00:34:42 ubuntu nm-dispatcher: req:1 'connectivity-change': start running ordered scripts...
+Apr 15 00:36:58 ubuntu dhclient[737]: DHCPREQUEST of 192.168.182.128 on ens33 to 192.168.182.254 port 67 (xid=0xee7c269)
+Apr 15 00:36:58 ubuntu dhclient[737]: DHCPACK of 192.168.182.128 from 192.168.182.254
+Apr 15 00:36:58 ubuntu NetworkManager[623]: <info>  [1618472218.9049] dhcp4 (ens33):   address 192.168.182.128
+Apr 15 00:36:58 ubuntu NetworkManager[623]: <info>  [1618472218.9055] dhcp4 (ens33):   plen 24 (255.255.255.0)
+Apr 15 00:36:58 ubuntu NetworkManager[623]: <info>  [1618472218.9058] dhcp4 (ens33):   gateway 192.168.182.2
+Apr 15 00:36:58 ubuntu NetworkManager[623]: <info>  [1618472218.9070] dhcp4 (ens33):   lease time 1800
+Apr 15 00:36:58 ubuntu NetworkManager[623]: <info>  [1618472218.9070] dhcp4 (ens33):   nameserver '192.168.182.2'
+Apr 15 00:36:58 ubuntu NetworkManager[623]: <info>  [1618472218.9070] dhcp4 (ens33):   domain name 'localdomain'
+Apr 15 00:36:58 ubuntu NetworkManager[623]: <info>  [1618472218.9070] dhcp4 (ens33):   wins '192.168.182.2'
+Apr 15 00:36:58 ubuntu NetworkManager[623]: <info>  [1618472218.9070] dhcp4 (ens33): state changed bound -> bound
+Apr 15 00:36:58 ubuntu dbus-daemon[606]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.11' (uid=0 pid=623 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Apr 15 00:36:58 ubuntu systemd[1]: Starting Network Manager Script Dispatcher Service...
+Apr 15 00:36:58 ubuntu dhclient[737]: bound to 192.168.182.128 -- renewal in 823 seconds.
+Apr 15 00:36:58 ubuntu dbus-daemon[606]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Apr 15 00:36:58 ubuntu systemd[1]: Started Network Manager Script Dispatcher Service.
+Apr 15 00:36:58 ubuntu nm-dispatcher: req:1 'dhcp4-change' [ens33]: new request (1 scripts)
+Apr 15 00:36:58 ubuntu nm-dispatcher: req:1 'dhcp4-change' [ens33]: start running ordered scripts...
+Apr 15 00:39:13 ubuntu NetworkManager[623]: <info>  [1618472353.9802] manager: NetworkManager state is now CONNECTED_GLOBAL
+Apr 15 00:39:13 ubuntu dbus-daemon[606]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.11' (uid=0 pid=623 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Apr 15 00:39:14 ubuntu systemd[1]: Starting Network Manager Script Dispatcher Service...
+Apr 15 00:39:14 ubuntu whoopsie[1191]: [00:39:14] The default IPv4 route is: /org/freedesktop/NetworkManager/ActiveConnection/1
+Apr 15 00:39:14 ubuntu whoopsie[1191]: [00:39:14] Not a paid data plan: /org/freedesktop/NetworkManager/ActiveConnection/1
+Apr 15 00:39:14 ubuntu whoopsie[1191]: [00:39:14] Found usable connection: /org/freedesktop/NetworkManager/ActiveConnection/1
+Apr 15 00:39:14 ubuntu whoopsie[1191]: [00:39:14] online
+Apr 15 00:39:14 ubuntu dbus-daemon[606]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Apr 15 00:39:14 ubuntu systemd[1]: Started Network Manager Script Dispatcher Service.
+Apr 15 00:39:14 ubuntu nm-dispatcher: req:1 'connectivity-change': new request (1 scripts)
+Apr 15 00:39:14 ubuntu nm-dispatcher: req:1 'connectivity-change': start running ordered scripts...
+Apr 15 00:45:22 ubuntu gnome-software[2061]: no app for changed ubuntu-dock@ubuntu.com
+Apr 15 00:45:22 ubuntu gnome-software[2061]: no app for changed ubuntu-appindicators@ubuntu.com
+Apr 15 00:45:22 ubuntu gvfsd-metadata[1991]: g_udev_device_has_property: assertion 'G_UDEV_IS_DEVICE (device)' failed
+Apr 15 00:45:22 ubuntu gvfsd-metadata[1991]: g_udev_device_has_property: assertion 'G_UDEV_IS_DEVICE (device)' failed
+Apr 15 00:45:22 ubuntu gnome-shell[1630]: [AppIndicatorSupport-DEBUG] Registering StatusNotifierItem :1.67/org/ayatana/NotificationItem/software_update_available
+Apr 15 00:45:22 ubuntu gnome-shell[1630]: [AppIndicatorSupport-DEBUG] Registering StatusNotifierItem :1.67/org/ayatana/NotificationItem/livepatch
+Apr 15 00:45:36 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 15 00:45:40 ubuntu systemd[1]: Started MySQL Community Server.
+Apr 15 00:46:30 ubuntu systemd[1]: Stopping MySQL Community Server...
+Apr 15 00:46:32 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 15 00:46:32 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 15 00:46:37 ubuntu systemd[1]: Started MySQL Community Server.
+Apr 15 00:50:41 ubuntu dhclient[737]: DHCPREQUEST of 192.168.182.128 on ens33 to 192.168.182.254 port 67 (xid=0xee7c269)
+Apr 15 00:50:41 ubuntu dhclient[737]: DHCPACK of 192.168.182.128 from 192.168.182.254
+Apr 15 00:50:41 ubuntu NetworkManager[623]: <info>  [1618473041.7561] dhcp4 (ens33):   address 192.168.182.128
+Apr 15 00:50:41 ubuntu NetworkManager[623]: <info>  [1618473041.7562] dhcp4 (ens33):   plen 24 (255.255.255.0)
+Apr 15 00:50:41 ubuntu NetworkManager[623]: <info>  [1618473041.7562] dhcp4 (ens33):   gateway 192.168.182.2
+Apr 15 00:50:41 ubuntu NetworkManager[623]: <info>  [1618473041.7566] dhcp4 (ens33):   lease time 1800
+Apr 15 00:50:41 ubuntu NetworkManager[623]: <info>  [1618473041.7566] dhcp4 (ens33):   nameserver '192.168.182.2'
+Apr 15 00:50:41 ubuntu dbus-daemon[606]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.11' (uid=0 pid=623 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Apr 15 00:50:41 ubuntu NetworkManager[623]: <info>  [1618473041.7566] dhcp4 (ens33):   domain name 'localdomain'
+Apr 15 00:50:41 ubuntu NetworkManager[623]: <info>  [1618473041.7566] dhcp4 (ens33):   wins '192.168.182.2'
+Apr 15 00:50:41 ubuntu NetworkManager[623]: <info>  [1618473041.7566] dhcp4 (ens33): state changed bound -> bound
+Apr 15 00:50:41 ubuntu systemd[1]: Starting Network Manager Script Dispatcher Service...
+Apr 15 00:50:41 ubuntu dhclient[737]: bound to 192.168.182.128 -- renewal in 732 seconds.
+Apr 15 00:50:41 ubuntu dbus-daemon[606]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Apr 15 00:50:41 ubuntu systemd[1]: Started Network Manager Script Dispatcher Service.
+Apr 15 00:50:41 ubuntu nm-dispatcher: req:1 'dhcp4-change' [ens33]: new request (1 scripts)
+Apr 15 00:50:41 ubuntu nm-dispatcher: req:1 'dhcp4-change' [ens33]: start running ordered scripts...
+Apr 15 00:54:03 ubuntu gnome-shell[1630]: Object .Gjs_AppIndicatorIconActor__1 (0x557e72ab5440), has been already finalized. Impossible to set any property to it.
+Apr 15 00:54:04 ubuntu gnome-shell[1630]: Object .Gjs_AppIndicatorIconActor__1 (0x557e75571bd0), has been already finalized. Impossible to set any property to it.
+Apr 15 00:54:04 ubuntu org.gnome.Shell.desktop[1630]: == Stack trace for context 0x557e70ed2330 ==
+Apr 15 00:54:04 ubuntu org.gnome.Shell.desktop[1630]: #0 0x7ffd06d5ecc0 I   resource:///org/gnome/gjs/modules/_legacy.js:83 (0x7f894c0b5de0 @ 87)
+Apr 15 00:54:04 ubuntu org.gnome.Shell.desktop[1630]: #1 0x557e7128a8f0 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/indicatorStatusIcon.js:93 (0x7f89300c5b38 @ 58)
+Apr 15 00:54:04 ubuntu org.gnome.Shell.desktop[1630]: #2 0x7ffd06d5f8a0 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f894c0b5de0 @ 71)
+Apr 15 00:54:04 ubuntu org.gnome.Shell.desktop[1630]: #3 0x7ffd06d5f960 b   self-hosted:916 (0x7f894c0f12b8 @ 367)
+Apr 15 00:54:04 ubuntu org.gnome.Shell.desktop[1630]: #4 0x7ffd06d5fa50 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7f894c0d2230 @ 386)
+Apr 15 00:54:04 ubuntu org.gnome.Shell.desktop[1630]: #5 0x557e7128a868 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/appIndicator.js:190 (0x7f89300b7808 @ 22)
+Apr 15 00:54:04 ubuntu org.gnome.Shell.desktop[1630]: #6 0x7ffd06d606a0 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f894c0b5de0 @ 71)
+Apr 15 00:54:04 ubuntu org.gnome.Shell.desktop[1630]: #7 0x557e7128a7c0 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/statusNotifierWatcher.js:219 (0x7f89300b1de0 @ 225)
+Apr 15 00:54:04 ubuntu org.gnome.Shell.desktop[1630]: #8 0x7ffd06d61280 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f894c0b5de0 @ 71)
+Apr 15 00:54:04 ubuntu org.gnome.Shell.desktop[1630]: #9 0x557e7128a748 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/extension.js:61 (0x7f89300b1120 @ 37)
+Apr 15 00:54:04 ubuntu org.gnome.Shell.desktop[1630]: #10 0x557e7128a688 i   resource:///org/gnome/shell/ui/extensionSystem.js:83 (0x7f89309592b8 @ 441)
+Apr 15 00:54:04 ubuntu org.gnome.Shell.desktop[1630]: #11 0x557e7128a608 i   resource:///org/gnome/shell/ui/extensionSystem.js:354 (0x7f8930959d58 @ 13)
+Apr 15 00:54:04 ubuntu org.gnome.Shell.desktop[1630]: #12 0x7ffd06d61f80 b   self-hosted:251 (0x7f894c0c4ab0 @ 223)
+Apr 15 00:54:04 ubuntu org.gnome.Shell.desktop[1630]: #13 0x557e7128a588 i   resource:///org/gnome/shell/ui/extensionSystem.js:353 (0x7f8930959cd0 @ 64)
+Apr 15 00:54:04 ubuntu org.gnome.Shell.desktop[1630]: #14 0x557e7128a508 i   resource:///org/gnome/shell/ui/extensionSystem.js:371 (0x7f8930959de0 @ 87)
+Apr 15 00:54:04 ubuntu org.gnome.Shell.desktop[1630]: #15 0x7ffd06d63480 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7f894c0d2230 @ 386)
+Apr 15 00:54:04 ubuntu org.gnome.Shell.desktop[1630]: #16 0x7ffd06d63c90 b   resource:///org/gnome/shell/ui/sessionMode.js:205 (0x7f89305705e8 @ 254)
+Apr 15 00:54:04 ubuntu org.gnome.Shell.desktop[1630]: #17 0x7ffd06d65080 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f894c0b5de0 @ 71)
+Apr 15 00:54:04 ubuntu org.gnome.Shell.desktop[1630]: #18 0x557e7128a3c8 i   resource:///org/gnome/shell/ui/sessionMode.js:167 (0x7f89305703c8 @ 40)
+Apr 15 00:54:04 ubuntu org.gnome.Shell.desktop[1630]: #19 0x7ffd06d663e0 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f894c0b5de0 @ 71)
+Apr 15 00:54:04 ubuntu org.gnome.Shell.desktop[1630]: #20 0x557e7128a320 i   resource:///org/gnome/shell/ui/screenShield.js:1282 (0x7f8930553a28 @ 188)
+Apr 15 00:54:04 ubuntu org.gnome.Shell.desktop[1630]: #21 0x7ffd06d67740 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f894c0b5de0 @ 71)
+Apr 15 00:54:04 ubuntu org.gnome.Shell.desktop[1630]: #22 0x557e7128a270 i   resource:///org/gnome/shell/ui/screenShield.js:1331 (0x7f8930553ab0 @ 391)
+Apr 15 00:54:04 ubuntu org.gnome.Shell.desktop[1630]: #23 0x7ffd06d68aa0 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f894c0b5de0 @ 71)
+Apr 15 00:54:04 ubuntu org.gnome.Shell.desktop[1630]: #24 0x557e7128a1f0 i   resource:///org/gnome/shell/ui/screenShield.js:854 (0x7f89305519a0 @ 25)
+Apr 15 00:54:04 ubuntu org.gnome.Shell.desktop[1630]: == Stack trace for context 0x557e70ed2330 ==
+Apr 15 00:54:04 ubuntu org.gnome.Shell.desktop[1630]: #0 0x7ffd06d5ecc0 I   resource:///org/gnome/gjs/modules/_legacy.js:83 (0x7f894c0b5de0 @ 87)
+Apr 15 00:54:04 ubuntu org.gnome.Shell.desktop[1630]: #1 0x557e7128a8f0 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/indicatorStatusIcon.js:93 (0x7f89300c5b38 @ 58)
+Apr 15 00:54:04 ubuntu org.gnome.Shell.desktop[1630]: #2 0x7ffd06d5f8a0 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f894c0b5de0 @ 71)
+Apr 15 00:54:04 ubuntu org.gnome.Shell.desktop[1630]: #3 0x7ffd06d5f960 b   self-hosted:916 (0x7f894c0f12b8 @ 367)
+Apr 15 00:54:04 ubuntu org.gnome.Shell.desktop[1630]: #4 0x7ffd06d5fa50 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7f894c0d2230 @ 386)
+Apr 15 00:54:04 ubuntu org.gnome.Shell.desktop[1630]: #5 0x557e7128a868 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/appIndicator.js:190 (0x7f89300b7808 @ 22)
+Apr 15 00:54:04 ubuntu org.gnome.Shell.desktop[1630]: #6 0x7ffd06d606a0 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f894c0b5de0 @ 71)
+Apr 15 00:54:04 ubuntu org.gnome.Shell.desktop[1630]: #7 0x557e7128a7c0 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/statusNotifierWatcher.js:219 (0x7f89300b1de0 @ 225)
+Apr 15 00:54:04 ubuntu org.gnome.Shell.desktop[1630]: #8 0x7ffd06d61280 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f894c0b5de0 @ 71)
+Apr 15 00:54:04 ubuntu org.gnome.Shell.desktop[1630]: #9 0x557e7128a748 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/extension.js:61 (0x7f89300b1120 @ 37)
+Apr 15 00:54:04 ubuntu org.gnome.Shell.desktop[1630]: #10 0x557e7128a688 i   resource:///org/gnome/shell/ui/extensionSystem.js:83 (0x7f89309592b8 @ 441)
+Apr 15 00:54:04 ubuntu org.gnome.Shell.desktop[1630]: #11 0x557e7128a608 i   resource:///org/gnome/shell/ui/extensionSystem.js:354 (0x7f8930959d58 @ 13)
+Apr 15 00:54:04 ubuntu org.gnome.Shell.desktop[1630]: #12 0x7ffd06d61f80 b   self-hosted:251 (0x7f894c0c4ab0 @ 223)
+Apr 15 00:54:04 ubuntu org.gnome.Shell.desktop[1630]: #13 0x557e7128a588 i   resource:///org/gnome/shell/ui/extensionSystem.js:353 (0x7f8930959cd0 @ 64)
+Apr 15 00:54:04 ubuntu org.gnome.Shell.desktop[1630]: #14 0x557e7128a508 i   resource:///org/gnome/shell/ui/extensionSystem.js:371 (0x7f8930959de0 @ 87)
+Apr 15 00:54:04 ubuntu gnome-software[2061]: no app for changed ubuntu-appindicators@ubuntu.com
+Apr 15 00:54:04 ubuntu org.gnome.Shell.desktop[1630]: #15 0x7ffd06d63480 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7f894c0d2230 @ 386)
+Apr 15 00:54:04 ubuntu org.gnome.Shell.desktop[1630]: #16 0x7ffd06d63c90 b   resource:///org/gnome/shell/ui/sessionMode.js:205 (0x7f89305705e8 @ 254)
+Apr 15 00:54:04 ubuntu org.gnome.Shell.desktop[1630]: #17 0x7ffd06d65080 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f894c0b5de0 @ 71)
+Apr 15 00:54:04 ubuntu org.gnome.Shell.desktop[1630]: #18 0x557e7128a3c8 i   resource:///org/gnome/shell/ui/sessionMode.js:167 (0x7f89305703c8 @ 40)
+Apr 15 00:54:04 ubuntu org.gnome.Shell.desktop[1630]: #19 0x7ffd06d663e0 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f894c0b5de0 @ 71)
+Apr 15 00:54:04 ubuntu org.gnome.Shell.desktop[1630]: #20 0x557e7128a320 i   resource:///org/gnome/shell/ui/screenShield.js:1282 (0x7f8930553a28 @ 188)
+Apr 15 00:54:04 ubuntu org.gnome.Shell.desktop[1630]: #21 0x7ffd06d67740 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f894c0b5de0 @ 71)
+Apr 15 00:54:04 ubuntu org.gnome.Shell.desktop[1630]: #22 0x557e7128a270 i   resource:///org/gnome/shell/ui/screenShield.js:1331 (0x7f8930553ab0 @ 391)
+Apr 15 00:54:04 ubuntu org.gnome.Shell.desktop[1630]: #23 0x7ffd06d68aa0 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f894c0b5de0 @ 71)
+Apr 15 00:54:04 ubuntu org.gnome.Shell.desktop[1630]: #24 0x557e7128a1f0 i   resource:///org/gnome/shell/ui/screenShield.js:854 (0x7f89305519a0 @ 25)
+Apr 15 00:54:04 ubuntu gnome-software[2061]: no app for changed ubuntu-dock@ubuntu.com
+Apr 15 00:54:21 ubuntu gnome-software[2061]: no app for changed ubuntu-dock@ubuntu.com
+Apr 15 00:54:21 ubuntu gnome-software[2061]: no app for changed ubuntu-appindicators@ubuntu.com
+Apr 15 00:54:21 ubuntu gvfsd-metadata[1991]: g_udev_device_has_property: assertion 'G_UDEV_IS_DEVICE (device)' failed
+Apr 15 00:54:21 ubuntu gvfsd-metadata[1991]: g_udev_device_has_property: assertion 'G_UDEV_IS_DEVICE (device)' failed
+Apr 15 00:54:21 ubuntu gnome-shell[1630]: [AppIndicatorSupport-DEBUG] Registering StatusNotifierItem :1.67/org/ayatana/NotificationItem/software_update_available
+Apr 15 00:54:21 ubuntu gnome-shell[1630]: [AppIndicatorSupport-DEBUG] Registering StatusNotifierItem :1.67/org/ayatana/NotificationItem/livepatch
+Apr 15 00:55:37 ubuntu systemd[1]: Stopping MySQL Community Server...
+Apr 15 00:55:39 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 15 00:55:39 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 15 00:55:40 ubuntu systemd[1]: Started MySQL Community Server.
+Apr 15 00:57:20 ubuntu systemd[1]: Stopping MySQL Community Server...
+Apr 15 00:57:22 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 15 00:57:22 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 15 00:57:22 ubuntu kernel: [ 9794.944062] audit: type=1400 audit(1618473442.324:59): apparmor="DENIED" operation="capable" profile="/usr/sbin/mysqld" pid=8119 comm="mysqld" capability=18  capname="sys_chroot"
+Apr 15 00:57:22 ubuntu mysql-systemd-start[8112]: ERROR: Unable to start MySQL server:
+Apr 15 00:57:22 ubuntu mysql-systemd-start[8112]: 2021-04-15T07:57:22.331413Z 0 [ERROR] chroot: Operation not permitted
+Apr 15 00:57:22 ubuntu mysql-systemd-start[8112]: 2021-04-15T07:57:22.332997Z 0 [ERROR] Aborting
+Apr 15 00:57:22 ubuntu mysql-systemd-start[8112]: Please take a look at https://wiki.debian.org/Teams/MySQL/FAQ for tips on fixing common upgrade issues.
+Apr 15 00:57:22 ubuntu mysql-systemd-start[8112]: Once the problem is resolved, restart the service.
+Apr 15 00:57:22 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 15 00:57:22 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 15 00:57:22 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 15 00:57:22 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 15 00:57:22 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 1.
+Apr 15 00:57:22 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 15 00:57:22 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 15 00:57:22 ubuntu mysql-systemd-start[8121]: ERROR: Unable to start MySQL server:
+Apr 15 00:57:22 ubuntu mysql-systemd-start[8121]: 2021-04-15T07:57:22.657607Z 0 [ERROR] chroot: Operation not permitted
+Apr 15 00:57:22 ubuntu kernel: [ 9795.272018] audit: type=1400 audit(1618473442.652:60): apparmor="DENIED" operation="capable" profile="/usr/sbin/mysqld" pid=8128 comm="mysqld" capability=18  capname="sys_chroot"
+Apr 15 00:57:22 ubuntu mysql-systemd-start[8121]: 2021-04-15T07:57:22.658795Z 0 [ERROR] Aborting
+Apr 15 00:57:22 ubuntu mysql-systemd-start[8121]: Please take a look at https://wiki.debian.org/Teams/MySQL/FAQ for tips on fixing common upgrade issues.
+Apr 15 00:57:22 ubuntu mysql-systemd-start[8121]: Once the problem is resolved, restart the service.
+Apr 15 00:57:22 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 15 00:57:22 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 15 00:57:22 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 15 00:57:22 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 15 00:57:22 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 2.
+Apr 15 00:57:22 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 15 00:57:22 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 15 00:57:22 ubuntu mysql-systemd-start[8129]: ERROR: Unable to start MySQL server:
+Apr 15 00:57:22 ubuntu mysql-systemd-start[8129]: 2021-04-15T07:57:22.889480Z 0 [ERROR] chroot: Operation not permitted
+Apr 15 00:57:22 ubuntu mysql-systemd-start[8129]: 2021-04-15T07:57:22.890642Z 0 [ERROR] Aborting
+Apr 15 00:57:22 ubuntu mysql-systemd-start[8129]: Please take a look at https://wiki.debian.org/Teams/MySQL/FAQ for tips on fixing common upgrade issues.
+Apr 15 00:57:22 ubuntu mysql-systemd-start[8129]: Once the problem is resolved, restart the service.
+Apr 15 00:57:22 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 15 00:57:22 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 15 00:57:22 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 15 00:57:23 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 15 00:57:23 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 3.
+Apr 15 00:57:23 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 15 00:57:23 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 15 00:57:23 ubuntu mysql-systemd-start[8137]: ERROR: Unable to start MySQL server:
+Apr 15 00:57:23 ubuntu mysql-systemd-start[8137]: 2021-04-15T07:57:23.152124Z 0 [ERROR] chroot: Operation not permitted
+Apr 15 00:57:23 ubuntu mysql-systemd-start[8137]: 2021-04-15T07:57:23.153346Z 0 [ERROR] Aborting
+Apr 15 00:57:23 ubuntu mysql-systemd-start[8137]: Please take a look at https://wiki.debian.org/Teams/MySQL/FAQ for tips on fixing common upgrade issues.
+Apr 15 00:57:23 ubuntu mysql-systemd-start[8137]: Once the problem is resolved, restart the service.
+Apr 15 00:57:23 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 15 00:57:23 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 15 00:57:23 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 15 00:57:23 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 15 00:57:23 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 4.
+Apr 15 00:57:23 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 15 00:57:23 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 15 00:57:23 ubuntu mysql-systemd-start[8145]: ERROR: Unable to start MySQL server:
+Apr 15 00:57:23 ubuntu mysql-systemd-start[8145]: 2021-04-15T07:57:23.410244Z 0 [ERROR] chroot: Operation not permitted
+Apr 15 00:57:23 ubuntu mysql-systemd-start[8145]: 2021-04-15T07:57:23.411480Z 0 [ERROR] Aborting
+Apr 15 00:57:23 ubuntu mysql-systemd-start[8145]: Please take a look at https://wiki.debian.org/Teams/MySQL/FAQ for tips on fixing common upgrade issues.
+Apr 15 00:57:23 ubuntu mysql-systemd-start[8145]: Once the problem is resolved, restart the service.
+Apr 15 00:57:23 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 15 00:57:23 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 15 00:57:23 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 15 00:57:23 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 15 00:57:23 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 5.
+Apr 15 00:57:23 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 15 00:57:23 ubuntu systemd[1]: mysql.service: Start request repeated too quickly.
+Apr 15 00:57:23 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 15 00:57:23 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 15 00:58:04 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 15 00:58:04 ubuntu mysql-systemd-start[8165]: ERROR: Unable to start MySQL server:
+Apr 15 00:58:04 ubuntu mysql-systemd-start[8165]: 2021-04-15T07:58:04.879647Z 0 [ERROR] chroot: Operation not permitted
+Apr 15 00:58:04 ubuntu mysql-systemd-start[8165]: 2021-04-15T07:58:04.880905Z 0 [ERROR] Aborting
+Apr 15 00:58:04 ubuntu mysql-systemd-start[8165]: Please take a look at https://wiki.debian.org/Teams/MySQL/FAQ for tips on fixing common upgrade issues.
+Apr 15 00:58:04 ubuntu mysql-systemd-start[8165]: Once the problem is resolved, restart the service.
+Apr 15 00:58:04 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 15 00:58:04 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 15 00:58:04 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 15 00:58:05 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 15 00:58:05 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 1.
+Apr 15 00:58:05 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 15 00:58:05 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 15 00:58:05 ubuntu mysql-systemd-start[8173]: ERROR: Unable to start MySQL server:
+Apr 15 00:58:05 ubuntu mysql-systemd-start[8173]: 2021-04-15T07:58:05.158798Z 0 [ERROR] chroot: Operation not permitted
+Apr 15 00:58:05 ubuntu mysql-systemd-start[8173]: 2021-04-15T07:58:05.159975Z 0 [ERROR] Aborting
+Apr 15 00:58:05 ubuntu mysql-systemd-start[8173]: Please take a look at https://wiki.debian.org/Teams/MySQL/FAQ for tips on fixing common upgrade issues.
+Apr 15 00:58:05 ubuntu mysql-systemd-start[8173]: Once the problem is resolved, restart the service.
+Apr 15 00:58:05 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 15 00:58:05 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 15 00:58:05 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 15 00:58:05 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 15 00:58:05 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 2.
+Apr 15 00:58:05 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 15 00:58:05 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 15 00:58:05 ubuntu mysql-systemd-start[8181]: ERROR: Unable to start MySQL server:
+Apr 15 00:58:05 ubuntu mysql-systemd-start[8181]: 2021-04-15T07:58:05.406137Z 0 [ERROR] chroot: Operation not permitted
+Apr 15 00:58:05 ubuntu mysql-systemd-start[8181]: 2021-04-15T07:58:05.407375Z 0 [ERROR] Aborting
+Apr 15 00:58:05 ubuntu mysql-systemd-start[8181]: Please take a look at https://wiki.debian.org/Teams/MySQL/FAQ for tips on fixing common upgrade issues.
+Apr 15 00:58:05 ubuntu mysql-systemd-start[8181]: Once the problem is resolved, restart the service.
+Apr 15 00:58:05 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 15 00:58:05 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 15 00:58:05 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 15 00:58:05 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 15 00:58:05 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 3.
+Apr 15 00:58:05 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 15 00:58:05 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 15 00:58:05 ubuntu mysql-systemd-start[8189]: ERROR: Unable to start MySQL server:
+Apr 15 00:58:05 ubuntu mysql-systemd-start[8189]: 2021-04-15T07:58:05.638579Z 0 [ERROR] chroot: Operation not permitted
+Apr 15 00:58:05 ubuntu mysql-systemd-start[8189]: 2021-04-15T07:58:05.639685Z 0 [ERROR] Aborting
+Apr 15 00:58:05 ubuntu mysql-systemd-start[8189]: Please take a look at https://wiki.debian.org/Teams/MySQL/FAQ for tips on fixing common upgrade issues.
+Apr 15 00:58:05 ubuntu mysql-systemd-start[8189]: Once the problem is resolved, restart the service.
+Apr 15 00:58:05 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 15 00:58:05 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 15 00:58:05 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 15 00:58:05 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 15 00:58:05 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 4.
+Apr 15 00:58:05 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 15 00:58:05 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 15 00:58:05 ubuntu mysql-systemd-start[8197]: ERROR: Unable to start MySQL server:
+Apr 15 00:58:05 ubuntu mysql-systemd-start[8197]: 2021-04-15T07:58:05.905892Z 0 [ERROR] chroot: Operation not permitted
+Apr 15 00:58:05 ubuntu mysql-systemd-start[8197]: 2021-04-15T07:58:05.907140Z 0 [ERROR] Aborting
+Apr 15 00:58:05 ubuntu mysql-systemd-start[8197]: Please take a look at https://wiki.debian.org/Teams/MySQL/FAQ for tips on fixing common upgrade issues.
+Apr 15 00:58:05 ubuntu mysql-systemd-start[8197]: Once the problem is resolved, restart the service.
+Apr 15 00:58:05 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 15 00:58:05 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 15 00:58:05 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 15 00:58:06 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 15 00:58:06 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 5.
+Apr 15 00:58:06 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 15 00:58:06 ubuntu systemd[1]: mysql.service: Start request repeated too quickly.
+Apr 15 00:58:06 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 15 00:58:06 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 15 00:58:06 ubuntu systemd[1]: mysql.service: Start request repeated too quickly.
+Apr 15 00:58:06 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 15 00:58:06 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 15 00:58:19 ubuntu jetbrains-clion.desktop[8211]: OpenJDK 64-Bit Server VM warning: Option UseConcMarkSweepGC was deprecated in version 9.0 and will likely be removed in a future release.
+Apr 15 00:58:27 ubuntu org.gnome.Shell.desktop[1630]: Window manager warning: Window 0x2a00007 (win0) sets an MWM hint indicating it isn't resizable, but sets min size 1 x 1 and max size 2147483647 x 2147483647; this doesn't make much sense.
+Apr 15 00:58:38 ubuntu jetbrains-clion.desktop[8211]: 2021-04-15 00:58:38,814 [  17974]   WARN - .diagnostic.PerformanceWatcher - UI was frozen for 5167ms, details saved to /home/like/.cache/JetBrains/CLion2020.3/log/threadDumps-freeze-20210415-005838-CL-203.7148.70-FreetypeFontScaler.getGlyphImageNative-5sec

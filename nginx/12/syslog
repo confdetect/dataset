@@ -1,0 +1,76 @@
+Apr 26 15:25:41 ubuntu jetbrains-clion.desktop[36578]: 2021-04-26 15:25:41,819 [70222091]   WARN - cess.elevation.ElevationLogger - Reading handshake failed
+Apr 26 15:25:41 ubuntu jetbrains-clion.desktop[36578]: 2021-04-26 15:25:41,819 [70222091]   WARN - cess.elevation.ElevationLogger - Daemon process finished with exit code 126
+Apr 26 15:25:41 ubuntu jetbrains-clion.desktop[36578]: 2021-04-26 15:25:41,819 [70222091]   WARN - cess.elevation.ElevationLogger - Daemon process stderr:
+Apr 26 15:25:41 ubuntu jetbrains-clion.desktop[36578]: Error executing command as another user: Request dismissed
+Apr 26 15:25:41 ubuntu jetbrains-clion.desktop[36578]:  
+Apr 26 15:25:57 ubuntu jetbrains-clion.desktop[36578]: 2021-04-26 15:25:57,883 [70238155]   WARN - ion.process.BaseProcessHandler - Stream closed
+Apr 26 15:25:57 ubuntu jetbrains-clion.desktop[36578]: java.io.IOException: Stream closed
+Apr 26 15:25:57 ubuntu jetbrains-clion.desktop[36578]: #011at com.intellij.execution.process.mediator.util.ChannelOutputStream.flush(ChannelOutputStream.kt:66)
+Apr 26 15:25:57 ubuntu jetbrains-clion.desktop[36578]: #011at java.base/java.io.BufferedOutputStream.flush(BufferedOutputStream.java:143)
+Apr 26 15:25:57 ubuntu jetbrains-clion.desktop[36578]: #011at java.base/java.io.FilterOutputStream.close(FilterOutputStream.java:182)
+Apr 26 15:25:57 ubuntu jetbrains-clion.desktop[36578]: #011at com.intellij.execution.process.BaseProcessHandler.closeStreams(BaseProcessHandler.java:97)
+Apr 26 15:25:57 ubuntu jetbrains-clion.desktop[36578]: #011at com.intellij.execution.process.KillableProcessHandler.notifyProcessTerminated(KillableProcessHandler.java:133)
+Apr 26 15:25:57 ubuntu jetbrains-clion.desktop[36578]: #011at com.intellij.execution.process.BaseProcessHandler.onOSProcessTerminated(BaseProcessHandler.java:61)
+Apr 26 15:25:57 ubuntu jetbrains-clion.desktop[36578]: #011at com.intellij.execution.process.OSProcessHandler.onOSProcessTerminated(OSProcessHandler.java:206)
+Apr 26 15:25:57 ubuntu jetbrains-clion.desktop[36578]: #011at com.intellij.execution.process.BaseOSProcessHandler$1.lambda$startNotified$0(BaseOSProcessHandler.java:97)
+Apr 26 15:25:57 ubuntu jetbrains-clion.desktop[36578]: #011at com.intellij.execution.process.ProcessWaitFor.lambda$new$0(ProcessWaitFor.java:55)
+Apr 26 15:25:57 ubuntu jetbrains-clion.desktop[36578]: #011at com.intellij.util.ConcurrencyUtil.runUnderThreadName(ConcurrencyUtil.java:208)
+Apr 26 15:25:57 ubuntu jetbrains-clion.desktop[36578]: #011at com.intellij.execution.process.ProcessWaitFor.lambda$new$1(ProcessWaitFor.java:33)
+Apr 26 15:25:57 ubuntu jetbrains-clion.desktop[36578]: #011at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+Apr 26 15:25:57 ubuntu jetbrains-clion.desktop[36578]: #011at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+Apr 26 15:25:57 ubuntu jetbrains-clion.desktop[36578]: #011at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+Apr 26 15:25:57 ubuntu jetbrains-clion.desktop[36578]: #011at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+Apr 26 15:25:57 ubuntu jetbrains-clion.desktop[36578]: #011at java.base/java.util.concurrent.Executors$PrivilegedThreadFactory$1$1.run(Executors.java:668)
+Apr 26 15:25:57 ubuntu jetbrains-clion.desktop[36578]: #011at java.base/java.util.concurrent.Executors$PrivilegedThreadFactory$1$1.run(Executors.java:665)
+Apr 26 15:25:57 ubuntu jetbrains-clion.desktop[36578]: #011at java.base/java.security.AccessController.doPrivileged(Native Method)
+Apr 26 15:25:57 ubuntu jetbrains-clion.desktop[36578]: #011at java.base/java.util.concurrent.Executors$PrivilegedThreadFactory$1.run(Executors.java:665)
+Apr 26 15:25:57 ubuntu jetbrains-clion.desktop[36578]: #011at java.base/java.lang.Thread.run(Thread.java:834)
+Apr 26 15:26:37 ubuntu dhclient[38235]: DHCPREQUEST of 192.168.182.129 on ens33 to 192.168.182.254 port 67 (xid=0x2d07db49)
+Apr 26 15:26:37 ubuntu dhclient[38235]: DHCPACK of 192.168.182.129 from 192.168.182.254
+Apr 26 15:26:37 ubuntu NetworkManager[686]: <info>  [1619421997.8335] dhcp4 (ens33):   address 192.168.182.129
+Apr 26 15:26:37 ubuntu NetworkManager[686]: <info>  [1619421997.8336] dhcp4 (ens33):   plen 24 (255.255.255.0)
+Apr 26 15:26:37 ubuntu NetworkManager[686]: <info>  [1619421997.8336] dhcp4 (ens33):   gateway 192.168.182.2
+Apr 26 15:26:37 ubuntu NetworkManager[686]: <info>  [1619421997.8336] dhcp4 (ens33):   lease time 1800
+Apr 26 15:26:37 ubuntu NetworkManager[686]: <info>  [1619421997.8336] dhcp4 (ens33):   nameserver '192.168.182.2'
+Apr 26 15:26:37 ubuntu dbus-daemon[662]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.10' (uid=0 pid=686 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Apr 26 15:26:37 ubuntu NetworkManager[686]: <info>  [1619421997.8336] dhcp4 (ens33):   domain name 'localdomain'
+Apr 26 15:26:37 ubuntu NetworkManager[686]: <info>  [1619421997.8336] dhcp4 (ens33):   wins '192.168.182.2'
+Apr 26 15:26:37 ubuntu NetworkManager[686]: <info>  [1619421997.8336] dhcp4 (ens33): state changed bound -> bound
+Apr 26 15:26:37 ubuntu systemd[1]: Starting Network Manager Script Dispatcher Service...
+Apr 26 15:26:37 ubuntu dhclient[38235]: bound to 192.168.182.129 -- renewal in 736 seconds.
+Apr 26 15:26:37 ubuntu dbus-daemon[662]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Apr 26 15:26:37 ubuntu systemd[1]: Started Network Manager Script Dispatcher Service.
+Apr 26 15:26:37 ubuntu nm-dispatcher: req:1 'dhcp4-change' [ens33]: new request (1 scripts)
+Apr 26 15:26:37 ubuntu nm-dispatcher: req:1 'dhcp4-change' [ens33]: start running ordered scripts...
+Apr 26 15:29:22 ubuntu systemd[1]: Starting A high performance web server and a reverse proxy server...
+Apr 26 15:29:22 ubuntu nginx[42792]: nginx: [emerg] invalid value "1" in /etc/nginx/nginx.conf:22
+Apr 26 15:29:22 ubuntu nginx[42792]: nginx: configuration file /etc/nginx/nginx.conf test failed
+Apr 26 15:29:22 ubuntu systemd[1]: nginx.service: Control process exited, code=exited status=1
+Apr 26 15:29:22 ubuntu systemd[1]: nginx.service: Failed with result 'exit-code'.
+Apr 26 15:29:22 ubuntu systemd[1]: Failed to start A high performance web server and a reverse proxy server.
+Apr 26 15:29:24 ubuntu systemd[1]: Starting A high performance web server and a reverse proxy server...
+Apr 26 15:29:24 ubuntu nginx[42799]: nginx: [emerg] invalid value "1" in /etc/nginx/nginx.conf:22
+Apr 26 15:29:24 ubuntu nginx[42799]: nginx: configuration file /etc/nginx/nginx.conf test failed
+Apr 26 15:29:24 ubuntu systemd[1]: nginx.service: Control process exited, code=exited status=1
+Apr 26 15:29:24 ubuntu systemd[1]: nginx.service: Failed with result 'exit-code'.
+Apr 26 15:29:24 ubuntu systemd[1]: Failed to start A high performance web server and a reverse proxy server.
+Apr 26 15:30:39 ubuntu systemd[1]: Starting A high performance web server and a reverse proxy server...
+Apr 26 15:30:39 ubuntu systemd[1]: Started A high performance web server and a reverse proxy server.
+Apr 26 15:30:39 ubuntu systemd[1]: Stopping A high performance web server and a reverse proxy server...
+Apr 26 15:30:39 ubuntu systemd[1]: Stopped A high performance web server and a reverse proxy server.
+Apr 26 15:30:39 ubuntu systemd[1]: Starting A high performance web server and a reverse proxy server...
+Apr 26 15:30:39 ubuntu systemd[1]: Started A high performance web server and a reverse proxy server.
+Apr 26 15:30:53 ubuntu systemd[1]: Stopping A high performance web server and a reverse proxy server...
+Apr 26 15:30:53 ubuntu systemd[1]: Stopped A high performance web server and a reverse proxy server.
+Apr 26 15:30:53 ubuntu systemd[1]: Starting A high performance web server and a reverse proxy server...
+Apr 26 15:30:53 ubuntu nginx[42927]: nginx: [emerg] invalid value "1" in /etc/nginx/nginx.conf:22
+Apr 26 15:30:53 ubuntu nginx[42927]: nginx: configuration file /etc/nginx/nginx.conf test failed
+Apr 26 15:30:53 ubuntu systemd[1]: nginx.service: Control process exited, code=exited status=1
+Apr 26 15:30:53 ubuntu systemd[1]: nginx.service: Failed with result 'exit-code'.
+Apr 26 15:30:53 ubuntu systemd[1]: Failed to start A high performance web server and a reverse proxy server.
+Apr 26 15:30:54 ubuntu systemd[1]: Starting A high performance web server and a reverse proxy server...
+Apr 26 15:30:54 ubuntu nginx[42934]: nginx: [emerg] invalid value "1" in /etc/nginx/nginx.conf:22
+Apr 26 15:30:54 ubuntu nginx[42934]: nginx: configuration file /etc/nginx/nginx.conf test failed
+Apr 26 15:30:54 ubuntu systemd[1]: nginx.service: Control process exited, code=exited status=1
+Apr 26 15:30:54 ubuntu systemd[1]: nginx.service: Failed with result 'exit-code'.
+Apr 26 15:30:54 ubuntu systemd[1]: Failed to start A high performance web server and a reverse proxy server.

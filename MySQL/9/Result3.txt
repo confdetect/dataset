@@ -1,0 +1,25 @@
+Connect Database log success
+Create Table MysqlLog Success
+Starting Parse Mysql Log
+Starting Parse Sys Log
+Computing Problem Spotlight
+Create Table MysqlMsg Success
+Mysql DisConnect
+Using Augeas to Parse Configuration File
+Extract key-value Finished
+Extract Env Finished
+Connect Mysql wise success
+Giving Problem Spotlight and Resolve Spotlight
+Problem Spotlight No.0 : 2021-04-14 07:36:22 Error Aborting
+Problem Spotlight No.1 : 2021-04-14 07:36:22 Error unknown option '--skip-locking'
+Suspicious word:    skip-locking    with key:    Conf: skip-locking    and value:    
+Problem Spotlight No.2 : 2021-04-14 00:36:22 Warning Once the problem is resolved, restart the service.
+Problem Spotlight No.3 : 2021-04-14 00:36:22 Warning Please take a look at https://wiki.debian.org/Teams/MySQL/FAQ for tips on fixing common upgrade issues.
+Problem Spotlight No.4 : 2021-04-14 00:36:22 Warning ERROR: Unable to start MySQL server:
+Problem Spotlight No.5 : 2021-04-14 07:35:26 Note Shutting down plugin 'binlog'
+Problem Spotlight No.6 : 2021-04-14 07:35:26 Note Shutting down plugin 'mysql_native_password'
+Problem Spotlight No.7 : 2021-04-14 07:35:26 Note Shutting down plugin 'sha256_password'
+Problem Spotlight No.8 : 2021-04-14 07:35:26 Note Shutting down plugin 'CSV'
+Problem Spotlight No.9 : 2021-04-14 07:35:26 Note Shutting down plugin 'MEMORY'
+Mysql DisConnect
+Time Using: 1.3088 s

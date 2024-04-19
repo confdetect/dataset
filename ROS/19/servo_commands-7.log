@@ -1,0 +1,42 @@
+[rospy.client][INFO] 2021-05-18 14:39:32,159: init_node, name[/servo_commands], pid[79786]
+[xmlrpc][INFO] 2021-05-18 14:39:32,160: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2021-05-18 14:39:32,160: Started XML-RPC server [http://ubuntu:41745/]
+[rospy.impl.masterslave][INFO] 2021-05-18 14:39:32,160: _ready: http://ubuntu:41745/
+[xmlrpc][INFO] 2021-05-18 14:39:32,161: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2021-05-18 14:39:32,161: ROS Slave URI: [http://ubuntu:41745/]
+[rospy.registration][INFO] 2021-05-18 14:39:32,161: Registering with master node http://localhost:11311
+[rospy.init][INFO] 2021-05-18 14:39:32,262: registered with master
+[rospy.rosout][INFO] 2021-05-18 14:39:32,262: initializing /rosout core topic
+[rospy.rosout][INFO] 2021-05-18 14:39:32,265: connected to core topic /rosout
+[rospy.simtime][INFO] 2021-05-18 14:39:32,269: initializing /clock core topic
+[rospy.simtime][INFO] 2021-05-18 14:39:32,271: connected to core topic /clock
+[rospy.internal][INFO] 2021-05-18 14:39:32,301: topic[/vesc/low_level/ackermann_cmd_mux/output] adding connection to [http://ubuntu:37653/], count 0
+[rospy.internal][INFO] 2021-05-18 14:39:32,498: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2021-05-18 14:39:35,196: topic[/clock] adding connection to [http://ubuntu:32989/], count 0
+[rospy.internal][INFO] 2021-05-18 14:39:36,773: topic[/racecar/left_rear_wheel_velocity_controller/command] adding connection to [/gazebo], count 0
+[rospy.internal][INFO] 2021-05-18 14:39:36,880: topic[/racecar/right_rear_wheel_velocity_controller/command] adding connection to [/gazebo], count 0
+[rospy.internal][INFO] 2021-05-18 14:39:36,983: topic[/racecar/left_front_wheel_velocity_controller/command] adding connection to [/gazebo], count 0
+[rospy.internal][INFO] 2021-05-18 14:39:37,088: topic[/racecar/right_front_wheel_velocity_controller/command] adding connection to [/gazebo], count 0
+[rospy.internal][INFO] 2021-05-18 14:39:37,280: topic[/racecar/left_steering_hinge_position_controller/command] adding connection to [/gazebo], count 0
+[rospy.internal][INFO] 2021-05-18 14:39:37,281: topic[/racecar/right_steering_hinge_position_controller/command] adding connection to [/gazebo], count 0
+[rospy.core][INFO] 2021-05-18 14:39:57,783: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2021-05-18 14:39:57,789: topic[/racecar/right_steering_hinge_position_controller/command] removing connection to /gazebo
+[rospy.internal][INFO] 2021-05-18 14:39:57,789: topic[/racecar/left_rear_wheel_velocity_controller/command] removing connection to /gazebo
+[rospy.internal][INFO] 2021-05-18 14:39:57,789: topic[/racecar/left_steering_hinge_position_controller/command] removing connection to /gazebo
+[rospy.internal][INFO] 2021-05-18 14:39:57,789: topic[/racecar/right_rear_wheel_velocity_controller/command] removing connection to /gazebo
+[rospy.internal][INFO] 2021-05-18 14:39:57,790: topic[/racecar/left_front_wheel_velocity_controller/command] removing connection to /gazebo
+[rospy.internal][INFO] 2021-05-18 14:39:57,791: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2021-05-18 14:39:57,791: topic[/racecar/right_front_wheel_velocity_controller/command] removing connection to /gazebo
+[rospy.internal][INFO] 2021-05-18 14:39:57,792: topic[/clock] removing connection to http://ubuntu:32989/
+[rospy.internal][INFO] 2021-05-18 14:39:57,793: topic[/vesc/low_level/ackermann_cmd_mux/output] removing connection to http://ubuntu:37653/
+[rospy.impl.masterslave][INFO] 2021-05-18 14:39:57,794: signal-2
+[rospy.internal][WARNING] 2021-05-18 14:39:57,795: Unknown error initiating TCP/IP socket to ubuntu:33441 (http://ubuntu:37653/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosgraph/network.py", line 359, in read_ros_handshake_header
+    raise ROSHandshakeException("connection from sender terminated before handshake header received. %s bytes were received. Please check sender for additional details."%b.tell())
+ROSHandshakeException: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+
+[rospy.core][INFO] 2021-05-18 14:39:57,929: signal_shutdown [atexit]

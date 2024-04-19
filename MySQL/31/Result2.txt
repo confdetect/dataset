@@ -1,0 +1,28 @@
+Connect Database log success
+Create Table MysqlLog Success
+Starting Parse Mysql Log
+Starting Parse Sys Log
+Computing Problem Spotlight
+Create Table MysqlMsg Success
+Mysql DisConnect
+Using Augeas to Parse Configuration File
+Extract key-value Finished
+Extract Env Finished
+Connect Mysql wise success
+Giving Problem Spotlight and Resolve Spotlight
+Problem Spotlight No.0 : 2021-04-21 06:45:01 Error Aborting
+Problem Spotlight No.1 : 2021-04-21 06:45:01 Error mysqld: Error while setting value 's' to 'key_buffer_size'
+Suspicious word:    key_buffer_size    with key:    Conf: key_buffer_size    and value:    s
+Suspicious word:    mysqld    with key:    Program: 9909/mysqld    and value:    Port: tcp/3306
+Suspicious word:    s    with key:    Conf: key_buffer_size    and value:    s
+Knowledge Database Configuration:    wrong Conf value's key: max_allowed_packet    Infomation:    
+Problem Spotlight No.2 : 2021-04-21 06:45:01 Error Unknown suffix 's' used for variable 'key_buffer_size' (value 's')
+Problem Spotlight No.3 : 2021-04-20 23:45:01 Warning Once the problem is resolved, restart the service.
+Problem Spotlight No.4 : 2021-04-20 23:45:01 Warning Please take a look at https://wiki.debian.org/Teams/MySQL/FAQ for tips on fixing common upgrade issues.
+Problem Spotlight No.5 : 2021-04-20 23:45:01 Warning ERROR: Unable to start MySQL server:
+Problem Spotlight No.6 : 2021-04-21 06:42:02 Warning CA certificate ca.pem is self signed.
+Problem Spotlight No.7 : 2021-04-21 06:42:02 Warning TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+Problem Spotlight No.8 : 2021-04-21 06:42:59 Note /usr/sbin/mysqld: Shutdown complete
+Problem Spotlight No.9 : 2021-04-21 06:42:59 Note Shutting down plugin 'binlog'
+Mysql DisConnect
+Time Using: 1.08217 s

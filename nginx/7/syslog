@@ -1,0 +1,135 @@
+Apr 25 20:03:53 ubuntu systemd[1]: Failed to start A high performance web server and a reverse proxy server.
+Apr 25 20:06:36 ubuntu nautilus[20088]: gtk_revealer_set_reveal_child: assertion 'GTK_IS_REVEALER (revealer)' failed
+Apr 25 20:06:40 ubuntu nautilus[20088]: message repeated 3 times: [ gtk_revealer_set_reveal_child: assertion 'GTK_IS_REVEALER (revealer)' failed]
+Apr 25 20:07:54 ubuntu NetworkManager[686]: <info>  [1619352474.7018] manager: disable requested (sleeping: no  enabled: yes)
+Apr 25 20:07:54 ubuntu NetworkManager[686]: <info>  [1619352474.7022] manager: NetworkManager state is now ASLEEP
+Apr 25 20:07:54 ubuntu NetworkManager[686]: <info>  [1619352474.7029] audit: op="networking-control" arg="off" pid=38168 uid=0 result="success"
+Apr 25 20:07:54 ubuntu NetworkManager[686]: <info>  [1619352474.7031] device (ens33): state change: activated -> deactivating (reason 'sleeping', sys-iface-state: 'managed')
+Apr 25 20:07:54 ubuntu whoopsie[1323]: [20:07:54] offline
+Apr 25 20:07:54 ubuntu dbus-daemon[662]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.10' (uid=0 pid=686 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Apr 25 20:07:54 ubuntu NetworkManager[686]: <info>  [1619352474.7158] device (ens33): state change: deactivating -> disconnected (reason 'sleeping', sys-iface-state: 'managed')
+Apr 25 20:07:54 ubuntu systemd[1]: Starting Network Manager Script Dispatcher Service...
+Apr 25 20:07:54 ubuntu avahi-daemon[657]: Withdrawing address record for fe80::c84e:ac72:af90:386b on ens33.
+Apr 25 20:07:54 ubuntu avahi-daemon[657]: Leaving mDNS multicast group on interface ens33.IPv6 with address fe80::c84e:ac72:af90:386b.
+Apr 25 20:07:54 ubuntu deja-dup-monito[2616]: Source ID 657 was not found when attempting to remove it
+Apr 26 10:23:34 ubuntu avahi-daemon[657]: Interface ens33.IPv6 no longer relevant for mDNS.
+Apr 26 10:23:34 ubuntu NetworkManager[686]: <info>  [1619403814.0967] dhcp4 (ens33): canceled DHCP transaction, DHCP client pid 35231
+Apr 26 10:23:34 ubuntu NetworkManager[686]: <info>  [1619403814.0969] dhcp4 (ens33): state changed bound -> done
+Apr 26 10:23:34 ubuntu systemd[1]: Starting Message of the Day...
+Apr 26 10:23:34 ubuntu systemd[1]: Starting Daily apt download activities...
+Apr 26 10:23:34 ubuntu systemd[1]: Starting Discard unused blocks...
+Apr 26 10:23:34 ubuntu avahi-daemon[657]: Withdrawing address record for 192.168.182.129 on ens33.
+Apr 26 10:23:34 ubuntu avahi-daemon[657]: Leaving mDNS multicast group on interface ens33.IPv4 with address 192.168.182.129.
+Apr 26 10:23:34 ubuntu avahi-daemon[657]: Interface ens33.IPv4 no longer relevant for mDNS.
+Apr 26 10:23:34 ubuntu systemd[1]: Started Run anacron jobs.
+Apr 26 10:23:34 ubuntu anacron[38177]: Anacron 2.3 started on 2021-04-26
+Apr 26 10:23:34 ubuntu anacron[38177]: Will run job `cron.daily' in 5 min.
+Apr 26 10:23:34 ubuntu systemd[1]: Started Message of the Day.
+Apr 26 10:23:34 ubuntu anacron[38177]: Will run job `cron.weekly' in 10 min.
+Apr 26 10:23:34 ubuntu anacron[38177]: Will run job `cron.monthly' in 15 min.
+Apr 26 10:23:34 ubuntu anacron[38177]: Jobs will be executed sequentially
+Apr 26 10:23:34 ubuntu systemd[1]: Started Discard unused blocks.
+Apr 26 10:23:34 ubuntu NetworkManager[686]: <info>  [1619403814.1882] device (ens33): state change: disconnected -> unmanaged (reason 'sleeping', sys-iface-state: 'managed')
+Apr 26 10:23:34 ubuntu dbus-daemon[662]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Apr 26 10:23:34 ubuntu nm-dispatcher: req:1 'connectivity-change': new request (1 scripts)
+Apr 26 10:23:34 ubuntu nm-dispatcher: req:1 'connectivity-change': start running ordered scripts...
+Apr 26 10:23:34 ubuntu systemd[1]: Started Network Manager Script Dispatcher Service.
+Apr 26 10:23:34 ubuntu gsd-sharing[1956]: Failed to StopUnit service: GDBus.Error:org.freedesktop.systemd1.NoSuchUnit: Unit gnome-user-share-webdav.service not loaded.
+Apr 26 10:23:34 ubuntu gsd-sharing[1956]: Failed to StopUnit service: GDBus.Error:org.freedesktop.systemd1.NoSuchUnit: Unit rygel.service not loaded.
+Apr 26 10:23:34 ubuntu gsd-sharing[1956]: Failed to StopUnit service: GDBus.Error:org.freedesktop.systemd1.NoSuchUnit: Unit gnome-remote-desktop.service not loaded.
+Apr 26 10:23:34 ubuntu nm-dispatcher: req:2 'down' [ens33]: new request (1 scripts)
+Apr 26 10:23:34 ubuntu nm-dispatcher: req:2 'down' [ens33]: start running ordered scripts...
+Apr 26 10:23:34 ubuntu NetworkManager[686]: <info>  [1619403814.3050] manager: enable requested (sleeping: no  enabled: no)
+Apr 26 10:23:34 ubuntu NetworkManager[686]: <info>  [1619403814.3051] device (ens33): state change: unmanaged -> unavailable (reason 'managed', sys-iface-state: 'managed')
+Apr 26 10:23:34 ubuntu NetworkManager[686]: <info>  [1619403814.3205] manager: NetworkManager state is now DISCONNECTED
+Apr 26 10:23:34 ubuntu kernel: [47182.466786] e1000: ens33 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: None
+Apr 26 10:23:34 ubuntu kernel: [47182.468440] IPv6: ADDRCONF(NETDEV_CHANGE): ens33: link becomes ready
+Apr 26 10:23:34 ubuntu NetworkManager[686]: <info>  [1619403814.3220] audit: op="networking-control" arg="on" pid=38222 uid=0 result="success"
+Apr 26 10:23:34 ubuntu NetworkManager[686]: <info>  [1619403814.3351] device (ens33): carrier: link connected
+Apr 26 10:23:34 ubuntu NetworkManager[686]: <info>  [1619403814.3387] device (ens33): state change: unavailable -> disconnected (reason 'carrier-changed', sys-iface-state: 'managed')
+Apr 26 10:23:34 ubuntu NetworkManager[686]: <info>  [1619403814.3514] policy: auto-activating connection 'Wired connection 1'
+Apr 26 10:23:34 ubuntu NetworkManager[686]: <info>  [1619403814.3534] device (ens33): Activation: starting connection 'Wired connection 1' (fc53b11f-8d7b-37c0-ade5-2b5b03e4ee92)
+Apr 26 10:23:34 ubuntu NetworkManager[686]: <info>  [1619403814.3540] device (ens33): state change: disconnected -> prepare (reason 'none', sys-iface-state: 'managed')
+Apr 26 10:23:34 ubuntu NetworkManager[686]: <info>  [1619403814.3546] manager: NetworkManager state is now CONNECTING
+Apr 26 10:23:34 ubuntu NetworkManager[686]: <info>  [1619403814.3561] device (ens33): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+Apr 26 10:23:34 ubuntu NetworkManager[686]: <info>  [1619403814.3688] device (ens33): state change: config -> ip-config (reason 'none', sys-iface-state: 'managed')
+Apr 26 10:23:34 ubuntu NetworkManager[686]: <info>  [1619403814.3704] dhcp4 (ens33): activation: beginning transaction (timeout in 45 seconds)
+Apr 26 10:23:34 ubuntu NetworkManager[686]: <info>  [1619403814.3860] dhcp4 (ens33): dhclient started with pid 38235
+Apr 26 10:23:34 ubuntu avahi-daemon[657]: Joining mDNS multicast group on interface ens33.IPv6 with address fe80::c84e:ac72:af90:386b.
+Apr 26 10:23:34 ubuntu avahi-daemon[657]: New relevant interface ens33.IPv6 for mDNS.
+Apr 26 10:23:34 ubuntu avahi-daemon[657]: Registering new address record for fe80::c84e:ac72:af90:386b on ens33.*.
+Apr 26 10:23:34 ubuntu dhclient[38235]: DHCPDISCOVER on ens33 to 255.255.255.255 port 67 interval 3 (xid=0x49db072d)
+Apr 26 10:23:35 ubuntu dhclient[38235]: DHCPREQUEST of 192.168.182.129 on ens33 to 255.255.255.255 port 67 (xid=0x2d07db49)
+Apr 26 10:23:35 ubuntu dhclient[38235]: DHCPOFFER of 192.168.182.129 from 192.168.182.254
+Apr 26 10:23:35 ubuntu dhclient[38235]: DHCPACK of 192.168.182.129 from 192.168.182.254
+Apr 26 10:23:35 ubuntu NetworkManager[686]: <info>  [1619403815.6747] dhcp4 (ens33):   address 192.168.182.129
+Apr 26 10:23:35 ubuntu NetworkManager[686]: <info>  [1619403815.6748] dhcp4 (ens33):   plen 24 (255.255.255.0)
+Apr 26 10:23:35 ubuntu avahi-daemon[657]: Joining mDNS multicast group on interface ens33.IPv4 with address 192.168.182.129.
+Apr 26 10:23:35 ubuntu NetworkManager[686]: <info>  [1619403815.6748] dhcp4 (ens33):   gateway 192.168.182.2
+Apr 26 10:23:35 ubuntu avahi-daemon[657]: New relevant interface ens33.IPv4 for mDNS.
+Apr 26 10:23:35 ubuntu NetworkManager[686]: <info>  [1619403815.6748] dhcp4 (ens33):   lease time 1800
+Apr 26 10:23:35 ubuntu whoopsie[1323]: [10:23:35] Cannot reach: https://daisy.ubuntu.com
+Apr 26 10:23:35 ubuntu avahi-daemon[657]: Registering new address record for 192.168.182.129 on ens33.IPv4.
+Apr 26 10:23:35 ubuntu NetworkManager[686]: <info>  [1619403815.6749] dhcp4 (ens33):   nameserver '192.168.182.2'
+Apr 26 10:23:35 ubuntu NetworkManager[686]: <info>  [1619403815.6749] dhcp4 (ens33):   domain name 'localdomain'
+Apr 26 10:23:35 ubuntu NetworkManager[686]: <info>  [1619403815.6749] dhcp4 (ens33):   wins '192.168.182.2'
+Apr 26 10:23:35 ubuntu NetworkManager[686]: <info>  [1619403815.6749] dhcp4 (ens33): state changed unknown -> bound
+Apr 26 10:23:35 ubuntu NetworkManager[686]: <info>  [1619403815.6812] device (ens33): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'managed')
+Apr 26 10:23:35 ubuntu NetworkManager[686]: <info>  [1619403815.6819] device (ens33): state change: ip-check -> secondaries (reason 'none', sys-iface-state: 'managed')
+Apr 26 10:23:35 ubuntu NetworkManager[686]: <info>  [1619403815.6820] device (ens33): state change: secondaries -> activated (reason 'none', sys-iface-state: 'managed')
+Apr 26 10:23:35 ubuntu NetworkManager[686]: <info>  [1619403815.6821] manager: NetworkManager state is now CONNECTED_LOCAL
+Apr 26 10:23:35 ubuntu NetworkManager[686]: <info>  [1619403815.7639] manager: NetworkManager state is now CONNECTED_SITE
+Apr 26 10:23:35 ubuntu NetworkManager[686]: <info>  [1619403815.7641] policy: set 'Wired connection 1' (ens33) as default for IPv4 routing and DNS
+Apr 26 10:23:35 ubuntu NetworkManager[686]: <info>  [1619403815.7644] device (ens33): Activation: successful, device activated.
+Apr 26 10:23:35 ubuntu dhclient[38235]: bound to 192.168.182.129 -- renewal in 720 seconds.
+Apr 26 10:23:35 ubuntu nm-dispatcher: req:3 'up' [ens33]: new request (1 scripts)
+Apr 26 10:23:35 ubuntu nm-dispatcher: req:3 'up' [ens33]: start running ordered scripts...
+Apr 26 10:23:35 ubuntu gsd-sharing[1956]: Failed to StopUnit service: GDBus.Error:org.freedesktop.systemd1.NoSuchUnit: Unit gnome-user-share-webdav.service not loaded.
+Apr 26 10:23:35 ubuntu gsd-sharing[1956]: Failed to StopUnit service: GDBus.Error:org.freedesktop.systemd1.NoSuchUnit: Unit rygel.service not loaded.
+Apr 26 10:23:35 ubuntu gsd-sharing[1956]: Failed to StopUnit service: GDBus.Error:org.freedesktop.systemd1.NoSuchUnit: Unit gnome-remote-desktop.service not loaded.
+Apr 26 10:23:36 ubuntu systemd-resolved[582]: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+Apr 26 10:23:37 ubuntu systemd-resolved[582]: message repeated 4 times: [ Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.]
+Apr 26 10:23:37 ubuntu NetworkManager[686]: <info>  [1619403817.2790] manager: NetworkManager state is now CONNECTED_GLOBAL
+Apr 26 10:23:37 ubuntu nm-dispatcher: req:4 'connectivity-change': new request (1 scripts)
+Apr 26 10:23:37 ubuntu nm-dispatcher: req:4 'connectivity-change': start running ordered scripts...
+Apr 26 10:23:37 ubuntu whoopsie[1323]: [10:23:37] The default IPv4 route is: /org/freedesktop/NetworkManager/ActiveConnection/9
+Apr 26 10:23:37 ubuntu whoopsie[1323]: [10:23:37] Not a paid data plan: /org/freedesktop/NetworkManager/ActiveConnection/9
+Apr 26 10:23:37 ubuntu whoopsie[1323]: [10:23:37] Found usable connection: /org/freedesktop/NetworkManager/ActiveConnection/9
+Apr 26 10:23:37 ubuntu whoopsie[1323]: [10:23:37] online
+Apr 26 10:23:37 ubuntu systemd-resolved[582]: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+Apr 26 10:23:50 ubuntu PackageKit: get-updates transaction /629_bdbabada from uid 1000 finished with success after 4305ms
+Apr 26 10:23:57 ubuntu systemd[1]: Started Daily apt download activities.
+Apr 26 10:23:57 ubuntu systemd[1]: Starting Daily apt upgrade and clean activities...
+Apr 26 10:24:01 ubuntu systemd[1]: Started Daily apt upgrade and clean activities.
+Apr 26 10:25:12 ubuntu systemd[1]: Starting A high performance web server and a reverse proxy server...
+Apr 26 10:25:12 ubuntu systemd[1]: Started A high performance web server and a reverse proxy server.
+Apr 26 10:25:13 ubuntu systemd[1]: Stopping A high performance web server and a reverse proxy server...
+Apr 26 10:25:13 ubuntu systemd[1]: Stopped A high performance web server and a reverse proxy server.
+Apr 26 10:25:13 ubuntu systemd[1]: Starting A high performance web server and a reverse proxy server...
+Apr 26 10:25:13 ubuntu systemd[1]: Started A high performance web server and a reverse proxy server.
+Apr 26 10:25:29 ubuntu jetbrains-pycharm-ce.desktop[39336]: OpenJDK 64-Bit Server VM warning: Option UseConcMarkSweepGC was deprecated in version 9.0 and will likely be removed in a future release.
+Apr 26 10:25:30 ubuntu jetbrains-pycharm-ce.desktop[39336]: 2021-04-26 10:25:30,914 [   1038]   WARN - llij.ide.plugins.PluginManager - Resource bundle redefinition for plugin 'com.jetbrains.pycharm.community.customization'. Old value: messages.ActionsBundle, new value: messages.PyBundle
+Apr 26 10:25:32 ubuntu org.gnome.Shell.desktop[1827]: Window manager warning: Window 0x500002e (win0) sets an MWM hint indicating it isn't resizable, but sets min size 1 x 1 and max size 2147483647 x 2147483647; this doesn't make much sense.
+Apr 26 10:25:32 ubuntu jetbrains-pycharm-ce.desktop[39336]: 2021-04-26 10:25:32,794 [   2918]   WARN - nSystem.impl.ActionManagerImpl - keymap "Visual Studio" not found [Plugin: com.intellij]
+Apr 26 10:25:32 ubuntu jetbrains-pycharm-ce.desktop[39336]: 2021-04-26 10:25:32,797 [   2921]   WARN - nSystem.impl.ActionManagerImpl - keymap "Eclipse" not found [Plugin: com.intellij]
+Apr 26 10:25:32 ubuntu jetbrains-pycharm-ce.desktop[39336]: 2021-04-26 10:25:32,797 [   2921]   WARN - nSystem.impl.ActionManagerImpl - keymap "NetBeans 6.5" not found [Plugin: com.intellij]
+Apr 26 10:25:32 ubuntu jetbrains-pycharm-ce.desktop[39336]: 2021-04-26 10:25:32,797 [   2921]   WARN - nSystem.impl.ActionManagerImpl - keymap "Visual Studio" not found [Plugin: com.intellij]
+Apr 26 10:25:33 ubuntu jetbrains-pycharm-ce.desktop[39336]: 2021-04-26 10:25:33,018 [   3142]   WARN - nSystem.impl.ActionManagerImpl - keymap "Eclipse" not found [Plugin: org.jetbrains.plugins.github]
+Apr 26 10:25:33 ubuntu jetbrains-pycharm-ce.desktop[39336]: 2021-04-26 10:25:33,050 [   3174]   WARN - nSystem.impl.ActionManagerImpl - keymap "Eclipse" not found [Plugin: PythonCore]
+Apr 26 10:25:33 ubuntu jetbrains-pycharm-ce.desktop[39336]: 2021-04-26 10:25:33,050 [   3174]   WARN - nSystem.impl.ActionManagerImpl - keymap "NetBeans 6.5" not found [Plugin: PythonCore]
+Apr 26 10:26:01 ubuntu systemd[1]: Stopping A high performance web server and a reverse proxy server...
+Apr 26 10:26:01 ubuntu systemd[1]: Stopped A high performance web server and a reverse proxy server.
+Apr 26 10:26:01 ubuntu systemd[1]: Starting A high performance web server and a reverse proxy server...
+Apr 26 10:26:01 ubuntu nginx[39652]: nginx: [emerg] invalid number of arguments in "sendfile" directive in /etc/nginx/nginx.conf:17
+Apr 26 10:26:01 ubuntu nginx[39652]: nginx: configuration file /etc/nginx/nginx.conf test failed
+Apr 26 10:26:01 ubuntu systemd[1]: nginx.service: Control process exited, code=exited status=1
+Apr 26 10:26:01 ubuntu systemd[1]: nginx.service: Failed with result 'exit-code'.
+Apr 26 10:26:01 ubuntu systemd[1]: Failed to start A high performance web server and a reverse proxy server.
+Apr 26 10:26:02 ubuntu systemd[1]: Starting A high performance web server and a reverse proxy server...
+Apr 26 10:26:02 ubuntu nginx[39658]: nginx: [emerg] invalid number of arguments in "sendfile" directive in /etc/nginx/nginx.conf:17
+Apr 26 10:26:02 ubuntu nginx[39658]: nginx: configuration file /etc/nginx/nginx.conf test failed
+Apr 26 10:26:02 ubuntu systemd[1]: nginx.service: Control process exited, code=exited status=1
+Apr 26 10:26:02 ubuntu systemd[1]: nginx.service: Failed with result 'exit-code'.
+Apr 26 10:26:02 ubuntu systemd[1]: Failed to start A high performance web server and a reverse proxy server.
+Apr 26 10:26:49 ubuntu nautilus[20088]: gtk_revealer_set_reveal_child: assertion 'GTK_IS_REVEALER (revealer)' failed
+Apr 26 10:26:49 ubuntu nautilus[20088]: gtk_revealer_set_reveal_child: assertion 'GTK_IS_REVEALER (revealer)' failed

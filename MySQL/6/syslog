@@ -1,0 +1,242 @@
+Apr 13 03:53:21 ubuntu jetbrains-clion.desktop[106234]: #011at com.intellij.util.RunnableCallable.call(RunnableCallable.java:20)
+Apr 13 03:53:21 ubuntu jetbrains-clion.desktop[106234]: #011at com.intellij.util.RunnableCallable.call(RunnableCallable.java:11)
+Apr 13 03:53:21 ubuntu jetbrains-clion.desktop[106234]: #011at com.intellij.openapi.application.impl.ApplicationImpl$1.call(ApplicationImpl.java:270)
+Apr 13 03:53:21 ubuntu jetbrains-clion.desktop[106234]: #011at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+Apr 13 03:53:21 ubuntu jetbrains-clion.desktop[106234]: #011at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+Apr 13 03:53:21 ubuntu jetbrains-clion.desktop[106234]: #011at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+Apr 13 03:53:21 ubuntu jetbrains-clion.desktop[106234]: #011at java.base/java.util.concurrent.Executors$PrivilegedThreadFactory$1$1.run(Executors.java:668)
+Apr 13 03:53:21 ubuntu jetbrains-clion.desktop[106234]: #011at java.base/java.util.concurrent.Executors$PrivilegedThreadFactory$1$1.run(Executors.java:665)
+Apr 13 03:53:21 ubuntu jetbrains-clion.desktop[106234]: #011at java.base/java.security.AccessController.doPrivileged(Native Method)
+Apr 13 03:53:21 ubuntu jetbrains-clion.desktop[106234]: #011at java.base/java.util.concurrent.Executors$PrivilegedThreadFactory$1.run(Executors.java:665)
+Apr 13 03:53:21 ubuntu jetbrains-clion.desktop[106234]: #011at java.base/java.lang.Thread.run(Thread.java:834)
+Apr 13 03:53:22 ubuntu jetbrains-clion.desktop[106234]: exec_pty(75): returning due to error: Cannot allocate memory
+Apr 13 03:53:22 ubuntu jetbrains-clion.desktop[106234]: 2021-04-13 03:53:22,771 [5987885]   WARN - .configurations.PtyCommandLine - Couldn't run process with PTY
+Apr 13 03:53:22 ubuntu jetbrains-clion.desktop[106234]: java.io.IOException: Exec_tty error:Unknown reason
+Apr 13 03:53:22 ubuntu jetbrains-clion.desktop[106234]: #011at com.pty4j.unix.UnixPtyProcess.execInPty(UnixPtyProcess.java:208)
+Apr 13 03:53:22 ubuntu jetbrains-clion.desktop[106234]: #011at com.pty4j.unix.UnixPtyProcess.<init>(UnixPtyProcess.java:55)
+Apr 13 03:53:22 ubuntu jetbrains-clion.desktop[106234]: #011at com.pty4j.PtyProcessBuilder.start(PtyProcessBuilder.java:127)
+Apr 13 03:53:22 ubuntu jetbrains-clion.desktop[106234]: #011at com.intellij.execution.configurations.PtyCommandLine.doStartProcessWithPty(PtyCommandLine.java:252)
+Apr 13 03:53:22 ubuntu jetbrains-clion.desktop[106234]: #011at com.intellij.execution.configurations.PtyCommandLine.startProcessWithPty(PtyCommandLine.java:209)
+Apr 13 03:53:22 ubuntu jetbrains-clion.desktop[106234]: #011at com.intellij.execution.configurations.PtyCommandLine.startProcess(PtyCommandLine.java:152)
+Apr 13 03:53:22 ubuntu jetbrains-clion.desktop[106234]: #011at com.intellij.execution.configurations.GeneralCommandLine.createProcess(GeneralCommandLine.java:376)
+Apr 13 03:53:22 ubuntu jetbrains-clion.desktop[106234]: #011at com.intellij.execution.process.OSProcessHandler.startProcess(OSProcessHandler.java:101)
+Apr 13 03:53:22 ubuntu jetbrains-clion.desktop[106234]: #011at com.intellij.execution.process.OSProcessHandler.<init>(OSProcessHandler.java:49)
+Apr 13 03:53:22 ubuntu jetbrains-clion.desktop[106234]: #011at com.intellij.execution.process.KillableProcessHandler.<init>(KillableProcessHandler.java:37)
+Apr 13 03:53:22 ubuntu jetbrains-clion.desktop[106234]: #011at com.intellij.execution.process.ColoredProcessHandler.<init>(ColoredProcessHandler.java:24)
+Apr 13 03:53:22 ubuntu jetbrains-clion.desktop[106234]: #011at com.jetbrains.cidr.system.LocalHost$MyColoredProcessHandler.<init>(LocalHost.java:145)
+Apr 13 03:53:22 ubuntu jetbrains-clion.desktop[106234]: #011at com.jetbrains.cidr.system.LocalHost$1.build(LocalHost.java:70)
+Apr 13 03:53:22 ubuntu jetbrains-clion.desktop[106234]: #011at com.jetbrains.cidr.system.CidrProcessBuilder.build(CidrProcessBuilder.kt:28)
+Apr 13 03:53:22 ubuntu jetbrains-clion.desktop[106234]: #011at com.jetbrains.cidr.system.HostMachine.createProcess(HostMachine.java:61)
+Apr 13 03:53:22 ubuntu jetbrains-clion.desktop[106234]: #011at com.jetbrains.cidr.cpp.execution.CLionLauncher.createProcessHandler(CLionLauncher.kt:118)
+Apr 13 03:53:22 ubuntu jetbrains-clion.desktop[106234]: #011at com.jetbrains.cidr.cpp.execution.CLionLauncher.createProcess(CLionLauncher.kt:70)
+Apr 13 03:53:22 ubuntu jetbrains-clion.desktop[106234]: #011at com.jetbrains.cidr.execution.CidrLauncher.startProcess(CidrLauncher.java:22)
+Apr 13 03:53:22 ubuntu jetbrains-clion.desktop[106234]: #011at com.jetbrains.cidr.execution.CidrCommandLineState.startProcess(CidrCommandLineState.java:35)
+Apr 13 03:53:22 ubuntu jetbrains-clion.desktop[106234]: #011at com.intellij.execution.configurations.CommandLineState.execute(CommandLineState.java:61)
+Apr 13 03:53:22 ubuntu jetbrains-clion.desktop[106234]: #011at com.jetbrains.cidr.execution.CidrCommandLineState.execute(CidrCommandLineState.java:41)
+Apr 13 03:53:22 ubuntu jetbrains-clion.desktop[106234]: #011at com.intellij.execution.runners.DefaultProgramRunnerKt.executeState(DefaultProgramRunner.kt:32)
+Apr 13 03:53:22 ubuntu jetbrains-clion.desktop[106234]: #011at com.jetbrains.cidr.execution.CidrRunner.doExecute(CidrRunner.java:40)
+Apr 13 03:53:22 ubuntu jetbrains-clion.desktop[106234]: #011at com.jetbrains.cidr.cpp.execution.CLionRunner.doExecute(CLionRunner.kt:33)
+Apr 13 03:53:22 ubuntu jetbrains-clion.desktop[106234]: #011at com.jetbrains.cidr.execution.CidrRunner.lambda$execute$0(CidrRunner.java:34)
+Apr 13 03:53:22 ubuntu jetbrains-clion.desktop[106234]: #011at com.intellij.execution.ExecutionManager$startRunProfile$1.invoke(ExecutionManager.kt:65)
+Apr 13 03:53:22 ubuntu jetbrains-clion.desktop[106234]: #011at com.intellij.execution.ExecutionManager$startRunProfile$1.invoke(ExecutionManager.kt:19)
+Apr 13 03:53:22 ubuntu jetbrains-clion.desktop[106234]: #011at com.intellij.execution.impl.ExecutionManagerImpl$startRunProfile$1.invoke(ExecutionManagerImpl.kt:155)
+Apr 13 03:53:22 ubuntu jetbrains-clion.desktop[106234]: #011at com.intellij.execution.impl.ExecutionManagerImpl$startRunProfile$1.invoke(ExecutionManagerImpl.kt:65)
+Apr 13 03:53:22 ubuntu jetbrains-clion.desktop[106234]: #011at com.intellij.execution.impl.ExecutionManagerImpl$doStartRunProfile$startRunnable$1.run(ExecutionManagerImpl.kt:216)
+Apr 13 03:53:22 ubuntu jetbrains-clion.desktop[106234]: #011at com.intellij.openapi.application.TransactionGuardImpl.runWithWritingAllowed(TransactionGuardImpl.java:216)
+Apr 13 03:53:22 ubuntu jetbrains-clion.desktop[106234]: #011at com.intellij.openapi.application.TransactionGuardImpl.access$200(TransactionGuardImpl.java:24)
+Apr 13 03:53:22 ubuntu jetbrains-clion.desktop[106234]: #011at com.intellij.openapi.application.TransactionGuardImpl$2.run(TransactionGuardImpl.java:199)
+Apr 13 03:53:22 ubuntu jetbrains-clion.desktop[106234]: #011at com.intellij.openapi.application.impl.ApplicationImpl.runIntendedWriteActionOnCurrentThread(ApplicationImpl.java:822)
+Apr 13 03:53:22 ubuntu jetbrains-clion.desktop[106234]: #011at com.intellij.openapi.application.impl.ApplicationImpl.lambda$invokeLater$4(ApplicationImpl.java:324)
+Apr 13 03:53:22 ubuntu jetbrains-clion.desktop[106234]: #011at com.intellij.openapi.application.impl.FlushQueue.doRun(FlushQueue.java:85)
+Apr 13 03:53:22 ubuntu jetbrains-clion.desktop[106234]: #011at com.intellij.openapi.application.impl.FlushQueue.runNextEvent(FlushQueue.java:134)
+Apr 13 03:53:22 ubuntu jetbrains-clion.desktop[106234]: #011at com.intellij.openapi.application.impl.FlushQueue.flushNow(FlushQueue.java:47)
+Apr 13 03:53:22 ubuntu jetbrains-clion.desktop[106234]: #011at com.intellij.openapi.application.impl.FlushQueue$FlushNow.run(FlushQueue.java:190)
+Apr 13 03:53:22 ubuntu jetbrains-clion.desktop[106234]: #011at java.desktop/java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:313)
+Apr 13 03:53:22 ubuntu jetbrains-clion.desktop[106234]: #011at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:776)
+Apr 13 03:53:22 ubuntu jetbrains-clion.desktop[106234]: #011at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:727)
+Apr 13 03:53:22 ubuntu jetbrains-clion.desktop[106234]: #011at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:721)
+Apr 13 03:53:22 ubuntu jetbrains-clion.desktop[106234]: #011at java.base/java.security.AccessController.doPrivileged(Native Method)
+Apr 13 03:53:22 ubuntu jetbrains-clion.desktop[106234]: #011at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+Apr 13 03:53:22 ubuntu jetbrains-clion.desktop[106234]: #011at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:746)
+Apr 13 03:53:22 ubuntu jetbrains-clion.desktop[106234]: #011at com.intellij.ide.IdeEventQueue.defaultDispatchEvent(IdeEventQueue.java:976)
+Apr 13 03:53:22 ubuntu jetbrains-clion.desktop[106234]: #011at com.intellij.ide.IdeEventQueue._dispatchEvent(IdeEventQueue.java:843)
+Apr 13 03:53:22 ubuntu jetbrains-clion.desktop[106234]: #011at com.intellij.ide.IdeEventQueue.lambda$dispatchEvent$8(IdeEventQueue.java:454)
+Apr 13 03:53:22 ubuntu jetbrains-clion.desktop[106234]: #011at com.intellij.openapi.progress.impl.CoreProgressManager.computePrioritized(CoreProgressManager.java:773)
+Apr 13 03:53:22 ubuntu jetbrains-clion.desktop[106234]: #011at com.intellij.ide.IdeEventQueue.lambda$dispatchEvent$9(IdeEventQueue.java:453)
+Apr 13 03:53:22 ubuntu jetbrains-clion.desktop[106234]: #011at com.intellij.openapi.application.impl.ApplicationImpl.runIntendedWriteActionOnCurrentThread(ApplicationImpl.java:822)
+Apr 13 03:53:22 ubuntu jetbrains-clion.desktop[106234]: #011at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.java:501)
+Apr 13 03:53:22 ubuntu jetbrains-clion.desktop[106234]: #011at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+Apr 13 03:53:22 ubuntu jetbrains-clion.desktop[106234]: #011at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+Apr 13 03:53:22 ubuntu jetbrains-clion.desktop[106234]: #011at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+Apr 13 03:53:22 ubuntu jetbrains-clion.desktop[106234]: #011at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+Apr 13 03:53:22 ubuntu jetbrains-clion.desktop[106234]: #011at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+Apr 13 03:53:22 ubuntu jetbrains-clion.desktop[106234]: #011at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+Apr 13 03:56:26 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 13 03:56:26 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 13 03:56:27 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 13 03:56:27 ubuntu mysql-systemd-start[107249]: MySQL data dir not found at 1. Please create one.
+Apr 13 03:56:27 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 13 03:56:27 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 13 03:56:27 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 1.
+Apr 13 03:56:27 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 13 03:56:27 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 13 03:56:27 ubuntu mysql-systemd-start[107256]: MySQL data dir not found at 1. Please create one.
+Apr 13 03:56:27 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 13 03:56:27 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 13 03:56:27 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 13 03:56:27 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 13 03:56:27 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 2.
+Apr 13 03:56:27 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 13 03:56:27 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 13 03:56:27 ubuntu mysql-systemd-start[107262]: MySQL data dir not found at 1. Please create one.
+Apr 13 03:56:27 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 13 03:56:27 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 13 03:56:27 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 13 03:56:27 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 13 03:56:27 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 3.
+Apr 13 03:56:27 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 13 03:56:27 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 13 03:56:27 ubuntu mysql-systemd-start[107268]: MySQL data dir not found at 1. Please create one.
+Apr 13 03:56:27 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 13 03:56:27 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 13 03:56:27 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 13 03:56:27 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 13 03:56:27 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 4.
+Apr 13 03:56:27 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 13 03:56:27 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 13 03:56:27 ubuntu mysql-systemd-start[107275]: MySQL data dir not found at 1. Please create one.
+Apr 13 03:56:27 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 13 03:56:27 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 13 03:56:27 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 13 03:56:28 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 13 03:56:28 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 5.
+Apr 13 03:56:28 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 13 03:56:28 ubuntu systemd[1]: mysql.service: Start request repeated too quickly.
+Apr 13 03:56:28 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 13 03:56:28 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 13 18:57:47 ubuntu gnome-shell[1773]: Object .Gjs_AppIndicatorIconActor__1 (0x564ce8aa15d0), has been already finalized. Impossible to set any property to it.
+Apr 13 18:57:47 ubuntu org.gnome.Shell.desktop[1773]: == Stack trace for context 0x564ce4f9c320 ==
+Apr 13 18:57:47 ubuntu org.gnome.Shell.desktop[1773]: #0 0x7ffedb148c80 b   resource:///org/gnome/gjs/modules/_legacy.js:83 (0x7fe0cc0b5de0 @ 87)
+Apr 13 18:57:47 ubuntu org.gnome.Shell.desktop[1773]: #1 0x564ce536a960 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/indicatorStatusIcon.js:93 (0x7fe0982c66f8 @ 58)
+Apr 13 18:57:47 ubuntu org.gnome.Shell.desktop[1773]: #2 0x7ffedb149fe0 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7fe0cc0b5de0 @ 71)
+Apr 13 18:57:47 ubuntu org.gnome.Shell.desktop[1773]: #3 0x7ffedb14a0a0 b   self-hosted:916 (0x7fe0cc0f12b8 @ 367)
+Apr 13 18:57:47 ubuntu org.gnome.Shell.desktop[1773]: #4 0x7ffedb14a190 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7fe0cc0d2230 @ 386)
+Apr 13 18:57:47 ubuntu org.gnome.Shell.desktop[1773]: #5 0x564ce536a8d8 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/appIndicator.js:190 (0x7fe0982b63c8 @ 22)
+Apr 13 18:57:47 ubuntu org.gnome.Shell.desktop[1773]: #6 0x7ffedb14b4f0 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7fe0cc0b5de0 @ 71)
+Apr 13 18:57:47 ubuntu org.gnome.Shell.desktop[1773]: #7 0x564ce536a830 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/statusNotifierWatcher.js:219 (0x7fe0982b19a0 @ 225)
+Apr 13 18:57:47 ubuntu org.gnome.Shell.desktop[1773]: #8 0x7ffedb14c850 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7fe0cc0b5de0 @ 71)
+Apr 13 18:57:47 ubuntu org.gnome.Shell.desktop[1773]: #9 0x564ce536a7b8 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/extension.js:61 (0x7fe09828bc48 @ 37)
+Apr 13 18:57:47 ubuntu org.gnome.Shell.desktop[1773]: #10 0x564ce536a6f8 i   resource:///org/gnome/shell/ui/extensionSystem.js:83 (0x7fe0b95592b8 @ 441)
+Apr 13 18:57:47 ubuntu org.gnome.Shell.desktop[1773]: #11 0x564ce536a678 i   resource:///org/gnome/shell/ui/extensionSystem.js:354 (0x7fe0b9559d58 @ 13)
+Apr 13 18:57:47 ubuntu org.gnome.Shell.desktop[1773]: #12 0x7ffedb14d5c0 b   self-hosted:251 (0x7fe0cc0c4ab0 @ 223)
+Apr 13 18:57:47 ubuntu org.gnome.Shell.desktop[1773]: #13 0x564ce536a5f8 i   resource:///org/gnome/shell/ui/extensionSystem.js:353 (0x7fe0b9559cd0 @ 64)
+Apr 13 18:57:47 ubuntu org.gnome.Shell.desktop[1773]: #14 0x564ce536a578 i   resource:///org/gnome/shell/ui/extensionSystem.js:371 (0x7fe0b9559de0 @ 87)
+Apr 13 18:57:47 ubuntu org.gnome.Shell.desktop[1773]: #15 0x7ffedb14eac0 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7fe0cc0d2230 @ 386)
+Apr 13 18:57:47 ubuntu org.gnome.Shell.desktop[1773]: #16 0x7ffedb14f260 b   resource:///org/gnome/shell/ui/sessionMode.js:205 (0x7fe0b94704d8 @ 254)
+Apr 13 18:57:47 ubuntu org.gnome.Shell.desktop[1773]: #17 0x7ffedb14ff40 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7fe0cc0b5de0 @ 71)
+Apr 13 18:57:47 ubuntu org.gnome.Shell.desktop[1773]: #18 0x564ce536a438 i   resource:///org/gnome/shell/ui/sessionMode.js:167 (0x7fe0b94702b8 @ 40)
+Apr 13 18:57:47 ubuntu org.gnome.Shell.desktop[1773]: #19 0x7ffedb150b20 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7fe0cc0b5de0 @ 71)
+Apr 13 18:57:47 ubuntu org.gnome.Shell.desktop[1773]: #20 0x564ce536a390 i   resource:///org/gnome/shell/ui/screenShield.js:1282 (0x7fe0b9453a28 @ 188)
+Apr 13 18:57:47 ubuntu org.gnome.Shell.desktop[1773]: #21 0x7ffedb151700 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7fe0cc0b5de0 @ 71)
+Apr 13 18:57:47 ubuntu org.gnome.Shell.desktop[1773]: #22 0x564ce536a2e0 i   resource:///org/gnome/shell/ui/screenShield.js:1331 (0x7fe0b9453ab0 @ 391)
+Apr 13 18:57:47 ubuntu org.gnome.Shell.desktop[1773]: #23 0x7ffedb1522e0 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7fe0cc0b5de0 @ 71)
+Apr 13 18:57:47 ubuntu org.gnome.Shell.desktop[1773]: #24 0x564ce536a260 i   resource:///org/gnome/shell/ui/screenShield.js:854 (0x7fe0b94509a0 @ 25)
+Apr 13 18:57:47 ubuntu gnome-shell[1773]: Object .Gjs_AppIndicatorIconActor__1 (0x564ce77cf840), has been already finalized. Impossible to set any property to it.
+Apr 13 18:57:47 ubuntu org.gnome.Shell.desktop[1773]: == Stack trace for context 0x564ce4f9c320 ==
+Apr 13 18:57:47 ubuntu org.gnome.Shell.desktop[1773]: #0 0x7ffedb148c80 b   resource:///org/gnome/gjs/modules/_legacy.js:83 (0x7fe0cc0b5de0 @ 87)
+Apr 13 18:57:47 ubuntu org.gnome.Shell.desktop[1773]: #1 0x564ce536a960 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/indicatorStatusIcon.js:93 (0x7fe0982c66f8 @ 58)
+Apr 13 18:57:47 ubuntu org.gnome.Shell.desktop[1773]: #2 0x7ffedb149fe0 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7fe0cc0b5de0 @ 71)
+Apr 13 18:57:47 ubuntu org.gnome.Shell.desktop[1773]: #3 0x7ffedb14a0a0 b   self-hosted:916 (0x7fe0cc0f12b8 @ 367)
+Apr 13 18:57:47 ubuntu org.gnome.Shell.desktop[1773]: #4 0x7ffedb14a190 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7fe0cc0d2230 @ 386)
+Apr 13 18:57:47 ubuntu org.gnome.Shell.desktop[1773]: #5 0x564ce536a8d8 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/appIndicator.js:190 (0x7fe0982b63c8 @ 22)
+Apr 13 18:57:47 ubuntu org.gnome.Shell.desktop[1773]: #6 0x7ffedb14b4f0 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7fe0cc0b5de0 @ 71)
+Apr 13 18:57:47 ubuntu org.gnome.Shell.desktop[1773]: #7 0x564ce536a830 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/statusNotifierWatcher.js:219 (0x7fe0982b19a0 @ 225)
+Apr 13 18:57:47 ubuntu org.gnome.Shell.desktop[1773]: #8 0x7ffedb14c850 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7fe0cc0b5de0 @ 71)
+Apr 13 18:57:47 ubuntu org.gnome.Shell.desktop[1773]: #9 0x564ce536a7b8 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/extension.js:61 (0x7fe09828bc48 @ 37)
+Apr 13 18:57:47 ubuntu org.gnome.Shell.desktop[1773]: #10 0x564ce536a6f8 i   resource:///org/gnome/shell/ui/extensionSystem.js:83 (0x7fe0b95592b8 @ 441)
+Apr 13 18:57:47 ubuntu org.gnome.Shell.desktop[1773]: #11 0x564ce536a678 i   resource:///org/gnome/shell/ui/extensionSystem.js:354 (0x7fe0b9559d58 @ 13)
+Apr 13 18:57:47 ubuntu org.gnome.Shell.desktop[1773]: #12 0x7ffedb14d5c0 b   self-hosted:251 (0x7fe0cc0c4ab0 @ 223)
+Apr 13 18:57:47 ubuntu org.gnome.Shell.desktop[1773]: #13 0x564ce536a5f8 i   resource:///org/gnome/shell/ui/extensionSystem.js:353 (0x7fe0b9559cd0 @ 64)
+Apr 13 18:57:47 ubuntu org.gnome.Shell.desktop[1773]: #14 0x564ce536a578 i   resource:///org/gnome/shell/ui/extensionSystem.js:371 (0x7fe0b9559de0 @ 87)
+Apr 13 18:57:47 ubuntu org.gnome.Shell.desktop[1773]: #15 0x7ffedb14eac0 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7fe0cc0d2230 @ 386)
+Apr 13 18:57:47 ubuntu org.gnome.Shell.desktop[1773]: #16 0x7ffedb14f260 b   resource:///org/gnome/shell/ui/sessionMode.js:205 (0x7fe0b94704d8 @ 254)
+Apr 13 18:57:47 ubuntu org.gnome.Shell.desktop[1773]: #17 0x7ffedb14ff40 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7fe0cc0b5de0 @ 71)
+Apr 13 18:57:47 ubuntu org.gnome.Shell.desktop[1773]: #18 0x564ce536a438 i   resource:///org/gnome/shell/ui/sessionMode.js:167 (0x7fe0b94702b8 @ 40)
+Apr 13 18:57:47 ubuntu org.gnome.Shell.desktop[1773]: #19 0x7ffedb150b20 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7fe0cc0b5de0 @ 71)
+Apr 13 18:57:47 ubuntu org.gnome.Shell.desktop[1773]: #20 0x564ce536a390 i   resource:///org/gnome/shell/ui/screenShield.js:1282 (0x7fe0b9453a28 @ 188)
+Apr 13 18:57:47 ubuntu org.gnome.Shell.desktop[1773]: #21 0x7ffedb151700 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7fe0cc0b5de0 @ 71)
+Apr 13 18:57:47 ubuntu org.gnome.Shell.desktop[1773]: #22 0x564ce536a2e0 i   resource:///org/gnome/shell/ui/screenShield.js:1331 (0x7fe0b9453ab0 @ 391)
+Apr 13 18:57:47 ubuntu org.gnome.Shell.desktop[1773]: #23 0x7ffedb1522e0 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7fe0cc0b5de0 @ 71)
+Apr 13 18:57:47 ubuntu org.gnome.Shell.desktop[1773]: #24 0x564ce536a260 i   resource:///org/gnome/shell/ui/screenShield.js:854 (0x7fe0b94509a0 @ 25)
+Apr 13 18:57:47 ubuntu gnome-shell[1773]: Object .Gjs_AppIndicatorIconActor__1 (0x564ce53f0e40), has been already finalized. Impossible to set any property to it.
+Apr 13 18:57:47 ubuntu org.gnome.Shell.desktop[1773]: == Stack trace for context 0x564ce4f9c320 ==
+Apr 13 18:57:47 ubuntu org.gnome.Shell.desktop[1773]: #0 0x7ffedb149b80 I   resource:///org/gnome/gjs/modules/_legacy.js:83 (0x7fe0cc0b5de0 @ 87)
+Apr 13 18:57:47 ubuntu org.gnome.Shell.desktop[1773]: #1 0x564ce536a960 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/indicatorStatusIcon.js:93 (0x7fe0982c66f8 @ 58)
+Apr 13 18:57:47 ubuntu org.gnome.Shell.desktop[1773]: #2 0x7ffedb14a760 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7fe0cc0b5de0 @ 71)
+Apr 13 18:57:47 ubuntu org.gnome.Shell.desktop[1773]: #3 0x7ffedb14a820 b   self-hosted:916 (0x7fe0cc0f12b8 @ 367)
+Apr 13 18:57:47 ubuntu org.gnome.Shell.desktop[1773]: #4 0x7ffedb14a910 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7fe0cc0d2230 @ 386)
+Apr 13 18:57:47 ubuntu org.gnome.Shell.desktop[1773]: #5 0x564ce536a8d8 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/appIndicator.js:190 (0x7fe0982b63c8 @ 22)
+Apr 13 18:57:47 ubuntu org.gnome.Shell.desktop[1773]: #6 0x7ffedb14b560 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7fe0cc0b5de0 @ 71)
+Apr 13 18:57:47 ubuntu org.gnome.Shell.desktop[1773]: #7 0x564ce536a830 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/statusNotifierWatcher.js:219 (0x7fe0982b19a0 @ 225)
+Apr 13 18:57:47 ubuntu org.gnome.Shell.desktop[1773]: #8 0x7ffedb14c850 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7fe0cc0b5de0 @ 71)
+Apr 13 18:57:47 ubuntu org.gnome.Shell.desktop[1773]: #9 0x564ce536a7b8 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/extension.js:61 (0x7fe09828bc48 @ 37)
+Apr 13 18:57:47 ubuntu org.gnome.Shell.desktop[1773]: #10 0x564ce536a6f8 i   resource:///org/gnome/shell/ui/extensionSystem.js:83 (0x7fe0b95592b8 @ 441)
+Apr 13 18:57:47 ubuntu org.gnome.Shell.desktop[1773]: #11 0x564ce536a678 i   resource:///org/gnome/shell/ui/extensionSystem.js:354 (0x7fe0b9559d58 @ 13)
+Apr 13 18:57:47 ubuntu org.gnome.Shell.desktop[1773]: #12 0x7ffedb14d5c0 b   self-hosted:251 (0x7fe0cc0c4ab0 @ 223)
+Apr 13 18:57:47 ubuntu org.gnome.Shell.desktop[1773]: #13 0x564ce536a5f8 i   resource:///org/gnome/shell/ui/extensionSystem.js:353 (0x7fe0b9559cd0 @ 64)
+Apr 13 18:57:47 ubuntu org.gnome.Shell.desktop[1773]: #14 0x564ce536a578 i   resource:///org/gnome/shell/ui/extensionSystem.js:371 (0x7fe0b9559de0 @ 87)
+Apr 13 18:57:47 ubuntu org.gnome.Shell.desktop[1773]: #15 0x7ffedb14eac0 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7fe0cc0d2230 @ 386)
+Apr 13 18:57:47 ubuntu org.gnome.Shell.desktop[1773]: #16 0x7ffedb14f260 b   resource:///org/gnome/shell/ui/sessionMode.js:205 (0x7fe0b94704d8 @ 254)
+Apr 13 18:57:47 ubuntu org.gnome.Shell.desktop[1773]: #17 0x7ffedb14ff40 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7fe0cc0b5de0 @ 71)
+Apr 13 18:57:47 ubuntu org.gnome.Shell.desktop[1773]: #18 0x564ce536a438 i   resource:///org/gnome/shell/ui/sessionMode.js:167 (0x7fe0b94702b8 @ 40)
+Apr 13 18:57:47 ubuntu org.gnome.Shell.desktop[1773]: #19 0x7ffedb150b20 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7fe0cc0b5de0 @ 71)
+Apr 13 18:57:47 ubuntu org.gnome.Shell.desktop[1773]: #20 0x564ce536a390 i   resource:///org/gnome/shell/ui/screenShield.js:1282 (0x7fe0b9453a28 @ 188)
+Apr 13 18:57:47 ubuntu org.gnome.Shell.desktop[1773]: #21 0x7ffedb151700 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7fe0cc0b5de0 @ 71)
+Apr 13 18:57:47 ubuntu org.gnome.Shell.desktop[1773]: #22 0x564ce536a2e0 i   resource:///org/gnome/shell/ui/screenShield.js:1331 (0x7fe0b9453ab0 @ 391)
+Apr 13 18:57:47 ubuntu org.gnome.Shell.desktop[1773]: #23 0x7ffedb1522e0 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7fe0cc0b5de0 @ 71)
+Apr 13 18:57:47 ubuntu org.gnome.Shell.desktop[1773]: #24 0x564ce536a260 i   resource:///org/gnome/shell/ui/screenShield.js:854 (0x7fe0b94509a0 @ 25)
+Apr 13 18:57:47 ubuntu gnome-software[2480]: no app for changed ubuntu-appindicators@ubuntu.com
+Apr 13 18:57:47 ubuntu gnome-software[2480]: no app for changed ubuntu-dock@ubuntu.com
+Apr 13 03:57:49 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 13 03:57:49 ubuntu mysql-systemd-start[107287]: MySQL data dir not found at 1. Please create one.
+Apr 13 03:57:49 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 13 03:57:49 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 13 03:57:49 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 13 03:57:49 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 13 03:57:49 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 1.
+Apr 13 03:57:49 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 13 03:57:49 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 13 03:57:49 ubuntu mysql-systemd-start[107293]: MySQL data dir not found at 1. Please create one.
+Apr 13 03:57:49 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 13 03:57:49 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 13 03:57:49 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 13 03:57:49 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 13 03:57:49 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 2.
+Apr 13 03:57:49 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 13 03:57:49 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 13 03:57:49 ubuntu mysql-systemd-start[107299]: MySQL data dir not found at 1. Please create one.
+Apr 13 03:57:49 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 13 03:57:49 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 13 03:57:49 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 13 03:57:50 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 13 03:57:50 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 3.
+Apr 13 03:57:50 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 13 03:57:50 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 13 03:57:50 ubuntu mysql-systemd-start[107305]: MySQL data dir not found at 1. Please create one.
+Apr 13 03:57:50 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 13 03:57:50 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 13 03:57:50 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 13 03:57:50 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 13 03:57:50 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 4.
+Apr 13 03:57:50 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 13 03:57:50 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 13 03:57:50 ubuntu mysql-systemd-start[107311]: MySQL data dir not found at 1. Please create one.
+Apr 13 03:57:50 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 13 03:57:50 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 13 03:57:50 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 13 03:57:50 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 13 03:57:50 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 5.
+Apr 13 03:57:50 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 13 03:57:50 ubuntu systemd[1]: mysql.service: Start request repeated too quickly.
+Apr 13 03:57:50 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 13 03:57:50 ubuntu systemd[1]: Failed to start MySQL Community Server.

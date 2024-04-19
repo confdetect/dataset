@@ -1,0 +1,973 @@
+Apr 12 22:43:23 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 12 22:43:24 ubuntu mysqld[82284]: Initialization of mysqld failed: 0
+Apr 12 22:43:24 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 12 22:43:26 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 12 22:43:26 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 12 22:43:26 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 12 22:43:26 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 1.
+Apr 12 22:43:26 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 12 22:43:26 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 12 22:43:26 ubuntu mysqld[82321]: Initialization of mysqld failed: 0
+Apr 12 22:43:26 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 12 22:43:28 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 12 22:43:28 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 12 22:43:28 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 12 22:43:28 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 2.
+Apr 12 22:43:28 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 12 22:43:28 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 12 22:43:28 ubuntu mysqld[82359]: Initialization of mysqld failed: 0
+Apr 12 22:43:28 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 12 22:43:30 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 12 22:43:30 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 12 22:43:30 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 12 22:43:30 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 3.
+Apr 12 22:43:30 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 12 22:43:30 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 12 22:43:31 ubuntu mysqld[82397]: Initialization of mysqld failed: 0
+Apr 12 22:43:31 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 12 22:43:32 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 12 22:43:32 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 12 22:43:33 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 12 22:43:33 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 4.
+Apr 12 22:43:33 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 12 22:43:33 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 12 22:43:33 ubuntu mysqld[82434]: Initialization of mysqld failed: 0
+Apr 12 22:43:33 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 12 22:43:35 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 12 22:43:35 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 12 22:43:35 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 12 22:43:35 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 5.
+Apr 12 22:43:35 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 12 22:43:35 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 12 22:43:36 ubuntu mysqld[82472]: Initialization of mysqld failed: 0
+Apr 12 22:43:36 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 12 22:43:37 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 12 22:43:37 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 12 22:43:37 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 12 22:43:37 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 6.
+Apr 12 22:43:37 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 12 22:43:37 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 12 22:43:38 ubuntu mysqld[82509]: Initialization of mysqld failed: 0
+Apr 12 22:43:38 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 12 22:43:40 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 12 22:43:40 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 12 22:43:40 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 12 22:43:40 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 7.
+Apr 12 22:43:40 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 12 22:43:40 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 12 22:43:40 ubuntu mysqld[82546]: Initialization of mysqld failed: 0
+Apr 12 22:43:40 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 12 22:43:42 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 12 22:43:42 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 12 22:43:42 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 12 22:43:42 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 8.
+Apr 12 22:43:42 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 12 22:43:42 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 12 22:43:42 ubuntu mysqld[82584]: Initialization of mysqld failed: 0
+Apr 12 22:43:42 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 12 22:43:44 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 12 22:43:44 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 12 22:43:44 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 12 22:43:44 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 9.
+Apr 12 22:43:44 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 12 22:43:44 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 12 22:43:45 ubuntu mysqld[82621]: Initialization of mysqld failed: 0
+Apr 12 22:43:45 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 12 22:43:46 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 12 22:43:46 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 12 22:43:46 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 12 22:43:46 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 10.
+Apr 12 22:43:46 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 12 22:43:46 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 12 22:43:47 ubuntu mysqld[82658]: Initialization of mysqld failed: 0
+Apr 12 22:43:47 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 12 22:43:48 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 12 22:43:48 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 12 22:43:49 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 12 22:43:49 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 11.
+Apr 12 22:43:49 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 12 22:43:49 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 12 22:43:49 ubuntu mysqld[82695]: Initialization of mysqld failed: 0
+Apr 12 22:43:49 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 12 22:43:51 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 12 22:43:51 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 12 22:43:51 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 12 22:43:51 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 12.
+Apr 12 22:43:51 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 12 22:43:51 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 12 22:43:51 ubuntu mysqld[82732]: Initialization of mysqld failed: 0
+Apr 12 22:43:51 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 12 22:43:53 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 12 22:43:53 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 12 22:43:53 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 12 22:43:53 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 13.
+Apr 12 22:43:53 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 12 22:43:53 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 12 22:43:54 ubuntu mysqld[82769]: Initialization of mysqld failed: 0
+Apr 12 22:43:54 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 12 22:43:55 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 12 22:43:55 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 12 22:43:55 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 12 22:43:55 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 14.
+Apr 12 22:43:55 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 12 22:43:55 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 12 22:43:56 ubuntu mysqld[82806]: Initialization of mysqld failed: 0
+Apr 12 22:43:56 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 12 22:43:57 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 12 22:43:57 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 12 22:43:58 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 12 22:43:58 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 15.
+Apr 12 22:43:58 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 12 22:43:58 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 12 22:43:58 ubuntu mysqld[82844]: Initialization of mysqld failed: 0
+Apr 12 22:43:58 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 12 22:44:00 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 12 22:44:00 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 12 22:44:00 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 12 22:44:00 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 16.
+Apr 12 22:44:00 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 12 22:44:00 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 12 22:44:00 ubuntu mysqld[82881]: Initialization of mysqld failed: 0
+Apr 12 22:44:00 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 12 22:44:02 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 12 22:44:02 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 12 22:44:02 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 12 22:44:02 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 17.
+Apr 12 22:44:02 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 12 22:44:02 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 12 22:44:03 ubuntu mysqld[82918]: Initialization of mysqld failed: 0
+Apr 12 22:44:03 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 12 22:44:04 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 12 22:44:04 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 12 22:44:04 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 12 22:44:04 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 18.
+Apr 12 22:44:04 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 12 22:44:04 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 12 22:44:05 ubuntu mysqld[82955]: Initialization of mysqld failed: 0
+Apr 12 22:44:05 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 12 22:44:06 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 12 22:44:06 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 12 22:44:07 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 12 22:44:07 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 19.
+Apr 12 22:44:07 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 12 22:44:07 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 12 22:44:07 ubuntu mysqld[82992]: Initialization of mysqld failed: 0
+Apr 12 22:44:07 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 12 22:44:09 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 12 22:44:09 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 12 22:44:09 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 12 22:44:09 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 20.
+Apr 12 22:44:09 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 12 22:44:09 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 12 22:44:09 ubuntu mysqld[83029]: Initialization of mysqld failed: 0
+Apr 12 22:44:09 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 12 22:44:11 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 12 22:44:11 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 12 22:44:11 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 12 22:44:11 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 21.
+Apr 12 22:44:11 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 12 22:44:11 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 12 22:44:12 ubuntu mysqld[83066]: Initialization of mysqld failed: 0
+Apr 12 22:44:12 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 12 22:44:13 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 12 22:44:13 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 12 22:44:13 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 12 22:44:13 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 22.
+Apr 12 22:44:13 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 12 22:44:13 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 12 22:44:14 ubuntu mysqld[83103]: Initialization of mysqld failed: 0
+Apr 12 22:44:14 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 12 22:44:16 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 12 22:44:16 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 12 22:44:16 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 12 22:44:16 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 23.
+Apr 12 22:44:16 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 12 22:44:16 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 12 22:44:16 ubuntu mysqld[83140]: Initialization of mysqld failed: 0
+Apr 12 22:44:16 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 12 22:44:18 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 12 22:44:18 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 12 22:44:18 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 12 22:44:18 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 24.
+Apr 12 22:44:18 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 12 22:44:18 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 12 22:44:18 ubuntu mysqld[83177]: Initialization of mysqld failed: 0
+Apr 12 22:44:18 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 12 22:44:20 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 12 22:44:20 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 12 22:44:20 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 12 22:44:20 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 25.
+Apr 12 22:44:20 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 12 22:44:20 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 12 22:44:21 ubuntu mysqld[83214]: Initialization of mysqld failed: 0
+Apr 12 22:44:21 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 12 22:44:22 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 12 22:44:22 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 12 22:44:22 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 12 22:44:22 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 26.
+Apr 12 22:44:22 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 12 22:44:22 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 12 22:44:23 ubuntu mysqld[83251]: Initialization of mysqld failed: 0
+Apr 12 22:44:23 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 12 22:44:25 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 12 22:44:25 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 12 22:44:25 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 12 22:44:25 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 27.
+Apr 12 22:44:25 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 12 22:44:25 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 12 22:44:25 ubuntu mysqld[83288]: Initialization of mysqld failed: 0
+Apr 12 22:44:25 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 12 22:44:27 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 12 22:44:27 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 12 22:44:27 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 12 22:44:27 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 28.
+Apr 12 22:44:27 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 12 22:44:27 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 12 22:44:27 ubuntu mysqld[83325]: Initialization of mysqld failed: 0
+Apr 12 22:44:27 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 12 22:44:29 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 12 22:44:29 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 12 22:44:29 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 12 22:44:29 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 29.
+Apr 12 22:44:29 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 12 22:44:29 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 12 22:44:30 ubuntu mysqld[83362]: Initialization of mysqld failed: 0
+Apr 12 22:44:30 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 12 22:44:31 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 12 22:44:31 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 12 22:44:31 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 12 22:44:31 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 30.
+Apr 12 22:44:31 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 12 22:44:31 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 12 22:44:32 ubuntu mysqld[83399]: Initialization of mysqld failed: 0
+Apr 12 22:44:32 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 12 22:44:33 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 12 22:44:33 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 12 22:44:34 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 12 22:44:34 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 31.
+Apr 12 22:44:34 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 12 22:44:34 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 12 22:44:34 ubuntu mysqld[83436]: Initialization of mysqld failed: 0
+Apr 12 22:44:34 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 12 22:44:36 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 12 22:44:36 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 12 22:44:36 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 12 22:44:36 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 32.
+Apr 12 22:44:36 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 12 22:44:36 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 12 22:44:36 ubuntu mysqld[83473]: Initialization of mysqld failed: 0
+Apr 12 22:44:36 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 12 22:44:38 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 12 22:44:38 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 12 22:44:38 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 12 22:44:38 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 33.
+Apr 12 22:44:38 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 12 22:44:38 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 12 22:44:39 ubuntu mysqld[83510]: Initialization of mysqld failed: 0
+Apr 12 22:44:39 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 12 22:44:40 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 12 22:44:40 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 12 22:44:40 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 12 22:44:40 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 34.
+Apr 12 22:44:40 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 12 22:44:40 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 12 22:44:41 ubuntu mysqld[83547]: Initialization of mysqld failed: 0
+Apr 12 22:44:41 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 12 22:44:42 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 12 22:44:42 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 12 22:44:43 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 12 22:44:43 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 35.
+Apr 12 22:44:43 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 12 22:44:43 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 12 22:44:43 ubuntu mysqld[83584]: Initialization of mysqld failed: 0
+Apr 12 22:44:43 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 12 22:44:45 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 12 22:44:45 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 12 22:44:45 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 12 22:44:45 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 36.
+Apr 12 22:44:45 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 12 22:44:45 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 12 22:44:45 ubuntu mysqld[83621]: Initialization of mysqld failed: 0
+Apr 12 22:44:45 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 12 22:44:47 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 12 22:44:47 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 12 22:44:47 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 12 22:44:47 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 37.
+Apr 12 22:44:47 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 12 22:44:47 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 12 22:44:48 ubuntu mysqld[83658]: Initialization of mysqld failed: 0
+Apr 12 22:44:48 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 12 22:44:49 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 12 22:44:49 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 12 22:44:49 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 12 22:44:49 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 38.
+Apr 12 22:44:49 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 12 22:44:49 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 12 22:44:50 ubuntu mysqld[83695]: Initialization of mysqld failed: 0
+Apr 12 22:44:50 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 12 22:44:51 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 12 22:44:51 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 12 22:44:52 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 12 22:44:52 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 39.
+Apr 12 22:44:52 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 12 22:44:52 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 12 22:44:52 ubuntu mysqld[83732]: Initialization of mysqld failed: 0
+Apr 12 22:44:52 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 12 22:44:54 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 12 22:44:54 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 12 22:44:54 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 12 22:44:54 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 40.
+Apr 12 22:44:54 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 12 22:44:54 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 12 22:44:54 ubuntu mysqld[83769]: Initialization of mysqld failed: 0
+Apr 12 22:44:54 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 12 22:44:56 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 12 22:44:56 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 12 22:44:56 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 12 22:44:56 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 41.
+Apr 12 22:44:56 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 12 22:44:56 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 12 22:44:57 ubuntu mysqld[83806]: Initialization of mysqld failed: 0
+Apr 12 22:44:57 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 12 22:44:58 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 12 22:44:58 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 12 22:44:58 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 12 22:44:58 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 42.
+Apr 12 22:44:58 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 12 22:44:58 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 12 22:44:59 ubuntu mysqld[83843]: Initialization of mysqld failed: 0
+Apr 12 22:44:59 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 12 22:45:01 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 12 22:45:01 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 12 22:45:01 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 12 22:45:01 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 43.
+Apr 12 22:45:01 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 12 22:45:01 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 12 22:45:01 ubuntu mysqld[83880]: Initialization of mysqld failed: 0
+Apr 12 22:45:01 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 12 22:45:03 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 12 22:45:03 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 12 22:45:03 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 12 22:45:03 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 44.
+Apr 12 22:45:03 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 12 22:45:03 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 12 22:45:03 ubuntu mysqld[83917]: Initialization of mysqld failed: 0
+Apr 12 22:45:03 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 12 22:45:05 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 12 22:45:05 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 12 22:45:05 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 12 22:45:05 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 45.
+Apr 12 22:45:05 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 12 22:45:05 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 12 22:45:06 ubuntu mysqld[83954]: Initialization of mysqld failed: 0
+Apr 12 22:45:06 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 12 22:45:07 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 12 22:45:07 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 12 22:45:07 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 12 22:45:07 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 46.
+Apr 12 22:45:07 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 12 22:45:07 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 12 22:45:08 ubuntu mysqld[83991]: Initialization of mysqld failed: 0
+Apr 12 22:45:08 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 12 22:45:10 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 12 22:45:10 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 12 22:45:10 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 12 22:45:10 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 47.
+Apr 12 22:45:10 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 12 22:45:10 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 12 22:45:10 ubuntu mysqld[84028]: Initialization of mysqld failed: 0
+Apr 12 22:45:10 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 12 22:45:12 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 12 22:45:12 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 12 22:45:12 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 12 22:45:12 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 48.
+Apr 12 22:45:12 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 12 22:45:12 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 12 22:45:12 ubuntu mysqld[84065]: Initialization of mysqld failed: 0
+Apr 12 22:45:12 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 12 22:45:14 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 12 22:45:14 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 12 22:45:14 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 12 22:45:14 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 49.
+Apr 12 22:45:14 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 12 22:45:14 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 12 22:45:15 ubuntu mysqld[84102]: Initialization of mysqld failed: 0
+Apr 12 22:45:15 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 12 22:45:16 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 12 22:45:16 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 12 22:45:16 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 12 22:45:16 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 50.
+Apr 12 22:45:16 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 12 22:45:16 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 12 22:45:17 ubuntu mysqld[84139]: Initialization of mysqld failed: 0
+Apr 12 22:45:17 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 12 22:45:18 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 12 22:45:18 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 12 22:45:19 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 12 22:45:19 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 51.
+Apr 12 22:45:19 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 12 22:45:19 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 12 22:45:19 ubuntu mysqld[84176]: Initialization of mysqld failed: 0
+Apr 12 22:45:19 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 12 22:45:21 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 12 22:45:21 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 12 22:45:21 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 12 22:45:21 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 52.
+Apr 12 22:45:21 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 12 22:45:21 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 12 22:45:21 ubuntu mysqld[84213]: Initialization of mysqld failed: 0
+Apr 12 22:45:21 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 12 22:45:23 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 12 22:45:23 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 12 22:45:23 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 12 22:45:23 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 53.
+Apr 12 22:45:23 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 12 22:45:23 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 12 22:45:24 ubuntu mysqld[84250]: Initialization of mysqld failed: 0
+Apr 12 22:45:24 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 12 22:45:25 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 12 22:45:25 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 12 22:45:25 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 12 22:45:25 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 54.
+Apr 12 22:45:25 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 12 22:45:25 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 12 22:45:26 ubuntu mysqld[84287]: Initialization of mysqld failed: 0
+Apr 12 22:45:26 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 12 22:45:28 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 12 22:45:28 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 12 22:45:28 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 12 22:45:28 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 55.
+Apr 12 22:45:28 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 12 22:45:28 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 12 22:45:28 ubuntu mysqld[84325]: Initialization of mysqld failed: 0
+Apr 12 22:45:28 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 12 22:45:30 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 12 22:45:30 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 12 22:45:30 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 12 22:45:30 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 56.
+Apr 12 22:45:30 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 12 22:45:30 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 12 22:45:31 ubuntu mysqld[84362]: Initialization of mysqld failed: 0
+Apr 12 22:45:31 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 12 22:45:32 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 12 22:45:32 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 12 22:45:32 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 12 22:45:32 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 57.
+Apr 12 22:45:32 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 12 22:45:32 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 12 22:45:33 ubuntu mysqld[84399]: Initialization of mysqld failed: 0
+Apr 12 22:45:33 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 12 22:45:35 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 12 22:45:35 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 12 22:45:35 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 12 22:45:35 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 58.
+Apr 12 22:45:35 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 12 22:45:35 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 12 22:45:35 ubuntu mysqld[84436]: Initialization of mysqld failed: 0
+Apr 12 22:45:35 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 12 22:45:37 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 12 22:45:37 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 12 22:45:37 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 12 22:45:37 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 59.
+Apr 12 22:45:37 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 12 22:45:37 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 12 22:45:37 ubuntu mysqld[84473]: Initialization of mysqld failed: 0
+Apr 12 22:45:37 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 12 22:45:39 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 12 22:45:39 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 12 22:45:39 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 12 22:45:39 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 60.
+Apr 12 22:45:39 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 12 22:45:39 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 12 22:45:40 ubuntu mysqld[84510]: Initialization of mysqld failed: 0
+Apr 12 22:45:40 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 12 22:45:41 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 12 22:45:41 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 12 22:45:41 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 12 22:45:41 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 61.
+Apr 12 22:45:41 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 12 22:45:41 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 12 22:45:42 ubuntu mysqld[84547]: Initialization of mysqld failed: 0
+Apr 12 22:45:42 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 12 22:45:44 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 12 22:45:44 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 12 22:45:44 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 12 22:45:44 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 62.
+Apr 12 22:45:44 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 12 22:45:44 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 12 22:45:44 ubuntu mysqld[84584]: Initialization of mysqld failed: 0
+Apr 12 22:45:44 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 12 22:45:46 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 12 22:45:46 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 12 22:45:46 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 12 22:45:46 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 63.
+Apr 12 22:45:46 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 12 22:45:46 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 12 22:45:46 ubuntu mysqld[84621]: Initialization of mysqld failed: 0
+Apr 12 22:45:46 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 12 22:45:48 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 12 22:45:48 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 12 22:45:48 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 12 22:45:48 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 64.
+Apr 12 22:45:48 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 12 22:45:48 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 12 22:45:49 ubuntu mysqld[84658]: Initialization of mysqld failed: 0
+Apr 12 22:45:49 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 12 22:45:50 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 12 22:45:50 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 12 22:45:50 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 12 22:45:50 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 65.
+Apr 12 22:45:50 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 12 22:45:50 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 12 22:45:51 ubuntu mysqld[84695]: Initialization of mysqld failed: 0
+Apr 12 22:45:51 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 12 22:45:53 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 12 22:45:53 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 12 22:45:53 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 12 22:45:53 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 66.
+Apr 12 22:45:53 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 12 22:45:53 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 12 22:45:53 ubuntu mysqld[84732]: Initialization of mysqld failed: 0
+Apr 12 22:45:53 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 12 22:45:55 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 12 22:45:55 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 12 22:45:55 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 12 22:45:55 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 67.
+Apr 12 22:45:55 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 12 22:45:55 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 12 22:45:55 ubuntu mysqld[84769]: Initialization of mysqld failed: 0
+Apr 12 22:45:55 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 12 22:45:57 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 12 22:45:57 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 12 22:45:57 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 12 22:45:57 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 68.
+Apr 12 22:45:57 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 12 22:45:57 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 12 22:45:58 ubuntu mysqld[84806]: Initialization of mysqld failed: 0
+Apr 12 22:45:58 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 12 22:45:59 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 12 22:45:59 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 12 22:45:59 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 12 22:45:59 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 69.
+Apr 12 22:45:59 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 12 22:45:59 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 12 22:46:00 ubuntu mysqld[84843]: Initialization of mysqld failed: 0
+Apr 12 22:46:00 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 12 22:46:02 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 12 22:46:02 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 12 22:46:02 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 12 22:46:02 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 70.
+Apr 12 22:46:02 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 12 22:46:02 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 12 22:46:02 ubuntu mysqld[84880]: Initialization of mysqld failed: 0
+Apr 12 22:46:02 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 12 22:46:04 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 12 22:46:04 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 12 22:46:04 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 12 22:46:04 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 71.
+Apr 12 22:46:04 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 12 22:46:04 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 12 22:46:04 ubuntu mysqld[84917]: Initialization of mysqld failed: 0
+Apr 12 22:46:04 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 12 22:46:06 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 12 22:46:06 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 12 22:46:06 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 12 22:46:06 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 72.
+Apr 12 22:46:06 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 12 22:46:06 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 12 22:46:07 ubuntu mysqld[84955]: Initialization of mysqld failed: 0
+Apr 12 22:46:07 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 12 22:46:08 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 12 22:46:08 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 12 22:46:08 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 12 22:46:08 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 73.
+Apr 12 22:46:08 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 12 22:46:08 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 12 22:46:09 ubuntu mysqld[84992]: Initialization of mysqld failed: 0
+Apr 12 22:46:09 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 12 22:46:11 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 12 22:46:11 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 12 22:46:11 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 12 22:46:11 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 74.
+Apr 12 22:46:11 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 12 22:46:11 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 12 22:46:11 ubuntu mysqld[85029]: Initialization of mysqld failed: 0
+Apr 12 22:46:11 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 12 22:46:13 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 12 22:46:13 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 12 22:46:13 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 12 22:46:13 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 75.
+Apr 12 22:46:13 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 12 22:46:13 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 12 22:46:13 ubuntu mysqld[85066]: Initialization of mysqld failed: 0
+Apr 12 22:46:13 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 12 22:46:15 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 12 22:46:15 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 12 22:46:15 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 12 22:46:15 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 76.
+Apr 12 22:46:15 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 12 22:46:15 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 12 22:46:16 ubuntu mysqld[85103]: Initialization of mysqld failed: 0
+Apr 12 22:46:16 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 12 22:46:17 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 12 22:46:17 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 12 22:46:17 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 12 22:46:17 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 77.
+Apr 12 22:46:17 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 12 22:46:17 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 12 22:46:18 ubuntu mysqld[85140]: Initialization of mysqld failed: 0
+Apr 12 22:46:18 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 12 22:46:19 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 12 22:46:19 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 12 22:46:20 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 12 22:46:20 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 78.
+Apr 12 22:46:20 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 12 22:46:20 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 12 22:46:20 ubuntu mysqld[85177]: Initialization of mysqld failed: 0
+Apr 12 22:46:20 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 12 22:46:22 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 12 22:46:22 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 12 22:46:22 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 12 22:46:22 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 79.
+Apr 12 22:46:22 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 12 22:46:22 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 12 22:46:22 ubuntu mysqld[85214]: Initialization of mysqld failed: 0
+Apr 12 22:46:22 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 12 22:46:24 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 12 22:46:24 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 12 22:46:24 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 12 22:46:24 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 80.
+Apr 12 22:46:24 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 12 22:46:24 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 12 22:46:25 ubuntu mysqld[85251]: Initialization of mysqld failed: 0
+Apr 12 22:46:25 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 12 22:46:26 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 12 22:46:26 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 12 22:46:26 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 12 22:46:26 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 81.
+Apr 12 22:46:26 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 12 22:46:26 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 12 22:46:27 ubuntu mysqld[85288]: Initialization of mysqld failed: 0
+Apr 12 22:46:27 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 12 22:46:28 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 12 22:46:28 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 12 22:46:29 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 12 22:46:29 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 82.
+Apr 12 22:46:29 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 12 22:46:29 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 12 22:46:29 ubuntu mysqld[85325]: Initialization of mysqld failed: 0
+Apr 12 22:46:29 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 12 22:46:31 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 12 22:46:31 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 12 22:46:31 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 12 22:46:31 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 83.
+Apr 12 22:46:31 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 12 22:46:31 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 12 22:46:31 ubuntu mysqld[85362]: Initialization of mysqld failed: 0
+Apr 12 22:46:31 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 12 22:46:33 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 12 22:46:33 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 12 22:46:33 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 12 22:46:33 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 84.
+Apr 12 22:46:33 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 12 22:46:33 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 12 22:46:34 ubuntu mysqld[85399]: Initialization of mysqld failed: 0
+Apr 12 22:46:34 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 12 22:46:35 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 12 22:46:35 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 12 22:46:35 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 12 22:46:35 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 85.
+Apr 12 22:46:35 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 12 22:46:35 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 12 22:46:36 ubuntu mysqld[85436]: Initialization of mysqld failed: 0
+Apr 12 22:46:36 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 12 22:46:37 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 12 22:46:37 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 12 22:46:38 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 12 22:46:38 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 86.
+Apr 12 22:46:38 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 12 22:46:38 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 12 22:46:38 ubuntu mysqld[85473]: Initialization of mysqld failed: 0
+Apr 12 22:46:38 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 12 22:46:40 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 12 22:46:40 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 12 22:46:40 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 12 22:46:40 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 87.
+Apr 12 22:46:40 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 12 22:46:40 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 12 22:46:40 ubuntu mysqld[85510]: Initialization of mysqld failed: 0
+Apr 12 22:46:40 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 12 22:46:42 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 12 22:46:42 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 12 22:46:42 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 12 22:46:42 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 88.
+Apr 12 22:46:42 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 12 22:46:42 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 12 22:46:43 ubuntu mysqld[85547]: Initialization of mysqld failed: 0
+Apr 12 22:46:43 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 12 22:46:44 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 12 22:46:44 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 12 22:46:44 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 12 22:46:44 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 89.
+Apr 12 22:46:44 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 12 22:46:44 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 12 22:46:45 ubuntu mysqld[85584]: Initialization of mysqld failed: 0
+Apr 12 22:46:45 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 12 22:46:47 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 12 22:46:47 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 12 22:46:47 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 12 22:46:47 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 90.
+Apr 12 22:46:47 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 12 22:46:47 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 12 22:46:47 ubuntu mysqld[85621]: Initialization of mysqld failed: 0
+Apr 12 22:46:47 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 12 22:46:49 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 12 22:46:49 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 12 22:46:49 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 12 22:46:49 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 91.
+Apr 12 22:46:49 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 12 22:46:49 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 12 22:46:49 ubuntu mysqld[85658]: Initialization of mysqld failed: 0
+Apr 12 22:46:49 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 12 22:46:51 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 12 22:46:51 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 12 22:46:51 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 12 22:46:51 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 92.
+Apr 12 22:46:51 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 12 22:46:51 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 12 22:46:52 ubuntu mysqld[85695]: Initialization of mysqld failed: 0
+Apr 12 22:46:52 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 12 22:46:53 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 12 22:46:53 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 12 22:46:53 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 12 22:46:53 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 93.
+Apr 12 22:46:53 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 12 22:46:53 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 12 22:46:54 ubuntu mysqld[85732]: Initialization of mysqld failed: 0
+Apr 12 22:46:54 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 12 22:46:55 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 12 22:46:55 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 12 22:46:56 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 12 22:46:56 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 94.
+Apr 12 22:46:56 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 12 22:46:56 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 12 22:46:56 ubuntu mysqld[85769]: Initialization of mysqld failed: 0
+Apr 12 22:46:56 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 12 22:46:58 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 12 22:46:58 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 12 22:46:58 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 12 22:46:58 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 95.
+Apr 12 22:46:58 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 12 22:46:58 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 12 22:46:58 ubuntu mysqld[85806]: Initialization of mysqld failed: 0
+Apr 12 22:46:58 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 12 22:47:00 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 12 22:47:00 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 12 22:47:00 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 12 22:47:00 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 96.
+Apr 12 22:47:00 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 12 22:47:00 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 12 22:47:01 ubuntu mysqld[85843]: Initialization of mysqld failed: 0
+Apr 12 22:47:01 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 12 22:47:02 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 12 22:47:02 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 12 22:47:02 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 12 22:47:02 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 97.
+Apr 12 22:47:02 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 12 22:47:02 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 12 22:47:03 ubuntu mysqld[85880]: Initialization of mysqld failed: 0
+Apr 12 22:47:03 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 12 22:47:04 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 12 22:47:04 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 12 22:47:05 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 12 22:47:05 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 98.
+Apr 12 22:47:05 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 12 22:47:05 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 12 22:47:05 ubuntu mysqld[85917]: Initialization of mysqld failed: 0
+Apr 12 22:47:05 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 12 22:47:07 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 12 22:47:07 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 12 22:47:07 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 12 22:47:07 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 99.
+Apr 12 22:47:07 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 12 22:47:07 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 12 22:47:07 ubuntu mysqld[85956]: Initialization of mysqld failed: 0
+Apr 12 22:47:07 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 12 22:47:09 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 12 22:47:09 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 12 22:47:09 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 12 22:47:09 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 100.
+Apr 12 22:47:09 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 12 22:47:09 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 12 22:47:10 ubuntu mysqld[85993]: Initialization of mysqld failed: 0
+Apr 12 22:47:10 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 12 22:47:11 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 12 22:47:11 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 12 22:47:11 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 12 22:47:11 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 101.
+Apr 12 22:47:11 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 12 22:47:11 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 12 22:47:12 ubuntu mysqld[86030]: Initialization of mysqld failed: 0
+Apr 12 22:47:12 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 12 22:47:13 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 12 22:47:13 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 12 22:47:14 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 12 22:47:14 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 102.
+Apr 12 22:47:14 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 12 22:47:14 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 12 22:47:14 ubuntu mysqld[86067]: Initialization of mysqld failed: 0
+Apr 12 22:47:14 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 12 22:47:16 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 12 22:47:16 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 12 22:47:16 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 12 22:47:16 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 103.
+Apr 12 22:47:16 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 12 22:47:16 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 12 22:47:16 ubuntu mysqld[86104]: Initialization of mysqld failed: 0
+Apr 12 22:47:16 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 12 22:47:18 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 12 22:47:18 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 12 22:47:18 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 12 22:47:18 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 104.
+Apr 12 22:47:18 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 12 22:47:18 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 12 22:47:19 ubuntu mysqld[86141]: Initialization of mysqld failed: 0
+Apr 12 22:47:19 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 12 22:47:20 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 12 22:47:20 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 12 22:47:20 ubuntu jetbrains-clion.desktop[86169]: OpenJDK 64-Bit Server VM warning: Option UseConcMarkSweepGC was deprecated in version 9.0 and will likely be removed in a future release.
+Apr 12 22:47:20 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 12 22:47:20 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 105.
+Apr 12 22:47:20 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 12 22:47:20 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 12 22:47:21 ubuntu mysqld[86232]: Initialization of mysqld failed: 0
+Apr 12 22:47:21 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 12 22:47:23 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 12 22:47:23 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 12 22:47:23 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 12 22:47:23 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 106.
+Apr 12 22:47:23 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 12 22:47:23 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 12 22:47:23 ubuntu mysqld[86290]: Initialization of mysqld failed: 0
+Apr 12 22:47:23 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 12 22:47:25 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 12 22:47:25 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 12 22:47:25 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 12 22:47:25 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 107.
+Apr 12 22:47:25 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 12 22:47:25 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 12 22:47:26 ubuntu mysqld[86329]: Initialization of mysqld failed: 0
+Apr 12 22:47:26 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 12 22:47:27 ubuntu org.gnome.Shell.desktop[1691]: Window manager warning: Window 0x2400007 (win0) sets an MWM hint indicating it isn't resizable, but sets min size 1 x 1 and max size 2147483647 x 2147483647; this doesn't make much sense.
+Apr 12 22:47:27 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 12 22:47:27 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 12 22:47:27 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 12 22:47:27 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 108.
+Apr 12 22:47:27 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 12 22:47:27 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 12 22:47:29 ubuntu mysqld[86373]: Initialization of mysqld failed: 0
+Apr 12 22:47:29 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 12 22:47:30 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 12 22:47:30 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 12 22:47:30 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 12 22:47:30 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 109.
+Apr 12 22:47:30 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 12 22:47:30 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 12 22:47:31 ubuntu mysqld[86413]: Initialization of mysqld failed: 0
+Apr 12 22:47:31 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 12 22:47:33 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 12 22:47:33 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 12 22:47:33 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 12 22:47:33 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 110.
+Apr 12 22:47:33 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 12 22:47:33 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 12 22:47:33 ubuntu mysqld[86459]: Initialization of mysqld failed: 0
+Apr 12 22:47:33 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 12 22:47:35 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 12 22:47:35 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 12 22:47:35 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 12 22:47:35 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 111.
+Apr 12 22:47:35 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 12 22:47:35 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 12 22:47:36 ubuntu mysqld[86503]: Initialization of mysqld failed: 0
+Apr 12 22:47:36 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 12 22:47:37 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 12 22:47:37 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 12 22:47:37 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 12 22:47:37 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 112.
+Apr 12 22:47:37 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 12 22:47:37 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 12 22:47:38 ubuntu mysqld[86540]: Initialization of mysqld failed: 0
+Apr 12 22:47:38 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 12 22:47:40 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 12 22:47:40 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 12 22:47:40 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 12 22:47:40 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 113.
+Apr 12 22:47:40 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 12 22:47:40 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 12 22:47:40 ubuntu mysqld[86766]: Initialization of mysqld failed: 0
+Apr 12 22:47:40 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 12 22:47:42 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 12 22:47:42 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 12 22:47:42 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 12 22:47:42 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 114.
+Apr 12 22:47:42 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 12 22:47:42 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 12 22:47:43 ubuntu mysqld[86803]: Initialization of mysqld failed: 0
+Apr 12 22:47:43 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 12 22:47:44 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 12 22:47:44 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 12 22:47:44 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 12 22:47:44 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 115.
+Apr 12 22:47:44 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 12 22:47:44 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 12 22:47:45 ubuntu mysqld[86851]: Initialization of mysqld failed: 0
+Apr 12 22:47:45 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 12 22:47:47 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 12 22:47:47 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 12 22:47:47 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 12 22:47:47 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 116.
+Apr 12 22:47:47 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 12 22:47:47 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 12 22:47:47 ubuntu mysqld[86891]: Initialization of mysqld failed: 0
+Apr 12 22:47:47 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 12 22:47:49 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 12 22:47:49 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 12 22:47:49 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 12 22:47:49 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 117.
+Apr 12 22:47:49 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 12 22:47:49 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 12 22:47:49 ubuntu mysqld[86933]: Initialization of mysqld failed: 0
+Apr 12 22:47:49 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 12 22:47:51 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 12 22:47:51 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 12 22:47:51 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 12 22:47:51 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 118.
+Apr 12 22:47:51 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 12 22:47:51 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 12 22:47:52 ubuntu mysqld[86974]: Initialization of mysqld failed: 0
+Apr 12 22:47:52 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 12 22:47:54 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 12 22:47:54 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 12 22:47:54 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 12 22:47:54 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 119.
+Apr 12 22:47:54 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 12 22:47:54 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 12 22:47:54 ubuntu mysqld[87013]: Initialization of mysqld failed: 0
+Apr 12 22:47:54 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 12 22:47:56 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 12 22:47:56 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 12 22:47:56 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 12 22:47:56 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 120.
+Apr 12 22:47:56 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 12 22:47:56 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 12 22:47:57 ubuntu mysqld[87050]: Initialization of mysqld failed: 0
+Apr 12 22:47:57 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 12 22:47:58 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 12 22:47:58 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 12 22:47:58 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 12 22:47:58 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 121.
+Apr 12 22:47:58 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 12 22:47:58 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 12 22:47:59 ubuntu mysqld[87090]: Initialization of mysqld failed: 0
+Apr 12 22:47:59 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1

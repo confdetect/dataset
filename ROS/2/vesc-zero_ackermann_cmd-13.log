@@ -1,0 +1,13 @@
+[rospy.client][INFO] 2021-05-02 14:15:02,408: init_node, name[/vesc/zero_ackermann_cmd], pid[17374]
+[xmlrpc][INFO] 2021-05-02 14:15:02,409: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2021-05-02 14:15:02,409: Started XML-RPC server [http://ubuntu:45751/]
+[rospy.impl.masterslave][INFO] 2021-05-02 14:15:02,409: _ready: http://ubuntu:45751/
+[xmlrpc][INFO] 2021-05-02 14:15:02,409: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2021-05-02 14:15:02,409: ROS Slave URI: [http://ubuntu:45751/]
+[rospy.registration][INFO] 2021-05-02 14:15:02,410: Registering with master node http://localhost:11311
+[rospy.init][INFO] 2021-05-02 14:15:02,510: registered with master
+[rospy.internal][INFO] 2021-05-02 14:15:02,740: topic[/vesc/high_level/ackermann_cmd_mux/input/default] adding connection to [/vesc/high_level/ackermann_cmd_mux_nodelet_manager], count 0
+[rospy.core][INFO] 2021-05-02 14:15:21,301: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2021-05-02 14:15:21,303: topic[/vesc/high_level/ackermann_cmd_mux/input/default] removing connection to /vesc/high_level/ackermann_cmd_mux_nodelet_manager
+[rospy.impl.masterslave][INFO] 2021-05-02 14:15:21,304: signal-2
+[rospy.core][INFO] 2021-05-02 14:15:21,469: signal_shutdown [atexit]

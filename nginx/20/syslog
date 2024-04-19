@@ -1,0 +1,305 @@
+Apr 27 14:45:23 ubuntu kernel: [77337.776101] nautilus invoked oom-killer: gfp_mask=0x100cca(GFP_HIGHUSER_MOVABLE), order=0, oom_score_adj=0
+Apr 27 14:45:23 ubuntu kernel: [77337.776869] CPU: 2 PID: 20088 Comm: nautilus Not tainted 5.4.0-70-generic #78~18.04.1-Ubuntu
+Apr 27 14:45:23 ubuntu kernel: [77337.776870] Hardware name: VMware, Inc. VMware Virtual Platform/440BX Desktop Reference Platform, BIOS 6.00 04/13/2018
+Apr 27 14:45:23 ubuntu kernel: [77337.776870] Call Trace:
+Apr 27 14:45:23 ubuntu kernel: [77337.780322]  dump_stack+0x6d/0x8b
+Apr 27 14:45:23 ubuntu kernel: [77337.781426]  dump_header+0x4f/0x200
+Apr 27 14:45:23 ubuntu kernel: [77337.781430]  oom_kill_process+0xe6/0x120
+Apr 27 14:45:23 ubuntu kernel: [77337.781432]  out_of_memory+0x109/0x510
+Apr 27 14:45:23 ubuntu kernel: [77337.781465]  __alloc_pages_slowpath+0xa9b/0xe50
+Apr 27 14:45:23 ubuntu kernel: [77337.781485]  ? __switch_to_asm+0x34/0x70
+Apr 27 14:45:23 ubuntu kernel: [77337.781487]  __alloc_pages_nodemask+0x2cd/0x320
+Apr 27 14:45:23 ubuntu kernel: [77337.781505]  alloc_pages_current+0x6a/0xe0
+Apr 27 14:45:23 ubuntu kernel: [77337.781507]  __page_cache_alloc+0x6a/0xa0
+Apr 27 14:45:23 ubuntu kernel: [77337.781508]  pagecache_get_page+0xab/0x2c0
+Apr 27 14:45:23 ubuntu kernel: [77337.781509]  filemap_fault+0x685/0xb80
+Apr 27 14:45:23 ubuntu kernel: [77337.781733]  ? unlock_page_memcg+0x12/0x20
+Apr 27 14:45:23 ubuntu kernel: [77337.781736]  ? page_add_file_rmap+0x13a/0x180
+Apr 27 14:45:23 ubuntu kernel: [77337.782124]  ? poll_select_finish+0x210/0x210
+Apr 27 14:45:23 ubuntu kernel: [77337.782494]  ? xas_load+0xc/0x80
+Apr 27 14:45:23 ubuntu kernel: [77337.782497]  ? xas_find+0x16f/0x1b0
+Apr 27 14:45:23 ubuntu kernel: [77337.782498]  ? filemap_map_pages+0x181/0x3b0
+Apr 27 14:45:23 ubuntu kernel: [77337.782839]  ext4_filemap_fault+0x31/0x50
+Apr 27 14:45:23 ubuntu kernel: [77337.782842]  __do_fault+0x57/0x110
+Apr 27 14:45:23 ubuntu kernel: [77337.782843]  __handle_mm_fault+0xdde/0x1270
+Apr 27 14:45:23 ubuntu kernel: [77337.782845]  handle_mm_fault+0xcb/0x210
+Apr 27 14:45:23 ubuntu kernel: [77337.783588]  __do_page_fault+0x2a1/0x4d0
+Apr 27 14:45:23 ubuntu kernel: [77337.783590]  do_page_fault+0x2c/0xe0
+Apr 27 14:45:23 ubuntu kernel: [77337.783592]  page_fault+0x34/0x40
+Apr 27 14:45:23 ubuntu kernel: [77337.783655] RIP: 0033:0x7fcb38f96cc0
+Apr 27 14:45:23 ubuntu kernel: [77337.783660] Code: Bad RIP value.
+Apr 27 14:45:23 ubuntu kernel: [77337.783660] RSP: 002b:00007ffc6f2d2988 EFLAGS: 00010246
+Apr 27 14:45:23 ubuntu kernel: [77337.783678] RAX: 00007fcb39249940 RBX: 0000562882f67e20 RCX: 0000000000000001
+Apr 27 14:45:23 ubuntu kernel: [77337.783678] RDX: 0000000000000001 RSI: 0000000000000001 RDI: 00005628837cfa00
+Apr 27 14:45:23 ubuntu kernel: [77337.783679] RBP: 00007ffc6f2d29a0 R08: 0000000000000002 R09: 000056288300ed60
+Apr 27 14:45:23 ubuntu kernel: [77337.783679] R10: 0000562884742340 R11: 0000000000000000 R12: 000000007fffffff
+Apr 27 14:45:23 ubuntu kernel: [77337.783680] R13: 00007ffc6f2d2998 R14: 0000000000000000 R15: 00007fcb38f96cc0
+Apr 27 14:45:23 ubuntu kernel: [77337.783709] Mem-Info:
+Apr 27 14:45:23 ubuntu kernel: [77337.783712] active_anon:1103924 inactive_anon:184031 isolated_anon:0
+Apr 27 14:45:23 ubuntu kernel: [77337.783712]  active_file:81 inactive_file:214 isolated_file:0
+Apr 27 14:45:23 ubuntu kernel: [77337.783712]  unevictable:4 dirty:4 writeback:0 unstable:0
+Apr 27 14:45:23 ubuntu kernel: [77337.783712]  slab_reclaimable:17412 slab_unreclaimable:29312
+Apr 27 14:45:23 ubuntu kernel: [77337.783712]  mapped:8572 shmem:8699 pagetables:19567 bounce:0
+Apr 27 14:45:23 ubuntu kernel: [77337.783712]  free:23995 free_pcp:583 free_cma:0
+Apr 27 14:45:23 ubuntu kernel: [77337.783714] Node 0 active_anon:4415696kB inactive_anon:736124kB active_file:324kB inactive_file:856kB unevictable:16kB isolated(anon):0kB isolated(file):0kB mapped:34288kB dirty:16kB writeback:0kB shmem:34796kB shmem_thp: 0kB shmem_pmdmapped: 0kB anon_thp: 0kB writeback_tmp:0kB unstable:0kB all_unreclaimable? no
+Apr 27 14:45:23 ubuntu kernel: [77337.783931] Node 0 DMA free:15872kB min:176kB low:220kB high:264kB active_anon:0kB inactive_anon:0kB active_file:0kB inactive_file:0kB unevictable:0kB writepending:0kB present:15988kB managed:15904kB mlocked:0kB kernel_stack:0kB pagetables:0kB bounce:0kB free_pcp:0kB local_pcp:0kB free_cma:0kB
+Apr 27 14:45:23 ubuntu kernel: [77337.783934] lowmem_reserve[]: 0 2951 5854 5854 5854
+Apr 27 14:45:23 ubuntu kernel: [77337.783937] Node 0 DMA32 free:46524kB min:33980kB low:42472kB high:50964kB active_anon:2704796kB inactive_anon:125716kB active_file:680kB inactive_file:0kB unevictable:16kB writepending:16kB present:3129152kB managed:3063616kB mlocked:16kB kernel_stack:10304kB pagetables:22124kB bounce:0kB free_pcp:1252kB local_pcp:916kB free_cma:0kB
+Apr 27 14:45:23 ubuntu kernel: [77337.783940] lowmem_reserve[]: 0 0 2902 2902 2902
+Apr 27 14:45:23 ubuntu kernel: [77337.783941] Node 0 Normal free:33584kB min:33420kB low:41772kB high:50124kB active_anon:1710900kB inactive_anon:610408kB active_file:104kB inactive_file:1036kB unevictable:0kB writepending:0kB present:3145728kB managed:2980432kB mlocked:0kB kernel_stack:20880kB pagetables:56144kB bounce:0kB free_pcp:1100kB local_pcp:608kB free_cma:0kB
+Apr 27 14:45:23 ubuntu kernel: [77337.783948] lowmem_reserve[]: 0 0 0 0 0
+Apr 27 14:45:23 ubuntu kernel: [77337.783950] Node 0 DMA: 0*4kB 0*8kB 0*16kB 0*32kB 2*64kB (U) 1*128kB (U) 1*256kB (U) 0*512kB 1*1024kB (U) 1*2048kB (M) 3*4096kB (M) = 15872kB
+Apr 27 14:45:23 ubuntu kernel: [77337.783956] Node 0 DMA32: 1311*4kB (UME) 918*8kB (UME) 544*16kB (UME) 378*32kB (UME) 113*64kB (UE) 42*128kB (UME) 4*256kB (UM) 0*512kB 0*1024kB 0*2048kB 0*4096kB = 47020kB
+Apr 27 14:45:23 ubuntu kernel: [77337.783979] Node 0 Normal: 1293*4kB (UE) 610*8kB (UME) 262*16kB (UME) 200*32kB (UME) 77*64kB (UME) 46*128kB (UME) 7*256kB (UME) 0*512kB 0*1024kB 0*2048kB 0*4096kB = 33252kB
+Apr 27 14:45:23 ubuntu kernel: [77337.784661] Node 0 hugepages_total=0 hugepages_free=0 hugepages_surp=0 hugepages_size=1048576kB
+Apr 27 14:45:23 ubuntu kernel: [77337.785037] Node 0 hugepages_total=0 hugepages_free=0 hugepages_surp=0 hugepages_size=2048kB
+Apr 27 14:45:23 ubuntu kernel: [77337.785038] 20168 total pagecache pages
+Apr 27 14:45:23 ubuntu kernel: [77337.785039] 11069 pages in swap cache
+Apr 27 14:45:23 ubuntu kernel: [77337.785040] Swap cache stats: add 395820, delete 384748, find 42516/76086
+Apr 27 14:45:23 ubuntu kernel: [77337.785040] Free swap  = 0kB
+Apr 27 14:45:23 ubuntu kernel: [77337.785040] Total swap = 969960kB
+Apr 27 14:45:23 ubuntu kernel: [77337.785041] 1572717 pages RAM
+Apr 27 14:45:23 ubuntu kernel: [77337.785041] 0 pages HighMem/MovableOnly
+Apr 27 14:45:23 ubuntu kernel: [77337.785042] 57729 pages reserved
+Apr 27 14:45:23 ubuntu kernel: [77337.785042] 0 pages cma reserved
+Apr 27 14:45:23 ubuntu kernel: [77337.785042] 0 pages hwpoisoned
+Apr 27 14:45:23 ubuntu kernel: [77337.785043] Tasks state (memory values in pages):
+Apr 27 14:45:23 ubuntu kernel: [77337.785043] [  pid  ]   uid  tgid total_vm      rss pgtables_bytes swapents oom_score_adj name
+Apr 27 14:45:23 ubuntu kernel: [77337.785065] [    403]     0   403    36209      240   278528      162             0 systemd-journal
+Apr 27 14:45:23 ubuntu kernel: [77337.785066] [    423]     0   423     8831       20   122880      519         -1000 systemd-udevd
+Apr 27 14:45:23 ubuntu kernel: [77337.785070] [    582]   101   582    17725       90   180224      114             0 systemd-resolve
+Apr 27 14:45:23 ubuntu kernel: [77337.785072] [    583] 62583   583    36535       20   192512      139             0 systemd-timesyn
+Apr 27 14:45:23 ubuntu kernel: [77337.785074] [    644]     0   644    27630       40   118784       59             0 irqbalance
+Apr 27 14:45:23 ubuntu kernel: [77337.785075] [    657]   116   657    11816       54   139264       54             0 avahi-daemon
+Apr 27 14:45:23 ubuntu kernel: [77337.785076] [    659]     0   659    17676       68   180224      140             0 systemd-logind
+Apr 27 14:45:23 ubuntu kernel: [77337.785077] [    662]   103   662    12955      516   147456       95          -900 dbus-daemon
+Apr 27 14:45:23 ubuntu kernel: [77337.785095] [    670]   116   670    11770       10   131072       75             0 avahi-daemon
+Apr 27 14:45:23 ubuntu kernel: [77337.785096] [    680]     0   680    11309       16   122880      127             0 wpa_supplicant
+Apr 27 14:45:23 ubuntu kernel: [77337.785098] [    681]     0   681    72350      175   200704      100             0 accounts-daemon
+Apr 27 14:45:23 ubuntu kernel: [77337.785099] [    683]     0   683     8269       25   106496       48             0 cron
+Apr 27 14:45:23 ubuntu kernel: [77337.785100] [    685]   102   685    84725      315   176128      202             0 rsyslogd
+Apr 27 14:45:23 ubuntu kernel: [77337.785101] [    686]     0   686   159066      497   446464      291             0 NetworkManager
+Apr 27 14:45:23 ubuntu kernel: [77337.785102] [    693]     0   693   125869      199   344064      415             0 udisksd
+Apr 27 14:45:23 ubuntu kernel: [77337.785103] [    694]     0   694   108583       12   356352      354             0 ModemManager
+Apr 27 14:45:23 ubuntu kernel: [77337.785104] [    697]     0   697     1139       15    57344       27             0 acpid
+Apr 27 14:45:23 ubuntu kernel: [77337.785106] [    701]     0   701    43070        1   237568     1986             0 networkd-dispat
+Apr 27 14:45:23 ubuntu kernel: [77337.785107] [    730]     0   730    74570      760   217088      122             0 polkitd
+Apr 27 14:45:23 ubuntu kernel: [77337.785108] [    732]     0   732   365485     2949   352256     1417          -900 snapd
+Apr 27 14:45:23 ubuntu kernel: [77337.785109] [    738]     0   738    47250        0   270336     2000             0 unattended-upgr
+Apr 27 14:45:23 ubuntu kernel: [77337.785110] [    761]     0   761    75708      186   221184      127             0 gdm3
+Apr 27 14:45:23 ubuntu kernel: [77337.785111] [    830]   122   830   454588    15401   847872    40834             0 mysqld
+Apr 27 14:45:23 ubuntu kernel: [77337.785113] [   1065]     0  1065    79244      147   241664      172             0 upowerd
+Apr 27 14:45:23 ubuntu kernel: [77337.785114] [   1133]     0  1133    64050        1   274432      302             0 gdm-session-wor
+Apr 27 14:45:23 ubuntu kernel: [77337.785117] [   1141]     0  1141    66749       17   143360      144             0 vmware-vmblock-
+Apr 27 14:45:23 ubuntu kernel: [77337.785119] [   1162]   121  1162    19258      101   192512      255             0 systemd
+Apr 27 14:45:23 ubuntu kernel: [77337.785121] [   1167]   121  1167    28552       11   253952      656             0 (sd-pam)
+Apr 27 14:45:23 ubuntu kernel: [77337.785122] [   1190]     0  1190    47298      280   258048      393             0 vmtoolsd
+Apr 27 14:45:23 ubuntu kernel: [77337.785123] [   1213]   121  1213    51695        1   176128      165             0 gdm-x-session
+Apr 27 14:45:23 ubuntu kernel: [77337.785124] [   1221]   121  1221    90979       67   532480     3801             0 Xorg
+Apr 27 14:45:23 ubuntu kernel: [77337.785125] [   1314]     0  1314    16842        0   188416      399             0 VGAuthService
+Apr 27 14:45:23 ubuntu kernel: [77337.785126] [   1323]   112  1323   116081      195   389120      260             0 whoopsie
+Apr 27 14:45:23 ubuntu kernel: [77337.785128] [   1330]   113  1330    14236       27   143360       86             0 kerneloops
+Apr 27 14:45:23 ubuntu kernel: [77337.785129] [   1334]   113  1334    14236       27   147456       86             0 kerneloops
+Apr 27 14:45:23 ubuntu kernel: [77337.785130] [   1489]   121  1489    12590      147   139264       81             0 dbus-daemon
+Apr 27 14:45:23 ubuntu kernel: [77337.785131] [   1492]   121  1492   138410      124   417792      479             0 gnome-session-b
+Apr 27 14:45:23 ubuntu kernel: [77337.785132] [   1494]   121  1494    87323        1   180224      197             0 at-spi-bus-laun
+Apr 27 14:45:23 ubuntu kernel: [77337.785133] [   1499]   121  1499    12483        0   147456      120             0 dbus-daemon
+Apr 27 14:45:23 ubuntu kernel: [77337.785134] [   1502]   121  1502    55178        0   196608      207             0 at-spi2-registr
+Apr 27 14:45:23 ubuntu kernel: [77337.785135] [   1510]   121  1510   854014     1794  1544192    16636             0 gnome-shell
+Apr 27 14:45:23 ubuntu kernel: [77337.785136] [   1517]   121  1517   329782       20   499712      904             0 pulseaudio
+Apr 27 14:45:23 ubuntu kernel: [77337.785137] [   1519]   109  1519    45878        0   122880       76             0 rtkit-daemon
+Apr 27 14:45:23 ubuntu kernel: [77337.785139] [   1534]   121  1534   107436        1   200704      360             0 ibus-daemon
+Apr 27 14:45:23 ubuntu kernel: [77337.785140] [   1537]   121  1537    68848        0   172032      182             0 ibus-dconf
+Apr 27 14:45:23 ubuntu kernel: [77337.785141] [   1540]   121  1540    84684        1   421888     1183             0 ibus-x11
+Apr 27 14:45:23 ubuntu kernel: [77337.785142] [   1544]   121  1544    68301        0   159744      173             0 ibus-portal
+Apr 27 14:45:23 ubuntu kernel: [77337.785143] [   1553]   121  1553    66552        0   151552      148             0 xdg-permission-
+Apr 27 14:45:23 ubuntu kernel: [77337.785144] [   1560]     0  1560    72880      102   208896      115             0 boltd
+Apr 27 14:45:23 ubuntu kernel: [77337.785145] [   1566]     0  1566   129386     5839   446464     1352             0 packagekitd
+Apr 27 14:45:23 ubuntu kernel: [77337.785146] [   1568]   121  1568   122433        2   458752     1366             0 gsd-xsettings
+Apr 27 14:45:23 ubuntu kernel: [77337.785147] [   1569]   121  1569    68202        0   163840      179             0 gsd-a11y-settin
+Apr 27 14:45:23 ubuntu kernel: [77337.785148] [   1571]   121  1571    84587        1   425984     1185             0 gsd-clipboard
+Apr 27 14:45:23 ubuntu kernel: [77337.785149] [   1576]   121  1576   163394      328   483328      939             0 gsd-color
+Apr 27 14:45:23 ubuntu kernel: [77337.785150] [   1578]   121  1578    97091        1   434176      493             0 gsd-datetime
+Apr 27 14:45:23 ubuntu kernel: [77337.785152] [   1580]   121  1580    69597        0   172032      166             0 gsd-housekeepin
+Apr 27 14:45:23 ubuntu kernel: [77337.785153] [   1584]   121  1584   125310        1   475136     1264             0 gsd-keyboard
+Apr 27 14:45:23 ubuntu kernel: [77337.785154] [   1588]   121  1588   269143      167   557056     1208             0 gsd-media-keys
+Apr 27 14:45:23 ubuntu kernel: [77337.785155] [   1592]   121  1592    49161        0   155648      151             0 gsd-mouse
+Apr 27 14:45:23 ubuntu kernel: [77337.785156] [   1595]   121  1595   146448      162   503808     1162             0 gsd-power
+Apr 27 14:45:23 ubuntu kernel: [77337.785157] [   1598]   121  1598    65415        0   262144      307             0 gsd-print-notif
+Apr 27 14:45:23 ubuntu kernel: [77337.785158] [   1602]   121  1602    49166        0   155648      150             0 gsd-rfkill
+Apr 27 14:45:23 ubuntu kernel: [77337.785159] [   1604]   121  1604    67595        0   163840      160             0 gsd-screensaver
+Apr 27 14:45:23 ubuntu kernel: [77337.785160] [   1606]   121  1606    74941        0   212992      278             0 gsd-sharing
+Apr 27 14:45:23 ubuntu kernel: [77337.785161] [   1613]   121  1613    93180        1   225280      257             0 gsd-smartcard
+Apr 27 14:45:23 ubuntu kernel: [77337.785164] [   1619]   121  1619    82407        0   270336      281             0 gsd-sound
+Apr 27 14:45:23 ubuntu kernel: [77337.785165] [   1625]   121  1625   105812        1   466944     1276             0 gsd-wacom
+Apr 27 14:45:23 ubuntu kernel: [77337.785166] [   1640]   117  1640    79908        0   258048     1201             0 colord
+Apr 27 14:45:23 ubuntu kernel: [77337.785167] [   1662]   121  1662    49884        0   163840      183             0 ibus-engine-sim
+Apr 27 14:45:23 ubuntu kernel: [77337.785168] [   1672]     0  1672   102596      388   307200      143             0 gdm-session-wor
+Apr 27 14:45:23 ubuntu kernel: [77337.785169] [   1675]  1000  1675    19312      260   192512      165             0 systemd
+Apr 27 14:45:23 ubuntu kernel: [77337.785171] [   1676]  1000  1676    28552       11   253952      658             0 (sd-pam)
+Apr 27 14:45:23 ubuntu kernel: [77337.785172] [   1689]  1000  1689    70819      163   184320      125             0 gnome-keyring-d
+Apr 27 14:45:23 ubuntu kernel: [77337.785173] [   1693]  1000  1693    51724       71   172032       98             0 gdm-x-session
+Apr 27 14:45:23 ubuntu kernel: [77337.785174] [   1695]  1000  1695   141668    13656   827392     4868             0 Xorg
+Apr 27 14:45:23 ubuntu kernel: [77337.785175] [   1699]  1000  1699    13413      988   147456       93             0 dbus-daemon
+Apr 27 14:45:23 ubuntu kernel: [77337.785176] [   1702]  1000  1702   140812      344   434176      364             0 gnome-session-b
+Apr 27 14:45:23 ubuntu kernel: [77337.785177] [   1726]  1000  1726   107759      518   552960     3035             0 fcitx
+Apr 27 14:45:23 ubuntu kernel: [77337.785179] [   1745]  1000  1745    12553       99   147456       75             0 dbus-daemon
+Apr 27 14:45:23 ubuntu kernel: [77337.785180] [   1752]  1000  1752     6900        1    98304       55             0 fcitx-dbus-watc
+Apr 27 14:45:23 ubuntu kernel: [77337.785182] [   1789]  1000  1789     2828       10    61440       70             0 ssh-agent
+Apr 27 14:45:23 ubuntu kernel: [77337.785184] [   1793]  1000  1793    87326       77   176128      123             0 at-spi-bus-laun
+Apr 27 14:45:23 ubuntu kernel: [77337.785185] [   1798]  1000  1798    12514       88   139264       74             0 dbus-daemon
+Apr 27 14:45:23 ubuntu kernel: [77337.785186] [   1800]  1000  1800    55178       84   204800      128             0 at-spi2-registr
+Apr 27 14:45:23 ubuntu kernel: [77337.785188] [   1812]  1000  1812   375593     2096  1343488     8441             0 sogoupinyinServ
+Apr 27 14:45:23 ubuntu kernel: [77337.785189] [   1827]  1000  1827   924216    31944  2002944     9482             0 gnome-shell
+Apr 27 14:45:23 ubuntu kernel: [77337.785191] [   1831]  1000  1831    71689      123   188416      135             0 gvfsd
+Apr 27 14:45:23 ubuntu kernel: [77337.785192] [   1838]  1000  1838   104029       19   176128      138             0 gvfsd-fuse
+Apr 27 14:45:23 ubuntu kernel: [77337.785194] [   1857]  1000  1857   465212      492   577536      614             0 pulseaudio
+Apr 27 14:45:23 ubuntu kernel: [77337.785195] [   1870]  1000  1870    89096      215   196608      163             0 ibus-daemon
+Apr 27 14:45:23 ubuntu kernel: [77337.785197] [   1874]  1000  1874    68909       60   172032      127             0 ibus-dconf
+Apr 27 14:45:23 ubuntu kernel: [77337.785198] [   1876]  1000  1876    84835      257   425984      945             0 ibus-x11
+Apr 27 14:45:23 ubuntu kernel: [77337.785199] [   1879]  1000  1879    68392      100   167936       99             0 ibus-portal
+Apr 27 14:45:23 ubuntu kernel: [77337.785200] [   1888]  1000  1888    66611       52   151552       71             0 xdg-permission-
+Apr 27 14:45:23 ubuntu kernel: [77337.785202] [   1893]  1000  1893   172481      244   524288      632             0 gnome-shell-cal
+Apr 27 14:45:23 ubuntu kernel: [77337.785203] [   1897]  1000  1897   341788       92   811008     1018             0 evolution-sourc
+Apr 27 14:45:23 ubuntu kernel: [77337.785204] [   1905]  1000  1905   195658      137   704512     1394             0 goa-daemon
+Apr 27 14:45:23 ubuntu kernel: [77337.785205] [   1913]  1000  1913    47031      174   135168       52             0 dconf-service
+Apr 27 14:45:23 ubuntu kernel: [77337.785206] [   1922]  1000  1922    74598       47   221184      202             0 goa-identity-se
+Apr 27 14:45:23 ubuntu kernel: [77337.785207] [   1923]  1000  1923    75349      202   225280      251             0 gvfs-udisks2-vo
+Apr 27 14:45:23 ubuntu kernel: [77337.785208] [   1930]  1000  1930    70887       80   184320      132             0 gvfs-gphoto2-vo
+Apr 27 14:45:23 ubuntu kernel: [77337.785209] [   1934]  1000  1934    67206       63   159744      102             0 gvfs-goa-volume
+Apr 27 14:45:23 ubuntu kernel: [77337.785210] [   1938]  1000  1938    93400       44   221184      191             0 gvfs-afc-volume
+Apr 27 14:45:23 ubuntu kernel: [77337.785211] [   1943]  1000  1943    67656       99   163840       84             0 gvfs-mtp-volume
+Apr 27 14:45:23 ubuntu kernel: [77337.785212] [   1947]  1000  1947   146561      740   503808      583             0 gsd-power
+Apr 27 14:45:23 ubuntu kernel: [77337.785213] [   1948]  1000  1948    86030      141   290816      224             0 gsd-print-notif
+Apr 27 14:45:23 ubuntu kernel: [77337.785216] [   1950]  1000  1950   104535      109   176128       77             0 gsd-rfkill
+Apr 27 14:45:23 ubuntu kernel: [77337.785217] [   1951]  1000  1951    67632       98   151552       65             0 gsd-screensaver
+Apr 27 14:45:23 ubuntu kernel: [77337.785218] [   1956]  1000  1956   111912      235   233472      158             0 gsd-sharing
+Apr 27 14:45:23 ubuntu kernel: [77337.785219] [   1961]  1000  1961   122564      762   446464      605             0 gsd-xsettings
+Apr 27 14:45:23 ubuntu kernel: [77337.785220] [   1969]  1000  1969   111687      101   249856      160             0 gsd-smartcard
+Apr 27 14:45:23 ubuntu kernel: [77337.785221] [   1971]  1000  1971    82480       87   282624      188             0 gsd-sound
+Apr 27 14:45:23 ubuntu kernel: [77337.785222] [   1974]  1000  1974   105964      455   458752      829             0 gsd-wacom
+Apr 27 14:45:23 ubuntu kernel: [77337.785223] [   1979]  1000  1979    68277       76   172032       81             0 gsd-a11y-settin
+Apr 27 14:45:23 ubuntu kernel: [77337.785224] [   1981]  1000  1981    84744      730   417792      473             0 gsd-clipboard
+Apr 27 14:45:23 ubuntu kernel: [77337.785225] [   1984]  1000  1984   163516      790   479232      531             0 gsd-color
+Apr 27 14:45:23 ubuntu kernel: [77337.785226] [   1989]  1000  1989   116170      106   454656      417             0 gsd-datetime
+Apr 27 14:45:23 ubuntu kernel: [77337.785227] [   1990]  1000  1990    89846      136   200704       92             0 gsd-housekeepin
+Apr 27 14:45:23 ubuntu kernel: [77337.785228] [   1993]  1000  1993   125458      677   462848      574             0 gsd-keyboard
+Apr 27 14:45:23 ubuntu kernel: [77337.785229] [   1996]  1000  1996   347636      989   557056      454             0 gsd-media-keys
+Apr 27 14:45:23 ubuntu kernel: [77337.785230] [   1998]  1000  1998    68276       97   163840       80             0 gsd-mouse
+Apr 27 14:45:23 ubuntu kernel: [77337.785231] [   2036]  1000  2036   125891      126   450560      357             0 gsd-printer
+Apr 27 14:45:23 ubuntu kernel: [77337.785232] [   2045]  1000  2045    67984      246   167936       85             0 gsd-disk-utilit
+Apr 27 14:45:23 ubuntu kernel: [77337.785233] [   2051]  1000  2051   211284     2020   835584     1814             0 nautilus-deskto
+Apr 27 14:45:23 ubuntu kernel: [77337.785234] [   2054]  1000  2054    68081      857   425984      520             0 vmtoolsd
+Apr 27 14:45:23 ubuntu kernel: [77337.785235] [   2071]  1000  2071    90788      270   200704      115             0 gvfsd-trash
+Apr 27 14:45:23 ubuntu kernel: [77337.785236] [   2091]  1000  2091   221898       68   905216    10040             0 evolution-calen
+Apr 27 14:45:23 ubuntu kernel: [77337.785238] [   2111]  1000  2111    49943      127   151552       92             0 ibus-engine-sim
+Apr 27 14:45:23 ubuntu kernel: [77337.785239] [   2116]  1000  2116   282845      297   696320     9700             0 evolution-calen
+Apr 27 14:45:23 ubuntu kernel: [77337.785241] [   2137]  1000  2137   181917       65   569344      791             0 evolution-addre
+Apr 27 14:45:23 ubuntu kernel: [77337.785242] [   2146]  1000  2146   253061      140   622592      809             0 evolution-addre
+Apr 27 14:45:23 ubuntu kernel: [77337.785243] [   2180]  1000  2180   155288      564   651264     1046             0 sogoupinyinServ
+Apr 27 14:45:23 ubuntu kernel: [77337.785245] [   2519]  1000  2519   347377    28320  1384448    20854             0 gnome-software
+Apr 27 14:45:23 ubuntu kernel: [77337.785247] [   2521]  1000  2521   153375      894   557056      755             0 update-notifier
+Apr 27 14:45:23 ubuntu kernel: [77337.785248] [   2616]  1000  2616   198998      144   729088     1412             0 deja-dup-monito
+Apr 27 14:45:23 ubuntu kernel: [77337.785250] [   2650]  1000  2650    49880      189   163840       61             0 gvfsd-metadata
+Apr 27 14:45:23 ubuntu kernel: [77337.785251] [   2686]  1000  2686   107129      331   204800       86             0 zeitgeist-daemo
+Apr 27 14:45:23 ubuntu kernel: [77337.785252] [   2692]  1000  2692    81686      390   237568      300             0 zeitgeist-fts
+Apr 27 14:45:23 ubuntu kernel: [77337.785253] [   2864]  1000  2864    91328      165   217088      137             0 gvfsd-network
+Apr 27 14:45:23 ubuntu kernel: [77337.785255] [   2883]  1000  2883    94018      121   245760      170             0 gvfsd-dnssd
+Apr 27 14:45:23 ubuntu kernel: [77337.785258] [  16273]   105 16273     7474        0   102400       52             0 uuidd
+Apr 27 14:45:23 ubuntu kernel: [77337.785259] [  16281]  1000 16281    93324      391   229376      318             0 gvfsd-recent
+Apr 27 14:45:23 ubuntu kernel: [77337.785260] [  20088]  1000 20088   434757     8693  1007616     2459             0 nautilus
+Apr 27 14:45:23 ubuntu kernel: [77337.785262] [  20136]  1000 20136   174669     2368   651264     1834             0 gnome-terminal-
+Apr 27 14:45:23 ubuntu kernel: [77337.785263] [  20142]  1000 20142     6321        1    94208      581             0 bash
+Apr 27 14:45:23 ubuntu kernel: [77337.785265] [  20246]     0 20246    16861        2   180224      126             0 sudo
+Apr 27 14:45:23 ubuntu kernel: [77337.785267] [  20247]     0 20247     6316      235    94208      343             0 bash
+Apr 27 14:45:23 ubuntu kernel: [77337.785268] [  20404]  1000 20404   800233    31220  2183168     8101             0 firefox
+Apr 27 14:45:23 ubuntu kernel: [77337.785270] [  20462]  1000 20462   690830    17819  1339392     3616             0 Privileged Cont
+Apr 27 14:45:23 ubuntu kernel: [77337.785271] [  20516]  1000 20516   664578     2726  1019904     5246             0 WebExtensions
+Apr 27 14:45:23 ubuntu kernel: [77337.785272] [  20564]  1000 20564   675768     4405  1089536     2554             0 Web Content
+Apr 27 14:45:23 ubuntu kernel: [77337.785273] [  21613]  1000 21613    89787      100   585728     1711             0 Socket Process
+Apr 27 14:45:23 ubuntu kernel: [77337.785275] [  24633]  1000 24633     6320        9    98304      572             0 bash
+Apr 27 14:45:23 ubuntu kernel: [77337.785276] [  24737]  1000 24737    10973       13   126976      362             0 mysql
+Apr 27 14:45:23 ubuntu kernel: [77337.785277] [  31905]  1000 31905   208569    10290   798720      130             0 gedit
+Apr 27 14:45:23 ubuntu kernel: [77337.785278] [  31917]     0 31917    16710      158   172032        2             0 systemctl
+Apr 27 14:45:23 ubuntu kernel: [77337.785279] [  31918]     0 31918     2901       54    65536        1             0 pager
+Apr 27 14:45:23 ubuntu kernel: [77337.785281] [  32979]     0 32979     1158        0    53248       22             0 sh
+Apr 27 14:45:23 ubuntu kernel: [77337.785282] [  32980]     0 32980  1931311    19415   937984    33994             0 java
+Apr 27 14:45:23 ubuntu kernel: [77337.785284] [  36431]  1000 36431   676813     9994  1097728        0             0 Web Content
+Apr 27 14:45:23 ubuntu kernel: [77337.785285] [  36578]  1000 36578     1158       27    57344        0             0 clion.sh
+Apr 27 14:45:23 ubuntu kernel: [77337.785286] [  36621]  1000 36621  1663062   370446  4243456        0             0 java
+Apr 27 14:45:23 ubuntu kernel: [77337.785287] [  36675]  1000 36675     1264      157    49152        0             0 fsnotifier64
+Apr 27 14:45:23 ubuntu kernel: [77337.785289] [  36873]  1000 36873    58003     4985   258048        0             0 ion.clangd.main
+Apr 27 14:45:23 ubuntu kernel: [77337.785290] [  36893]  1000 36893    78288     4093   344064        0             0 ion.clangd.main
+Apr 27 14:45:23 ubuntu kernel: [77337.785291] [  37057]     0 37057  1285078    22153   704512        0             0 java
+Apr 27 14:45:23 ubuntu kernel: [77337.785292] [  37243]     0 37243  1285078    19673   659456        0             0 java
+Apr 27 14:45:23 ubuntu kernel: [77337.785293] [  37991]     0 37991  1285078    22624   679936        0             0 java
+Apr 27 14:45:23 ubuntu kernel: [77337.785294] [  39723]     0 39723  1284565    21615   692224        0             0 java
+Apr 27 14:45:23 ubuntu kernel: [77337.785295] [  40159]     0 40159  1285591    22824   696320        0             0 java
+Apr 27 14:45:23 ubuntu kernel: [77337.785296] [  40390]  1000 40390   646691     4213   843776        0             0 Web Content
+Apr 27 14:45:23 ubuntu kernel: [77337.785297] [  40515]     0 40515  1286361    20846   684032        0             0 java
+Apr 27 14:45:23 ubuntu kernel: [77337.785298] [  41417]     0 41417  1285375    22342   696320        0             0 java
+Apr 27 14:45:23 ubuntu kernel: [77337.785299] [  41755]     0 41755  1285881    19666   667648        0             0 java
+Apr 27 14:45:23 ubuntu kernel: [77337.785300] [  42233]     0 42233  1284565    21720   692224        0             0 java
+Apr 27 14:45:23 ubuntu kernel: [77337.785301] [  42660]     0 42660  1285078    21904   684032        0             0 java
+Apr 27 14:45:23 ubuntu kernel: [77337.785302] [  43058]     0 43058  1267924    21485   671744        0             0 java
+Apr 27 14:45:23 ubuntu kernel: [77337.785304] [  43434]     0 43434  1285078    22150   700416        0             0 java
+Apr 27 14:45:23 ubuntu kernel: [77337.785305] [  43624]     0 43624    65083      269   278528        0             0 gdm-session-wor
+Apr 27 14:45:23 ubuntu kernel: [77337.785306] [  43929]     0 43929  1285078    19120   667648        0             0 java
+Apr 27 14:45:23 ubuntu kernel: [77337.785307] [  44435]     0 44435  1284565    21628   679936        0             0 java
+Apr 27 14:45:23 ubuntu kernel: [77337.785308] [  44691]     0 44691  1284822    18787   651264        0             0 java
+Apr 27 14:45:23 ubuntu kernel: [77337.785309] [  45125]     0 45125  1285591    19645   655360        0             0 java
+Apr 27 14:45:23 ubuntu kernel: [77337.785310] [  45288]     0 45288  1284565    22421   692224        0             0 java
+Apr 27 14:45:23 ubuntu kernel: [77337.785311] [  45507]     0 45507     6497      319   102400        0             0 dhclient
+Apr 27 14:45:23 ubuntu kernel: [77337.785312] [  46341]     0 46341   149632     8849   614400        0             0 fwupd
+Apr 27 14:45:23 ubuntu kernel: [77337.785313] [  47566]     0 47566    25718      443   237568        0             0 cupsd
+Apr 27 14:45:23 ubuntu kernel: [77337.785315] [  47567]     0 47567    75883      358   348160        0             0 cups-browsed
+Apr 27 14:45:23 ubuntu kernel: [77337.785316] [  48144]     0 48144  1285848    22075   696320        0             0 java
+Apr 27 14:45:23 ubuntu kernel: [77337.785334] [  48332]     0 48332  1286616    24976   704512        0             0 java
+Apr 27 14:45:23 ubuntu kernel: [77337.785336] [  48485]     0 48485  1285881    20356   663552        0             0 java
+Apr 27 14:45:23 ubuntu kernel: [77337.785337] [  48593]  1000 48593     6451      698    94208        0             0 bash
+Apr 27 14:45:23 ubuntu kernel: [77337.785338] [  48772]     0 48772  1285335    21881   688128        0             0 java
+Apr 27 14:45:23 ubuntu kernel: [77337.785339] [  48920]     0 48920  1285335    21771   684032        0             0 java
+Apr 27 14:45:23 ubuntu kernel: [77337.785340] [  49061]     0 49061  1285078    21615   679936        0             0 java
+Apr 27 14:45:23 ubuntu kernel: [77337.785342] [  49312]     0 49312  1285591    22555   692224        0             0 java
+Apr 27 14:45:23 ubuntu kernel: [77337.785343] [  49490]     0 49490  1285078    22107   671744        0             0 java
+Apr 27 14:45:23 ubuntu kernel: [77337.785344] [  49629]     0 49629  1285591    23110   679936        0             0 java
+Apr 27 14:45:23 ubuntu kernel: [77337.785347] [  50168]     0 50168  1267924    18307   638976        0             0 java
+Apr 27 14:45:23 ubuntu kernel: [77337.785348] [  50197]     0 50197    22500     4562   217088        0             0 CofErrDet
+Apr 27 14:45:23 ubuntu kernel: [77337.785349] [  50230]     0 50230     1158       18    53248        0             0 sh
+Apr 27 14:45:23 ubuntu kernel: [77337.785350] [  50231]     0 50231  1914631    51703   897024        0             0 java
+Apr 27 14:45:23 ubuntu kernel: [77337.785351] oom-kill:constraint=CONSTRAINT_NONE,nodemask=(null),cpuset=/,mems_allowed=0,global_oom,task_memcg=/,task=java,pid=36621,uid=1000
+Apr 27 14:45:23 ubuntu kernel: [77337.786080] Out of memory: Killed process 36621 (java) total-vm:6652248kB, anon-rss:1481768kB, file-rss:0kB, shmem-rss:16kB, UID:1000 pgtables:4144kB oom_score_adj:0
+Apr 27 14:45:23 ubuntu kernel: [77337.967734] oom_reaper: reaped process 36621 (java), now anon-rss:0kB, file-rss:0kB, shmem-rss:16kB
+Apr 27 14:45:24 ubuntu jetbrains-clion.desktop[36578]: Killed
+Apr 27 14:45:29 ubuntu jetbrains-clion.desktop[50330]: OpenJDK 64-Bit Server VM warning: Option UseConcMarkSweepGC was deprecated in version 9.0 and will likely be removed in a future release.
+Apr 27 14:45:35 ubuntu org.gnome.Shell.desktop[1827]: Window manager warning: Window 0x4a00007 (win0) sets an MWM hint indicating it isn't resizable, but sets min size 1 x 1 and max size 2147483647 x 2147483647; this doesn't make much sense.
+Apr 27 14:46:43 ubuntu nautilus[20088]: gtk_revealer_set_reveal_child: assertion 'GTK_IS_REVEALER (revealer)' failed
+Apr 27 14:46:49 ubuntu nautilus[20088]: message repeated 3 times: [ gtk_revealer_set_reveal_child: assertion 'GTK_IS_REVEALER (revealer)' failed]
+Apr 27 14:48:41 ubuntu systemd[1]: Starting A high performance web server and a reverse proxy server...
+Apr 27 14:48:41 ubuntu systemd[1]: Started A high performance web server and a reverse proxy server.
+Apr 27 14:48:42 ubuntu systemd[1]: Stopping A high performance web server and a reverse proxy server...
+Apr 27 14:48:42 ubuntu systemd[1]: Stopped A high performance web server and a reverse proxy server.
+Apr 27 14:48:42 ubuntu systemd[1]: Starting A high performance web server and a reverse proxy server...
+Apr 27 14:48:42 ubuntu systemd[1]: Started A high performance web server and a reverse proxy server.
+Apr 27 14:49:52 ubuntu systemd[1]: Stopping A high performance web server and a reverse proxy server...
+Apr 27 14:49:52 ubuntu systemd[1]: Stopped A high performance web server and a reverse proxy server.
+Apr 27 14:49:52 ubuntu systemd[1]: Starting A high performance web server and a reverse proxy server...
+Apr 27 14:49:52 ubuntu systemd[1]: Started A high performance web server and a reverse proxy server.
+Apr 27 14:50:38 ubuntu systemd[1]: Stopping A high performance web server and a reverse proxy server...
+Apr 27 14:50:38 ubuntu systemd[1]: Stopped A high performance web server and a reverse proxy server.
+Apr 27 14:50:38 ubuntu systemd[1]: Starting A high performance web server and a reverse proxy server...
+Apr 27 14:50:38 ubuntu systemd[1]: Started A high performance web server and a reverse proxy server.
+Apr 27 14:50:55 ubuntu systemd[1]: Stopping A high performance web server and a reverse proxy server...
+Apr 27 14:50:55 ubuntu systemd[1]: Stopped A high performance web server and a reverse proxy server.
+Apr 27 14:50:55 ubuntu systemd[1]: Starting A high performance web server and a reverse proxy server...
+Apr 27 14:50:55 ubuntu nginx[50937]: nginx: [emerg] invalid log level "WARN" in /etc/nginx/nginx.conf:42
+Apr 27 14:50:55 ubuntu nginx[50937]: nginx: configuration file /etc/nginx/nginx.conf test failed
+Apr 27 14:50:55 ubuntu systemd[1]: nginx.service: Control process exited, code=exited status=1
+Apr 27 14:50:55 ubuntu systemd[1]: nginx.service: Failed with result 'exit-code'.
+Apr 27 14:50:55 ubuntu systemd[1]: Failed to start A high performance web server and a reverse proxy server.
+Apr 27 14:50:57 ubuntu systemd[1]: Starting A high performance web server and a reverse proxy server...
+Apr 27 14:50:57 ubuntu nginx[50944]: nginx: [emerg] invalid log level "WARN" in /etc/nginx/nginx.conf:42
+Apr 27 14:50:57 ubuntu nginx[50944]: nginx: configuration file /etc/nginx/nginx.conf test failed
+Apr 27 14:50:57 ubuntu systemd[1]: nginx.service: Control process exited, code=exited status=1
+Apr 27 14:50:57 ubuntu systemd[1]: nginx.service: Failed with result 'exit-code'.
+Apr 27 14:50:57 ubuntu systemd[1]: Failed to start A high performance web server and a reverse proxy server.

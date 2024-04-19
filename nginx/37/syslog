@@ -1,0 +1,18 @@
+Apr 28 16:46:25 ubuntu nautilus[20088]: gtk_revealer_set_reveal_child: assertion 'GTK_IS_REVEALER (revealer)' failed
+Apr 28 16:46:30 ubuntu nautilus[20088]: message repeated 5 times: [ gtk_revealer_set_reveal_child: assertion 'GTK_IS_REVEALER (revealer)' failed]
+Apr 28 16:47:22 ubuntu systemd[1]: Starting A high performance web server and a reverse proxy server...
+Apr 28 16:47:22 ubuntu systemd[1]: Started A high performance web server and a reverse proxy server.
+Apr 28 16:48:00 ubuntu systemd[1]: Stopping A high performance web server and a reverse proxy server...
+Apr 28 16:48:00 ubuntu systemd[1]: Stopped A high performance web server and a reverse proxy server.
+Apr 28 16:48:00 ubuntu systemd[1]: Starting A high performance web server and a reverse proxy server...
+Apr 28 16:48:00 ubuntu nginx[64752]: nginx: [emerg] invalid value "no" in "proxy" directive, it must be "on" or "off" in /etc/nginx/nginx.conf:77
+Apr 28 16:48:00 ubuntu nginx[64752]: nginx: configuration file /etc/nginx/nginx.conf test failed
+Apr 28 16:48:00 ubuntu systemd[1]: nginx.service: Control process exited, code=exited status=1
+Apr 28 16:48:00 ubuntu systemd[1]: nginx.service: Failed with result 'exit-code'.
+Apr 28 16:48:00 ubuntu systemd[1]: Failed to start A high performance web server and a reverse proxy server.
+Apr 28 16:48:01 ubuntu systemd[1]: Starting A high performance web server and a reverse proxy server...
+Apr 28 16:48:01 ubuntu nginx[64758]: nginx: [emerg] invalid value "no" in "proxy" directive, it must be "on" or "off" in /etc/nginx/nginx.conf:77
+Apr 28 16:48:01 ubuntu nginx[64758]: nginx: configuration file /etc/nginx/nginx.conf test failed
+Apr 28 16:48:01 ubuntu systemd[1]: nginx.service: Control process exited, code=exited status=1
+Apr 28 16:48:01 ubuntu systemd[1]: nginx.service: Failed with result 'exit-code'.
+Apr 28 16:48:01 ubuntu systemd[1]: Failed to start A high performance web server and a reverse proxy server.

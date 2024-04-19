@@ -1,0 +1,4 @@
+[0m[ INFO] [1621319971.769676718]: Loading nodelet /vesc/high_level/ackermann_cmd_mux of type ackermann_cmd_mux/AckermannCmdMuxNodelet to manager ackermann_cmd_mux_nodelet_manager with the following remappings:[0m
+[0m[ INFO] [1621319971.814099516]: waitForService: Service [/vesc/high_level/ackermann_cmd_mux_nodelet_manager/load_nodelet] has not been advertised, waiting...[0m
+[0m[ INFO] [1621319971.955392298]: waitForService: Service [/vesc/high_level/ackermann_cmd_mux_nodelet_manager/load_nodelet] is now available.[0m
+[0m[ INFO] [1621319997.472450894, 845.318000000]: Unloading nodelet /vesc/high_level/ackermann_cmd_mux from manager ackermann_cmd_mux_nodelet_manager[0m

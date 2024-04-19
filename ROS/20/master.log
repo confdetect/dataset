@@ -1,0 +1,1057 @@
+[rosmaster.main][INFO] 2021-05-18 16:22:18,662: initialization complete, waiting for shutdown
+[rosmaster.main][INFO] 2021-05-18 16:22:18,662: Starting ROS Master Node
+[xmlrpc][INFO] 2021-05-18 16:22:18,663: XML-RPC server binding to 0.0.0.0:11311
+[xmlrpc][INFO] 2021-05-18 16:22:18,664: Started XML-RPC server [http://ubuntu:11311/]
+[xmlrpc][INFO] 2021-05-18 16:22:18,664: xml rpc node: starting XML-RPC server
+[rosmaster.master][INFO] 2021-05-18 16:22:18,664: Master initialized: port[11311], uri[http://ubuntu:11311/]
+[rosmaster.master][INFO] 2021-05-18 16:22:18,757: +PARAM [/run_id] by /roslaunch
+[rosmaster.master][INFO] 2021-05-18 16:22:18,759: +PARAM [/roslaunch/uris/host_ubuntu__41821] by /roslaunch
+[rosmaster.master][INFO] 2021-05-18 16:22:18,836: +SERVICE [/rosout/get_loggers] /rosout http://ubuntu:37483/
+[rosmaster.master][INFO] 2021-05-18 16:22:18,839: +SERVICE [/rosout/set_logger_level] /rosout http://ubuntu:37483/
+[rosmaster.master][INFO] 2021-05-18 16:22:18,843: +PUB [/rosout_agg] /rosout http://ubuntu:37483/
+[rosmaster.master][INFO] 2021-05-18 16:22:18,846: +PARAM [/use_sim_time] by /roslaunch
+[rosmaster.master][INFO] 2021-05-18 16:22:18,846: +PARAM [/racecar/left_rear_wheel_velocity_controller/pid/i] by /roslaunch
+[rosmaster.master][INFO] 2021-05-18 16:22:18,847: +PARAM [/move_base/TebLocalPlannerROS/feasibility_check_no_poses] by /roslaunch
+[rosmaster.master][INFO] 2021-05-18 16:22:18,847: +PARAM [/move_base/local_costmap/footprint] by /roslaunch
+[rosmaster.master][INFO] 2021-05-18 16:22:18,847: +PARAM [/move_base/global_costmap/obstacle_layer/raytrace_range] by /roslaunch
+[rosmaster.master][INFO] 2021-05-18 16:22:18,848: +PARAM [/racecar/left_rear_wheel_velocity_controller/pid/d] by /roslaunch
+[rosmaster.master][INFO] 2021-05-18 16:22:18,848: +PARAM [/move_base/TebLocalPlannerROS/weight_max_vel_theta] by /roslaunch
+[rosmaster.master][INFO] 2021-05-18 16:22:18,848: +PARAM [/move_base/TebLocalPlannerROS/include_dynamic_obstacles] by /roslaunch
+[rosmaster.master][INFO] 2021-05-18 16:22:18,848: +PARAM [/move_base/TebLocalPlannerROS/delete_detours_backwards] by /roslaunch
+[rosmaster.master][INFO] 2021-05-18 16:22:18,849: +PARAM [/move_base/TebLocalPlannerROS/footprint_model/rear_radius] by /roslaunch
+[rosmaster.master][INFO] 2021-05-18 16:22:18,849: +PARAM [/racecar/left_rear_wheel_velocity_controller/pid/p] by /roslaunch
+[rosmaster.master][INFO] 2021-05-18 16:22:18,849: +PARAM [/move_base/TebLocalPlannerROS/footprint_model/front_radius] by /roslaunch
+[rosmaster.master][INFO] 2021-05-18 16:22:18,849: +PARAM [/racecar/right_front_wheel_velocity_controller/type] by /roslaunch
+[rosmaster.master][INFO] 2021-05-18 16:22:18,849: +PARAM [/move_base/TebLocalPlannerROS/global_plan_prune_distance] by /roslaunch
+[rosmaster.master][INFO] 2021-05-18 16:22:18,850: +PARAM [/racecar/left_steering_hinge_position_controller/pid/i] by /roslaunch
+[rosmaster.master][INFO] 2021-05-18 16:22:18,850: +PARAM [/move_base/TebLocalPlannerROS/footprint_model/rear_offset] by /roslaunch
+[rosmaster.master][INFO] 2021-05-18 16:22:18,851: +PARAM [/racecar/left_steering_hinge_position_controller/pid/d] by /roslaunch
+[rosmaster.master][INFO] 2021-05-18 16:22:18,851: +PARAM [/move_base/TebLocalPlannerROS/roadmap_graph_area_width] by /roslaunch
+[rosmaster.master][INFO] 2021-05-18 16:22:18,851: +PARAM [/move_base/TebLocalPlannerROS/max_ratio_detours_duration_best_duration] by /roslaunch
+[rosmaster.master][INFO] 2021-05-18 16:22:18,852: +PARAM [/move_base/local_costmap/transform_tolerance] by /roslaunch
+[rosmaster.master][INFO] 2021-05-18 16:22:18,852: +PARAM [/move_base/local_costmap/height] by /roslaunch
+[rosmaster.master][INFO] 2021-05-18 16:22:18,852: +PARAM [/move_base/TebLocalPlannerROS/shrink_horizon_min_duration] by /roslaunch
+[rosmaster.master][INFO] 2021-05-18 16:22:18,852: +PARAM [/racecar/left_front_wheel_velocity_controller/joint] by /roslaunch
+[rosmaster.master][INFO] 2021-05-18 16:22:18,853: +SUB [/rosout] /rosout http://ubuntu:37483/
+[rosmaster.master][INFO] 2021-05-18 16:22:18,852: +PARAM [/move_base/TebLocalPlannerROS/acc_lim_theta] by /roslaunch
+[rosmaster.master][INFO] 2021-05-18 16:22:18,853: +PARAM [/move_base/global_costmap/inflation_layer/inflation_radius] by /roslaunch
+[rosmaster.master][INFO] 2021-05-18 16:22:18,853: +PARAM [/move_base/TebLocalPlannerROS/max_global_plan_lookahead_dist] by /roslaunch
+[rosmaster.master][INFO] 2021-05-18 16:22:18,854: +PARAM [/racecar/left_steering_hinge_position_controller/pid/p] by /roslaunch
+[rosmaster.master][INFO] 2021-05-18 16:22:18,854: +PARAM [/move_base/planner_frequency] by /roslaunch
+[rosmaster.master][INFO] 2021-05-18 16:22:18,854: +PARAM [/move_base/TebLocalPlannerROS/weight_adapt_factor] by /roslaunch
+[rosmaster.master][INFO] 2021-05-18 16:22:18,854: +PARAM [/move_base/TebLocalPlannerROS/footprint_model/radius] by /roslaunch
+[rosmaster.master][INFO] 2021-05-18 16:22:18,854: +PARAM [/move_base/TebLocalPlannerROS/optimization_verbose] by /roslaunch
+[rosmaster.master][INFO] 2021-05-18 16:22:18,854: +PARAM [/move_base/global_costmap/footprint] by /roslaunch
+[rosmaster.master][INFO] 2021-05-18 16:22:18,854: +PARAM [/move_base/global_costmap/obstacle_layer/laser_scan_sensor/clearing] by /roslaunch
+[rosmaster.master][INFO] 2021-05-18 16:22:18,854: +PARAM [/move_base/TebLocalPlannerROS/no_outer_iterations] by /roslaunch
+[rosmaster.master][INFO] 2021-05-18 16:22:18,854: +PARAM [/move_base/TebLocalPlannerROS/global_plan_overwrite_orientation] by /roslaunch
+[rosmaster.master][INFO] 2021-05-18 16:22:18,854: +PARAM [/move_base/controller_patience] by /roslaunch
+[rosmaster.master][INFO] 2021-05-18 16:22:18,854: +PARAM [/racecar/left_steering_hinge_position_controller/joint] by /roslaunch
+[rosmaster.master][INFO] 2021-05-18 16:22:18,854: +PARAM [/move_base/TebLocalPlannerROS/dt_ref] by /roslaunch
+[rosmaster.master][INFO] 2021-05-18 16:22:18,854: +PARAM [/move_base/local_costmap/static_map] by /roslaunch
+[rosmaster.master][INFO] 2021-05-18 16:22:18,854: +PARAM [/move_base/local_costmap/resolution] by /roslaunch
+[rosmaster.master][INFO] 2021-05-18 16:22:18,854: +PARAM [/move_base/global_costmap/plugins] by /roslaunch
+[rosmaster.master][INFO] 2021-05-18 16:22:18,855: +PARAM [/move_base/TebLocalPlannerROS/weight_dynamic_obstacle] by /roslaunch
+[rosmaster.master][INFO] 2021-05-18 16:22:18,855: +PARAM [/move_base/global_costmap/publish_frequency] by /roslaunch
+[rosmaster.master][INFO] 2021-05-18 16:22:18,855: +PARAM [/racecar/right_rear_wheel_velocity_controller/type] by /roslaunch
+[rosmaster.master][INFO] 2021-05-18 16:22:18,855: +PARAM [/move_base/TebLocalPlannerROS/weight_inflation] by /roslaunch
+[rosmaster.master][INFO] 2021-05-18 16:22:18,855: +PARAM [/move_base/TebLocalPlannerROS/weight_viapoint] by /roslaunch
+[rosmaster.master][INFO] 2021-05-18 16:22:18,855: +PARAM [/move_base/local_costmap/width] by /roslaunch
+[rosmaster.master][INFO] 2021-05-18 16:22:18,855: +PARAM [/move_base/TebLocalPlannerROS/h_signature_prescaler] by /roslaunch
+[rosmaster.master][INFO] 2021-05-18 16:22:18,855: +PARAM [/move_base/local_costmap/obstacle_layer/raytrace_range] by /roslaunch
+[rosmaster.master][INFO] 2021-05-18 16:22:18,855: +PARAM [/move_base/TebLocalPlannerROS/max_samples] by /roslaunch
+[rosmaster.master][INFO] 2021-05-18 16:22:18,855: +PARAM [/move_base/TebLocalPlannerROS/dt_hysteresis] by /roslaunch
+[rosmaster.master][INFO] 2021-05-18 16:22:18,856: +PARAM [/move_base/controller_frequency] by /roslaunch
+[rosmaster.master][INFO] 2021-05-18 16:22:18,856: +PARAM [/move_base/TebLocalPlannerROS/footprint_model/line_end] by /roslaunch
+[rosmaster.master][INFO] 2021-05-18 16:22:18,856: +PARAM [/move_base/TebLocalPlannerROS/weight_kinematics_nh] by /roslaunch
+[rosmaster.master][INFO] 2021-05-18 16:22:18,856: +PARAM [/move_base/global_costmap/obstacle_layer/enabled] by /roslaunch
+[rosmaster.master][INFO] 2021-05-18 16:22:18,856: +PARAM [/move_base/TebLocalPlannerROS/exact_arc_length] by /roslaunch
+[rosmaster.master][INFO] 2021-05-18 16:22:18,856: +PARAM [/move_base/TebLocalPlannerROS/weight_acc_lim_theta] by /roslaunch
+[rosmaster.master][INFO] 2021-05-18 16:22:18,856: +PARAM [/move_base/TebLocalPlannerROS/viapoints_all_candidates] by /roslaunch
+[rosmaster.master][INFO] 2021-05-18 16:22:18,856: +PARAM [/move_base/TebLocalPlannerROS/selection_cost_hysteresis] by /roslaunch
+[rosmaster.master][INFO] 2021-05-18 16:22:18,856: +PARAM [/racecar/right_steering_hinge_position_controller/pid/p] by /roslaunch
+[rosmaster.master][INFO] 2021-05-18 16:22:18,856: +PARAM [/move_base/TebLocalPlannerROS/oscillation_omega_eps] by /roslaunch
+[rosmaster.master][INFO] 2021-05-18 16:22:18,856: +PARAM [/move_base/TebLocalPlannerROS/costmap_converter_rate] by /roslaunch
+[rosmaster.master][INFO] 2021-05-18 16:22:18,856: +PARAM [/racecar/right_steering_hinge_position_controller/pid/i] by /roslaunch
+[rosmaster.master][INFO] 2021-05-18 16:22:18,856: +PARAM [/move_base/TebLocalPlannerROS/min_turning_radius] by /roslaunch
+[rosmaster.master][INFO] 2021-05-18 16:22:18,856: +PARAM [/racecar/right_steering_hinge_position_controller/pid/d] by /roslaunch
+[rosmaster.master][INFO] 2021-05-18 16:22:18,856: +PARAM [/move_base/TebLocalPlannerROS/max_number_classes] by /roslaunch
+[rosmaster.master][INFO] 2021-05-18 16:22:18,857: +PARAM [/move_base/clearing_rotation_allowed] by /roslaunch
+[rosmaster.master][INFO] 2021-05-18 16:22:18,857: +PARAM [/move_base/TebLocalPlannerROS/complete_global_plan] by /roslaunch
+[rosmaster.master][INFO] 2021-05-18 16:22:18,857: +PARAM [/move_base/TebLocalPlannerROS/max_vel_theta] by /roslaunch
+[rosmaster.master][INFO] 2021-05-18 16:22:18,857: +PARAM [/racecar/right_steering_hinge_position_controller/joint] by /roslaunch
+[rosmaster.master][INFO] 2021-05-18 16:22:18,857: +PARAM [/move_base/base_global_planner] by /roslaunch
+[rosmaster.master][INFO] 2021-05-18 16:22:18,857: +PARAM [/move_base/global_costmap/inflation_layer/enabled] by /roslaunch
+[rosmaster.master][INFO] 2021-05-18 16:22:18,857: +PARAM [/move_base/TebLocalPlannerROS/inflation_dist] by /roslaunch
+[rosmaster.master][INFO] 2021-05-18 16:22:18,857: +PARAM [/move_base/TebLocalPlannerROS/optimization_activate] by /roslaunch
+[rosmaster.master][INFO] 2021-05-18 16:22:18,857: +PARAM [/move_base/global_costmap/static_layer/map_topic] by /roslaunch
+[rosmaster.master][INFO] 2021-05-18 16:22:18,857: +PARAM [/move_base/TebLocalPlannerROS/shrink_horizon_backup] by /roslaunch
+[rosmaster.master][INFO] 2021-05-18 16:22:18,857: +PARAM [/move_base/TebLocalPlannerROS/switching_blocking_period] by /roslaunch
+[rosmaster.master][INFO] 2021-05-18 16:22:18,857: +PARAM [/move_base/TebLocalPlannerROS/acc_lim_x] by /roslaunch
+[rosmaster.master][INFO] 2021-05-18 16:22:18,857: +PARAM [/move_base/TebLocalPlannerROS/oscillation_recovery] by /roslaunch
+[rosmaster.master][INFO] 2021-05-18 16:22:18,857: +PARAM [/rosdistro] by /roslaunch
+[rosmaster.master][INFO] 2021-05-18 16:22:18,857: +PARAM [/move_base/TebLocalPlannerROS/yaw_goal_tolerance] by /roslaunch
+[rosmaster.master][INFO] 2021-05-18 16:22:18,858: +PARAM [/move_base/local_costmap/obstacle_layer/laser_scan_sensor/clearing] by /roslaunch
+[rosmaster.master][INFO] 2021-05-18 16:22:18,858: +PARAM [/move_base/TebLocalPlannerROS/max_vel_x] by /roslaunch
+[rosmaster.master][INFO] 2021-05-18 16:22:18,858: +PARAM [/move_base/TebLocalPlannerROS/max_vel_y] by /roslaunch
+[rosmaster.master][INFO] 2021-05-18 16:22:18,858: +PARAM [/move_base/local_costmap/rolling_window] by /roslaunch
+[rosmaster.master][INFO] 2021-05-18 16:22:18,858: +PARAM [/move_base/local_costmap/obstacle_layer/track_unknown_space] by /roslaunch
+[rosmaster.master][INFO] 2021-05-18 16:22:18,858: +PARAM [/move_base/TebLocalPlannerROS/odom_topic] by /roslaunch
+[rosmaster.master][INFO] 2021-05-18 16:22:18,858: +PARAM [/move_base/TebLocalPlannerROS/enable_multithreading] by /roslaunch
+[rosmaster.master][INFO] 2021-05-18 16:22:18,858: +PARAM [/move_base/TebLocalPlannerROS/footprint_model/line_start] by /roslaunch
+[rosmaster.master][INFO] 2021-05-18 16:22:18,858: +PARAM [/move_base/local_costmap/obstacle_layer/laser_scan_sensor/data_type] by /roslaunch
+[rosmaster.master][INFO] 2021-05-18 16:22:18,858: +PARAM [/move_base/TebLocalPlannerROS/include_costmap_obstacles] by /roslaunch
+[rosmaster.master][INFO] 2021-05-18 16:22:18,858: +PARAM [/move_base/global_costmap/obstacle_layer/laser_scan_sensor/data_type] by /roslaunch
+[rosmaster.master][INFO] 2021-05-18 16:22:18,858: +PARAM [/racecar/left_front_wheel_velocity_controller/pid/p] by /roslaunch
+[rosmaster.master][INFO] 2021-05-18 16:22:18,858: +PARAM [/move_base/local_costmap/obstacle_layer/enabled] by /roslaunch
+[rosmaster.master][INFO] 2021-05-18 16:22:18,858: +PARAM [/move_base/TebLocalPlannerROS/no_inner_iterations] by /roslaunch
+[rosmaster.master][INFO] 2021-05-18 16:22:18,858: +PARAM [/move_base/TebLocalPlannerROS/costmap_converter_spin_thread] by /roslaunch
+[rosmaster.master][INFO] 2021-05-18 16:22:18,859: +PARAM [/racecar/left_front_wheel_velocity_controller/pid/d] by /roslaunch
+[rosmaster.master][INFO] 2021-05-18 16:22:18,859: +PARAM [/racecar/right_rear_wheel_velocity_controller/pid/i_clamp] by /roslaunch
+[rosmaster.master][INFO] 2021-05-18 16:22:18,859: +PARAM [/racecar/left_rear_wheel_velocity_controller/joint] by /roslaunch
+[rosmaster.master][INFO] 2021-05-18 16:22:18,859: +PARAM [/keyboard_teleop/max_steering_angle] by /roslaunch
+[rosmaster.master][INFO] 2021-05-18 16:22:18,859: +PARAM [/move_base/TebLocalPlannerROS/selection_prefer_initial_plan] by /roslaunch
+[rosmaster.master][INFO] 2021-05-18 16:22:18,859: +PARAM [/move_base/global_costmap/static_map] by /roslaunch
+[rosmaster.master][INFO] 2021-05-18 16:22:18,859: +PARAM [/move_base/local_costmap/obstacle_layer/combination_method] by /roslaunch
+[rosmaster.master][INFO] 2021-05-18 16:22:18,859: +PARAM [/move_base/TebLocalPlannerROS/costmap_obstacles_behind_robot_dist] by /roslaunch
+[rosmaster.master][INFO] 2021-05-18 16:22:18,859: +PARAM [/move_base/TebLocalPlannerROS/global_plan_viapoint_sep] by /roslaunch
+[rosmaster.master][INFO] 2021-05-18 16:22:18,859: +PARAM [/move_base/TebLocalPlannerROS/publish_feedback] by /roslaunch
+[rosmaster.master][INFO] 2021-05-18 16:22:18,859: +PARAM [/move_base/TebLocalPlannerROS/obstacle_heading_threshold] by /roslaunch
+[rosmaster.master][INFO] 2021-05-18 16:22:18,859: +PARAM [/move_base/TebLocalPlannerROS/weight_kinematics_turning_radius] by /roslaunch
+[rosmaster.master][INFO] 2021-05-18 16:22:18,860: +PARAM [/move_base/TebLocalPlannerROS/xy_goal_tolerance] by /roslaunch
+[rosmaster.master][INFO] 2021-05-18 16:22:18,860: +PARAM [/move_base/global_costmap/robot_base_frame] by /roslaunch
+[rosmaster.master][INFO] 2021-05-18 16:22:18,860: +PARAM [/move_base/local_costmap/obstacle_layer/laser_scan_sensor/marking] by /roslaunch
+[rosmaster.master][INFO] 2021-05-18 16:22:18,860: +PARAM [/move_base/global_costmap/inflation_layer/cost_scaling_factor] by /roslaunch
+[rosmaster.master][INFO] 2021-05-18 16:22:18,860: +PARAM [/move_base/TebLocalPlannerROS/h_signature_threshold] by /roslaunch
+[rosmaster.master][INFO] 2021-05-18 16:22:18,860: +PARAM [/move_base/TebLocalPlannerROS/max_vel_x_backwards] by /roslaunch
+[rosmaster.master][INFO] 2021-05-18 16:22:18,860: +PARAM [/racecar/right_front_wheel_velocity_controller/pid/p] by /roslaunch
+[rosmaster.master][INFO] 2021-05-18 16:22:18,860: +PARAM [/move_base/TebLocalPlannerROS/enable_homotopy_class_planning] by /roslaunch
+[rosmaster.master][INFO] 2021-05-18 16:22:18,860: +PARAM [/move_base/local_costmap/static_layer/map_topic] by /roslaunch
+[rosmaster.master][INFO] 2021-05-18 16:22:18,860: +PARAM [/move_base/global_costmap/obstacle_layer/track_unknown_space] by /roslaunch
+[rosmaster.master][INFO] 2021-05-18 16:22:18,861: +PARAM [/move_base/local_costmap/update_frequency] by /roslaunch
+[rosmaster.master][INFO] 2021-05-18 16:22:18,861: +PARAM [/racecar/right_rear_wheel_velocity_controller/joint] by /roslaunch
+[rosmaster.master][INFO] 2021-05-18 16:22:18,861: +PARAM [/racecar/right_front_wheel_velocity_controller/pid/d] by /roslaunch
+[rosmaster.master][INFO] 2021-05-18 16:22:18,861: +PARAM [/racecar/joint_state_controller/type] by /roslaunch
+[rosmaster.master][INFO] 2021-05-18 16:22:18,861: +PARAM [/move_base/local_costmap/publish_frequency] by /roslaunch
+[rosmaster.master][INFO] 2021-05-18 16:22:18,861: +PARAM [/racecar/right_front_wheel_velocity_controller/pid/i] by /roslaunch
+[rosmaster.master][INFO] 2021-05-18 16:22:18,861: +PARAM [/move_base/TebLocalPlannerROS/roadmap_graph_area_length_scale] by /roslaunch
+[rosmaster.master][INFO] 2021-05-18 16:22:18,861: +PARAM [/robot_description] by /roslaunch
+[rosmaster.master][INFO] 2021-05-18 16:22:18,861: +PARAM [/racecar/joint_state_controller/publish_rate] by /roslaunch
+[rosmaster.master][INFO] 2021-05-18 16:22:18,861: +PARAM [/move_base/TebLocalPlannerROS/dynamic_obstacle_inflation_dist] by /roslaunch
+[rosmaster.master][INFO] 2021-05-18 16:22:18,861: +PARAM [/move_base/TebLocalPlannerROS/teb_autosize] by /roslaunch
+[rosmaster.master][INFO] 2021-05-18 16:22:18,861: +PARAM [/move_base/local_costmap/plugins] by /roslaunch
+[rosmaster.master][INFO] 2021-05-18 16:22:18,861: +PARAM [/move_base/global_costmap/update_frequency] by /roslaunch
+[rosmaster.master][INFO] 2021-05-18 16:22:18,861: +PARAM [/racecar/left_steering_hinge_position_controller/type] by /roslaunch
+[rosmaster.master][INFO] 2021-05-18 16:22:18,862: +PARAM [/move_base/TebLocalPlannerROS/oscillation_recovery_min_duration] by /roslaunch
+[rosmaster.master][INFO] 2021-05-18 16:22:18,862: +PARAM [/move_base/local_costmap/map_type] by /roslaunch
+[rosmaster.master][INFO] 2021-05-18 16:22:18,862: +PARAM [/move_base/TebLocalPlannerROS/roadmap_graph_no_samples] by /roslaunch
+[rosmaster.master][INFO] 2021-05-18 16:22:18,862: +PARAM [/racecar/left_front_wheel_velocity_controller/type] by /roslaunch
+[rosmaster.master][INFO] 2021-05-18 16:22:18,862: +PARAM [/move_base/TebLocalPlannerROS/weight_kinematics_forward_drive] by /roslaunch
+[rosmaster.master][INFO] 2021-05-18 16:22:18,862: +PARAM [/move_base/TebLocalPlannerROS/visualize_hc_graph] by /roslaunch
+[rosmaster.master][INFO] 2021-05-18 16:22:18,862: +PARAM [/move_base/TebLocalPlannerROS/cmd_angle_instead_rotvel] by /roslaunch
+[rosmaster.master][INFO] 2021-05-18 16:22:18,862: +PARAM [/move_base/TebLocalPlannerROS/obstacle_cost_exponent] by /roslaunch
+[rosmaster.master][INFO] 2021-05-18 16:22:18,862: +PARAM [/move_base/TebLocalPlannerROS/weight_acc_lim_x] by /roslaunch
+[rosmaster.master][INFO] 2021-05-18 16:22:18,862: +PARAM [/move_base/local_costmap/inflation_layer/inflation_radius] by /roslaunch
+[rosmaster.master][INFO] 2021-05-18 16:22:18,862: +PARAM [/move_base/TebLocalPlannerROS/weight_dynamic_obstacle_inflation] by /roslaunch
+[rosmaster.master][INFO] 2021-05-18 16:22:18,862: +PARAM [/move_base/global_costmap/static_layer/enabled] by /roslaunch
+[rosmaster.master][INFO] 2021-05-18 16:22:18,862: +PARAM [/vesc/low_level/ackermann_cmd_mux/yaml_cfg_file] by /roslaunch
+[rosmaster.master][INFO] 2021-05-18 16:22:18,862: +PARAM [/move_base/TebLocalPlannerROS/penalty_epsilon] by /roslaunch
+[rosmaster.master][INFO] 2021-05-18 16:22:18,862: +PARAM [/move_base/TebLocalPlannerROS/weight_shortest_path] by /roslaunch
+[rosmaster.master][INFO] 2021-05-18 16:22:18,862: +PARAM [/move_base/local_costmap/inflation_layer/enabled] by /roslaunch
+[rosmaster.master][INFO] 2021-05-18 16:22:18,862: +PARAM [/gazebo/enable_ros_network] by /roslaunch
+[rosmaster.master][INFO] 2021-05-18 16:22:18,863: +PARAM [/move_base/local_costmap/robot_base_frame] by /roslaunch
+[rosmaster.master][INFO] 2021-05-18 16:22:18,863: +PARAM [/racecar/left_rear_wheel_velocity_controller/pid/i_clamp] by /roslaunch
+[rosmaster.master][INFO] 2021-05-18 16:22:18,863: +PARAM [/move_base/TebLocalPlannerROS/oscillation_v_eps] by /roslaunch
+[rosmaster.master][INFO] 2021-05-18 16:22:18,863: +PARAM [/move_base/local_costmap/obstacle_layer/observation_sources] by /roslaunch
+[rosmaster.master][INFO] 2021-05-18 16:22:18,863: +PARAM [/move_base/TebLocalPlannerROS/weight_optimaltime] by /roslaunch
+[rosmaster.master][INFO] 2021-05-18 16:22:18,863: +PARAM [/move_base/TebLocalPlannerROS/footprint_model/type] by /roslaunch
+[rosmaster.master][INFO] 2021-05-18 16:22:18,863: +PARAM [/keyboard_teleop/speed] by /roslaunch
+[rosmaster.master][INFO] 2021-05-18 16:22:18,863: +PARAM [/move_base/TebLocalPlannerROS/weight_obstacle] by /roslaunch
+[rosmaster.master][INFO] 2021-05-18 16:22:18,863: +PARAM [/racecar/right_front_wheel_velocity_controller/joint] by /roslaunch
+[rosmaster.master][INFO] 2021-05-18 16:22:18,863: +PARAM [/move_base/global_costmap/transform_tolerance] by /roslaunch
+[rosmaster.master][INFO] 2021-05-18 16:22:18,863: +PARAM [/move_base/global_costmap/obstacle_layer/laser_scan_sensor/marking] by /roslaunch
+[rosmaster.master][INFO] 2021-05-18 16:22:18,863: +PARAM [/racecar/right_front_wheel_velocity_controller/pid/i_clamp] by /roslaunch
+[rosmaster.master][INFO] 2021-05-18 16:22:18,863: +PARAM [/vesc/high_level/ackermann_cmd_mux/yaml_cfg_file] by /roslaunch
+[rosmaster.master][INFO] 2021-05-18 16:22:18,863: +PARAM [/move_base/planner_patience] by /roslaunch
+[rosmaster.master][INFO] 2021-05-18 16:22:18,863: +PARAM [/move_base/global_costmap/obstacle_layer/inflation_radius] by /roslaunch
+[rosmaster.master][INFO] 2021-05-18 16:22:18,864: +PARAM [/move_base/global_costmap/obstacle_layer/obstacle_range] by /roslaunch
+[rosmaster.master][INFO] 2021-05-18 16:22:18,864: +PARAM [/move_base/TebLocalPlannerROS/wheelbase] by /roslaunch
+[rosmaster.master][INFO] 2021-05-18 16:22:18,864: +PARAM [/move_base/local_costmap/static_layer/enabled] by /roslaunch
+[rosmaster.master][INFO] 2021-05-18 16:22:18,864: +PARAM [/move_base/local_costmap/obstacle_layer/obstacle_range] by /roslaunch
+[rosmaster.master][INFO] 2021-05-18 16:22:18,864: +PARAM [/move_base/global_costmap/map_type] by /roslaunch
+[rosmaster.master][INFO] 2021-05-18 16:22:18,864: +PARAM [/move_base/TebLocalPlannerROS/oscillation_filter_duration] by /roslaunch
+[rosmaster.master][INFO] 2021-05-18 16:22:18,864: +PARAM [/move_base/TebLocalPlannerROS/free_goal_vel] by /roslaunch
+[rosmaster.master][INFO] 2021-05-18 16:22:18,864: +PARAM [/move_base/TebLocalPlannerROS/weight_max_vel_x] by /roslaunch
+[rosmaster.master][INFO] 2021-05-18 16:22:18,864: +PARAM [/racecar/right_steering_hinge_position_controller/type] by /roslaunch
+[rosmaster.master][INFO] 2021-05-18 16:22:18,864: +PARAM [/rosversion] by /roslaunch
+[rosmaster.master][INFO] 2021-05-18 16:22:18,864: +PARAM [/move_base/local_costmap/global_frame] by /roslaunch
+[rosmaster.master][INFO] 2021-05-18 16:22:18,864: +PARAM [/move_base/global_costmap/global_frame] by /roslaunch
+[rosmaster.master][INFO] 2021-05-18 16:22:18,865: +PARAM [/move_base/TebLocalPlannerROS/costmap_converter_plugin] by /roslaunch
+[rosmaster.master][INFO] 2021-05-18 16:22:18,865: +PARAM [/move_base/local_costmap/obstacle_layer/inflation_radius] by /roslaunch
+[rosmaster.master][INFO] 2021-05-18 16:22:18,865: +PARAM [/move_base/TebLocalPlannerROS/footprint_model/vertices] by /roslaunch
+[rosmaster.master][INFO] 2021-05-18 16:22:18,865: +PARAM [/move_base/TebLocalPlannerROS/allow_init_with_backwards_motion] by /roslaunch
+[rosmaster.master][INFO] 2021-05-18 16:22:18,865: +PARAM [/move_base/TebLocalPlannerROS/visualize_with_time_as_z_axis_scale] by /roslaunch
+[rosmaster.master][INFO] 2021-05-18 16:22:18,865: +PARAM [/move_base/TebLocalPlannerROS/min_obstacle_dist] by /roslaunch
+[rosmaster.master][INFO] 2021-05-18 16:22:18,865: +PARAM [/racecar/right_rear_wheel_velocity_controller/pid/p] by /roslaunch
+[rosmaster.master][INFO] 2021-05-18 16:22:18,865: +PARAM [/move_base/base_local_planner] by /roslaunch
+[rosmaster.master][INFO] 2021-05-18 16:22:18,865: +PARAM [/move_base/TebLocalPlannerROS/selection_obst_cost_scale] by /roslaunch
+[rosmaster.master][INFO] 2021-05-18 16:22:18,865: +PARAM [/move_base/TebLocalPlannerROS/obstacle_poses_affected] by /roslaunch
+[rosmaster.master][INFO] 2021-05-18 16:22:18,866: +PARAM [/move_base/global_costmap/obstacle_layer/combination_method] by /roslaunch
+[rosmaster.master][INFO] 2021-05-18 16:22:18,866: +PARAM [/move_base/local_costmap/obstacle_layer/laser_scan_sensor/topic] by /roslaunch
+[rosmaster.master][INFO] 2021-05-18 16:22:18,866: +PARAM [/move_base/local_costmap/inflation_layer/cost_scaling_factor] by /roslaunch
+[rosmaster.master][INFO] 2021-05-18 16:22:18,866: +PARAM [/racecar/right_rear_wheel_velocity_controller/pid/d] by /roslaunch
+[rosmaster.master][INFO] 2021-05-18 16:22:18,866: +PARAM [/racecar/left_front_wheel_velocity_controller/pid/i_clamp] by /roslaunch
+[rosmaster.master][INFO] 2021-05-18 16:22:18,866: +PARAM [/racecar/left_front_wheel_velocity_controller/pid/i] by /roslaunch
+[rosmaster.master][INFO] 2021-05-18 16:22:18,866: +PARAM [/move_base/TebLocalPlannerROS/selection_alternative_time_cost] by /roslaunch
+[rosmaster.master][INFO] 2021-05-18 16:22:18,866: +PARAM [/racecar/left_rear_wheel_velocity_controller/type] by /roslaunch
+[rosmaster.master][INFO] 2021-05-18 16:22:18,866: +PARAM [/move_base/TebLocalPlannerROS/footprint_model/front_offset] by /roslaunch
+[rosmaster.master][INFO] 2021-05-18 16:22:18,866: +PARAM [/move_base/global_costmap/obstacle_layer/observation_sources] by /roslaunch
+[rosmaster.master][INFO] 2021-05-18 16:22:18,866: +PARAM [/move_base/global_costmap/obstacle_layer/laser_scan_sensor/topic] by /roslaunch
+[rosmaster.master][INFO] 2021-05-18 16:22:18,866: +PARAM [/racecar/right_rear_wheel_velocity_controller/pid/i] by /roslaunch
+[rosmaster.master][INFO] 2021-05-18 16:22:18,980: +PUB [/rosout] /robot_state_publisher http://ubuntu:46769/
+[rosmaster.master][INFO] 2021-05-18 16:22:18,984: +SERVICE [/robot_state_publisher/get_loggers] /robot_state_publisher http://ubuntu:46769/
+[rosmaster.master][INFO] 2021-05-18 16:22:18,992: +SERVICE [/robot_state_publisher/set_logger_level] /robot_state_publisher http://ubuntu:46769/
+[rosmaster.master][INFO] 2021-05-18 16:22:19,021: +SUB [/clock] /robot_state_publisher http://ubuntu:46769/
+[rosmaster.master][INFO] 2021-05-18 16:22:19,034: +PUB [/tf] /robot_state_publisher http://ubuntu:46769/
+[rosmaster.master][INFO] 2021-05-18 16:22:19,034: +PUB [/rosout] /vesc/mux_chainer http://ubuntu:42433/
+[rosmaster.master][INFO] 2021-05-18 16:22:19,035: +PUB [/tf_static] /robot_state_publisher http://ubuntu:46769/
+[rosmaster.master][INFO] 2021-05-18 16:22:19,036: +SERVICE [/vesc/mux_chainer/get_loggers] /vesc/mux_chainer http://ubuntu:42433/
+[rosmaster.master][INFO] 2021-05-18 16:22:19,040: +SERVICE [/vesc/mux_chainer/set_logger_level] /vesc/mux_chainer http://ubuntu:42433/
+[rosmaster.master][INFO] 2021-05-18 16:22:19,043: +SUB [/clock] /vesc/mux_chainer http://ubuntu:42433/
+[rosmaster.master][INFO] 2021-05-18 16:22:19,046: +SUB [/racecar/joint_states] /robot_state_publisher http://ubuntu:46769/
+[rosmaster.master][INFO] 2021-05-18 16:22:19,057: +SUB [/vesc/high_level/ackermann_cmd_mux/output] /vesc/mux_chainer http://ubuntu:42433/
+[rosmaster.master][INFO] 2021-05-18 16:22:19,066: publisherUpdate[/rosout] -> http://ubuntu:37483/ ['http://ubuntu:46769/']
+[rosmaster.master][INFO] 2021-05-18 16:22:19,071: publisherUpdate[/rosout] -> http://ubuntu:37483/ ['http://ubuntu:46769/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-05-18 16:22:19,071: publisherUpdate[/rosout] -> http://ubuntu:37483/ ['http://ubuntu:46769/', 'http://ubuntu:42433/']
+[rosmaster.master][INFO] 2021-05-18 16:22:19,076: +PUB [/rosout] /vesc/mux_topic_backward_compat_safety http://ubuntu:40597/
+[rosmaster.master][INFO] 2021-05-18 16:22:19,080: +SERVICE [/vesc/mux_topic_backward_compat_safety/get_loggers] /vesc/mux_topic_backward_compat_safety http://ubuntu:40597/
+[rosmaster.master][INFO] 2021-05-18 16:22:19,082: publisherUpdate[/rosout] -> http://ubuntu:37483/ ['http://ubuntu:46769/', 'http://ubuntu:42433/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-05-18 16:22:19,082: publisherUpdate[/rosout] -> http://ubuntu:37483/ ['http://ubuntu:46769/', 'http://ubuntu:42433/', 'http://ubuntu:40597/']
+[rosmaster.master][INFO] 2021-05-18 16:22:19,083: publisherUpdate[/rosout] -> http://ubuntu:37483/ ['http://ubuntu:46769/', 'http://ubuntu:42433/', 'http://ubuntu:40597/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-05-18 16:22:19,084: +SERVICE [/vesc/mux_topic_backward_compat_safety/set_logger_level] /vesc/mux_topic_backward_compat_safety http://ubuntu:40597/
+[rosmaster.master][INFO] 2021-05-18 16:22:19,093: +PUB [/rosout] /vesc/mux_topic_backward_compat_teleop http://ubuntu:46367/
+[rosmaster.master][INFO] 2021-05-18 16:22:19,106: +SERVICE [/vesc/mux_topic_backward_compat_teleop/get_loggers] /vesc/mux_topic_backward_compat_teleop http://ubuntu:46367/
+[rosmaster.master][INFO] 2021-05-18 16:22:19,108: +SERVICE [/vesc/mux_topic_backward_compat_teleop/set_logger_level] /vesc/mux_topic_backward_compat_teleop http://ubuntu:46367/
+[rosmaster.master][INFO] 2021-05-18 16:22:19,119: +PUB [/rosout] /vesc/mux_topic_backward_compat_navigation http://ubuntu:34411/
+[rosmaster.master][INFO] 2021-05-18 16:22:19,123: +SUB [/clock] /vesc/mux_topic_backward_compat_safety http://ubuntu:40597/
+[rosmaster.master][INFO] 2021-05-18 16:22:19,126: +SERVICE [/vesc/mux_topic_backward_compat_navigation/get_loggers] /vesc/mux_topic_backward_compat_navigation http://ubuntu:34411/
+[rosmaster.master][INFO] 2021-05-18 16:22:19,132: +SERVICE [/vesc/mux_topic_backward_compat_navigation/set_logger_level] /vesc/mux_topic_backward_compat_navigation http://ubuntu:34411/
+[rosmaster.master][INFO] 2021-05-18 16:22:19,143: +SUB [/clock] /vesc/mux_topic_backward_compat_teleop http://ubuntu:46367/
+[rosmaster.master][INFO] 2021-05-18 16:22:19,165: +SUB [/vesc/ackermann_cmd_mux/input/safety] /vesc/mux_topic_backward_compat_safety http://ubuntu:40597/
+[rosmaster.master][INFO] 2021-05-18 16:22:19,166: +SUB [/clock] /vesc/mux_topic_backward_compat_navigation http://ubuntu:34411/
+[rosmaster.master][INFO] 2021-05-18 16:22:19,176: publisherUpdate[/rosout] -> http://ubuntu:37483/ ['http://ubuntu:46769/', 'http://ubuntu:42433/', 'http://ubuntu:40597/', 'http://ubuntu:46367/']
+[rosmaster.master][INFO] 2021-05-18 16:22:19,184: publisherUpdate[/rosout] -> http://ubuntu:37483/ ['http://ubuntu:46769/', 'http://ubuntu:42433/', 'http://ubuntu:40597/', 'http://ubuntu:46367/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-05-18 16:22:19,184: publisherUpdate[/rosout] -> http://ubuntu:37483/ ['http://ubuntu:46769/', 'http://ubuntu:42433/', 'http://ubuntu:40597/', 'http://ubuntu:46367/', 'http://ubuntu:34411/']
+[rosmaster.master][INFO] 2021-05-18 16:22:19,185: publisherUpdate[/rosout] -> http://ubuntu:37483/ ['http://ubuntu:46769/', 'http://ubuntu:42433/', 'http://ubuntu:40597/', 'http://ubuntu:46367/', 'http://ubuntu:34411/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-05-18 16:22:19,186: +SUB [/vesc/ackermann_cmd_mux/input/teleop] /vesc/mux_topic_backward_compat_teleop http://ubuntu:46367/
+[rosmaster.master][INFO] 2021-05-18 16:22:19,208: +SUB [/vesc/ackermann_cmd_mux/input/navigation] /vesc/mux_topic_backward_compat_navigation http://ubuntu:34411/
+[rosmaster.master][INFO] 2021-05-18 16:22:19,223: +PUB [/rosout] /vesc/high_level/ackermann_cmd_mux http://ubuntu:44937/
+[rosmaster.master][INFO] 2021-05-18 16:22:19,228: +SERVICE [/vesc/high_level/ackermann_cmd_mux/get_loggers] /vesc/high_level/ackermann_cmd_mux http://ubuntu:44937/
+[rosmaster.master][INFO] 2021-05-18 16:22:19,232: +SERVICE [/vesc/high_level/ackermann_cmd_mux/set_logger_level] /vesc/high_level/ackermann_cmd_mux http://ubuntu:44937/
+[rosmaster.master][INFO] 2021-05-18 16:22:19,283: +PUB [/rosout] /vesc/high_level/ackermann_cmd_mux_nodelet_manager http://ubuntu:43199/
+[rosmaster.master][INFO] 2021-05-18 16:22:19,286: publisherUpdate[/rosout] -> http://ubuntu:37483/ ['http://ubuntu:46769/', 'http://ubuntu:42433/', 'http://ubuntu:40597/', 'http://ubuntu:46367/', 'http://ubuntu:34411/', 'http://ubuntu:44937/']
+[rosmaster.master][INFO] 2021-05-18 16:22:19,287: +PUB [/rosout] /better_odom http://ubuntu:33705/
+[rosmaster.master][INFO] 2021-05-18 16:22:19,295: +PUB [/rosout] /vesc/low_level/ackermann_cmd_mux http://ubuntu:33301/
+[rosmaster.master][INFO] 2021-05-18 16:22:19,296: +SERVICE [/better_odom/get_loggers] /better_odom http://ubuntu:33705/
+[rosmaster.master][INFO] 2021-05-18 16:22:19,296: +SERVICE [/better_odom/set_logger_level] /better_odom http://ubuntu:33705/
+[rosmaster.master][INFO] 2021-05-18 16:22:19,302: +SERVICE [/vesc/low_level/ackermann_cmd_mux/get_loggers] /vesc/low_level/ackermann_cmd_mux http://ubuntu:33301/
+[rosmaster.master][INFO] 2021-05-18 16:22:19,302: +SERVICE [/vesc/low_level/ackermann_cmd_mux/set_logger_level] /vesc/low_level/ackermann_cmd_mux http://ubuntu:33301/
+[rosmaster.master][INFO] 2021-05-18 16:22:19,304: publisherUpdate[/rosout] -> http://ubuntu:37483/ ['http://ubuntu:46769/', 'http://ubuntu:42433/', 'http://ubuntu:40597/', 'http://ubuntu:46367/', 'http://ubuntu:34411/', 'http://ubuntu:44937/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-05-18 16:22:19,304: publisherUpdate[/rosout] -> http://ubuntu:37483/ ['http://ubuntu:46769/', 'http://ubuntu:42433/', 'http://ubuntu:40597/', 'http://ubuntu:46367/', 'http://ubuntu:34411/', 'http://ubuntu:44937/', 'http://ubuntu:43199/']
+[rosmaster.master][INFO] 2021-05-18 16:22:19,306: +SERVICE [/vesc/high_level/ackermann_cmd_mux_nodelet_manager/get_loggers] /vesc/high_level/ackermann_cmd_mux_nodelet_manager http://ubuntu:43199/
+[rosmaster.master][INFO] 2021-05-18 16:22:19,307: publisherUpdate[/rosout] -> http://ubuntu:37483/ ['http://ubuntu:46769/', 'http://ubuntu:42433/', 'http://ubuntu:40597/', 'http://ubuntu:46367/', 'http://ubuntu:34411/', 'http://ubuntu:44937/', 'http://ubuntu:43199/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-05-18 16:22:19,308: publisherUpdate[/rosout] -> http://ubuntu:37483/ ['http://ubuntu:46769/', 'http://ubuntu:42433/', 'http://ubuntu:40597/', 'http://ubuntu:46367/', 'http://ubuntu:34411/', 'http://ubuntu:44937/', 'http://ubuntu:43199/', 'http://ubuntu:33705/']
+[rosmaster.master][INFO] 2021-05-18 16:22:19,320: publisherUpdate[/rosout] -> http://ubuntu:37483/ ['http://ubuntu:46769/', 'http://ubuntu:42433/', 'http://ubuntu:40597/', 'http://ubuntu:46367/', 'http://ubuntu:34411/', 'http://ubuntu:44937/', 'http://ubuntu:43199/', 'http://ubuntu:33705/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-05-18 16:22:19,320: publisherUpdate[/rosout] -> http://ubuntu:37483/ ['http://ubuntu:46769/', 'http://ubuntu:42433/', 'http://ubuntu:40597/', 'http://ubuntu:46367/', 'http://ubuntu:34411/', 'http://ubuntu:44937/', 'http://ubuntu:43199/', 'http://ubuntu:33705/', 'http://ubuntu:33301/']
+[rosmaster.master][INFO] 2021-05-18 16:22:19,323: +SUB [/clock] /vesc/high_level/ackermann_cmd_mux http://ubuntu:44937/
+[rosmaster.master][INFO] 2021-05-18 16:22:19,327: publisherUpdate[/rosout] -> http://ubuntu:37483/ ['http://ubuntu:46769/', 'http://ubuntu:42433/', 'http://ubuntu:40597/', 'http://ubuntu:46367/', 'http://ubuntu:34411/', 'http://ubuntu:44937/', 'http://ubuntu:43199/', 'http://ubuntu:33705/', 'http://ubuntu:33301/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-05-18 16:22:19,329: +SERVICE [/vesc/high_level/ackermann_cmd_mux_nodelet_manager/set_logger_level] /vesc/high_level/ackermann_cmd_mux_nodelet_manager http://ubuntu:43199/
+[rosmaster.master][INFO] 2021-05-18 16:22:19,335: +CACHEDPARAM [/rosout_disable_topics_generation] by /vesc/high_level/ackermann_cmd_mux
+[rosmaster.master][INFO] 2021-05-18 16:22:19,344: +PUB [/rosout] /vesc/low_level/ackermann_cmd_mux_nodelet_manager http://ubuntu:36019/
+[rosmaster.master][INFO] 2021-05-18 16:22:19,350: +SERVICE [/vesc/low_level/ackermann_cmd_mux_nodelet_manager/get_loggers] /vesc/low_level/ackermann_cmd_mux_nodelet_manager http://ubuntu:36019/
+[rosmaster.master][INFO] 2021-05-18 16:22:19,351: +SERVICE [/vesc/low_level/ackermann_cmd_mux_nodelet_manager/set_logger_level] /vesc/low_level/ackermann_cmd_mux_nodelet_manager http://ubuntu:36019/
+[rosmaster.master][INFO] 2021-05-18 16:22:19,360: +SUB [/clock] /vesc/low_level/ackermann_cmd_mux http://ubuntu:33301/
+[rosmaster.master][INFO] 2021-05-18 16:22:19,361: +SUB [/clock] /better_odom http://ubuntu:33705/
+[rosmaster.master][INFO] 2021-05-18 16:22:19,361: +CACHEDPARAM [/rosout_disable_topics_generation] by /vesc/low_level/ackermann_cmd_mux
+[rosmaster.master][INFO] 2021-05-18 16:22:19,391: +PARAM [/vesc/low_level/ackermann_cmd_mux] by /vesc/low_level/ackermann_cmd_mux
+[rosmaster.master][INFO] 2021-05-18 16:22:19,392: publisherUpdate[/rosout] -> http://ubuntu:37483/ ['http://ubuntu:46769/', 'http://ubuntu:42433/', 'http://ubuntu:40597/', 'http://ubuntu:46367/', 'http://ubuntu:34411/', 'http://ubuntu:44937/', 'http://ubuntu:43199/', 'http://ubuntu:33705/', 'http://ubuntu:33301/', 'http://ubuntu:36019/']
+[rosmaster.master][INFO] 2021-05-18 16:22:19,400: publisherUpdate[/rosout] -> http://ubuntu:37483/ ['http://ubuntu:46769/', 'http://ubuntu:42433/', 'http://ubuntu:40597/', 'http://ubuntu:46367/', 'http://ubuntu:34411/', 'http://ubuntu:44937/', 'http://ubuntu:43199/', 'http://ubuntu:33705/', 'http://ubuntu:33301/', 'http://ubuntu:36019/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-05-18 16:22:19,401: +PARAM [/vesc/high_level/ackermann_cmd_mux] by /vesc/high_level/ackermann_cmd_mux
+[rosmaster.master][INFO] 2021-05-18 16:22:19,388: +SUB [/clock] /vesc/high_level/ackermann_cmd_mux_nodelet_manager http://ubuntu:43199/
+[rosmaster.master][INFO] 2021-05-18 16:22:19,408: +SUB [/clock] /vesc/low_level/ackermann_cmd_mux_nodelet_manager http://ubuntu:36019/
+[rosmaster.master][INFO] 2021-05-18 16:22:19,410: +CACHEDPARAM [/rosout_disable_topics_generation] by /vesc/low_level/ackermann_cmd_mux_nodelet_manager
+[rosmaster.master][INFO] 2021-05-18 16:22:19,412: +CACHEDPARAM [/rosout_disable_topics_generation] by /vesc/high_level/ackermann_cmd_mux_nodelet_manager
+[rosmaster.master][INFO] 2021-05-18 16:22:19,419: +PUB [/rosout] /map_server http://ubuntu:33311/
+[rosmaster.master][INFO] 2021-05-18 16:22:19,421: +SUB [/vesc/odom] /better_odom http://ubuntu:33705/
+[rosmaster.master][INFO] 2021-05-18 16:22:19,425: +SERVICE [/vesc/high_level/ackermann_cmd_mux_nodelet_manager/load_nodelet] /vesc/high_level/ackermann_cmd_mux_nodelet_manager http://ubuntu:43199/
+[rosmaster.master][INFO] 2021-05-18 16:22:19,428: publisherUpdate[/rosout] -> http://ubuntu:37483/ ['http://ubuntu:46769/', 'http://ubuntu:42433/', 'http://ubuntu:40597/', 'http://ubuntu:46367/', 'http://ubuntu:34411/', 'http://ubuntu:44937/', 'http://ubuntu:43199/', 'http://ubuntu:33705/', 'http://ubuntu:33301/', 'http://ubuntu:36019/', 'http://ubuntu:33311/']
+[rosmaster.master][INFO] 2021-05-18 16:22:19,430: publisherUpdate[/rosout] -> http://ubuntu:37483/ ['http://ubuntu:46769/', 'http://ubuntu:42433/', 'http://ubuntu:40597/', 'http://ubuntu:46367/', 'http://ubuntu:34411/', 'http://ubuntu:44937/', 'http://ubuntu:43199/', 'http://ubuntu:33705/', 'http://ubuntu:33301/', 'http://ubuntu:36019/', 'http://ubuntu:33311/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-05-18 16:22:19,430: +SERVICE [/vesc/low_level/ackermann_cmd_mux_nodelet_manager/load_nodelet] /vesc/low_level/ackermann_cmd_mux_nodelet_manager http://ubuntu:36019/
+[rosmaster.master][INFO] 2021-05-18 16:22:19,433: +SERVICE [/vesc/high_level/ackermann_cmd_mux_nodelet_manager/unload_nodelet] /vesc/high_level/ackermann_cmd_mux_nodelet_manager http://ubuntu:43199/
+[rosmaster.master][INFO] 2021-05-18 16:22:19,436: +SERVICE [/map_server/get_loggers] /map_server http://ubuntu:33311/
+[rosmaster.master][INFO] 2021-05-18 16:22:19,436: +SERVICE [/map_server/set_logger_level] /map_server http://ubuntu:33311/
+[rosmaster.master][INFO] 2021-05-18 16:22:19,438: +SERVICE [/vesc/low_level/ackermann_cmd_mux_nodelet_manager/unload_nodelet] /vesc/low_level/ackermann_cmd_mux_nodelet_manager http://ubuntu:36019/
+[rosmaster.master][INFO] 2021-05-18 16:22:19,441: +SERVICE [/vesc/high_level/ackermann_cmd_mux_nodelet_manager/list] /vesc/high_level/ackermann_cmd_mux_nodelet_manager http://ubuntu:43199/
+[rosmaster.master][INFO] 2021-05-18 16:22:19,445: +SERVICE [/vesc/low_level/ackermann_cmd_mux_nodelet_manager/list] /vesc/low_level/ackermann_cmd_mux_nodelet_manager http://ubuntu:36019/
+[rosmaster.master][INFO] 2021-05-18 16:22:19,451: +SERVICE [/vesc/high_level/ackermann_cmd_mux/set_parameters] /vesc/high_level/ackermann_cmd_mux_nodelet_manager http://ubuntu:43199/
+[rosmaster.master][INFO] 2021-05-18 16:22:19,457: +SERVICE [/vesc/low_level/ackermann_cmd_mux/set_parameters] /vesc/low_level/ackermann_cmd_mux_nodelet_manager http://ubuntu:36019/
+[rosmaster.master][INFO] 2021-05-18 16:22:19,458: +PUB [/vesc/low_level/ackermann_cmd_mux/parameter_descriptions] /vesc/low_level/ackermann_cmd_mux_nodelet_manager http://ubuntu:36019/
+[rosmaster.master][INFO] 2021-05-18 16:22:19,464: +PUB [/vesc/high_level/ackermann_cmd_mux/parameter_descriptions] /vesc/high_level/ackermann_cmd_mux_nodelet_manager http://ubuntu:43199/
+[rosmaster.master][INFO] 2021-05-18 16:22:19,473: +PUB [/vesc/low_level/ackermann_cmd_mux/parameter_updates] /vesc/low_level/ackermann_cmd_mux_nodelet_manager http://ubuntu:36019/
+[rosmaster.master][INFO] 2021-05-18 16:22:19,474: +PUB [/vesc/high_level/ackermann_cmd_mux/parameter_updates] /vesc/high_level/ackermann_cmd_mux_nodelet_manager http://ubuntu:43199/
+[rosmaster.master][INFO] 2021-05-18 16:22:19,476: +PARAM [/vesc/low_level/ackermann_cmd_mux/yaml_cfg_file] by /vesc/low_level/ackermann_cmd_mux_nodelet_manager
+[rosmaster.master][INFO] 2021-05-18 16:22:19,478: +PARAM [/vesc/high_level/ackermann_cmd_mux/yaml_cfg_file] by /vesc/high_level/ackermann_cmd_mux_nodelet_manager
+[rosmaster.master][INFO] 2021-05-18 16:22:19,480: +SUB [/clock] /map_server http://ubuntu:33311/
+[rosmaster.master][INFO] 2021-05-18 16:22:19,488: +PUB [/vesc/high_level/ackermann_cmd_mux/output] /vesc/high_level/ackermann_cmd_mux_nodelet_manager http://ubuntu:43199/
+[rosmaster.master][INFO] 2021-05-18 16:22:19,488: +PUB [/vesc/low_level/ackermann_cmd_mux/output] /vesc/low_level/ackermann_cmd_mux_nodelet_manager http://ubuntu:36019/
+[rosmaster.master][INFO] 2021-05-18 16:22:19,492: +CACHEDPARAM [/rosout_disable_topics_generation] by /map_server
+[rosmaster.master][INFO] 2021-05-18 16:22:19,493: publisherUpdate[/vesc/high_level/ackermann_cmd_mux/output] -> http://ubuntu:42433/ ['http://ubuntu:43199/']
+[rosmaster.master][INFO] 2021-05-18 16:22:19,495: publisherUpdate[/vesc/high_level/ackermann_cmd_mux/output] -> http://ubuntu:42433/ ['http://ubuntu:43199/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-05-18 16:22:19,505: +SUB [/vesc/high_level/ackermann_cmd_mux/input/nav_0] /vesc/high_level/ackermann_cmd_mux_nodelet_manager http://ubuntu:43199/
+[rosmaster.master][INFO] 2021-05-18 16:22:19,508: +SUB [/vesc/low_level/ackermann_cmd_mux/input/teleop] /vesc/low_level/ackermann_cmd_mux_nodelet_manager http://ubuntu:36019/
+[rosmaster.master][INFO] 2021-05-18 16:22:19,512: +SUB [/vesc/high_level/ackermann_cmd_mux/input/nav_1] /vesc/high_level/ackermann_cmd_mux_nodelet_manager http://ubuntu:43199/
+[rosmaster.master][INFO] 2021-05-18 16:22:19,526: +SUB [/vesc/high_level/ackermann_cmd_mux/input/nav_2] /vesc/high_level/ackermann_cmd_mux_nodelet_manager http://ubuntu:43199/
+[rosmaster.master][INFO] 2021-05-18 16:22:19,529: +SUB [/vesc/low_level/ackermann_cmd_mux/input/safety] /vesc/low_level/ackermann_cmd_mux_nodelet_manager http://ubuntu:36019/
+[rosmaster.master][INFO] 2021-05-18 16:22:19,532: +CACHEDPARAM [/rosout/omit_topics] by /rosout
+[rosmaster.master][INFO] 2021-05-18 16:22:19,542: +SUB [/vesc/high_level/ackermann_cmd_mux/input/nav_3] /vesc/high_level/ackermann_cmd_mux_nodelet_manager http://ubuntu:43199/
+[rosmaster.master][INFO] 2021-05-18 16:22:19,548: +SUB [/vesc/low_level/ackermann_cmd_mux/input/navigation] /vesc/low_level/ackermann_cmd_mux_nodelet_manager http://ubuntu:36019/
+[rosmaster.master][INFO] 2021-05-18 16:22:19,554: +PARAM [/vesc/low_level/ackermann_cmd_mux/yaml_cfg_file] by /vesc/low_level/ackermann_cmd_mux_nodelet_manager
+[rosmaster.master][INFO] 2021-05-18 16:22:19,554: +SUB [/vesc/high_level/ackermann_cmd_mux/input/default] /vesc/high_level/ackermann_cmd_mux_nodelet_manager http://ubuntu:43199/
+[rosmaster.master][INFO] 2021-05-18 16:22:19,555: +PUB [/vesc/low_level/ackermann_cmd_mux/active] /vesc/low_level/ackermann_cmd_mux_nodelet_manager http://ubuntu:36019/
+[rosmaster.master][INFO] 2021-05-18 16:22:19,557: +PARAM [/vesc/high_level/ackermann_cmd_mux/yaml_cfg_file] by /vesc/high_level/ackermann_cmd_mux_nodelet_manager
+[rosmaster.master][INFO] 2021-05-18 16:22:19,560: +PUB [/vesc/high_level/ackermann_cmd_mux/active] /vesc/high_level/ackermann_cmd_mux_nodelet_manager http://ubuntu:43199/
+[rosmaster.master][INFO] 2021-05-18 16:22:19,564: +PUB [/vesc/low_level/ackermann_cmd_mux_nodelet_manager/bond] /vesc/low_level/ackermann_cmd_mux_nodelet_manager http://ubuntu:36019/
+[rosmaster.master][INFO] 2021-05-18 16:22:19,567: +PUB [/vesc/high_level/ackermann_cmd_mux_nodelet_manager/bond] /vesc/high_level/ackermann_cmd_mux_nodelet_manager http://ubuntu:43199/
+[rosmaster.master][INFO] 2021-05-18 16:22:19,580: +SUB [/vesc/low_level/ackermann_cmd_mux_nodelet_manager/bond] /vesc/low_level/ackermann_cmd_mux_nodelet_manager http://ubuntu:36019/
+[rosmaster.master][INFO] 2021-05-18 16:22:19,581: +SUB [/vesc/high_level/ackermann_cmd_mux_nodelet_manager/bond] /vesc/high_level/ackermann_cmd_mux_nodelet_manager http://ubuntu:43199/
+[rosmaster.master][INFO] 2021-05-18 16:22:19,632: +PUB [/vesc/high_level/ackermann_cmd_mux_nodelet_manager/bond] /vesc/high_level/ackermann_cmd_mux http://ubuntu:44937/
+[rosmaster.master][INFO] 2021-05-18 16:22:19,633: +PUB [/vesc/low_level/ackermann_cmd_mux_nodelet_manager/bond] /vesc/low_level/ackermann_cmd_mux http://ubuntu:33301/
+[rosmaster.master][INFO] 2021-05-18 16:22:19,638: +SUB [/vesc/high_level/ackermann_cmd_mux_nodelet_manager/bond] /vesc/high_level/ackermann_cmd_mux http://ubuntu:44937/
+[rosmaster.master][INFO] 2021-05-18 16:22:19,643: +SUB [/vesc/low_level/ackermann_cmd_mux_nodelet_manager/bond] /vesc/low_level/ackermann_cmd_mux http://ubuntu:33301/
+[rosmaster.master][INFO] 2021-05-18 16:22:19,704: publisherUpdate[/vesc/high_level/ackermann_cmd_mux_nodelet_manager/bond] -> http://ubuntu:43199/ ['http://ubuntu:43199/', 'http://ubuntu:44937/']
+[rosmaster.master][INFO] 2021-05-18 16:22:19,704: publisherUpdate[/vesc/low_level/ackermann_cmd_mux_nodelet_manager/bond] -> http://ubuntu:36019/ ['http://ubuntu:36019/', 'http://ubuntu:33301/']
+[rosmaster.master][INFO] 2021-05-18 16:22:19,707: publisherUpdate[/vesc/high_level/ackermann_cmd_mux_nodelet_manager/bond] -> http://ubuntu:43199/ ['http://ubuntu:43199/', 'http://ubuntu:44937/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-05-18 16:22:19,707: publisherUpdate[/vesc/low_level/ackermann_cmd_mux_nodelet_manager/bond] -> http://ubuntu:36019/ ['http://ubuntu:36019/', 'http://ubuntu:33301/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-05-18 16:22:19,776: +PUB [/rosout] /racecar/controller_manager http://ubuntu:40357/
+[rosmaster.master][INFO] 2021-05-18 16:22:19,778: +SUB [/clock] /racecar/controller_manager http://ubuntu:40357/
+[rosmaster.master][INFO] 2021-05-18 16:22:19,785: +SERVICE [/racecar/controller_manager/get_loggers] /racecar/controller_manager http://ubuntu:40357/
+[rosmaster.master][INFO] 2021-05-18 16:22:19,786: +SERVICE [/racecar/controller_manager/set_logger_level] /racecar/controller_manager http://ubuntu:40357/
+[rosmaster.master][INFO] 2021-05-18 16:22:19,787: +CACHEDPARAM [/rosout_disable_topics_generation] by /racecar/controller_manager
+[rosmaster.master][INFO] 2021-05-18 16:22:19,807: publisherUpdate[/rosout] -> http://ubuntu:37483/ ['http://ubuntu:46769/', 'http://ubuntu:42433/', 'http://ubuntu:40597/', 'http://ubuntu:46367/', 'http://ubuntu:34411/', 'http://ubuntu:44937/', 'http://ubuntu:43199/', 'http://ubuntu:33705/', 'http://ubuntu:33301/', 'http://ubuntu:36019/', 'http://ubuntu:33311/', 'http://ubuntu:40357/']
+[rosmaster.master][INFO] 2021-05-18 16:22:19,808: publisherUpdate[/rosout] -> http://ubuntu:37483/ ['http://ubuntu:46769/', 'http://ubuntu:42433/', 'http://ubuntu:40597/', 'http://ubuntu:46367/', 'http://ubuntu:34411/', 'http://ubuntu:44937/', 'http://ubuntu:43199/', 'http://ubuntu:33705/', 'http://ubuntu:33301/', 'http://ubuntu:36019/', 'http://ubuntu:33311/', 'http://ubuntu:40357/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-05-18 16:22:19,812: +PUB [/rosout] /servo_commands http://ubuntu:36611/
+[rosmaster.master][INFO] 2021-05-18 16:22:19,821: +SUB [/clock] /servo_commands http://ubuntu:36611/
+[rosmaster.master][INFO] 2021-05-18 16:22:19,825: +SERVICE [/servo_commands/get_loggers] /servo_commands http://ubuntu:36611/
+[rosmaster.master][INFO] 2021-05-18 16:22:19,828: +SERVICE [/servo_commands/set_logger_level] /servo_commands http://ubuntu:36611/
+[rosmaster.master][INFO] 2021-05-18 16:22:19,836: +SUB [/vesc/low_level/ackermann_cmd_mux/output] /servo_commands http://ubuntu:36611/
+[rosmaster.master][INFO] 2021-05-18 16:22:19,843: publisherUpdate[/rosout] -> http://ubuntu:37483/ ['http://ubuntu:46769/', 'http://ubuntu:42433/', 'http://ubuntu:40597/', 'http://ubuntu:46367/', 'http://ubuntu:34411/', 'http://ubuntu:44937/', 'http://ubuntu:43199/', 'http://ubuntu:33705/', 'http://ubuntu:33301/', 'http://ubuntu:36019/', 'http://ubuntu:33311/', 'http://ubuntu:40357/', 'http://ubuntu:36611/']
+[rosmaster.master][INFO] 2021-05-18 16:22:19,844: publisherUpdate[/rosout] -> http://ubuntu:37483/ ['http://ubuntu:46769/', 'http://ubuntu:42433/', 'http://ubuntu:40597/', 'http://ubuntu:46367/', 'http://ubuntu:34411/', 'http://ubuntu:44937/', 'http://ubuntu:43199/', 'http://ubuntu:33705/', 'http://ubuntu:33301/', 'http://ubuntu:36019/', 'http://ubuntu:33311/', 'http://ubuntu:40357/', 'http://ubuntu:36611/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-05-18 16:22:20,053: +PUB [/rosout] /gazebo http://ubuntu:44103/
+[rosmaster.master][INFO] 2021-05-18 16:22:20,054: +SERVICE [/gazebo/get_loggers] /gazebo http://ubuntu:44103/
+[rosmaster.master][INFO] 2021-05-18 16:22:20,055: +SERVICE [/gazebo/set_logger_level] /gazebo http://ubuntu:44103/
+[rosmaster.master][INFO] 2021-05-18 16:22:20,058: +SUB [/clock] /gazebo http://ubuntu:44103/
+[rosmaster.master][INFO] 2021-05-18 16:22:20,061: +CACHEDPARAM [/rosout_disable_topics_generation] by /gazebo
+[rosmaster.master][INFO] 2021-05-18 16:22:20,064: +PUB [/rosout] /keyboard_teleop http://ubuntu:34005/
+[rosmaster.master][INFO] 2021-05-18 16:22:20,075: +SUB [/clock] /keyboard_teleop http://ubuntu:34005/
+[rosmaster.master][INFO] 2021-05-18 16:22:20,080: +SERVICE [/vesc/zero_ackermann_cmd/get_loggers] /vesc/zero_ackermann_cmd http://ubuntu:36605/
+[rosmaster.master][INFO] 2021-05-18 16:22:20,082: +SERVICE [/vesc/zero_ackermann_cmd/set_logger_level] /vesc/zero_ackermann_cmd http://ubuntu:36605/
+[rosmaster.master][INFO] 2021-05-18 16:22:20,083: +SERVICE [/keyboard_teleop/get_loggers] /keyboard_teleop http://ubuntu:34005/
+[rosmaster.master][INFO] 2021-05-18 16:22:20,084: +SERVICE [/keyboard_teleop/set_logger_level] /keyboard_teleop http://ubuntu:34005/
+[rosmaster.master][INFO] 2021-05-18 16:22:20,088: +PUB [/vesc/high_level/ackermann_cmd_mux/input/default] /vesc/zero_ackermann_cmd http://ubuntu:36605/
+[rosmaster.master][INFO] 2021-05-18 16:22:20,092: +PUB [/vesc/low_level/ackermann_cmd_mux/input/teleop] /keyboard_teleop http://ubuntu:34005/
+[rosmaster.master][INFO] 2021-05-18 16:22:20,106: +PUB [/rosout] /gazebo_gui http://ubuntu:45025/
+[rosmaster.master][INFO] 2021-05-18 16:22:20,107: +SERVICE [/gazebo_gui/get_loggers] /gazebo_gui http://ubuntu:45025/
+[rosmaster.master][INFO] 2021-05-18 16:22:20,107: +SERVICE [/gazebo_gui/set_logger_level] /gazebo_gui http://ubuntu:45025/
+[rosmaster.master][INFO] 2021-05-18 16:22:20,110: publisherUpdate[/rosout] -> http://ubuntu:37483/ ['http://ubuntu:46769/', 'http://ubuntu:42433/', 'http://ubuntu:40597/', 'http://ubuntu:46367/', 'http://ubuntu:34411/', 'http://ubuntu:44937/', 'http://ubuntu:43199/', 'http://ubuntu:33705/', 'http://ubuntu:33301/', 'http://ubuntu:36019/', 'http://ubuntu:33311/', 'http://ubuntu:40357/', 'http://ubuntu:36611/', 'http://ubuntu:44103/']
+[rosmaster.master][INFO] 2021-05-18 16:22:20,111: publisherUpdate[/rosout] -> http://ubuntu:37483/ ['http://ubuntu:46769/', 'http://ubuntu:42433/', 'http://ubuntu:40597/', 'http://ubuntu:46367/', 'http://ubuntu:34411/', 'http://ubuntu:44937/', 'http://ubuntu:43199/', 'http://ubuntu:33705/', 'http://ubuntu:33301/', 'http://ubuntu:36019/', 'http://ubuntu:33311/', 'http://ubuntu:40357/', 'http://ubuntu:36611/', 'http://ubuntu:44103/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-05-18 16:22:20,111: publisherUpdate[/rosout] -> http://ubuntu:37483/ ['http://ubuntu:46769/', 'http://ubuntu:42433/', 'http://ubuntu:40597/', 'http://ubuntu:46367/', 'http://ubuntu:34411/', 'http://ubuntu:44937/', 'http://ubuntu:43199/', 'http://ubuntu:33705/', 'http://ubuntu:33301/', 'http://ubuntu:36019/', 'http://ubuntu:33311/', 'http://ubuntu:40357/', 'http://ubuntu:36611/', 'http://ubuntu:44103/', 'http://ubuntu:34005/']
+[rosmaster.master][INFO] 2021-05-18 16:22:20,111: publisherUpdate[/vesc/high_level/ackermann_cmd_mux/input/default] -> http://ubuntu:43199/ ['http://ubuntu:36605/']
+[rosmaster.master][INFO] 2021-05-18 16:22:20,112: publisherUpdate[/rosout] -> http://ubuntu:37483/ ['http://ubuntu:46769/', 'http://ubuntu:42433/', 'http://ubuntu:40597/', 'http://ubuntu:46367/', 'http://ubuntu:34411/', 'http://ubuntu:44937/', 'http://ubuntu:43199/', 'http://ubuntu:33705/', 'http://ubuntu:33301/', 'http://ubuntu:36019/', 'http://ubuntu:33311/', 'http://ubuntu:40357/', 'http://ubuntu:36611/', 'http://ubuntu:44103/', 'http://ubuntu:34005/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-05-18 16:22:20,112: publisherUpdate[/vesc/low_level/ackermann_cmd_mux/input/teleop] -> http://ubuntu:36019/ ['http://ubuntu:34005/']
+[rosmaster.master][INFO] 2021-05-18 16:22:20,112: publisherUpdate[/vesc/low_level/ackermann_cmd_mux/input/teleop] -> http://ubuntu:36019/ ['http://ubuntu:34005/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-05-18 16:22:20,113: publisherUpdate[/rosout] -> http://ubuntu:37483/ ['http://ubuntu:46769/', 'http://ubuntu:42433/', 'http://ubuntu:40597/', 'http://ubuntu:46367/', 'http://ubuntu:34411/', 'http://ubuntu:44937/', 'http://ubuntu:43199/', 'http://ubuntu:33705/', 'http://ubuntu:33301/', 'http://ubuntu:36019/', 'http://ubuntu:33311/', 'http://ubuntu:40357/', 'http://ubuntu:36611/', 'http://ubuntu:44103/', 'http://ubuntu:34005/', 'http://ubuntu:45025/']
+[rosmaster.master][INFO] 2021-05-18 16:22:20,114: publisherUpdate[/rosout] -> http://ubuntu:37483/ ['http://ubuntu:46769/', 'http://ubuntu:42433/', 'http://ubuntu:40597/', 'http://ubuntu:46367/', 'http://ubuntu:34411/', 'http://ubuntu:44937/', 'http://ubuntu:43199/', 'http://ubuntu:33705/', 'http://ubuntu:33301/', 'http://ubuntu:36019/', 'http://ubuntu:33311/', 'http://ubuntu:40357/', 'http://ubuntu:36611/', 'http://ubuntu:44103/', 'http://ubuntu:34005/', 'http://ubuntu:45025/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-05-18 16:22:20,114: +SUB [/clock] /gazebo_gui http://ubuntu:45025/
+[rosmaster.master][INFO] 2021-05-18 16:22:20,114: publisherUpdate[/vesc/high_level/ackermann_cmd_mux/input/default] -> http://ubuntu:43199/ ['http://ubuntu:36605/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-05-18 16:22:20,117: +CACHEDPARAM [/rosout_disable_topics_generation] by /gazebo_gui
+[rosmaster.master][INFO] 2021-05-18 16:22:20,311: +PUB [/vesc/odom] /gazebo_odometry_node http://ubuntu:45383/
+[rosmaster.master][INFO] 2021-05-18 16:22:20,315: publisherUpdate[/vesc/odom] -> http://ubuntu:33705/ ['http://ubuntu:45383/']
+[rosmaster.master][INFO] 2021-05-18 16:22:20,317: publisherUpdate[/vesc/odom] -> http://ubuntu:33705/ ['http://ubuntu:45383/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-05-18 16:22:20,410: +PUB [/rosout] /gazebo_odometry_node http://ubuntu:45383/
+[rosmaster.master][INFO] 2021-05-18 16:22:20,414: +SUB [/clock] /gazebo_odometry_node http://ubuntu:45383/
+[rosmaster.master][INFO] 2021-05-18 16:22:20,416: +SERVICE [/gazebo_odometry_node/get_loggers] /gazebo_odometry_node http://ubuntu:45383/
+[rosmaster.master][INFO] 2021-05-18 16:22:20,416: publisherUpdate[/rosout] -> http://ubuntu:37483/ ['http://ubuntu:46769/', 'http://ubuntu:42433/', 'http://ubuntu:40597/', 'http://ubuntu:46367/', 'http://ubuntu:34411/', 'http://ubuntu:44937/', 'http://ubuntu:43199/', 'http://ubuntu:33705/', 'http://ubuntu:33301/', 'http://ubuntu:36019/', 'http://ubuntu:33311/', 'http://ubuntu:40357/', 'http://ubuntu:36611/', 'http://ubuntu:44103/', 'http://ubuntu:34005/', 'http://ubuntu:45025/', 'http://ubuntu:45383/']
+[rosmaster.master][INFO] 2021-05-18 16:22:20,417: +SERVICE [/gazebo_odometry_node/set_logger_level] /gazebo_odometry_node http://ubuntu:45383/
+[rosmaster.master][INFO] 2021-05-18 16:22:20,417: publisherUpdate[/rosout] -> http://ubuntu:37483/ ['http://ubuntu:46769/', 'http://ubuntu:42433/', 'http://ubuntu:40597/', 'http://ubuntu:46367/', 'http://ubuntu:34411/', 'http://ubuntu:44937/', 'http://ubuntu:43199/', 'http://ubuntu:33705/', 'http://ubuntu:33301/', 'http://ubuntu:36019/', 'http://ubuntu:33311/', 'http://ubuntu:40357/', 'http://ubuntu:36611/', 'http://ubuntu:44103/', 'http://ubuntu:34005/', 'http://ubuntu:45025/', 'http://ubuntu:45383/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-05-18 16:22:20,420: +PUB [/tf] /gazebo_odometry_node http://ubuntu:45383/
+[rosmaster.master][INFO] 2021-05-18 16:22:20,421: +SUB [/gazebo/link_states] /gazebo_odometry_node http://ubuntu:45383/
+[rosmaster.master][INFO] 2021-05-18 16:22:20,425: +PUB [/vesc/low_level/ackermann_cmd_mux/input/navigation] /vesc/mux_chainer http://ubuntu:42433/
+[rosmaster.master][INFO] 2021-05-18 16:22:20,426: +CACHEDPARAM [/rosout_disable_topics_generation] by /vesc/mux_chainer
+[rosmaster.master][INFO] 2021-05-18 16:22:20,447: publisherUpdate[/vesc/low_level/ackermann_cmd_mux/input/navigation] -> http://ubuntu:36019/ ['http://ubuntu:42433/']
+[rosmaster.master][INFO] 2021-05-18 16:22:20,449: publisherUpdate[/vesc/low_level/ackermann_cmd_mux/input/navigation] -> http://ubuntu:36019/ ['http://ubuntu:42433/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-05-18 16:22:20,478: +PUB [/rosout] /racecar_spawn http://ubuntu:40633/
+[rosmaster.master][INFO] 2021-05-18 16:22:20,481: +SUB [/clock] /racecar_spawn http://ubuntu:40633/
+[rosmaster.master][INFO] 2021-05-18 16:22:20,482: +SERVICE [/racecar_spawn/get_loggers] /racecar_spawn http://ubuntu:40633/
+[rosmaster.master][INFO] 2021-05-18 16:22:20,483: +SERVICE [/racecar_spawn/set_logger_level] /racecar_spawn http://ubuntu:40633/
+[rosmaster.master][INFO] 2021-05-18 16:22:20,484: +CACHEDPARAM [/rosout_disable_topics_generation] by /racecar_spawn
+[rosmaster.master][INFO] 2021-05-18 16:22:20,493: +CACHEDPARAM [/rosout_disable_topics_generation] by /racecar_spawn
+[rosmaster.master][INFO] 2021-05-18 16:22:20,518: publisherUpdate[/rosout] -> http://ubuntu:37483/ ['http://ubuntu:46769/', 'http://ubuntu:42433/', 'http://ubuntu:40597/', 'http://ubuntu:46367/', 'http://ubuntu:34411/', 'http://ubuntu:44937/', 'http://ubuntu:43199/', 'http://ubuntu:33705/', 'http://ubuntu:33301/', 'http://ubuntu:36019/', 'http://ubuntu:33311/', 'http://ubuntu:40357/', 'http://ubuntu:36611/', 'http://ubuntu:44103/', 'http://ubuntu:34005/', 'http://ubuntu:45025/', 'http://ubuntu:45383/', 'http://ubuntu:40633/']
+[rosmaster.master][INFO] 2021-05-18 16:22:20,520: publisherUpdate[/rosout] -> http://ubuntu:37483/ ['http://ubuntu:46769/', 'http://ubuntu:42433/', 'http://ubuntu:40597/', 'http://ubuntu:46367/', 'http://ubuntu:34411/', 'http://ubuntu:44937/', 'http://ubuntu:43199/', 'http://ubuntu:33705/', 'http://ubuntu:33301/', 'http://ubuntu:36019/', 'http://ubuntu:33311/', 'http://ubuntu:40357/', 'http://ubuntu:36611/', 'http://ubuntu:44103/', 'http://ubuntu:34005/', 'http://ubuntu:45025/', 'http://ubuntu:45383/', 'http://ubuntu:40633/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-05-18 16:22:20,758: +PUB [/racecar/left_rear_wheel_velocity_controller/command] /servo_commands http://ubuntu:36611/
+[rosmaster.master][INFO] 2021-05-18 16:22:20,759: +PUB [/racecar/right_rear_wheel_velocity_controller/command] /servo_commands http://ubuntu:36611/
+[rosmaster.master][INFO] 2021-05-18 16:22:20,760: +PUB [/racecar/left_front_wheel_velocity_controller/command] /servo_commands http://ubuntu:36611/
+[rosmaster.master][INFO] 2021-05-18 16:22:20,761: +PUB [/racecar/right_front_wheel_velocity_controller/command] /servo_commands http://ubuntu:36611/
+[rosmaster.master][INFO] 2021-05-18 16:22:20,761: +PUB [/racecar/left_steering_hinge_position_controller/command] /servo_commands http://ubuntu:36611/
+[rosmaster.master][INFO] 2021-05-18 16:22:20,762: +PUB [/racecar/right_steering_hinge_position_controller/command] /servo_commands http://ubuntu:36611/
+[rosmaster.master][INFO] 2021-05-18 16:22:22,652: +PUB [/clock] /gazebo http://ubuntu:44103/
+[rosmaster.master][INFO] 2021-05-18 16:22:22,653: +SERVICE [/gazebo/spawn_sdf_model] /gazebo http://ubuntu:44103/
+[rosmaster.master][INFO] 2021-05-18 16:22:22,654: +SERVICE [/gazebo/spawn_urdf_model] /gazebo http://ubuntu:44103/
+[rosmaster.master][INFO] 2021-05-18 16:22:22,656: +SERVICE [/gazebo/delete_model] /gazebo http://ubuntu:44103/
+[rosmaster.master][INFO] 2021-05-18 16:22:22,657: +SERVICE [/gazebo/delete_light] /gazebo http://ubuntu:44103/
+[rosmaster.master][INFO] 2021-05-18 16:22:22,657: +SERVICE [/gazebo/get_model_properties] /gazebo http://ubuntu:44103/
+[rosmaster.master][INFO] 2021-05-18 16:22:22,658: +SERVICE [/gazebo/get_model_state] /gazebo http://ubuntu:44103/
+[rosmaster.master][INFO] 2021-05-18 16:22:22,659: +SERVICE [/gazebo/get_world_properties] /gazebo http://ubuntu:44103/
+[rosmaster.master][INFO] 2021-05-18 16:22:22,659: +SERVICE [/gazebo/get_joint_properties] /gazebo http://ubuntu:44103/
+[rosmaster.master][INFO] 2021-05-18 16:22:22,660: +SERVICE [/gazebo/get_link_properties] /gazebo http://ubuntu:44103/
+[rosmaster.master][INFO] 2021-05-18 16:22:22,661: +SERVICE [/gazebo/get_link_state] /gazebo http://ubuntu:44103/
+[rosmaster.master][INFO] 2021-05-18 16:22:22,662: +SERVICE [/gazebo/get_light_properties] /gazebo http://ubuntu:44103/
+[rosmaster.master][INFO] 2021-05-18 16:22:22,663: +SERVICE [/gazebo/set_light_properties] /gazebo http://ubuntu:44103/
+[rosmaster.master][INFO] 2021-05-18 16:22:22,663: +SERVICE [/gazebo/get_physics_properties] /gazebo http://ubuntu:44103/
+[rosmaster.master][INFO] 2021-05-18 16:22:22,664: +PUB [/gazebo/link_states] /gazebo http://ubuntu:44103/
+[rosmaster.master][INFO] 2021-05-18 16:22:22,665: +PUB [/gazebo/model_states] /gazebo http://ubuntu:44103/
+[rosmaster.master][INFO] 2021-05-18 16:22:22,665: +SERVICE [/gazebo/set_link_properties] /gazebo http://ubuntu:44103/
+[rosmaster.master][INFO] 2021-05-18 16:22:22,666: +SERVICE [/gazebo/set_physics_properties] /gazebo http://ubuntu:44103/
+[rosmaster.master][INFO] 2021-05-18 16:22:22,667: +SERVICE [/gazebo/set_model_state] /gazebo http://ubuntu:44103/
+[rosmaster.master][INFO] 2021-05-18 16:22:22,667: +SERVICE [/gazebo/set_model_configuration] /gazebo http://ubuntu:44103/
+[rosmaster.master][INFO] 2021-05-18 16:22:22,668: +SERVICE [/gazebo/set_joint_properties] /gazebo http://ubuntu:44103/
+[rosmaster.master][INFO] 2021-05-18 16:22:22,668: +SERVICE [/gazebo/set_link_state] /gazebo http://ubuntu:44103/
+[rosmaster.master][INFO] 2021-05-18 16:22:22,672: +SUB [/gazebo/set_link_state] /gazebo http://ubuntu:44103/
+[rosmaster.master][INFO] 2021-05-18 16:22:22,673: publisherUpdate[/clock] -> http://ubuntu:46769/ ['http://ubuntu:44103/']
+[rosmaster.master][INFO] 2021-05-18 16:22:22,674: publisherUpdate[/clock] -> http://ubuntu:46769/ ['http://ubuntu:44103/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-05-18 16:22:22,674: publisherUpdate[/clock] -> http://ubuntu:42433/ ['http://ubuntu:44103/']
+[rosmaster.master][INFO] 2021-05-18 16:22:22,675: publisherUpdate[/clock] -> http://ubuntu:42433/ ['http://ubuntu:44103/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-05-18 16:22:22,676: publisherUpdate[/clock] -> http://ubuntu:40597/ ['http://ubuntu:44103/']
+[rosmaster.master][INFO] 2021-05-18 16:22:22,676: publisherUpdate[/clock] -> http://ubuntu:46367/ ['http://ubuntu:44103/']
+[rosmaster.master][INFO] 2021-05-18 16:22:22,679: publisherUpdate[/clock] -> http://ubuntu:40597/ ['http://ubuntu:44103/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-05-18 16:22:22,680: publisherUpdate[/clock] -> http://ubuntu:34411/ ['http://ubuntu:44103/']
+[rosmaster.master][INFO] 2021-05-18 16:22:22,680: publisherUpdate[/clock] -> http://ubuntu:46367/ ['http://ubuntu:44103/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-05-18 16:22:22,682: publisherUpdate[/clock] -> http://ubuntu:44937/ ['http://ubuntu:44103/']
+[rosmaster.master][INFO] 2021-05-18 16:22:22,685: publisherUpdate[/clock] -> http://ubuntu:44937/ ['http://ubuntu:44103/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-05-18 16:22:22,686: publisherUpdate[/clock] -> http://ubuntu:33301/ ['http://ubuntu:44103/']
+[rosmaster.master][INFO] 2021-05-18 16:22:22,686: publisherUpdate[/clock] -> http://ubuntu:34411/ ['http://ubuntu:44103/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-05-18 16:22:22,687: +SUB [/gazebo/set_model_state] /gazebo http://ubuntu:44103/
+[rosmaster.master][INFO] 2021-05-18 16:22:22,688: publisherUpdate[/clock] -> http://ubuntu:33705/ ['http://ubuntu:44103/']
+[rosmaster.master][INFO] 2021-05-18 16:22:22,688: +SERVICE [/gazebo/set_parameters] /gazebo http://ubuntu:44103/
+[rosmaster.master][INFO] 2021-05-18 16:22:22,691: publisherUpdate[/clock] -> http://ubuntu:33301/ ['http://ubuntu:44103/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-05-18 16:22:22,692: publisherUpdate[/clock] -> http://ubuntu:33705/ ['http://ubuntu:44103/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-05-18 16:22:22,692: +SERVICE [/gazebo/pause_physics] /gazebo http://ubuntu:44103/
+[rosmaster.master][INFO] 2021-05-18 16:22:22,693: publisherUpdate[/clock] -> http://ubuntu:36019/ ['http://ubuntu:44103/']
+[rosmaster.master][INFO] 2021-05-18 16:22:22,693: publisherUpdate[/clock] -> http://ubuntu:43199/ ['http://ubuntu:44103/']
+[rosmaster.master][INFO] 2021-05-18 16:22:22,695: +PUB [/gazebo/parameter_descriptions] /gazebo http://ubuntu:44103/
+[rosmaster.master][INFO] 2021-05-18 16:22:22,696: +SERVICE [/gazebo/unpause_physics] /gazebo http://ubuntu:44103/
+[rosmaster.master][INFO] 2021-05-18 16:22:22,695: publisherUpdate[/clock] -> http://ubuntu:36019/ ['http://ubuntu:44103/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-05-18 16:22:22,697: +SERVICE [/gazebo/apply_body_wrench] /gazebo http://ubuntu:44103/
+[rosmaster.master][INFO] 2021-05-18 16:22:22,697: publisherUpdate[/clock] -> http://ubuntu:43199/ ['http://ubuntu:44103/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-05-18 16:22:22,698: publisherUpdate[/clock] -> http://ubuntu:40357/ ['http://ubuntu:44103/']
+[rosmaster.master][INFO] 2021-05-18 16:22:22,698: publisherUpdate[/clock] -> http://ubuntu:33311/ ['http://ubuntu:44103/']
+[rosmaster.master][INFO] 2021-05-18 16:22:22,699: +PUB [/gazebo/parameter_updates] /gazebo http://ubuntu:44103/
+[rosmaster.master][INFO] 2021-05-18 16:22:22,700: +SERVICE [/gazebo/apply_joint_effort] /gazebo http://ubuntu:44103/
+[rosmaster.master][INFO] 2021-05-18 16:22:22,701: publisherUpdate[/clock] -> http://ubuntu:33311/ ['http://ubuntu:44103/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-05-18 16:22:22,701: publisherUpdate[/clock] -> http://ubuntu:36611/ ['http://ubuntu:44103/']
+[rosmaster.master][INFO] 2021-05-18 16:22:22,703: publisherUpdate[/clock] -> http://ubuntu:40357/ ['http://ubuntu:44103/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-05-18 16:22:22,704: +SERVICE [/gazebo/clear_joint_forces] /gazebo http://ubuntu:44103/
+[rosmaster.master][INFO] 2021-05-18 16:22:22,704: publisherUpdate[/clock] -> http://ubuntu:44103/ ['http://ubuntu:44103/']
+[rosmaster.master][INFO] 2021-05-18 16:22:22,706: publisherUpdate[/clock] -> http://ubuntu:36611/ ['http://ubuntu:44103/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-05-18 16:22:22,707: publisherUpdate[/clock] -> http://ubuntu:34005/ ['http://ubuntu:44103/']
+[rosmaster.master][INFO] 2021-05-18 16:22:22,708: publisherUpdate[/clock] -> http://ubuntu:44103/ ['http://ubuntu:44103/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-05-18 16:22:22,709: publisherUpdate[/clock] -> http://ubuntu:45025/ ['http://ubuntu:44103/']
+[rosmaster.master][INFO] 2021-05-18 16:22:22,711: publisherUpdate[/clock] -> http://ubuntu:34005/ ['http://ubuntu:44103/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-05-18 16:22:22,711: publisherUpdate[/clock] -> http://ubuntu:45383/ ['http://ubuntu:44103/']
+[rosmaster.master][INFO] 2021-05-18 16:22:22,712: publisherUpdate[/clock] -> http://ubuntu:45025/ ['http://ubuntu:44103/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-05-18 16:22:22,713: publisherUpdate[/clock] -> http://ubuntu:40633/ ['http://ubuntu:44103/']
+[rosmaster.master][INFO] 2021-05-18 16:22:22,714: +SERVICE [/gazebo/clear_body_wrenches] /gazebo http://ubuntu:44103/
+[rosmaster.master][INFO] 2021-05-18 16:22:22,717: publisherUpdate[/clock] -> http://ubuntu:45383/ ['http://ubuntu:44103/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-05-18 16:22:22,719: publisherUpdate[/gazebo/link_states] -> http://ubuntu:45383/ ['http://ubuntu:44103/']
+[rosmaster.master][INFO] 2021-05-18 16:22:22,720: publisherUpdate[/clock] -> http://ubuntu:40633/ ['http://ubuntu:44103/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-05-18 16:22:22,721: +SERVICE [/gazebo/reset_simulation] /gazebo http://ubuntu:44103/
+[rosmaster.master][INFO] 2021-05-18 16:22:22,723: publisherUpdate[/gazebo/link_states] -> http://ubuntu:45383/ ['http://ubuntu:44103/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-05-18 16:22:22,723: +SERVICE [/gazebo/reset_world] /gazebo http://ubuntu:44103/
+[rosmaster.master][INFO] 2021-05-18 16:22:22,726: +PARAM [/gazebo/time_step] by /gazebo
+[rosmaster.master][INFO] 2021-05-18 16:22:22,727: +PARAM [/gazebo/max_update_rate] by /gazebo
+[rosmaster.master][INFO] 2021-05-18 16:22:22,727: +PARAM [/gazebo/gravity_x] by /gazebo
+[rosmaster.master][INFO] 2021-05-18 16:22:22,728: +PARAM [/gazebo/gravity_y] by /gazebo
+[rosmaster.master][INFO] 2021-05-18 16:22:22,729: +PARAM [/gazebo/gravity_z] by /gazebo
+[rosmaster.master][INFO] 2021-05-18 16:22:22,729: +PARAM [/gazebo/auto_disable_bodies] by /gazebo
+[rosmaster.master][INFO] 2021-05-18 16:22:22,730: +PARAM [/gazebo/sor_pgs_precon_iters] by /gazebo
+[rosmaster.master][INFO] 2021-05-18 16:22:22,730: +PARAM [/gazebo/sor_pgs_iters] by /gazebo
+[rosmaster.master][INFO] 2021-05-18 16:22:22,731: +PARAM [/gazebo/sor_pgs_w] by /gazebo
+[rosmaster.master][INFO] 2021-05-18 16:22:22,731: +PARAM [/gazebo/sor_pgs_rms_error_tol] by /gazebo
+[rosmaster.master][INFO] 2021-05-18 16:22:22,731: +PARAM [/gazebo/cfm] by /gazebo
+[rosmaster.master][INFO] 2021-05-18 16:22:22,732: +PARAM [/gazebo/erp] by /gazebo
+[rosmaster.master][INFO] 2021-05-18 16:22:22,732: +PARAM [/gazebo/contact_surface_layer] by /gazebo
+[rosmaster.master][INFO] 2021-05-18 16:22:22,733: +PARAM [/gazebo/contact_max_correcting_vel] by /gazebo
+[rosmaster.master][INFO] 2021-05-18 16:22:22,733: +PARAM [/gazebo/max_contacts] by /gazebo
+[rosmaster.master][INFO] 2021-05-18 16:22:22,758: +PARAM [/gazebo/time_step] by /gazebo
+[rosmaster.master][INFO] 2021-05-18 16:22:22,759: +PARAM [/gazebo/max_update_rate] by /gazebo
+[rosmaster.master][INFO] 2021-05-18 16:22:22,761: +PARAM [/gazebo/gravity_x] by /gazebo
+[rosmaster.master][INFO] 2021-05-18 16:22:22,762: +PARAM [/gazebo/gravity_y] by /gazebo
+[rosmaster.master][INFO] 2021-05-18 16:22:22,763: +PARAM [/gazebo/gravity_z] by /gazebo
+[rosmaster.master][INFO] 2021-05-18 16:22:22,763: +PARAM [/gazebo/auto_disable_bodies] by /gazebo
+[rosmaster.master][INFO] 2021-05-18 16:22:22,764: +PARAM [/gazebo/sor_pgs_precon_iters] by /gazebo
+[rosmaster.master][INFO] 2021-05-18 16:22:22,765: +PARAM [/gazebo/sor_pgs_iters] by /gazebo
+[rosmaster.master][INFO] 2021-05-18 16:22:22,765: +PARAM [/gazebo/sor_pgs_w] by /gazebo
+[rosmaster.master][INFO] 2021-05-18 16:22:22,766: +PARAM [/gazebo/sor_pgs_rms_error_tol] by /gazebo
+[rosmaster.master][INFO] 2021-05-18 16:22:22,767: +PARAM [/gazebo/cfm] by /gazebo
+[rosmaster.master][INFO] 2021-05-18 16:22:22,768: +PARAM [/gazebo/erp] by /gazebo
+[rosmaster.master][INFO] 2021-05-18 16:22:22,768: +PARAM [/gazebo/contact_surface_layer] by /gazebo
+[rosmaster.master][INFO] 2021-05-18 16:22:22,769: +PARAM [/gazebo/contact_max_correcting_vel] by /gazebo
+[rosmaster.master][INFO] 2021-05-18 16:22:22,769: +PARAM [/gazebo/max_contacts] by /gazebo
+[rosmaster.master][INFO] 2021-05-18 16:22:22,852: +PUB [/pf/pose/odom] /better_odom http://ubuntu:33705/
+[rosmaster.master][INFO] 2021-05-18 16:22:22,852: +CACHEDPARAM [/rosout_disable_topics_generation] by /better_odom
+[rosmaster.master][INFO] 2021-05-18 16:22:22,913: +CACHEDPARAM [/rosout_disable_topics_generation] by /racecar_spawn
+[rosmaster.master][INFO] 2021-05-18 16:22:22,914: +SERVICE [/static_map] /map_server http://ubuntu:33311/
+[rosmaster.master][INFO] 2021-05-18 16:22:22,918: +PUB [/map_metadata] /map_server http://ubuntu:33311/
+[rosmaster.master][INFO] 2021-05-18 16:22:22,921: +PUB [/map] /map_server http://ubuntu:33311/
+[rosmaster.master][ERROR] 2021-05-18 16:22:23,488: Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 177, in validated_f
+    code, msg, val = f(*newArgs, **kwds)
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 435, in searchParam
+    search_key = self.param_server.search_param(caller_id, key)
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosmaster/paramserver.py", line 116, in search_param
+    raise ValueError("namespace must be global")
+ValueError: namespace must be global
+
+[rosmaster.master][INFO] 2021-05-18 16:22:23,495: +PUB [/scan] /gazebo http://ubuntu:44103/
+[rosmaster.master][INFO] 2021-05-18 16:22:23,501: +CACHEDPARAM [/rosout_disable_topics_generation] by /racecar_spawn
+[rosmaster.master][INFO] 2021-05-18 16:22:23,504: -SUB [/clock] /racecar_spawn http://ubuntu:40633/
+[rosmaster.master][INFO] 2021-05-18 16:22:23,504: -PUB [/rosout] /racecar_spawn http://ubuntu:40633/
+[rosmaster.master][INFO] 2021-05-18 16:22:23,504: -SERVICE [/racecar_spawn/get_loggers] /racecar_spawn rosrpc://ubuntu:44259
+[rosmaster.master][INFO] 2021-05-18 16:22:23,504: -SERVICE [/racecar_spawn/set_logger_level] /racecar_spawn rosrpc://ubuntu:44259
+[rosmaster.master][INFO] 2021-05-18 16:22:23,526: publisherUpdate[/rosout] -> http://ubuntu:37483/ ['http://ubuntu:46769/', 'http://ubuntu:42433/', 'http://ubuntu:40597/', 'http://ubuntu:46367/', 'http://ubuntu:34411/', 'http://ubuntu:44937/', 'http://ubuntu:43199/', 'http://ubuntu:33705/', 'http://ubuntu:33301/', 'http://ubuntu:36019/', 'http://ubuntu:33311/', 'http://ubuntu:40357/', 'http://ubuntu:36611/', 'http://ubuntu:44103/', 'http://ubuntu:34005/', 'http://ubuntu:45025/', 'http://ubuntu:45383/']
+[rosmaster.master][INFO] 2021-05-18 16:22:23,527: publisherUpdate[/rosout] -> http://ubuntu:37483/ ['http://ubuntu:46769/', 'http://ubuntu:42433/', 'http://ubuntu:40597/', 'http://ubuntu:46367/', 'http://ubuntu:34411/', 'http://ubuntu:44937/', 'http://ubuntu:43199/', 'http://ubuntu:33705/', 'http://ubuntu:33301/', 'http://ubuntu:36019/', 'http://ubuntu:33311/', 'http://ubuntu:40357/', 'http://ubuntu:36611/', 'http://ubuntu:44103/', 'http://ubuntu:34005/', 'http://ubuntu:45025/', 'http://ubuntu:45383/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-05-18 16:22:23,865: +SERVICE [/camera/zed/set_camera_info] /gazebo http://ubuntu:44103/
+[rosmaster.master][INFO] 2021-05-18 16:22:23,870: +SERVICE [/camera/zed/set_parameters] /gazebo http://ubuntu:44103/
+[rosmaster.master][INFO] 2021-05-18 16:22:23,871: +PUB [/camera/zed/parameter_descriptions] /gazebo http://ubuntu:44103/
+[rosmaster.master][INFO] 2021-05-18 16:22:23,874: +PUB [/camera/zed/parameter_updates] /gazebo http://ubuntu:44103/
+[rosmaster.master][INFO] 2021-05-18 16:22:23,876: +PARAM [/camera/zed/imager_rate] by /gazebo
+[rosmaster.master][INFO] 2021-05-18 16:22:23,877: +PARAM [/camera/zed/imager_rate] by /gazebo
+[rosmaster.master][INFO] 2021-05-18 16:22:23,955: +PUB [/camera/zed/rgb/image_rect_color/compressedDepth] /gazebo http://ubuntu:44103/
+[rosmaster.master][INFO] 2021-05-18 16:22:23,956: +SERVICE [/camera/zed/rgb/image_rect_color/compressedDepth/set_parameters] /gazebo http://ubuntu:44103/
+[rosmaster.master][INFO] 2021-05-18 16:22:23,957: +PUB [/camera/zed/rgb/image_rect_color/compressedDepth/parameter_descriptions] /gazebo http://ubuntu:44103/
+[rosmaster.master][INFO] 2021-05-18 16:22:23,958: +PUB [/camera/zed/rgb/image_rect_color/compressedDepth/parameter_updates] /gazebo http://ubuntu:44103/
+[rosmaster.master][INFO] 2021-05-18 16:22:23,967: +PARAM [/camera/zed/rgb/image_rect_color/compressedDepth/depth_max] by /gazebo
+[rosmaster.master][INFO] 2021-05-18 16:22:23,969: +PARAM [/camera/zed/rgb/image_rect_color/compressedDepth/depth_quantization] by /gazebo
+[rosmaster.master][INFO] 2021-05-18 16:22:23,970: +PARAM [/camera/zed/rgb/image_rect_color/compressedDepth/png_level] by /gazebo
+[rosmaster.master][INFO] 2021-05-18 16:22:23,974: +PARAM [/camera/zed/rgb/image_rect_color/compressedDepth/depth_max] by /gazebo
+[rosmaster.master][INFO] 2021-05-18 16:22:23,975: +PARAM [/camera/zed/rgb/image_rect_color/compressedDepth/depth_quantization] by /gazebo
+[rosmaster.master][INFO] 2021-05-18 16:22:23,976: +PARAM [/camera/zed/rgb/image_rect_color/compressedDepth/png_level] by /gazebo
+[rosmaster.master][INFO] 2021-05-18 16:22:23,987: +PUB [/camera/zed/rgb/image_rect_color/compressed] /gazebo http://ubuntu:44103/
+[rosmaster.master][INFO] 2021-05-18 16:22:23,989: +SERVICE [/camera/zed/rgb/image_rect_color/compressed/set_parameters] /gazebo http://ubuntu:44103/
+[rosmaster.master][INFO] 2021-05-18 16:22:23,990: +PUB [/camera/zed/rgb/image_rect_color/compressed/parameter_descriptions] /gazebo http://ubuntu:44103/
+[rosmaster.master][INFO] 2021-05-18 16:22:23,991: +PUB [/camera/zed/rgb/image_rect_color/compressed/parameter_updates] /gazebo http://ubuntu:44103/
+[rosmaster.master][INFO] 2021-05-18 16:22:23,995: +PARAM [/camera/zed/rgb/image_rect_color/compressed/format] by /gazebo
+[rosmaster.master][INFO] 2021-05-18 16:22:23,996: +PARAM [/camera/zed/rgb/image_rect_color/compressed/jpeg_quality] by /gazebo
+[rosmaster.master][INFO] 2021-05-18 16:22:23,996: +PARAM [/camera/zed/rgb/image_rect_color/compressed/png_level] by /gazebo
+[rosmaster.master][INFO] 2021-05-18 16:22:23,997: +PARAM [/camera/zed/rgb/image_rect_color/compressed/format] by /gazebo
+[rosmaster.master][INFO] 2021-05-18 16:22:23,997: +PARAM [/camera/zed/rgb/image_rect_color/compressed/jpeg_quality] by /gazebo
+[rosmaster.master][INFO] 2021-05-18 16:22:23,998: +PARAM [/camera/zed/rgb/image_rect_color/compressed/png_level] by /gazebo
+[rosmaster.master][INFO] 2021-05-18 16:22:24,003: +PUB [/camera/zed/rgb/image_rect_color] /gazebo http://ubuntu:44103/
+[rosmaster.master][INFO] 2021-05-18 16:22:24,008: +PUB [/camera/zed/rgb/image_rect_color/theora] /gazebo http://ubuntu:44103/
+[rosmaster.master][INFO] 2021-05-18 16:22:24,009: +SERVICE [/camera/zed/rgb/image_rect_color/theora/set_parameters] /gazebo http://ubuntu:44103/
+[rosmaster.master][INFO] 2021-05-18 16:22:24,010: +PUB [/camera/zed/rgb/image_rect_color/theora/parameter_descriptions] /gazebo http://ubuntu:44103/
+[rosmaster.master][INFO] 2021-05-18 16:22:24,010: +PUB [/camera/zed/rgb/image_rect_color/theora/parameter_updates] /gazebo http://ubuntu:44103/
+[rosmaster.master][INFO] 2021-05-18 16:22:24,012: +PARAM [/camera/zed/rgb/image_rect_color/theora/optimize_for] by /gazebo
+[rosmaster.master][INFO] 2021-05-18 16:22:24,013: +PARAM [/camera/zed/rgb/image_rect_color/theora/target_bitrate] by /gazebo
+[rosmaster.master][INFO] 2021-05-18 16:22:24,013: +PARAM [/camera/zed/rgb/image_rect_color/theora/quality] by /gazebo
+[rosmaster.master][INFO] 2021-05-18 16:22:24,014: +PARAM [/camera/zed/rgb/image_rect_color/theora/keyframe_frequency] by /gazebo
+[rosmaster.master][INFO] 2021-05-18 16:22:24,014: +PARAM [/camera/zed/rgb/image_rect_color/theora/optimize_for] by /gazebo
+[rosmaster.master][INFO] 2021-05-18 16:22:24,015: +PARAM [/camera/zed/rgb/image_rect_color/theora/target_bitrate] by /gazebo
+[rosmaster.master][INFO] 2021-05-18 16:22:24,015: +PARAM [/camera/zed/rgb/image_rect_color/theora/quality] by /gazebo
+[rosmaster.master][INFO] 2021-05-18 16:22:24,016: +PARAM [/camera/zed/rgb/image_rect_color/theora/keyframe_frequency] by /gazebo
+[rosmaster.master][INFO] 2021-05-18 16:22:24,016: +PUB [/camera/zed/rgb/camera_info] /gazebo http://ubuntu:44103/
+[rosmaster.master][INFO] 2021-05-18 16:22:24,111: +SERVICE [/racecar/controller_manager/list_controllers] /gazebo http://ubuntu:44103/
+[rosmaster.master][INFO] 2021-05-18 16:22:24,112: +SERVICE [/racecar/controller_manager/list_controller_types] /gazebo http://ubuntu:44103/
+[rosmaster.master][INFO] 2021-05-18 16:22:24,112: +SERVICE [/racecar/controller_manager/load_controller] /gazebo http://ubuntu:44103/
+[rosmaster.master][INFO] 2021-05-18 16:22:24,113: +SERVICE [/racecar/controller_manager/unload_controller] /gazebo http://ubuntu:44103/
+[rosmaster.master][INFO] 2021-05-18 16:22:24,114: +SERVICE [/racecar/controller_manager/switch_controller] /gazebo http://ubuntu:44103/
+[rosmaster.master][INFO] 2021-05-18 16:22:24,115: +SERVICE [/racecar/controller_manager/reload_controller_libraries] /gazebo http://ubuntu:44103/
+[rosmaster.master][INFO] 2021-05-18 16:22:24,386: +CACHEDPARAM [/rosout_disable_topics_generation] by /racecar/controller_manager
+[rosmaster.master][INFO] 2021-05-18 16:22:24,389: +CACHEDPARAM [/rosout_disable_topics_generation] by /racecar/controller_manager
+[rosmaster.master][INFO] 2021-05-18 16:22:24,392: +CACHEDPARAM [/rosout_disable_topics_generation] by /racecar/controller_manager
+[rosmaster.master][INFO] 2021-05-18 16:22:24,430: +SERVICE [/racecar/left_rear_wheel_velocity_controller/pid/set_parameters] /gazebo http://ubuntu:44103/
+[rosmaster.master][INFO] 2021-05-18 16:22:24,432: +PUB [/racecar/left_rear_wheel_velocity_controller/pid/parameter_descriptions] /gazebo http://ubuntu:44103/
+[rosmaster.master][INFO] 2021-05-18 16:22:24,433: +PUB [/racecar/left_rear_wheel_velocity_controller/pid/parameter_updates] /gazebo http://ubuntu:44103/
+[rosmaster.master][INFO] 2021-05-18 16:22:24,440: +PARAM [/racecar/left_rear_wheel_velocity_controller/pid/p] by /gazebo
+[rosmaster.master][INFO] 2021-05-18 16:22:24,441: +PARAM [/racecar/left_rear_wheel_velocity_controller/pid/i] by /gazebo
+[rosmaster.master][INFO] 2021-05-18 16:22:24,443: +PARAM [/racecar/left_rear_wheel_velocity_controller/pid/d] by /gazebo
+[rosmaster.master][INFO] 2021-05-18 16:22:24,444: +PARAM [/racecar/left_rear_wheel_velocity_controller/pid/i_clamp_min] by /gazebo
+[rosmaster.master][INFO] 2021-05-18 16:22:24,446: +PARAM [/racecar/left_rear_wheel_velocity_controller/pid/i_clamp_max] by /gazebo
+[rosmaster.master][INFO] 2021-05-18 16:22:24,447: +PARAM [/racecar/left_rear_wheel_velocity_controller/pid/antiwindup] by /gazebo
+[rosmaster.master][INFO] 2021-05-18 16:22:24,449: +PARAM [/racecar/left_rear_wheel_velocity_controller/pid/p] by /gazebo
+[rosmaster.master][INFO] 2021-05-18 16:22:24,449: +PARAM [/racecar/left_rear_wheel_velocity_controller/pid/i] by /gazebo
+[rosmaster.master][INFO] 2021-05-18 16:22:24,450: +PARAM [/racecar/left_rear_wheel_velocity_controller/pid/d] by /gazebo
+[rosmaster.master][INFO] 2021-05-18 16:22:24,451: +PARAM [/racecar/left_rear_wheel_velocity_controller/pid/i_clamp_min] by /gazebo
+[rosmaster.master][INFO] 2021-05-18 16:22:24,452: +PARAM [/racecar/left_rear_wheel_velocity_controller/pid/i_clamp_max] by /gazebo
+[rosmaster.master][INFO] 2021-05-18 16:22:24,454: +PARAM [/racecar/left_rear_wheel_velocity_controller/pid/antiwindup] by /gazebo
+[rosmaster.master][INFO] 2021-05-18 16:22:24,455: +PARAM [/racecar/left_rear_wheel_velocity_controller/pid/p] by /gazebo
+[rosmaster.master][INFO] 2021-05-18 16:22:24,456: +PARAM [/racecar/left_rear_wheel_velocity_controller/pid/i] by /gazebo
+[rosmaster.master][INFO] 2021-05-18 16:22:24,457: +PARAM [/racecar/left_rear_wheel_velocity_controller/pid/d] by /gazebo
+[rosmaster.master][INFO] 2021-05-18 16:22:24,458: +PARAM [/racecar/left_rear_wheel_velocity_controller/pid/i_clamp_min] by /gazebo
+[rosmaster.master][INFO] 2021-05-18 16:22:24,459: +PARAM [/racecar/left_rear_wheel_velocity_controller/pid/i_clamp_max] by /gazebo
+[rosmaster.master][INFO] 2021-05-18 16:22:24,459: +PARAM [/racecar/left_rear_wheel_velocity_controller/pid/antiwindup] by /gazebo
+[rosmaster.master][INFO] 2021-05-18 16:22:24,460: +PARAM [/racecar/left_rear_wheel_velocity_controller/pid/p] by /gazebo
+[rosmaster.master][INFO] 2021-05-18 16:22:24,462: +PARAM [/racecar/left_rear_wheel_velocity_controller/pid/i] by /gazebo
+[rosmaster.master][INFO] 2021-05-18 16:22:24,463: +PARAM [/racecar/left_rear_wheel_velocity_controller/pid/d] by /gazebo
+[rosmaster.master][INFO] 2021-05-18 16:22:24,464: +PARAM [/racecar/left_rear_wheel_velocity_controller/pid/i_clamp_min] by /gazebo
+[rosmaster.master][INFO] 2021-05-18 16:22:24,464: +PARAM [/racecar/left_rear_wheel_velocity_controller/pid/i_clamp_max] by /gazebo
+[rosmaster.master][INFO] 2021-05-18 16:22:24,465: +PARAM [/racecar/left_rear_wheel_velocity_controller/pid/antiwindup] by /gazebo
+[rosmaster.master][INFO] 2021-05-18 16:22:24,466: +PUB [/racecar/left_rear_wheel_velocity_controller/state] /gazebo http://ubuntu:44103/
+[rosmaster.master][INFO] 2021-05-18 16:22:24,471: +SUB [/racecar/left_rear_wheel_velocity_controller/command] /gazebo http://ubuntu:44103/
+[rosmaster.master][INFO] 2021-05-18 16:22:24,475: +CACHEDPARAM [/rosout_disable_topics_generation] by /racecar/controller_manager
+[rosmaster.master][INFO] 2021-05-18 16:22:24,500: +SERVICE [/racecar/right_rear_wheel_velocity_controller/pid/set_parameters] /gazebo http://ubuntu:44103/
+[rosmaster.master][INFO] 2021-05-18 16:22:24,502: +PUB [/racecar/right_rear_wheel_velocity_controller/pid/parameter_descriptions] /gazebo http://ubuntu:44103/
+[rosmaster.master][INFO] 2021-05-18 16:22:24,503: +PUB [/racecar/right_rear_wheel_velocity_controller/pid/parameter_updates] /gazebo http://ubuntu:44103/
+[rosmaster.master][INFO] 2021-05-18 16:22:24,521: +PARAM [/racecar/right_rear_wheel_velocity_controller/pid/p] by /gazebo
+[rosmaster.master][INFO] 2021-05-18 16:22:24,523: +PARAM [/racecar/right_rear_wheel_velocity_controller/pid/i] by /gazebo
+[rosmaster.master][INFO] 2021-05-18 16:22:24,524: +PARAM [/racecar/right_rear_wheel_velocity_controller/pid/d] by /gazebo
+[rosmaster.master][INFO] 2021-05-18 16:22:24,525: +PARAM [/racecar/right_rear_wheel_velocity_controller/pid/i_clamp_min] by /gazebo
+[rosmaster.master][INFO] 2021-05-18 16:22:24,526: +PARAM [/racecar/right_rear_wheel_velocity_controller/pid/i_clamp_max] by /gazebo
+[rosmaster.master][INFO] 2021-05-18 16:22:24,527: +PARAM [/racecar/right_rear_wheel_velocity_controller/pid/antiwindup] by /gazebo
+[rosmaster.master][INFO] 2021-05-18 16:22:24,529: +PARAM [/racecar/right_rear_wheel_velocity_controller/pid/p] by /gazebo
+[rosmaster.master][INFO] 2021-05-18 16:22:24,529: +PARAM [/racecar/right_rear_wheel_velocity_controller/pid/i] by /gazebo
+[rosmaster.master][INFO] 2021-05-18 16:22:24,530: +PARAM [/racecar/right_rear_wheel_velocity_controller/pid/d] by /gazebo
+[rosmaster.master][INFO] 2021-05-18 16:22:24,531: +PARAM [/racecar/right_rear_wheel_velocity_controller/pid/i_clamp_min] by /gazebo
+[rosmaster.master][INFO] 2021-05-18 16:22:24,533: +PARAM [/racecar/right_rear_wheel_velocity_controller/pid/i_clamp_max] by /gazebo
+[rosmaster.master][INFO] 2021-05-18 16:22:24,534: +PARAM [/racecar/right_rear_wheel_velocity_controller/pid/antiwindup] by /gazebo
+[rosmaster.master][INFO] 2021-05-18 16:22:24,546: +PARAM [/racecar/right_rear_wheel_velocity_controller/pid/p] by /gazebo
+[rosmaster.master][INFO] 2021-05-18 16:22:24,549: +PARAM [/racecar/right_rear_wheel_velocity_controller/pid/i] by /gazebo
+[rosmaster.master][INFO] 2021-05-18 16:22:24,550: +PARAM [/racecar/right_rear_wheel_velocity_controller/pid/d] by /gazebo
+[rosmaster.master][INFO] 2021-05-18 16:22:24,552: +PARAM [/racecar/right_rear_wheel_velocity_controller/pid/i_clamp_min] by /gazebo
+[rosmaster.master][INFO] 2021-05-18 16:22:24,553: +PARAM [/racecar/right_rear_wheel_velocity_controller/pid/i_clamp_max] by /gazebo
+[rosmaster.master][INFO] 2021-05-18 16:22:24,554: +PARAM [/racecar/right_rear_wheel_velocity_controller/pid/antiwindup] by /gazebo
+[rosmaster.master][INFO] 2021-05-18 16:22:24,555: +PARAM [/racecar/right_rear_wheel_velocity_controller/pid/p] by /gazebo
+[rosmaster.master][INFO] 2021-05-18 16:22:24,557: +PARAM [/racecar/right_rear_wheel_velocity_controller/pid/i] by /gazebo
+[rosmaster.master][INFO] 2021-05-18 16:22:24,557: +PARAM [/racecar/right_rear_wheel_velocity_controller/pid/d] by /gazebo
+[rosmaster.master][INFO] 2021-05-18 16:22:24,558: +PARAM [/racecar/right_rear_wheel_velocity_controller/pid/i_clamp_min] by /gazebo
+[rosmaster.master][INFO] 2021-05-18 16:22:24,559: +PARAM [/racecar/right_rear_wheel_velocity_controller/pid/i_clamp_max] by /gazebo
+[rosmaster.master][INFO] 2021-05-18 16:22:24,560: +PARAM [/racecar/right_rear_wheel_velocity_controller/pid/antiwindup] by /gazebo
+[rosmaster.master][INFO] 2021-05-18 16:22:24,561: +PUB [/racecar/right_rear_wheel_velocity_controller/state] /gazebo http://ubuntu:44103/
+[rosmaster.master][INFO] 2021-05-18 16:22:24,565: +SUB [/racecar/right_rear_wheel_velocity_controller/command] /gazebo http://ubuntu:44103/
+[rosmaster.master][INFO] 2021-05-18 16:22:24,568: +CACHEDPARAM [/rosout_disable_topics_generation] by /racecar/controller_manager
+[rosmaster.master][INFO] 2021-05-18 16:22:24,588: +SERVICE [/racecar/left_front_wheel_velocity_controller/pid/set_parameters] /gazebo http://ubuntu:44103/
+[rosmaster.master][INFO] 2021-05-18 16:22:24,590: +PUB [/racecar/left_front_wheel_velocity_controller/pid/parameter_descriptions] /gazebo http://ubuntu:44103/
+[rosmaster.master][INFO] 2021-05-18 16:22:24,592: +PUB [/racecar/left_front_wheel_velocity_controller/pid/parameter_updates] /gazebo http://ubuntu:44103/
+[rosmaster.master][INFO] 2021-05-18 16:22:24,597: +PARAM [/racecar/left_front_wheel_velocity_controller/pid/p] by /gazebo
+[rosmaster.master][INFO] 2021-05-18 16:22:24,599: +PARAM [/racecar/left_front_wheel_velocity_controller/pid/i] by /gazebo
+[rosmaster.master][INFO] 2021-05-18 16:22:24,600: +PARAM [/racecar/left_front_wheel_velocity_controller/pid/d] by /gazebo
+[rosmaster.master][INFO] 2021-05-18 16:22:24,601: +PARAM [/racecar/left_front_wheel_velocity_controller/pid/i_clamp_min] by /gazebo
+[rosmaster.master][INFO] 2021-05-18 16:22:24,602: +PARAM [/racecar/left_front_wheel_velocity_controller/pid/i_clamp_max] by /gazebo
+[rosmaster.master][INFO] 2021-05-18 16:22:24,602: +PARAM [/racecar/left_front_wheel_velocity_controller/pid/antiwindup] by /gazebo
+[rosmaster.master][INFO] 2021-05-18 16:22:24,603: +PARAM [/racecar/left_front_wheel_velocity_controller/pid/p] by /gazebo
+[rosmaster.master][INFO] 2021-05-18 16:22:24,604: +PARAM [/racecar/left_front_wheel_velocity_controller/pid/i] by /gazebo
+[rosmaster.master][INFO] 2021-05-18 16:22:24,605: +PARAM [/racecar/left_front_wheel_velocity_controller/pid/d] by /gazebo
+[rosmaster.master][INFO] 2021-05-18 16:22:24,605: +PARAM [/racecar/left_front_wheel_velocity_controller/pid/i_clamp_min] by /gazebo
+[rosmaster.master][INFO] 2021-05-18 16:22:24,606: +PARAM [/racecar/left_front_wheel_velocity_controller/pid/i_clamp_max] by /gazebo
+[rosmaster.master][INFO] 2021-05-18 16:22:24,615: +PARAM [/racecar/left_front_wheel_velocity_controller/pid/antiwindup] by /gazebo
+[rosmaster.master][INFO] 2021-05-18 16:22:24,617: +PARAM [/racecar/left_front_wheel_velocity_controller/pid/p] by /gazebo
+[rosmaster.master][INFO] 2021-05-18 16:22:24,618: +PARAM [/racecar/left_front_wheel_velocity_controller/pid/i] by /gazebo
+[rosmaster.master][INFO] 2021-05-18 16:22:24,619: +PARAM [/racecar/left_front_wheel_velocity_controller/pid/d] by /gazebo
+[rosmaster.master][INFO] 2021-05-18 16:22:24,620: +PARAM [/racecar/left_front_wheel_velocity_controller/pid/i_clamp_min] by /gazebo
+[rosmaster.master][INFO] 2021-05-18 16:22:24,621: +PARAM [/racecar/left_front_wheel_velocity_controller/pid/i_clamp_max] by /gazebo
+[rosmaster.master][INFO] 2021-05-18 16:22:24,621: +PARAM [/racecar/left_front_wheel_velocity_controller/pid/antiwindup] by /gazebo
+[rosmaster.master][INFO] 2021-05-18 16:22:24,622: +PARAM [/racecar/left_front_wheel_velocity_controller/pid/p] by /gazebo
+[rosmaster.master][INFO] 2021-05-18 16:22:24,627: +PARAM [/racecar/left_front_wheel_velocity_controller/pid/i] by /gazebo
+[rosmaster.master][INFO] 2021-05-18 16:22:24,629: +PARAM [/racecar/left_front_wheel_velocity_controller/pid/d] by /gazebo
+[rosmaster.master][INFO] 2021-05-18 16:22:24,630: +PARAM [/racecar/left_front_wheel_velocity_controller/pid/i_clamp_min] by /gazebo
+[rosmaster.master][INFO] 2021-05-18 16:22:24,634: +PARAM [/racecar/left_front_wheel_velocity_controller/pid/i_clamp_max] by /gazebo
+[rosmaster.master][INFO] 2021-05-18 16:22:24,636: +PARAM [/racecar/left_front_wheel_velocity_controller/pid/antiwindup] by /gazebo
+[rosmaster.master][INFO] 2021-05-18 16:22:24,637: +PUB [/racecar/left_front_wheel_velocity_controller/state] /gazebo http://ubuntu:44103/
+[rosmaster.master][INFO] 2021-05-18 16:22:24,654: +SUB [/racecar/left_front_wheel_velocity_controller/command] /gazebo http://ubuntu:44103/
+[rosmaster.master][INFO] 2021-05-18 16:22:24,658: +CACHEDPARAM [/rosout_disable_topics_generation] by /racecar/controller_manager
+[rosmaster.master][INFO] 2021-05-18 16:22:24,711: +SERVICE [/racecar/right_front_wheel_velocity_controller/pid/set_parameters] /gazebo http://ubuntu:44103/
+[rosmaster.master][INFO] 2021-05-18 16:22:24,712: +PUB [/racecar/right_front_wheel_velocity_controller/pid/parameter_descriptions] /gazebo http://ubuntu:44103/
+[rosmaster.master][INFO] 2021-05-18 16:22:24,714: +PUB [/racecar/right_front_wheel_velocity_controller/pid/parameter_updates] /gazebo http://ubuntu:44103/
+[rosmaster.master][INFO] 2021-05-18 16:22:24,733: +PARAM [/racecar/right_front_wheel_velocity_controller/pid/p] by /gazebo
+[rosmaster.master][INFO] 2021-05-18 16:22:24,734: +PARAM [/racecar/right_front_wheel_velocity_controller/pid/i] by /gazebo
+[rosmaster.master][INFO] 2021-05-18 16:22:24,737: +PARAM [/racecar/right_front_wheel_velocity_controller/pid/d] by /gazebo
+[rosmaster.master][INFO] 2021-05-18 16:22:24,740: +PARAM [/racecar/right_front_wheel_velocity_controller/pid/i_clamp_min] by /gazebo
+[rosmaster.master][INFO] 2021-05-18 16:22:24,742: +PARAM [/racecar/right_front_wheel_velocity_controller/pid/i_clamp_max] by /gazebo
+[rosmaster.master][INFO] 2021-05-18 16:22:24,743: +PARAM [/racecar/right_front_wheel_velocity_controller/pid/antiwindup] by /gazebo
+[rosmaster.master][INFO] 2021-05-18 16:22:24,744: +PARAM [/racecar/right_front_wheel_velocity_controller/pid/p] by /gazebo
+[rosmaster.master][INFO] 2021-05-18 16:22:24,746: +PARAM [/racecar/right_front_wheel_velocity_controller/pid/i] by /gazebo
+[rosmaster.master][INFO] 2021-05-18 16:22:24,747: +PARAM [/racecar/right_front_wheel_velocity_controller/pid/d] by /gazebo
+[rosmaster.master][INFO] 2021-05-18 16:22:24,749: +PARAM [/racecar/right_front_wheel_velocity_controller/pid/i_clamp_min] by /gazebo
+[rosmaster.master][INFO] 2021-05-18 16:22:24,751: +PARAM [/racecar/right_front_wheel_velocity_controller/pid/i_clamp_max] by /gazebo
+[rosmaster.master][INFO] 2021-05-18 16:22:24,758: +PARAM [/racecar/right_front_wheel_velocity_controller/pid/antiwindup] by /gazebo
+[rosmaster.master][INFO] 2021-05-18 16:22:24,760: +PARAM [/racecar/right_front_wheel_velocity_controller/pid/p] by /gazebo
+[rosmaster.master][INFO] 2021-05-18 16:22:24,761: +PARAM [/racecar/right_front_wheel_velocity_controller/pid/i] by /gazebo
+[rosmaster.master][INFO] 2021-05-18 16:22:24,762: +PARAM [/racecar/right_front_wheel_velocity_controller/pid/d] by /gazebo
+[rosmaster.master][INFO] 2021-05-18 16:22:24,763: +PARAM [/racecar/right_front_wheel_velocity_controller/pid/i_clamp_min] by /gazebo
+[rosmaster.master][INFO] 2021-05-18 16:22:24,763: +PARAM [/racecar/right_front_wheel_velocity_controller/pid/i_clamp_max] by /gazebo
+[rosmaster.master][INFO] 2021-05-18 16:22:24,765: +PARAM [/racecar/right_front_wheel_velocity_controller/pid/antiwindup] by /gazebo
+[rosmaster.master][INFO] 2021-05-18 16:22:24,765: +PARAM [/racecar/right_front_wheel_velocity_controller/pid/p] by /gazebo
+[rosmaster.master][INFO] 2021-05-18 16:22:24,766: +PARAM [/racecar/right_front_wheel_velocity_controller/pid/i] by /gazebo
+[rosmaster.master][INFO] 2021-05-18 16:22:24,767: +PARAM [/racecar/right_front_wheel_velocity_controller/pid/d] by /gazebo
+[rosmaster.master][INFO] 2021-05-18 16:22:24,768: +PARAM [/racecar/right_front_wheel_velocity_controller/pid/i_clamp_min] by /gazebo
+[rosmaster.master][INFO] 2021-05-18 16:22:24,769: +PARAM [/racecar/right_front_wheel_velocity_controller/pid/i_clamp_max] by /gazebo
+[rosmaster.master][INFO] 2021-05-18 16:22:24,770: +PARAM [/racecar/right_front_wheel_velocity_controller/pid/antiwindup] by /gazebo
+[rosmaster.master][INFO] 2021-05-18 16:22:24,773: +PUB [/racecar/right_front_wheel_velocity_controller/state] /gazebo http://ubuntu:44103/
+[rosmaster.master][INFO] 2021-05-18 16:22:24,782: +SUB [/racecar/right_front_wheel_velocity_controller/command] /gazebo http://ubuntu:44103/
+[rosmaster.master][INFO] 2021-05-18 16:22:24,793: +CACHEDPARAM [/rosout_disable_topics_generation] by /racecar/controller_manager
+[rosmaster.master][INFO] 2021-05-18 16:22:24,821: +SERVICE [/racecar/left_steering_hinge_position_controller/pid/set_parameters] /gazebo http://ubuntu:44103/
+[rosmaster.master][INFO] 2021-05-18 16:22:24,821: +PUB [/racecar/left_steering_hinge_position_controller/pid/parameter_descriptions] /gazebo http://ubuntu:44103/
+[rosmaster.master][INFO] 2021-05-18 16:22:24,822: +PUB [/racecar/left_steering_hinge_position_controller/pid/parameter_updates] /gazebo http://ubuntu:44103/
+[rosmaster.master][INFO] 2021-05-18 16:22:24,839: +PARAM [/racecar/left_steering_hinge_position_controller/pid/p] by /gazebo
+[rosmaster.master][INFO] 2021-05-18 16:22:24,840: +PARAM [/racecar/left_steering_hinge_position_controller/pid/i] by /gazebo
+[rosmaster.master][INFO] 2021-05-18 16:22:24,842: +PARAM [/racecar/left_steering_hinge_position_controller/pid/d] by /gazebo
+[rosmaster.master][INFO] 2021-05-18 16:22:24,843: +PARAM [/racecar/left_steering_hinge_position_controller/pid/i_clamp_min] by /gazebo
+[rosmaster.master][INFO] 2021-05-18 16:22:24,844: +PARAM [/racecar/left_steering_hinge_position_controller/pid/i_clamp_max] by /gazebo
+[rosmaster.master][INFO] 2021-05-18 16:22:24,847: +PARAM [/racecar/left_steering_hinge_position_controller/pid/antiwindup] by /gazebo
+[rosmaster.master][INFO] 2021-05-18 16:22:24,847: +PARAM [/racecar/left_steering_hinge_position_controller/pid/p] by /gazebo
+[rosmaster.master][INFO] 2021-05-18 16:22:24,848: +PARAM [/racecar/left_steering_hinge_position_controller/pid/i] by /gazebo
+[rosmaster.master][INFO] 2021-05-18 16:22:24,849: +PARAM [/racecar/left_steering_hinge_position_controller/pid/d] by /gazebo
+[rosmaster.master][INFO] 2021-05-18 16:22:24,857: +PARAM [/racecar/left_steering_hinge_position_controller/pid/i_clamp_min] by /gazebo
+[rosmaster.master][INFO] 2021-05-18 16:22:24,858: +PARAM [/racecar/left_steering_hinge_position_controller/pid/i_clamp_max] by /gazebo
+[rosmaster.master][INFO] 2021-05-18 16:22:24,860: +PARAM [/racecar/left_steering_hinge_position_controller/pid/antiwindup] by /gazebo
+[rosmaster.master][INFO] 2021-05-18 16:22:24,862: +PARAM [/racecar/left_steering_hinge_position_controller/pid/p] by /gazebo
+[rosmaster.master][INFO] 2021-05-18 16:22:24,862: +PARAM [/racecar/left_steering_hinge_position_controller/pid/i] by /gazebo
+[rosmaster.master][INFO] 2021-05-18 16:22:24,863: +PARAM [/racecar/left_steering_hinge_position_controller/pid/d] by /gazebo
+[rosmaster.master][INFO] 2021-05-18 16:22:24,865: +PARAM [/racecar/left_steering_hinge_position_controller/pid/i_clamp_min] by /gazebo
+[rosmaster.master][INFO] 2021-05-18 16:22:24,866: +PARAM [/racecar/left_steering_hinge_position_controller/pid/i_clamp_max] by /gazebo
+[rosmaster.master][INFO] 2021-05-18 16:22:24,866: +PARAM [/racecar/left_steering_hinge_position_controller/pid/antiwindup] by /gazebo
+[rosmaster.master][INFO] 2021-05-18 16:22:24,867: +PARAM [/racecar/left_steering_hinge_position_controller/pid/p] by /gazebo
+[rosmaster.master][INFO] 2021-05-18 16:22:24,868: +PARAM [/racecar/left_steering_hinge_position_controller/pid/i] by /gazebo
+[rosmaster.master][INFO] 2021-05-18 16:22:24,869: +PARAM [/racecar/left_steering_hinge_position_controller/pid/d] by /gazebo
+[rosmaster.master][INFO] 2021-05-18 16:22:24,870: +PARAM [/racecar/left_steering_hinge_position_controller/pid/i_clamp_min] by /gazebo
+[rosmaster.master][INFO] 2021-05-18 16:22:24,873: +PARAM [/racecar/left_steering_hinge_position_controller/pid/i_clamp_max] by /gazebo
+[rosmaster.master][INFO] 2021-05-18 16:22:24,875: +PARAM [/racecar/left_steering_hinge_position_controller/pid/antiwindup] by /gazebo
+[rosmaster.master][INFO] 2021-05-18 16:22:24,876: +PUB [/racecar/left_steering_hinge_position_controller/state] /gazebo http://ubuntu:44103/
+[rosmaster.master][INFO] 2021-05-18 16:22:24,881: +SUB [/racecar/left_steering_hinge_position_controller/command] /gazebo http://ubuntu:44103/
+[rosmaster.master][INFO] 2021-05-18 16:22:24,905: +CACHEDPARAM [/rosout_disable_topics_generation] by /racecar/controller_manager
+[rosmaster.master][INFO] 2021-05-18 16:22:24,919: +SERVICE [/racecar/right_steering_hinge_position_controller/pid/set_parameters] /gazebo http://ubuntu:44103/
+[rosmaster.master][INFO] 2021-05-18 16:22:24,921: +PUB [/racecar/right_steering_hinge_position_controller/pid/parameter_descriptions] /gazebo http://ubuntu:44103/
+[rosmaster.master][INFO] 2021-05-18 16:22:24,922: +PUB [/racecar/right_steering_hinge_position_controller/pid/parameter_updates] /gazebo http://ubuntu:44103/
+[rosmaster.master][INFO] 2021-05-18 16:22:24,932: +PARAM [/racecar/right_steering_hinge_position_controller/pid/p] by /gazebo
+[rosmaster.master][INFO] 2021-05-18 16:22:24,935: +PARAM [/racecar/right_steering_hinge_position_controller/pid/i] by /gazebo
+[rosmaster.master][INFO] 2021-05-18 16:22:24,939: +PARAM [/racecar/right_steering_hinge_position_controller/pid/d] by /gazebo
+[rosmaster.master][INFO] 2021-05-18 16:22:24,940: +PARAM [/racecar/right_steering_hinge_position_controller/pid/i_clamp_min] by /gazebo
+[rosmaster.master][INFO] 2021-05-18 16:22:24,941: +PARAM [/racecar/right_steering_hinge_position_controller/pid/i_clamp_max] by /gazebo
+[rosmaster.master][INFO] 2021-05-18 16:22:24,941: +PARAM [/racecar/right_steering_hinge_position_controller/pid/antiwindup] by /gazebo
+[rosmaster.master][INFO] 2021-05-18 16:22:24,943: +PARAM [/racecar/right_steering_hinge_position_controller/pid/p] by /gazebo
+[rosmaster.master][INFO] 2021-05-18 16:22:24,943: +PARAM [/racecar/right_steering_hinge_position_controller/pid/i] by /gazebo
+[rosmaster.master][INFO] 2021-05-18 16:22:24,945: +PARAM [/racecar/right_steering_hinge_position_controller/pid/d] by /gazebo
+[rosmaster.master][INFO] 2021-05-18 16:22:24,945: +PARAM [/racecar/right_steering_hinge_position_controller/pid/i_clamp_min] by /gazebo
+[rosmaster.master][INFO] 2021-05-18 16:22:24,946: +PARAM [/racecar/right_steering_hinge_position_controller/pid/i_clamp_max] by /gazebo
+[rosmaster.master][INFO] 2021-05-18 16:22:24,947: +PARAM [/racecar/right_steering_hinge_position_controller/pid/antiwindup] by /gazebo
+[rosmaster.master][INFO] 2021-05-18 16:22:24,947: +PARAM [/racecar/right_steering_hinge_position_controller/pid/p] by /gazebo
+[rosmaster.master][INFO] 2021-05-18 16:22:24,948: +PARAM [/racecar/right_steering_hinge_position_controller/pid/i] by /gazebo
+[rosmaster.master][INFO] 2021-05-18 16:22:24,948: +PARAM [/racecar/right_steering_hinge_position_controller/pid/d] by /gazebo
+[rosmaster.master][INFO] 2021-05-18 16:22:24,949: +PARAM [/racecar/right_steering_hinge_position_controller/pid/i_clamp_min] by /gazebo
+[rosmaster.master][INFO] 2021-05-18 16:22:24,950: +PARAM [/racecar/right_steering_hinge_position_controller/pid/i_clamp_max] by /gazebo
+[rosmaster.master][INFO] 2021-05-18 16:22:24,953: +PARAM [/racecar/right_steering_hinge_position_controller/pid/antiwindup] by /gazebo
+[rosmaster.master][INFO] 2021-05-18 16:22:24,955: +PARAM [/racecar/right_steering_hinge_position_controller/pid/p] by /gazebo
+[rosmaster.master][INFO] 2021-05-18 16:22:24,956: +PARAM [/racecar/right_steering_hinge_position_controller/pid/i] by /gazebo
+[rosmaster.master][INFO] 2021-05-18 16:22:24,958: +PARAM [/racecar/right_steering_hinge_position_controller/pid/d] by /gazebo
+[rosmaster.master][INFO] 2021-05-18 16:22:24,959: +PARAM [/racecar/right_steering_hinge_position_controller/pid/i_clamp_min] by /gazebo
+[rosmaster.master][INFO] 2021-05-18 16:22:24,960: +PARAM [/racecar/right_steering_hinge_position_controller/pid/i_clamp_max] by /gazebo
+[rosmaster.master][INFO] 2021-05-18 16:22:24,961: +PARAM [/racecar/right_steering_hinge_position_controller/pid/antiwindup] by /gazebo
+[rosmaster.master][INFO] 2021-05-18 16:22:24,962: +PUB [/racecar/right_steering_hinge_position_controller/state] /gazebo http://ubuntu:44103/
+[rosmaster.master][INFO] 2021-05-18 16:22:24,966: +SUB [/racecar/right_steering_hinge_position_controller/command] /gazebo http://ubuntu:44103/
+[rosmaster.master][INFO] 2021-05-18 16:22:24,974: +CACHEDPARAM [/rosout_disable_topics_generation] by /racecar/controller_manager
+[rosmaster.master][INFO] 2021-05-18 16:22:24,983: +PUB [/racecar/joint_states] /gazebo http://ubuntu:44103/
+[rosmaster.master][INFO] 2021-05-18 16:22:24,988: +CACHEDPARAM [/rosout_disable_topics_generation] by /racecar/controller_manager
+[rosmaster.master][INFO] 2021-05-18 16:22:24,996: +CACHEDPARAM [/rosout_disable_topics_generation] by /racecar/controller_manager
+[rosmaster.master][INFO] 2021-05-18 16:22:25,038: publisherUpdate[/racecar/joint_states] -> http://ubuntu:46769/ ['http://ubuntu:44103/']
+[rosmaster.master][INFO] 2021-05-18 16:22:25,040: publisherUpdate[/racecar/joint_states] -> http://ubuntu:46769/ ['http://ubuntu:44103/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-05-18 16:22:37,682: -PUB [/vesc/high_level/ackermann_cmd_mux/input/default] /vesc/zero_ackermann_cmd http://ubuntu:36605/
+[rosmaster.master][INFO] 2021-05-18 16:22:37,682: -SERVICE [/vesc/zero_ackermann_cmd/get_loggers] /vesc/zero_ackermann_cmd rosrpc://ubuntu:42299
+[rosmaster.master][INFO] 2021-05-18 16:22:37,682: -SERVICE [/vesc/zero_ackermann_cmd/set_logger_level] /vesc/zero_ackermann_cmd rosrpc://ubuntu:42299
+[rosmaster.master][INFO] 2021-05-18 16:22:37,695: publisherUpdate[/vesc/high_level/ackermann_cmd_mux/input/default] -> http://ubuntu:43199/ []
+[rosmaster.master][INFO] 2021-05-18 16:22:37,697: publisherUpdate[/vesc/high_level/ackermann_cmd_mux/input/default] -> http://ubuntu:43199/ []: sec=0.00, result=[0, 'Unknown Error', 0]
+[rosmaster.master][INFO] 2021-05-18 16:22:37,738: -PUB [/rosout] /vesc/mux_topic_backward_compat_navigation http://ubuntu:34411/
+[rosmaster.master][INFO] 2021-05-18 16:22:37,740: -SUB [/clock] /vesc/mux_topic_backward_compat_navigation http://ubuntu:34411/
+[rosmaster.master][INFO] 2021-05-18 16:22:37,742: -SUB [/vesc/ackermann_cmd_mux/input/navigation] /vesc/mux_topic_backward_compat_navigation http://ubuntu:34411/
+[rosmaster.master][INFO] 2021-05-18 16:22:37,747: -SERVICE [/vesc/mux_topic_backward_compat_navigation/get_loggers] /vesc/mux_topic_backward_compat_navigation rosrpc://ubuntu:41589
+[rosmaster.master][INFO] 2021-05-18 16:22:37,749: -PUB [/rosout] /map_server http://ubuntu:33311/
+[rosmaster.master][INFO] 2021-05-18 16:22:37,752: -SERVICE [/vesc/mux_topic_backward_compat_navigation/set_logger_level] /vesc/mux_topic_backward_compat_navigation rosrpc://ubuntu:41589
+[rosmaster.master][INFO] 2021-05-18 16:22:37,752: -PUB [/map_metadata] /map_server http://ubuntu:33311/
+[rosmaster.master][INFO] 2021-05-18 16:22:37,754: -PUB [/map] /map_server http://ubuntu:33311/
+[rosmaster.master][INFO] 2021-05-18 16:22:37,754: -SUB [/clock] /map_server http://ubuntu:33311/
+[rosmaster.master][INFO] 2021-05-18 16:22:37,755: -SERVICE [/map_server/get_loggers] /map_server rosrpc://ubuntu:49193
+[rosmaster.master][INFO] 2021-05-18 16:22:37,756: -SERVICE [/map_server/set_logger_level] /map_server rosrpc://ubuntu:49193
+[rosmaster.master][INFO] 2021-05-18 16:22:37,756: -SERVICE [/static_map] /map_server rosrpc://ubuntu:49193
+[rosmaster.master][INFO] 2021-05-18 16:22:37,757: -CACHEDPARAM [/rosout_disable_topics_generation] by /map_server
+[rosmaster.master][INFO] 2021-05-18 16:22:37,775: publisherUpdate[/rosout] -> http://ubuntu:37483/ ['http://ubuntu:46769/', 'http://ubuntu:42433/', 'http://ubuntu:40597/', 'http://ubuntu:46367/', 'http://ubuntu:44937/', 'http://ubuntu:43199/', 'http://ubuntu:33705/', 'http://ubuntu:33301/', 'http://ubuntu:36019/', 'http://ubuntu:33311/', 'http://ubuntu:40357/', 'http://ubuntu:36611/', 'http://ubuntu:44103/', 'http://ubuntu:34005/', 'http://ubuntu:45025/', 'http://ubuntu:45383/']
+[rosmaster.master][INFO] 2021-05-18 16:22:37,777: publisherUpdate[/rosout] -> http://ubuntu:37483/ ['http://ubuntu:46769/', 'http://ubuntu:42433/', 'http://ubuntu:40597/', 'http://ubuntu:46367/', 'http://ubuntu:44937/', 'http://ubuntu:43199/', 'http://ubuntu:33705/', 'http://ubuntu:33301/', 'http://ubuntu:36019/', 'http://ubuntu:33311/', 'http://ubuntu:40357/', 'http://ubuntu:36611/', 'http://ubuntu:44103/', 'http://ubuntu:34005/', 'http://ubuntu:45025/', 'http://ubuntu:45383/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-05-18 16:22:37,777: publisherUpdate[/rosout] -> http://ubuntu:37483/ ['http://ubuntu:46769/', 'http://ubuntu:42433/', 'http://ubuntu:40597/', 'http://ubuntu:46367/', 'http://ubuntu:44937/', 'http://ubuntu:43199/', 'http://ubuntu:33705/', 'http://ubuntu:33301/', 'http://ubuntu:36019/', 'http://ubuntu:40357/', 'http://ubuntu:36611/', 'http://ubuntu:44103/', 'http://ubuntu:34005/', 'http://ubuntu:45025/', 'http://ubuntu:45383/']
+[rosmaster.master][INFO] 2021-05-18 16:22:37,778: publisherUpdate[/rosout] -> http://ubuntu:37483/ ['http://ubuntu:46769/', 'http://ubuntu:42433/', 'http://ubuntu:40597/', 'http://ubuntu:46367/', 'http://ubuntu:44937/', 'http://ubuntu:43199/', 'http://ubuntu:33705/', 'http://ubuntu:33301/', 'http://ubuntu:36019/', 'http://ubuntu:40357/', 'http://ubuntu:36611/', 'http://ubuntu:44103/', 'http://ubuntu:34005/', 'http://ubuntu:45025/', 'http://ubuntu:45383/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-05-18 16:22:37,799: -PUB [/rosout] /vesc/high_level/ackermann_cmd_mux_nodelet_manager http://ubuntu:43199/
+[rosmaster.master][INFO] 2021-05-18 16:22:37,804: -PUB [/vesc/high_level/ackermann_cmd_mux/parameter_descriptions] /vesc/high_level/ackermann_cmd_mux_nodelet_manager http://ubuntu:43199/
+[rosmaster.master][INFO] 2021-05-18 16:22:37,804: -PUB [/vesc/high_level/ackermann_cmd_mux/parameter_updates] /vesc/high_level/ackermann_cmd_mux_nodelet_manager http://ubuntu:43199/
+[rosmaster.master][INFO] 2021-05-18 16:22:37,805: -PUB [/vesc/high_level/ackermann_cmd_mux/output] /vesc/high_level/ackermann_cmd_mux_nodelet_manager http://ubuntu:43199/
+[rosmaster.master][INFO] 2021-05-18 16:22:37,807: -PUB [/vesc/high_level/ackermann_cmd_mux/active] /vesc/high_level/ackermann_cmd_mux_nodelet_manager http://ubuntu:43199/
+[rosmaster.master][INFO] 2021-05-18 16:22:37,808: -PUB [/vesc/high_level/ackermann_cmd_mux_nodelet_manager/bond] /vesc/high_level/ackermann_cmd_mux_nodelet_manager http://ubuntu:43199/
+[rosmaster.master][INFO] 2021-05-18 16:22:37,811: -SUB [/clock] /vesc/high_level/ackermann_cmd_mux_nodelet_manager http://ubuntu:43199/
+[rosmaster.master][INFO] 2021-05-18 16:22:37,812: -SUB [/vesc/high_level/ackermann_cmd_mux/input/nav_0] /vesc/high_level/ackermann_cmd_mux_nodelet_manager http://ubuntu:43199/
+[rosmaster.master][INFO] 2021-05-18 16:22:37,812: -SUB [/vesc/high_level/ackermann_cmd_mux/input/nav_1] /vesc/high_level/ackermann_cmd_mux_nodelet_manager http://ubuntu:43199/
+[rosmaster.master][INFO] 2021-05-18 16:22:37,813: -SUB [/vesc/high_level/ackermann_cmd_mux/input/nav_2] /vesc/high_level/ackermann_cmd_mux_nodelet_manager http://ubuntu:43199/
+[rosmaster.master][INFO] 2021-05-18 16:22:37,819: -SUB [/vesc/high_level/ackermann_cmd_mux/input/nav_3] /vesc/high_level/ackermann_cmd_mux_nodelet_manager http://ubuntu:43199/
+[rosmaster.master][INFO] 2021-05-18 16:22:37,821: -SUB [/vesc/high_level/ackermann_cmd_mux/input/default] /vesc/high_level/ackermann_cmd_mux_nodelet_manager http://ubuntu:43199/
+[rosmaster.master][INFO] 2021-05-18 16:22:37,823: -SUB [/vesc/high_level/ackermann_cmd_mux_nodelet_manager/bond] /vesc/high_level/ackermann_cmd_mux_nodelet_manager http://ubuntu:43199/
+[rosmaster.master][INFO] 2021-05-18 16:22:37,825: -PUB [/rosout] /vesc/mux_topic_backward_compat_teleop http://ubuntu:46367/
+[rosmaster.master][INFO] 2021-05-18 16:22:37,827: -SUB [/clock] /vesc/mux_topic_backward_compat_teleop http://ubuntu:46367/
+[rosmaster.master][INFO] 2021-05-18 16:22:37,827: -SUB [/vesc/ackermann_cmd_mux/input/teleop] /vesc/mux_topic_backward_compat_teleop http://ubuntu:46367/
+[rosmaster.master][INFO] 2021-05-18 16:22:37,828: -SERVICE [/vesc/mux_topic_backward_compat_teleop/get_loggers] /vesc/mux_topic_backward_compat_teleop rosrpc://ubuntu:37835
+[rosmaster.master][INFO] 2021-05-18 16:22:37,829: -SERVICE [/vesc/mux_topic_backward_compat_teleop/set_logger_level] /vesc/mux_topic_backward_compat_teleop rosrpc://ubuntu:37835
+[rosmaster.master][INFO] 2021-05-18 16:22:37,831: -PUB [/rosout] /better_odom http://ubuntu:33705/
+[rosmaster.master][INFO] 2021-05-18 16:22:37,832: -SERVICE [/vesc/high_level/ackermann_cmd_mux_nodelet_manager/get_loggers] /vesc/high_level/ackermann_cmd_mux_nodelet_manager rosrpc://ubuntu:45919
+[rosmaster.master][INFO] 2021-05-18 16:22:37,833: -PUB [/pf/pose/odom] /better_odom http://ubuntu:33705/
+[rosmaster.master][INFO] 2021-05-18 16:22:37,834: -SUB [/clock] /better_odom http://ubuntu:33705/
+[rosmaster.master][INFO] 2021-05-18 16:22:37,836: -SUB [/vesc/odom] /better_odom http://ubuntu:33705/
+[rosmaster.master][INFO] 2021-05-18 16:22:37,837: -SERVICE [/vesc/high_level/ackermann_cmd_mux_nodelet_manager/set_logger_level] /vesc/high_level/ackermann_cmd_mux_nodelet_manager rosrpc://ubuntu:45919
+[rosmaster.master][INFO] 2021-05-18 16:22:37,840: -SERVICE [/better_odom/get_loggers] /better_odom rosrpc://ubuntu:33643
+[rosmaster.master][INFO] 2021-05-18 16:22:37,841: -PUB [/rosout] /vesc/low_level/ackermann_cmd_mux_nodelet_manager http://ubuntu:36019/
+[rosmaster.master][INFO] 2021-05-18 16:22:37,842: -PUB [/vesc/low_level/ackermann_cmd_mux/parameter_descriptions] /vesc/low_level/ackermann_cmd_mux_nodelet_manager http://ubuntu:36019/
+[rosmaster.master][INFO] 2021-05-18 16:22:37,843: -PUB [/vesc/low_level/ackermann_cmd_mux/parameter_updates] /vesc/low_level/ackermann_cmd_mux_nodelet_manager http://ubuntu:36019/
+[rosmaster.master][INFO] 2021-05-18 16:22:37,843: -PUB [/vesc/low_level/ackermann_cmd_mux/output] /vesc/low_level/ackermann_cmd_mux_nodelet_manager http://ubuntu:36019/
+[rosmaster.master][INFO] 2021-05-18 16:22:37,844: -PUB [/vesc/low_level/ackermann_cmd_mux/active] /vesc/low_level/ackermann_cmd_mux_nodelet_manager http://ubuntu:36019/
+[rosmaster.master][INFO] 2021-05-18 16:22:37,847: -SERVICE [/better_odom/set_logger_level] /better_odom rosrpc://ubuntu:33643
+[rosmaster.master][INFO] 2021-05-18 16:22:37,847: -SERVICE [/vesc/high_level/ackermann_cmd_mux_nodelet_manager/load_nodelet] /vesc/high_level/ackermann_cmd_mux_nodelet_manager rosrpc://ubuntu:45919
+[rosmaster.master][INFO] 2021-05-18 16:22:37,848: -CACHEDPARAM [/rosout_disable_topics_generation] by /better_odom
+[rosmaster.master][INFO] 2021-05-18 16:22:37,848: -PUB [/vesc/low_level/ackermann_cmd_mux_nodelet_manager/bond] /vesc/low_level/ackermann_cmd_mux_nodelet_manager http://ubuntu:36019/
+[rosmaster.master][INFO] 2021-05-18 16:22:37,849: -SUB [/clock] /vesc/low_level/ackermann_cmd_mux_nodelet_manager http://ubuntu:36019/
+[rosmaster.master][INFO] 2021-05-18 16:22:37,851: -SUB [/vesc/low_level/ackermann_cmd_mux/input/teleop] /vesc/low_level/ackermann_cmd_mux_nodelet_manager http://ubuntu:36019/
+[rosmaster.master][INFO] 2021-05-18 16:22:37,854: -SERVICE [/vesc/high_level/ackermann_cmd_mux_nodelet_manager/unload_nodelet] /vesc/high_level/ackermann_cmd_mux_nodelet_manager rosrpc://ubuntu:45919
+[rosmaster.master][INFO] 2021-05-18 16:22:37,855: -SUB [/vesc/low_level/ackermann_cmd_mux/input/safety] /vesc/low_level/ackermann_cmd_mux_nodelet_manager http://ubuntu:36019/
+[rosmaster.master][INFO] 2021-05-18 16:22:37,857: -SERVICE [/vesc/high_level/ackermann_cmd_mux_nodelet_manager/list] /vesc/high_level/ackermann_cmd_mux_nodelet_manager rosrpc://ubuntu:45919
+[rosmaster.master][INFO] 2021-05-18 16:22:37,858: -SERVICE [/vesc/high_level/ackermann_cmd_mux/set_parameters] /vesc/high_level/ackermann_cmd_mux_nodelet_manager rosrpc://ubuntu:45919
+[rosmaster.master][INFO] 2021-05-18 16:22:37,860: -SUB [/vesc/low_level/ackermann_cmd_mux/input/navigation] /vesc/low_level/ackermann_cmd_mux_nodelet_manager http://ubuntu:36019/
+[rosmaster.master][INFO] 2021-05-18 16:22:37,866: -CACHEDPARAM [/rosout_disable_topics_generation] by /vesc/high_level/ackermann_cmd_mux_nodelet_manager
+[rosmaster.master][INFO] 2021-05-18 16:22:37,867: -SUB [/vesc/low_level/ackermann_cmd_mux_nodelet_manager/bond] /vesc/low_level/ackermann_cmd_mux_nodelet_manager http://ubuntu:36019/
+[rosmaster.master][INFO] 2021-05-18 16:22:37,879: publisherUpdate[/rosout] -> http://ubuntu:37483/ ['http://ubuntu:46769/', 'http://ubuntu:42433/', 'http://ubuntu:40597/', 'http://ubuntu:46367/', 'http://ubuntu:44937/', 'http://ubuntu:33705/', 'http://ubuntu:33301/', 'http://ubuntu:36019/', 'http://ubuntu:40357/', 'http://ubuntu:36611/', 'http://ubuntu:44103/', 'http://ubuntu:34005/', 'http://ubuntu:45025/', 'http://ubuntu:45383/']
+[rosmaster.master][INFO] 2021-05-18 16:22:37,879: -SERVICE [/vesc/low_level/ackermann_cmd_mux_nodelet_manager/get_loggers] /vesc/low_level/ackermann_cmd_mux_nodelet_manager rosrpc://ubuntu:35197
+[rosmaster.master][INFO] 2021-05-18 16:22:37,880: publisherUpdate[/rosout] -> http://ubuntu:37483/ ['http://ubuntu:46769/', 'http://ubuntu:42433/', 'http://ubuntu:40597/', 'http://ubuntu:46367/', 'http://ubuntu:44937/', 'http://ubuntu:33705/', 'http://ubuntu:33301/', 'http://ubuntu:36019/', 'http://ubuntu:40357/', 'http://ubuntu:36611/', 'http://ubuntu:44103/', 'http://ubuntu:34005/', 'http://ubuntu:45025/', 'http://ubuntu:45383/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-05-18 16:22:37,880: publisherUpdate[/vesc/high_level/ackermann_cmd_mux/output] -> http://ubuntu:42433/ []
+[rosmaster.master][INFO] 2021-05-18 16:22:37,880: publisherUpdate[/vesc/high_level/ackermann_cmd_mux/output] -> http://ubuntu:42433/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-05-18 16:22:37,880: publisherUpdate[/vesc/high_level/ackermann_cmd_mux_nodelet_manager/bond] -> http://ubuntu:43199/ ['http://ubuntu:44937/']
+[rosmaster.master][INFO] 2021-05-18 16:22:37,881: publisherUpdate[/vesc/high_level/ackermann_cmd_mux_nodelet_manager/bond] -> http://ubuntu:43199/ ['http://ubuntu:44937/']: sec=0.00, exception=<Fault -1: 'publisherUpdate: unknown method name'>
+[rosmaster.master][INFO] 2021-05-18 16:22:37,882: publisherUpdate[/vesc/high_level/ackermann_cmd_mux_nodelet_manager/bond] -> http://ubuntu:44937/ ['http://ubuntu:44937/']
+[rosmaster.threadpool][ERROR] 2021-05-18 16:22:37,883: Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1243, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1602, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1283, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1316, in single_request
+    return self.parse_response(response)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1493, in parse_response
+    return u.close()
+  File "/usr/lib/python2.7/xmlrpclib.py", line 800, in close
+    raise Fault(**self._stack[0])
+Fault: <Fault -1: 'publisherUpdate: unknown method name'>
+
+[rosmaster.master][INFO] 2021-05-18 16:22:37,884: publisherUpdate[/rosout] -> http://ubuntu:37483/ ['http://ubuntu:46769/', 'http://ubuntu:42433/', 'http://ubuntu:40597/', 'http://ubuntu:44937/', 'http://ubuntu:33705/', 'http://ubuntu:33301/', 'http://ubuntu:36019/', 'http://ubuntu:40357/', 'http://ubuntu:36611/', 'http://ubuntu:44103/', 'http://ubuntu:34005/', 'http://ubuntu:45025/', 'http://ubuntu:45383/']
+[rosmaster.master][INFO] 2021-05-18 16:22:37,883: -SERVICE [/vesc/low_level/ackermann_cmd_mux_nodelet_manager/set_logger_level] /vesc/low_level/ackermann_cmd_mux_nodelet_manager rosrpc://ubuntu:35197
+[rosmaster.master][INFO] 2021-05-18 16:22:37,887: publisherUpdate[/rosout] -> http://ubuntu:37483/ ['http://ubuntu:46769/', 'http://ubuntu:42433/', 'http://ubuntu:40597/', 'http://ubuntu:44937/', 'http://ubuntu:33705/', 'http://ubuntu:33301/', 'http://ubuntu:36019/', 'http://ubuntu:40357/', 'http://ubuntu:36611/', 'http://ubuntu:44103/', 'http://ubuntu:34005/', 'http://ubuntu:45025/', 'http://ubuntu:45383/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-05-18 16:22:37,887: publisherUpdate[/rosout] -> http://ubuntu:37483/ ['http://ubuntu:46769/', 'http://ubuntu:42433/', 'http://ubuntu:40597/', 'http://ubuntu:44937/', 'http://ubuntu:33301/', 'http://ubuntu:36019/', 'http://ubuntu:40357/', 'http://ubuntu:36611/', 'http://ubuntu:44103/', 'http://ubuntu:34005/', 'http://ubuntu:45025/', 'http://ubuntu:45383/']
+[rosmaster.master][INFO] 2021-05-18 16:22:37,887: -SERVICE [/vesc/low_level/ackermann_cmd_mux_nodelet_manager/load_nodelet] /vesc/low_level/ackermann_cmd_mux_nodelet_manager rosrpc://ubuntu:35197
+[rosmaster.master][INFO] 2021-05-18 16:22:37,889: publisherUpdate[/rosout] -> http://ubuntu:37483/ ['http://ubuntu:46769/', 'http://ubuntu:42433/', 'http://ubuntu:40597/', 'http://ubuntu:44937/', 'http://ubuntu:33301/', 'http://ubuntu:36019/', 'http://ubuntu:40357/', 'http://ubuntu:36611/', 'http://ubuntu:44103/', 'http://ubuntu:34005/', 'http://ubuntu:45025/', 'http://ubuntu:45383/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-05-18 16:22:37,889: publisherUpdate[/rosout] -> http://ubuntu:37483/ ['http://ubuntu:46769/', 'http://ubuntu:42433/', 'http://ubuntu:40597/', 'http://ubuntu:44937/', 'http://ubuntu:33301/', 'http://ubuntu:40357/', 'http://ubuntu:36611/', 'http://ubuntu:44103/', 'http://ubuntu:34005/', 'http://ubuntu:45025/', 'http://ubuntu:45383/']
+[rosmaster.master][INFO] 2021-05-18 16:22:37,890: -SERVICE [/vesc/low_level/ackermann_cmd_mux_nodelet_manager/unload_nodelet] /vesc/low_level/ackermann_cmd_mux_nodelet_manager rosrpc://ubuntu:35197
+[rosmaster.master][INFO] 2021-05-18 16:22:37,890: publisherUpdate[/rosout] -> http://ubuntu:37483/ ['http://ubuntu:46769/', 'http://ubuntu:42433/', 'http://ubuntu:40597/', 'http://ubuntu:44937/', 'http://ubuntu:33301/', 'http://ubuntu:40357/', 'http://ubuntu:36611/', 'http://ubuntu:44103/', 'http://ubuntu:34005/', 'http://ubuntu:45025/', 'http://ubuntu:45383/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-05-18 16:22:37,890: publisherUpdate[/vesc/low_level/ackermann_cmd_mux/output] -> http://ubuntu:36611/ []
+[rosmaster.master][INFO] 2021-05-18 16:22:37,891: -SERVICE [/vesc/low_level/ackermann_cmd_mux_nodelet_manager/list] /vesc/low_level/ackermann_cmd_mux_nodelet_manager rosrpc://ubuntu:35197
+[rosmaster.master][INFO] 2021-05-18 16:22:37,891: publisherUpdate[/vesc/high_level/ackermann_cmd_mux_nodelet_manager/bond] -> http://ubuntu:44937/ ['http://ubuntu:44937/']: sec=0.01, result=[0, 'Unknown Error', 0]
+[rosmaster.master][INFO] 2021-05-18 16:22:37,892: publisherUpdate[/vesc/low_level/ackermann_cmd_mux_nodelet_manager/bond] -> http://ubuntu:36019/ ['http://ubuntu:33301/']
+[rosmaster.master][INFO] 2021-05-18 16:22:37,906: publisherUpdate[/vesc/low_level/ackermann_cmd_mux/output] -> http://ubuntu:36611/ []: sec=0.02, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-05-18 16:22:37,905: publisherUpdate[/vesc/low_level/ackermann_cmd_mux_nodelet_manager/bond] -> http://ubuntu:33301/ ['http://ubuntu:33301/']
+[rosmaster.master][INFO] 2021-05-18 16:22:37,911: -SERVICE [/vesc/low_level/ackermann_cmd_mux/set_parameters] /vesc/low_level/ackermann_cmd_mux_nodelet_manager rosrpc://ubuntu:35197
+[rosmaster.master][INFO] 2021-05-18 16:22:37,911: publisherUpdate[/vesc/low_level/ackermann_cmd_mux_nodelet_manager/bond] -> http://ubuntu:33301/ ['http://ubuntu:33301/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-05-18 16:22:37,915: -CACHEDPARAM [/rosout_disable_topics_generation] by /vesc/low_level/ackermann_cmd_mux_nodelet_manager
+[rosmaster.master][INFO] 2021-05-18 16:22:37,911: publisherUpdate[/vesc/low_level/ackermann_cmd_mux_nodelet_manager/bond] -> http://ubuntu:36019/ ['http://ubuntu:33301/']: sec=0.02, exception=<Fault -1: 'publisherUpdate: unknown method name'>
+[rosmaster.threadpool][ERROR] 2021-05-18 16:22:37,917: Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1243, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1602, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1283, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1316, in single_request
+    return self.parse_response(response)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1493, in parse_response
+    return u.close()
+  File "/usr/lib/python2.7/xmlrpclib.py", line 800, in close
+    raise Fault(**self._stack[0])
+Fault: <Fault -1: 'publisherUpdate: unknown method name'>
+
+[rosmaster.master][INFO] 2021-05-18 16:22:37,933: -PUB [/rosout] /vesc/mux_topic_backward_compat_safety http://ubuntu:40597/
+[rosmaster.master][INFO] 2021-05-18 16:22:37,935: -SUB [/clock] /vesc/mux_topic_backward_compat_safety http://ubuntu:40597/
+[rosmaster.master][INFO] 2021-05-18 16:22:37,941: -SUB [/clock] /gazebo_odometry_node http://ubuntu:45383/
+[rosmaster.master][INFO] 2021-05-18 16:22:37,941: -SUB [/gazebo/link_states] /gazebo_odometry_node http://ubuntu:45383/
+[rosmaster.master][INFO] 2021-05-18 16:22:37,942: -PUB [/rosout] /gazebo_odometry_node http://ubuntu:45383/
+[rosmaster.master][INFO] 2021-05-18 16:22:37,942: -PUB [/tf] /gazebo_odometry_node http://ubuntu:45383/
+[rosmaster.master][INFO] 2021-05-18 16:22:37,942: -PUB [/vesc/odom] /gazebo_odometry_node http://ubuntu:45383/
+[rosmaster.master][INFO] 2021-05-18 16:22:37,942: -SERVICE [/gazebo_odometry_node/get_loggers] /gazebo_odometry_node rosrpc://ubuntu:38595
+[rosmaster.master][INFO] 2021-05-18 16:22:37,942: -SERVICE [/gazebo_odometry_node/set_logger_level] /gazebo_odometry_node rosrpc://ubuntu:38595
+[rosmaster.master][INFO] 2021-05-18 16:22:37,943: -SUB [/vesc/ackermann_cmd_mux/input/safety] /vesc/mux_topic_backward_compat_safety http://ubuntu:40597/
+[rosmaster.master][INFO] 2021-05-18 16:22:37,950: -SERVICE [/vesc/mux_topic_backward_compat_safety/get_loggers] /vesc/mux_topic_backward_compat_safety rosrpc://ubuntu:43951
+[rosmaster.master][INFO] 2021-05-18 16:22:37,957: -SERVICE [/vesc/mux_topic_backward_compat_safety/set_logger_level] /vesc/mux_topic_backward_compat_safety rosrpc://ubuntu:43951
+[rosmaster.master][INFO] 2021-05-18 16:22:37,981: -PUB [/rosout] /vesc/mux_chainer http://ubuntu:42433/
+[rosmaster.master][INFO] 2021-05-18 16:22:37,986: -SUB [/clock] /servo_commands http://ubuntu:36611/
+[rosmaster.master][INFO] 2021-05-18 16:22:37,987: -SUB [/vesc/low_level/ackermann_cmd_mux/output] /servo_commands http://ubuntu:36611/
+[rosmaster.master][INFO] 2021-05-18 16:22:37,987: -PUB [/racecar/right_steering_hinge_position_controller/command] /servo_commands http://ubuntu:36611/
+[rosmaster.master][INFO] 2021-05-18 16:22:37,987: -PUB [/racecar/left_rear_wheel_velocity_controller/command] /servo_commands http://ubuntu:36611/
+[rosmaster.master][INFO] 2021-05-18 16:22:37,988: -PUB [/racecar/left_steering_hinge_position_controller/command] /servo_commands http://ubuntu:36611/
+[rosmaster.master][INFO] 2021-05-18 16:22:37,988: -PUB [/racecar/right_rear_wheel_velocity_controller/command] /servo_commands http://ubuntu:36611/
+[rosmaster.master][INFO] 2021-05-18 16:22:37,988: -PUB [/racecar/left_front_wheel_velocity_controller/command] /servo_commands http://ubuntu:36611/
+[rosmaster.master][INFO] 2021-05-18 16:22:37,988: -PUB [/rosout] /servo_commands http://ubuntu:36611/
+[rosmaster.master][INFO] 2021-05-18 16:22:37,988: -PUB [/racecar/right_front_wheel_velocity_controller/command] /servo_commands http://ubuntu:36611/
+[rosmaster.master][INFO] 2021-05-18 16:22:37,988: -SERVICE [/servo_commands/set_logger_level] /servo_commands rosrpc://ubuntu:36509
+[rosmaster.master][INFO] 2021-05-18 16:22:37,989: -PUB [/vesc/low_level/ackermann_cmd_mux/input/navigation] /vesc/mux_chainer http://ubuntu:42433/
+[rosmaster.master][INFO] 2021-05-18 16:22:37,990: -SUB [/clock] /vesc/mux_chainer http://ubuntu:42433/
+[rosmaster.master][INFO] 2021-05-18 16:22:37,990: -SERVICE [/servo_commands/get_loggers] /servo_commands rosrpc://ubuntu:36509
+[rosmaster.master][INFO] 2021-05-18 16:22:37,991: -PUB [/rosout] /vesc/high_level/ackermann_cmd_mux http://ubuntu:44937/
+[rosmaster.master][INFO] 2021-05-18 16:22:37,992: -PUB [/vesc/high_level/ackermann_cmd_mux_nodelet_manager/bond] /vesc/high_level/ackermann_cmd_mux http://ubuntu:44937/
+[rosmaster.master][INFO] 2021-05-18 16:22:37,993: -SUB [/clock] /vesc/high_level/ackermann_cmd_mux http://ubuntu:44937/
+[rosmaster.master][INFO] 2021-05-18 16:22:37,995: -SUB [/vesc/high_level/ackermann_cmd_mux/output] /vesc/mux_chainer http://ubuntu:42433/
+[rosmaster.master][INFO] 2021-05-18 16:22:37,996: -SERVICE [/vesc/mux_chainer/get_loggers] /vesc/mux_chainer rosrpc://ubuntu:52913
+[rosmaster.master][INFO] 2021-05-18 16:22:38,000: -SUB [/vesc/high_level/ackermann_cmd_mux_nodelet_manager/bond] /vesc/high_level/ackermann_cmd_mux http://ubuntu:44937/
+[rosmaster.master][INFO] 2021-05-18 16:22:38,000: -SERVICE [/vesc/mux_chainer/set_logger_level] /vesc/mux_chainer rosrpc://ubuntu:52913
+[rosmaster.master][INFO] 2021-05-18 16:22:38,004: -SERVICE [/vesc/high_level/ackermann_cmd_mux/get_loggers] /vesc/high_level/ackermann_cmd_mux rosrpc://ubuntu:59709
+[rosmaster.master][INFO] 2021-05-18 16:22:38,006: -SERVICE [/vesc/high_level/ackermann_cmd_mux/set_logger_level] /vesc/high_level/ackermann_cmd_mux rosrpc://ubuntu:59709
+[rosmaster.master][INFO] 2021-05-18 16:22:38,007: -CACHEDPARAM [/rosout_disable_topics_generation] by /vesc/high_level/ackermann_cmd_mux
+[rosmaster.master][INFO] 2021-05-18 16:22:38,003: -CACHEDPARAM [/rosout_disable_topics_generation] by /vesc/mux_chainer
+[rosmaster.master][INFO] 2021-05-18 16:22:38,011: publisherUpdate[/rosout] -> http://ubuntu:37483/ ['http://ubuntu:46769/', 'http://ubuntu:42433/', 'http://ubuntu:44937/', 'http://ubuntu:33301/', 'http://ubuntu:40357/', 'http://ubuntu:36611/', 'http://ubuntu:44103/', 'http://ubuntu:34005/', 'http://ubuntu:45025/', 'http://ubuntu:45383/']
+[rosmaster.master][INFO] 2021-05-18 16:22:38,012: publisherUpdate[/rosout] -> http://ubuntu:37483/ ['http://ubuntu:46769/', 'http://ubuntu:42433/', 'http://ubuntu:44937/', 'http://ubuntu:33301/', 'http://ubuntu:40357/', 'http://ubuntu:36611/', 'http://ubuntu:44103/', 'http://ubuntu:34005/', 'http://ubuntu:45025/', 'http://ubuntu:45383/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-05-18 16:22:38,012: publisherUpdate[/rosout] -> http://ubuntu:37483/ ['http://ubuntu:46769/', 'http://ubuntu:42433/', 'http://ubuntu:44937/', 'http://ubuntu:33301/', 'http://ubuntu:40357/', 'http://ubuntu:36611/', 'http://ubuntu:44103/', 'http://ubuntu:34005/', 'http://ubuntu:45025/']
+[rosmaster.master][INFO] 2021-05-18 16:22:38,014: publisherUpdate[/rosout] -> http://ubuntu:37483/ ['http://ubuntu:46769/', 'http://ubuntu:42433/', 'http://ubuntu:44937/', 'http://ubuntu:33301/', 'http://ubuntu:40357/', 'http://ubuntu:36611/', 'http://ubuntu:44103/', 'http://ubuntu:34005/', 'http://ubuntu:45025/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-05-18 16:22:38,015: -PUB [/rosout] /vesc/low_level/ackermann_cmd_mux http://ubuntu:33301/
+[rosmaster.master][INFO] 2021-05-18 16:22:38,015: publisherUpdate[/racecar/right_steering_hinge_position_controller/command] -> http://ubuntu:44103/ []
+[rosmaster.master][INFO] 2021-05-18 16:22:38,020: publisherUpdate[/vesc/high_level/ackermann_cmd_mux_nodelet_manager/bond] -> http://ubuntu:44937/ []
+[rosmaster.master][INFO] 2021-05-18 16:22:38,017: -PUB [/vesc/low_level/ackermann_cmd_mux_nodelet_manager/bond] /vesc/low_level/ackermann_cmd_mux http://ubuntu:33301/
+[rosmaster.master][INFO] 2021-05-18 16:22:38,016: publisherUpdate[/rosout] -> http://ubuntu:37483/ ['http://ubuntu:46769/', 'http://ubuntu:44937/', 'http://ubuntu:33301/', 'http://ubuntu:40357/', 'http://ubuntu:36611/', 'http://ubuntu:44103/', 'http://ubuntu:34005/', 'http://ubuntu:45025/']
+[rosmaster.master][INFO] 2021-05-18 16:22:38,022: publisherUpdate[/vesc/high_level/ackermann_cmd_mux_nodelet_manager/bond] -> http://ubuntu:44937/ []: sec=0.00, exception=<Fault -1: 'publisherUpdate: unknown method name'>
+[rosmaster.master][INFO] 2021-05-18 16:22:38,023: -SUB [/clock] /vesc/low_level/ackermann_cmd_mux http://ubuntu:33301/
+[rosmaster.master][INFO] 2021-05-18 16:22:38,024: publisherUpdate[/rosout] -> http://ubuntu:37483/ ['http://ubuntu:46769/', 'http://ubuntu:44937/', 'http://ubuntu:33301/', 'http://ubuntu:40357/', 'http://ubuntu:36611/', 'http://ubuntu:44103/', 'http://ubuntu:34005/', 'http://ubuntu:45025/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-05-18 16:22:38,026: -SUB [/vesc/low_level/ackermann_cmd_mux_nodelet_manager/bond] /vesc/low_level/ackermann_cmd_mux http://ubuntu:33301/
+[rosmaster.master][INFO] 2021-05-18 16:22:38,026: publisherUpdate[/rosout] -> http://ubuntu:37483/ ['http://ubuntu:46769/', 'http://ubuntu:44937/', 'http://ubuntu:33301/', 'http://ubuntu:40357/', 'http://ubuntu:44103/', 'http://ubuntu:34005/', 'http://ubuntu:45025/']
+[rosmaster.master][INFO] 2021-05-18 16:22:38,027: -SERVICE [/vesc/low_level/ackermann_cmd_mux/get_loggers] /vesc/low_level/ackermann_cmd_mux rosrpc://ubuntu:59711
+[rosmaster.threadpool][ERROR] 2021-05-18 16:22:38,027: Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1243, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1602, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1283, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1316, in single_request
+    return self.parse_response(response)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1493, in parse_response
+    return u.close()
+  File "/usr/lib/python2.7/xmlrpclib.py", line 800, in close
+    raise Fault(**self._stack[0])
+Fault: <Fault -1: 'publisherUpdate: unknown method name'>
+
+[rosmaster.master][INFO] 2021-05-18 16:22:38,028: publisherUpdate[/racecar/right_steering_hinge_position_controller/command] -> http://ubuntu:44103/ []: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-05-18 16:22:38,029: publisherUpdate[/vesc/low_level/ackermann_cmd_mux_nodelet_manager/bond] -> http://ubuntu:33301/ []
+[rosmaster.master][INFO] 2021-05-18 16:22:38,030: publisherUpdate[/racecar/left_rear_wheel_velocity_controller/command] -> http://ubuntu:44103/ []
+[rosmaster.master][INFO] 2021-05-18 16:22:38,032: publisherUpdate[/rosout] -> http://ubuntu:37483/ ['http://ubuntu:46769/', 'http://ubuntu:44937/', 'http://ubuntu:33301/', 'http://ubuntu:40357/', 'http://ubuntu:44103/', 'http://ubuntu:34005/', 'http://ubuntu:45025/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-05-18 16:22:38,032: -SERVICE [/vesc/low_level/ackermann_cmd_mux/set_logger_level] /vesc/low_level/ackermann_cmd_mux rosrpc://ubuntu:59711
+[rosmaster.master][INFO] 2021-05-18 16:22:38,033: publisherUpdate[/vesc/low_level/ackermann_cmd_mux_nodelet_manager/bond] -> http://ubuntu:33301/ []: sec=0.00, exception=<Fault -1: 'publisherUpdate: unknown method name'>
+[rosmaster.master][INFO] 2021-05-18 16:22:38,034: publisherUpdate[/rosout] -> http://ubuntu:37483/ ['http://ubuntu:46769/', 'http://ubuntu:33301/', 'http://ubuntu:40357/', 'http://ubuntu:44103/', 'http://ubuntu:34005/', 'http://ubuntu:45025/']
+[rosmaster.threadpool][ERROR] 2021-05-18 16:22:38,036: Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1243, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1602, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1283, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1316, in single_request
+    return self.parse_response(response)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1493, in parse_response
+    return u.close()
+  File "/usr/lib/python2.7/xmlrpclib.py", line 800, in close
+    raise Fault(**self._stack[0])
+Fault: <Fault -1: 'publisherUpdate: unknown method name'>
+
+[rosmaster.master][INFO] 2021-05-18 16:22:38,038: -CACHEDPARAM [/rosout_disable_topics_generation] by /vesc/low_level/ackermann_cmd_mux
+[rosmaster.master][INFO] 2021-05-18 16:22:38,039: publisherUpdate[/racecar/left_rear_wheel_velocity_controller/command] -> http://ubuntu:44103/ []: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-05-18 16:22:38,041: publisherUpdate[/racecar/left_steering_hinge_position_controller/command] -> http://ubuntu:44103/ []
+[rosmaster.master][INFO] 2021-05-18 16:22:38,042: publisherUpdate[/rosout] -> http://ubuntu:37483/ ['http://ubuntu:46769/', 'http://ubuntu:33301/', 'http://ubuntu:40357/', 'http://ubuntu:44103/', 'http://ubuntu:34005/', 'http://ubuntu:45025/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-05-18 16:22:38,042: publisherUpdate[/rosout] -> http://ubuntu:37483/ ['http://ubuntu:46769/', 'http://ubuntu:40357/', 'http://ubuntu:44103/', 'http://ubuntu:34005/', 'http://ubuntu:45025/']
+[rosmaster.master][INFO] 2021-05-18 16:22:38,043: publisherUpdate[/racecar/left_steering_hinge_position_controller/command] -> http://ubuntu:44103/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-05-18 16:22:38,044: publisherUpdate[/racecar/right_rear_wheel_velocity_controller/command] -> http://ubuntu:44103/ []
+[rosmaster.master][INFO] 2021-05-18 16:22:38,046: publisherUpdate[/racecar/right_rear_wheel_velocity_controller/command] -> http://ubuntu:44103/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-05-18 16:22:38,046: publisherUpdate[/racecar/left_front_wheel_velocity_controller/command] -> http://ubuntu:44103/ []
+[rosmaster.master][INFO] 2021-05-18 16:22:38,049: publisherUpdate[/racecar/left_front_wheel_velocity_controller/command] -> http://ubuntu:44103/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-05-18 16:22:38,049: publisherUpdate[/racecar/right_front_wheel_velocity_controller/command] -> http://ubuntu:44103/ []
+[rosmaster.master][INFO] 2021-05-18 16:22:38,050: publisherUpdate[/racecar/right_front_wheel_velocity_controller/command] -> http://ubuntu:44103/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-05-18 16:22:38,052: publisherUpdate[/rosout] -> http://ubuntu:37483/ ['http://ubuntu:46769/', 'http://ubuntu:40357/', 'http://ubuntu:44103/', 'http://ubuntu:34005/', 'http://ubuntu:45025/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-05-18 16:22:38,070: +CACHEDPARAM [/rosout_disable_topics_generation] by /racecar/controller_manager
+[rosmaster.master][INFO] 2021-05-18 16:22:38,072: +CACHEDPARAM [/rosout_disable_topics_generation] by /racecar/controller_manager
+[rosmaster.master][INFO] 2021-05-18 16:22:38,079: +CACHEDPARAM [/rosout_disable_topics_generation] by /racecar/controller_manager
+[rosmaster.master][INFO] 2021-05-18 16:22:38,080: -PUB [/rosout] /robot_state_publisher http://ubuntu:46769/
+[rosmaster.master][INFO] 2021-05-18 16:22:38,081: -PUB [/tf] /robot_state_publisher http://ubuntu:46769/
+[rosmaster.master][INFO] 2021-05-18 16:22:38,083: -PUB [/tf_static] /robot_state_publisher http://ubuntu:46769/
+[rosmaster.master][INFO] 2021-05-18 16:22:38,084: +CACHEDPARAM [/rosout_disable_topics_generation] by /racecar/controller_manager
+[rosmaster.master][INFO] 2021-05-18 16:22:38,087: -SUB [/clock] /robot_state_publisher http://ubuntu:46769/
+[rosmaster.master][INFO] 2021-05-18 16:22:38,088: -SUB [/racecar/joint_states] /robot_state_publisher http://ubuntu:46769/
+[rosmaster.master][INFO] 2021-05-18 16:22:38,092: -SERVICE [/robot_state_publisher/get_loggers] /robot_state_publisher rosrpc://ubuntu:37735
+[rosmaster.master][INFO] 2021-05-18 16:22:38,094: -SERVICE [/robot_state_publisher/set_logger_level] /robot_state_publisher rosrpc://ubuntu:37735
+[rosmaster.master][INFO] 2021-05-18 16:22:38,097: -PUB [/racecar/joint_states] /gazebo http://ubuntu:44103/
+[rosmaster.master][INFO] 2021-05-18 16:22:38,099: +CACHEDPARAM [/rosout_disable_topics_generation] by /racecar/controller_manager
+[rosmaster.master][INFO] 2021-05-18 16:22:38,101: +CACHEDPARAM [/rosout_disable_topics_generation] by /racecar/controller_manager
+[rosmaster.master][INFO] 2021-05-18 16:22:38,111: -SUB [/racecar/right_steering_hinge_position_controller/command] /gazebo http://ubuntu:44103/
+[rosmaster.master][INFO] 2021-05-18 16:22:38,115: -PUB [/racecar/right_steering_hinge_position_controller/state] /gazebo http://ubuntu:44103/
+[rosmaster.master][INFO] 2021-05-18 16:22:38,127: -PUB [/racecar/right_steering_hinge_position_controller/pid/parameter_descriptions] /gazebo http://ubuntu:44103/
+[rosmaster.master][INFO] 2021-05-18 16:22:38,130: -PUB [/racecar/right_steering_hinge_position_controller/pid/parameter_updates] /gazebo http://ubuntu:44103/
+[rosmaster.master][INFO] 2021-05-18 16:22:38,131: -SERVICE [/racecar/right_steering_hinge_position_controller/pid/set_parameters] /gazebo rosrpc://ubuntu:51985
+[rosmaster.master][INFO] 2021-05-18 16:22:38,133: +CACHEDPARAM [/rosout_disable_topics_generation] by /racecar/controller_manager
+[rosmaster.master][INFO] 2021-05-18 16:22:38,138: +CACHEDPARAM [/rosout_disable_topics_generation] by /racecar/controller_manager
+[rosmaster.master][INFO] 2021-05-18 16:22:38,140: publisherUpdate[/rosout] -> http://ubuntu:37483/ ['http://ubuntu:40357/', 'http://ubuntu:44103/', 'http://ubuntu:34005/', 'http://ubuntu:45025/']
+[rosmaster.master][INFO] 2021-05-18 16:22:38,143: publisherUpdate[/rosout] -> http://ubuntu:37483/ ['http://ubuntu:40357/', 'http://ubuntu:44103/', 'http://ubuntu:34005/', 'http://ubuntu:45025/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-05-18 16:22:38,147: -SUB [/racecar/left_steering_hinge_position_controller/command] /gazebo http://ubuntu:44103/
+[rosmaster.master][INFO] 2021-05-18 16:22:38,150: -PUB [/racecar/left_steering_hinge_position_controller/state] /gazebo http://ubuntu:44103/
+[rosmaster.master][INFO] 2021-05-18 16:22:38,152: -PUB [/racecar/left_steering_hinge_position_controller/pid/parameter_descriptions] /gazebo http://ubuntu:44103/
+[rosmaster.master][INFO] 2021-05-18 16:22:38,153: -PUB [/racecar/left_steering_hinge_position_controller/pid/parameter_updates] /gazebo http://ubuntu:44103/
+[rosmaster.master][INFO] 2021-05-18 16:22:38,154: -SERVICE [/racecar/left_steering_hinge_position_controller/pid/set_parameters] /gazebo rosrpc://ubuntu:51985
+[rosmaster.master][INFO] 2021-05-18 16:22:38,155: +CACHEDPARAM [/rosout_disable_topics_generation] by /racecar/controller_manager
+[rosmaster.master][INFO] 2021-05-18 16:22:38,157: +CACHEDPARAM [/rosout_disable_topics_generation] by /racecar/controller_manager
+[rosmaster.master][INFO] 2021-05-18 16:22:39,527: -SUB [/clock] /keyboard_teleop http://ubuntu:34005/
+[rosmaster.master][INFO] 2021-05-18 16:22:39,527: -PUB [/vesc/low_level/ackermann_cmd_mux/input/teleop] /keyboard_teleop http://ubuntu:34005/
+[rosmaster.master][INFO] 2021-05-18 16:22:39,527: -PUB [/rosout] /keyboard_teleop http://ubuntu:34005/
+[rosmaster.master][INFO] 2021-05-18 16:22:39,527: -SERVICE [/keyboard_teleop/set_logger_level] /keyboard_teleop rosrpc://ubuntu:43287
+[rosmaster.master][INFO] 2021-05-18 16:22:39,527: -SERVICE [/keyboard_teleop/get_loggers] /keyboard_teleop rosrpc://ubuntu:43287
+[rosmaster.master][INFO] 2021-05-18 16:22:39,552: publisherUpdate[/rosout] -> http://ubuntu:37483/ ['http://ubuntu:40357/', 'http://ubuntu:44103/', 'http://ubuntu:45025/']
+[rosmaster.master][INFO] 2021-05-18 16:22:39,553: publisherUpdate[/rosout] -> http://ubuntu:37483/ ['http://ubuntu:40357/', 'http://ubuntu:44103/', 'http://ubuntu:45025/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-05-18 16:22:53,157: +CACHEDPARAM [/rosout_disable_topics_generation] by /racecar/controller_manager
+[rosmaster.master][INFO] 2021-05-18 16:22:53,160: -SUB [/clock] /racecar/controller_manager http://ubuntu:40357/
+[rosmaster.master][INFO] 2021-05-18 16:22:53,160: -PUB [/rosout] /racecar/controller_manager http://ubuntu:40357/
+[rosmaster.master][INFO] 2021-05-18 16:22:53,161: -SERVICE [/racecar/controller_manager/set_logger_level] /racecar/controller_manager rosrpc://ubuntu:39897
+[rosmaster.master][INFO] 2021-05-18 16:22:53,161: -SERVICE [/racecar/controller_manager/get_loggers] /racecar/controller_manager rosrpc://ubuntu:39897
+[rosmaster.master][INFO] 2021-05-18 16:22:53,206: publisherUpdate[/rosout] -> http://ubuntu:37483/ ['http://ubuntu:44103/', 'http://ubuntu:45025/']
+[rosmaster.master][INFO] 2021-05-18 16:22:53,207: publisherUpdate[/rosout] -> http://ubuntu:37483/ ['http://ubuntu:44103/', 'http://ubuntu:45025/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-05-18 16:22:53,508: -PUB [/rosout_agg] /rosout http://ubuntu:37483/
+[rosmaster.master][INFO] 2021-05-18 16:22:53,508: -SUB [/rosout] /rosout http://ubuntu:37483/
+[rosmaster.master][INFO] 2021-05-18 16:22:53,509: -SERVICE [/rosout/get_loggers] /rosout rosrpc://ubuntu:37345
+[rosmaster.master][INFO] 2021-05-18 16:22:53,509: -SERVICE [/rosout/set_logger_level] /rosout rosrpc://ubuntu:37345
+[rosmaster.master][INFO] 2021-05-18 16:22:53,509: -CACHEDPARAM [/rosout/omit_topics] by /rosout
+[rosmaster.main][INFO] 2021-05-18 16:22:53,605: keyboard interrupt, will exit
+[rosmaster.main][INFO] 2021-05-18 16:22:53,605: stopping master...
+[rospy.core][INFO] 2021-05-18 16:22:53,605: signal_shutdown [atexit]

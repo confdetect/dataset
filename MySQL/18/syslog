@@ -1,0 +1,6 @@
+Apr 17 22:59:04 ubuntu anacron[9260]: Job `cron.daily' terminated
+Apr 17 22:59:04 ubuntu anacron[9260]: Normal exit (1 job run)
+Apr 17 23:00:31 ubuntu systemd[1]: Stopping MySQL Community Server...
+Apr 17 23:00:33 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 17 23:00:33 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 17 23:00:34 ubuntu systemd[1]: Started MySQL Community Server.

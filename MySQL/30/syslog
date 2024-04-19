@@ -1,0 +1,1500 @@
+Apr 20 23:22:39 ubuntu systemd[1]: Starting Login Service...
+Apr 20 23:22:39 ubuntu avahi-daemon[728]: Found user 'avahi' (UID 116) and group 'avahi' (GID 122).
+Apr 20 23:22:39 ubuntu avahi-daemon[728]: Successfully dropped root privileges.
+Apr 20 23:22:39 ubuntu avahi-daemon[728]: avahi-daemon 0.7 starting up.
+Apr 20 23:22:39 ubuntu systemd[1]: Started ACPI event daemon.
+Apr 20 23:22:39 ubuntu systemd[1]: Starting Detect the available GPUs and deal with any system changes...
+Apr 20 23:22:39 ubuntu systemd[1]: Starting LSB: Speech Dispatcher...
+Apr 20 23:22:39 ubuntu systemd[1]: Starting Snap Daemon...
+Apr 20 23:22:39 ubuntu systemd[1]: Starting Thermal Daemon Service...
+Apr 20 23:22:39 ubuntu systemd[1]: Started Run anacron jobs.
+Apr 20 23:22:39 ubuntu anacron[756]: Anacron 2.3 started on 2021-04-20
+Apr 20 23:22:39 ubuntu systemd[1]: Starting Modem Manager...
+Apr 20 23:22:39 ubuntu anacron[756]: Normal exit (0 jobs run)
+Apr 20 23:22:39 ubuntu systemd[1]: Starting LSB: VMware Tools service...
+Apr 20 23:22:39 ubuntu systemd[1]: Started D-Bus System Message Bus.
+Apr 20 23:22:39 ubuntu gpu-manager[742]: Error: can't open /lib/modules/5.4.0-72-generic/updates/dkms
+Apr 20 23:22:39 ubuntu gpu-manager[742]: Error: can't open /lib/modules/5.4.0-72-generic/updates/dkms
+Apr 20 23:22:39 ubuntu ModemManager[757]: <info>  ModemManager (version 1.10.0) starting in system bus...
+Apr 20 23:22:39 ubuntu dbus-daemon[763]: dbus[763]: Unknown group "power" in message bus configuration file
+Apr 20 23:22:39 ubuntu acpid: starting up with netlink and the input layer
+Apr 20 23:22:39 ubuntu dbus-daemon[763]: [system] AppArmor D-Bus mediation is enabled
+Apr 20 23:22:39 ubuntu acpid: 8 rules loaded
+Apr 20 23:22:39 ubuntu acpid: waiting for events: event logging is off
+Apr 20 23:22:39 ubuntu dbus-daemon[763]: [system] Successfully activated service 'org.freedesktop.systemd1'
+Apr 20 23:22:40 ubuntu systemd[1]: Started Login Service.
+Apr 20 23:22:40 ubuntu systemd[1]: Starting WPA supplicant...
+Apr 20 23:22:40 ubuntu systemd[1]: Starting Network Manager...
+Apr 20 23:22:40 ubuntu systemd[1]: Started System Logging Service.
+Apr 20 23:22:40 ubuntu systemd[1]: Started Restore /etc/resolv.conf if the system crashed before the ppp link was shut down.
+Apr 20 23:22:40 ubuntu systemd[1]: Started Detect the available GPUs and deal with any system changes.
+Apr 20 23:22:40 ubuntu avahi-daemon[728]: Successfully called chroot().
+Apr 20 23:22:40 ubuntu avahi-daemon[728]: Successfully dropped remaining capabilities.
+Apr 20 23:22:40 ubuntu avahi-daemon[728]: No service file found in /etc/avahi/services.
+Apr 20 23:22:40 ubuntu avahi-daemon[728]: Joining mDNS multicast group on interface lo.IPv6 with address ::1.
+Apr 20 23:22:40 ubuntu avahi-daemon[728]: New relevant interface lo.IPv6 for mDNS.
+Apr 20 23:22:40 ubuntu avahi-daemon[728]: Joining mDNS multicast group on interface lo.IPv4 with address 127.0.0.1.
+Apr 20 23:22:40 ubuntu avahi-daemon[728]: New relevant interface lo.IPv4 for mDNS.
+Apr 20 23:22:40 ubuntu avahi-daemon[728]: Network interface enumeration completed.
+Apr 20 23:22:40 ubuntu avahi-daemon[728]: Registering new address record for ::1 on lo.*.
+Apr 20 23:22:40 ubuntu avahi-daemon[728]: Registering new address record for 127.0.0.1 on lo.IPv4.
+Apr 20 23:22:40 ubuntu thermald[753]: NO RAPL sysfs present
+Apr 20 23:22:40 ubuntu thermald[753]: 22 CPUID levels; family:model:stepping 0x6:8e:a (6:142:10)
+Apr 20 23:22:40 ubuntu thermald[753]: Polling mode is enabled: 4
+Apr 20 23:22:40 ubuntu thermald[753]: Thermal DTS: No coretemp sysfs found
+Apr 20 23:22:40 ubuntu dbus-daemon[763]: [system] Activating via systemd: service name='org.freedesktop.PolicyKit1' unit='polkit.service' requested by ':1.8' (uid=0 pid=757 comm="/usr/sbin/ModemManager --filter-policy=strict " label="unconfined")
+Apr 20 23:22:40 ubuntu thermald[753]: Thermal DTS or hwmon: No Zones present Need to configure manually
+Apr 20 23:22:40 ubuntu thermald[753]: No thermal sensors found
+Apr 20 23:22:40 ubuntu thermald[753]: THD engine start failed
+Apr 20 23:22:40 ubuntu grub-common[719]:  * Recording successful boot for GRUB
+Apr 20 23:22:40 ubuntu grub-common[719]:    ...done.
+Apr 20 23:22:40 ubuntu systemd[1]: Started Thermal Daemon Service.
+Apr 20 23:22:40 ubuntu systemd[1]: Started LSB: Record successful boot for GRUB.
+Apr 20 23:22:40 ubuntu apport[723]:  * Starting automatic crash report generation: apport
+Apr 20 23:22:40 ubuntu apport[723]:    ...done.
+Apr 20 23:22:40 ubuntu speech-dispatcher[743]:  * speech-dispatcher disabled; edit /etc/default/speech-dispatcher
+Apr 20 23:22:40 ubuntu systemd[1]: Started LSB: automatic crash report generation.
+Apr 20 23:22:40 ubuntu systemd[1]: Started LSB: Speech Dispatcher.
+Apr 20 23:22:40 ubuntu systemd[1]: Started Avahi mDNS/DNS-SD Stack.
+Apr 20 23:22:40 ubuntu wpa_supplicant[775]: Successfully initialized wpa_supplicant
+Apr 20 23:22:40 ubuntu systemd[1]: Started WPA supplicant.
+Apr 20 23:22:40 ubuntu systemd[1]: Starting Authorization Manager...
+Apr 20 23:22:40 ubuntu systemd[1]: Started Make remote CUPS printers available locally.
+Apr 20 23:22:40 ubuntu udisksd[721]: failed to load module mdraid: libbd_mdraid.so.2: cannot open shared object file: No such file or directory
+Apr 20 23:22:40 ubuntu polkitd[790]: started daemon version 0.105 using authority implementation `local' version `0.105'
+Apr 20 23:22:40 ubuntu dbus-daemon[763]: [system] Successfully activated service 'org.freedesktop.PolicyKit1'
+Apr 20 23:22:40 ubuntu systemd[1]: Started Authorization Manager.
+Apr 20 23:22:40 ubuntu accounts-daemon[727]: started daemon version 0.6.45
+Apr 20 23:22:40 ubuntu systemd[1]: Started Accounts Service.
+Apr 20 23:22:40 ubuntu udisksd[721]: Failed to load the 'mdraid' libblockdev plugin
+Apr 20 23:22:40 ubuntu systemd[1]: Started Modem Manager.
+Apr 20 23:22:40 ubuntu NetworkManager[776]: <info>  [1618986160.2323] NetworkManager (version 1.10.6) is starting... (for the first time)
+Apr 20 23:22:40 ubuntu NetworkManager[776]: <info>  [1618986160.2327] Read config: /etc/NetworkManager/NetworkManager.conf (lib: 10-dns-resolved.conf, 20-connectivity-ubuntu.conf, no-mac-addr-change.conf) (run: 10-globally-managed-devices.conf) (etc: default-wifi-powersave-on.conf)
+Apr 20 23:22:40 ubuntu NetworkManager[776]: <info>  [1618986160.2551] manager[0x558ce276b060]: monitoring kernel firmware directory '/lib/firmware'.
+Apr 20 23:22:40 ubuntu NetworkManager[776]: <info>  [1618986160.2553] monitoring ifupdown state file '/run/network/ifstate'.
+Apr 20 23:22:40 ubuntu dbus-daemon[763]: [system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service' requested by ':1.13' (uid=0 pid=776 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Apr 20 23:22:40 ubuntu systemd[1]: Starting Hostname Service...
+Apr 20 23:22:40 ubuntu snapd[752]: AppArmor status: apparmor is enabled and all features are available
+Apr 20 23:22:40 ubuntu dbus-daemon[763]: [system] Successfully activated service 'org.freedesktop.hostname1'
+Apr 20 23:22:40 ubuntu systemd[1]: Started Hostname Service.
+Apr 20 23:22:40 ubuntu NetworkManager[776]: <info>  [1618986160.2979] hostname: hostname: using hostnamed
+Apr 20 23:22:40 ubuntu NetworkManager[776]: <info>  [1618986160.2980] hostname: hostname changed from (none) to "ubuntu"
+Apr 20 23:22:40 ubuntu NetworkManager[776]: <info>  [1618986160.2983] dns-mgr[0x558ce275f1a0]: init: dns=systemd-resolved, rc-manager=symlink, plugin=systemd-resolved
+Apr 20 23:22:40 ubuntu NetworkManager[776]: <info>  [1618986160.3008] manager[0x558ce276b060]: rfkill: WiFi hardware radio set enabled
+Apr 20 23:22:40 ubuntu NetworkManager[776]: <info>  [1618986160.3010] manager[0x558ce276b060]: rfkill: WWAN hardware radio set enabled
+Apr 20 23:22:40 ubuntu systemd[1]: Started Network Manager.
+Apr 20 23:22:40 ubuntu systemd[1]: Starting Network Manager Wait Online...
+Apr 20 23:22:40 ubuntu systemd[1]: Reached target Network.
+Apr 20 23:22:40 ubuntu dbus-daemon[763]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.13' (uid=0 pid=776 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Apr 20 23:22:40 ubuntu systemd[1]: Started Unattended Upgrades Shutdown.
+Apr 20 23:22:40 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 20 23:22:40 ubuntu systemd[1]: Starting Permit User Sessions...
+Apr 20 23:22:40 ubuntu kernel: [    7.123783] blk_update_request: I/O error, dev fd0, sector 0 op 0x0:(READ) flags 0x0 phys_seg 1 prio class 0
+Apr 20 23:22:40 ubuntu kernel: [    7.123890] floppy: error 10 while reading block 0
+Apr 20 23:22:40 ubuntu networkd-dispatcher[713]: WARNING: systemd-networkd is not running, output will be incomplete.
+Apr 20 23:22:40 ubuntu systemd[1]: Started Permit User Sessions.
+Apr 20 23:22:40 ubuntu systemd[1]: Starting Network Manager Script Dispatcher Service...
+Apr 20 23:22:40 ubuntu kernel: [    7.155798] blk_update_request: I/O error, dev fd0, sector 0 op 0x0:(READ) flags 0x0 phys_seg 1 prio class 0
+Apr 20 23:22:40 ubuntu kernel: [    7.155900] floppy: error 10 while reading block 0
+Apr 20 23:22:40 ubuntu systemd[1]: Starting GNOME Display Manager...
+Apr 20 23:22:40 ubuntu dbus-daemon[763]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Apr 20 23:22:40 ubuntu NetworkManager[776]: <info>  [1618986160.3987] init!
+Apr 20 23:22:40 ubuntu NetworkManager[776]: <info>  [1618986160.3990]       interface-parser: parsing file /etc/network/interfaces
+Apr 20 23:22:40 ubuntu NetworkManager[776]: <info>  [1618986160.3990]       interface-parser: finished parsing file /etc/network/interfaces
+Apr 20 23:22:40 ubuntu NetworkManager[776]: <info>  [1618986160.3990] management mode: unmanaged
+Apr 20 23:22:40 ubuntu NetworkManager[776]: <info>  [1618986160.3994] devices added (path: /sys/devices/pci0000:00/0000:00:11.0/0000:02:01.0/net/ens33, iface: ens33)
+Apr 20 23:22:40 ubuntu NetworkManager[776]: <info>  [1618986160.3994] device added (path: /sys/devices/pci0000:00/0000:00:11.0/0000:02:01.0/net/ens33, iface: ens33): no ifupdown configuration found.
+Apr 20 23:22:40 ubuntu NetworkManager[776]: <info>  [1618986160.3995] devices added (path: /sys/devices/virtual/net/lo, iface: lo)
+Apr 20 23:22:40 ubuntu NetworkManager[776]: <info>  [1618986160.3995] device added (path: /sys/devices/virtual/net/lo, iface: lo): no ifupdown configuration found.
+Apr 20 23:22:40 ubuntu NetworkManager[776]: <info>  [1618986160.3995] end _init.
+Apr 20 23:22:40 ubuntu NetworkManager[776]: <info>  [1618986160.3995] settings: loaded plugin ifupdown: (C) 2008 Canonical Ltd.  To report bugs please use the NetworkManager mailing list. (/usr/lib/x86_64-linux-gnu/NetworkManager/libnm-settings-plugin-ifupdown.so)
+Apr 20 23:22:40 ubuntu NetworkManager[776]: <info>  [1618986160.3995] settings: loaded plugin keyfile: (c) 2007 - 2016 Red Hat, Inc.  To report bugs please use the NetworkManager mailing list.
+Apr 20 23:22:40 ubuntu NetworkManager[776]: <info>  [1618986160.3995] (-495288192) ... get_connections.
+Apr 20 23:22:40 ubuntu NetworkManager[776]: <info>  [1618986160.3995] (-495288192) ... get_connections (managed=false): return empty list.
+Apr 20 23:22:40 ubuntu NetworkManager[776]: <info>  [1618986160.4011] get unmanaged devices count: 0
+Apr 20 23:22:40 ubuntu nm-dispatcher: req:1 'hostname': new request (1 scripts)
+Apr 20 23:22:40 ubuntu NetworkManager[776]: <info>  [1618986160.4011] manager: rfkill: WiFi enabled by radio killswitch; enabled by state file
+Apr 20 23:22:40 ubuntu nm-dispatcher: req:1 'hostname': start running ordered scripts...
+Apr 20 23:22:40 ubuntu NetworkManager[776]: <info>  [1618986160.4011] manager: rfkill: WWAN enabled by radio killswitch; enabled by state file
+Apr 20 23:22:40 ubuntu NetworkManager[776]: <info>  [1618986160.4011] manager: Networking is enabled by state file
+Apr 20 23:22:40 ubuntu NetworkManager[776]: <info>  [1618986160.4015] dhcp-init: Using DHCP client 'dhclient'
+Apr 20 23:22:40 ubuntu NetworkManager[776]: <info>  [1618986160.4034] Loaded device plugin: NMBondDeviceFactory (internal)
+Apr 20 23:22:40 ubuntu NetworkManager[776]: <info>  [1618986160.4034] Loaded device plugin: NMBridgeDeviceFactory (internal)
+Apr 20 23:22:40 ubuntu NetworkManager[776]: <info>  [1618986160.4034] Loaded device plugin: NMDummyDeviceFactory (internal)
+Apr 20 23:22:40 ubuntu NetworkManager[776]: <info>  [1618986160.4034] Loaded device plugin: NMEthernetDeviceFactory (internal)
+Apr 20 23:22:40 ubuntu NetworkManager[776]: <info>  [1618986160.4034] Loaded device plugin: NMInfinibandDeviceFactory (internal)
+Apr 20 23:22:40 ubuntu NetworkManager[776]: <info>  [1618986160.4035] Loaded device plugin: NMIPTunnelDeviceFactory (internal)
+Apr 20 23:22:40 ubuntu NetworkManager[776]: <info>  [1618986160.4035] Loaded device plugin: NMMacsecDeviceFactory (internal)
+Apr 20 23:22:40 ubuntu NetworkManager[776]: <info>  [1618986160.4035] Loaded device plugin: NMMacvlanDeviceFactory (internal)
+Apr 20 23:22:40 ubuntu NetworkManager[776]: <info>  [1618986160.4035] Loaded device plugin: NMPppDeviceFactory (internal)
+Apr 20 23:22:40 ubuntu NetworkManager[776]: <info>  [1618986160.4035] Loaded device plugin: NMTunDeviceFactory (internal)
+Apr 20 23:22:40 ubuntu NetworkManager[776]: <info>  [1618986160.4035] Loaded device plugin: NMVethDeviceFactory (internal)
+Apr 20 23:22:40 ubuntu NetworkManager[776]: <info>  [1618986160.4035] Loaded device plugin: NMVlanDeviceFactory (internal)
+Apr 20 23:22:40 ubuntu NetworkManager[776]: <info>  [1618986160.4035] Loaded device plugin: NMVxlanDeviceFactory (internal)
+Apr 20 23:22:40 ubuntu systemd[1]: Starting Hold until boot process finishes up...
+Apr 20 23:22:40 ubuntu systemd[1]: Started Dispatcher daemon for systemd-networkd.
+Apr 20 23:22:40 ubuntu systemd[1]: Started Network Manager Script Dispatcher Service.
+Apr 20 23:22:40 ubuntu NetworkManager[776]: <info>  [1618986160.4118] Loaded device plugin: NMTeamFactory (/usr/lib/x86_64-linux-gnu/NetworkManager/libnm-device-plugin-team.so)
+Apr 20 23:22:40 ubuntu systemd[1]: Started Hold until boot process finishes up.
+Apr 20 23:22:40 ubuntu NetworkManager[776]: <info>  [1618986160.4151] Loaded device plugin: NMWifiFactory (/usr/lib/x86_64-linux-gnu/NetworkManager/libnm-device-plugin-wifi.so)
+Apr 20 23:22:40 ubuntu systemd[1]: Starting Set console scheme...
+Apr 20 23:22:40 ubuntu NetworkManager[776]: <info>  [1618986160.4178] Loaded device plugin: NMAtmManager (/usr/lib/x86_64-linux-gnu/NetworkManager/libnm-device-plugin-adsl.so)
+Apr 20 23:22:40 ubuntu NetworkManager[776]: <info>  [1618986160.4280] Loaded device plugin: NMBluezManager (/usr/lib/x86_64-linux-gnu/NetworkManager/libnm-device-plugin-bluetooth.so)
+Apr 20 23:22:40 ubuntu NetworkManager[776]: <info>  [1618986160.4393] Loaded device plugin: NMWwanFactory (/usr/lib/x86_64-linux-gnu/NetworkManager/libnm-device-plugin-wwan.so)
+Apr 20 23:22:40 ubuntu systemd[1]: Started Set console scheme.
+Apr 20 23:22:40 ubuntu systemd[1]: Created slice system-getty.slice.
+Apr 20 23:22:40 ubuntu NetworkManager[776]: <info>  [1618986160.4451] device (lo): carrier: link connected
+Apr 20 23:22:40 ubuntu NetworkManager[776]: <info>  [1618986160.4502] manager: (lo): new Generic device (/org/freedesktop/NetworkManager/Devices/1)
+Apr 20 23:22:40 ubuntu systemd[1]: Started GNOME Display Manager.
+Apr 20 23:22:40 ubuntu NetworkManager[776]: <info>  [1618986160.4565] manager: (ens33): new Ethernet device (/org/freedesktop/NetworkManager/Devices/2)
+Apr 20 23:22:40 ubuntu NetworkManager[776]: <info>  [1618986160.4581] keyfile: add connection in-memory (e04c5a4f-74ea-38e7-b107-40ab872c8f81,"Wired connection 1")
+Apr 20 23:22:40 ubuntu NetworkManager[776]: <info>  [1618986160.4688] settings: (ens33): created default wired connection 'Wired connection 1'
+Apr 20 23:22:40 ubuntu NetworkManager[776]: <info>  [1618986160.4803] device (ens33): state change: unmanaged -> unavailable (reason 'managed', sys-iface-state: 'external')
+Apr 20 23:22:40 ubuntu vmware-tools[759]:    Checking acpi hot plug#033[71G done
+Apr 20 23:22:40 ubuntu kernel: [    7.287646] e1000: ens33 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: None
+Apr 20 23:22:40 ubuntu kernel: [    7.288930] IPv6: ADDRCONF(NETDEV_CHANGE): ens33: link becomes ready
+Apr 20 23:22:40 ubuntu vmware-tools[759]: Starting VMware Tools services in the virtual machine:
+Apr 20 23:22:40 ubuntu NetworkManager[776]: <info>  [1618986160.5305] device (ens33): carrier: link connected
+Apr 20 23:22:40 ubuntu NetworkManager[776]: <info>  [1618986160.5519] modem-manager: ModemManager available
+Apr 20 23:22:40 ubuntu NetworkManager[776]: <info>  [1618986160.5524] device (ens33): state change: unavailable -> disconnected (reason 'carrier-changed', sys-iface-state: 'managed')
+Apr 20 23:22:40 ubuntu NetworkManager[776]: <info>  [1618986160.5623] policy: auto-activating connection 'Wired connection 1'
+Apr 20 23:22:40 ubuntu NetworkManager[776]: <info>  [1618986160.5639] device (ens33): Activation: starting connection 'Wired connection 1' (e04c5a4f-74ea-38e7-b107-40ab872c8f81)
+Apr 20 23:22:40 ubuntu NetworkManager[776]: <info>  [1618986160.5646] device (ens33): state change: disconnected -> prepare (reason 'none', sys-iface-state: 'managed')
+Apr 20 23:22:40 ubuntu NetworkManager[776]: <info>  [1618986160.5648] manager: NetworkManager state is now CONNECTING
+Apr 20 23:22:40 ubuntu NetworkManager[776]: <info>  [1618986160.5662] device (ens33): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+Apr 20 23:22:40 ubuntu NetworkManager[776]: <info>  [1618986160.5710] device (ens33): state change: config -> ip-config (reason 'none', sys-iface-state: 'managed')
+Apr 20 23:22:40 ubuntu NetworkManager[776]: <info>  [1618986160.5723] dhcp4 (ens33): activation: beginning transaction (timeout in 45 seconds)
+Apr 20 23:22:40 ubuntu NetworkManager[776]: <info>  [1618986160.5814] dhcp4 (ens33): dhclient started with pid 874
+Apr 20 23:22:40 ubuntu avahi-daemon[728]: Joining mDNS multicast group on interface ens33.IPv6 with address fe80::abbb:8fa7:51f4:257a.
+Apr 20 23:22:40 ubuntu avahi-daemon[728]: New relevant interface ens33.IPv6 for mDNS.
+Apr 20 23:22:40 ubuntu avahi-daemon[728]: Registering new address record for fe80::abbb:8fa7:51f4:257a on ens33.*.
+Apr 20 23:22:40 ubuntu dhclient[874]: DHCPREQUEST of 192.168.182.130 on ens33 to 255.255.255.255 port 67 (xid=0x5a3b9359)
+Apr 20 23:22:40 ubuntu dhclient[874]: DHCPACK of 192.168.182.130 from 192.168.182.254
+Apr 20 23:22:40 ubuntu NetworkManager[776]: <info>  [1618986160.7585] dhcp4 (ens33):   address 192.168.182.130
+Apr 20 23:22:40 ubuntu avahi-daemon[728]: Joining mDNS multicast group on interface ens33.IPv4 with address 192.168.182.130.
+Apr 20 23:22:40 ubuntu NetworkManager[776]: <info>  [1618986160.7585] dhcp4 (ens33):   plen 24 (255.255.255.0)
+Apr 20 23:22:40 ubuntu NetworkManager[776]: <info>  [1618986160.7585] dhcp4 (ens33):   gateway 192.168.182.2
+Apr 20 23:22:40 ubuntu NetworkManager[776]: <info>  [1618986160.7585] dhcp4 (ens33):   lease time 1800
+Apr 20 23:22:40 ubuntu NetworkManager[776]: <info>  [1618986160.7586] dhcp4 (ens33):   nameserver '192.168.182.2'
+Apr 20 23:22:40 ubuntu NetworkManager[776]: <info>  [1618986160.7586] dhcp4 (ens33):   domain name 'localdomain'
+Apr 20 23:22:40 ubuntu NetworkManager[776]: <info>  [1618986160.7586] dhcp4 (ens33):   wins '192.168.182.2'
+Apr 20 23:22:40 ubuntu NetworkManager[776]: <info>  [1618986160.7586] dhcp4 (ens33): state changed unknown -> bound
+Apr 20 23:22:40 ubuntu avahi-daemon[728]: New relevant interface ens33.IPv4 for mDNS.
+Apr 20 23:22:40 ubuntu avahi-daemon[728]: Registering new address record for 192.168.182.130 on ens33.IPv4.
+Apr 20 23:22:40 ubuntu NetworkManager[776]: <info>  [1618986160.7733] device (ens33): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'managed')
+Apr 20 23:22:40 ubuntu NetworkManager[776]: <info>  [1618986160.7738] device (ens33): state change: ip-check -> secondaries (reason 'none', sys-iface-state: 'managed')
+Apr 20 23:22:40 ubuntu NetworkManager[776]: <info>  [1618986160.7739] device (ens33): state change: secondaries -> activated (reason 'none', sys-iface-state: 'managed')
+Apr 20 23:22:40 ubuntu NetworkManager[776]: <info>  [1618986160.7740] manager: NetworkManager state is now CONNECTED_LOCAL
+Apr 20 23:22:40 ubuntu NetworkManager[776]: <info>  [1618986160.7762] manager: NetworkManager state is now CONNECTED_SITE
+Apr 20 23:22:40 ubuntu NetworkManager[776]: <info>  [1618986160.7775] policy: set 'Wired connection 1' (ens33) as default for IPv4 routing and DNS
+Apr 20 23:22:40 ubuntu nm-dispatcher: req:2 'up' [ens33]: new request (1 scripts)
+Apr 20 23:22:40 ubuntu NetworkManager[776]: <info>  [1618986160.7779] device (ens33): Activation: successful, device activated.
+Apr 20 23:22:40 ubuntu nm-dispatcher: req:2 'up' [ens33]: start running ordered scripts...
+Apr 20 23:22:40 ubuntu NetworkManager[776]: <info>  [1618986160.7782] manager: startup complete
+Apr 20 23:22:40 ubuntu systemd[1]: Started Network Manager Wait Online.
+Apr 20 23:22:40 ubuntu kernel: [    7.595891] blk_update_request: I/O error, dev fd0, sector 0 op 0x0:(READ) flags 0x0 phys_seg 1 prio class 0
+Apr 20 23:22:40 ubuntu kernel: [    7.596177] floppy: error 10 while reading block 0
+Apr 20 23:22:40 ubuntu dhclient[874]: bound to 192.168.182.130 -- renewal in 836 seconds.
+Apr 20 23:22:40 ubuntu kernel: [    7.631778] blk_update_request: I/O error, dev fd0, sector 0 op 0x0:(READ) flags 0x0 phys_seg 1 prio class 0
+Apr 20 23:22:40 ubuntu kernel: [    7.631950] floppy: error 10 while reading block 0
+Apr 20 23:22:40 ubuntu systemd[1]: Created slice User Slice of gdm.
+Apr 20 23:22:40 ubuntu systemd[1]: Starting User Manager for UID 121...
+Apr 20 23:22:40 ubuntu systemd[1]: Started Session c1 of user gdm.
+Apr 20 23:22:41 ubuntu systemd[906]: Listening on Sound System.
+Apr 20 23:22:41 ubuntu systemd[906]: Started Pending report trigger for Ubuntu Report.
+Apr 20 23:22:41 ubuntu systemd[906]: Reached target Timers.
+Apr 20 23:22:41 ubuntu systemd[906]: Reached target Paths.
+Apr 20 23:22:41 ubuntu systemd[906]: Starting D-Bus User Message Bus Socket.
+Apr 20 23:22:41 ubuntu systemd[906]: Listening on GnuPG network certificate management daemon.
+Apr 20 23:22:41 ubuntu systemd[906]: Listening on GnuPG cryptographic agent (ssh-agent emulation).
+Apr 20 23:22:41 ubuntu systemd[906]: Listening on GnuPG cryptographic agent and passphrase cache (access for web browsers).
+Apr 20 23:22:41 ubuntu systemd[906]: Listening on GnuPG cryptographic agent and passphrase cache.
+Apr 20 23:22:41 ubuntu systemd[906]: Listening on REST API socket for snapd user session agent.
+Apr 20 23:22:41 ubuntu systemd[906]: Listening on GnuPG cryptographic agent and passphrase cache (restricted).
+Apr 20 23:22:41 ubuntu systemd[906]: Listening on D-Bus User Message Bus Socket.
+Apr 20 23:22:41 ubuntu systemd[906]: Reached target Sockets.
+Apr 20 23:22:41 ubuntu systemd[906]: Reached target Basic System.
+Apr 20 23:22:41 ubuntu systemd[906]: Reached target Default.
+Apr 20 23:22:41 ubuntu systemd[906]: Startup finished in 192ms.
+Apr 20 23:22:41 ubuntu systemd[1]: Started User Manager for UID 121.
+Apr 20 23:22:41 ubuntu kernel: [    7.963813] blk_update_request: I/O error, dev fd0, sector 0 op 0x0:(READ) flags 0x0 phys_seg 1 prio class 0
+Apr 20 23:22:41 ubuntu kernel: [    7.963817] floppy: error 10 while reading block 0
+Apr 20 23:22:41 ubuntu systemd[906]: Started D-Bus User Message Bus.
+Apr 20 23:22:41 ubuntu kernel: [    8.002452] blk_update_request: I/O error, dev fd0, sector 0 op 0x0:(READ) flags 0x0 phys_seg 1 prio class 0
+Apr 20 23:22:41 ubuntu kernel: [    8.002455] floppy: error 10 while reading block 0
+Apr 20 23:22:41 ubuntu dbus-daemon[969]: [session uid=121 pid=969] AppArmor D-Bus mediation is enabled
+Apr 20 23:22:41 ubuntu vmware-tools[759]:    Switching to guest configuration:#033[71G done
+Apr 20 23:22:41 ubuntu systemd[1]: Started Disk Manager.
+Apr 20 23:22:41 ubuntu udisksd[721]: Acquired the name org.freedesktop.UDisks2 on the system message bus
+Apr 20 23:22:41 ubuntu avahi-daemon[728]: Server startup complete. Host name is ubuntu.local. Local service cookie is 1074429752.
+Apr 20 23:22:42 ubuntu snapd[752]: AppArmor status: apparmor is enabled and all features are available
+Apr 20 23:22:42 ubuntu vmware-tools[759]:    Guest filesystem driver:#033[71G done
+Apr 20 23:22:42 ubuntu dbus-daemon[763]: [system] Activating via systemd: service name='org.freedesktop.UPower' unit='upower.service' requested by ':1.25' (uid=121 pid=1034 comm="/usr/bin/gnome-shell " label="unconfined")
+Apr 20 23:22:42 ubuntu systemd[1]: Starting Daemon for power management...
+Apr 20 23:22:42 ubuntu kernel: [    8.999768] vmw_vmci 0000:00:07.7: Found VMCI PCI device at 0x11080, irq 16
+Apr 20 23:22:42 ubuntu kernel: [    9.000572] vmw_vmci 0000:00:07.7: Using capabilities 0xc
+Apr 20 23:22:42 ubuntu dbus-daemon[763]: [system] Successfully activated service 'org.freedesktop.UPower'
+Apr 20 23:22:42 ubuntu systemd[1]: Started Daemon for power management.
+Apr 20 23:22:42 ubuntu systemd-udevd[526]: link_config: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Apr 20 23:22:42 ubuntu gnome-shell[1034]: Failed to create backend: Could not find a primary drm kms device
+Apr 20 23:22:42 ubuntu kernel: [    9.111702] Guest personality initialized and is active
+Apr 20 23:22:42 ubuntu kernel: [    9.114875] VMCI host device registered (name=vmci, major=10, minor=58)
+Apr 20 23:22:42 ubuntu kernel: [    9.114877] Initialized host personality
+Apr 20 23:22:42 ubuntu gnome-session[979]: gnome-session-binary[979]: WARNING: App 'org.gnome.Shell.desktop' exited with code 1
+Apr 20 23:22:42 ubuntu gnome-session-binary[979]: WARNING: App 'org.gnome.Shell.desktop' exited with code 1
+Apr 20 23:22:42 ubuntu gnome-session-binary[979]: Unrecoverable failure in required component org.gnome.Shell.desktop
+Apr 20 23:22:42 ubuntu gdm3: GdmDisplay: display lasted 1.863970 seconds
+Apr 20 23:22:42 ubuntu gdm3: Child process -965 was already dead.
+Apr 20 23:22:42 ubuntu gdm3: Child process 862 was already dead.
+Apr 20 23:22:42 ubuntu gdm3: Unable to kill session worker process
+Apr 20 23:22:42 ubuntu systemd[1]: Stopping User Manager for UID 121...
+Apr 20 23:22:42 ubuntu systemd[906]: Stopping D-Bus User Message Bus...
+Apr 20 23:22:42 ubuntu systemd[906]: Stopped target Default.
+Apr 20 23:22:42 ubuntu systemd[906]: Stopped D-Bus User Message Bus.
+Apr 20 23:22:42 ubuntu systemd[906]: Stopped target Basic System.
+Apr 20 23:22:42 ubuntu systemd[906]: Stopped target Paths.
+Apr 20 23:22:42 ubuntu systemd[906]: Stopped Pending report trigger for Ubuntu Report.
+Apr 20 23:22:42 ubuntu systemd[906]: Stopped target Timers.
+Apr 20 23:22:42 ubuntu systemd[906]: Stopped target Sockets.
+Apr 20 23:22:42 ubuntu systemd[906]: Closed GnuPG cryptographic agent and passphrase cache (restricted).
+Apr 20 23:22:42 ubuntu systemd[906]: Closed GnuPG cryptographic agent and passphrase cache (access for web browsers).
+Apr 20 23:22:42 ubuntu systemd[906]: Closed GnuPG cryptographic agent and passphrase cache.
+Apr 20 23:22:42 ubuntu systemd[906]: Closed REST API socket for snapd user session agent.
+Apr 20 23:22:42 ubuntu systemd[906]: Closed Sound System.
+Apr 20 23:22:42 ubuntu systemd[906]: Closed GnuPG network certificate management daemon.
+Apr 20 23:22:42 ubuntu systemd[906]: Closed GnuPG cryptographic agent (ssh-agent emulation).
+Apr 20 23:22:42 ubuntu systemd[906]: Closed D-Bus User Message Bus Socket.
+Apr 20 23:22:42 ubuntu systemd[906]: Reached target Shutdown.
+Apr 20 23:22:42 ubuntu systemd[906]: Starting Exit the Session...
+Apr 20 23:22:42 ubuntu systemd[906]: Started Exit the Session.
+Apr 20 23:22:42 ubuntu systemd[906]: Received SIGRTMIN+24 from PID 1085 (n/a).
+Apr 20 23:22:42 ubuntu systemd[1]: Stopped User Manager for UID 121.
+Apr 20 23:22:42 ubuntu systemd[1]: Removed slice User Slice of gdm.
+Apr 20 23:22:42 ubuntu systemd[1]: Created slice User Slice of gdm.
+Apr 20 23:22:42 ubuntu systemd[1]: Starting User Manager for UID 121...
+Apr 20 23:22:42 ubuntu systemd[1]: Started Session c2 of user gdm.
+Apr 20 23:22:42 ubuntu mtp-probe: checking bus 2, device 2: "/sys/devices/pci0000:00/0000:00:11.0/0000:02:00.0/usb2/2-1"
+Apr 20 23:22:42 ubuntu mtp-probe: bus: 2, device: 2 was not an MTP device
+Apr 20 23:22:42 ubuntu systemd[1094]: Listening on GnuPG cryptographic agent and passphrase cache (restricted).
+Apr 20 23:22:42 ubuntu systemd[1094]: Listening on REST API socket for snapd user session agent.
+Apr 20 23:22:42 ubuntu systemd[1094]: Listening on Sound System.
+Apr 20 23:22:42 ubuntu systemd[1094]: Started Pending report trigger for Ubuntu Report.
+Apr 20 23:22:42 ubuntu systemd[1094]: Listening on GnuPG cryptographic agent and passphrase cache (access for web browsers).
+Apr 20 23:22:42 ubuntu systemd[1094]: Reached target Paths.
+Apr 20 23:22:42 ubuntu systemd[1094]: Listening on GnuPG cryptographic agent (ssh-agent emulation).
+Apr 20 23:22:42 ubuntu systemd[1094]: Listening on GnuPG cryptographic agent and passphrase cache.
+Apr 20 23:22:42 ubuntu systemd[1094]: Reached target Timers.
+Apr 20 23:22:42 ubuntu systemd[1094]: Starting D-Bus User Message Bus Socket.
+Apr 20 23:22:42 ubuntu systemd[1094]: Listening on GnuPG network certificate management daemon.
+Apr 20 23:22:42 ubuntu systemd-udevd[551]: Process '/bin/sh -c 'echo 180 >/sys$DEVPATH/timeout'' failed with exit code 2.
+Apr 20 23:22:42 ubuntu systemd[1094]: Listening on D-Bus User Message Bus Socket.
+Apr 20 23:22:42 ubuntu systemd[1094]: Reached target Sockets.
+Apr 20 23:22:42 ubuntu systemd[1094]: Reached target Basic System.
+Apr 20 23:22:42 ubuntu systemd[1094]: Reached target Default.
+Apr 20 23:22:42 ubuntu systemd[1]: Started User Manager for UID 121.
+Apr 20 23:22:42 ubuntu systemd[1094]: Startup finished in 64ms.
+Apr 20 23:22:42 ubuntu systemd-udevd[534]: Process '/bin/sh -c 'echo 180 >/sys$DEVPATH/timeout'' failed with exit code 2.
+Apr 20 23:22:42 ubuntu systemd-udevd[552]: Process '/bin/sh -c 'echo 180 >/sys$DEVPATH/timeout'' failed with exit code 2.
+Apr 20 23:22:42 ubuntu systemd-udevd[538]: Process '/bin/sh -c 'echo 180 >/sys$DEVPATH/timeout'' failed with exit code 2.
+Apr 20 23:22:42 ubuntu snapd[752]: daemon.go:347: started snapd/2.49.2 (series 16; classic) ubuntu/18.04 (amd64) linux/5.4.0-72-generic.
+Apr 20 23:22:42 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (--) Log file renamed from "/var/log/Xorg.pid-1119.log" to "/var/log/Xorg.0.log"
+Apr 20 23:22:42 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: X.Org X Server 1.20.8
+Apr 20 23:22:42 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: X Protocol Version 11, Revision 0
+Apr 20 23:22:42 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: Build Operating System: Linux 4.15.0-140-generic x86_64 Ubuntu
+Apr 20 23:22:42 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: Current Operating System: Linux ubuntu 5.4.0-72-generic #80~18.04.1-Ubuntu SMP Mon Apr 12 23:26:25 UTC 2021 x86_64
+Apr 20 23:22:42 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: Kernel command line: BOOT_IMAGE=/boot/vmlinuz-5.4.0-72-generic root=UUID=17676138-a31a-4e9d-b0c6-9fa505b77da8 ro find_preseed=/preseed.cfg auto noprompt priority=critical locale=en_US quiet
+Apr 20 23:22:42 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: Build Date: 08 April 2021  01:40:27PM
+Apr 20 23:22:42 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: xorg-server-hwe-18.04 2:1.20.8-2ubuntu2.2~18.04.5 (For technical support please see http://www.ubuntu.com/support)
+Apr 20 23:22:42 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: Current version of pixman: 0.34.0
+Apr 20 23:22:42 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: #011Before reporting problems, check http://wiki.x.org
+Apr 20 23:22:42 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: #011to make sure that you have the latest version.
+Apr 20 23:22:42 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: Markers: (--) probed, (**) from config file, (==) default setting,
+Apr 20 23:22:42 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: #011(++) from command line, (!!) notice, (II) informational,
+Apr 20 23:22:42 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: #011(WW) warning, (EE) error, (NI) not implemented, (??) unknown.
+Apr 20 23:22:42 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (==) Log file: "/var/log/Xorg.0.log", Time: Tue Apr 20 23:22:42 2021
+Apr 20 23:22:42 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (==) Using system config directory "/usr/share/X11/xorg.conf.d"
+Apr 20 23:22:42 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (==) No Layout section.  Using the first Screen section.
+Apr 20 23:22:42 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (==) No screen section available. Using defaults.
+Apr 20 23:22:42 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (**) |-->Screen "Default Screen Section" (0)
+Apr 20 23:22:42 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (**) |   |-->Monitor "<default monitor>"
+Apr 20 23:22:42 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (==) No monitor specified for screen "Default Screen Section".
+Apr 20 23:22:42 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: #011Using a default monitor configuration.
+Apr 20 23:22:42 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (==) Automatically adding devices
+Apr 20 23:22:42 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (==) Automatically enabling devices
+Apr 20 23:22:42 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (==) Automatically adding GPU devices
+Apr 20 23:22:42 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (==) Automatically binding GPU devices
+Apr 20 23:22:42 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (==) Max clients allowed: 256, resource mask: 0x1fffff
+Apr 20 23:22:42 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (WW) The directory "/usr/share/fonts/X11/cyrillic" does not exist.
+Apr 20 23:22:42 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: #011Entry deleted from font path.
+Apr 20 23:22:42 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (WW) The directory "/usr/share/fonts/X11/100dpi/" does not exist.
+Apr 20 23:22:42 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: #011Entry deleted from font path.
+Apr 20 23:22:42 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (WW) The directory "/usr/share/fonts/X11/75dpi/" does not exist.
+Apr 20 23:22:42 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: #011Entry deleted from font path.
+Apr 20 23:22:42 ubuntu NetworkManager[776]: <info>  [1618986162.7059] devices added (path: /sys/devices/pci0000:00/0000:00:11.0/0000:02:01.0/net/ens33, iface: ens33)
+Apr 20 23:22:42 ubuntu NetworkManager[776]: <info>  [1618986162.7059] device added (path: /sys/devices/pci0000:00/0000:00:11.0/0000:02:01.0/net/ens33, iface: ens33): no ifupdown configuration found.
+Apr 20 23:22:42 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (WW) The directory "/usr/share/fonts/X11/100dpi" does not exist.
+Apr 20 23:22:42 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: #011Entry deleted from font path.
+Apr 20 23:22:42 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (WW) The directory "/usr/share/fonts/X11/75dpi" does not exist.
+Apr 20 23:22:42 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: #011Entry deleted from font path.
+Apr 20 23:22:42 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (==) FontPath set to:
+Apr 20 23:22:42 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: #011/usr/share/fonts/X11/misc,
+Apr 20 23:22:42 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: #011/usr/share/fonts/X11/Type1,
+Apr 20 23:22:42 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: #011built-ins
+Apr 20 23:22:42 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (==) ModulePath set to "/usr/lib/xorg/modules"
+Apr 20 23:22:42 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) The server relies on udev to provide the list of input devices.
+Apr 20 23:22:42 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: #011If no devices become available, reconfigure udev or disable AutoAddDevices.
+Apr 20 23:22:42 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) Loader magic: 0x55fada5a9020
+Apr 20 23:22:42 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) Module ABI versions:
+Apr 20 23:22:42 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: #011X.Org ANSI C Emulation: 0.4
+Apr 20 23:22:42 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: #011X.Org Video Driver: 24.1
+Apr 20 23:22:42 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: #011X.Org XInput driver : 24.1
+Apr 20 23:22:42 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: #011X.Org Server Extension : 10.0
+Apr 20 23:22:42 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (++) using VT number 1
+Apr 20 23:22:42 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) systemd-logind: took control of session /org/freedesktop/login1/session/c2
+Apr 20 23:22:42 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (--) PCI:*(0@0:15:0) 15ad:0405:15ad:0405 rev 0, Mem @ 0xe8000000/134217728, 0xfe000000/8388608, I/O @ 0x00001070/16, BIOS @ 0x????????/131072
+Apr 20 23:22:42 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) LoadModule: "glx"
+Apr 20 23:22:42 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) Loading /usr/lib/xorg/modules/extensions/libglx.so
+Apr 20 23:22:42 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) Module glx: vendor="X.Org Foundation"
+Apr 20 23:22:42 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: #011compiled for 1.20.8, module version = 1.0.0
+Apr 20 23:22:42 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: #011ABI class: X.Org Server Extension, version 10.0
+Apr 20 23:22:42 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (==) Matched vmware as autoconfigured driver 0
+Apr 20 23:22:42 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (==) Matched modesetting as autoconfigured driver 1
+Apr 20 23:22:42 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (==) Matched fbdev as autoconfigured driver 2
+Apr 20 23:22:42 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (==) Matched vesa as autoconfigured driver 3
+Apr 20 23:22:42 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (==) Assigned the driver to the xf86ConfigLayout
+Apr 20 23:22:42 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) LoadModule: "vmware"
+Apr 20 23:22:42 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) Loading /usr/lib/xorg/modules/drivers/vmware_drv.so
+Apr 20 23:22:42 ubuntu snapd[752]: daemon.go:440: adjusting startup timeout by 1m15s (pessimistic estimate of 30s plus 5s per snap)
+Apr 20 23:22:42 ubuntu ModemManager[757]: <info>  Couldn't check support for device '/sys/devices/pci0000:00/0000:00:11.0/0000:02:01.0': not supported by any plugin
+Apr 20 23:22:42 ubuntu kernel: [    9.759081] [drm] DMA map mode: Caching DMA mappings.
+Apr 20 23:22:42 ubuntu kernel: [    9.762651] [drm] Capabilities:
+Apr 20 23:22:42 ubuntu kernel: [    9.762651] [drm]   Rect copy.
+Apr 20 23:22:42 ubuntu kernel: [    9.762652] [drm]   Cursor.
+Apr 20 23:22:42 ubuntu kernel: [    9.762652] [drm]   Cursor bypass.
+Apr 20 23:22:42 ubuntu kernel: [    9.762652] [drm]   Cursor bypass 2.
+Apr 20 23:22:42 ubuntu kernel: [    9.762653] [drm]   8bit emulation.
+Apr 20 23:22:42 ubuntu kernel: [    9.762653] [drm]   Alpha cursor.
+Apr 20 23:22:42 ubuntu kernel: [    9.762653] [drm]   3D.
+Apr 20 23:22:42 ubuntu kernel: [    9.762653] [drm]   Extended Fifo.
+Apr 20 23:22:42 ubuntu kernel: [    9.762653] [drm]   Multimon.
+Apr 20 23:22:42 ubuntu kernel: [    9.762654] [drm]   Pitchlock.
+Apr 20 23:22:42 ubuntu kernel: [    9.762654] [drm]   Irq mask.
+Apr 20 23:22:42 ubuntu kernel: [    9.762654] [drm]   Display Topology.
+Apr 20 23:22:42 ubuntu kernel: [    9.762654] [drm]   GMR.
+Apr 20 23:22:42 ubuntu kernel: [    9.762655] [drm]   Traces.
+Apr 20 23:22:42 ubuntu kernel: [    9.762655] [drm]   GMR2.
+Apr 20 23:22:42 ubuntu kernel: [    9.762655] [drm]   Screen Object 2.
+Apr 20 23:22:42 ubuntu kernel: [    9.762655] [drm]   Command Buffers.
+Apr 20 23:22:42 ubuntu kernel: [    9.762656] [drm]   Command Buffers 2.
+Apr 20 23:22:42 ubuntu kernel: [    9.762656] [drm]   Guest Backed Resources.
+Apr 20 23:22:42 ubuntu kernel: [    9.762656] [drm]   DX Features.
+Apr 20 23:22:42 ubuntu kernel: [    9.762657] [drm]   HP Command Queue.
+Apr 20 23:22:42 ubuntu kernel: [    9.762657] [drm] Capabilities2:
+Apr 20 23:22:42 ubuntu kernel: [    9.762657] [drm]   Grow oTable.
+Apr 20 23:22:42 ubuntu kernel: [    9.762657] [drm]   IntraSurface copy.
+Apr 20 23:22:42 ubuntu kernel: [    9.762658] [drm] Max GMR ids is 64
+Apr 20 23:22:42 ubuntu kernel: [    9.762659] [drm] Max number of GMR pages is 65536
+Apr 20 23:22:42 ubuntu kernel: [    9.762659] [drm] Max dedicated hypervisor surface memory is 0 kiB
+Apr 20 23:22:42 ubuntu kernel: [    9.762660] [drm] Maximum display memory size is 262144 kiB
+Apr 20 23:22:42 ubuntu kernel: [    9.762660] [drm] VRAM at 0xe8000000 size is 131072 kiB
+Apr 20 23:22:42 ubuntu kernel: [    9.762661] [drm] MMIO at 0xfe000000 size is 256 kiB
+Apr 20 23:22:43 ubuntu kernel: [    9.829412] [TTM] Zone  kernel: Available graphics memory: 2000854 KiB
+Apr 20 23:22:43 ubuntu kernel: [    9.829413] [TTM] Initializing pool allocator
+Apr 20 23:22:43 ubuntu kernel: [    9.829416] [TTM] Initializing DMA pool allocator
+Apr 20 23:22:43 ubuntu kernel: [    9.829484] [drm] Supports vblank timestamp caching Rev 2 (21.10.2013).
+Apr 20 23:22:43 ubuntu kernel: [    9.829484] [drm] No driver support for vblank timestamp query.
+Apr 20 23:22:43 ubuntu kernel: [    9.831215] [drm] Screen Target Display device initialized
+Apr 20 23:22:43 ubuntu kernel: [    9.834126] [drm] width 640
+Apr 20 23:22:43 ubuntu kernel: [    9.834133] [drm] height 480
+Apr 20 23:22:43 ubuntu kernel: [    9.834138] [drm] bpp 32
+Apr 20 23:22:43 ubuntu kernel: [   10.050497] [drm] Fifo max 0x00040000 min 0x00001000 cap 0x0000077f
+Apr 20 23:22:43 ubuntu vmware-tools[759]:    Mounting HGFS shares:#033[71Gfailed
+Apr 20 23:22:43 ubuntu systemd[1]: Started Snap Daemon.
+Apr 20 23:22:43 ubuntu systemd[1]: Starting Wait until snapd is fully seeded...
+Apr 20 23:22:43 ubuntu kernel: [   10.185810] [drm] Using command buffers with DMA pool.
+Apr 20 23:22:43 ubuntu kernel: [   10.185860] [drm] DX: yes.
+Apr 20 23:22:43 ubuntu kernel: [   10.185860] [drm] Atomic: yes.
+Apr 20 23:22:43 ubuntu kernel: [   10.185860] [drm] SM4_1: yes.
+Apr 20 23:22:43 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) Module vmware: vendor="X.Org Foundation"
+Apr 20 23:22:43 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: #011compiled for 1.20.1, module version = 13.3.0
+Apr 20 23:22:43 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: #011Module class: X.Org Video Driver
+Apr 20 23:22:43 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: #011ABI class: X.Org Video Driver, version 24.0
+Apr 20 23:22:43 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) LoadModule: "modesetting"
+Apr 20 23:22:43 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) Loading /usr/lib/xorg/modules/drivers/modesetting_drv.so
+Apr 20 23:22:43 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) Module modesetting: vendor="X.Org Foundation"
+Apr 20 23:22:43 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: #011compiled for 1.20.8, module version = 1.20.8
+Apr 20 23:22:43 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: #011Module class: X.Org Video Driver
+Apr 20 23:22:43 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: #011ABI class: X.Org Video Driver, version 24.1
+Apr 20 23:22:43 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) LoadModule: "fbdev"
+Apr 20 23:22:43 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) Loading /usr/lib/xorg/modules/drivers/fbdev_drv.so
+Apr 20 23:22:43 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) Module fbdev: vendor="X.Org Foundation"
+Apr 20 23:22:43 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: #011compiled for 1.20.1, module version = 0.5.0
+Apr 20 23:22:43 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: #011Module class: X.Org Video Driver
+Apr 20 23:22:43 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: #011ABI class: X.Org Video Driver, version 24.0
+Apr 20 23:22:43 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) LoadModule: "vesa"
+Apr 20 23:22:43 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) Loading /usr/lib/xorg/modules/drivers/vesa_drv.so
+Apr 20 23:22:43 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) Module vesa: vendor="X.Org Foundation"
+Apr 20 23:22:43 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: #011compiled for 1.20.1, module version = 2.4.0
+Apr 20 23:22:43 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: #011Module class: X.Org Video Driver
+Apr 20 23:22:43 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: #011ABI class: X.Org Video Driver, version 24.0
+Apr 20 23:22:43 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) vmware: driver for VMware SVGA: vmware0405, vmware0710
+Apr 20 23:22:43 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) modesetting: Driver for Modesetting Kernel Drivers: kms
+Apr 20 23:22:43 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) FBDEV: driver for framebuffer: fbdev
+Apr 20 23:22:43 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) VESA: driver for VESA chipsets: vesa
+Apr 20 23:22:43 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (WW) Falling back to old probe method for modesetting
+Apr 20 23:22:43 ubuntu vmware-tools[759]:    Blocking file system:#033[71G done
+Apr 20 23:22:43 ubuntu vmware-tools[759]:    Guest operating system daemon:#033[71G done
+Apr 20 23:22:44 ubuntu systemd[1]: Started MySQL Community Server.
+Apr 20 23:22:44 ubuntu kernel: [   11.106669] NET: Registered protocol family 40
+Apr 20 23:22:44 ubuntu vmware-tools[759]:    VGAuthService:#033[71G done
+Apr 20 23:22:44 ubuntu systemd[1]: Started LSB: VMware Tools service.
+Apr 20 23:22:44 ubuntu systemd[1]: Reached target Network is Online.
+Apr 20 23:22:44 ubuntu systemd[1]: Starting Tool to automatically collect and submit kernel crash signatures...
+Apr 20 23:22:44 ubuntu systemd[1]: Started crash report submission daemon.
+Apr 20 23:22:44 ubuntu systemd[1]: kerneloops.service: Found left-over process 1313 (kerneloops) in control group while starting unit. Ignoring.
+Apr 20 23:22:44 ubuntu systemd[1]: This usually indicates unclean termination of a previous run, or service implementation deficiencies.
+Apr 20 23:22:44 ubuntu systemd[1]: Started Tool to automatically collect and submit kernel crash signatures.
+Apr 20 23:22:44 ubuntu whoopsie[1310]: [23:22:44] Using lock path: /var/lock/whoopsie/lock
+Apr 20 23:22:44 ubuntu kernel: [   11.401313] fbcon: svgadrmfb (fb0) is primary device
+Apr 20 23:22:44 ubuntu kernel: [   11.401566] Console: switching to colour frame buffer device 100x37
+Apr 20 23:22:44 ubuntu whoopsie[1310]: [23:22:44] offline
+Apr 20 23:22:44 ubuntu kernel: [   11.555178] [drm] Initialized vmwgfx 2.15.0 20180704 for 0000:00:0f.0 on minor 0
+Apr 20 23:22:44 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (WW) Falling back to old probe method for fbdev
+Apr 20 23:22:44 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) Loading sub module "fbdevhw"
+Apr 20 23:22:44 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) LoadModule: "fbdevhw"
+Apr 20 23:22:44 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) Loading /usr/lib/xorg/modules/libfbdevhw.so
+Apr 20 23:22:44 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) Module fbdevhw: vendor="X.Org Foundation"
+Apr 20 23:22:44 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: #011compiled for 1.20.8, module version = 0.0.2
+Apr 20 23:22:44 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: #011ABI class: X.Org Video Driver, version 24.1
+Apr 20 23:22:44 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) vmware(0): Creating default Display subsection in Screen section
+Apr 20 23:22:44 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: #011"Default Screen Section" for depth/fbbpp 24/32
+Apr 20 23:22:44 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (--) vmware(0): DRM driver version is 2.15.0
+Apr 20 23:22:44 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (==) vmware(0): Depth 24, (--) framebuffer bpp 32
+Apr 20 23:22:44 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (==) vmware(0): RGB weight 888
+Apr 20 23:22:44 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (==) vmware(0): Default visual is TrueColor
+Apr 20 23:22:44 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (--) vmware(0): Min width 1, Max Width 16384.
+Apr 20 23:22:44 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (--) vmware(0): Min height 1, Max Height 16384.
+Apr 20 23:22:44 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) vmware(0): Output Virtual1 has no monitor section
+Apr 20 23:22:44 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) vmware(0): Output Virtual2 has no monitor section
+Apr 20 23:22:44 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) vmware(0): Output Virtual3 has no monitor section
+Apr 20 23:22:44 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) vmware(0): Output Virtual4 has no monitor section
+Apr 20 23:22:44 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) vmware(0): Output Virtual5 has no monitor section
+Apr 20 23:22:44 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) vmware(0): Output Virtual6 has no monitor section
+Apr 20 23:22:44 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) vmware(0): Output Virtual7 has no monitor section
+Apr 20 23:22:44 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) vmware(0): Output Virtual8 has no monitor section
+Apr 20 23:22:44 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) vmware(0): Printing probed modes for output Virtual1
+Apr 20 23:22:44 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) vmware(0): Modeline "800x600"x60.0   42.75  800 850 900 950  600 650 700 750 -hsync +vsync (45.0 kHz eP)
+Apr 20 23:22:44 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) vmware(0): Modeline "2560x1600"x60.0  348.50  2560 2752 3032 3504  1600 1603 1609 1658 -hsync +vsync (99.5 kHz e)
+Apr 20 23:22:44 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) vmware(0): Modeline "1920x1440"x60.0  234.00  1920 2048 2256 2600  1440 1441 1444 1500 -hsync +vsync (90.0 kHz e)
+Apr 20 23:22:44 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) vmware(0): Modeline "1856x1392"x60.0  218.25  1856 1952 2176 2528  1392 1393 1396 1439 -hsync +vsync (86.3 kHz e)
+Apr 20 23:22:44 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) vmware(0): Modeline "1792x1344"x60.0  204.75  1792 1920 2120 2448  1344 1345 1348 1394 -hsync +vsync (83.6 kHz e)
+Apr 20 23:22:44 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) vmware(0): Modeline "1920x1200"x59.9  193.25  1920 2056 2256 2592  1200 1203 1209 1245 -hsync +vsync (74.6 kHz e)
+Apr 20 23:22:44 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) vmware(0): Modeline "1600x1200"x60.0  162.00  1600 1664 1856 2160  1200 1201 1204 1250 +hsync +vsync (75.0 kHz e)
+Apr 20 23:22:44 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) vmware(0): Modeline "1680x1050"x60.0  146.25  1680 1784 1960 2240  1050 1053 1059 1089 -hsync +vsync (65.3 kHz e)
+Apr 20 23:22:44 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) vmware(0): Modeline "1400x1050"x60.0  121.75  1400 1488 1632 1864  1050 1053 1057 1089 -hsync +vsync (65.3 kHz e)
+Apr 20 23:22:44 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) vmware(0): Modeline "1280x1024"x60.0  108.00  1280 1328 1440 1688  1024 1025 1028 1066 +hsync +vsync (64.0 kHz e)
+Apr 20 23:22:44 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) vmware(0): Modeline "1440x900"x59.9  106.50  1440 1520 1672 1904  900 903 909 934 -hsync +vsync (55.9 kHz e)
+Apr 20 23:22:44 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) vmware(0): Modeline "1280x960"x60.0  108.00  1280 1376 1488 1800  960 961 964 1000 +hsync +vsync (60.0 kHz e)
+Apr 20 23:22:44 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) vmware(0): Modeline "1360x768"x60.0   85.50  1360 1424 1536 1792  768 771 777 795 +hsync +vsync (47.7 kHz e)
+Apr 20 23:22:44 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) vmware(0): Modeline "1280x800"x59.8   83.50  1280 1352 1480 1680  800 803 809 831 +hsync -vsync (49.7 kHz e)
+Apr 20 23:22:44 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) vmware(0): Modeline "1152x864"x75.0  108.00  1152 1216 1344 1600  864 865 868 900 +hsync +vsync (67.5 kHz e)
+Apr 20 23:22:44 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) vmware(0): Modeline "1280x768"x59.9   79.50  1280 1344 1472 1664  768 771 778 798 -hsync +vsync (47.8 kHz e)
+Apr 20 23:22:44 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) vmware(0): Modeline "1024x768"x60.0   65.00  1024 1048 1184 1344  768 771 777 806 -hsync -vsync (48.4 kHz e)
+Apr 20 23:22:44 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) vmware(0): Modeline "800x600"x60.3   40.00  800 840 968 1056  600 601 605 628 +hsync +vsync (37.9 kHz e)
+Apr 20 23:22:44 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) vmware(0): Modeline "640x480"x59.9   25.18  640 656 752 800  480 489 492 525 -hsync -vsync (31.5 kHz e)
+Apr 20 23:22:44 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) vmware(0): EDID for output Virtual2
+Apr 20 23:22:44 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) vmware(0): EDID for output Virtual3
+Apr 20 23:22:44 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) vmware(0): EDID for output Virtual4
+Apr 20 23:22:44 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) vmware(0): EDID for output Virtual5
+Apr 20 23:22:44 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) vmware(0): EDID for output Virtual6
+Apr 20 23:22:44 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) vmware(0): EDID for output Virtual7
+Apr 20 23:22:44 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) vmware(0): EDID for output Virtual8
+Apr 20 23:22:44 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) vmware(0): Output Virtual1 connected
+Apr 20 23:22:44 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) vmware(0): Output Virtual2 disconnected
+Apr 20 23:22:44 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) vmware(0): Output Virtual3 disconnected
+Apr 20 23:22:44 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) vmware(0): Output Virtual4 disconnected
+Apr 20 23:22:44 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) vmware(0): Output Virtual5 disconnected
+Apr 20 23:22:44 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) vmware(0): Output Virtual6 disconnected
+Apr 20 23:22:44 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) vmware(0): Output Virtual7 disconnected
+Apr 20 23:22:44 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) vmware(0): Output Virtual8 disconnected
+Apr 20 23:22:44 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) vmware(0): Using exact sizes for initial modes
+Apr 20 23:22:44 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) vmware(0): Output Virtual1 using initial mode 800x600 +0+0
+Apr 20 23:22:44 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (==) vmware(0): DPI set to (96, 96)
+Apr 20 23:22:44 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (==) vmware(0): Using gamma correction (1.0, 1.0, 1.0)
+Apr 20 23:22:44 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) Loading sub module "fb"
+Apr 20 23:22:44 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) LoadModule: "fb"
+Apr 20 23:22:44 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) Loading /usr/lib/xorg/modules/libfb.so
+Apr 20 23:22:44 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) Module fb: vendor="X.Org Foundation"
+Apr 20 23:22:44 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: #011compiled for 1.20.8, module version = 1.0.0
+Apr 20 23:22:44 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: #011ABI class: X.Org ANSI C Emulation, version 0.4
+Apr 20 23:22:44 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) Loading sub module "dri2"
+Apr 20 23:22:44 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) LoadModule: "dri2"
+Apr 20 23:22:44 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) Module "dri2" already built-in
+Apr 20 23:22:44 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) Loading sub module "dri3"
+Apr 20 23:22:44 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) LoadModule: "dri3"
+Apr 20 23:22:44 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) Module "dri3" already built-in
+Apr 20 23:22:44 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) UnloadModule: "modesetting"
+Apr 20 23:22:44 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) Unloading modesetting
+Apr 20 23:22:44 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) UnloadModule: "fbdev"
+Apr 20 23:22:44 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) Unloading fbdev
+Apr 20 23:22:44 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) UnloadSubModule: "fbdevhw"
+Apr 20 23:22:44 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) Unloading fbdevhw
+Apr 20 23:22:44 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) UnloadModule: "vesa"
+Apr 20 23:22:44 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) Unloading vesa
+Apr 20 23:22:44 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) vmware(0): Initialized VMWARE_CTRL extension version 0.2
+Apr 20 23:22:44 ubuntu kernel: [   11.700222] RAPL PMU: API unit is 2^-32 Joules, 0 fixed counters, 10737418240 ms ovfl timer
+Apr 20 23:22:44 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) vmware(0): Gallium3D XA version: 2.5.0.
+Apr 20 23:22:44 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) vmware(0): Path of drm device is "/dev/dri/card0".
+Apr 20 23:22:44 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) vmware(0): [DRI2] Setup complete
+Apr 20 23:22:44 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) vmware(0): [DRI2]   DRI driver: vmwgfx
+Apr 20 23:22:45 ubuntu kernel: [   11.800213] cryptd: max_cpu_qlen set to 1000
+Apr 20 23:22:45 ubuntu systemd[1]: Started Wait until snapd is fully seeded.
+Apr 20 23:22:45 ubuntu systemd[1]: Reached target Multi-User System.
+Apr 20 23:22:45 ubuntu systemd[1]: Reached target Graphical Interface.
+Apr 20 23:22:45 ubuntu systemd[1]: Starting Update UTMP about System Runlevel Changes...
+Apr 20 23:22:45 ubuntu systemd[1]: Started Update UTMP about System Runlevel Changes.
+Apr 20 23:22:45 ubuntu systemd-udevd[552]: link_config: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Apr 20 23:22:45 ubuntu systemd[1]: Startup finished in 4.997s (kernel) + 6.927s (userspace) = 11.924s.
+Apr 20 23:22:45 ubuntu systemd[1]: Listening on Load/Save RF Kill Switch Status /dev/rfkill Watch.
+Apr 20 23:22:45 ubuntu kernel: [   11.953626] AVX2 version of gcm_enc/dec engaged.
+Apr 20 23:22:45 ubuntu kernel: [   11.953628] AES CTR mode by8 optimization enabled
+Apr 20 23:22:45 ubuntu NetworkManager[776]: <info>  [1618986165.2158] devices added (path: /sys/devices/virtual/net/lo, iface: lo)
+Apr 20 23:22:45 ubuntu NetworkManager[776]: <info>  [1618986165.2158] device added (path: /sys/devices/virtual/net/lo, iface: lo): no ifupdown configuration found.
+Apr 20 23:22:45 ubuntu systemd-udevd[527]: Process '/bin/sh -c 'echo 180 >/sys$DEVPATH/timeout'' failed with exit code 2.
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (--) vmware(0): Render acceleration is enabled.
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (==) vmware(0): Rendercheck mode is disabled.
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (--) vmware(0): Direct rendering (DRI2 3D) is enabled.
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (--) vmware(0): Direct rendering (DRI3 3D) is enabled.
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (==) vmware(0): Direct presents are disabled.
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (==) vmware(0): Hardware only presents are automatic per scanout.
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (==) vmware(0): Backing store enabled
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (==) vmware(0): Silken mouse enabled
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (==) vmware(0): DPMS enabled
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) Initializing extension Generic Event Extension
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) Initializing extension SHAPE
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) Initializing extension MIT-SHM
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) Initializing extension XInputExtension
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) Initializing extension XTEST
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) Initializing extension BIG-REQUESTS
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) Initializing extension SYNC
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) Initializing extension XKEYBOARD
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) Initializing extension XC-MISC
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) Initializing extension SECURITY
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) Initializing extension XFIXES
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) Initializing extension RENDER
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) Initializing extension RANDR
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) Initializing extension COMPOSITE
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) Initializing extension DAMAGE
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) Initializing extension MIT-SCREEN-SAVER
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) Initializing extension DOUBLE-BUFFER
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) Initializing extension RECORD
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) Initializing extension DPMS
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) Initializing extension Present
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) Initializing extension DRI3
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) Initializing extension X-Resource
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) Initializing extension XVideo
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) Initializing extension XVideo-MotionCompensation
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) Initializing extension SELinux
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) SELinux: Disabled on system
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) Initializing extension GLX
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) AIGLX: Loaded and initialized vmwgfx
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) GLX: Initialized DRI2 GL provider for screen 0
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) Initializing extension XFree86-VidModeExtension
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) Initializing extension XFree86-DGA
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) Initializing extension XFree86-DRI
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) Initializing extension DRI2
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) vmware(0): Setting screen physical size to 211 x 158
+Apr 20 23:22:45 ubuntu systemd[1]: Reached target Sound Card.
+Apr 20 23:22:45 ubuntu systemd-udevd[535]: Process '/usr/sbin/alsactl -E HOME=/run/alsa restore 0' failed with exit code 2.
+Apr 20 23:22:45 ubuntu systemd-udevd[527]: Process '/bin/sh -c 'echo 180 >/sys$DEVPATH/timeout'' failed with exit code 2.
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) config/udev: Adding input device Power Button (/dev/input/event0)
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (**) Power Button: Applying InputClass "libinput keyboard catchall"
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) LoadModule: "libinput"
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) Loading /usr/lib/xorg/modules/input/libinput_drv.so
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) Module libinput: vendor="X.Org Foundation"
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: #011compiled for 1.20.1, module version = 0.28.1
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: #011Module class: X.Org XInput Driver
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: #011ABI class: X.Org XInput driver, version 24.1
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) Using input driver 'libinput' for 'Power Button'
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) systemd-logind: got fd for /dev/input/event0 13:64 fd 27 paused 0
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (**) Power Button: always reports core events
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (**) Option "Device" "/dev/input/event0"
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (**) Option "_source" "server/udev"
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) event0  - Power Button: is tagged by udev as: Keyboard
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) event0  - Power Button: device is a keyboard
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) event0  - Power Button: device removed
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (**) Option "config_info" "udev:/sys/devices/LNXSYSTM:00/LNXPWRBN:00/input/input0/event0"
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) XINPUT: Adding extended input device "Power Button" (type: KEYBOARD, id 6)
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (**) Option "xkb_model" "SKIP"
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (**) Option "xkb_layout" "us"
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) event0  - Power Button: is tagged by udev as: Keyboard
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) event0  - Power Button: device is a keyboard
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) config/udev: Adding drm device (/dev/dri/card0)
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) xfree86: Adding drm device (/dev/dri/card0)
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) systemd-logind: got fd for /dev/dri/card0 226:0 fd 30 paused 1
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (EE) Error systemd-logind returned paused fd for drm node
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) systemd-logind: releasing fd for 226:0
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) config/udev: Adding input device VMware VMware Virtual USB Mouse (/dev/input/event4)
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (**) VMware VMware Virtual USB Mouse: Applying InputClass "libinput pointer catchall"
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) Using input driver 'libinput' for 'VMware VMware Virtual USB Mouse'
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) systemd-logind: got fd for /dev/input/event4 13:68 fd 31 paused 0
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (**) VMware VMware Virtual USB Mouse: always reports core events
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (**) Option "Device" "/dev/input/event4"
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (**) Option "_source" "server/udev"
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) event4  - VMware VMware Virtual USB Mouse: is tagged by udev as: Mouse
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) event4  - VMware VMware Virtual USB Mouse: device is a pointer
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) event4  - VMware VMware Virtual USB Mouse: device removed
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:11.0/0000:02:00.0/usb2/2-1/2-1:1.0/0003:0E0F:0003.0001/input/input5/event4"
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) XINPUT: Adding extended input device "VMware VMware Virtual USB Mouse" (type: MOUSE, id 7)
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (**) Option "AccelerationScheme" "none"
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (**) VMware VMware Virtual USB Mouse: (accel) selected scheme none/0
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (**) VMware VMware Virtual USB Mouse: (accel) acceleration factor: 2.000
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (**) VMware VMware Virtual USB Mouse: (accel) acceleration threshold: 4
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) event4  - VMware VMware Virtual USB Mouse: is tagged by udev as: Mouse
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) event4  - VMware VMware Virtual USB Mouse: device is a pointer
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) config/udev: Adding input device VMware VMware Virtual USB Mouse (/dev/input/mouse2)
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) No input driver specified, ignoring this device.
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) This device may have been added with another device file.
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) config/udev: Adding input device AT Translated Set 2 keyboard (/dev/input/event1)
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (**) AT Translated Set 2 keyboard: Applying InputClass "libinput keyboard catchall"
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) Using input driver 'libinput' for 'AT Translated Set 2 keyboard'
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) systemd-logind: got fd for /dev/input/event1 13:65 fd 32 paused 0
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (**) AT Translated Set 2 keyboard: always reports core events
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (**) Option "Device" "/dev/input/event1"
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (**) Option "_source" "server/udev"
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) event1  - AT Translated Set 2 keyboard: is tagged by udev as: Keyboard
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) event1  - AT Translated Set 2 keyboard: device is a keyboard
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) event1  - AT Translated Set 2 keyboard: device removed
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (**) Option "config_info" "udev:/sys/devices/platform/i8042/serio0/input/input1/event1"
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) XINPUT: Adding extended input device "AT Translated Set 2 keyboard" (type: KEYBOARD, id 8)
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (**) Option "xkb_model" "SKIP"
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (**) Option "xkb_layout" "us"
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) event1  - AT Translated Set 2 keyboard: is tagged by udev as: Keyboard
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) event1  - AT Translated Set 2 keyboard: device is a keyboard
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) config/udev: Adding input device VirtualPS/2 VMware VMMouse (/dev/input/event3)
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (**) VirtualPS/2 VMware VMMouse: Applying InputClass "libinput pointer catchall"
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) Using input driver 'libinput' for 'VirtualPS/2 VMware VMMouse'
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) systemd-logind: got fd for /dev/input/event3 13:67 fd 33 paused 0
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (**) VirtualPS/2 VMware VMMouse: always reports core events
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (**) Option "Device" "/dev/input/event3"
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (**) Option "_source" "server/udev"
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) event3  - VirtualPS/2 VMware VMMouse: is tagged by udev as: Mouse
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) event3  - VirtualPS/2 VMware VMMouse: device is a pointer
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) event3  - VirtualPS/2 VMware VMMouse: device removed
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (**) Option "config_info" "udev:/sys/devices/platform/i8042/serio1/input/input3/event3"
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) XINPUT: Adding extended input device "VirtualPS/2 VMware VMMouse" (type: MOUSE, id 9)
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (**) Option "AccelerationScheme" "none"
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (**) VirtualPS/2 VMware VMMouse: (accel) selected scheme none/0
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (**) VirtualPS/2 VMware VMMouse: (accel) acceleration factor: 2.000
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (**) VirtualPS/2 VMware VMMouse: (accel) acceleration threshold: 4
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) event3  - VirtualPS/2 VMware VMMouse: is tagged by udev as: Mouse
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) event3  - VirtualPS/2 VMware VMMouse: device is a pointer
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) config/udev: Adding input device VirtualPS/2 VMware VMMouse (/dev/input/mouse1)
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) No input driver specified, ignoring this device.
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) This device may have been added with another device file.
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) config/udev: Adding input device VirtualPS/2 VMware VMMouse (/dev/input/event2)
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (**) VirtualPS/2 VMware VMMouse: Applying InputClass "libinput pointer catchall"
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) Using input driver 'libinput' for 'VirtualPS/2 VMware VMMouse'
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) systemd-logind: got fd for /dev/input/event2 13:66 fd 34 paused 0
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (**) VirtualPS/2 VMware VMMouse: always reports core events
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (**) Option "Device" "/dev/input/event2"
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (**) Option "_source" "server/udev"
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) event2  - VirtualPS/2 VMware VMMouse: is tagged by udev as: Mouse
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) event2  - VirtualPS/2 VMware VMMouse: device is a pointer
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) event2  - VirtualPS/2 VMware VMMouse: device removed
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (**) Option "config_info" "udev:/sys/devices/platform/i8042/serio1/input/input4/event2"
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) XINPUT: Adding extended input device "VirtualPS/2 VMware VMMouse" (type: MOUSE, id 10)
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (**) Option "AccelerationScheme" "none"
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (**) VirtualPS/2 VMware VMMouse: (accel) selected scheme none/0
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (**) VirtualPS/2 VMware VMMouse: (accel) acceleration factor: 2.000
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (**) VirtualPS/2 VMware VMMouse: (accel) acceleration threshold: 4
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) event2  - VirtualPS/2 VMware VMMouse: is tagged by udev as: Mouse
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) event2  - VirtualPS/2 VMware VMMouse: device is a pointer
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) config/udev: Adding input device VirtualPS/2 VMware VMMouse (/dev/input/mouse0)
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) No input driver specified, ignoring this device.
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) This device may have been added with another device file.
+Apr 20 23:22:45 ubuntu systemd[1094]: Started D-Bus User Message Bus.
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (!!) vmware(0): New layout.
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (!!) vmware(0): 0: 0 0 800 600
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (!!) vmware(0):
+Apr 20 23:22:45 ubuntu dbus-daemon[1535]: [session uid=121 pid=1535] AppArmor D-Bus mediation is enabled
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) config/udev: Adding input device VMware VMware Virtual USB Mouse (/dev/input/mouse2)
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) No input driver specified, ignoring this device.
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) This device may have been added with another device file.
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) config/udev: removing device VMware VMware Virtual USB Mouse
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (**) Option "fd" "31"
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) event4  - VMware VMware Virtual USB Mouse: device removed
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) UnloadModule: "libinput"
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) systemd-logind: releasing fd for 13:68
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) config/udev: Adding input device VMware VMware Virtual USB Mouse (/dev/input/event4)
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (**) VMware VMware Virtual USB Mouse: Applying InputClass "libinput pointer catchall"
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) Using input driver 'libinput' for 'VMware VMware Virtual USB Mouse'
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) systemd-logind: got fd for /dev/input/event4 13:68 fd 8 paused 0
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (**) VMware VMware Virtual USB Mouse: always reports core events
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (**) Option "Device" "/dev/input/event4"
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (**) Option "_source" "server/udev"
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) event4  - VMware VMware Virtual USB Mouse: is tagged by udev as: Mouse
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) event4  - VMware VMware Virtual USB Mouse: device is a pointer
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) event4  - VMware VMware Virtual USB Mouse: device removed
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:11.0/0000:02:00.0/usb2/2-1/2-1:1.0/0003:0E0F:0003.0001/input/input5/event4"
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) XINPUT: Adding extended input device "VMware VMware Virtual USB Mouse" (type: MOUSE, id 7)
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (**) Option "AccelerationScheme" "none"
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (**) VMware VMware Virtual USB Mouse: (accel) selected scheme none/0
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (**) VMware VMware Virtual USB Mouse: (accel) acceleration factor: 2.000
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (**) VMware VMware Virtual USB Mouse: (accel) acceleration threshold: 4
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) event4  - VMware VMware Virtual USB Mouse: is tagged by udev as: Mouse
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) event4  - VMware VMware Virtual USB Mouse: device is a pointer
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) config/udev: Adding input device VirtualPS/2 VMware VMMouse (/dev/input/mouse1)
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) No input driver specified, ignoring this device.
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) This device may have been added with another device file.
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) config/udev: Adding input device VirtualPS/2 VMware VMMouse (/dev/input/mouse0)
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) No input driver specified, ignoring this device.
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) This device may have been added with another device file.
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) config/udev: removing device VirtualPS/2 VMware VMMouse
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (**) Option "fd" "33"
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) event3  - VirtualPS/2 VMware VMMouse: device removed
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) UnloadModule: "libinput"
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) systemd-logind: releasing fd for 13:67
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) config/udev: Adding input device VirtualPS/2 VMware VMMouse (/dev/input/event3)
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (**) VirtualPS/2 VMware VMMouse: Applying InputClass "libinput pointer catchall"
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) Using input driver 'libinput' for 'VirtualPS/2 VMware VMMouse'
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) systemd-logind: got fd for /dev/input/event3 13:67 fd 31 paused 0
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (**) VirtualPS/2 VMware VMMouse: always reports core events
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (**) Option "Device" "/dev/input/event3"
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (**) Option "_source" "server/udev"
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) event3  - VirtualPS/2 VMware VMMouse: is tagged by udev as: Mouse
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) event3  - VirtualPS/2 VMware VMMouse: device is a pointer
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) event3  - VirtualPS/2 VMware VMMouse: device removed
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (**) Option "config_info" "udev:/sys/devices/platform/i8042/serio1/input/input3/event3"
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) XINPUT: Adding extended input device "VirtualPS/2 VMware VMMouse" (type: MOUSE, id 9)
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (**) Option "AccelerationScheme" "none"
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (**) VirtualPS/2 VMware VMMouse: (accel) selected scheme none/0
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (**) VirtualPS/2 VMware VMMouse: (accel) acceleration factor: 2.000
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (**) VirtualPS/2 VMware VMMouse: (accel) acceleration threshold: 4
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) event3  - VirtualPS/2 VMware VMMouse: is tagged by udev as: Mouse
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) event3  - VirtualPS/2 VMware VMMouse: device is a pointer
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) config/udev: removing device VirtualPS/2 VMware VMMouse
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (**) Option "fd" "34"
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) event2  - VirtualPS/2 VMware VMMouse: device removed
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) UnloadModule: "libinput"
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) systemd-logind: releasing fd for 13:66
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) config/udev: Adding input device VirtualPS/2 VMware VMMouse (/dev/input/event2)
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (**) VirtualPS/2 VMware VMMouse: Applying InputClass "libinput pointer catchall"
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) Using input driver 'libinput' for 'VirtualPS/2 VMware VMMouse'
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) systemd-logind: got fd for /dev/input/event2 13:66 fd 33 paused 0
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (**) VirtualPS/2 VMware VMMouse: always reports core events
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (**) Option "Device" "/dev/input/event2"
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (**) Option "_source" "server/udev"
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) event2  - VirtualPS/2 VMware VMMouse: is tagged by udev as: Mouse
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) event2  - VirtualPS/2 VMware VMMouse: device is a pointer
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) event2  - VirtualPS/2 VMware VMMouse: device removed
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (**) Option "config_info" "udev:/sys/devices/platform/i8042/serio1/input/input4/event2"
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) XINPUT: Adding extended input device "VirtualPS/2 VMware VMMouse" (type: MOUSE, id 10)
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (**) Option "AccelerationScheme" "none"
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (**) VirtualPS/2 VMware VMMouse: (accel) selected scheme none/0
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (**) VirtualPS/2 VMware VMMouse: (accel) acceleration factor: 2.000
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (**) VirtualPS/2 VMware VMMouse: (accel) acceleration threshold: 4
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) event2  - VirtualPS/2 VMware VMMouse: is tagged by udev as: Mouse
+Apr 20 23:22:45 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) event2  - VirtualPS/2 VMware VMMouse: device is a pointer
+Apr 20 23:22:46 ubuntu snapd[752]: storehelpers.go:551: cannot refresh: snap has no updates available: "core", "core18", "gnome-3-28-1804", "gnome-3-34-1804", "gnome-calculator", "gnome-characters", "gnome-logs", "gnome-system-monitor", "gtk-common-themes"
+Apr 20 23:22:46 ubuntu snapd[752]: autorefresh.go:479: auto-refresh: all snaps are up-to-date
+Apr 20 23:22:46 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) config/udev: removing device AT Translated Set 2 keyboard
+Apr 20 23:22:46 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (**) Option "fd" "32"
+Apr 20 23:22:46 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) event1  - AT Translated Set 2 keyboard: device removed
+Apr 20 23:22:46 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) UnloadModule: "libinput"
+Apr 20 23:22:46 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) systemd-logind: releasing fd for 13:65
+Apr 20 23:22:46 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) config/udev: Adding input device AT Translated Set 2 keyboard (/dev/input/event1)
+Apr 20 23:22:46 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (**) AT Translated Set 2 keyboard: Applying InputClass "libinput keyboard catchall"
+Apr 20 23:22:46 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) Using input driver 'libinput' for 'AT Translated Set 2 keyboard'
+Apr 20 23:22:46 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) systemd-logind: got fd for /dev/input/event1 13:65 fd 32 paused 0
+Apr 20 23:22:46 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (**) AT Translated Set 2 keyboard: always reports core events
+Apr 20 23:22:46 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (**) Option "Device" "/dev/input/event1"
+Apr 20 23:22:46 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (**) Option "_source" "server/udev"
+Apr 20 23:22:46 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) event1  - AT Translated Set 2 keyboard: is tagged by udev as: Keyboard
+Apr 20 23:22:46 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) event1  - AT Translated Set 2 keyboard: device is a keyboard
+Apr 20 23:22:46 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) event1  - AT Translated Set 2 keyboard: device removed
+Apr 20 23:22:46 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (**) Option "config_info" "udev:/sys/devices/platform/i8042/serio0/input/input1/event1"
+Apr 20 23:22:46 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) XINPUT: Adding extended input device "AT Translated Set 2 keyboard" (type: KEYBOARD, id 8)
+Apr 20 23:22:46 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (**) Option "xkb_model" "SKIP"
+Apr 20 23:22:46 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (**) Option "xkb_layout" "us"
+Apr 20 23:22:46 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (WW) Option "xkb_variant" requires a string value
+Apr 20 23:22:46 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (WW) Option "xkb_options" requires a string value
+Apr 20 23:22:46 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) event1  - AT Translated Set 2 keyboard: is tagged by udev as: Keyboard
+Apr 20 23:22:46 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) event1  - AT Translated Set 2 keyboard: device is a keyboard
+Apr 20 23:22:46 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) config/udev: removing GPU device /sys/devices/pci0000:00/0000:00:0f.0/drm/card0 /dev/dri/card0
+Apr 20 23:22:46 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) config/udev: Adding drm device (/dev/dri/card0)
+Apr 20 23:22:46 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) xfree86: Adding drm device (/dev/dri/card0)
+Apr 20 23:22:46 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) systemd-logind: got fd for /dev/dri/card0 226:0 fd 34 paused 1
+Apr 20 23:22:46 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (EE) Error systemd-logind returned paused fd for drm node
+Apr 20 23:22:46 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) systemd-logind: releasing fd for 226:0
+Apr 20 23:22:46 ubuntu dbus-daemon[1535]: [session uid=121 pid=1535] Activating via systemd: service name='org.a11y.Bus' unit='at-spi-dbus-bus.service' requested by ':1.2' (uid=121 pid=1549 comm="/usr/lib/gnome-session/gnome-session-check-acceler" label="unconfined")
+Apr 20 23:22:46 ubuntu systemd[1094]: Starting Accessibility services bus...
+Apr 20 23:22:46 ubuntu dbus-daemon[1535]: [session uid=121 pid=1535] Successfully activated service 'org.a11y.Bus'
+Apr 20 23:22:46 ubuntu systemd[1094]: Started Accessibility services bus.
+Apr 20 23:22:46 ubuntu at-spi-bus-launcher[1552]: dbus-daemon[1557]: Activating service name='org.a11y.atspi.Registry' requested by ':1.0' (uid=121 pid=1549 comm="/usr/lib/gnome-session/gnome-session-check-acceler" label="unconfined")
+Apr 20 23:22:46 ubuntu at-spi-bus-launcher[1552]: dbus-daemon[1557]: Successfully activated service 'org.a11y.atspi.Registry'
+Apr 20 23:22:46 ubuntu at-spi-bus-launcher[1552]: SpiRegistry daemon is running with well-known name - org.a11y.atspi.Registry
+Apr 20 23:22:48 ubuntu systemd[1094]: Starting Sound Service...
+Apr 20 23:22:48 ubuntu dbus-daemon[763]: [system] Activating via systemd: service name='org.freedesktop.RealtimeKit1' unit='rtkit-daemon.service' requested by ':1.39' (uid=121 pid=1575 comm="/usr/bin/pulseaudio --daemonize=no " label="unconfined")
+Apr 20 23:22:48 ubuntu systemd[1]: Starting RealtimeKit Scheduling Policy Service...
+Apr 20 23:22:48 ubuntu dbus-daemon[763]: [system] Successfully activated service 'org.freedesktop.RealtimeKit1'
+Apr 20 23:22:48 ubuntu systemd[1]: Started RealtimeKit Scheduling Policy Service.
+Apr 20 23:22:48 ubuntu rtkit-daemon[1577]: Successfully called chroot.
+Apr 20 23:22:48 ubuntu rtkit-daemon[1577]: Successfully dropped privileges.
+Apr 20 23:22:48 ubuntu rtkit-daemon[1577]: Successfully limited resources.
+Apr 20 23:22:48 ubuntu rtkit-daemon[1577]: Running.
+Apr 20 23:22:48 ubuntu rtkit-daemon[1577]: Canary thread running.
+Apr 20 23:22:48 ubuntu rtkit-daemon[1577]: Watchdog thread running.
+Apr 20 23:22:48 ubuntu pulseaudio[1575]: N: [pulseaudio] alsa-util.c: Disabling timer-based scheduling because running inside a VM.
+Apr 20 23:22:48 ubuntu rtkit-daemon[1577]: Supervising 0 threads of 0 processes of 1 users.
+Apr 20 23:22:48 ubuntu rtkit-daemon[1577]: message repeated 4 times: [ Supervising 0 threads of 0 processes of 1 users.]
+Apr 20 23:22:48 ubuntu pulseaudio[1575]: E: [alsa-sink-ES1371/1] alsa-sink.c: ALSA woke us up to write new data to the device, but there was actually nothing to write.
+Apr 20 23:22:48 ubuntu pulseaudio[1575]: E: [alsa-sink-ES1371/1] alsa-sink.c: Most likely this is a bug in the ALSA driver 'snd_ens1371'. Please report this issue to the ALSA developers.
+Apr 20 23:22:48 ubuntu pulseaudio[1575]: E: [alsa-sink-ES1371/1] alsa-sink.c: We were woken up with POLLOUT set -- however a subsequent snd_pcm_avail() returned 0 or another value < min_avail.
+Apr 20 23:22:48 ubuntu pulseaudio[1575]: N: [pulseaudio] alsa-util.c: Disabling timer-based scheduling because running inside a VM.
+Apr 20 23:22:48 ubuntu rtkit-daemon[1577]: Supervising 0 threads of 0 processes of 1 users.
+Apr 20 23:22:48 ubuntu rtkit-daemon[1577]: message repeated 4 times: [ Supervising 0 threads of 0 processes of 1 users.]
+Apr 20 23:22:48 ubuntu pulseaudio[1575]: E: [alsa-source-ES1371/1] alsa-source.c: ALSA woke us up to read new data from the device, but there was actually nothing to read.
+Apr 20 23:22:48 ubuntu pulseaudio[1575]: E: [alsa-source-ES1371/1] alsa-source.c: Most likely this is a bug in the ALSA driver 'snd_ens1371'. Please report this issue to the ALSA developers.
+Apr 20 23:22:48 ubuntu pulseaudio[1575]: E: [alsa-source-ES1371/1] alsa-source.c: We were woken up with POLLIN set -- however a subsequent snd_pcm_avail() returned 0 or another value < min_avail.
+Apr 20 23:22:48 ubuntu dbus-daemon[763]: [system] Activating via systemd: service name='org.bluez' unit='dbus-org.bluez.service' requested by ':1.61' (uid=121 pid=1575 comm="/usr/bin/pulseaudio --daemonize=no " label="unconfined")
+Apr 20 23:22:48 ubuntu systemd[1094]: Started Sound Service.
+Apr 20 23:22:49 ubuntu dbus-daemon[763]: [system] Activating via systemd: service name='org.freedesktop.locale1' unit='dbus-org.freedesktop.locale1.service' requested by ':1.38' (uid=121 pid=1568 comm="/usr/bin/gnome-shell " label="unconfined")
+Apr 20 23:22:49 ubuntu systemd[1]: Starting Locale Service...
+Apr 20 23:22:49 ubuntu dbus-daemon[763]: [system] Successfully activated service 'org.freedesktop.locale1'
+Apr 20 23:22:49 ubuntu systemd[1]: Started Locale Service.
+Apr 20 23:22:50 ubuntu dbus-daemon[1535]: [session uid=121 pid=1535] Activating via systemd: service name='org.freedesktop.impl.portal.PermissionStore' unit='xdg-permission-store.service' requested by ':1.7' (uid=121 pid=1568 comm="/usr/bin/gnome-shell " label="unconfined")
+Apr 20 23:22:50 ubuntu systemd[1094]: Starting sandboxed app permission store...
+Apr 20 23:22:50 ubuntu dbus-daemon[1535]: [session uid=121 pid=1535] Successfully activated service 'org.freedesktop.impl.portal.PermissionStore'
+Apr 20 23:22:50 ubuntu systemd[1094]: Started sandboxed app permission store.
+Apr 20 23:22:50 ubuntu dbus-daemon[1535]: [session uid=121 pid=1535] Activating service name='org.freedesktop.portal.IBus' requested by ':1.10' (uid=121 pid=1590 comm="ibus-daemon --xim --panel disable " label="unconfined")
+Apr 20 23:22:50 ubuntu dbus-daemon[1535]: [session uid=121 pid=1535] Successfully activated service 'org.freedesktop.portal.IBus'
+Apr 20 23:22:50 ubuntu dbus-daemon[763]: [system] Activating via systemd: service name='org.freedesktop.GeoClue2' unit='geoclue.service' requested by ':1.38' (uid=121 pid=1568 comm="/usr/bin/gnome-shell " label="unconfined")
+Apr 20 23:22:50 ubuntu systemd[1]: Starting Location Lookup Service...
+Apr 20 23:22:50 ubuntu dbus-daemon[763]: [system] Activating via systemd: service name='org.freedesktop.bolt' unit='bolt.service' requested by ':1.38' (uid=121 pid=1568 comm="/usr/bin/gnome-shell " label="unconfined")
+Apr 20 23:22:50 ubuntu systemd[1]: Starting Thunderbolt system service...
+Apr 20 23:22:50 ubuntu dbus-daemon[763]: [system] Successfully activated service 'org.freedesktop.GeoClue2'
+Apr 20 23:22:50 ubuntu systemd[1]: Started Location Lookup Service.
+Apr 20 23:22:50 ubuntu boltd[1622]: bolt 0.5 starting up.
+Apr 20 23:22:50 ubuntu boltd[1622]: config: loading user config
+Apr 20 23:22:50 ubuntu boltd[1622]: bouncer: initializing polkit
+Apr 20 23:22:50 ubuntu boltd[1622]: udev: initializing udev
+Apr 20 23:22:50 ubuntu boltd[1622]: store: loading devices
+Apr 20 23:22:50 ubuntu boltd[1622]: power: force power support: no
+Apr 20 23:22:50 ubuntu boltd[1622]: udev: enumerating devices
+Apr 20 23:22:50 ubuntu dbus-daemon[763]: [system] Successfully activated service 'org.freedesktop.bolt'
+Apr 20 23:22:50 ubuntu systemd[1]: Started Thunderbolt system service.
+Apr 20 23:22:50 ubuntu dbus-daemon[763]: [system] Activating via systemd: service name='org.freedesktop.PackageKit' unit='packagekit.service' requested by ':1.38' (uid=121 pid=1568 comm="/usr/bin/gnome-shell " label="unconfined")
+Apr 20 23:22:50 ubuntu systemd[1]: Starting PackageKit Daemon...
+Apr 20 23:22:50 ubuntu PackageKit: daemon start
+Apr 20 23:22:50 ubuntu spice-vdagent[1630]: Cannot access vdagent virtio channel /dev/virtio-ports/com.redhat.spice.0
+Apr 20 23:22:50 ubuntu dbus-daemon[763]: [system] Successfully activated service 'org.freedesktop.PackageKit'
+Apr 20 23:22:50 ubuntu systemd[1]: Started PackageKit Daemon.
+Apr 20 23:22:51 ubuntu gnome-session[1542]: gnome-session-binary[1542]: WARNING: App 'spice-vdagent.desktop' exited with code 1
+Apr 20 23:22:51 ubuntu gnome-session-binary[1542]: WARNING: App 'spice-vdagent.desktop' exited with code 1
+Apr 20 23:22:51 ubuntu dbus-daemon[763]: [system] Activating via systemd: service name='org.freedesktop.ColorManager' unit='colord.service' requested by ':1.67' (uid=121 pid=1637 comm="/usr/lib/gnome-settings-daemon/gsd-color " label="unconfined")
+Apr 20 23:22:51 ubuntu systemd[1]: Starting Manage, Install and Generate Color Profiles...
+Apr 20 23:22:51 ubuntu colord[1686]: failed to get edid data: EDID length is too small
+Apr 20 23:22:51 ubuntu dbus-daemon[763]: [system] Successfully activated service 'org.freedesktop.ColorManager'
+Apr 20 23:22:51 ubuntu systemd[1]: Started Manage, Install and Generate Color Profiles.
+Apr 20 23:22:51 ubuntu gnome-session-binary[1542]: Entering running state
+Apr 20 23:22:51 ubuntu xbrlapi.desktop[1711]: openConnection: connect: No such file or directory
+Apr 20 23:22:51 ubuntu xbrlapi.desktop[1711]: cannot connect to braille devices daemon brltty at :0
+Apr 20 23:22:52 ubuntu gsd-color[1637]: failed to get edid: unable to get EDID for output
+Apr 20 23:22:52 ubuntu gnome-shell[1568]: Error looking up permission: GDBus.Error:org.freedesktop.portal.Error.NotFound: No entry for geolocation
+Apr 20 23:22:53 ubuntu gsd-color[1637]: unable to get EDID for xrandr-Virtual1: unable to get EDID for output
+Apr 20 23:22:53 ubuntu gnome-shell[1568]: JS WARNING: [resource:///org/gnome/shell/ui/layout.js 29]: reference to undefined property "MetaWindowX11"
+Apr 20 23:23:00 ubuntu systemd[1]: Created slice User Slice of like.
+Apr 20 23:23:00 ubuntu systemd[1]: Starting User Manager for UID 1000...
+Apr 20 23:23:00 ubuntu systemd[1]: Started Session 3 of user like.
+Apr 20 23:23:00 ubuntu systemd[1729]: Reached target Timers.
+Apr 20 23:23:00 ubuntu systemd[1729]: Listening on REST API socket for snapd user session agent.
+Apr 20 23:23:00 ubuntu systemd[1729]: Started Pending report trigger for Ubuntu Report.
+Apr 20 23:23:00 ubuntu systemd[1729]: Reached target Paths.
+Apr 20 23:23:00 ubuntu systemd[1729]: Starting D-Bus User Message Bus Socket.
+Apr 20 23:23:00 ubuntu systemd[1729]: Listening on GnuPG cryptographic agent and passphrase cache (restricted).
+Apr 20 23:23:00 ubuntu systemd[1729]: Listening on GnuPG cryptographic agent and passphrase cache.
+Apr 20 23:23:00 ubuntu systemd[1729]: Listening on GnuPG cryptographic agent (ssh-agent emulation).
+Apr 20 23:23:00 ubuntu systemd[1729]: Listening on GnuPG cryptographic agent and passphrase cache (access for web browsers).
+Apr 20 23:23:00 ubuntu systemd[1729]: Listening on GnuPG network certificate management daemon.
+Apr 20 23:23:00 ubuntu systemd[1729]: Listening on D-Bus User Message Bus Socket.
+Apr 20 23:23:00 ubuntu systemd[1729]: Reached target Sockets.
+Apr 20 23:23:00 ubuntu systemd[1729]: Reached target Basic System.
+Apr 20 23:23:00 ubuntu systemd[1729]: Reached target Default.
+Apr 20 23:23:00 ubuntu systemd[1729]: Startup finished in 49ms.
+Apr 20 23:23:00 ubuntu systemd[1]: Started User Manager for UID 1000.
+Apr 20 23:23:00 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (**) Option "fd" "27"
+Apr 20 23:23:00 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) event0  - Power Button: device removed
+Apr 20 23:23:00 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (**) Option "fd" "8"
+Apr 20 23:23:00 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) event4  - VMware VMware Virtual USB Mouse: device removed
+Apr 20 23:23:00 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (**) Option "fd" "31"
+Apr 20 23:23:00 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) event3  - VirtualPS/2 VMware VMMouse: device removed
+Apr 20 23:23:00 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (**) Option "fd" "33"
+Apr 20 23:23:00 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) event2  - VirtualPS/2 VMware VMMouse: device removed
+Apr 20 23:23:00 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (**) Option "fd" "32"
+Apr 20 23:23:00 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) event1  - AT Translated Set 2 keyboard: device removed
+Apr 20 23:23:00 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) AIGLX: Suspending AIGLX clients for VT switch
+Apr 20 23:23:00 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) systemd-logind: got pause for 13:65
+Apr 20 23:23:00 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) systemd-logind: got pause for 13:68
+Apr 20 23:23:00 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) systemd-logind: got pause for 13:66
+Apr 20 23:23:00 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) systemd-logind: got pause for 13:64
+Apr 20 23:23:00 ubuntu /usr/lib/gdm3/gdm-x-session[1117]: (II) systemd-logind: got pause for 13:67
+Apr 20 23:23:00 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: _XSERVTransSocketUNIXCreateListener: ...SocketCreateListener() failed
+Apr 20 23:23:00 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: _XSERVTransMakeAllCOTSServerListeners: server already running
+Apr 20 23:23:00 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (--) Log file renamed from "/home/like/.local/share/xorg/Xorg.pid-1749.log" to "/home/like/.local/share/xorg/Xorg.1.log"
+Apr 20 23:23:00 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: X.Org X Server 1.20.8
+Apr 20 23:23:00 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: X Protocol Version 11, Revision 0
+Apr 20 23:23:00 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: Build Operating System: Linux 4.15.0-140-generic x86_64 Ubuntu
+Apr 20 23:23:00 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: Current Operating System: Linux ubuntu 5.4.0-72-generic #80~18.04.1-Ubuntu SMP Mon Apr 12 23:26:25 UTC 2021 x86_64
+Apr 20 23:23:00 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: Kernel command line: BOOT_IMAGE=/boot/vmlinuz-5.4.0-72-generic root=UUID=17676138-a31a-4e9d-b0c6-9fa505b77da8 ro find_preseed=/preseed.cfg auto noprompt priority=critical locale=en_US quiet
+Apr 20 23:23:00 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: Build Date: 08 April 2021  01:40:27PM
+Apr 20 23:23:00 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: xorg-server-hwe-18.04 2:1.20.8-2ubuntu2.2~18.04.5 (For technical support please see http://www.ubuntu.com/support)
+Apr 20 23:23:00 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: Current version of pixman: 0.34.0
+Apr 20 23:23:00 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: #011Before reporting problems, check http://wiki.x.org
+Apr 20 23:23:00 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: #011to make sure that you have the latest version.
+Apr 20 23:23:00 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: Markers: (--) probed, (**) from config file, (==) default setting,
+Apr 20 23:23:00 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: #011(++) from command line, (!!) notice, (II) informational,
+Apr 20 23:23:00 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: #011(WW) warning, (EE) error, (NI) not implemented, (??) unknown.
+Apr 20 23:23:00 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (==) Log file: "/home/like/.local/share/xorg/Xorg.1.log", Time: Tue Apr 20 23:23:00 2021
+Apr 20 23:23:00 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (==) Using system config directory "/usr/share/X11/xorg.conf.d"
+Apr 20 23:23:00 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (==) No Layout section.  Using the first Screen section.
+Apr 20 23:23:00 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (==) No screen section available. Using defaults.
+Apr 20 23:23:00 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (**) |-->Screen "Default Screen Section" (0)
+Apr 20 23:23:00 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (**) |   |-->Monitor "<default monitor>"
+Apr 20 23:23:00 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (==) No monitor specified for screen "Default Screen Section".
+Apr 20 23:23:00 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: #011Using a default monitor configuration.
+Apr 20 23:23:00 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (==) Automatically adding devices
+Apr 20 23:23:00 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (==) Automatically enabling devices
+Apr 20 23:23:00 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (==) Automatically adding GPU devices
+Apr 20 23:23:00 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (==) Automatically binding GPU devices
+Apr 20 23:23:00 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (==) Max clients allowed: 256, resource mask: 0x1fffff
+Apr 20 23:23:00 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (WW) The directory "/usr/share/fonts/X11/cyrillic" does not exist.
+Apr 20 23:23:00 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: #011Entry deleted from font path.
+Apr 20 23:23:00 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (WW) The directory "/usr/share/fonts/X11/100dpi/" does not exist.
+Apr 20 23:23:00 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: #011Entry deleted from font path.
+Apr 20 23:23:00 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (WW) The directory "/usr/share/fonts/X11/75dpi/" does not exist.
+Apr 20 23:23:00 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: #011Entry deleted from font path.
+Apr 20 23:23:00 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (WW) The directory "/usr/share/fonts/X11/100dpi" does not exist.
+Apr 20 23:23:00 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: #011Entry deleted from font path.
+Apr 20 23:23:00 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (WW) The directory "/usr/share/fonts/X11/75dpi" does not exist.
+Apr 20 23:23:00 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: #011Entry deleted from font path.
+Apr 20 23:23:00 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (==) FontPath set to:
+Apr 20 23:23:00 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: #011/usr/share/fonts/X11/misc,
+Apr 20 23:23:00 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: #011/usr/share/fonts/X11/Type1,
+Apr 20 23:23:00 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: #011built-ins
+Apr 20 23:23:00 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (==) ModulePath set to "/usr/lib/xorg/modules"
+Apr 20 23:23:00 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (II) The server relies on udev to provide the list of input devices.
+Apr 20 23:23:00 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: #011If no devices become available, reconfigure udev or disable AutoAddDevices.
+Apr 20 23:23:00 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (II) Loader magic: 0x560c9f348020
+Apr 20 23:23:00 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (II) Module ABI versions:
+Apr 20 23:23:00 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: #011X.Org ANSI C Emulation: 0.4
+Apr 20 23:23:00 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: #011X.Org Video Driver: 24.1
+Apr 20 23:23:00 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: #011X.Org XInput driver : 24.1
+Apr 20 23:23:00 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: #011X.Org Server Extension : 10.0
+Apr 20 23:23:00 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (++) using VT number 2
+Apr 20 23:23:00 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (II) systemd-logind: took control of session /org/freedesktop/login1/session/_33
+Apr 20 23:23:00 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (II) xfree86: Adding drm device (/dev/dri/card0)
+Apr 20 23:23:00 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (II) systemd-logind: got fd for /dev/dri/card0 226:0 fd 13 paused 0
+Apr 20 23:23:00 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (--) PCI:*(0@0:15:0) 15ad:0405:15ad:0405 rev 0, Mem @ 0xe8000000/134217728, 0xfe000000/8388608, I/O @ 0x00001070/16, BIOS @ 0x????????/131072
+Apr 20 23:23:00 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (II) LoadModule: "glx"
+Apr 20 23:23:00 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (II) Loading /usr/lib/xorg/modules/extensions/libglx.so
+Apr 20 23:23:00 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (II) Module glx: vendor="X.Org Foundation"
+Apr 20 23:23:00 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: #011compiled for 1.20.8, module version = 1.0.0
+Apr 20 23:23:00 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: #011ABI class: X.Org Server Extension, version 10.0
+Apr 20 23:23:00 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (==) Matched vmware as autoconfigured driver 0
+Apr 20 23:23:00 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (==) Matched modesetting as autoconfigured driver 1
+Apr 20 23:23:00 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (==) Matched fbdev as autoconfigured driver 2
+Apr 20 23:23:00 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (==) Matched vesa as autoconfigured driver 3
+Apr 20 23:23:00 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (==) Assigned the driver to the xf86ConfigLayout
+Apr 20 23:23:00 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (II) LoadModule: "vmware"
+Apr 20 23:23:00 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (II) Loading /usr/lib/xorg/modules/drivers/vmware_drv.so
+Apr 20 23:23:00 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (II) Module vmware: vendor="X.Org Foundation"
+Apr 20 23:23:00 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: #011compiled for 1.20.1, module version = 13.3.0
+Apr 20 23:23:00 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: #011Module class: X.Org Video Driver
+Apr 20 23:23:00 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: #011ABI class: X.Org Video Driver, version 24.0
+Apr 20 23:23:00 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (II) LoadModule: "modesetting"
+Apr 20 23:23:00 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (II) Loading /usr/lib/xorg/modules/drivers/modesetting_drv.so
+Apr 20 23:23:00 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (II) Module modesetting: vendor="X.Org Foundation"
+Apr 20 23:23:00 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: #011compiled for 1.20.8, module version = 1.20.8
+Apr 20 23:23:00 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: #011Module class: X.Org Video Driver
+Apr 20 23:23:00 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: #011ABI class: X.Org Video Driver, version 24.1
+Apr 20 23:23:00 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (II) LoadModule: "fbdev"
+Apr 20 23:23:00 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (II) Loading /usr/lib/xorg/modules/drivers/fbdev_drv.so
+Apr 20 23:23:00 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (II) Module fbdev: vendor="X.Org Foundation"
+Apr 20 23:23:00 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: #011compiled for 1.20.1, module version = 0.5.0
+Apr 20 23:23:00 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: #011Module class: X.Org Video Driver
+Apr 20 23:23:00 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: #011ABI class: X.Org Video Driver, version 24.0
+Apr 20 23:23:00 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (II) LoadModule: "vesa"
+Apr 20 23:23:00 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (II) Loading /usr/lib/xorg/modules/drivers/vesa_drv.so
+Apr 20 23:23:00 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (II) Module vesa: vendor="X.Org Foundation"
+Apr 20 23:23:00 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: #011compiled for 1.20.1, module version = 2.4.0
+Apr 20 23:23:00 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: #011Module class: X.Org Video Driver
+Apr 20 23:23:00 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: #011ABI class: X.Org Video Driver, version 24.0
+Apr 20 23:23:00 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (II) vmware: driver for VMware SVGA: vmware0405, vmware0710
+Apr 20 23:23:00 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (II) modesetting: Driver for Modesetting Kernel Drivers: kms
+Apr 20 23:23:00 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (II) FBDEV: driver for framebuffer: fbdev
+Apr 20 23:23:00 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (II) VESA: driver for VESA chipsets: vesa
+Apr 20 23:23:00 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: xf86EnableIOPorts: failed to set IOPL for I/O (Operation not permitted)
+Apr 20 23:23:00 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (WW) Falling back to old probe method for modesetting
+Apr 20 23:23:00 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (WW) Falling back to old probe method for fbdev
+Apr 20 23:23:00 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (II) Loading sub module "fbdevhw"
+Apr 20 23:23:00 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (II) LoadModule: "fbdevhw"
+Apr 20 23:23:00 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (II) Loading /usr/lib/xorg/modules/libfbdevhw.so
+Apr 20 23:23:00 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (II) Module fbdevhw: vendor="X.Org Foundation"
+Apr 20 23:23:00 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: #011compiled for 1.20.8, module version = 0.0.2
+Apr 20 23:23:00 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: #011ABI class: X.Org Video Driver, version 24.1
+Apr 20 23:23:00 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (EE) open /dev/fb0: Permission denied
+Apr 20 23:23:00 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (WW) VGA arbiter: cannot open kernel arbiter, no multi-card support
+Apr 20 23:23:00 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (II) vmware(0): Creating default Display subsection in Screen section
+Apr 20 23:23:00 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: #011"Default Screen Section" for depth/fbbpp 24/32
+Apr 20 23:23:00 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (--) vmware(0): DRM driver version is 2.15.0
+Apr 20 23:23:00 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (==) vmware(0): Depth 24, (--) framebuffer bpp 32
+Apr 20 23:23:00 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (==) vmware(0): RGB weight 888
+Apr 20 23:23:00 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (==) vmware(0): Default visual is TrueColor
+Apr 20 23:23:00 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (--) vmware(0): Min width 1, Max Width 16384.
+Apr 20 23:23:00 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (--) vmware(0): Min height 1, Max Height 16384.
+Apr 20 23:23:00 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (II) vmware(0): Output Virtual1 has no monitor section
+Apr 20 23:23:00 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (II) vmware(0): Output Virtual2 has no monitor section
+Apr 20 23:23:00 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (II) vmware(0): Output Virtual3 has no monitor section
+Apr 20 23:23:00 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (II) vmware(0): Output Virtual4 has no monitor section
+Apr 20 23:23:00 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (II) vmware(0): Output Virtual5 has no monitor section
+Apr 20 23:23:00 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (II) vmware(0): Output Virtual6 has no monitor section
+Apr 20 23:23:00 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (II) vmware(0): Output Virtual7 has no monitor section
+Apr 20 23:23:00 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (II) vmware(0): Output Virtual8 has no monitor section
+Apr 20 23:23:00 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (II) vmware(0): Printing probed modes for output Virtual1
+Apr 20 23:23:00 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (II) vmware(0): Modeline "800x600"x60.0   42.75  800 850 900 950  600 650 700 750 -hsync +vsync (45.0 kHz eP)
+Apr 20 23:23:00 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (II) vmware(0): Modeline "2560x1600"x60.0  348.50  2560 2752 3032 3504  1600 1603 1609 1658 -hsync +vsync (99.5 kHz e)
+Apr 20 23:23:00 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (II) vmware(0): Modeline "1920x1440"x60.0  234.00  1920 2048 2256 2600  1440 1441 1444 1500 -hsync +vsync (90.0 kHz e)
+Apr 20 23:23:00 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (II) vmware(0): Modeline "1856x1392"x60.0  218.25  1856 1952 2176 2528  1392 1393 1396 1439 -hsync +vsync (86.3 kHz e)
+Apr 20 23:23:00 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (II) vmware(0): Modeline "1792x1344"x60.0  204.75  1792 1920 2120 2448  1344 1345 1348 1394 -hsync +vsync (83.6 kHz e)
+Apr 20 23:23:00 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (II) vmware(0): Modeline "1920x1200"x59.9  193.25  1920 2056 2256 2592  1200 1203 1209 1245 -hsync +vsync (74.6 kHz e)
+Apr 20 23:23:00 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (II) vmware(0): Modeline "1600x1200"x60.0  162.00  1600 1664 1856 2160  1200 1201 1204 1250 +hsync +vsync (75.0 kHz e)
+Apr 20 23:23:00 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (II) vmware(0): Modeline "1680x1050"x60.0  146.25  1680 1784 1960 2240  1050 1053 1059 1089 -hsync +vsync (65.3 kHz e)
+Apr 20 23:23:00 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (II) vmware(0): Modeline "1400x1050"x60.0  121.75  1400 1488 1632 1864  1050 1053 1057 1089 -hsync +vsync (65.3 kHz e)
+Apr 20 23:23:00 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (II) vmware(0): Modeline "1280x1024"x60.0  108.00  1280 1328 1440 1688  1024 1025 1028 1066 +hsync +vsync (64.0 kHz e)
+Apr 20 23:23:00 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (II) vmware(0): Modeline "1440x900"x59.9  106.50  1440 1520 1672 1904  900 903 909 934 -hsync +vsync (55.9 kHz e)
+Apr 20 23:23:00 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (II) vmware(0): Modeline "1280x960"x60.0  108.00  1280 1376 1488 1800  960 961 964 1000 +hsync +vsync (60.0 kHz e)
+Apr 20 23:23:00 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (II) vmware(0): Modeline "1360x768"x60.0   85.50  1360 1424 1536 1792  768 771 777 795 +hsync +vsync (47.7 kHz e)
+Apr 20 23:23:00 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (II) vmware(0): Modeline "1280x800"x59.8   83.50  1280 1352 1480 1680  800 803 809 831 +hsync -vsync (49.7 kHz e)
+Apr 20 23:23:00 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (II) vmware(0): Modeline "1152x864"x75.0  108.00  1152 1216 1344 1600  864 865 868 900 +hsync +vsync (67.5 kHz e)
+Apr 20 23:23:00 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (II) vmware(0): Modeline "1280x768"x59.9   79.50  1280 1344 1472 1664  768 771 778 798 -hsync +vsync (47.8 kHz e)
+Apr 20 23:23:00 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (II) vmware(0): Modeline "1024x768"x60.0   65.00  1024 1048 1184 1344  768 771 777 806 -hsync -vsync (48.4 kHz e)
+Apr 20 23:23:00 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (II) vmware(0): Modeline "800x600"x60.3   40.00  800 840 968 1056  600 601 605 628 +hsync +vsync (37.9 kHz e)
+Apr 20 23:23:00 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (II) vmware(0): Modeline "640x480"x59.9   25.18  640 656 752 800  480 489 492 525 -hsync -vsync (31.5 kHz e)
+Apr 20 23:23:00 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (II) vmware(0): EDID for output Virtual2
+Apr 20 23:23:00 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (II) vmware(0): EDID for output Virtual3
+Apr 20 23:23:00 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (II) vmware(0): EDID for output Virtual4
+Apr 20 23:23:00 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (II) vmware(0): EDID for output Virtual5
+Apr 20 23:23:00 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (II) vmware(0): EDID for output Virtual6
+Apr 20 23:23:00 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (II) vmware(0): EDID for output Virtual7
+Apr 20 23:23:00 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (II) vmware(0): EDID for output Virtual8
+Apr 20 23:23:00 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (II) vmware(0): Output Virtual1 connected
+Apr 20 23:23:00 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (II) vmware(0): Output Virtual2 disconnected
+Apr 20 23:23:00 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (II) vmware(0): Output Virtual3 disconnected
+Apr 20 23:23:00 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (II) vmware(0): Output Virtual4 disconnected
+Apr 20 23:23:00 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (II) vmware(0): Output Virtual5 disconnected
+Apr 20 23:23:00 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (II) vmware(0): Output Virtual6 disconnected
+Apr 20 23:23:00 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (II) vmware(0): Output Virtual7 disconnected
+Apr 20 23:23:00 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (II) vmware(0): Output Virtual8 disconnected
+Apr 20 23:23:00 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (II) vmware(0): Using exact sizes for initial modes
+Apr 20 23:23:00 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (II) vmware(0): Output Virtual1 using initial mode 800x600 +0+0
+Apr 20 23:23:00 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (==) vmware(0): DPI set to (96, 96)
+Apr 20 23:23:00 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (==) vmware(0): Using gamma correction (1.0, 1.0, 1.0)
+Apr 20 23:23:00 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (II) Loading sub module "fb"
+Apr 20 23:23:00 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (II) LoadModule: "fb"
+Apr 20 23:23:00 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (II) Loading /usr/lib/xorg/modules/libfb.so
+Apr 20 23:23:00 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (II) Module fb: vendor="X.Org Foundation"
+Apr 20 23:23:00 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: #011compiled for 1.20.8, module version = 1.0.0
+Apr 20 23:23:00 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: #011ABI class: X.Org ANSI C Emulation, version 0.4
+Apr 20 23:23:00 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (II) Loading sub module "dri2"
+Apr 20 23:23:00 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (II) LoadModule: "dri2"
+Apr 20 23:23:00 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (II) Module "dri2" already built-in
+Apr 20 23:23:00 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (II) Loading sub module "dri3"
+Apr 20 23:23:00 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (II) LoadModule: "dri3"
+Apr 20 23:23:00 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (II) Module "dri3" already built-in
+Apr 20 23:23:00 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (II) UnloadModule: "modesetting"
+Apr 20 23:23:00 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (II) Unloading modesetting
+Apr 20 23:23:00 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (II) UnloadModule: "fbdev"
+Apr 20 23:23:00 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (II) Unloading fbdev
+Apr 20 23:23:00 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (II) UnloadSubModule: "fbdevhw"
+Apr 20 23:23:00 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (II) Unloading fbdevhw
+Apr 20 23:23:00 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (II) UnloadModule: "vesa"
+Apr 20 23:23:00 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (II) Unloading vesa
+Apr 20 23:23:00 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (II) vmware(0): Initialized VMWARE_CTRL extension version 0.2
+Apr 20 23:23:00 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (II) vmware(0): Gallium3D XA version: 2.5.0.
+Apr 20 23:23:00 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (II) vmware(0): Path of drm device is "/dev/dri/card0".
+Apr 20 23:23:00 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (II) vmware(0): [DRI2] Setup complete
+Apr 20 23:23:00 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (II) vmware(0): [DRI2]   DRI driver: vmwgfx
+Apr 20 23:23:01 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (--) vmware(0): Render acceleration is enabled.
+Apr 20 23:23:01 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (==) vmware(0): Rendercheck mode is disabled.
+Apr 20 23:23:01 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (--) vmware(0): Direct rendering (DRI2 3D) is enabled.
+Apr 20 23:23:01 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (--) vmware(0): Direct rendering (DRI3 3D) is enabled.
+Apr 20 23:23:01 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (==) vmware(0): Direct presents are disabled.
+Apr 20 23:23:01 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (==) vmware(0): Hardware only presents are automatic per scanout.
+Apr 20 23:23:01 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (==) vmware(0): Backing store enabled
+Apr 20 23:23:01 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (==) vmware(0): Silken mouse enabled
+Apr 20 23:23:01 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (==) vmware(0): DPMS enabled
+Apr 20 23:23:01 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (II) Initializing extension Generic Event Extension
+Apr 20 23:23:01 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (II) Initializing extension SHAPE
+Apr 20 23:23:01 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (II) Initializing extension MIT-SHM
+Apr 20 23:23:01 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (II) Initializing extension XInputExtension
+Apr 20 23:23:01 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (II) Initializing extension XTEST
+Apr 20 23:23:01 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (II) Initializing extension BIG-REQUESTS
+Apr 20 23:23:01 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (II) Initializing extension SYNC
+Apr 20 23:23:01 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (II) Initializing extension XKEYBOARD
+Apr 20 23:23:01 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (II) Initializing extension XC-MISC
+Apr 20 23:23:01 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (II) Initializing extension SECURITY
+Apr 20 23:23:01 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (II) Initializing extension XFIXES
+Apr 20 23:23:01 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (II) Initializing extension RENDER
+Apr 20 23:23:01 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (II) Initializing extension RANDR
+Apr 20 23:23:01 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (II) Initializing extension COMPOSITE
+Apr 20 23:23:01 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (II) Initializing extension DAMAGE
+Apr 20 23:23:01 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (II) Initializing extension MIT-SCREEN-SAVER
+Apr 20 23:23:01 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (II) Initializing extension DOUBLE-BUFFER
+Apr 20 23:23:01 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (II) Initializing extension RECORD
+Apr 20 23:23:01 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (II) Initializing extension DPMS
+Apr 20 23:23:01 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (II) Initializing extension Present
+Apr 20 23:23:01 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (II) Initializing extension DRI3
+Apr 20 23:23:01 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (II) Initializing extension X-Resource
+Apr 20 23:23:01 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (II) Initializing extension XVideo
+Apr 20 23:23:01 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (II) Initializing extension XVideo-MotionCompensation
+Apr 20 23:23:01 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (II) Initializing extension SELinux
+Apr 20 23:23:01 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (II) SELinux: Disabled on system
+Apr 20 23:23:01 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (II) Initializing extension GLX
+Apr 20 23:23:01 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (II) AIGLX: Loaded and initialized vmwgfx
+Apr 20 23:23:01 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (II) GLX: Initialized DRI2 GL provider for screen 0
+Apr 20 23:23:01 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (II) Initializing extension XFree86-VidModeExtension
+Apr 20 23:23:01 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (II) Initializing extension XFree86-DGA
+Apr 20 23:23:01 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (II) Initializing extension XFree86-DRI
+Apr 20 23:23:01 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (II) Initializing extension DRI2
+Apr 20 23:23:01 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (II) vmware(0): Setting screen physical size to 211 x 158
+Apr 20 23:23:01 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (II) config/udev: Adding input device Power Button (/dev/input/event0)
+Apr 20 23:23:01 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (**) Power Button: Applying InputClass "libinput keyboard catchall"
+Apr 20 23:23:01 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (II) LoadModule: "libinput"
+Apr 20 23:23:01 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (II) Loading /usr/lib/xorg/modules/input/libinput_drv.so
+Apr 20 23:23:01 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (II) Module libinput: vendor="X.Org Foundation"
+Apr 20 23:23:01 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: #011compiled for 1.20.1, module version = 0.28.1
+Apr 20 23:23:01 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: #011Module class: X.Org XInput Driver
+Apr 20 23:23:01 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: #011ABI class: X.Org XInput driver, version 24.1
+Apr 20 23:23:01 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (II) Using input driver 'libinput' for 'Power Button'
+Apr 20 23:23:01 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (II) systemd-logind: got fd for /dev/input/event0 13:64 fd 25 paused 0
+Apr 20 23:23:01 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (**) Power Button: always reports core events
+Apr 20 23:23:01 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (**) Option "Device" "/dev/input/event0"
+Apr 20 23:23:01 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (**) Option "_source" "server/udev"
+Apr 20 23:23:01 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (II) event0  - Power Button: is tagged by udev as: Keyboard
+Apr 20 23:23:01 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (II) event0  - Power Button: device is a keyboard
+Apr 20 23:23:01 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (II) event0  - Power Button: device removed
+Apr 20 23:23:01 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (**) Option "config_info" "udev:/sys/devices/LNXSYSTM:00/LNXPWRBN:00/input/input0/event0"
+Apr 20 23:23:01 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (II) XINPUT: Adding extended input device "Power Button" (type: KEYBOARD, id 6)
+Apr 20 23:23:01 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (**) Option "xkb_model" "SKIP"
+Apr 20 23:23:01 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (**) Option "xkb_layout" "us"
+Apr 20 23:23:01 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (II) event0  - Power Button: is tagged by udev as: Keyboard
+Apr 20 23:23:01 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (II) event0  - Power Button: device is a keyboard
+Apr 20 23:23:01 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (II) config/udev: Adding input device VMware VMware Virtual USB Mouse (/dev/input/event4)
+Apr 20 23:23:01 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (**) VMware VMware Virtual USB Mouse: Applying InputClass "libinput pointer catchall"
+Apr 20 23:23:01 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (II) Using input driver 'libinput' for 'VMware VMware Virtual USB Mouse'
+Apr 20 23:23:01 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (II) systemd-logind: got fd for /dev/input/event4 13:68 fd 28 paused 0
+Apr 20 23:23:01 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (**) VMware VMware Virtual USB Mouse: always reports core events
+Apr 20 23:23:01 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (**) Option "Device" "/dev/input/event4"
+Apr 20 23:23:01 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (**) Option "_source" "server/udev"
+Apr 20 23:23:01 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (II) event4  - VMware VMware Virtual USB Mouse: is tagged by udev as: Mouse
+Apr 20 23:23:01 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (II) event4  - VMware VMware Virtual USB Mouse: device is a pointer
+Apr 20 23:23:01 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (II) event4  - VMware VMware Virtual USB Mouse: device removed
+Apr 20 23:23:01 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:11.0/0000:02:00.0/usb2/2-1/2-1:1.0/0003:0E0F:0003.0001/input/input5/event4"
+Apr 20 23:23:01 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (II) XINPUT: Adding extended input device "VMware VMware Virtual USB Mouse" (type: MOUSE, id 7)
+Apr 20 23:23:01 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (**) Option "AccelerationScheme" "none"
+Apr 20 23:23:01 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (**) VMware VMware Virtual USB Mouse: (accel) selected scheme none/0
+Apr 20 23:23:01 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (**) VMware VMware Virtual USB Mouse: (accel) acceleration factor: 2.000
+Apr 20 23:23:01 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (**) VMware VMware Virtual USB Mouse: (accel) acceleration threshold: 4
+Apr 20 23:23:01 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (II) event4  - VMware VMware Virtual USB Mouse: is tagged by udev as: Mouse
+Apr 20 23:23:01 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (II) event4  - VMware VMware Virtual USB Mouse: device is a pointer
+Apr 20 23:23:01 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (II) config/udev: Adding input device VMware VMware Virtual USB Mouse (/dev/input/mouse2)
+Apr 20 23:23:01 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (II) No input driver specified, ignoring this device.
+Apr 20 23:23:01 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (II) This device may have been added with another device file.
+Apr 20 23:23:01 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (II) config/udev: Adding input device AT Translated Set 2 keyboard (/dev/input/event1)
+Apr 20 23:23:01 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (**) AT Translated Set 2 keyboard: Applying InputClass "libinput keyboard catchall"
+Apr 20 23:23:01 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (II) Using input driver 'libinput' for 'AT Translated Set 2 keyboard'
+Apr 20 23:23:01 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (II) systemd-logind: got fd for /dev/input/event1 13:65 fd 29 paused 0
+Apr 20 23:23:01 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (**) AT Translated Set 2 keyboard: always reports core events
+Apr 20 23:23:01 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (**) Option "Device" "/dev/input/event1"
+Apr 20 23:23:01 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (**) Option "_source" "server/udev"
+Apr 20 23:23:01 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (II) event1  - AT Translated Set 2 keyboard: is tagged by udev as: Keyboard
+Apr 20 23:23:01 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (II) event1  - AT Translated Set 2 keyboard: device is a keyboard
+Apr 20 23:23:01 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (II) event1  - AT Translated Set 2 keyboard: device removed
+Apr 20 23:23:01 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (**) Option "config_info" "udev:/sys/devices/platform/i8042/serio0/input/input1/event1"
+Apr 20 23:23:01 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (II) XINPUT: Adding extended input device "AT Translated Set 2 keyboard" (type: KEYBOARD, id 8)
+Apr 20 23:23:01 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (**) Option "xkb_model" "SKIP"
+Apr 20 23:23:01 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (**) Option "xkb_layout" "us"
+Apr 20 23:23:01 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (II) event1  - AT Translated Set 2 keyboard: is tagged by udev as: Keyboard
+Apr 20 23:23:01 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (II) event1  - AT Translated Set 2 keyboard: device is a keyboard
+Apr 20 23:23:01 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (II) config/udev: Adding input device VirtualPS/2 VMware VMMouse (/dev/input/event3)
+Apr 20 23:23:01 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (**) VirtualPS/2 VMware VMMouse: Applying InputClass "libinput pointer catchall"
+Apr 20 23:23:01 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (II) Using input driver 'libinput' for 'VirtualPS/2 VMware VMMouse'
+Apr 20 23:23:01 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (II) systemd-logind: got fd for /dev/input/event3 13:67 fd 30 paused 0
+Apr 20 23:23:01 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (**) VirtualPS/2 VMware VMMouse: always reports core events
+Apr 20 23:23:01 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (**) Option "Device" "/dev/input/event3"
+Apr 20 23:23:01 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (**) Option "_source" "server/udev"
+Apr 20 23:23:01 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (II) event3  - VirtualPS/2 VMware VMMouse: is tagged by udev as: Mouse
+Apr 20 23:23:01 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (II) event3  - VirtualPS/2 VMware VMMouse: device is a pointer
+Apr 20 23:23:01 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (II) event3  - VirtualPS/2 VMware VMMouse: device removed
+Apr 20 23:23:01 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (**) Option "config_info" "udev:/sys/devices/platform/i8042/serio1/input/input3/event3"
+Apr 20 23:23:01 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (II) XINPUT: Adding extended input device "VirtualPS/2 VMware VMMouse" (type: MOUSE, id 9)
+Apr 20 23:23:01 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (**) Option "AccelerationScheme" "none"
+Apr 20 23:23:01 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (**) VirtualPS/2 VMware VMMouse: (accel) selected scheme none/0
+Apr 20 23:23:01 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (**) VirtualPS/2 VMware VMMouse: (accel) acceleration factor: 2.000
+Apr 20 23:23:01 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (**) VirtualPS/2 VMware VMMouse: (accel) acceleration threshold: 4
+Apr 20 23:23:01 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (II) event3  - VirtualPS/2 VMware VMMouse: is tagged by udev as: Mouse
+Apr 20 23:23:01 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (II) event3  - VirtualPS/2 VMware VMMouse: device is a pointer
+Apr 20 23:23:01 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (II) config/udev: Adding input device VirtualPS/2 VMware VMMouse (/dev/input/mouse1)
+Apr 20 23:23:01 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (II) No input driver specified, ignoring this device.
+Apr 20 23:23:01 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (II) This device may have been added with another device file.
+Apr 20 23:23:01 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (II) config/udev: Adding input device VirtualPS/2 VMware VMMouse (/dev/input/event2)
+Apr 20 23:23:01 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (**) VirtualPS/2 VMware VMMouse: Applying InputClass "libinput pointer catchall"
+Apr 20 23:23:01 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (II) Using input driver 'libinput' for 'VirtualPS/2 VMware VMMouse'
+Apr 20 23:23:01 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (II) systemd-logind: got fd for /dev/input/event2 13:66 fd 31 paused 0
+Apr 20 23:23:01 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (**) VirtualPS/2 VMware VMMouse: always reports core events
+Apr 20 23:23:01 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (**) Option "Device" "/dev/input/event2"
+Apr 20 23:23:01 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (**) Option "_source" "server/udev"
+Apr 20 23:23:01 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (II) event2  - VirtualPS/2 VMware VMMouse: is tagged by udev as: Mouse
+Apr 20 23:23:01 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (II) event2  - VirtualPS/2 VMware VMMouse: device is a pointer
+Apr 20 23:23:01 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (II) event2  - VirtualPS/2 VMware VMMouse: device removed
+Apr 20 23:23:01 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (**) Option "config_info" "udev:/sys/devices/platform/i8042/serio1/input/input4/event2"
+Apr 20 23:23:01 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (II) XINPUT: Adding extended input device "VirtualPS/2 VMware VMMouse" (type: MOUSE, id 10)
+Apr 20 23:23:01 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (**) Option "AccelerationScheme" "none"
+Apr 20 23:23:01 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (**) VirtualPS/2 VMware VMMouse: (accel) selected scheme none/0
+Apr 20 23:23:01 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (**) VirtualPS/2 VMware VMMouse: (accel) acceleration factor: 2.000
+Apr 20 23:23:01 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (**) VirtualPS/2 VMware VMMouse: (accel) acceleration threshold: 4
+Apr 20 23:23:01 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (II) event2  - VirtualPS/2 VMware VMMouse: is tagged by udev as: Mouse
+Apr 20 23:23:01 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (II) event2  - VirtualPS/2 VMware VMMouse: device is a pointer
+Apr 20 23:23:01 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (II) config/udev: Adding input device VirtualPS/2 VMware VMMouse (/dev/input/mouse0)
+Apr 20 23:23:01 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (II) No input driver specified, ignoring this device.
+Apr 20 23:23:01 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: (II) This device may have been added with another device file.
+Apr 20 23:23:01 ubuntu systemd[1729]: Started D-Bus User Message Bus.
+Apr 20 23:23:01 ubuntu dbus-daemon[1754]: [session uid=1000 pid=1754] AppArmor D-Bus mediation is enabled
+Apr 20 23:23:01 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: /etc/gdm3/Xsession: Beginning session setup...
+Apr 20 23:23:02 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: localuser:like being added to access control list
+Apr 20 23:23:02 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+Apr 20 23:23:02 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: dbus-update-activation-environment: setting DISPLAY=:1
+Apr 20 23:23:02 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: dbus-update-activation-environment: setting XAUTHORITY=/run/user/1000/gdm/Xauthority
+Apr 20 23:23:02 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: localuser:like being added to access control list
+Apr 20 23:23:02 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: dbus-update-activation-environment: setting GTK_MODULES=gail:atk-bridge
+Apr 20 23:23:02 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: dbus-update-activation-environment: setting QT_ACCESSIBILITY=1
+Apr 20 23:23:02 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: dbus-update-activation-environment: setting CLUTTER_IM_MODULE=xim
+Apr 20 23:23:02 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: dbus-update-activation-environment: setting LANG=en_US.UTF-8
+Apr 20 23:23:02 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: dbus-update-activation-environment: setting DISPLAY=:1
+Apr 20 23:23:02 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: dbus-update-activation-environment: setting USERNAME=like
+Apr 20 23:23:02 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: dbus-update-activation-environment: setting USER=like
+Apr 20 23:23:02 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: dbus-update-activation-environment: setting DESKTOP_SESSION=ubuntu
+Apr 20 23:23:02 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: dbus-update-activation-environment: setting QT4_IM_MODULE=xim
+Apr 20 23:23:02 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: dbus-update-activation-environment: setting TEXTDOMAINDIR=/usr/share/locale/
+Apr 20 23:23:02 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: dbus-update-activation-environment: setting PWD=/home/like
+Apr 20 23:23:02 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: dbus-update-activation-environment: setting HOME=/home/like
+Apr 20 23:23:02 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: dbus-update-activation-environment: setting TEXTDOMAIN=im-config
+Apr 20 23:23:02 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: dbus-update-activation-environment: setting QT_ACCESSIBILITY=1
+Apr 20 23:23:02 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: dbus-update-activation-environment: setting XDG_SESSION_TYPE=x11
+Apr 20 23:23:02 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: dbus-update-activation-environment: setting XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop
+Apr 20 23:23:02 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: dbus-update-activation-environment: setting XDG_SESSION_DESKTOP=ubuntu
+Apr 20 23:23:02 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: dbus-update-activation-environment: setting GTK_MODULES=gail:atk-bridge
+Apr 20 23:23:02 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: dbus-update-activation-environment: setting WINDOWPATH=2
+Apr 20 23:23:02 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: dbus-update-activation-environment: setting SHELL=/bin/bash
+Apr 20 23:23:02 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: dbus-update-activation-environment: setting QT_IM_MODULE=xim
+Apr 20 23:23:02 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: dbus-update-activation-environment: setting XMODIFIERS=@im=ibus
+Apr 20 23:23:02 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: dbus-update-activation-environment: setting IM_CONFIG_PHASE=2
+Apr 20 23:23:02 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: dbus-update-activation-environment: setting XDG_CURRENT_DESKTOP=ubuntu:GNOME
+Apr 20 23:23:02 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: dbus-update-activation-environment: setting GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1
+Apr 20 23:23:02 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: dbus-update-activation-environment: setting SHLVL=1
+Apr 20 23:23:02 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: dbus-update-activation-environment: setting GDMSESSION=ubuntu
+Apr 20 23:23:02 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: dbus-update-activation-environment: setting LOGNAME=like
+Apr 20 23:23:02 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+Apr 20 23:23:02 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: dbus-update-activation-environment: setting XDG_RUNTIME_DIR=/run/user/1000
+Apr 20 23:23:02 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: dbus-update-activation-environment: setting XAUTHORITY=/run/user/1000/gdm/Xauthority
+Apr 20 23:23:02 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: dbus-update-activation-environment: setting XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg
+Apr 20 23:23:02 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: dbus-update-activation-environment: setting PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+Apr 20 23:23:02 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: dbus-update-activation-environment: setting GTK_IM_MODULE=ibus
+Apr 20 23:23:02 ubuntu /usr/lib/gdm3/gdm-x-session[1747]: dbus-update-activation-environment: setting _=/usr/bin/dbus-update-activation-environment
+Apr 20 23:23:03 ubuntu NetworkManager[776]: <info>  [1618986183.2017] manager: NetworkManager state is now CONNECTED_GLOBAL
+Apr 20 23:23:03 ubuntu dbus-daemon[763]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.13' (uid=0 pid=776 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Apr 20 23:23:03 ubuntu systemd[1]: Starting Network Manager Script Dispatcher Service...
+Apr 20 23:23:03 ubuntu whoopsie[1310]: [23:23:03] The default IPv4 route is: /org/freedesktop/NetworkManager/ActiveConnection/1
+Apr 20 23:23:03 ubuntu whoopsie[1310]: [23:23:03] Not a paid data plan: /org/freedesktop/NetworkManager/ActiveConnection/1
+Apr 20 23:23:03 ubuntu whoopsie[1310]: [23:23:03] Found usable connection: /org/freedesktop/NetworkManager/ActiveConnection/1
+Apr 20 23:23:03 ubuntu dbus-daemon[763]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Apr 20 23:23:03 ubuntu systemd[1]: Started Network Manager Script Dispatcher Service.
+Apr 20 23:23:03 ubuntu nm-dispatcher: req:1 'connectivity-change': new request (1 scripts)
+Apr 20 23:23:03 ubuntu nm-dispatcher: req:1 'connectivity-change': start running ordered scripts...
+Apr 20 23:23:03 ubuntu dbus-daemon[1754]: [session uid=1000 pid=1754] Activating via systemd: service name='org.a11y.Bus' unit='at-spi-dbus-bus.service' requested by ':1.6' (uid=1000 pid=1854 comm="/usr/lib/gnome-session/gnome-session-check-acceler" label="unconfined")
+Apr 20 23:23:03 ubuntu systemd[1729]: Starting Accessibility services bus...
+Apr 20 23:23:03 ubuntu dbus-daemon[1754]: [session uid=1000 pid=1754] Successfully activated service 'org.a11y.Bus'
+Apr 20 23:23:03 ubuntu systemd[1729]: Started Accessibility services bus.
+Apr 20 23:23:03 ubuntu at-spi-bus-launcher[1859]: dbus-daemon[1864]: Activating service name='org.a11y.atspi.Registry' requested by ':1.0' (uid=1000 pid=1854 comm="/usr/lib/gnome-session/gnome-session-check-acceler" label="unconfined")
+Apr 20 23:23:03 ubuntu at-spi-bus-launcher[1859]: dbus-daemon[1864]: Successfully activated service 'org.a11y.atspi.Registry'
+Apr 20 23:23:03 ubuntu at-spi-bus-launcher[1859]: SpiRegistry daemon is running with well-known name - org.a11y.atspi.Registry
+Apr 20 23:23:04 ubuntu whoopsie[1310]: [23:23:04] online
+Apr 20 23:23:04 ubuntu gnome-keyring-ssh.desktop[1877]: SSH_AUTH_SOCK=/run/user/1000/keyring/ssh
+Apr 20 23:23:04 ubuntu gnome-keyring-secrets.desktop[1880]: SSH_AUTH_SOCK=/run/user/1000/keyring/ssh
+Apr 20 23:23:05 ubuntu dbus-daemon[1754]: [session uid=1000 pid=1754] Activating via systemd: service name='org.gtk.vfs.Daemon' unit='gvfs-daemon.service' requested by ':1.12' (uid=1000 pid=1885 comm="/usr/bin/gnome-shell " label="unconfined")
+Apr 20 23:23:05 ubuntu systemd[1729]: Starting Virtual filesystem service...
+Apr 20 23:23:05 ubuntu dbus-daemon[1754]: [session uid=1000 pid=1754] Successfully activated service 'org.gtk.vfs.Daemon'
+Apr 20 23:23:05 ubuntu systemd[1729]: Started Virtual filesystem service.
+Apr 20 23:23:05 ubuntu rtkit-daemon[1577]: Successfully made thread 1907 of process 1907 (n/a) owned by '1000' high priority at nice level -11.
+Apr 20 23:23:05 ubuntu rtkit-daemon[1577]: Supervising 1 threads of 1 processes of 2 users.
+Apr 20 23:23:06 ubuntu pulseaudio[1907]: [pulseaudio] alsa-util.c: Disabling timer-based scheduling because running inside a VM.
+Apr 20 23:23:06 ubuntu rtkit-daemon[1577]: Supervising 1 threads of 1 processes of 2 users.
+Apr 20 23:23:06 ubuntu rtkit-daemon[1577]: Successfully made thread 1908 of process 1907 (n/a) owned by '1000' RT at priority 5.
+Apr 20 23:23:06 ubuntu rtkit-daemon[1577]: Supervising 2 threads of 1 processes of 2 users.
+Apr 20 23:23:06 ubuntu pulseaudio[1907]: [pulseaudio] alsa-util.c: Disabling timer-based scheduling because running inside a VM.
+Apr 20 23:23:06 ubuntu pulseaudio[1907]: [alsa-sink-ES1371/1] alsa-sink.c: ALSA woke us up to write new data to the device, but there was actually nothing to write.
+Apr 20 23:23:06 ubuntu pulseaudio[1907]: [alsa-sink-ES1371/1] alsa-sink.c: Most likely this is a bug in the ALSA driver 'snd_ens1371'. Please report this issue to the ALSA developers.
+Apr 20 23:23:06 ubuntu pulseaudio[1907]: [alsa-sink-ES1371/1] alsa-sink.c: We were woken up with POLLOUT set -- however a subsequent snd_pcm_avail() returned 0 or another value < min_avail.
+Apr 20 23:23:06 ubuntu rtkit-daemon[1577]: Supervising 2 threads of 1 processes of 2 users.
+Apr 20 23:23:06 ubuntu rtkit-daemon[1577]: Successfully made thread 1909 of process 1907 (n/a) owned by '1000' RT at priority 5.
+Apr 20 23:23:06 ubuntu rtkit-daemon[1577]: Supervising 3 threads of 1 processes of 2 users.
+Apr 20 23:23:07 ubuntu dbus-daemon[1754]: [session uid=1000 pid=1754] Activating via systemd: service name='org.freedesktop.impl.portal.PermissionStore' unit='xdg-permission-store.service' requested by ':1.12' (uid=1000 pid=1885 comm="/usr/bin/gnome-shell " label="unconfined")
+Apr 20 23:23:07 ubuntu systemd[1729]: Starting sandboxed app permission store...
+Apr 20 23:23:07 ubuntu dbus-daemon[1754]: [session uid=1000 pid=1754] Successfully activated service 'org.freedesktop.impl.portal.PermissionStore'
+Apr 20 23:23:07 ubuntu systemd[1729]: Started sandboxed app permission store.
+Apr 20 23:23:07 ubuntu dbus-daemon[1754]: [session uid=1000 pid=1754] Activating service name='org.freedesktop.portal.IBus' requested by ':1.17' (uid=1000 pid=1918 comm="ibus-daemon --xim --panel disable " label="unconfined")
+Apr 20 23:23:07 ubuntu dbus-daemon[1754]: [session uid=1000 pid=1754] Successfully activated service 'org.freedesktop.portal.IBus'
+Apr 20 23:23:07 ubuntu dbus-daemon[1754]: [session uid=1000 pid=1754] Activating service name='org.gnome.Shell.CalendarServer' requested by ':1.12' (uid=1000 pid=1885 comm="/usr/bin/gnome-shell " label="unconfined")
+Apr 20 23:23:07 ubuntu dbus-daemon[1754]: [session uid=1000 pid=1754] Activating via systemd: service name='org.gnome.evolution.dataserver.Sources5' unit='evolution-source-registry.service' requested by ':1.21' (uid=1000 pid=1944 comm="/usr/lib/gnome-shell/gnome-shell-calendar-server " label="unconfined")
+Apr 20 23:23:07 ubuntu systemd[1729]: Starting Evolution source registry...
+Apr 20 23:23:08 ubuntu dbus-daemon[763]: [system] Activating via systemd: service name='org.freedesktop.GeoClue2' unit='geoclue.service' requested by ':1.84' (uid=1000 pid=1885 comm="/usr/bin/gnome-shell " label="unconfined")
+Apr 20 23:23:08 ubuntu systemd[1]: Starting Location Lookup Service...
+Apr 20 23:23:08 ubuntu dbus-daemon[1754]: [session uid=1000 pid=1754] Activating service name='org.gnome.OnlineAccounts' requested by ':1.22' (uid=1000 pid=1950 comm="/usr/lib/evolution/evolution-source-registry " label="unconfined")
+Apr 20 23:23:08 ubuntu dbus-daemon[763]: [system] Successfully activated service 'org.freedesktop.GeoClue2'
+Apr 20 23:23:08 ubuntu systemd[1]: Started Location Lookup Service.
+Apr 20 23:23:08 ubuntu gnome-shell[1885]: Telepathy is not available, chat integration will be disabled.
+Apr 20 23:23:08 ubuntu dbus-daemon[1754]: [session uid=1000 pid=1754] Activating via systemd: service name='org.gtk.vfs.UDisks2VolumeMonitor' unit='gvfs-udisks2-volume-monitor.service' requested by ':1.12' (uid=1000 pid=1885 comm="/usr/bin/gnome-shell " label="unconfined")
+Apr 20 23:23:08 ubuntu systemd[1729]: Starting Virtual filesystem service - disk device monitor...
+Apr 20 23:23:08 ubuntu dbus-daemon[1754]: [session uid=1000 pid=1754] Successfully activated service 'org.gnome.evolution.dataserver.Sources5'
+Apr 20 23:23:08 ubuntu systemd[1729]: Started Evolution source registry.
+Apr 20 23:23:08 ubuntu dbus-daemon[1754]: [session uid=1000 pid=1754] Successfully activated service 'org.gnome.Shell.CalendarServer'
+Apr 20 23:23:08 ubuntu dbus-daemon[1754]: [session uid=1000 pid=1754] Successfully activated service 'org.gtk.vfs.UDisks2VolumeMonitor'
+Apr 20 23:23:08 ubuntu systemd[1729]: Started Virtual filesystem service - disk device monitor.
+Apr 20 23:23:08 ubuntu dbus-daemon[1754]: [session uid=1000 pid=1754] Activating via systemd: service name='org.gtk.vfs.AfcVolumeMonitor' unit='gvfs-afc-volume-monitor.service' requested by ':1.12' (uid=1000 pid=1885 comm="/usr/bin/gnome-shell " label="unconfined")
+Apr 20 23:23:08 ubuntu systemd[1729]: Starting Virtual filesystem service - Apple File Conduit monitor...
+Apr 20 23:23:08 ubuntu gvfs-afc-volume-monitor[1967]: Volume monitor alive
+Apr 20 23:23:08 ubuntu dbus-daemon[1754]: [session uid=1000 pid=1754] Successfully activated service 'org.gtk.vfs.AfcVolumeMonitor'
+Apr 20 23:23:08 ubuntu systemd[1729]: Started Virtual filesystem service - Apple File Conduit monitor.
+Apr 20 23:23:08 ubuntu dbus-daemon[1754]: [session uid=1000 pid=1754] Activating via systemd: service name='org.gtk.vfs.GoaVolumeMonitor' unit='gvfs-goa-volume-monitor.service' requested by ':1.12' (uid=1000 pid=1885 comm="/usr/bin/gnome-shell " label="unconfined")
+Apr 20 23:23:08 ubuntu systemd[1729]: Starting Virtual filesystem service - GNOME Online Accounts monitor...
+Apr 20 23:23:08 ubuntu goa-daemon[1957]: goa-daemon version 3.28.0 starting
+Apr 20 23:23:08 ubuntu dbus-daemon[1754]: [session uid=1000 pid=1754] Activating service name='org.gnome.Identity' requested by ':1.26' (uid=1000 pid=1957 comm="/usr/lib/gnome-online-accounts/goa-daemon " label="unconfined")
+Apr 20 23:23:08 ubuntu dbus-daemon[1754]: [session uid=1000 pid=1754] Successfully activated service 'org.gnome.OnlineAccounts'
+Apr 20 23:23:08 ubuntu dbus-daemon[1754]: [session uid=1000 pid=1754] Successfully activated service 'org.gtk.vfs.GoaVolumeMonitor'
+Apr 20 23:23:08 ubuntu systemd[1729]: Started Virtual filesystem service - GNOME Online Accounts monitor.
+Apr 20 23:23:08 ubuntu dbus-daemon[1754]: [session uid=1000 pid=1754] Activating via systemd: service name='org.gtk.vfs.GPhoto2VolumeMonitor' unit='gvfs-gphoto2-volume-monitor.service' requested by ':1.12' (uid=1000 pid=1885 comm="/usr/bin/gnome-shell " label="unconfined")
+Apr 20 23:23:08 ubuntu systemd[1729]: Starting Virtual filesystem service - digital camera monitor...
+Apr 20 23:23:08 ubuntu dbus-daemon[1754]: [session uid=1000 pid=1754] Successfully activated service 'org.gnome.Identity'
+Apr 20 23:23:08 ubuntu dbus-daemon[1754]: [session uid=1000 pid=1754] Successfully activated service 'org.gtk.vfs.GPhoto2VolumeMonitor'
+Apr 20 23:23:08 ubuntu systemd[1729]: Started Virtual filesystem service - digital camera monitor.
+Apr 20 23:23:08 ubuntu dbus-daemon[1754]: [session uid=1000 pid=1754] Activating via systemd: service name='org.gtk.vfs.MTPVolumeMonitor' unit='gvfs-mtp-volume-monitor.service' requested by ':1.12' (uid=1000 pid=1885 comm="/usr/bin/gnome-shell " label="unconfined")
+Apr 20 23:23:08 ubuntu systemd[1729]: Starting Virtual filesystem service - Media Transfer Protocol monitor...
+Apr 20 23:23:08 ubuntu dbus-daemon[1754]: [session uid=1000 pid=1754] Successfully activated service 'org.gtk.vfs.MTPVolumeMonitor'
+Apr 20 23:23:08 ubuntu systemd[1729]: Started Virtual filesystem service - Media Transfer Protocol monitor.
+Apr 20 23:23:08 ubuntu spice-vdagent[2017]: Cannot access vdagent virtio channel /dev/virtio-ports/com.redhat.spice.0
+Apr 20 23:23:09 ubuntu gnome-session[1758]: gnome-session-binary[1758]: WARNING: App 'spice-vdagent.desktop' exited with code 1
+Apr 20 23:23:09 ubuntu gnome-session-binary[1758]: WARNING: App 'spice-vdagent.desktop' exited with code 1
+Apr 20 23:23:09 ubuntu kernel: [   35.930121] rfkill: input handler disabled
+Apr 20 23:23:09 ubuntu gsd-xsettings[2011]: Failed to get current display configuration state: GDBus.Error:org.freedesktop.DBus.Error.NameHasNoOwner: Name "org.gnome.Mutter.DisplayConfig" does not exist
+Apr 20 23:23:09 ubuntu gsd-sharing[2000]: Failed to StopUnit service: GDBus.Error:org.freedesktop.systemd1.NoSuchUnit: Unit gnome-user-share-webdav.service not loaded.
+Apr 20 23:23:09 ubuntu gsd-sharing[2000]: Failed to StopUnit service: GDBus.Error:org.freedesktop.systemd1.NoSuchUnit: Unit rygel.service not loaded.
+Apr 20 23:23:09 ubuntu gsd-sharing[2000]: Failed to StopUnit service: GDBus.Error:org.freedesktop.systemd1.NoSuchUnit: Unit gnome-remote-desktop.service not loaded.
+Apr 20 23:23:09 ubuntu gnome-shell[1885]: JS WARNING: [/usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/appIcons.js 1028]: unreachable code after return statement
+Apr 20 23:23:08 ubuntu systemd-timesyncd[597]: Synchronized to time server 91.189.91.157:123 (ntp.ubuntu.com).
+Apr 20 23:23:09 ubuntu gnome-shell[1885]: JS WARNING: [resource:///org/gnome/shell/ui/workspaceThumbnail.js 891]: reference to undefined property "_switchWorkspaceNotifyId"
+Apr 20 23:23:09 ubuntu gnome-session-binary[1758]: Entering running state
+Apr 20 23:23:09 ubuntu dbus-daemon[1754]: [session uid=1000 pid=1754] Activating service name='org.freedesktop.FileManager1' requested by ':1.49' (uid=1000 pid=2096 comm="nautilus-desktop " label="unconfined")
+Apr 20 23:23:10 ubuntu dbus-daemon[1754]: [session uid=1000 pid=1754] Successfully activated service 'org.freedesktop.FileManager1'
+Apr 20 23:23:10 ubuntu dbus-daemon[1754]: [session uid=1000 pid=1754] Activating via systemd: service name='org.gnome.evolution.dataserver.Calendar7' unit='evolution-calendar-factory.service' requested by ':1.21' (uid=1000 pid=1944 comm="/usr/lib/gnome-shell/gnome-shell-calendar-server " label="unconfined")
+Apr 20 23:23:10 ubuntu systemd[1729]: Starting Evolution calendar service...
+Apr 20 23:23:10 ubuntu dbus-daemon[1754]: [session uid=1000 pid=1754] Activating service name='ca.desrt.dconf' requested by ':1.49' (uid=1000 pid=2096 comm="nautilus-desktop " label="unconfined")
+Apr 20 23:23:10 ubuntu dbus-daemon[1754]: [session uid=1000 pid=1754] Successfully activated service 'ca.desrt.dconf'
+Apr 20 23:23:10 ubuntu gnome-shell[1885]: JS ERROR: Gio.DBusError: GDBus.Error:org.freedesktop.DBus.Error.NameHasNoOwner: Could not get owner of name 'org.freedesktop.ReserveDevice1.Audio0': no such name#012getUniqueBusNameSync@/usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/util.js:58:20#012traverseBusNames/<@/usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/util.js:82:34
+Apr 20 23:23:10 ubuntu dbus-daemon[1754]: [session uid=1000 pid=1754] Successfully activated service 'org.gnome.evolution.dataserver.Calendar7'
+Apr 20 23:23:10 ubuntu systemd[1729]: Started Evolution calendar service.
+Apr 20 23:23:11 ubuntu gnome-shell[1885]: Error looking up permission: GDBus.Error:org.freedesktop.portal.Error.NotFound: No entry for geolocation
+Apr 20 23:23:11 ubuntu gsd-color[2031]: failed to get edid: unable to get EDID for output
+Apr 20 23:23:11 ubuntu gsd-color[1637]: unable to get EDID for xrandr-Virtual1: unable to get EDID for output
+Apr 20 23:23:11 ubuntu gsd-color[2031]: unable to get EDID for xrandr-Virtual1: unable to get EDID for output
+Apr 20 23:23:11 ubuntu gnome-shell[1885]: STACK_OP_ADD: window 0x1e00001 already in stack
+Apr 20 23:23:11 ubuntu gnome-shell[1885]: STACK_OP_ADD: window 0x1e00001 already in stack
+Apr 20 23:23:11 ubuntu dbus-daemon[1754]: [session uid=1000 pid=1754] Activating via systemd: service name='org.gnome.evolution.dataserver.AddressBook9' unit='evolution-addressbook-factory.service' requested by ':1.56' (uid=1000 pid=2169 comm="/usr/lib/evolution/evolution-calendar-factory-subp" label="unconfined")
+Apr 20 23:23:11 ubuntu systemd[1729]: Starting Evolution address book service...
+Apr 20 23:23:11 ubuntu dbus-daemon[1754]: [session uid=1000 pid=1754] Successfully activated service 'org.gnome.evolution.dataserver.AddressBook9'
+Apr 20 23:23:11 ubuntu systemd[1729]: Started Evolution address book service.
+Apr 20 23:23:13 ubuntu pulseaudio[1907]: [pulseaudio] bluez5-util.c: GetManagedObjects() failed: org.freedesktop.DBus.Error.TimedOut: Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+Apr 20 23:23:13 ubuntu gnome-shell[1885]: GNOME Shell started at Tue Apr 20 2021 23:23:08 GMT-0700 (PDT)
+Apr 20 23:23:17 ubuntu dbus-daemon[1754]: [session uid=1000 pid=1754] Activating via systemd: service name='org.gnome.Terminal' unit='gnome-terminal-server.service' requested by ':1.59' (uid=1000 pid=2220 comm="/usr/bin/gnome-terminal.real " label="unconfined")
+Apr 20 23:23:17 ubuntu systemd[1729]: Starting GNOME Terminal Server...
+Apr 20 23:23:17 ubuntu dbus-daemon[1754]: [session uid=1000 pid=1754] Successfully activated service 'org.gnome.Terminal'
+Apr 20 23:23:17 ubuntu systemd[1729]: Started GNOME Terminal Server.
+Apr 20 23:23:20 ubuntu nautilus[2137]: Called "net usershare info" but it failed: Failed to execute child process “net” (No such file or directory)
+Apr 20 23:23:21 ubuntu dbus-daemon[1754]: [session uid=1000 pid=1754] Activating via systemd: service name='org.gtk.vfs.Metadata' unit='gvfs-metadata.service' requested by ':1.52' (uid=1000 pid=2137 comm="/usr/bin/nautilus --gapplication-service " label="unconfined")
+Apr 20 23:23:21 ubuntu systemd[1729]: Starting Virtual filesystem metadata service...
+Apr 20 23:23:21 ubuntu dbus-daemon[1754]: [session uid=1000 pid=1754] Successfully activated service 'org.gtk.vfs.Metadata'
+Apr 20 23:23:21 ubuntu systemd[1729]: Started Virtual filesystem metadata service.
+Apr 20 23:23:21 ubuntu gvfsd-metadata[2258]: g_udev_device_has_property: assertion 'G_UDEV_IS_DEVICE (device)' failed
+Apr 20 23:23:21 ubuntu gvfsd-metadata[2258]: message repeated 7 times: [ g_udev_device_has_property: assertion 'G_UDEV_IS_DEVICE (device)' failed]
+Apr 20 23:23:22 ubuntu gvfsd[1891]: mkdir failed on directory /var/cache/samba: Permission denied
+Apr 20 23:23:24 ubuntu gvfsd[1891]: message repeated 5 times: [ mkdir failed on directory /var/cache/samba: Permission denied]
+Apr 20 23:23:53 ubuntu systemd[1]: Stopping MySQL Community Server...
+Apr 20 23:23:54 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 20 23:23:54 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 20 23:23:55 ubuntu systemd[1]: Started MySQL Community Server.
+Apr 20 23:24:11 ubuntu gnome-software[2351]: plugin appstream took 2.2 seconds to do setup
+Apr 20 23:24:11 ubuntu gnome-software[2351]: enabled plugins: os-release, packagekit-local, packagekit-refresh, ubuntuone, fwupd, desktop-categories, packagekit-offline, packagekit, systemd-updates, packagekit-upgrade, shell-extensions, packagekit-refine-repos, packagekit-url-to-app, packagekit-proxy, appstream, modalias, generic-updates, rewrite-resource, packagekit-refine, hardcoded-blacklist, hardcoded-featured, desktop-menu-path, hardcoded-popular, odrs, steam, packagekit-history, provenance, snap, provenance-license, icons, key-colors, key-colors-metadata
+Apr 20 23:24:11 ubuntu gnome-software[2351]: disabled plugins: dpkg, repos, dummy, epiphany
+Apr 20 23:24:12 ubuntu dbus-daemon[763]: [system] Activating via systemd: service name='org.freedesktop.fwupd' unit='fwupd.service' requested by ':1.116' (uid=1000 pid=2351 comm="/usr/bin/gnome-software --gapplication-service " label="unconfined")
+Apr 20 23:24:12 ubuntu systemd[1]: Starting Firmware update daemon...
+Apr 20 23:24:12 ubuntu dbus-daemon[763]: [system] Successfully activated service 'org.freedesktop.fwupd'
+Apr 20 23:24:12 ubuntu systemd[1]: Started Firmware update daemon.
+Apr 20 23:24:13 ubuntu PackageKit: get-updates transaction /20_eaceedea from uid 1000 finished with success after 1198ms
+Apr 20 23:24:13 ubuntu gnome-software[2351]: Only 0 apps for recent list, hiding
+Apr 20 23:24:14 ubuntu PackageKit: resolve transaction /21_eebdccdb from uid 1000 finished with success after 707ms
+Apr 20 23:24:14 ubuntu gnome-shell[1885]: [AppIndicatorSupport-DEBUG] Registering StatusNotifierItem :1.69/org/ayatana/NotificationItem/software_update_available
+Apr 20 23:24:14 ubuntu gnome-shell[1885]: [AppIndicatorSupport-DEBUG] Registering StatusNotifierItem :1.69/org/ayatana/NotificationItem/livepatch
+Apr 20 23:24:15 ubuntu PackageKit: search-file transaction /22_acdecdbc from uid 1000 finished with success after 1048ms
+Apr 20 23:24:15 ubuntu PackageKit: search-file transaction /23_baaaecab from uid 1000 finished with success after 508ms
+Apr 20 23:24:16 ubuntu PackageKit: search-file transaction /24_ecacacdb from uid 1000 finished with success after 526ms
+Apr 20 23:24:16 ubuntu PackageKit: search-file transaction /25_eabceabb from uid 1000 finished with success after 527ms
+Apr 20 23:24:17 ubuntu PackageKit: search-file transaction /26_ebcaecee from uid 1000 finished with success after 500ms
+Apr 20 23:24:17 ubuntu PackageKit: search-file transaction /27_bcabbccb from uid 1000 finished with success after 547ms
+Apr 20 23:24:18 ubuntu PackageKit: search-file transaction /28_aacceeeb from uid 1000 finished with success after 603ms
+Apr 20 23:24:18 ubuntu gnome-software[2351]: Failed to find one package for jetbrains-clion.desktop, /usr/share/applications/jetbrains-clion.desktop, [0]
+Apr 20 23:24:19 ubuntu PackageKit: get-details transaction /29_becebaca from uid 1000 finished with success after 512ms
+Apr 20 23:24:19 ubuntu gnome-software[2351]: Failed to load snap icon: local snap has no icon
+Apr 20 23:24:19 ubuntu gnome-software[2351]: message repeated 3 times: [ Failed to load snap icon: local snap has no icon]
+Apr 20 23:24:19 ubuntu gvfsd-metadata[2258]: g_udev_device_has_property: assertion 'G_UDEV_IS_DEVICE (device)' failed
+Apr 20 23:24:19 ubuntu gvfsd-metadata[2258]: message repeated 7 times: [ g_udev_device_has_property: assertion 'G_UDEV_IS_DEVICE (device)' failed]
+Apr 20 23:24:20 ubuntu gnome-software[2351]: Failed to load snap icon: local snap has no icon
+Apr 20 23:24:22 ubuntu kernel: [  110.391682] hrtimer: interrupt took 5382267 ns
+Apr 20 23:24:24 ubuntu nautilus[2137]: Called "net usershare info" but it failed: Failed to execute child process “net” (No such file or directory)
+Apr 20 23:24:56 ubuntu dbus-daemon[763]: [system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service' requested by ':1.122' (uid=1000 pid=2137 comm="/usr/bin/nautilus --gapplication-service " label="unconfined")
+Apr 20 23:24:56 ubuntu systemd[1]: Starting Hostname Service...
+Apr 20 23:24:56 ubuntu dbus-daemon[763]: [system] Successfully activated service 'org.freedesktop.hostname1'
+Apr 20 23:24:56 ubuntu systemd[1]: Started Hostname Service.
+Apr 20 23:24:59 ubuntu gvfsd-metadata[2258]: g_udev_device_has_property: assertion 'G_UDEV_IS_DEVICE (device)' failed
+Apr 20 23:24:59 ubuntu gvfsd-metadata[2258]: message repeated 7 times: [ g_udev_device_has_property: assertion 'G_UDEV_IS_DEVICE (device)' failed]
+Apr 20 23:25:01 ubuntu nautilus[2137]: Called "net usershare info" but it failed: Failed to execute child process “net” (No such file or directory)
+Apr 20 23:25:03 ubuntu nautilus[2137]: g_key_file_load_from_file: assertion 'file != NULL' failed
+Apr 20 23:25:03 ubuntu nautilus[2137]: Could not establish a connection to Tracker: Failed to load SPARQL backend: Key file does not have group “DomainOntology”
+Apr 20 23:25:03 ubuntu nautilus[2137]: g_queue_pop_head: assertion 'queue != NULL' failed
+Apr 20 23:25:03 ubuntu nautilus[2137]: message repeated 3 times: [ g_queue_pop_head: assertion 'queue != NULL' failed]
+Apr 20 23:26:29 ubuntu jetbrains-clion.desktop[2527]: OpenJDK 64-Bit Server VM warning: Option UseConcMarkSweepGC was deprecated in version 9.0 and will likely be removed in a future release.
+Apr 20 23:26:37 ubuntu org.gnome.Shell.desktop[1885]: Window manager warning: Window 0x2a00007 (win0) sets an MWM hint indicating it isn't resizable, but sets min size 1 x 1 and max size 2147483647 x 2147483647; this doesn't make much sense.
+Apr 20 23:29:02 ubuntu gnome-shell[1885]: Some code accessed the property 'discreteGpuAvailable' on the module 'appDisplay'. That property was defined with 'let' or 'const' inside the module. This was previously supported, but is not correct according to the ES6 standard. Any symbols to be exported from a module must be defined with 'var'. The property access will work as previously for the time being, but please fix your code anyway.
+Apr 20 23:29:02 ubuntu gnome-shell[1885]: Some code accessed the property 'WindowPreviewMenuItem' on the module 'windowPreview'. That property was defined with 'let' or 'const' inside the module. This was previously supported, but is not correct according to the ES6 standard. Any symbols to be exported from a module must be defined with 'var'. The property access will work as previously for the time being, but please fix your code anyway.
+Apr 20 23:29:04 ubuntu dbus-daemon[763]: [system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service' requested by ':1.122' (uid=1000 pid=2137 comm="/usr/bin/nautilus --gapplication-service " label="unconfined")
+Apr 20 23:29:04 ubuntu systemd[1]: Starting Hostname Service...
+Apr 20 23:29:04 ubuntu dbus-daemon[763]: [system] Successfully activated service 'org.freedesktop.hostname1'
+Apr 20 23:29:04 ubuntu systemd[1]: Started Hostname Service.
+Apr 20 23:29:06 ubuntu gvfsd-metadata[2258]: g_udev_device_has_property: assertion 'G_UDEV_IS_DEVICE (device)' failed
+Apr 20 23:29:06 ubuntu gvfsd-metadata[2258]: message repeated 7 times: [ g_udev_device_has_property: assertion 'G_UDEV_IS_DEVICE (device)' failed]
+Apr 20 23:29:06 ubuntu nautilus[2137]: Called "net usershare info" but it failed: Failed to execute child process “net” (No such file or directory)
+Apr 20 23:29:30 ubuntu gnome-shell[1885]: Some code accessed the property 'WindowPreviewMenu' on the module 'windowPreview'. That property was defined with 'let' or 'const' inside the module. This was previously supported, but is not correct according to the ES6 standard. Any symbols to be exported from a module must be defined with 'var'. The property access will work as previously for the time being, but please fix your code anyway.
+Apr 20 23:29:49 ubuntu dbus-daemon[763]: [system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service' requested by ':1.122' (uid=1000 pid=2137 comm="/usr/bin/nautilus --gapplication-service " label="unconfined")
+Apr 20 23:29:49 ubuntu systemd[1]: Starting Hostname Service...
+Apr 20 23:29:49 ubuntu dbus-daemon[763]: [system] Successfully activated service 'org.freedesktop.hostname1'
+Apr 20 23:29:49 ubuntu systemd[1]: Started Hostname Service.
+Apr 20 23:29:51 ubuntu gvfsd-metadata[2258]: g_udev_device_has_property: assertion 'G_UDEV_IS_DEVICE (device)' failed

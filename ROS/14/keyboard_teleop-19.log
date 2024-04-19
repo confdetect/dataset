@@ -1,0 +1,28 @@
+[rospy.client][INFO] 2021-05-18 15:51:46,789: init_node, name[/keyboard_teleop], pid[90241]
+[xmlrpc][INFO] 2021-05-18 15:51:46,789: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2021-05-18 15:51:46,790: Started XML-RPC server [http://ubuntu:36555/]
+[rospy.init][INFO] 2021-05-18 15:51:46,790: ROS Slave URI: [http://ubuntu:36555/]
+[rospy.impl.masterslave][INFO] 2021-05-18 15:51:46,790: _ready: http://ubuntu:36555/
+[rospy.registration][INFO] 2021-05-18 15:51:46,792: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2021-05-18 15:51:46,792: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2021-05-18 15:51:46,891: registered with master
+[rospy.rosout][INFO] 2021-05-18 15:51:46,891: initializing /rosout core topic
+[rospy.rosout][INFO] 2021-05-18 15:51:46,894: connected to core topic /rosout
+[rospy.simtime][INFO] 2021-05-18 15:51:46,895: initializing /clock core topic
+[rospy.simtime][INFO] 2021-05-18 15:51:46,897: connected to core topic /clock
+[rospy.internal][INFO] 2021-05-18 15:51:47,140: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2021-05-18 15:51:47,142: topic[/vesc/low_level/ackermann_cmd_mux/input/teleop] adding connection to [/vesc/low_level/ackermann_cmd_mux_nodelet_manager], count 0
+[rospy.internal][INFO] 2021-05-18 15:51:49,567: topic[/clock] adding connection to [http://ubuntu:36257/], count 0
+[rospy.core][INFO] 2021-05-18 15:52:15,385: signal_shutdown [shutdown]
+[rospy.internal][INFO] 2021-05-18 15:52:15,388: topic[/vesc/low_level/ackermann_cmd_mux/input/teleop] removing connection to /vesc/low_level/ackermann_cmd_mux_nodelet_manager
+[rospy.internal][INFO] 2021-05-18 15:52:15,390: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2021-05-18 15:52:15,392: topic[/clock] removing connection to http://ubuntu:36257/
+[rospy.impl.masterslave][INFO] 2021-05-18 15:52:15,394: shutdown
+[rospy.internal][ERROR] 2021-05-18 15:52:15,394: Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 737, in receive_once
+    self.stat_bytes += recv_buff(sock, b, p.buff_size)
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 104, in recv_buff
+    d = sock.recv(buff_size)
+error: [Errno 104] Connection reset by peer
+
+[rospy.core][INFO] 2021-05-18 15:52:15,519: signal_shutdown [atexit]

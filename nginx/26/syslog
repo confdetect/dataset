@@ -1,0 +1,25 @@
+Apr 27 16:44:06 ubuntu nautilus[20088]: gtk_revealer_set_reveal_child: assertion 'GTK_IS_REVEALER (revealer)' failed
+Apr 27 16:44:11 ubuntu nautilus[20088]: message repeated 3 times: [ gtk_revealer_set_reveal_child: assertion 'GTK_IS_REVEALER (revealer)' failed]
+Apr 27 16:44:33 ubuntu /usr/lib/gdm3/gdm-x-session[1693]: (EE) client bug: timer event2 debounce: offset negative (-190ms)
+Apr 27 16:44:33 ubuntu /usr/lib/gdm3/gdm-x-session[1693]: (EE) client bug: timer event2 debounce: offset negative (-105ms)
+Apr 27 16:44:33 ubuntu /usr/lib/gdm3/gdm-x-session[1693]: (EE) client bug: timer event2 debounce short: offset negative (-118ms)
+Apr 27 16:45:51 ubuntu systemd[1]: Starting A high performance web server and a reverse proxy server...
+Apr 27 16:45:51 ubuntu systemd[1]: Started A high performance web server and a reverse proxy server.
+Apr 27 16:45:52 ubuntu systemd[1]: Stopping A high performance web server and a reverse proxy server...
+Apr 27 16:45:52 ubuntu systemd[1]: Stopped A high performance web server and a reverse proxy server.
+Apr 27 16:45:52 ubuntu systemd[1]: Starting A high performance web server and a reverse proxy server...
+Apr 27 16:45:52 ubuntu systemd[1]: Started A high performance web server and a reverse proxy server.
+Apr 27 16:46:36 ubuntu systemd[1]: Stopping A high performance web server and a reverse proxy server...
+Apr 27 16:46:36 ubuntu systemd[1]: Stopped A high performance web server and a reverse proxy server.
+Apr 27 16:46:36 ubuntu systemd[1]: Starting A high performance web server and a reverse proxy server...
+Apr 27 16:46:36 ubuntu nginx[53847]: nginx: [emerg] "gzip_buffers" directive invalid value in /etc/nginx/nginx.conf:53
+Apr 27 16:46:36 ubuntu nginx[53847]: nginx: configuration file /etc/nginx/nginx.conf test failed
+Apr 27 16:46:36 ubuntu systemd[1]: nginx.service: Control process exited, code=exited status=1
+Apr 27 16:46:36 ubuntu systemd[1]: nginx.service: Failed with result 'exit-code'.
+Apr 27 16:46:36 ubuntu systemd[1]: Failed to start A high performance web server and a reverse proxy server.
+Apr 27 16:46:37 ubuntu systemd[1]: Starting A high performance web server and a reverse proxy server...
+Apr 27 16:46:37 ubuntu nginx[53853]: nginx: [emerg] "gzip_buffers" directive invalid value in /etc/nginx/nginx.conf:53
+Apr 27 16:46:37 ubuntu nginx[53853]: nginx: configuration file /etc/nginx/nginx.conf test failed
+Apr 27 16:46:37 ubuntu systemd[1]: nginx.service: Control process exited, code=exited status=1
+Apr 27 16:46:37 ubuntu systemd[1]: nginx.service: Failed with result 'exit-code'.
+Apr 27 16:46:37 ubuntu systemd[1]: Failed to start A high performance web server and a reverse proxy server.

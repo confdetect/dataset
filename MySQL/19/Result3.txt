@@ -1,0 +1,27 @@
+Connect Database log success
+Create Table MysqlLog Success
+Starting Parse Mysql Log
+Starting Parse Sys Log
+Computing Problem Spotlight
+Create Table MysqlMsg Success
+Mysql DisConnect
+Using Augeas to Parse Configuration File
+Extract key-value Finished
+Extract Env Finished
+Connect Mysql wise success
+Giving Problem Spotlight and Resolve Spotlight
+Problem Spotlight No.0 : 2021-04-18 06:07:52 Error Aborting
+Problem Spotlight No.1 : 2021-04-18 06:07:52 Error unknown variable 'thread_concurrency=100000000'
+Suspicious word:    thread_concurrency    with key:    Conf: thread_concurrency    and value:    100000000
+Suspicious word:    100000000    with key:    Conf: thread_concurrency    and value:    100000000
+Knowledge Database Configuration:    wrong Conf value's key: default-character-set    Infomation:    
+Problem Spotlight No.2 : 2021-04-17 23:07:52 Warning Please take a look at https://wiki.debian.org/Teams/MySQL/FAQ for tips on fixing common upgrade issues.
+Problem Spotlight No.3 : 2021-04-17 23:07:52 Warning ERROR: Unable to start MySQL server:
+Problem Spotlight No.4 : 2021-04-17 23:07:52 Warning Once the problem is resolved, restart the service.
+Problem Spotlight No.5 : 2021-04-18 06:07:51 Note /usr/sbin/mysqld: Shutdown complete
+Problem Spotlight No.6 : 2021-04-18 06:07:51 Note Shutting down plugin 'binlog'
+Problem Spotlight No.7 : 2021-04-18 06:07:51 Note Shutting down plugin 'mysql_native_password'
+Problem Spotlight No.8 : 2021-04-18 06:07:51 Note Shutting down plugin 'sha256_password'
+Problem Spotlight No.9 : 2021-04-18 06:07:51 Note Shutting down plugin 'CSV'
+Mysql DisConnect
+Time Using: 0.757267 s

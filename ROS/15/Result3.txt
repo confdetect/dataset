@@ -1,0 +1,43 @@
+Connect Mysql log success
+Create Table ROSLog Success
+Create Table ROSLog Success
+Starting Parse ROS Log
+ROS Log Match Failed: Press Ctrl-C to interrupt
+ROS Log Match Failed: Invalid <node> tag: output must be one of 'log', 'screen'. 
+ROS Log Match Failed: 
+ROS Log Match Failed: Node xml is <node args="left_rear_wheel_velocity_controller right_rear_wheel_velocity_controller                                             left_front_wheel_velocity_controller right_front_wheel_velocity_controller                                             left_steering_hinge_position_controller right_steering_hinge_position_controller                                             joint_state_controller" name="controller_manager" ns="/racecar" output="keyboard" pkg="controller_manager" respawn="false" type="spawner"/>
+ROS Log Match Failed:   File "/opt/ros/melodic/lib/python2.7/dist-packages/roslaunch/__init__.py", line 332, in main
+ROS Log Match Failed:     p.start()
+ROS Log Match Failed:   File "/opt/ros/melodic/lib/python2.7/dist-packages/roslaunch/parent.py", line 289, in start
+ROS Log Match Failed:     self._start_infrastructure()
+ROS Log Match Failed:   File "/opt/ros/melodic/lib/python2.7/dist-packages/roslaunch/parent.py", line 238, in _start_infrastructure
+ROS Log Match Failed:     self._load_config()
+ROS Log Match Failed:   File "/opt/ros/melodic/lib/python2.7/dist-packages/roslaunch/parent.py", line 144, in _load_config
+ROS Log Match Failed:     roslaunch_strs=self.roslaunch_strs, verbose=self.verbose)
+ROS Log Match Failed:   File "/opt/ros/melodic/lib/python2.7/dist-packages/roslaunch/config.py", line 463, in load_config_default
+ROS Log Match Failed:     raise RLException(e)
+ROS Log Match Failed: RLException: while processing /home/liike/ROS/src/racecar/racecar_control/launch/racecar_control.launch:
+ROS Log Match Failed: Invalid <node> tag: output must be one of 'log', 'screen'. 
+ROS Log Match Failed: 
+ROS Log Match Failed: Node xml is <node args="left_rear_wheel_velocity_controller right_rear_wheel_velocity_controller                                             left_front_wheel_velocity_controller right_front_wheel_velocity_controller                                             left_steering_hinge_position_controller right_steering_hinge_position_controller                                             joint_state_controller" name="controller_manager" ns="/racecar" output="keyboard" pkg="controller_manager" respawn="false" type="spawner"/>
+ROS Log Match Failed: 
+Computing Problem Spotlight
+Create Table ROSMsg Success
+Mysql DisConnect
+Using Augeas to Parse Configuration File
+Extract key-value Finished
+Extract Env Finished
+Connect Database wise success
+Giving Problem Spotlight and Resolve Spotlight
+Problem Spotlight No.0 : 2021-05-18 13:20:19 Error Traceback (most recent call last):
+Problem Spotlight No.1 : 2021-05-18 13:20:19 Error The traceback for the exception was written to the log file
+Problem Spotlight No.2 : 2021-05-18 13:20:19 Error RLException: while processing /home/liike/ROS/src/racecar/racecar_control/launch/racecar_control.launch:
+Problem Spotlight No.3 : 2021-05-18 13:20:19 Note signal_shutdown [atexit]
+Problem Spotlight No.4 : 2021-05-18 13:20:19 Note Added node of type [gazebo_ros/spawn_model] in namespace [/]
+Problem Spotlight No.5 : 2021-05-18 13:20:18 Note Added node of type [gazebo_ros/gzclient] in namespace [/]
+Problem Spotlight No.6 : 2021-05-18 13:20:18 Note Added node of type [gazebo_ros/gzserver] in namespace [/]
+Problem Spotlight No.7 : 2021-05-18 13:20:18 Note loading config file /home/liike/ROS/src/racecar/racecar_gazebo/launch/racecar.launch
+Problem Spotlight No.8 : 2021-05-18 13:20:18 Note Added core node of type [rosout/rosout] in namespace [/]
+Problem Spotlight No.9 : 2021-05-18 13:20:18 Note loading roscore config file /opt/ros/melodic/etc/ros/roscore.xml
+Mysql DisConnect
+Time Using: 0.485829 s

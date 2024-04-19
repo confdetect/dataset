@@ -1,0 +1,30 @@
+Connect Database log success
+Create Table MysqlLog Success
+Starting Parse Mysql Log
+Starting Parse Sys Log
+Computing Problem Spotlight
+Create Table MysqlMsg Success
+Mysql DisConnect
+Using Augeas to Parse Configuration File
+Extract key-value Finished
+Extract Env Finished
+Connect Mysql wise success
+Giving Problem Spotlight and Resolve Spotlight
+Problem Spotlight No.0 : 2021-04-14 05:24:33 Error Aborting
+Problem Spotlight No.1 : 2021-04-14 05:24:33 Error Failed to initialize builtin plugins.
+Problem Spotlight No.2 : 2021-04-14 05:24:33 Error Plugin 'InnoDB' registration as a STORAGE ENGINE failed.
+Problem Spotlight No.3 : 2021-04-14 05:24:33 Error Plugin 'InnoDB' init function returned error.
+Problem Spotlight No.4 : 2021-04-14 05:24:33 Error InnoDB: Plugin initialization aborted with error Generic error
+Problem Spotlight No.5 : 2021-04-14 05:24:33 Error InnoDB: Unable to create temporary file; errno: 2
+Suspicious word:    2    with key:    Conf: long_query_time    and value:    2
+Problem Spotlight No.6 : 2021-04-14 05:24:33 Error mysqld: Can't create/write to file '/tm/ibt7W0C0' (Errcode: 2 - No such file or directory)
+FilePath:    /tm/ibt7W0C0    not Exist
+Suspicious word:    mysqld    with key:    Conf: user  ||  Program: 9909/mysqld    and value:    mysqld  ||  Port: tcp/3306
+Problem Spotlight No.7 : 2021-04-14 05:24:33 Error mysqld: Can't create/write to file '/tm/ibwRIjYn' (Errcode: 2 - No such file or directory)
+FilePath:    /tm/ibwRIjYn    not Exist
+Problem Spotlight No.8 : 2021-04-14 05:24:32 Error mysqld: Can't create/write to file '/tm/ib2SdJSS' (Errcode: 2 - No such file or directory)
+FilePath:    /tm/ib2SdJSS    not Exist
+Problem Spotlight No.9 : 2021-04-14 05:24:32 Error mysqld: Can't create/write to file '/tm/ibNp8Qwl' (Errcode: 2 - No such file or directory)
+FilePath:    /tm/ibNp8Qwl    not Exist
+Mysql DisConnect
+Time Using: 1.40615 s

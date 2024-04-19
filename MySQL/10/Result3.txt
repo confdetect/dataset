@@ -1,0 +1,26 @@
+Connect Database log success
+Create Table MysqlLog Success
+Starting Parse Mysql Log
+Starting Parse Sys Log
+Computing Problem Spotlight
+Create Table MysqlMsg Success
+Mysql DisConnect
+Using Augeas to Parse Configuration File
+Extract key-value Finished
+Extract Env Finished
+Connect Mysql wise success
+Giving Problem Spotlight and Resolve Spotlight
+Problem Spotlight No.0 : 2021-04-14 11:40:02 Error Aborting
+Problem Spotlight No.1 : 2021-04-14 11:40:02 Error unknown variable 'default-character-set=UTF-8'
+Suspicious word:    default-character-set    with key:    Conf: default-character-set    and value:    UTF-8
+Suspicious word:    UTF-8    with key:    Conf: default-character-set    and value:    UTF-8
+Problem Spotlight No.2 : 2021-04-14 04:40:02 Warning Once the problem is resolved, restart the service.
+Problem Spotlight No.3 : 2021-04-14 04:40:02 Warning Please take a look at https://wiki.debian.org/Teams/MySQL/FAQ for tips on fixing common upgrade issues.
+Problem Spotlight No.4 : 2021-04-14 04:40:02 Warning ERROR: Unable to start MySQL server:
+Problem Spotlight No.5 : 2021-04-14 11:30:52 Warning CA certificate ca.pem is self signed.
+Problem Spotlight No.6 : 2021-04-14 11:30:51 Warning TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+Problem Spotlight No.7 : 2021-04-14 11:37:11 Note /usr/sbin/mysqld: Shutdown complete
+Problem Spotlight No.8 : 2021-04-14 11:37:11 Note Shutting down plugin 'binlog'
+Problem Spotlight No.9 : 2021-04-14 11:37:11 Note Shutting down plugin 'mysql_native_password'
+Mysql DisConnect
+Time Using: 2.65256 s

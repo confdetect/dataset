@@ -1,0 +1,740 @@
+Apr 18 00:08:24 ubuntu anacron[20589]: Job `cron.daily' terminated
+Apr 18 00:08:24 ubuntu anacron[20589]: Normal exit (1 job run)
+Apr 18 00:08:44 ubuntu gnome-shell[1630]: Object .Gjs_AppIndicatorIconActor__1 (0x557e73a3e7a0), has been already finalized. Impossible to set any property to it.
+Apr 18 00:08:44 ubuntu gnome-shell[1630]: Object .Gjs_AppIndicatorIconActor__1 (0x557e7131ca40), has been already finalized. Impossible to set any property to it.
+Apr 18 00:08:44 ubuntu org.gnome.Shell.desktop[1630]: == Stack trace for context 0x557e70ed2330 ==
+Apr 18 00:08:44 ubuntu org.gnome.Shell.desktop[1630]: #0 0x7ffd06d5d6b0 b   resource:///org/gnome/gjs/modules/_legacy.js:83 (0x7f894c0b5de0 @ 87)
+Apr 18 00:08:44 ubuntu org.gnome.Shell.desktop[1630]: #1 0x557e7128a8f0 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/indicatorStatusIcon.js:93 (0x7f89300c5b38 @ 58)
+Apr 18 00:08:44 ubuntu org.gnome.Shell.desktop[1630]: #2 0x7ffd06d5ea10 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f894c0b5de0 @ 71)
+Apr 18 00:08:44 ubuntu org.gnome.Shell.desktop[1630]: #3 0x7ffd06d5ead0 b   self-hosted:916 (0x7f894c0f12b8 @ 367)
+Apr 18 00:08:44 ubuntu org.gnome.Shell.desktop[1630]: #4 0x7ffd06d5ebc0 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7f894c0d2230 @ 386)
+Apr 18 00:08:44 ubuntu org.gnome.Shell.desktop[1630]: #5 0x557e7128a868 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/appIndicator.js:190 (0x7f89300b7808 @ 22)
+Apr 18 00:08:44 ubuntu org.gnome.Shell.desktop[1630]: #6 0x7ffd06d5ff20 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f894c0b5de0 @ 71)
+Apr 18 00:08:44 ubuntu org.gnome.Shell.desktop[1630]: #7 0x557e7128a7c0 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/statusNotifierWatcher.js:219 (0x7f89300b1de0 @ 225)
+Apr 18 00:08:44 ubuntu org.gnome.Shell.desktop[1630]: #8 0x7ffd06d61280 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f894c0b5de0 @ 71)
+Apr 18 00:08:44 ubuntu org.gnome.Shell.desktop[1630]: #9 0x557e7128a748 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/extension.js:61 (0x7f89300b1120 @ 37)
+Apr 18 00:08:44 ubuntu org.gnome.Shell.desktop[1630]: #10 0x557e7128a688 i   resource:///org/gnome/shell/ui/extensionSystem.js:83 (0x7f89309592b8 @ 441)
+Apr 18 00:08:44 ubuntu org.gnome.Shell.desktop[1630]: #11 0x557e7128a608 i   resource:///org/gnome/shell/ui/extensionSystem.js:354 (0x7f8930959d58 @ 13)
+Apr 18 00:08:44 ubuntu org.gnome.Shell.desktop[1630]: #12 0x7ffd06d61ff0 b   self-hosted:251 (0x7f894c0c4ab0 @ 223)
+Apr 18 00:08:44 ubuntu org.gnome.Shell.desktop[1630]: #13 0x557e7128a588 i   resource:///org/gnome/shell/ui/extensionSystem.js:353 (0x7f8930959cd0 @ 64)
+Apr 18 00:08:44 ubuntu org.gnome.Shell.desktop[1630]: #14 0x557e7128a508 i   resource:///org/gnome/shell/ui/extensionSystem.js:371 (0x7f8930959de0 @ 87)
+Apr 18 00:08:44 ubuntu org.gnome.Shell.desktop[1630]: #15 0x7ffd06d634f0 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7f894c0d2230 @ 386)
+Apr 18 00:08:44 ubuntu org.gnome.Shell.desktop[1630]: #16 0x7ffd06d63d00 b   resource:///org/gnome/shell/ui/sessionMode.js:205 (0x7f89305705e8 @ 254)
+Apr 18 00:08:44 ubuntu org.gnome.Shell.desktop[1630]: #17 0x7ffd06d650f0 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f894c0b5de0 @ 71)
+Apr 18 00:08:44 ubuntu org.gnome.Shell.desktop[1630]: #18 0x557e7128a3c8 i   resource:///org/gnome/shell/ui/sessionMode.js:167 (0x7f89305703c8 @ 40)
+Apr 18 00:08:44 ubuntu org.gnome.Shell.desktop[1630]: #19 0x7ffd06d66450 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f894c0b5de0 @ 71)
+Apr 18 00:08:44 ubuntu gnome-software[2061]: no app for changed ubuntu-appindicators@ubuntu.com
+Apr 18 00:08:44 ubuntu org.gnome.Shell.desktop[1630]: #20 0x557e7128a320 i   resource:///org/gnome/shell/ui/screenShield.js:1282 (0x7f8930553a28 @ 188)
+Apr 18 00:08:44 ubuntu org.gnome.Shell.desktop[1630]: #21 0x7ffd06d677b0 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f894c0b5de0 @ 71)
+Apr 18 00:08:44 ubuntu org.gnome.Shell.desktop[1630]: #22 0x557e7128a270 i   resource:///org/gnome/shell/ui/screenShield.js:1331 (0x7f8930553ab0 @ 391)
+Apr 18 00:08:44 ubuntu org.gnome.Shell.desktop[1630]: #23 0x7ffd06d68b10 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f894c0b5de0 @ 71)
+Apr 18 00:08:44 ubuntu org.gnome.Shell.desktop[1630]: #24 0x557e7128a1f0 i   resource:///org/gnome/shell/ui/screenShield.js:854 (0x7f89305519a0 @ 25)
+Apr 18 00:08:44 ubuntu org.gnome.Shell.desktop[1630]: == Stack trace for context 0x557e70ed2330 ==
+Apr 18 00:08:44 ubuntu org.gnome.Shell.desktop[1630]: #0 0x7ffd06d5d6b0 b   resource:///org/gnome/gjs/modules/_legacy.js:83 (0x7f894c0b5de0 @ 87)
+Apr 18 00:08:44 ubuntu org.gnome.Shell.desktop[1630]: #1 0x557e7128a8f0 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/indicatorStatusIcon.js:93 (0x7f89300c5b38 @ 58)
+Apr 18 00:08:44 ubuntu org.gnome.Shell.desktop[1630]: #2 0x7ffd06d5ea10 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f894c0b5de0 @ 71)
+Apr 18 00:08:44 ubuntu org.gnome.Shell.desktop[1630]: #3 0x7ffd06d5ead0 b   self-hosted:916 (0x7f894c0f12b8 @ 367)
+Apr 18 00:08:44 ubuntu org.gnome.Shell.desktop[1630]: #4 0x7ffd06d5ebc0 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7f894c0d2230 @ 386)
+Apr 18 00:08:44 ubuntu org.gnome.Shell.desktop[1630]: #5 0x557e7128a868 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/appIndicator.js:190 (0x7f89300b7808 @ 22)
+Apr 18 00:08:44 ubuntu org.gnome.Shell.desktop[1630]: #6 0x7ffd06d5ff20 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f894c0b5de0 @ 71)
+Apr 18 00:08:44 ubuntu org.gnome.Shell.desktop[1630]: #7 0x557e7128a7c0 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/statusNotifierWatcher.js:219 (0x7f89300b1de0 @ 225)
+Apr 18 00:08:44 ubuntu org.gnome.Shell.desktop[1630]: #8 0x7ffd06d61280 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f894c0b5de0 @ 71)
+Apr 18 00:08:44 ubuntu org.gnome.Shell.desktop[1630]: #9 0x557e7128a748 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/extension.js:61 (0x7f89300b1120 @ 37)
+Apr 18 00:08:44 ubuntu org.gnome.Shell.desktop[1630]: #10 0x557e7128a688 i   resource:///org/gnome/shell/ui/extensionSystem.js:83 (0x7f89309592b8 @ 441)
+Apr 18 00:08:44 ubuntu org.gnome.Shell.desktop[1630]: #11 0x557e7128a608 i   resource:///org/gnome/shell/ui/extensionSystem.js:354 (0x7f8930959d58 @ 13)
+Apr 18 00:08:44 ubuntu org.gnome.Shell.desktop[1630]: #12 0x7ffd06d61ff0 b   self-hosted:251 (0x7f894c0c4ab0 @ 223)
+Apr 18 00:08:44 ubuntu org.gnome.Shell.desktop[1630]: #13 0x557e7128a588 i   resource:///org/gnome/shell/ui/extensionSystem.js:353 (0x7f8930959cd0 @ 64)
+Apr 18 00:08:44 ubuntu org.gnome.Shell.desktop[1630]: #14 0x557e7128a508 i   resource:///org/gnome/shell/ui/extensionSystem.js:371 (0x7f8930959de0 @ 87)
+Apr 18 00:08:44 ubuntu org.gnome.Shell.desktop[1630]: #15 0x7ffd06d634f0 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7f894c0d2230 @ 386)
+Apr 18 00:08:44 ubuntu org.gnome.Shell.desktop[1630]: #16 0x7ffd06d63d00 b   resource:///org/gnome/shell/ui/sessionMode.js:205 (0x7f89305705e8 @ 254)
+Apr 18 00:08:44 ubuntu org.gnome.Shell.desktop[1630]: #17 0x7ffd06d650f0 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f894c0b5de0 @ 71)
+Apr 18 00:08:44 ubuntu org.gnome.Shell.desktop[1630]: #18 0x557e7128a3c8 i   resource:///org/gnome/shell/ui/sessionMode.js:167 (0x7f89305703c8 @ 40)
+Apr 18 00:08:44 ubuntu org.gnome.Shell.desktop[1630]: #19 0x7ffd06d66450 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f894c0b5de0 @ 71)
+Apr 18 00:08:44 ubuntu org.gnome.Shell.desktop[1630]: #20 0x557e7128a320 i   resource:///org/gnome/shell/ui/screenShield.js:1282 (0x7f8930553a28 @ 188)
+Apr 18 00:08:44 ubuntu org.gnome.Shell.desktop[1630]: #21 0x7ffd06d677b0 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f894c0b5de0 @ 71)
+Apr 18 00:08:44 ubuntu org.gnome.Shell.desktop[1630]: #22 0x557e7128a270 i   resource:///org/gnome/shell/ui/screenShield.js:1331 (0x7f8930553ab0 @ 391)
+Apr 18 00:08:44 ubuntu org.gnome.Shell.desktop[1630]: #23 0x7ffd06d68b10 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f894c0b5de0 @ 71)
+Apr 18 00:08:44 ubuntu org.gnome.Shell.desktop[1630]: #24 0x557e7128a1f0 i   resource:///org/gnome/shell/ui/screenShield.js:854 (0x7f89305519a0 @ 25)
+Apr 18 00:08:44 ubuntu gnome-software[2061]: no app for changed ubuntu-dock@ubuntu.com
+Apr 18 00:12:25 ubuntu dhclient[9311]: DHCPREQUEST of 192.168.182.128 on ens33 to 192.168.182.254 port 67 (xid=0x596c124d)
+Apr 18 00:12:25 ubuntu dhclient[9311]: DHCPACK of 192.168.182.128 from 192.168.182.254
+Apr 18 00:12:25 ubuntu NetworkManager[623]: <info>  [1618729945.1767] dhcp4 (ens33):   address 192.168.182.128
+Apr 18 00:12:25 ubuntu NetworkManager[623]: <info>  [1618729945.1801] dhcp4 (ens33):   plen 24 (255.255.255.0)
+Apr 18 00:12:25 ubuntu NetworkManager[623]: <info>  [1618729945.1801] dhcp4 (ens33):   gateway 192.168.182.2
+Apr 18 00:12:25 ubuntu NetworkManager[623]: <info>  [1618729945.1801] dhcp4 (ens33):   lease time 1800
+Apr 18 00:12:25 ubuntu NetworkManager[623]: <info>  [1618729945.1801] dhcp4 (ens33):   nameserver '192.168.182.2'
+Apr 18 00:12:25 ubuntu dbus-daemon[606]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.11' (uid=0 pid=623 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Apr 18 00:12:25 ubuntu NetworkManager[623]: <info>  [1618729945.1801] dhcp4 (ens33):   domain name 'localdomain'
+Apr 18 00:12:25 ubuntu NetworkManager[623]: <info>  [1618729945.1802] dhcp4 (ens33):   wins '192.168.182.2'
+Apr 18 00:12:25 ubuntu NetworkManager[623]: <info>  [1618729945.1802] dhcp4 (ens33): state changed bound -> bound
+Apr 18 00:12:25 ubuntu systemd[1]: Starting Network Manager Script Dispatcher Service...
+Apr 18 00:12:25 ubuntu dhclient[9311]: bound to 192.168.182.128 -- renewal in 783 seconds.
+Apr 18 00:12:25 ubuntu dbus-daemon[606]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Apr 18 00:12:25 ubuntu systemd[1]: Started Network Manager Script Dispatcher Service.
+Apr 18 00:12:25 ubuntu nm-dispatcher: req:1 'dhcp4-change' [ens33]: new request (1 scripts)
+Apr 18 00:12:25 ubuntu nm-dispatcher: req:1 'dhcp4-change' [ens33]: start running ordered scripts...
+Apr 18 00:15:54 ubuntu kernel: [18212.935924] CMS Main Thread invoked oom-killer: gfp_mask=0x100cca(GFP_HIGHUSER_MOVABLE), order=0, oom_score_adj=0
+Apr 18 00:15:54 ubuntu kernel: [18212.935934] CPU: 0 PID: 19109 Comm: CMS Main Thread Not tainted 5.4.0-70-generic #78~18.04.1-Ubuntu
+Apr 18 00:15:54 ubuntu kernel: [18212.935937] Hardware name: VMware, Inc. VMware Virtual Platform/440BX Desktop Reference Platform, BIOS 6.00 04/13/2018
+Apr 18 00:15:54 ubuntu kernel: [18212.935939] Call Trace:
+Apr 18 00:15:54 ubuntu kernel: [18212.937636]  dump_stack+0x6d/0x8b
+Apr 18 00:15:54 ubuntu kernel: [18212.937644]  dump_header+0x4f/0x200
+Apr 18 00:15:54 ubuntu kernel: [18212.937648]  oom_kill_process+0xe6/0x120
+Apr 18 00:15:54 ubuntu kernel: [18212.937652]  out_of_memory+0x109/0x510
+Apr 18 00:15:54 ubuntu kernel: [18212.937656]  __alloc_pages_slowpath+0xa9b/0xe50
+Apr 18 00:15:54 ubuntu kernel: [18212.937661]  __alloc_pages_nodemask+0x2cd/0x320
+Apr 18 00:15:54 ubuntu kernel: [18212.937666]  alloc_pages_current+0x6a/0xe0
+Apr 18 00:15:54 ubuntu kernel: [18212.937670]  __page_cache_alloc+0x6a/0xa0
+Apr 18 00:15:54 ubuntu kernel: [18212.937673]  pagecache_get_page+0xab/0x2c0
+Apr 18 00:15:54 ubuntu kernel: [18212.937676]  filemap_fault+0x685/0xb80
+Apr 18 00:15:54 ubuntu kernel: [18212.939192]  ? hrtimer_try_to_cancel+0x2a/0x110
+Apr 18 00:15:54 ubuntu kernel: [18212.939209]  ? futex_wait_queue_me+0xcb/0x120
+Apr 18 00:15:54 ubuntu kernel: [18212.939215]  ? filemap_map_pages+0x181/0x3b0
+Apr 18 00:15:54 ubuntu kernel: [18212.939221]  ext4_filemap_fault+0x31/0x50
+Apr 18 00:15:54 ubuntu kernel: [18212.939227]  __do_fault+0x57/0x110
+Apr 18 00:15:54 ubuntu kernel: [18212.939230]  __handle_mm_fault+0xdde/0x1270
+Apr 18 00:15:54 ubuntu kernel: [18212.939234]  handle_mm_fault+0xcb/0x210
+Apr 18 00:15:54 ubuntu kernel: [18212.939238]  __do_page_fault+0x2a1/0x4d0
+Apr 18 00:15:54 ubuntu kernel: [18212.939242]  do_page_fault+0x2c/0xe0
+Apr 18 00:15:54 ubuntu kernel: [18212.939246]  page_fault+0x34/0x40
+Apr 18 00:15:54 ubuntu kernel: [18212.939250] RIP: 0033:0x7ff71cbf0fb9
+Apr 18 00:15:54 ubuntu kernel: [18212.939262] Code: Bad RIP value.
+Apr 18 00:15:54 ubuntu kernel: [18212.939264] RSP: 002b:00007ff71886dbb0 EFLAGS: 00010246
+Apr 18 00:15:54 ubuntu kernel: [18212.939267] RAX: ffffffffffffff92 RBX: 00007ff71406b850 RCX: 00007ff71cbf0fb9
+Apr 18 00:15:54 ubuntu kernel: [18212.939268] RDX: 0000000000000000 RSI: 0000000000000080 RDI: 00007ff71406b878
+Apr 18 00:15:54 ubuntu kernel: [18212.939269] RBP: 0000000000000000 R08: 0000000000000000 R09: 00007ff71886dc10
+Apr 18 00:15:54 ubuntu kernel: [18212.939270] R10: 00007ff71886dc10 R11: 0000000000000246 R12: 00007ff71406b828
+Apr 18 00:15:54 ubuntu kernel: [18212.940041] R13: 00007ff71406b878 R14: 00007ff71886dcb0 R15: 00007ff71406b874
+Apr 18 00:15:54 ubuntu kernel: [18212.940154] Mem-Info:
+Apr 18 00:15:54 ubuntu kernel: [18212.940164] active_anon:226728 inactive_anon:75600 isolated_anon:0
+Apr 18 00:15:54 ubuntu kernel: [18212.940164]  active_file:84 inactive_file:86 isolated_file:0
+Apr 18 00:15:54 ubuntu kernel: [18212.940164]  unevictable:4 dirty:0 writeback:0 unstable:0
+Apr 18 00:15:54 ubuntu kernel: [18212.940164]  slab_reclaimable:10720 slab_unreclaimable:18436
+Apr 18 00:15:54 ubuntu kernel: [18212.940164]  mapped:1079 shmem:1047 pagetables:11515 bounce:0
+Apr 18 00:15:54 ubuntu kernel: [18212.940164]  free:13053 free_pcp:147 free_cma:0
+Apr 18 00:15:54 ubuntu kernel: [18212.940169] Node 0 active_anon:906912kB inactive_anon:302400kB active_file:336kB inactive_file:344kB unevictable:16kB isolated(anon):0kB isolated(file):0kB mapped:4316kB dirty:0kB writeback:0kB shmem:4188kB shmem_thp: 0kB shmem_pmdmapped: 0kB anon_thp: 0kB writeback_tmp:0kB unstable:0kB all_unreclaimable? yes
+Apr 18 00:15:54 ubuntu kernel: [18212.940171] Node 0 DMA free:7900kB min:364kB low:452kB high:540kB active_anon:5256kB inactive_anon:1644kB active_file:0kB inactive_file:0kB unevictable:0kB writepending:0kB present:15988kB managed:15904kB mlocked:0kB kernel_stack:16kB pagetables:20kB bounce:0kB free_pcp:0kB local_pcp:0kB free_cma:0kB
+Apr 18 00:15:54 ubuntu kernel: [18212.940177] lowmem_reserve[]: 0 1895 1895 1895 1895
+Apr 18 00:15:54 ubuntu kernel: [18212.940180] Node 0 DMA32 free:44312kB min:44688kB low:55860kB high:67032kB active_anon:901656kB inactive_anon:300756kB active_file:336kB inactive_file:432kB unevictable:16kB writepending:0kB present:2080640kB managed:1990480kB mlocked:16kB kernel_stack:13744kB pagetables:46040kB bounce:0kB free_pcp:588kB local_pcp:428kB free_cma:0kB
+Apr 18 00:15:54 ubuntu kernel: [18212.940186] lowmem_reserve[]: 0 0 0 0 0
+Apr 18 00:15:54 ubuntu kernel: [18212.940189] Node 0 DMA: 7*4kB (UM) 4*8kB (UME) 4*16kB (UE) 5*32kB (UE) 3*64kB (UME) 4*128kB (UME) 3*256kB (UME) 4*512kB (UME) 2*1024kB (UE) 1*2048kB (U) 0*4096kB = 7900kB
+Apr 18 00:15:54 ubuntu kernel: [18212.940200] Node 0 DMA32: 1240*4kB (UME) 693*8kB (UE) 217*16kB (UE) 176*32kB (UE) 88*64kB (UME) 63*128kB (UE) 25*256kB (UE) 9*512kB (UME) 0*1024kB 0*2048kB 0*4096kB = 44312kB
+Apr 18 00:15:54 ubuntu kernel: [18212.940211] Node 0 hugepages_total=0 hugepages_free=0 hugepages_surp=0 hugepages_size=1048576kB
+Apr 18 00:15:54 ubuntu kernel: [18212.940213] Node 0 hugepages_total=0 hugepages_free=0 hugepages_surp=0 hugepages_size=2048kB
+Apr 18 00:15:54 ubuntu kernel: [18212.940214] 2747 total pagecache pages
+Apr 18 00:15:54 ubuntu kernel: [18212.940217] 1508 pages in swap cache
+Apr 18 00:15:54 ubuntu kernel: [18212.940219] Swap cache stats: add 1393026, delete 1391514, find 211507/444545
+Apr 18 00:15:54 ubuntu kernel: [18212.940220] Free swap  = 0kB
+Apr 18 00:15:54 ubuntu kernel: [18212.940220] Total swap = 969960kB
+Apr 18 00:15:54 ubuntu kernel: [18212.940221] 524157 pages RAM
+Apr 18 00:15:54 ubuntu kernel: [18212.940222] 0 pages HighMem/MovableOnly
+Apr 18 00:15:54 ubuntu kernel: [18212.940223] 22561 pages reserved
+Apr 18 00:15:54 ubuntu kernel: [18212.940224] 0 pages cma reserved
+Apr 18 00:15:54 ubuntu kernel: [18212.940225] 0 pages hwpoisoned
+Apr 18 00:15:54 ubuntu kernel: [18212.940226] Tasks state (memory values in pages):
+Apr 18 00:15:54 ubuntu kernel: [18212.940227] [  pid  ]   uid  tgid total_vm      rss pgtables_bytes swapents oom_score_adj name
+Apr 18 00:15:54 ubuntu kernel: [18212.940262] [    370]     0   370    27937      121   241664      193             0 systemd-journal
+Apr 18 00:15:54 ubuntu kernel: [18212.940266] [    382]     0   382    11622       12   118784      363         -1000 systemd-udevd
+Apr 18 00:15:54 ubuntu kernel: [18212.940273] [    506] 62583   506    36535       11   188416      152             0 systemd-timesyn
+Apr 18 00:15:54 ubuntu kernel: [18212.940275] [    507]   101   507    17694       54   176128      119             0 systemd-resolve
+Apr 18 00:15:54 ubuntu kernel: [18212.940278] [    586]     0   586    71910      147   200704      118             0 accounts-daemon
+Apr 18 00:15:54 ubuntu kernel: [18212.940280] [    587]     0   587    42632        1   229376     1974             0 networkd-dispat
+Apr 18 00:15:54 ubuntu kernel: [18212.940283] [    590]   116   590    11815       47   143360       64             0 avahi-daemon
+Apr 18 00:15:54 ubuntu kernel: [18212.940285] [    597]   102   597   107337       77   217088      392             0 rsyslogd
+Apr 18 00:15:54 ubuntu kernel: [18212.940288] [    599]   116   599    11770        0   135168       86             0 avahi-daemon
+Apr 18 00:15:54 ubuntu kernel: [18212.940290] [    605]     0   605    17669       66   172032      140             0 systemd-logind
+Apr 18 00:15:54 ubuntu kernel: [18212.940293] [    606]   103   606    12937      485   151552      102          -900 dbus-daemon
+Apr 18 00:15:54 ubuntu kernel: [18212.940296] [    622]     0   622    11309       16   131072      128             0 wpa_supplicant
+Apr 18 00:15:54 ubuntu kernel: [18212.940298] [    623]     0   623   139673      446   454656      324             0 NetworkManager
+Apr 18 00:15:54 ubuntu kernel: [18212.940300] [    624]     0   624     1139        7    53248       34             0 acpid
+Apr 18 00:15:54 ubuntu kernel: [18212.940303] [    627]     0   627   296102     1075   323584     2255          -900 snapd
+Apr 18 00:15:54 ubuntu kernel: [18212.940377] [    634]     0   634     7831       23   114688       49             0 cron
+Apr 18 00:15:54 ubuntu kernel: [18212.940382] [    635]     0   635   108583       66   356352      303             0 ModemManager
+Apr 18 00:15:54 ubuntu kernel: [18212.940385] [    637]     0   637   125770      183   344064      331             0 udisksd
+Apr 18 00:15:54 ubuntu kernel: [18212.940388] [    645]     0   645    27630       37   110592       60             0 irqbalance
+Apr 18 00:15:54 ubuntu kernel: [18212.940390] [    665]     0   665    74070      752   208896       90             0 polkitd
+Apr 18 00:15:54 ubuntu kernel: [18212.940393] [    683]     0   683    46809        0   258048     2002             0 unattended-upgr
+Apr 18 00:15:54 ubuntu kernel: [18212.940396] [    704]     0   704    75271      145   217088      159             0 gdm3
+Apr 18 00:15:54 ubuntu kernel: [18212.940399] [    966]     0   966    78807       85   233472      230             0 upowerd
+Apr 18 00:15:54 ubuntu kernel: [18212.940402] [    990]     0   990    63611        1   274432      296             0 gdm-session-wor
+Apr 18 00:15:54 ubuntu kernel: [18212.940405] [   1015]   121  1015    19231        0   192512      367             0 systemd
+Apr 18 00:15:54 ubuntu kernel: [18212.940408] [   1016]   121  1016    28500        0   249856      610             0 (sd-pam)
+Apr 18 00:15:54 ubuntu kernel: [18212.940410] [   1038]   121  1038    51257        1   167936      165             0 gdm-x-session
+Apr 18 00:15:54 ubuntu kernel: [18212.940413] [   1040]   121  1040    88831       60   507904     3721             0 Xorg
+Apr 18 00:15:54 ubuntu kernel: [18212.940417] [   1105]     0  1105    48282        0   139264      176             0 vmware-vmblock-
+Apr 18 00:15:54 ubuntu kernel: [18212.940419] [   1130]     0  1130    46834      213   245760      430             0 vmtoolsd
+Apr 18 00:15:54 ubuntu kernel: [18212.940421] [   1182]     0  1182    16845        0   180224      399             0 VGAuthService
+Apr 18 00:15:54 ubuntu kernel: [18212.940424] [   1191]   112  1191   116081       60   401408      387             0 whoopsie
+Apr 18 00:15:54 ubuntu kernel: [18212.940427] [   1193]   113  1193    14236       26   147456       88             0 kerneloops
+Apr 18 00:15:54 ubuntu kernel: [18212.940429] [   1197]   113  1197    14236       26   147456       86             0 kerneloops
+Apr 18 00:15:54 ubuntu kernel: [18212.940432] [   1235]   121  1235    12566        1   143360      216             0 dbus-daemon
+Apr 18 00:15:54 ubuntu kernel: [18212.940434] [   1240]   121  1240   137972      107   405504      476             0 gnome-session-b
+Apr 18 00:15:54 ubuntu kernel: [18212.940436] [   1294]   121  1294    87322        1   184320      199             0 at-spi-bus-laun
+Apr 18 00:15:54 ubuntu kernel: [18212.940439] [   1299]   121  1299    12483        0   139264      122             0 dbus-daemon
+Apr 18 00:15:54 ubuntu kernel: [18212.940441] [   1301]   121  1301    55178        1   204800      209             0 at-spi2-registr
+Apr 18 00:15:54 ubuntu kernel: [18212.940444] [   1310]   121  1310   785893      230  1445888    15712             0 gnome-shell
+Apr 18 00:15:54 ubuntu kernel: [18212.940446] [   1317]   121  1317   329344       39   503808      885             0 pulseaudio
+Apr 18 00:15:54 ubuntu kernel: [18212.940449] [   1319]   109  1319    45878        0   126976       78             0 rtkit-daemon
+Apr 18 00:15:54 ubuntu kernel: [18212.940452] [   1332]   121  1332   107021        1   204800      362             0 ibus-daemon
+Apr 18 00:15:54 ubuntu kernel: [18212.940455] [   1335]   121  1335    68410        0   167936      182             0 ibus-dconf
+Apr 18 00:15:54 ubuntu kernel: [18212.940457] [   1339]   121  1339    84247        1   425984     1185             0 ibus-x11
+Apr 18 00:15:54 ubuntu kernel: [18212.940459] [   1342]   121  1342    67863        0   163840      173             0 ibus-portal
+Apr 18 00:15:54 ubuntu kernel: [18212.940462] [   1351]   121  1351    66114        0   151552      149             0 xdg-permission-
+Apr 18 00:15:54 ubuntu kernel: [18212.940465] [   1361]     0  1361    72442       80   200704      137             0 boltd
+Apr 18 00:15:54 ubuntu kernel: [18212.940467] [   1365]     0  1365   128821      129   409600     7030             0 packagekitd
+Apr 18 00:15:54 ubuntu kernel: [18212.940470] [   1366]   121  1366   121879        0   458752     1356             0 gsd-xsettings
+Apr 18 00:15:54 ubuntu kernel: [18212.940472] [   1370]   121  1370    67763        0   163840      178             0 gsd-a11y-settin
+Apr 18 00:15:54 ubuntu kernel: [18212.940475] [   1372]   121  1372    84150        1   425984     1187             0 gsd-clipboard
+Apr 18 00:15:54 ubuntu kernel: [18212.940477] [   1375]   121  1375   162948      226   479232     1037             0 gsd-color
+Apr 18 00:15:54 ubuntu kernel: [18212.940480] [   1376]   121  1376    96653        1   442368      488             0 gsd-datetime
+Apr 18 00:15:54 ubuntu kernel: [18212.940482] [   1379]   121  1379    69159        0   167936      162             0 gsd-housekeepin
+Apr 18 00:15:54 ubuntu kernel: [18212.940484] [   1383]   121  1383   124873        1   471040     1256             0 gsd-keyboard
+Apr 18 00:15:54 ubuntu kernel: [18212.940544] [   1387]   121  1387   285084      151   561152     1219             0 gsd-media-keys
+Apr 18 00:15:54 ubuntu kernel: [18212.940573] [   1388]   121  1388    48723        0   155648      151             0 gsd-mouse
+Apr 18 00:15:54 ubuntu kernel: [18212.940575] [   1394]   121  1394   127593      161   495616     1167             0 gsd-power
+Apr 18 00:15:54 ubuntu kernel: [18212.940578] [   1397]   121  1397    64977        0   274432      306             0 gsd-print-notif
+Apr 18 00:15:54 ubuntu kernel: [18212.940580] [   1398]   121  1398    48728        0   147456      146             0 gsd-rfkill
+Apr 18 00:15:54 ubuntu kernel: [18212.940583] [   1399]   121  1399    67157        0   163840      160             0 gsd-screensaver
+Apr 18 00:15:54 ubuntu kernel: [18212.940585] [   1404]   121  1404    74502        0   208896      278             0 gsd-sharing
+Apr 18 00:15:54 ubuntu kernel: [18212.940587] [   1411]   121  1411   111175        1   225280      264             0 gsd-smartcard
+Apr 18 00:15:54 ubuntu kernel: [18212.940590] [   1412]   121  1412    81970        0   262144      283             0 gsd-sound
+Apr 18 00:15:54 ubuntu kernel: [18212.940592] [   1415]   121  1415   105373        1   458752     1275             0 gsd-wacom
+Apr 18 00:15:54 ubuntu kernel: [18212.940595] [   1432]   117  1432    79471        0   270336     1276             0 colord
+Apr 18 00:15:54 ubuntu kernel: [18212.940598] [   1460]   121  1460    49446        0   151552      178             0 ibus-engine-sim
+Apr 18 00:15:54 ubuntu kernel: [18212.940601] [   1476]     0  1476   102059      242   303104      153             0 gdm-session-wor
+Apr 18 00:15:54 ubuntu kernel: [18212.940603] [   1480]  1000  1480    19441      366   200704      191             0 systemd
+Apr 18 00:15:54 ubuntu kernel: [18212.940606] [   1481]  1000  1481    48982        0   262144      619             0 (sd-pam)
+Apr 18 00:15:54 ubuntu kernel: [18212.940608] [   1494]  1000  1494    70318      160   176128      121             0 gnome-keyring-d
+Apr 18 00:15:54 ubuntu kernel: [18212.940611] [   1498]  1000  1498    51257       48   167936      118             0 gdm-x-session
+Apr 18 00:15:54 ubuntu kernel: [18212.940613] [   1500]  1000  1500   136178    14136   778240     5907             0 Xorg
+Apr 18 00:15:54 ubuntu kernel: [18212.940616] [   1506]  1000  1506    13334      915   155648       75             0 dbus-daemon
+Apr 18 00:15:54 ubuntu kernel: [18212.940618] [   1509]  1000  1509   193402      329   462848      357             0 gnome-session-b
+Apr 18 00:15:54 ubuntu kernel: [18212.940621] [   1604]  1000  1604     2828        9    61440       70             0 ssh-agent
+Apr 18 00:15:54 ubuntu kernel: [18212.940624] [   1606]  1000  1606    87323       29   180224      148             0 at-spi-bus-laun
+Apr 18 00:15:54 ubuntu kernel: [18212.940627] [   1611]  1000  1611    12482       53   143360       93             0 dbus-daemon
+Apr 18 00:15:54 ubuntu kernel: [18212.940629] [   1613]  1000  1613    55178       77   200704      131             0 at-spi2-registr
+Apr 18 00:15:54 ubuntu kernel: [18212.940632] [   1630]  1000  1630   841118    21163  1581056     7186             0 gnome-shell
+Apr 18 00:15:54 ubuntu kernel: [18212.940634] [   1636]  1000  1636    71217      170   192512       91             0 gvfsd
+Apr 18 00:15:54 ubuntu kernel: [18212.940636] [   1641]  1000  1641   104029       22   188416      144             0 gvfsd-fuse
+Apr 18 00:15:54 ubuntu kernel: [18212.940639] [   1652]  1000  1652   333515      430   573440      545             0 pulseaudio
+Apr 18 00:15:54 ubuntu kernel: [18212.940642] [   1663]  1000  1663   107200      538   196608      134             0 ibus-daemon
+Apr 18 00:15:54 ubuntu kernel: [18212.940645] [   1667]  1000  1667    68409       33   172032      145             0 ibus-dconf
+Apr 18 00:15:54 ubuntu kernel: [18212.940647] [   1668]  1000  1668    66114       29   139264       96             0 xdg-permission-
+Apr 18 00:15:54 ubuntu kernel: [18212.940649] [   1673]  1000  1673    84221      352   421888      839             0 ibus-x11
+Apr 18 00:15:54 ubuntu kernel: [18212.940652] [   1677]  1000  1677    67863       82   163840      102             0 ibus-portal
+Apr 18 00:15:54 ubuntu kernel: [18212.940655] [   1687]  1000  1687   172478      223   520192      657             0 gnome-shell-cal
+Apr 18 00:15:54 ubuntu kernel: [18212.940657] [   1691]  1000  1691   341264       79   806912     1033             0 evolution-sourc
+Apr 18 00:15:54 ubuntu kernel: [18212.940660] [   1700]  1000  1700   195152       96   684032     1429             0 goa-daemon
+Apr 18 00:15:54 ubuntu kernel: [18212.940662] [   1708]  1000  1708    47002      111   139264       79             0 dconf-service
+Apr 18 00:15:54 ubuntu kernel: [18212.940665] [   1711]  1000  1711    74836      123   221184      260             0 gvfs-udisks2-vo
+Apr 18 00:15:54 ubuntu kernel: [18212.940667] [   1715]  1000  1715    92929       80   217088      202             0 gvfs-afc-volume
+Apr 18 00:15:54 ubuntu kernel: [18212.940669] [   1720]  1000  1720    66735       59   159744      135             0 gvfs-goa-volume
+Apr 18 00:15:54 ubuntu kernel: [18212.940725] [   1729]  1000  1729    74064       30   225280      201             0 goa-identity-se
+Apr 18 00:15:54 ubuntu kernel: [18212.940730] [   1731]  1000  1731    67191       74   155648      114             0 gvfs-mtp-volume
+Apr 18 00:15:54 ubuntu kernel: [18212.940732] [   1738]  1000  1738    70423       68   184320      156             0 gvfs-gphoto2-vo
+Apr 18 00:15:54 ubuntu kernel: [18212.940734] [   1744]  1000  1744   127539      333   471040      968             0 gsd-power
+Apr 18 00:15:54 ubuntu kernel: [18212.940737] [   1746]  1000  1746    85557      100   290816      259             0 gsd-print-notif
+Apr 18 00:15:54 ubuntu kernel: [18212.940739] [   1749]  1000  1749   104060      121   176128       75             0 gsd-rfkill
+Apr 18 00:15:54 ubuntu kernel: [18212.940741] [   1750]  1000  1750    67157       64   159744      100             0 gsd-screensaver
+Apr 18 00:15:54 ubuntu kernel: [18212.940744] [   1754]  1000  1754   111433      222   225280      188             0 gsd-sharing
+Apr 18 00:15:54 ubuntu kernel: [18212.940746] [   1759]  1000  1759   121856      264   438272     1078             0 gsd-xsettings
+Apr 18 00:15:54 ubuntu kernel: [18212.940749] [   1767]  1000  1767   105372      196   438272     1071             0 gsd-wacom
+Apr 18 00:15:54 ubuntu kernel: [18212.940752] [   1769]  1000  1769    92740       65   229376      187             0 gsd-smartcard
+Apr 18 00:15:54 ubuntu kernel: [18212.940754] [   1771]  1000  1771    81969       58   266240      227             0 gsd-sound
+Apr 18 00:15:54 ubuntu kernel: [18212.940757] [   1773]  1000  1773    84125      157   417792     1022             0 gsd-clipboard
+Apr 18 00:15:54 ubuntu kernel: [18212.940759] [   1779]  1000  1779    67761       52   172032      116             0 gsd-a11y-settin
+Apr 18 00:15:54 ubuntu kernel: [18212.940762] [   1781]  1000  1781   115659       40   446464      468             0 gsd-datetime
+Apr 18 00:15:54 ubuntu kernel: [18212.940764] [   1784]  1000  1784   162926      489   491520      812             0 gsd-color
+Apr 18 00:15:54 ubuntu kernel: [18212.940767] [   1787]  1000  1787   124890      192   466944     1052             0 gsd-keyboard
+Apr 18 00:15:54 ubuntu kernel: [18212.940769] [   1788]  1000  1788    89337       78   204800      132             0 gsd-housekeepin
+Apr 18 00:15:54 ubuntu kernel: [18212.940772] [   1789]  1000  1789    67763       65   155648      103             0 gsd-mouse
+Apr 18 00:15:54 ubuntu kernel: [18212.940774] [   1792]  1000  1792   268648      381   569344      945             0 gsd-media-keys
+Apr 18 00:15:54 ubuntu kernel: [18212.940777] [   1826]  1000  1826   125416       86   438272      395             0 gsd-printer
+Apr 18 00:15:54 ubuntu kernel: [18212.940780] [   1845]  1000  1845   223209      960   811008     2447             0 nautilus-deskto
+Apr 18 00:15:54 ubuntu kernel: [18212.940782] [   1847]  1000  1847    67984       66   163840      210             0 gsd-disk-utilit
+Apr 18 00:15:54 ubuntu kernel: [18212.940785] [   1848]  1000  1848    67447      480   409600      803             0 vmtoolsd
+Apr 18 00:15:54 ubuntu kernel: [18212.940788] [   1861]  1000  1861    90253      120   208896      223             0 gvfsd-trash
+Apr 18 00:15:54 ubuntu kernel: [18212.940790] [   1896]  1000  1896   221376       53   913408    10063             0 evolution-calen
+Apr 18 00:15:54 ubuntu kernel: [18212.940793] [   1904]  1000  1904   282316      261   708608     9732             0 evolution-calen
+Apr 18 00:15:54 ubuntu kernel: [18212.940796] [   1910]  1000  1910    49446      141   155648       85             0 ibus-engine-sim
+Apr 18 00:15:54 ubuntu kernel: [18212.940798] [   1929]  1000  1929   181432       47   561152      809             0 evolution-addre
+Apr 18 00:15:54 ubuntu kernel: [18212.940801] [   1940]  1000  1940   252526       94   606208      858             0 evolution-addre
+Apr 18 00:15:54 ubuntu kernel: [18212.940804] [   1961]  1000  1961   367916    11840   966656     2989             0 nautilus
+Apr 18 00:15:54 ubuntu kernel: [18212.940806] [   1974]  1000  1974   109254      158   221184      148             0 gvfsd-network
+Apr 18 00:15:54 ubuntu kernel: [18212.940808] [   1985]  1000  1985    93547       88   221184      203             0 gvfsd-dnssd
+Apr 18 00:15:54 ubuntu kernel: [18212.940811] [   1991]  1000  1991    49357      120   159744       65             0 gvfsd-metadata
+Apr 18 00:15:54 ubuntu kernel: [18212.940814] [   2026]  1000  2026   199706     2088   606208      883             0 gnome-terminal-
+Apr 18 00:15:54 ubuntu kernel: [18212.940817] [   2034]  1000  2034     5611        0    86016      348             0 bash
+Apr 18 00:15:54 ubuntu kernel: [18212.940819] [   2042]     0  2042    16402        1   180224      127             0 sudo
+Apr 18 00:15:54 ubuntu kernel: [18212.940822] [   2045]     0  2045     5611       99    98304      250             0 bash
+Apr 18 00:15:54 ubuntu kernel: [18212.940824] [   2059]  1000  2059   165891      687   520192      684             0 update-notifier
+Apr 18 00:15:54 ubuntu kernel: [18212.940826] [   2061]  1000  2061   350194     1789  1175552    33302             0 gnome-software
+Apr 18 00:15:54 ubuntu kernel: [18212.940879] [   2224]  1000  2224   284508      137   745472     1464             0 deja-dup-monito
+Apr 18 00:15:54 ubuntu kernel: [18212.940884] [   9194]  1000  9194   106585      235   196608       94             0 zeitgeist-daemo
+Apr 18 00:15:54 ubuntu kernel: [18212.940922] [   9201]  1000  9201    81660      220   237568      444             0 zeitgeist-fts
+Apr 18 00:15:54 ubuntu kernel: [18212.940926] [   9311]     0  9311     6497       56   106496      261             0 dhclient
+Apr 18 00:15:54 ubuntu kernel: [18212.940929] [   9614]     0  9614   149098      163   602112     8611             0 fwupd
+Apr 18 00:15:54 ubuntu kernel: [18212.940935] [  18991]  1000 18991   171750     6333   659456     1678             0 gedit
+Apr 18 00:15:54 ubuntu kernel: [18212.940939] [  19062]  1000 19062     1158        1    53248       27             0 clion.sh
+Apr 18 00:15:54 ubuntu kernel: [18212.940941] [  19106]  1000 19106  1351742   175212  3031040    78164             0 java
+Apr 18 00:15:54 ubuntu kernel: [18212.940944] [  19158]  1000 19158     1175       26    53248       35             0 fsnotifier64
+Apr 18 00:15:54 ubuntu kernel: [18212.940947] [  19354]  1000 19354    59712     3111   245760      207             0 ion.clangd.main
+Apr 18 00:15:54 ubuntu kernel: [18212.940949] [  19819]  1000 19819     1158       17    61440        0             0 sh
+Apr 18 00:15:54 ubuntu kernel: [18212.940953] [  19820]     0 19820   112586     3382   266240        0             0 gvfsd-admin
+Apr 18 00:15:54 ubuntu kernel: [18212.940956] [  20485]   122 20485   356180    40897   692224        0             0 mysqld
+Apr 18 00:15:54 ubuntu kernel: [18212.940960] [  20696]     0 20696    25147      309   229376        0             0 cupsd
+Apr 18 00:15:54 ubuntu kernel: [18212.940962] [  20697]     0 20697    75883      358   344064        0             0 cups-browsed
+Apr 18 00:15:54 ubuntu kernel: [18212.940966] oom-kill:constraint=CONSTRAINT_NONE,nodemask=(null),cpuset=/,mems_allowed=0,global_oom,task_memcg=/,task=java,pid=19106,uid=1000
+Apr 18 00:15:54 ubuntu kernel: [18212.941203] Out of memory: Killed process 19106 (java) total-vm:5406968kB, anon-rss:700808kB, file-rss:0kB, shmem-rss:40kB, UID:1000 pgtables:2960kB oom_score_adj:0
+Apr 18 00:15:54 ubuntu kernel: [18212.994672] oom_reaper: reaped process 19106 (java), now anon-rss:0kB, file-rss:0kB, shmem-rss:40kB
+Apr 18 00:15:55 ubuntu jetbrains-clion.desktop[19062]: Killed
+Apr 18 00:17:01 ubuntu CRON[20786]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Apr 18 00:24:31 ubuntu gnome-software[2061]: no app for changed ubuntu-dock@ubuntu.com
+Apr 18 00:24:31 ubuntu gvfsd-metadata[1991]: g_udev_device_has_property: assertion 'G_UDEV_IS_DEVICE (device)' failed
+Apr 18 00:24:31 ubuntu gvfsd-metadata[1991]: g_udev_device_has_property: assertion 'G_UDEV_IS_DEVICE (device)' failed
+Apr 18 00:24:31 ubuntu gnome-software[2061]: no app for changed ubuntu-appindicators@ubuntu.com
+Apr 18 00:24:31 ubuntu gnome-shell[1630]: [AppIndicatorSupport-DEBUG] Registering StatusNotifierItem :1.67/org/ayatana/NotificationItem/software_update_available
+Apr 18 00:24:31 ubuntu gnome-shell[1630]: [AppIndicatorSupport-DEBUG] Registering StatusNotifierItem :1.67/org/ayatana/NotificationItem/livepatch
+Apr 18 00:25:06 ubuntu systemd[1]: Stopping MySQL Community Server...
+Apr 18 00:25:08 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 18 00:25:08 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 18 00:25:13 ubuntu systemd[1]: Started MySQL Community Server.
+Apr 18 00:25:28 ubuntu dhclient[9311]: DHCPREQUEST of 192.168.182.128 on ens33 to 192.168.182.254 port 67 (xid=0x596c124d)
+Apr 18 00:25:28 ubuntu dhclient[9311]: DHCPACK of 192.168.182.128 from 192.168.182.254
+Apr 18 00:25:28 ubuntu NetworkManager[623]: <info>  [1618730728.2073] dhcp4 (ens33):   address 192.168.182.128
+Apr 18 00:25:28 ubuntu NetworkManager[623]: <info>  [1618730728.2092] dhcp4 (ens33):   plen 24 (255.255.255.0)
+Apr 18 00:25:28 ubuntu NetworkManager[623]: <info>  [1618730728.2093] dhcp4 (ens33):   gateway 192.168.182.2
+Apr 18 00:25:28 ubuntu NetworkManager[623]: <info>  [1618730728.2093] dhcp4 (ens33):   lease time 1800
+Apr 18 00:25:28 ubuntu NetworkManager[623]: <info>  [1618730728.2114] dhcp4 (ens33):   nameserver '192.168.182.2'
+Apr 18 00:25:28 ubuntu NetworkManager[623]: <info>  [1618730728.2115] dhcp4 (ens33):   domain name 'localdomain'
+Apr 18 00:25:28 ubuntu NetworkManager[623]: <info>  [1618730728.2115] dhcp4 (ens33):   wins '192.168.182.2'
+Apr 18 00:25:28 ubuntu NetworkManager[623]: <info>  [1618730728.2115] dhcp4 (ens33): state changed bound -> bound
+Apr 18 00:25:28 ubuntu dbus-daemon[606]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.11' (uid=0 pid=623 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Apr 18 00:25:28 ubuntu systemd[1]: Starting Network Manager Script Dispatcher Service...
+Apr 18 00:25:28 ubuntu dhclient[9311]: bound to 192.168.182.128 -- renewal in 856 seconds.
+Apr 18 00:25:28 ubuntu dbus-daemon[606]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Apr 18 00:25:28 ubuntu systemd[1]: Started Network Manager Script Dispatcher Service.
+Apr 18 00:25:28 ubuntu nm-dispatcher: req:1 'dhcp4-change' [ens33]: new request (1 scripts)
+Apr 18 00:25:28 ubuntu nm-dispatcher: req:1 'dhcp4-change' [ens33]: start running ordered scripts...
+Apr 18 00:26:46 ubuntu systemd[1]: Stopping MySQL Community Server...
+Apr 18 00:26:48 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 18 00:26:48 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 18 00:26:48 ubuntu mysqld[20893]: 2021-04-18T07:26:48.595440Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+Apr 18 00:26:48 ubuntu mysqld[20893]: 2021-04-18T07:26:48.597115Z 0 [Note] /usr/sbin/mysqld (mysqld 5.7.33-0ubuntu0.18.04.1) starting as process 20895 ...
+Apr 18 00:26:48 ubuntu mysqld[20893]: 2021-04-18T07:26:48.601032Z 0 [ERROR] Could not open file '/var/mysql/error.log' for error logging: No such file or directory
+Apr 18 00:26:48 ubuntu mysqld[20893]: 2021-04-18T07:26:48.601134Z 0 [ERROR] Aborting
+Apr 18 00:26:48 ubuntu mysqld[20893]: 2021-04-18T07:26:48.601188Z 0 [Note] Binlog end
+Apr 18 00:26:48 ubuntu mysqld[20893]: 2021-04-18T07:26:48.601332Z 0 [Note] /usr/sbin/mysqld: Shutdown complete
+Apr 18 00:26:48 ubuntu mysqld[20893]: Initialization of mysqld failed: 0
+Apr 18 00:26:48 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 18 00:26:48 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 18 00:26:48 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 18 00:26:48 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 18 00:26:48 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 1.
+Apr 18 00:26:48 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 18 00:26:48 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 18 00:26:49 ubuntu mysqld[20906]: 2021-04-18T07:26:49.048690Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+Apr 18 00:26:49 ubuntu mysqld[20906]: 2021-04-18T07:26:49.050341Z 0 [Note] /usr/sbin/mysqld (mysqld 5.7.33-0ubuntu0.18.04.1) starting as process 20908 ...
+Apr 18 00:26:49 ubuntu mysqld[20906]: 2021-04-18T07:26:49.052234Z 0 [ERROR] Could not open file '/var/mysql/error.log' for error logging: No such file or directory
+Apr 18 00:26:49 ubuntu mysqld[20906]: 2021-04-18T07:26:49.052264Z 0 [ERROR] Aborting
+Apr 18 00:26:49 ubuntu mysqld[20906]: 2021-04-18T07:26:49.052294Z 0 [Note] Binlog end
+Apr 18 00:26:49 ubuntu mysqld[20906]: 2021-04-18T07:26:49.052361Z 0 [Note] /usr/sbin/mysqld: Shutdown complete
+Apr 18 00:26:49 ubuntu mysqld[20906]: Initialization of mysqld failed: 0
+Apr 18 00:26:49 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 18 00:26:49 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 18 00:26:49 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 18 00:26:49 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 18 00:26:49 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 2.
+Apr 18 00:26:49 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 18 00:26:49 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 18 00:26:49 ubuntu mysqld[20919]: 2021-04-18T07:26:49.556821Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+Apr 18 00:26:49 ubuntu mysqld[20919]: 2021-04-18T07:26:49.558578Z 0 [Note] /usr/sbin/mysqld (mysqld 5.7.33-0ubuntu0.18.04.1) starting as process 20921 ...
+Apr 18 00:26:49 ubuntu mysqld[20919]: 2021-04-18T07:26:49.560383Z 0 [ERROR] Could not open file '/var/mysql/error.log' for error logging: No such file or directory
+Apr 18 00:26:49 ubuntu mysqld[20919]: 2021-04-18T07:26:49.560412Z 0 [ERROR] Aborting
+Apr 18 00:26:49 ubuntu mysqld[20919]: 2021-04-18T07:26:49.560445Z 0 [Note] Binlog end
+Apr 18 00:26:49 ubuntu mysqld[20919]: 2021-04-18T07:26:49.560510Z 0 [Note] /usr/sbin/mysqld: Shutdown complete
+Apr 18 00:26:49 ubuntu mysqld[20919]: Initialization of mysqld failed: 0
+Apr 18 00:26:49 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 18 00:26:49 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 18 00:26:49 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 18 00:26:49 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 18 00:26:49 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 3.
+Apr 18 00:26:49 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 18 00:26:49 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 18 00:26:50 ubuntu mysqld[20932]: 2021-04-18T07:26:50.056086Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+Apr 18 00:26:50 ubuntu mysqld[20932]: 2021-04-18T07:26:50.057718Z 0 [Note] /usr/sbin/mysqld (mysqld 5.7.33-0ubuntu0.18.04.1) starting as process 20934 ...
+Apr 18 00:26:50 ubuntu mysqld[20932]: 2021-04-18T07:26:50.059792Z 0 [ERROR] Could not open file '/var/mysql/error.log' for error logging: No such file or directory
+Apr 18 00:26:50 ubuntu mysqld[20932]: 2021-04-18T07:26:50.059824Z 0 [ERROR] Aborting
+Apr 18 00:26:50 ubuntu mysqld[20932]: 2021-04-18T07:26:50.059855Z 0 [Note] Binlog end
+Apr 18 00:26:50 ubuntu mysqld[20932]: 2021-04-18T07:26:50.059952Z 0 [Note] /usr/sbin/mysqld: Shutdown complete
+Apr 18 00:26:50 ubuntu mysqld[20932]: Initialization of mysqld failed: 0
+Apr 18 00:26:50 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 18 00:26:50 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 18 00:26:50 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 18 00:26:50 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 18 00:26:50 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 4.
+Apr 18 00:26:50 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 18 00:26:50 ubuntu systemd[1]: Starting MySQL Community Server...
+Apr 18 00:26:50 ubuntu mysqld[20945]: 2021-04-18T07:26:50.557611Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+Apr 18 00:26:50 ubuntu mysqld[20945]: 2021-04-18T07:26:50.559279Z 0 [Note] /usr/sbin/mysqld (mysqld 5.7.33-0ubuntu0.18.04.1) starting as process 20947 ...
+Apr 18 00:26:50 ubuntu mysqld[20945]: 2021-04-18T07:26:50.561243Z 0 [ERROR] Could not open file '/var/mysql/error.log' for error logging: No such file or directory
+Apr 18 00:26:50 ubuntu mysqld[20945]: 2021-04-18T07:26:50.561272Z 0 [ERROR] Aborting
+Apr 18 00:26:50 ubuntu mysqld[20945]: 2021-04-18T07:26:50.561302Z 0 [Note] Binlog end
+Apr 18 00:26:50 ubuntu mysqld[20945]: 2021-04-18T07:26:50.561367Z 0 [Note] /usr/sbin/mysqld: Shutdown complete
+Apr 18 00:26:50 ubuntu mysqld[20945]: Initialization of mysqld failed: 0
+Apr 18 00:26:50 ubuntu systemd[1]: mysql.service: Control process exited, code=exited status=1
+Apr 18 00:26:50 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 18 00:26:50 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 18 00:26:50 ubuntu systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Apr 18 00:26:50 ubuntu systemd[1]: mysql.service: Scheduled restart job, restart counter is at 5.
+Apr 18 00:26:50 ubuntu systemd[1]: Stopped MySQL Community Server.
+Apr 18 00:26:50 ubuntu systemd[1]: mysql.service: Start request repeated too quickly.
+Apr 18 00:26:50 ubuntu systemd[1]: mysql.service: Failed with result 'exit-code'.
+Apr 18 00:26:50 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Apr 18 00:27:53 ubuntu jetbrains-clion.desktop[20951]: OpenJDK 64-Bit Server VM warning: Option UseConcMarkSweepGC was deprecated in version 9.0 and will likely be removed in a future release.
+Apr 18 00:28:00 ubuntu org.gnome.Shell.desktop[1630]: Window manager warning: Window 0x2a00007 (win0) sets an MWM hint indicating it isn't resizable, but sets min size 1 x 1 and max size 2147483647 x 2147483647; this doesn't make much sense.
+Apr 18 00:29:30 ubuntu NetworkManager[623]: <info>  [1618730970.0168] manager: disable requested (sleeping: no  enabled: yes)
+Apr 18 00:29:58 ubuntu whoopsie[1191]: [00:29:30] offline
+Apr 18 00:29:58 ubuntu dbus-daemon[606]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.11' (uid=0 pid=623 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Apr 18 00:29:58 ubuntu NetworkManager[623]: <info>  [1618730970.0175] manager: NetworkManager state is now ASLEEP
+Apr 18 00:29:58 ubuntu avahi-daemon[590]: Withdrawing address record for fe80::734d:d920:e31c:e18f on ens33.
+Apr 18 00:29:58 ubuntu NetworkManager[623]: <info>  [1618730970.0345] audit: op="networking-control" arg="off" pid=21305 uid=0 result="success"
+Apr 18 00:29:58 ubuntu avahi-daemon[590]: Leaving mDNS multicast group on interface ens33.IPv6 with address fe80::734d:d920:e31c:e18f.
+Apr 18 00:29:58 ubuntu NetworkManager[623]: <info>  [1618730970.0357] device (ens33): state change: activated -> deactivating (reason 'sleeping', sys-iface-state: 'managed')
+Apr 18 00:29:58 ubuntu avahi-daemon[590]: Interface ens33.IPv6 no longer relevant for mDNS.
+Apr 18 00:29:58 ubuntu NetworkManager[623]: <info>  [1618730970.0523] device (ens33): state change: deactivating -> disconnected (reason 'sleeping', sys-iface-state: 'managed')
+Apr 18 00:29:58 ubuntu avahi-daemon[590]: Withdrawing address record for 192.168.182.128 on ens33.
+Apr 18 00:29:58 ubuntu systemd[1]: Starting Network Manager Script Dispatcher Service...
+Apr 18 00:29:58 ubuntu avahi-daemon[590]: Leaving mDNS multicast group on interface ens33.IPv4 with address 192.168.182.128.
+Apr 18 00:29:58 ubuntu NetworkManager[623]: <info>  [1618730970.1758] dhcp4 (ens33): canceled DHCP transaction, DHCP client pid 9311
+Apr 18 00:29:58 ubuntu avahi-daemon[590]: Interface ens33.IPv4 no longer relevant for mDNS.
+Apr 18 00:29:58 ubuntu NetworkManager[623]: <info>  [1618730970.1769] dhcp4 (ens33): state changed bound -> done
+Apr 18 00:29:58 ubuntu NetworkManager[623]: <info>  [1618730998.1048] device (ens33): state change: disconnected -> unmanaged (reason 'sleeping', sys-iface-state: 'managed')
+Apr 18 00:29:58 ubuntu deja-dup-monito[2224]: Source ID 120 was not found when attempting to remove it
+Apr 18 00:29:58 ubuntu systemd[1]: Started Network Manager Script Dispatcher Service.
+Apr 18 00:29:58 ubuntu whoopsie[1191]: [00:29:58] Cannot reach: https://daisy.ubuntu.com
+Apr 18 00:29:58 ubuntu dbus-daemon[606]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Apr 18 00:29:58 ubuntu nm-dispatcher: req:1 'connectivity-change': new request (1 scripts)
+Apr 18 00:29:58 ubuntu nm-dispatcher: req:1 'connectivity-change': start running ordered scripts...
+Apr 18 00:29:58 ubuntu nm-dispatcher: req:2 'down' [ens33]: new request (1 scripts)
+Apr 18 00:29:58 ubuntu nm-dispatcher: req:2 'down' [ens33]: start running ordered scripts...
+Apr 18 00:29:58 ubuntu gsd-sharing[1754]: Failed to StopUnit service: GDBus.Error:org.freedesktop.systemd1.NoSuchUnit: Unit gnome-user-share-webdav.service not loaded.
+Apr 18 00:29:58 ubuntu gsd-sharing[1754]: Failed to StopUnit service: GDBus.Error:org.freedesktop.systemd1.NoSuchUnit: Unit rygel.service not loaded.
+Apr 18 00:29:58 ubuntu gsd-sharing[1754]: Failed to StopUnit service: GDBus.Error:org.freedesktop.systemd1.NoSuchUnit: Unit gnome-remote-desktop.service not loaded.
+Apr 18 00:29:58 ubuntu NetworkManager[623]: <info>  [1618730998.5079] manager: enable requested (sleeping: no  enabled: no)
+Apr 18 00:29:58 ubuntu NetworkManager[623]: <info>  [1618730998.5080] device (ens33): state change: unmanaged -> unavailable (reason 'managed', sys-iface-state: 'managed')
+Apr 18 00:29:58 ubuntu NetworkManager[623]: <info>  [1618730998.5233] manager: NetworkManager state is now DISCONNECTED
+Apr 18 00:29:58 ubuntu NetworkManager[623]: <info>  [1618730998.5240] audit: op="networking-control" arg="on" pid=21358 uid=0 result="success"
+Apr 18 00:30:00 ubuntu kernel: [19030.851720] e1000: ens33 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: None
+Apr 18 00:30:00 ubuntu kernel: [19030.852666] IPv6: ADDRCONF(NETDEV_CHANGE): ens33: link becomes ready
+Apr 18 00:30:00 ubuntu NetworkManager[623]: <info>  [1618731000.5503] device (ens33): carrier: link connected
+Apr 18 00:30:00 ubuntu NetworkManager[623]: <info>  [1618731000.5507] device (ens33): state change: unavailable -> disconnected (reason 'carrier-changed', sys-iface-state: 'managed')
+Apr 18 00:30:00 ubuntu NetworkManager[623]: <info>  [1618731000.5557] policy: auto-activating connection 'Wired connection 1'
+Apr 18 00:30:00 ubuntu NetworkManager[623]: <info>  [1618731000.5619] device (ens33): Activation: starting connection 'Wired connection 1' (222ed2f9-b7e4-3ead-a7f8-897420b385ad)
+Apr 18 00:30:00 ubuntu NetworkManager[623]: <info>  [1618731000.5653] device (ens33): state change: disconnected -> prepare (reason 'none', sys-iface-state: 'managed')
+Apr 18 00:30:00 ubuntu NetworkManager[623]: <info>  [1618731000.5655] manager: NetworkManager state is now CONNECTING
+Apr 18 00:30:00 ubuntu NetworkManager[623]: <info>  [1618731000.5663] device (ens33): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+Apr 18 00:30:00 ubuntu NetworkManager[623]: <info>  [1618731000.5757] device (ens33): state change: config -> ip-config (reason 'none', sys-iface-state: 'managed')
+Apr 18 00:30:00 ubuntu NetworkManager[623]: <info>  [1618731000.5792] dhcp4 (ens33): activation: beginning transaction (timeout in 45 seconds)
+Apr 18 00:30:00 ubuntu NetworkManager[623]: <info>  [1618731000.5887] dhcp4 (ens33): dhclient started with pid 21363
+Apr 18 00:30:00 ubuntu avahi-daemon[590]: Joining mDNS multicast group on interface ens33.IPv6 with address fe80::734d:d920:e31c:e18f.
+Apr 18 00:30:00 ubuntu avahi-daemon[590]: New relevant interface ens33.IPv6 for mDNS.
+Apr 18 00:30:00 ubuntu avahi-daemon[590]: Registering new address record for fe80::734d:d920:e31c:e18f on ens33.*.
+Apr 18 00:30:00 ubuntu dhclient[21363]: DHCPREQUEST of 192.168.182.128 on ens33 to 255.255.255.255 port 67 (xid=0x2fd9099e)
+Apr 18 00:30:00 ubuntu dhclient[21363]: DHCPACK of 192.168.182.128 from 192.168.182.254
+Apr 18 00:30:00 ubuntu NetworkManager[623]: <info>  [1618731000.6784] dhcp4 (ens33):   address 192.168.182.128
+Apr 18 00:30:00 ubuntu NetworkManager[623]: <info>  [1618731000.6787] dhcp4 (ens33):   plen 24 (255.255.255.0)
+Apr 18 00:30:00 ubuntu NetworkManager[623]: <info>  [1618731000.6790] dhcp4 (ens33):   gateway 192.168.182.2
+Apr 18 00:30:00 ubuntu NetworkManager[623]: <info>  [1618731000.6793] dhcp4 (ens33):   lease time 1800
+Apr 18 00:30:00 ubuntu NetworkManager[623]: <info>  [1618731000.6794] dhcp4 (ens33):   nameserver '192.168.182.2'
+Apr 18 00:30:00 ubuntu NetworkManager[623]: <info>  [1618731000.6794] dhcp4 (ens33):   domain name 'localdomain'
+Apr 18 00:30:00 ubuntu NetworkManager[623]: <info>  [1618731000.6794] dhcp4 (ens33):   wins '192.168.182.2'
+Apr 18 00:30:00 ubuntu NetworkManager[623]: <info>  [1618731000.6794] dhcp4 (ens33): state changed unknown -> bound
+Apr 18 00:30:00 ubuntu avahi-daemon[590]: Joining mDNS multicast group on interface ens33.IPv4 with address 192.168.182.128.
+Apr 18 00:30:00 ubuntu avahi-daemon[590]: New relevant interface ens33.IPv4 for mDNS.
+Apr 18 00:30:00 ubuntu avahi-daemon[590]: Registering new address record for 192.168.182.128 on ens33.IPv4.
+Apr 18 00:30:00 ubuntu NetworkManager[623]: <info>  [1618731000.6879] device (ens33): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'managed')
+Apr 18 00:30:00 ubuntu whoopsie[1191]: [00:30:00] Cannot reach: https://daisy.ubuntu.com
+Apr 18 00:30:00 ubuntu NetworkManager[623]: <info>  [1618731000.6900] device (ens33): state change: ip-check -> secondaries (reason 'none', sys-iface-state: 'managed')
+Apr 18 00:30:00 ubuntu NetworkManager[623]: <info>  [1618731000.6938] device (ens33): state change: secondaries -> activated (reason 'none', sys-iface-state: 'managed')
+Apr 18 00:30:00 ubuntu NetworkManager[623]: <info>  [1618731000.6947] manager: NetworkManager state is now CONNECTED_LOCAL
+Apr 18 00:30:00 ubuntu NetworkManager[623]: <info>  [1618731000.7052] manager: NetworkManager state is now CONNECTED_SITE
+Apr 18 00:30:00 ubuntu NetworkManager[623]: <info>  [1618731000.7057] policy: set 'Wired connection 1' (ens33) as default for IPv4 routing and DNS
+Apr 18 00:30:00 ubuntu dhclient[21363]: bound to 192.168.182.128 -- renewal in 813 seconds.
+Apr 18 00:30:00 ubuntu NetworkManager[623]: <info>  [1618731000.7086] device (ens33): Activation: successful, device activated.
+Apr 18 00:30:00 ubuntu nm-dispatcher: req:3 'up' [ens33]: new request (1 scripts)
+Apr 18 00:30:00 ubuntu nm-dispatcher: req:3 'up' [ens33]: start running ordered scripts...
+Apr 18 00:30:00 ubuntu gsd-sharing[1754]: Failed to StopUnit service: GDBus.Error:org.freedesktop.systemd1.NoSuchUnit: Unit gnome-user-share-webdav.service not loaded.
+Apr 18 00:30:00 ubuntu gsd-sharing[1754]: Failed to StopUnit service: GDBus.Error:org.freedesktop.systemd1.NoSuchUnit: Unit rygel.service not loaded.
+Apr 18 00:30:00 ubuntu gsd-sharing[1754]: Failed to StopUnit service: GDBus.Error:org.freedesktop.systemd1.NoSuchUnit: Unit gnome-remote-desktop.service not loaded.
+Apr 18 00:30:04 ubuntu NetworkManager[623]: <info>  [1618731004.5801] manager: NetworkManager state is now CONNECTED_GLOBAL
+Apr 18 00:30:04 ubuntu nm-dispatcher: req:4 'connectivity-change': new request (1 scripts)
+Apr 18 00:30:04 ubuntu nm-dispatcher: req:4 'connectivity-change': start running ordered scripts...
+Apr 18 00:30:04 ubuntu whoopsie[1191]: [00:30:04] The default IPv4 route is: /org/freedesktop/NetworkManager/ActiveConnection/3
+Apr 18 00:30:04 ubuntu whoopsie[1191]: [00:30:04] Not a paid data plan: /org/freedesktop/NetworkManager/ActiveConnection/3
+Apr 18 00:30:04 ubuntu whoopsie[1191]: [00:30:04] Found usable connection: /org/freedesktop/NetworkManager/ActiveConnection/3
+Apr 18 00:30:05 ubuntu whoopsie[1191]: [00:30:05] online
+Apr 18 00:30:05 ubuntu NetworkManager[623]: <info>  [1618731005.9488] manager: disable requested (sleeping: no  enabled: yes)
+Apr 18 00:30:05 ubuntu NetworkManager[623]: <info>  [1618731005.9488] manager: NetworkManager state is now ASLEEP
+Apr 18 00:30:05 ubuntu NetworkManager[623]: <info>  [1618731005.9490] audit: op="networking-control" arg="off" pid=21462 uid=0 result="success"
+Apr 18 00:30:05 ubuntu NetworkManager[623]: <info>  [1618731005.9491] device (ens33): state change: activated -> deactivating (reason 'sleeping', sys-iface-state: 'managed')
+Apr 18 00:30:05 ubuntu NetworkManager[623]: <info>  [1618731005.9508] device (ens33): state change: deactivating -> disconnected (reason 'sleeping', sys-iface-state: 'managed')
+Apr 18 00:30:05 ubuntu whoopsie[1191]: [00:30:05] offline
+Apr 18 00:30:05 ubuntu avahi-daemon[590]: Withdrawing address record for fe80::734d:d920:e31c:e18f on ens33.
+Apr 18 00:30:05 ubuntu avahi-daemon[590]: Leaving mDNS multicast group on interface ens33.IPv6 with address fe80::734d:d920:e31c:e18f.
+Apr 18 00:30:05 ubuntu avahi-daemon[590]: Interface ens33.IPv6 no longer relevant for mDNS.
+Apr 18 00:30:05 ubuntu nm-dispatcher: req:5 'connectivity-change': new request (1 scripts)
+Apr 18 00:30:05 ubuntu nm-dispatcher: req:5 'connectivity-change': start running ordered scripts...
+Apr 18 00:30:06 ubuntu NetworkManager[623]: <info>  [1618731006.0141] dhcp4 (ens33): canceled DHCP transaction, DHCP client pid 21363
+Apr 18 00:30:06 ubuntu NetworkManager[623]: <info>  [1618731006.0142] dhcp4 (ens33): state changed bound -> done
+Apr 18 00:30:06 ubuntu avahi-daemon[590]: Withdrawing address record for 192.168.182.128 on ens33.
+Apr 18 00:30:06 ubuntu avahi-daemon[590]: Leaving mDNS multicast group on interface ens33.IPv4 with address 192.168.182.128.
+Apr 18 00:30:06 ubuntu avahi-daemon[590]: Interface ens33.IPv4 no longer relevant for mDNS.
+Apr 18 00:30:06 ubuntu nm-dispatcher: req:6 'down' [ens33]: new request (1 scripts)
+Apr 18 00:30:06 ubuntu nm-dispatcher: req:6 'down' [ens33]: start running ordered scripts...
+Apr 18 00:30:06 ubuntu NetworkManager[623]: <info>  [1618731006.0651] device (ens33): state change: disconnected -> unmanaged (reason 'sleeping', sys-iface-state: 'managed')
+Apr 18 00:30:40 ubuntu gsd-sharing[1754]: Failed to StopUnit service: GDBus.Error:org.freedesktop.systemd1.NoSuchUnit: Unit gnome-user-share-webdav.service not loaded.
+Apr 18 00:30:40 ubuntu gsd-sharing[1754]: Failed to StopUnit service: GDBus.Error:org.freedesktop.systemd1.NoSuchUnit: Unit rygel.service not loaded.
+Apr 18 00:30:40 ubuntu gsd-sharing[1754]: Failed to StopUnit service: GDBus.Error:org.freedesktop.systemd1.NoSuchUnit: Unit gnome-remote-desktop.service not loaded.
+Apr 18 00:30:40 ubuntu systemd[1]: Starting Message of the Day...
+Apr 18 00:30:40 ubuntu systemd[1]: Started Message of the Day.
+Apr 18 00:30:40 ubuntu NetworkManager[623]: <info>  [1618731040.8591] manager: enable requested (sleeping: no  enabled: no)
+Apr 18 00:30:40 ubuntu NetworkManager[623]: <info>  [1618731040.8595] device (ens33): state change: unmanaged -> unavailable (reason 'managed', sys-iface-state: 'managed')
+Apr 18 00:30:40 ubuntu kernel: [19036.658105] e1000: ens33 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: None
+Apr 18 00:30:40 ubuntu kernel: [19036.660221] IPv6: ADDRCONF(NETDEV_CHANGE): ens33: link becomes ready
+Apr 18 00:30:40 ubuntu NetworkManager[623]: <info>  [1618731040.8879] device (ens33): carrier: link connected
+Apr 18 00:30:40 ubuntu NetworkManager[623]: <info>  [1618731040.8887] manager: NetworkManager state is now DISCONNECTED
+Apr 18 00:30:40 ubuntu NetworkManager[623]: <info>  [1618731040.8888] audit: op="networking-control" arg="on" pid=21514 uid=0 result="success"
+Apr 18 00:30:40 ubuntu NetworkManager[623]: <info>  [1618731040.8896] device (ens33): state change: unavailable -> disconnected (reason 'none', sys-iface-state: 'managed')
+Apr 18 00:30:40 ubuntu NetworkManager[623]: <info>  [1618731040.8990] policy: auto-activating connection 'Wired connection 1'
+Apr 18 00:30:40 ubuntu NetworkManager[623]: <info>  [1618731040.9001] device (ens33): Activation: starting connection 'Wired connection 1' (222ed2f9-b7e4-3ead-a7f8-897420b385ad)
+Apr 18 00:30:40 ubuntu NetworkManager[623]: <info>  [1618731040.9004] device (ens33): state change: disconnected -> prepare (reason 'none', sys-iface-state: 'managed')
+Apr 18 00:30:40 ubuntu NetworkManager[623]: <info>  [1618731040.9006] manager: NetworkManager state is now CONNECTING
+Apr 18 00:30:40 ubuntu NetworkManager[623]: <info>  [1618731040.9010] device (ens33): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+Apr 18 00:30:40 ubuntu NetworkManager[623]: <info>  [1618731040.9056] device (ens33): state change: config -> ip-config (reason 'none', sys-iface-state: 'managed')
+Apr 18 00:30:40 ubuntu NetworkManager[623]: <info>  [1618731040.9065] dhcp4 (ens33): activation: beginning transaction (timeout in 45 seconds)
+Apr 18 00:30:40 ubuntu NetworkManager[623]: <info>  [1618731040.9118] dhcp4 (ens33): dhclient started with pid 21518
+Apr 18 00:30:40 ubuntu avahi-daemon[590]: Joining mDNS multicast group on interface ens33.IPv6 with address fe80::734d:d920:e31c:e18f.
+Apr 18 00:30:40 ubuntu avahi-daemon[590]: New relevant interface ens33.IPv6 for mDNS.
+Apr 18 00:30:40 ubuntu avahi-daemon[590]: Registering new address record for fe80::734d:d920:e31c:e18f on ens33.*.
+Apr 18 00:30:40 ubuntu dhclient[21518]: DHCPREQUEST of 192.168.182.128 on ens33 to 255.255.255.255 port 67 (xid=0x6115f326)
+Apr 18 00:30:40 ubuntu dhclient[21518]: DHCPACK of 192.168.182.128 from 192.168.182.254
+Apr 18 00:30:40 ubuntu NetworkManager[623]: <info>  [1618731040.9908] dhcp4 (ens33):   address 192.168.182.128
+Apr 18 00:30:40 ubuntu NetworkManager[623]: <info>  [1618731040.9915] dhcp4 (ens33):   plen 24 (255.255.255.0)
+Apr 18 00:30:40 ubuntu NetworkManager[623]: <info>  [1618731040.9916] dhcp4 (ens33):   gateway 192.168.182.2
+Apr 18 00:30:40 ubuntu NetworkManager[623]: <info>  [1618731040.9916] dhcp4 (ens33):   lease time 1800
+Apr 18 00:30:40 ubuntu NetworkManager[623]: <info>  [1618731040.9917] dhcp4 (ens33):   nameserver '192.168.182.2'
+Apr 18 00:30:40 ubuntu NetworkManager[623]: <info>  [1618731040.9917] dhcp4 (ens33):   domain name 'localdomain'
+Apr 18 00:30:40 ubuntu NetworkManager[623]: <info>  [1618731040.9917] dhcp4 (ens33):   wins '192.168.182.2'
+Apr 18 00:30:40 ubuntu NetworkManager[623]: <info>  [1618731040.9918] dhcp4 (ens33): state changed unknown -> bound
+Apr 18 00:30:40 ubuntu avahi-daemon[590]: Joining mDNS multicast group on interface ens33.IPv4 with address 192.168.182.128.
+Apr 18 00:30:41 ubuntu avahi-daemon[590]: New relevant interface ens33.IPv4 for mDNS.
+Apr 18 00:30:41 ubuntu avahi-daemon[590]: Registering new address record for 192.168.182.128 on ens33.IPv4.
+Apr 18 00:30:41 ubuntu NetworkManager[623]: <info>  [1618731041.0040] device (ens33): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'managed')
+Apr 18 00:30:41 ubuntu NetworkManager[623]: <info>  [1618731041.0052] device (ens33): state change: ip-check -> secondaries (reason 'none', sys-iface-state: 'managed')
+Apr 18 00:30:41 ubuntu whoopsie[1191]: [00:30:41] Cannot reach: https://daisy.ubuntu.com
+Apr 18 00:30:41 ubuntu NetworkManager[623]: <info>  [1618731041.0055] device (ens33): state change: secondaries -> activated (reason 'none', sys-iface-state: 'managed')
+Apr 18 00:30:41 ubuntu NetworkManager[623]: <info>  [1618731041.0056] manager: NetworkManager state is now CONNECTED_LOCAL
+Apr 18 00:30:41 ubuntu NetworkManager[623]: <info>  [1618731041.0156] manager: NetworkManager state is now CONNECTED_SITE
+Apr 18 00:30:41 ubuntu NetworkManager[623]: <info>  [1618731041.0161] policy: set 'Wired connection 1' (ens33) as default for IPv4 routing and DNS
+Apr 18 00:30:41 ubuntu NetworkManager[623]: <info>  [1618731041.0169] device (ens33): Activation: successful, device activated.
+Apr 18 00:30:41 ubuntu nm-dispatcher: req:7 'up' [ens33]: new request (1 scripts)
+Apr 18 00:30:41 ubuntu nm-dispatcher: req:7 'up' [ens33]: start running ordered scripts...
+Apr 18 00:30:41 ubuntu gsd-sharing[1754]: Failed to StopUnit service: GDBus.Error:org.freedesktop.systemd1.NoSuchUnit: Unit gnome-user-share-webdav.service not loaded.
+Apr 18 00:30:41 ubuntu dhclient[21518]: bound to 192.168.182.128 -- renewal in 748 seconds.
+Apr 18 00:30:41 ubuntu gsd-sharing[1754]: Failed to StopUnit service: GDBus.Error:org.freedesktop.systemd1.NoSuchUnit: Unit rygel.service not loaded.
+Apr 18 00:30:41 ubuntu gsd-sharing[1754]: Failed to StopUnit service: GDBus.Error:org.freedesktop.systemd1.NoSuchUnit: Unit gnome-remote-desktop.service not loaded.
+Apr 18 00:30:41 ubuntu NetworkManager[623]: <info>  [1618731041.4895] manager: NetworkManager state is now CONNECTED_GLOBAL
+Apr 18 00:30:41 ubuntu nm-dispatcher: req:8 'connectivity-change': new request (1 scripts)
+Apr 18 00:30:41 ubuntu nm-dispatcher: req:8 'connectivity-change': start running ordered scripts...
+Apr 18 00:30:41 ubuntu whoopsie[1191]: [00:30:41] The default IPv4 route is: /org/freedesktop/NetworkManager/ActiveConnection/4
+Apr 18 00:30:41 ubuntu whoopsie[1191]: [00:30:41] Not a paid data plan: /org/freedesktop/NetworkManager/ActiveConnection/4
+Apr 18 00:30:41 ubuntu whoopsie[1191]: [00:30:41] Found usable connection: /org/freedesktop/NetworkManager/ActiveConnection/4
+Apr 18 00:30:43 ubuntu whoopsie[1191]: [00:30:43] online
+Apr 18 00:31:44 ubuntu gedit[18991]: Permission denied
+Apr 18 00:31:57 ubuntu gnome-shell[1630]: pushModal: invocation of begin_modal failed
+Apr 18 00:31:57 ubuntu gnome-shell[1630]: polkitAuthenticationAgent: Failed to show modal dialog. Dismissing authentication request for action-id org.gtk.vfs.file-operations cookie 2-90eaad09318a779ab9072d1bcfdb28b4-11-13ffb392de62e005ba68fe557808b0aa
+Apr 18 00:31:57 ubuntu gedit[18991]: Permission denied
+Apr 18 00:31:59 ubuntu gnome-shell[1630]: clutter_input_focus_set_cursor_location: assertion 'clutter_input_focus_is_focused (focus)' failed
+Apr 18 00:34:41 ubuntu NetworkManager[623]: <info>  [1618731281.8857] manager: disable requested (sleeping: no  enabled: yes)
+Apr 18 00:34:41 ubuntu NetworkManager[623]: <info>  [1618731281.8857] manager: NetworkManager state is now ASLEEP
+Apr 18 00:34:41 ubuntu NetworkManager[623]: <info>  [1618731281.8859] audit: op="networking-control" arg="off" pid=21661 uid=0 result="success"
+Apr 18 00:34:41 ubuntu NetworkManager[623]: <info>  [1618731281.8860] device (ens33): state change: activated -> deactivating (reason 'sleeping', sys-iface-state: 'managed')
+Apr 18 00:34:41 ubuntu NetworkManager[623]: <info>  [1618731281.8873] device (ens33): state change: deactivating -> disconnected (reason 'sleeping', sys-iface-state: 'managed')
+Apr 18 00:34:41 ubuntu avahi-daemon[590]: Withdrawing address record for fe80::734d:d920:e31c:e18f on ens33.
+Apr 18 00:34:41 ubuntu avahi-daemon[590]: Leaving mDNS multicast group on interface ens33.IPv6 with address fe80::734d:d920:e31c:e18f.
+Apr 18 00:34:41 ubuntu avahi-daemon[590]: Interface ens33.IPv6 no longer relevant for mDNS.
+Apr 18 00:34:41 ubuntu dbus-daemon[606]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.11' (uid=0 pid=623 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Apr 18 00:34:41 ubuntu deja-dup-monito[2224]: Source ID 273 was not found when attempting to remove it
+Apr 18 00:34:41 ubuntu whoopsie[1191]: [00:34:41] offline
+Apr 18 00:34:41 ubuntu systemd[1]: Starting Network Manager Script Dispatcher Service...
+Apr 18 00:34:41 ubuntu NetworkManager[623]: <info>  [1618731281.9685] dhcp4 (ens33): canceled DHCP transaction, DHCP client pid 21518
+Apr 18 00:34:41 ubuntu NetworkManager[623]: <info>  [1618731281.9734] dhcp4 (ens33): state changed bound -> done
+Apr 18 00:34:41 ubuntu avahi-daemon[590]: Withdrawing address record for 192.168.182.128 on ens33.
+Apr 18 00:34:41 ubuntu avahi-daemon[590]: Leaving mDNS multicast group on interface ens33.IPv4 with address 192.168.182.128.
+Apr 18 00:34:41 ubuntu NetworkManager[623]: <info>  [1618731281.9884] device (ens33): state change: disconnected -> unmanaged (reason 'sleeping', sys-iface-state: 'managed')
+Apr 18 00:34:41 ubuntu avahi-daemon[590]: Interface ens33.IPv4 no longer relevant for mDNS.
+Apr 18 00:36:16 ubuntu gsd-sharing[1754]: Failed to StopUnit service: GDBus.Error:org.freedesktop.systemd1.NoSuchUnit: Unit gnome-user-share-webdav.service not loaded.
+Apr 18 00:36:16 ubuntu gsd-sharing[1754]: Failed to StopUnit service: GDBus.Error:org.freedesktop.systemd1.NoSuchUnit: Unit rygel.service not loaded.
+Apr 18 00:36:16 ubuntu gsd-sharing[1754]: Failed to StopUnit service: GDBus.Error:org.freedesktop.systemd1.NoSuchUnit: Unit gnome-remote-desktop.service not loaded.
+Apr 18 00:36:16 ubuntu dbus-daemon[606]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Apr 18 00:36:16 ubuntu systemd[1]: Started Network Manager Script Dispatcher Service.
+Apr 18 00:36:16 ubuntu nm-dispatcher: req:1 'connectivity-change': new request (1 scripts)
+Apr 18 00:36:16 ubuntu nm-dispatcher: req:1 'connectivity-change': start running ordered scripts...
+Apr 18 00:36:16 ubuntu nm-dispatcher: req:2 'down' [ens33]: new request (1 scripts)
+Apr 18 00:36:16 ubuntu nm-dispatcher: req:2 'down' [ens33]: start running ordered scripts...
+Apr 18 00:36:16 ubuntu NetworkManager[623]: <info>  [1618731376.9753] manager: enable requested (sleeping: no  enabled: no)
+Apr 18 00:36:16 ubuntu NetworkManager[623]: <info>  [1618731376.9754] device (ens33): state change: unmanaged -> unavailable (reason 'managed', sys-iface-state: 'managed')
+Apr 18 00:36:16 ubuntu NetworkManager[623]: <info>  [1618731376.9835] manager: NetworkManager state is now DISCONNECTED
+Apr 18 00:36:16 ubuntu NetworkManager[623]: <info>  [1618731376.9841] audit: op="networking-control" arg="on" pid=21714 uid=0 result="success"
+Apr 18 00:36:16 ubuntu kernel: [19277.970150] e1000: ens33 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: None
+Apr 18 00:36:16 ubuntu kernel: [19277.971166] IPv6: ADDRCONF(NETDEV_CHANGE): ens33: link becomes ready
+Apr 18 00:36:16 ubuntu NetworkManager[623]: <info>  [1618731376.9923] device (ens33): carrier: link connected
+Apr 18 00:36:16 ubuntu NetworkManager[623]: <info>  [1618731376.9930] device (ens33): state change: unavailable -> disconnected (reason 'carrier-changed', sys-iface-state: 'managed')
+Apr 18 00:36:17 ubuntu NetworkManager[623]: <info>  [1618731376.9986] policy: auto-activating connection 'Wired connection 1'
+Apr 18 00:36:17 ubuntu NetworkManager[623]: <info>  [1618731376.9993] device (ens33): Activation: starting connection 'Wired connection 1' (222ed2f9-b7e4-3ead-a7f8-897420b385ad)
+Apr 18 00:36:17 ubuntu NetworkManager[623]: <info>  [1618731376.9996] device (ens33): state change: disconnected -> prepare (reason 'none', sys-iface-state: 'managed')
+Apr 18 00:36:17 ubuntu NetworkManager[623]: <info>  [1618731376.9999] manager: NetworkManager state is now CONNECTING
+Apr 18 00:36:17 ubuntu NetworkManager[623]: <info>  [1618731377.0008] device (ens33): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+Apr 18 00:36:17 ubuntu NetworkManager[623]: <info>  [1618731377.0031] device (ens33): state change: config -> ip-config (reason 'none', sys-iface-state: 'managed')
+Apr 18 00:36:17 ubuntu NetworkManager[623]: <info>  [1618731377.0037] dhcp4 (ens33): activation: beginning transaction (timeout in 45 seconds)
+Apr 18 00:36:17 ubuntu NetworkManager[623]: <info>  [1618731377.0077] dhcp4 (ens33): dhclient started with pid 21717
+Apr 18 00:36:17 ubuntu avahi-daemon[590]: Joining mDNS multicast group on interface ens33.IPv6 with address fe80::734d:d920:e31c:e18f.
+Apr 18 00:36:17 ubuntu avahi-daemon[590]: New relevant interface ens33.IPv6 for mDNS.
+Apr 18 00:36:17 ubuntu avahi-daemon[590]: Registering new address record for fe80::734d:d920:e31c:e18f on ens33.*.
+Apr 18 00:36:17 ubuntu dhclient[21717]: DHCPREQUEST of 192.168.182.128 on ens33 to 255.255.255.255 port 67 (xid=0x2cf03313)
+Apr 18 00:36:17 ubuntu dhclient[21717]: DHCPACK of 192.168.182.128 from 192.168.182.254
+Apr 18 00:36:17 ubuntu NetworkManager[623]: <info>  [1618731377.0743] dhcp4 (ens33):   address 192.168.182.128
+Apr 18 00:36:17 ubuntu NetworkManager[623]: <info>  [1618731377.0744] dhcp4 (ens33):   plen 24 (255.255.255.0)
+Apr 18 00:36:17 ubuntu NetworkManager[623]: <info>  [1618731377.0744] dhcp4 (ens33):   gateway 192.168.182.2
+Apr 18 00:36:17 ubuntu NetworkManager[623]: <info>  [1618731377.0744] dhcp4 (ens33):   lease time 1800
+Apr 18 00:36:17 ubuntu NetworkManager[623]: <info>  [1618731377.0745] dhcp4 (ens33):   nameserver '192.168.182.2'
+Apr 18 00:36:17 ubuntu NetworkManager[623]: <info>  [1618731377.0745] dhcp4 (ens33):   domain name 'localdomain'
+Apr 18 00:36:17 ubuntu NetworkManager[623]: <info>  [1618731377.0745] dhcp4 (ens33):   wins '192.168.182.2'
+Apr 18 00:36:17 ubuntu NetworkManager[623]: <info>  [1618731377.0745] dhcp4 (ens33): state changed unknown -> bound
+Apr 18 00:36:17 ubuntu avahi-daemon[590]: Joining mDNS multicast group on interface ens33.IPv4 with address 192.168.182.128.
+Apr 18 00:36:17 ubuntu avahi-daemon[590]: New relevant interface ens33.IPv4 for mDNS.
+Apr 18 00:36:17 ubuntu avahi-daemon[590]: Registering new address record for 192.168.182.128 on ens33.IPv4.
+Apr 18 00:36:17 ubuntu whoopsie[1191]: [00:36:17] Cannot reach: https://daisy.ubuntu.com
+Apr 18 00:36:17 ubuntu NetworkManager[623]: <info>  [1618731377.0887] device (ens33): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'managed')
+Apr 18 00:36:17 ubuntu NetworkManager[623]: <info>  [1618731377.0912] device (ens33): state change: ip-check -> secondaries (reason 'none', sys-iface-state: 'managed')
+Apr 18 00:36:17 ubuntu NetworkManager[623]: <info>  [1618731377.0916] device (ens33): state change: secondaries -> activated (reason 'none', sys-iface-state: 'managed')
+Apr 18 00:36:17 ubuntu NetworkManager[623]: <info>  [1618731377.0922] manager: NetworkManager state is now CONNECTED_LOCAL
+Apr 18 00:36:17 ubuntu NetworkManager[623]: <info>  [1618731377.0956] manager: NetworkManager state is now CONNECTED_SITE
+Apr 18 00:36:17 ubuntu NetworkManager[623]: <info>  [1618731377.0958] policy: set 'Wired connection 1' (ens33) as default for IPv4 routing and DNS
+Apr 18 00:36:17 ubuntu dhclient[21717]: bound to 192.168.182.128 -- renewal in 858 seconds.
+Apr 18 00:36:17 ubuntu NetworkManager[623]: <info>  [1618731377.0965] device (ens33): Activation: successful, device activated.
+Apr 18 00:36:17 ubuntu nm-dispatcher: req:3 'up' [ens33]: new request (1 scripts)
+Apr 18 00:36:17 ubuntu nm-dispatcher: req:3 'up' [ens33]: start running ordered scripts...
+Apr 18 00:36:17 ubuntu gsd-sharing[1754]: Failed to StopUnit service: GDBus.Error:org.freedesktop.systemd1.NoSuchUnit: Unit gnome-user-share-webdav.service not loaded.
+Apr 18 00:36:17 ubuntu gsd-sharing[1754]: Failed to StopUnit service: GDBus.Error:org.freedesktop.systemd1.NoSuchUnit: Unit rygel.service not loaded.
+Apr 18 00:36:17 ubuntu gsd-sharing[1754]: Failed to StopUnit service: GDBus.Error:org.freedesktop.systemd1.NoSuchUnit: Unit gnome-remote-desktop.service not loaded.
+Apr 18 00:36:18 ubuntu NetworkManager[623]: <info>  [1618731378.5605] manager: NetworkManager state is now CONNECTED_GLOBAL
+Apr 18 00:36:18 ubuntu nm-dispatcher: req:4 'connectivity-change': new request (1 scripts)
+Apr 18 00:36:18 ubuntu nm-dispatcher: req:4 'connectivity-change': start running ordered scripts...
+Apr 18 00:36:18 ubuntu whoopsie[1191]: [00:36:18] The default IPv4 route is: /org/freedesktop/NetworkManager/ActiveConnection/5
+Apr 18 00:36:18 ubuntu whoopsie[1191]: [00:36:18] Not a paid data plan: /org/freedesktop/NetworkManager/ActiveConnection/5
+Apr 18 00:36:18 ubuntu whoopsie[1191]: [00:36:18] Found usable connection: /org/freedesktop/NetworkManager/ActiveConnection/5
+Apr 18 00:36:19 ubuntu whoopsie[1191]: [00:36:19] online
+Apr 18 00:36:36 ubuntu gedit[21782]: The specified location is not mounted
+Apr 18 00:36:56 ubuntu NetworkManager[623]: <info>  [1618731416.0230] manager: disable requested (sleeping: no  enabled: yes)
+Apr 18 00:36:56 ubuntu NetworkManager[623]: <info>  [1618731416.0231] manager: NetworkManager state is now ASLEEP
+Apr 18 00:36:56 ubuntu whoopsie[1191]: [00:36:56] offline
+Apr 18 00:36:56 ubuntu dbus-daemon[606]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.11' (uid=0 pid=623 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Apr 18 00:36:56 ubuntu NetworkManager[623]: <info>  [1618731416.0233] audit: op="networking-control" arg="off" pid=21831 uid=0 result="success"
+Apr 18 00:36:56 ubuntu avahi-daemon[590]: Withdrawing address record for fe80::734d:d920:e31c:e18f on ens33.
+Apr 18 00:36:56 ubuntu NetworkManager[623]: <info>  [1618731416.0234] device (ens33): state change: activated -> deactivating (reason 'sleeping', sys-iface-state: 'managed')
+Apr 18 00:36:56 ubuntu avahi-daemon[590]: Leaving mDNS multicast group on interface ens33.IPv6 with address fe80::734d:d920:e31c:e18f.
+Apr 18 00:36:56 ubuntu NetworkManager[623]: <info>  [1618731416.0255] device (ens33): state change: deactivating -> disconnected (reason 'sleeping', sys-iface-state: 'managed')
+Apr 18 00:36:56 ubuntu avahi-daemon[590]: Interface ens33.IPv6 no longer relevant for mDNS.
+Apr 18 00:36:56 ubuntu systemd[1]: Starting Network Manager Script Dispatcher Service...
+Apr 18 00:36:56 ubuntu dbus-daemon[606]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Apr 18 00:36:56 ubuntu systemd[1]: Started Network Manager Script Dispatcher Service.
+Apr 18 00:36:56 ubuntu nm-dispatcher: req:1 'connectivity-change': new request (1 scripts)
+Apr 18 00:36:56 ubuntu nm-dispatcher: req:1 'connectivity-change': start running ordered scripts...
+Apr 18 00:36:56 ubuntu NetworkManager[623]: <info>  [1618731416.1204] dhcp4 (ens33): canceled DHCP transaction, DHCP client pid 21717
+Apr 18 00:36:56 ubuntu NetworkManager[623]: <info>  [1618731416.1205] dhcp4 (ens33): state changed bound -> done
+Apr 18 00:38:54 ubuntu avahi-daemon[590]: Withdrawing address record for 192.168.182.128 on ens33.
+Apr 18 00:38:54 ubuntu NetworkManager[623]: <info>  [1618731416.1278] device (ens33): state change: disconnected -> unmanaged (reason 'sleeping', sys-iface-state: 'managed')
+Apr 18 00:38:54 ubuntu avahi-daemon[590]: Leaving mDNS multicast group on interface ens33.IPv4 with address 192.168.182.128.
+Apr 18 00:38:54 ubuntu avahi-daemon[590]: Interface ens33.IPv4 no longer relevant for mDNS.
+Apr 18 00:38:54 ubuntu nm-dispatcher: req:2 'down' [ens33]: new request (1 scripts)
+Apr 18 00:38:54 ubuntu nm-dispatcher: req:2 'down' [ens33]: start running ordered scripts...
+Apr 18 00:38:54 ubuntu gsd-sharing[1754]: Failed to StopUnit service: GDBus.Error:org.freedesktop.systemd1.NoSuchUnit: Unit gnome-user-share-webdav.service not loaded.
+Apr 18 00:38:54 ubuntu gsd-sharing[1754]: Failed to StopUnit service: GDBus.Error:org.freedesktop.systemd1.NoSuchUnit: Unit rygel.service not loaded.
+Apr 18 00:38:54 ubuntu gsd-sharing[1754]: Failed to StopUnit service: GDBus.Error:org.freedesktop.systemd1.NoSuchUnit: Unit gnome-remote-desktop.service not loaded.
+Apr 18 00:38:54 ubuntu NetworkManager[623]: <info>  [1618731534.8562] manager: enable requested (sleeping: no  enabled: no)
+Apr 18 00:38:54 ubuntu NetworkManager[623]: <info>  [1618731534.8565] device (ens33): state change: unmanaged -> unavailable (reason 'managed', sys-iface-state: 'managed')
+Apr 18 00:38:54 ubuntu NetworkManager[623]: <info>  [1618731534.8651] manager: NetworkManager state is now DISCONNECTED
+Apr 18 00:38:54 ubuntu NetworkManager[623]: <info>  [1618731534.8657] audit: op="networking-control" arg="on" pid=21883 uid=0 result="success"
+Apr 18 00:38:54 ubuntu kernel: [19317.327203] e1000: ens33 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: None
+Apr 18 00:38:54 ubuntu kernel: [19317.328523] IPv6: ADDRCONF(NETDEV_CHANGE): ens33: link becomes ready
+Apr 18 00:38:54 ubuntu NetworkManager[623]: <info>  [1618731534.8773] device (ens33): carrier: link connected
+Apr 18 00:38:54 ubuntu NetworkManager[623]: <info>  [1618731534.8777] device (ens33): state change: unavailable -> disconnected (reason 'carrier-changed', sys-iface-state: 'managed')
+Apr 18 00:38:54 ubuntu NetworkManager[623]: <info>  [1618731534.8817] policy: auto-activating connection 'Wired connection 1'
+Apr 18 00:38:54 ubuntu NetworkManager[623]: <info>  [1618731534.8824] device (ens33): Activation: starting connection 'Wired connection 1' (222ed2f9-b7e4-3ead-a7f8-897420b385ad)
+Apr 18 00:38:54 ubuntu NetworkManager[623]: <info>  [1618731534.8827] device (ens33): state change: disconnected -> prepare (reason 'none', sys-iface-state: 'managed')
+Apr 18 00:38:54 ubuntu NetworkManager[623]: <info>  [1618731534.8829] manager: NetworkManager state is now CONNECTING
+Apr 18 00:38:54 ubuntu NetworkManager[623]: <info>  [1618731534.8839] device (ens33): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+Apr 18 00:38:54 ubuntu NetworkManager[623]: <info>  [1618731534.8880] device (ens33): state change: config -> ip-config (reason 'none', sys-iface-state: 'managed')
+Apr 18 00:38:54 ubuntu NetworkManager[623]: <info>  [1618731534.8884] dhcp4 (ens33): activation: beginning transaction (timeout in 45 seconds)
+Apr 18 00:38:54 ubuntu NetworkManager[623]: <info>  [1618731534.9024] dhcp4 (ens33): dhclient started with pid 21886
+Apr 18 00:38:54 ubuntu avahi-daemon[590]: Joining mDNS multicast group on interface ens33.IPv6 with address fe80::734d:d920:e31c:e18f.
+Apr 18 00:38:54 ubuntu avahi-daemon[590]: New relevant interface ens33.IPv6 for mDNS.
+Apr 18 00:38:54 ubuntu avahi-daemon[590]: Registering new address record for fe80::734d:d920:e31c:e18f on ens33.*.
+Apr 18 00:38:54 ubuntu dhclient[21886]: DHCPREQUEST of 192.168.182.128 on ens33 to 255.255.255.255 port 67 (xid=0x172ce612)
+Apr 18 00:38:54 ubuntu dhclient[21886]: DHCPACK of 192.168.182.128 from 192.168.182.254
+Apr 18 00:38:54 ubuntu NetworkManager[623]: <info>  [1618731534.9668] dhcp4 (ens33):   address 192.168.182.128
+Apr 18 00:38:54 ubuntu NetworkManager[623]: <info>  [1618731534.9671] dhcp4 (ens33):   plen 24 (255.255.255.0)
+Apr 18 00:38:54 ubuntu NetworkManager[623]: <info>  [1618731534.9674] dhcp4 (ens33):   gateway 192.168.182.2
+Apr 18 00:38:54 ubuntu NetworkManager[623]: <info>  [1618731534.9677] dhcp4 (ens33):   lease time 1800
+Apr 18 00:38:54 ubuntu NetworkManager[623]: <info>  [1618731534.9679] dhcp4 (ens33):   nameserver '192.168.182.2'
+Apr 18 00:38:54 ubuntu NetworkManager[623]: <info>  [1618731534.9681] dhcp4 (ens33):   domain name 'localdomain'
+Apr 18 00:38:54 ubuntu NetworkManager[623]: <info>  [1618731534.9682] dhcp4 (ens33):   wins '192.168.182.2'
+Apr 18 00:38:54 ubuntu NetworkManager[623]: <info>  [1618731534.9684] dhcp4 (ens33): state changed unknown -> bound
+Apr 18 00:38:54 ubuntu avahi-daemon[590]: Joining mDNS multicast group on interface ens33.IPv4 with address 192.168.182.128.
+Apr 18 00:38:54 ubuntu avahi-daemon[590]: New relevant interface ens33.IPv4 for mDNS.
+Apr 18 00:38:54 ubuntu avahi-daemon[590]: Registering new address record for 192.168.182.128 on ens33.IPv4.
+Apr 18 00:38:54 ubuntu NetworkManager[623]: <info>  [1618731534.9734] device (ens33): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'managed')
+Apr 18 00:38:54 ubuntu NetworkManager[623]: <info>  [1618731534.9747] device (ens33): state change: ip-check -> secondaries (reason 'none', sys-iface-state: 'managed')
+Apr 18 00:38:54 ubuntu NetworkManager[623]: <info>  [1618731534.9751] device (ens33): state change: secondaries -> activated (reason 'none', sys-iface-state: 'managed')
+Apr 18 00:38:54 ubuntu NetworkManager[623]: <info>  [1618731534.9757] manager: NetworkManager state is now CONNECTED_LOCAL
+Apr 18 00:38:54 ubuntu NetworkManager[623]: <info>  [1618731534.9816] manager: NetworkManager state is now CONNECTED_SITE
+Apr 18 00:38:54 ubuntu NetworkManager[623]: <info>  [1618731534.9838] policy: set 'Wired connection 1' (ens33) as default for IPv4 routing and DNS
+Apr 18 00:38:54 ubuntu NetworkManager[623]: <info>  [1618731534.9889] device (ens33): Activation: successful, device activated.
+Apr 18 00:38:55 ubuntu dhclient[21886]: bound to 192.168.182.128 -- renewal in 800 seconds.
+Apr 18 00:38:55 ubuntu nm-dispatcher: req:3 'up' [ens33]: new request (1 scripts)
+Apr 18 00:38:55 ubuntu nm-dispatcher: req:3 'up' [ens33]: start running ordered scripts...
+Apr 18 00:38:55 ubuntu gsd-sharing[1754]: Failed to StopUnit service: GDBus.Error:org.freedesktop.systemd1.NoSuchUnit: Unit gnome-user-share-webdav.service not loaded.
+Apr 18 00:38:55 ubuntu gsd-sharing[1754]: Failed to StopUnit service: GDBus.Error:org.freedesktop.systemd1.NoSuchUnit: Unit rygel.service not loaded.
+Apr 18 00:38:55 ubuntu gsd-sharing[1754]: Failed to StopUnit service: GDBus.Error:org.freedesktop.systemd1.NoSuchUnit: Unit gnome-remote-desktop.service not loaded.
+Apr 18 00:38:56 ubuntu NetworkManager[623]: <info>  [1618731536.4398] manager: NetworkManager state is now CONNECTED_GLOBAL
+Apr 18 00:38:56 ubuntu nm-dispatcher: req:4 'connectivity-change': new request (1 scripts)
+Apr 18 00:38:56 ubuntu nm-dispatcher: req:4 'connectivity-change': start running ordered scripts...
+Apr 18 00:38:59 ubuntu whoopsie[1191]: [00:38:59] The default IPv4 route is: /org/freedesktop/NetworkManager/ActiveConnection/6
+Apr 18 00:38:59 ubuntu whoopsie[1191]: [00:38:59] Not a paid data plan: /org/freedesktop/NetworkManager/ActiveConnection/6
+Apr 18 00:38:59 ubuntu whoopsie[1191]: [00:38:59] Found usable connection: /org/freedesktop/NetworkManager/ActiveConnection/6
+Apr 18 00:38:59 ubuntu whoopsie[1191]: [00:38:59] online
+Apr 18 00:39:17 ubuntu kernel: [19339.587920] ISO 9660 Extensions: RRIP_1991A
+Apr 18 00:39:17 ubuntu dbus-daemon[1506]: [session uid=1000 pid=1506] Activating service name='org.gnome.Shell.HotplugSniffer' requested by ':1.12' (uid=1000 pid=1630 comm="/usr/bin/gnome-shell " label="unconfined")
+Apr 18 00:39:17 ubuntu systemd[1]: Created slice system-clean\x2dmount\x2dpoint.slice.
+Apr 18 00:39:17 ubuntu systemd[1]: Started Clean the /media/like/VMware Tools mount point.
+Apr 18 00:39:17 ubuntu udisksd[637]: Mounted /dev/sr0 at /media/like/VMware Tools on behalf of uid 1000
+Apr 18 00:39:17 ubuntu dbus-daemon[1506]: [session uid=1000 pid=1506] Successfully activated service 'org.gnome.Shell.HotplugSniffer'
+Apr 18 00:39:52 ubuntu dbus-daemon[606]: [system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service' requested by ':1.110' (uid=1000 pid=1961 comm="/usr/bin/nautilus --gapplication-service " label="unconfined")
+Apr 18 00:39:52 ubuntu systemd[1]: Starting Hostname Service...
+Apr 18 00:39:52 ubuntu dbus-daemon[606]: [system] Successfully activated service 'org.freedesktop.hostname1'
+Apr 18 00:39:52 ubuntu systemd[1]: Started Hostname Service.
+Apr 18 00:40:40 ubuntu nautilus[1961]: g_queue_foreach: assertion 'queue != NULL' failed
+Apr 18 00:40:40 ubuntu nautilus[1961]: g_queue_free: assertion 'queue != NULL' failed
+Apr 18 00:40:40 ubuntu nautilus[1961]: g_queue_foreach: assertion 'queue != NULL' failed
+Apr 18 00:40:40 ubuntu nautilus[1961]: g_queue_free: assertion 'queue != NULL' failed
+Apr 18 00:40:48 ubuntu udisksd[637]: Cleaning up mount point /media/like/VMware Tools (device 11:0 is not mounted)
+Apr 18 00:40:48 ubuntu systemd[1]: Stopping Clean the /media/like/VMware Tools mount point...
+Apr 18 00:40:48 ubuntu udisksd[637]: Unmounted /dev/sr0 on behalf of uid 1000
+Apr 18 00:40:48 ubuntu systemd[1]: Stopped Clean the /media/like/VMware Tools mount point.
+Apr 18 00:41:09 ubuntu dbus-daemon[606]: [system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service' requested by ':1.110' (uid=1000 pid=1961 comm="/usr/bin/nautilus --gapplication-service " label="unconfined")
+Apr 18 00:41:09 ubuntu systemd[1]: Starting Hostname Service...
+Apr 18 00:41:09 ubuntu dbus-daemon[606]: [system] Successfully activated service 'org.freedesktop.hostname1'
+Apr 18 00:41:09 ubuntu systemd[1]: Started Hostname Service.
+Apr 18 00:41:12 ubuntu gvfsd-metadata[1991]: g_udev_device_has_property: assertion 'G_UDEV_IS_DEVICE (device)' failed

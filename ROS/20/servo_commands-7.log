@@ -1,0 +1,49 @@
+[rospy.client][INFO] 2021-05-18 16:22:19,708: init_node, name[/servo_commands], pid[93688]
+[xmlrpc][INFO] 2021-05-18 16:22:19,708: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2021-05-18 16:22:19,709: Started XML-RPC server [http://ubuntu:36611/]
+[rospy.init][INFO] 2021-05-18 16:22:19,709: ROS Slave URI: [http://ubuntu:36611/]
+[rospy.impl.masterslave][INFO] 2021-05-18 16:22:19,709: _ready: http://ubuntu:36611/
+[xmlrpc][INFO] 2021-05-18 16:22:19,710: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2021-05-18 16:22:19,710: Registering with master node http://localhost:11311
+[rospy.init][INFO] 2021-05-18 16:22:19,810: registered with master
+[rospy.rosout][INFO] 2021-05-18 16:22:19,810: initializing /rosout core topic
+[rospy.rosout][INFO] 2021-05-18 16:22:19,813: connected to core topic /rosout
+[rospy.simtime][INFO] 2021-05-18 16:22:19,817: initializing /clock core topic
+[rospy.simtime][INFO] 2021-05-18 16:22:19,822: connected to core topic /clock
+[rospy.internal][INFO] 2021-05-18 16:22:19,847: topic[/vesc/low_level/ackermann_cmd_mux/output] adding connection to [http://ubuntu:36019/], count 0
+[rospy.internal][INFO] 2021-05-18 16:22:19,950: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2021-05-18 16:22:22,748: topic[/clock] adding connection to [http://ubuntu:44103/], count 0
+[rospy.internal][INFO] 2021-05-18 16:22:24,628: topic[/racecar/left_rear_wheel_velocity_controller/command] adding connection to [/gazebo], count 0
+[rospy.internal][INFO] 2021-05-18 16:22:24,730: topic[/racecar/right_rear_wheel_velocity_controller/command] adding connection to [/gazebo], count 0
+[rospy.internal][INFO] 2021-05-18 16:22:24,834: topic[/racecar/left_front_wheel_velocity_controller/command] adding connection to [/gazebo], count 0
+[rospy.internal][INFO] 2021-05-18 16:22:24,938: topic[/racecar/right_front_wheel_velocity_controller/command] adding connection to [/gazebo], count 0
+[rospy.internal][INFO] 2021-05-18 16:22:25,041: topic[/racecar/left_steering_hinge_position_controller/command] adding connection to [/gazebo], count 0
+[rospy.internal][INFO] 2021-05-18 16:22:25,143: topic[/racecar/right_steering_hinge_position_controller/command] adding connection to [/gazebo], count 0
+[rospy.internal][WARNING] 2021-05-18 16:22:37,915: Unknown error initiating TCP/IP socket to ubuntu:35197 (http://ubuntu:36019/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosgraph/network.py", line 357, in read_ros_handshake_header
+    d = sock.recv(buff_size)
+error: [Errno 104] Connection reset by peer
+
+[rospy.internal][INFO] 2021-05-18 16:22:37,915: topic[/vesc/low_level/ackermann_cmd_mux/output] removing connection to http://ubuntu:36019/
+[rospy.core][INFO] 2021-05-18 16:22:37,983: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2021-05-18 16:22:37,997: topic[/racecar/right_steering_hinge_position_controller/command] removing connection to /gazebo
+[rospy.internal][INFO] 2021-05-18 16:22:37,997: topic[/racecar/left_rear_wheel_velocity_controller/command] removing connection to /gazebo
+[rospy.internal][INFO] 2021-05-18 16:22:37,997: topic[/racecar/left_steering_hinge_position_controller/command] removing connection to /gazebo
+[rospy.internal][INFO] 2021-05-18 16:22:37,998: topic[/racecar/right_rear_wheel_velocity_controller/command] removing connection to /gazebo
+[rospy.internal][INFO] 2021-05-18 16:22:37,999: topic[/racecar/left_front_wheel_velocity_controller/command] removing connection to /gazebo
+[rospy.internal][INFO] 2021-05-18 16:22:37,999: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2021-05-18 16:22:38,001: topic[/racecar/right_front_wheel_velocity_controller/command] removing connection to /gazebo
+[rospy.internal][INFO] 2021-05-18 16:22:38,001: topic[/clock] removing connection to http://ubuntu:44103/
+[rospy.topics][ERROR] 2021-05-18 16:22:38,004: Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 326, in close
+    c.close()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 846, in close
+    self.socket.close()
+AttributeError: 'NoneType' object has no attribute 'close'
+
+[rospy.impl.masterslave][INFO] 2021-05-18 16:22:38,004: signal-2
+[rospy.core][INFO] 2021-05-18 16:22:38,115: signal_shutdown [atexit]

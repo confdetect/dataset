@@ -1,0 +1,31 @@
+[rospy.client][INFO] 2021-05-18 13:58:40,753: init_node, name[/gazebo_odometry_node], pid[70912]
+[xmlrpc][INFO] 2021-05-18 13:58:40,753: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2021-05-18 13:58:40,754: Started XML-RPC server [http://ubuntu:35201/]
+[rospy.impl.masterslave][INFO] 2021-05-18 13:58:40,754: _ready: http://ubuntu:35201/
+[rospy.init][INFO] 2021-05-18 13:58:40,754: ROS Slave URI: [http://ubuntu:35201/]
+[xmlrpc][INFO] 2021-05-18 13:58:40,755: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2021-05-18 13:58:40,755: Registering with master node http://localhost:11311
+[rospy.registration][INFO] 2021-05-18 13:58:40,756: Registering publisher topic [/vesc/odom] type [nav_msgs/Odometry] with master
+[rospy.init][INFO] 2021-05-18 13:58:40,855: registered with master
+[rospy.rosout][INFO] 2021-05-18 13:58:40,855: initializing /rosout core topic
+[rospy.rosout][INFO] 2021-05-18 13:58:40,858: connected to core topic /rosout
+[rospy.simtime][INFO] 2021-05-18 13:58:40,859: initializing /clock core topic
+[rospy.simtime][INFO] 2021-05-18 13:58:40,864: connected to core topic /clock
+[rospy.internal][INFO] 2021-05-18 13:58:41,045: topic[/vesc/odom] adding connection to [/better_odom], count 0
+[rospy.internal][INFO] 2021-05-18 13:58:41,152: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2021-05-18 13:58:43,101: topic[/clock] adding connection to [http://ubuntu:44295/], count 0
+[rospy.internal][INFO] 2021-05-18 13:58:43,217: topic[/gazebo/link_states] adding connection to [http://ubuntu:44295/], count 0
+[rospy.core][INFO] 2021-05-18 13:59:27,960: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2021-05-18 13:59:27,984: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2021-05-18 13:59:27,985: topic[/vesc/odom] removing connection to /better_odom
+[rospy.internal][INFO] 2021-05-18 13:59:27,986: topic[/clock] removing connection to http://ubuntu:44295/
+[rospy.internal][INFO] 2021-05-18 13:59:27,986: topic[/gazebo/link_states] removing connection to http://ubuntu:44295/
+[rospy.impl.masterslave][INFO] 2021-05-18 13:59:27,986: signal-2
+[rospy.internal][ERROR] 2021-05-18 13:59:27,987: Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 737, in receive_once
+    self.stat_bytes += recv_buff(sock, b, p.buff_size)
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 104, in recv_buff
+    d = sock.recv(buff_size)
+error: [Errno 104] Connection reset by peer
+
+[rospy.core][INFO] 2021-05-18 13:59:28,606: signal_shutdown [atexit]

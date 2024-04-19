@@ -1,0 +1,112 @@
+Connect Mysql log success
+Create Table ROSLog Success
+Create Table ROSLog Success
+Starting Parse ROS Log
+ROS Log Match Failed: Connect Mysql log success
+ROS Log Match Failed: Create Table ROSLog Success
+ROS Log Match Failed: Create Table ROSLog Success
+ROS Log Match Failed: Starting Parse ROS Log
+ROS Log Match Failed: ROS Log Match Failed: Press Ctrl-C to interrupt
+ROS Log Match Failed: ROS Log Match Failed:   File "/opt/ros/melodic/lib/python2.7/dist-packages/roslaunch/__init__.py", line 332, in main
+ROS Log Match Failed: ROS Log Match Failed:     p.start()
+ROS Log Match Failed: ROS Log Match Failed:   File "/opt/ros/melodic/lib/python2.7/dist-packages/roslaunch/parent.py", line 289, in start
+ROS Log Match Failed: ROS Log Match Failed:     self._start_infrastructure()
+ROS Log Match Failed: ROS Log Match Failed:   File "/opt/ros/melodic/lib/python2.7/dist-packages/roslaunch/parent.py", line 238, in _start_infrastructure
+ROS Log Match Failed: ROS Log Match Failed:     self._load_config()
+ROS Log Match Failed: ROS Log Match Failed:   File "/opt/ros/melodic/lib/python2.7/dist-packages/roslaunch/parent.py", line 144, in _load_config
+ROS Log Match Failed: ROS Log Match Failed:     roslaunch_strs=self.roslaunch_strs, verbose=self.verbose)
+ROS Log Match Failed: ROS Log Match Failed:   File "/opt/ros/melodic/lib/python2.7/dist-packages/roslaunch/config.py", line 461, in load_config_default
+ROS Log Match Failed: ROS Log Match Failed:     loader.load(f, config, argv=args, verbose=verbose)
+ROS Log Match Failed: ROS Log Match Failed:   File "/opt/ros/melodic/lib/python2.7/dist-packages/roslaunch/xmlloader.py", line 761, in load
+ROS Log Match Failed: ROS Log Match Failed:     self._load_launch(launch, ros_config, is_core=core, filename=filename, argv=argv, verbose=verbose)
+ROS Log Match Failed: ROS Log Match Failed:   File "/opt/ros/melodic/lib/python2.7/dist-packages/roslaunch/xmlloader.py", line 733, in _load_launch
+ROS Log Match Failed: ROS Log Match Failed:     self._recurse_load(ros_config, launch.childNodes, self.root_context, None, is_core, verbose)
+ROS Log Match Failed: ROS Log Match Failed:   File "/opt/ros/melodic/lib/python2.7/dist-packages/roslaunch/xmlloader.py", line 699, in _recurse_load
+ROS Log Match Failed: ROS Log Match Failed:     val = self._include_tag(tag, context, ros_config, default_machine, is_core, verbose)
+ROS Log Match Failed: ROS Log Match Failed:   File "/opt/ros/melodic/lib/python2.7/dist-packages/roslaunch/xmlloader.py", line 96, in call
+ROS Log Match Failed: ROS Log Match Failed:     return f(*args, **kwds)
+ROS Log Match Failed: ROS Log Match Failed:   File "/opt/ros/melodic/lib/python2.7/dist-packages/roslaunch/xmlloader.py", line 634, in _include_tag
+ROS Log Match Failed: ROS Log Match Failed:     default_machine, is_core, verbose)
+ROS Log Match Failed: ROS Log Match Failed:   File "/opt/ros/melodic/lib/python2.7/dist-packages/roslaunch/xmlloader.py", line 663, in _recurse_load
+ROS Log Match Failed: ROS Log Match Failed:     if ifunless_test(self, tag, context):
+ROS Log Match Failed: ROS Log Match Failed:   File "/opt/ros/melodic/lib/python2.7/dist-packages/roslaunch/xmlloader.py", line 78, in ifunless_test
+ROS Log Match Failed: ROS Log Match Failed:     if_val = loader.convert_value(if_val, 'bool')
+ROS Log Match Failed: ROS Log Match Failed:   File "/opt/ros/melodic/lib/python2.7/dist-packages/roslaunch/loader.py", line 99, in convert_value
+ROS Log Match Failed: ROS Log Match Failed:     raise ValueError("%s is not a '%s' type"%(value, type_))
+ROS Log Match Failed: ROS Log Match Failed: ValueError: (arg gui) is not a 'bool' type
+ROS Log Match Failed: ROS Log Match Failed: 
+ROS Log Match Failed: Computing Problem Spotlight
+ROS Log Match Failed: Create Table ROSMsg Success
+ROS Log Match Failed: Mysql DisConnect
+ROS Log Match Failed: Using Augeas to Parse Configuration File
+ROS Log Match Failed: Extract key-value Finished
+ROS Log Match Failed: Extract Env Finished
+ROS Log Match Failed: Connect Database wise success
+ROS Log Match Failed: Giving Problem Spotlight and Resolve Spotlight
+ROS Log Match Failed: Problem Spotlight No.0 : Traceback (most recent call last):
+ROS Log Match Failed: Problem Spotlight No.1 : The traceback for the exception was written to the log file
+ROS Log Match Failed: Problem Spotlight No.2 : Value error: (arg gui) is not a 'bool' type
+ROS Log Match Failed: Suspicious word:    gui    with key:    Conf: gui  ||  Conf: gui    and value:    true  ||  (arg gui)
+ROS Log Match Failed: Problem Spotlight No.3 : signal_shutdown [atexit]
+ROS Log Match Failed: Problem Spotlight No.4 : Added node of type [gazebo_ros/gzserver] in namespace [/]
+ROS Log Match Failed: Suspicious word:    /    with key:    Conf: $(find racecar_control)/launch/racecar_control.launch    and value:    /
+ROS Log Match Failed: Suspicious word:    gazebo_ros    with key:    Conf: racecar_spawn    and value:    gazebo_ros
+ROS Log Match Failed: Problem Spotlight No.5 : loading config file /home/liike/ROS/src/racecar/racecar_gazebo/launch/racecar.launch
+ROS Log Match Failed: Problem Spotlight No.6 : Added core node of type [rosout/rosout] in namespace [/]
+ROS Log Match Failed: Problem Spotlight No.7 : loading roscore config file /opt/ros/melodic/etc/ros/roscore.xml
+ROS Log Match Failed: Problem Spotlight No.8 : starting roslaunch parent run
+ROS Log Match Failed: Problem Spotlight No.9 : starting in server mode
+ROS Log Match Failed: Mysql DisConnect
+ROS Log Match Failed: Press Ctrl-C to interrupt
+ROS Log Match Failed:   File "/opt/ros/melodic/lib/python2.7/dist-packages/roslaunch/__init__.py", line 332, in main
+ROS Log Match Failed:     p.start()
+ROS Log Match Failed:   File "/opt/ros/melodic/lib/python2.7/dist-packages/roslaunch/parent.py", line 289, in start
+ROS Log Match Failed:     self._start_infrastructure()
+ROS Log Match Failed:   File "/opt/ros/melodic/lib/python2.7/dist-packages/roslaunch/parent.py", line 238, in _start_infrastructure
+ROS Log Match Failed:     self._load_config()
+ROS Log Match Failed:   File "/opt/ros/melodic/lib/python2.7/dist-packages/roslaunch/parent.py", line 144, in _load_config
+ROS Log Match Failed:     roslaunch_strs=self.roslaunch_strs, verbose=self.verbose)
+ROS Log Match Failed:   File "/opt/ros/melodic/lib/python2.7/dist-packages/roslaunch/config.py", line 461, in load_config_default
+ROS Log Match Failed:     loader.load(f, config, argv=args, verbose=verbose)
+ROS Log Match Failed:   File "/opt/ros/melodic/lib/python2.7/dist-packages/roslaunch/xmlloader.py", line 761, in load
+ROS Log Match Failed:     self._load_launch(launch, ros_config, is_core=core, filename=filename, argv=argv, verbose=verbose)
+ROS Log Match Failed:   File "/opt/ros/melodic/lib/python2.7/dist-packages/roslaunch/xmlloader.py", line 733, in _load_launch
+ROS Log Match Failed:     self._recurse_load(ros_config, launch.childNodes, self.root_context, None, is_core, verbose)
+ROS Log Match Failed:   File "/opt/ros/melodic/lib/python2.7/dist-packages/roslaunch/xmlloader.py", line 699, in _recurse_load
+ROS Log Match Failed:     val = self._include_tag(tag, context, ros_config, default_machine, is_core, verbose)
+ROS Log Match Failed:   File "/opt/ros/melodic/lib/python2.7/dist-packages/roslaunch/xmlloader.py", line 96, in call
+ROS Log Match Failed:     return f(*args, **kwds)
+ROS Log Match Failed:   File "/opt/ros/melodic/lib/python2.7/dist-packages/roslaunch/xmlloader.py", line 634, in _include_tag
+ROS Log Match Failed:     default_machine, is_core, verbose)
+ROS Log Match Failed:   File "/opt/ros/melodic/lib/python2.7/dist-packages/roslaunch/xmlloader.py", line 663, in _recurse_load
+ROS Log Match Failed:     if ifunless_test(self, tag, context):
+ROS Log Match Failed:   File "/opt/ros/melodic/lib/python2.7/dist-packages/roslaunch/xmlloader.py", line 78, in ifunless_test
+ROS Log Match Failed:     if_val = loader.convert_value(if_val, 'bool')
+ROS Log Match Failed:   File "/opt/ros/melodic/lib/python2.7/dist-packages/roslaunch/loader.py", line 99, in convert_value
+ROS Log Match Failed:     raise ValueError("%s is not a '%s' type"%(value, type_))
+ROS Log Match Failed: ValueError: (arg gui) is not a 'bool' type
+ROS Log Match Failed: 
+Computing Problem Spotlight
+Create Table ROSMsg Success
+Mysql DisConnect
+Using Augeas to Parse Configuration File
+Extract key-value Finished
+Extract Env Finished
+Connect Database wise success
+Giving Problem Spotlight and Resolve Spotlight
+Problem Spotlight No.0 : 2021-05-02 14:26:37 Error Traceback (most recent call last):
+Problem Spotlight No.1 : 2021-05-02 14:26:37 Error The traceback for the exception was written to the log file
+Problem Spotlight No.2 : 2021-05-02 14:26:37 Error Value error: (arg gui) is not a 'bool' type
+Suspicious word:    gui    with key:    Conf: gui  ||  Conf: gui    and value:    true  ||  (arg gui)
+Problem Spotlight No.3 : 2021-05-02 14:26:37 Note signal_shutdown [atexit]
+Problem Spotlight No.4 : 2021-05-02 14:26:37 Note Added node of type [gazebo_ros/gzserver] in namespace [/]
+Suspicious word:    gazebo_ros    with key:    Conf: racecar_spawn    and value:    gazebo_ros
+Knowledge Database Configuration:    wrong Conf value's key: racecar_spawn    Infomation:    
+Problem Spotlight No.5 : 2021-05-02 14:26:37 Note loading config file /home/liike/ROS/src/racecar/racecar_gazebo/launch/racecar.launch
+Problem Spotlight No.6 : 2021-05-02 14:26:37 Note Added core node of type [rosout/rosout] in namespace [/]
+Knowledge Database Configuration:    wrong Conf value's key: racecar_spawn    Infomation:    
+Problem Spotlight No.7 : 2021-05-02 14:26:37 Note loading roscore config file /opt/ros/melodic/etc/ros/roscore.xml
+Problem Spotlight No.8 : 2021-05-02 14:26:37 Note starting roslaunch parent run
+Problem Spotlight No.9 : 2021-05-02 14:26:37 Note starting in server mode
+Mysql DisConnect
+Time Using: 1.00078 s

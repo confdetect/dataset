@@ -1,0 +1,25 @@
+Connect Database log success
+Create Table MysqlLog Success
+Starting Parse Mysql Log
+Starting Parse Sys Log
+Computing Problem Spotlight
+Create Table MysqlMsg Success
+Mysql DisConnect
+Using Augeas to Parse Configuration File
+Extract key-value Finished
+Extract Env Finished
+Connect Mysql wise success
+Giving Problem Spotlight and Resolve Spotlight
+Problem Spotlight No.0 : 2021-04-13 03:57:50 Warning MySQL data dir not found at 1. Please create one.
+Suspicious word:    1    with key:    Conf: datadir    and value:    1
+Problem Spotlight No.1 : 2021-04-13 09:14:27 Warning CA certificate ca.pem is self signed.
+Problem Spotlight No.2 : 2021-04-13 09:14:27 Warning TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+Problem Spotlight No.3 : 2021-04-13 09:17:13 Note /usr/sbin/mysqld: Shutdown complete
+Problem Spotlight No.4 : 2021-04-13 09:17:13 Note Shutting down plugin 'binlog'
+Problem Spotlight No.5 : 2021-04-13 09:17:13 Note Shutting down plugin 'mysql_native_password'
+Problem Spotlight No.6 : 2021-04-13 09:17:13 Note Shutting down plugin 'sha256_password'
+Problem Spotlight No.7 : 2021-04-13 09:17:13 Note Shutting down plugin 'CSV'
+Problem Spotlight No.8 : 2021-04-13 09:17:13 Note Shutting down plugin 'MEMORY'
+Problem Spotlight No.9 : 2021-04-13 09:17:13 Note InnoDB: Removed temporary tablespace data file: "ibtmp1"
+Mysql DisConnect
+Time Using: 1.28957 s

@@ -1,0 +1,46 @@
+[rospy.client][INFO] 2021-05-18 15:51:46,300: init_node, name[/racecar/controller_manager], pid[90162]
+[xmlrpc][INFO] 2021-05-18 15:51:46,300: XML-RPC server binding to 0.0.0.0:0
+[rospy.init][INFO] 2021-05-18 15:51:46,301: ROS Slave URI: [http://ubuntu:35627/]
+[xmlrpc][INFO] 2021-05-18 15:51:46,301: Started XML-RPC server [http://ubuntu:35627/]
+[rospy.impl.masterslave][INFO] 2021-05-18 15:51:46,301: _ready: http://ubuntu:35627/
+[xmlrpc][INFO] 2021-05-18 15:51:46,301: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2021-05-18 15:51:46,302: Registering with master node http://localhost:11311
+[rospy.init][INFO] 2021-05-18 15:51:46,402: registered with master
+[rospy.rosout][INFO] 2021-05-18 15:51:46,402: initializing /rosout core topic
+[rospy.rosout][INFO] 2021-05-18 15:51:46,404: connected to core topic /rosout
+[rospy.simtime][INFO] 2021-05-18 15:51:46,411: initializing /clock core topic
+[rospy.simtime][INFO] 2021-05-18 15:51:46,420: connected to core topic /clock
+[rosout][INFO] 2021-05-18 15:51:46,425: Controller Spawner: Waiting for service controller_manager/load_controller
+[rospy.internal][INFO] 2021-05-18 15:51:46,633: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2021-05-18 15:51:49,566: topic[/clock] adding connection to [http://ubuntu:36257/], count 0
+[rosout][INFO] 2021-05-18 15:51:51,216: Controller Spawner: Waiting for service controller_manager/switch_controller
+[rosout][INFO] 2021-05-18 15:51:51,224: Controller Spawner: Waiting for service controller_manager/unload_controller
+[rosout][INFO] 2021-05-18 15:51:51,230: Loading controller: left_rear_wheel_velocity_controller
+[rosout][INFO] 2021-05-18 15:51:51,351: Loading controller: right_rear_wheel_velocity_controller
+[rosout][INFO] 2021-05-18 15:51:51,479: Loading controller: left_front_wheel_velocity_controller
+[rosout][INFO] 2021-05-18 15:51:51,578: Loading controller: right_front_wheel_velocity_controller
+[rosout][INFO] 2021-05-18 15:51:51,653: Loading controller: left_steering_hinge_position_controller
+[rosout][INFO] 2021-05-18 15:51:51,716: Loading controller: right_steering_hinge_position_controller
+[rosout][INFO] 2021-05-18 15:51:51,775: Loading controller: joint_state_controller
+[rosout][INFO] 2021-05-18 15:51:51,801: Controller Spawner: Loaded controllers: left_rear_wheel_velocity_controller, right_rear_wheel_velocity_controller, left_front_wheel_velocity_controller, right_front_wheel_velocity_controller, left_steering_hinge_position_controller, right_steering_hinge_position_controller, joint_state_controller
+[rosout][INFO] 2021-05-18 15:51:51,816: Started controllers: left_rear_wheel_velocity_controller, right_rear_wheel_velocity_controller, left_front_wheel_velocity_controller, right_front_wheel_velocity_controller, left_steering_hinge_position_controller, right_steering_hinge_position_controller, joint_state_controller
+[rospy.core][INFO] 2021-05-18 15:52:17,419: signal_shutdown [signal-2]
+[rosout][INFO] 2021-05-18 15:52:17,419: Shutting down spawner. Stopping and unloading controllers...
+[rosout][INFO] 2021-05-18 15:52:17,430: Stopping all controllers...
+[rosout][INFO] 2021-05-18 15:52:17,514: Unloading all loaded controllers...
+[rosout][INFO] 2021-05-18 15:52:17,517: Trying to unload joint_state_controller
+[rosout][INFO] 2021-05-18 15:52:17,560: Succeeded in unloading joint_state_controller
+[rosout][INFO] 2021-05-18 15:52:17,564: Trying to unload right_steering_hinge_position_controller
+[rospy.core][INFO] 2021-05-18 15:52:32,486: signal_shutdown [signal-15]
+[rospy.internal][ERROR] 2021-05-18 15:52:32,486: Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 737, in receive_once
+    self.stat_bytes += recv_buff(sock, b, p.buff_size)
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 104, in recv_buff
+    d = sock.recv(buff_size)
+error: [Errno 4] Interrupted system call
+
+[rosout][WARNING] 2021-05-18 15:52:32,487: Controller Spawner error while taking down controllers: transport error completing service call: receive_once[/racecar/controller_manager/unload_controller]: unexpected error [Errno 4] Interrupted system call
+[rospy.internal][INFO] 2021-05-18 15:52:32,491: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2021-05-18 15:52:32,491: topic[/clock] removing connection to http://ubuntu:36257/
+[rospy.impl.masterslave][INFO] 2021-05-18 15:52:32,492: signal-2
+[rospy.core][INFO] 2021-05-18 15:52:32,625: signal_shutdown [atexit]

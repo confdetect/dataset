@@ -1,0 +1,23 @@
+Apr 27 16:17:01 ubuntu CRON[52487]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Apr 27 16:18:27 ubuntu nautilus[20088]: gtk_revealer_set_reveal_child: assertion 'GTK_IS_REVEALER (revealer)' failed
+Apr 27 16:18:41 ubuntu nautilus[20088]: message repeated 5 times: [ gtk_revealer_set_reveal_child: assertion 'GTK_IS_REVEALER (revealer)' failed]
+Apr 27 16:19:17 ubuntu systemd[1]: Starting A high performance web server and a reverse proxy server...
+Apr 27 16:19:17 ubuntu systemd[1]: Started A high performance web server and a reverse proxy server.
+Apr 27 16:19:18 ubuntu systemd[1]: Stopping A high performance web server and a reverse proxy server...
+Apr 27 16:19:18 ubuntu systemd[1]: Stopped A high performance web server and a reverse proxy server.
+Apr 27 16:19:18 ubuntu systemd[1]: Starting A high performance web server and a reverse proxy server...
+Apr 27 16:19:18 ubuntu systemd[1]: Started A high performance web server and a reverse proxy server.
+Apr 27 16:19:40 ubuntu systemd[1]: Stopping A high performance web server and a reverse proxy server...
+Apr 27 16:19:40 ubuntu systemd[1]: Stopped A high performance web server and a reverse proxy server.
+Apr 27 16:19:40 ubuntu systemd[1]: Starting A high performance web server and a reverse proxy server...
+Apr 27 16:19:40 ubuntu nginx[52753]: nginx: [emerg] invalid number of arguments in "gzip_vary" directive in /etc/nginx/nginx.conf:50
+Apr 27 16:19:40 ubuntu nginx[52753]: nginx: configuration file /etc/nginx/nginx.conf test failed
+Apr 27 16:19:40 ubuntu systemd[1]: nginx.service: Control process exited, code=exited status=1
+Apr 27 16:19:40 ubuntu systemd[1]: nginx.service: Failed with result 'exit-code'.
+Apr 27 16:19:40 ubuntu systemd[1]: Failed to start A high performance web server and a reverse proxy server.
+Apr 27 16:19:41 ubuntu systemd[1]: Starting A high performance web server and a reverse proxy server...
+Apr 27 16:19:41 ubuntu nginx[52760]: nginx: [emerg] invalid number of arguments in "gzip_vary" directive in /etc/nginx/nginx.conf:50
+Apr 27 16:19:41 ubuntu nginx[52760]: nginx: configuration file /etc/nginx/nginx.conf test failed
+Apr 27 16:19:41 ubuntu systemd[1]: nginx.service: Control process exited, code=exited status=1
+Apr 27 16:19:41 ubuntu systemd[1]: nginx.service: Failed with result 'exit-code'.
+Apr 27 16:19:41 ubuntu systemd[1]: Failed to start A high performance web server and a reverse proxy server.

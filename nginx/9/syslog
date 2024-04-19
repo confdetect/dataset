@@ -1,0 +1,688 @@
+Apr 26 10:28:34 ubuntu anacron[38177]: Job `cron.daily' started
+Apr 26 10:28:34 ubuntu anacron[39888]: Updated timestamp for job `cron.daily' to 2021-04-26
+Apr 26 10:28:34 ubuntu cracklib: no dictionary update necessary.
+Apr 26 10:28:34 ubuntu systemd[1]: Stopping Make remote CUPS printers available locally...
+Apr 26 10:28:34 ubuntu systemd[1]: Stopped Make remote CUPS printers available locally.
+Apr 26 10:28:34 ubuntu systemd[1]: Stopping CUPS Scheduler...
+Apr 26 10:28:34 ubuntu systemd[1]: Stopped CUPS Scheduler.
+Apr 26 10:28:34 ubuntu systemd[1]: Closed CUPS Scheduler.
+Apr 26 10:28:34 ubuntu systemd[1]: Stopping CUPS Scheduler.
+Apr 26 10:28:34 ubuntu systemd[1]: Listening on CUPS Scheduler.
+Apr 26 10:28:34 ubuntu systemd[1]: Stopped CUPS Scheduler.
+Apr 26 10:28:34 ubuntu systemd[1]: Stopping CUPS Scheduler.
+Apr 26 10:28:34 ubuntu systemd[1]: Started CUPS Scheduler.
+Apr 26 10:28:34 ubuntu systemd[1]: Started CUPS Scheduler.
+Apr 26 10:28:34 ubuntu systemd[1]: Started Make remote CUPS printers available locally.
+Apr 26 10:28:34 ubuntu rsyslogd:  message repeated 47 times: [cannot connect to 192.168.182.128:514: No route to host [v8.32.0 try http://www.rsyslog.com/e/2027 ]]
+Apr 26 10:28:34 ubuntu rsyslogd:  [origin software="rsyslogd" swVersion="8.32.0" x-pid="685" x-info="http://www.rsyslog.com"] rsyslogd was HUPed
+Apr 26 10:28:37 ubuntu rsyslogd:  [origin software="rsyslogd" swVersion="8.32.0" x-pid="685" x-info="http://www.rsyslog.com"] rsyslogd was HUPed
+Apr 26 10:28:37 ubuntu rsyslogd: cannot connect to 192.168.182.128:514: No route to host [v8.32.0 try http://www.rsyslog.com/e/2027 ]
+Apr 26 10:28:41 ubuntu anacron[38177]: Job `cron.daily' terminated
+Apr 26 10:28:47 ubuntu check-new-relea[40033]: GtkDialog mapped without a transient parent. This is discouraged.
+Apr 26 10:28:48 ubuntu update-notifier.desktop[2521]: /usr/lib/ubuntu-release-upgrader/check-new-release-gtk:30: PyGIWarning: Gtk was imported without specifying a version first. Use gi.require_version('Gtk', '3.0') before import to ensure that the right version gets loaded.
+Apr 26 10:28:48 ubuntu update-notifier.desktop[2521]:   from gi.repository import Gtk
+Apr 26 10:29:23 ubuntu systemd-timesyncd[583]: Synchronized to time server 91.189.94.4:123 (ntp.ubuntu.com).
+Apr 26 10:30:47 ubuntu nautilus[20088]: gtk_revealer_set_reveal_child: assertion 'GTK_IS_REVEALER (revealer)' failed
+Apr 26 10:30:51 ubuntu nautilus[20088]: message repeated 3 times: [ gtk_revealer_set_reveal_child: assertion 'GTK_IS_REVEALER (revealer)' failed]
+Apr 26 10:33:34 ubuntu anacron[38177]: Job `cron.weekly' started
+Apr 26 10:33:34 ubuntu anacron[40302]: Updated timestamp for job `cron.weekly' to 2021-04-26
+Apr 26 10:33:34 ubuntu anacron[38177]: Job `cron.weekly' terminated
+Apr 26 10:35:35 ubuntu dhclient[38235]: DHCPREQUEST of 192.168.182.129 on ens33 to 192.168.182.254 port 67 (xid=0x2d07db49)
+Apr 26 10:35:35 ubuntu dhclient[38235]: DHCPACK of 192.168.182.129 from 192.168.182.254
+Apr 26 10:35:35 ubuntu NetworkManager[686]: <info>  [1619404535.3170] dhcp4 (ens33):   address 192.168.182.129
+Apr 26 10:35:35 ubuntu NetworkManager[686]: <info>  [1619404535.3181] dhcp4 (ens33):   plen 24 (255.255.255.0)
+Apr 26 10:35:35 ubuntu NetworkManager[686]: <info>  [1619404535.3182] dhcp4 (ens33):   gateway 192.168.182.2
+Apr 26 10:35:35 ubuntu NetworkManager[686]: <info>  [1619404535.3182] dhcp4 (ens33):   lease time 1800
+Apr 26 10:35:35 ubuntu NetworkManager[686]: <info>  [1619404535.3182] dhcp4 (ens33):   nameserver '192.168.182.2'
+Apr 26 10:35:35 ubuntu NetworkManager[686]: <info>  [1619404535.3182] dhcp4 (ens33):   domain name 'localdomain'
+Apr 26 10:35:35 ubuntu NetworkManager[686]: <info>  [1619404535.3183] dhcp4 (ens33):   wins '192.168.182.2'
+Apr 26 10:35:35 ubuntu NetworkManager[686]: <info>  [1619404535.3184] dhcp4 (ens33): state changed bound -> bound
+Apr 26 10:35:35 ubuntu dbus-daemon[662]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.10' (uid=0 pid=686 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Apr 26 10:35:35 ubuntu systemd[1]: Starting Network Manager Script Dispatcher Service...
+Apr 26 10:35:35 ubuntu dhclient[38235]: bound to 192.168.182.129 -- renewal in 854 seconds.
+Apr 26 10:35:35 ubuntu dbus-daemon[662]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Apr 26 10:35:35 ubuntu systemd[1]: Started Network Manager Script Dispatcher Service.
+Apr 26 10:35:35 ubuntu nm-dispatcher: req:1 'dhcp4-change' [ens33]: new request (1 scripts)
+Apr 26 10:35:35 ubuntu nm-dispatcher: req:1 'dhcp4-change' [ens33]: start running ordered scripts...
+Apr 26 10:37:15 ubuntu systemd[1]: Starting A high performance web server and a reverse proxy server...
+Apr 26 10:37:15 ubuntu systemd[1]: Started A high performance web server and a reverse proxy server.
+Apr 26 10:37:17 ubuntu systemd[1]: Stopping A high performance web server and a reverse proxy server...
+Apr 26 10:37:17 ubuntu systemd[1]: Stopped A high performance web server and a reverse proxy server.
+Apr 26 10:37:17 ubuntu systemd[1]: Starting A high performance web server and a reverse proxy server...
+Apr 26 10:37:17 ubuntu systemd[1]: nginx.service: Failed to parse PID from file /run/nginx.pid: Invalid argument
+Apr 26 10:37:17 ubuntu systemd[1]: Started A high performance web server and a reverse proxy server.
+Apr 26 10:37:18 ubuntu systemd[1]: Stopping A high performance web server and a reverse proxy server...
+Apr 26 10:37:18 ubuntu systemd[1]: Stopped A high performance web server and a reverse proxy server.
+Apr 26 10:37:18 ubuntu systemd[1]: Starting A high performance web server and a reverse proxy server...
+Apr 26 10:37:18 ubuntu systemd[1]: Started A high performance web server and a reverse proxy server.
+Apr 26 10:37:30 ubuntu rtkit-daemon[1519]: Supervising 4 threads of 2 processes of 1 users.
+Apr 26 10:37:30 ubuntu rtkit-daemon[1519]: Supervising 4 threads of 2 processes of 1 users.
+Apr 26 10:37:56 ubuntu systemd[1]: Stopping A high performance web server and a reverse proxy server...
+Apr 26 10:37:56 ubuntu systemd[1]: Stopped A high performance web server and a reverse proxy server.
+Apr 26 10:37:56 ubuntu systemd[1]: Starting A high performance web server and a reverse proxy server...
+Apr 26 10:37:56 ubuntu nginx[40425]: nginx: [emerg] unknown directive "tcp_no_push" in /etc/nginx/nginx.conf:18
+Apr 26 10:37:56 ubuntu nginx[40425]: nginx: configuration file /etc/nginx/nginx.conf test failed
+Apr 26 10:37:56 ubuntu systemd[1]: nginx.service: Control process exited, code=exited status=1
+Apr 26 10:37:56 ubuntu systemd[1]: nginx.service: Failed with result 'exit-code'.
+Apr 26 10:37:56 ubuntu systemd[1]: Failed to start A high performance web server and a reverse proxy server.
+Apr 26 10:37:57 ubuntu systemd[1]: Starting A high performance web server and a reverse proxy server...
+Apr 26 10:37:57 ubuntu nginx[40432]: nginx: [emerg] unknown directive "tcp_no_push" in /etc/nginx/nginx.conf:18
+Apr 26 10:37:57 ubuntu nginx[40432]: nginx: configuration file /etc/nginx/nginx.conf test failed
+Apr 26 10:37:57 ubuntu systemd[1]: nginx.service: Control process exited, code=exited status=1
+Apr 26 10:37:57 ubuntu systemd[1]: nginx.service: Failed with result 'exit-code'.
+Apr 26 10:37:57 ubuntu systemd[1]: Failed to start A high performance web server and a reverse proxy server.
+Apr 26 10:38:21 ubuntu nautilus[20088]: gtk_revealer_set_reveal_child: assertion 'GTK_IS_REVEALER (revealer)' failed
+Apr 26 10:38:29 ubuntu nautilus[20088]: message repeated 3 times: [ gtk_revealer_set_reveal_child: assertion 'GTK_IS_REVEALER (revealer)' failed]
+Apr 26 10:38:34 ubuntu anacron[38177]: Job `cron.monthly' started
+Apr 26 10:38:34 ubuntu anacron[38177]: Job `cron.monthly' terminated
+Apr 26 10:38:34 ubuntu anacron[38177]: Normal exit (3 jobs run)
+Apr 26 10:38:34 ubuntu anacron[40452]: Updated timestamp for job `cron.monthly' to 2021-04-26
+Apr 26 10:39:02 ubuntu dbus-daemon[662]: [system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service' requested by ':1.272' (uid=1000 pid=20088 comm="/usr/bin/nautilus --gapplication-service " label="unconfined")
+Apr 26 10:39:02 ubuntu systemd[1]: Starting Hostname Service...
+Apr 26 10:39:02 ubuntu dbus-daemon[662]: [system] Successfully activated service 'org.freedesktop.hostname1'
+Apr 26 10:39:02 ubuntu systemd[1]: Started Hostname Service.
+Apr 26 10:39:09 ubuntu nautilus[20088]: gtk_revealer_set_reveal_child: assertion 'GTK_IS_REVEALER (revealer)' failed
+Apr 26 10:39:09 ubuntu nautilus[20088]: gtk_revealer_set_reveal_child: assertion 'GTK_IS_REVEALER (revealer)' failed
+Apr 26 10:39:42 ubuntu nautilus[20088]: gtk_revealer_set_reveal_child: assertion 'GTK_IS_REVEALER (revealer)' failed
+Apr 26 10:39:42 ubuntu nautilus[20088]: gtk_revealer_set_reveal_child: assertion 'GTK_IS_REVEALER (revealer)' failed
+Apr 26 10:41:50 ubuntu /usr/lib/gdm3/gdm-x-session[1693]: 2021-04-25 13:47:59:019 [1812:139856358910080] SOGOU: virtual bool CSogouShellPCPy::NeedInsert(int) INFO: -----------======---capital = 0, vkey = 27, laskkey = 27, down = 0.
+Apr 26 10:41:50 ubuntu /usr/lib/gdm3/gdm-x-session[1693]: 2021-04-25 13:47:59:019 [1812:139856358910080] SOGOU: n_sgxx::UINT ImeProcessKey_L(n_sgxx::UINT, DWORD, const BYTE*) INFO: ImeProcessKey:1b
+Apr 26 10:41:50 ubuntu /usr/lib/gdm3/gdm-x-session[1693]:  
+Apr 26 10:41:50 ubuntu /usr/lib/gdm3/gdm-x-session[1693]: 2021-04-25 13:47:59:019 [1812:139856358910080] SOGOU: virtual n_sgxx::UINT ImeState::ImeProcessKey2(ImeContext*, t_dataImc*, n_sgxx::UINT, DWORD, const BYTE*, t_env*) INFO: ImeProcessKey2, unScancode = 0xc0010001, vk =
+Apr 26 10:41:50 ubuntu /usr/lib/gdm3/gdm-x-session[1693]: 2021-04-25 14:00:40:812 [1812:139855465969408] SOGOU: virtual bool CSogouShellPCPy::SetParam(unsigned int, unsigned int) INFO: -----==SaveDict---
+Apr 26 10:41:50 ubuntu /usr/lib/gdm3/gdm-x-session[1693]: 2021-04-25 14:30:40:887 [1812:139855465969408] SOGOU: virtual bool CSogouShellPCPy::SetParam(unsigned int, unsigned int) INFO: -----==SaveDict---
+Apr 26 10:41:50 ubuntu /usr/lib/gdm3/gdm-x-session[1693]: 2021-04-25 15:00:40:899 [1812:139855465969408] SOGOU: virtual bool CSogouShellPCPy::SetParam(unsigned int, unsigned int) INFO: -----==SaveDict---
+Apr 26 10:41:50 ubuntu /usr/lib/gdm3/gdm-x-session[1693]: 2021-04-25 15:30:40:912 [1812:139855465969408] SOGOU: virtual bool CSogouShellPCPy::SetParam(unsigned int, unsigned int) INFO: -----==SaveDict---
+Apr 26 10:41:50 ubuntu /usr/lib/gdm3/gdm-x-session[1693]: 2021-04-25 20:02:00:140 [1812:139855465969408] SOGOU: virtual bool CSogouShellPCPy::SetParam(unsigned int, unsigned int) INFO: -----==SaveDict---
+Apr 26 10:41:50 ubuntu /usr/lib/gdm3/gdm-x-session[1693]: 2021-04-26 10:41:48:741 [1812:139856358910080] SOGOU: virtual bool CSogouShellPCPy::NeedInsert(int) INFO: -----------======---capital = 0, vkey = 13, laskkey = 27, down = 1.
+Apr 26 10:41:50 ubuntu /usr/lib/gdm3/gdm-x-session[1693]: 2021-04-26 10:41:48:747 [1812:139856358910080] SOGOU: n_sgxx::UINT ImeProcessKey_L(n_sgxx::UINT, DWORD, const BYTE*) INFO: ImeProcessKey:0d
+Apr 26 10:41:50 ubuntu /usr/lib/gdm3/gdm-x-session[1693]:  
+Apr 26 10:41:50 ubuntu /usr/lib/gdm3/gdm-x-session[1693]: 2021-04-26 10:41:48:756 [1812:139856358910080] SOGOU: virtual n_sgxx::UINT ImeState::ImeProcessKey2(ImeContext*, t_dataImc*, n_sgxx::UINT, DWORD, const BYTE*, t_env*) INFO: ImeProcessKey2, unScancode = 0x001c0001, vk =
+Apr 26 10:41:50 ubuntu /usr/lib/gdm3/gdm-x-session[1693]: 2021-04-26 10:41:48:758 [1812:139856358910080] SOGOU: virtual int CSogouShellPCPy::GetInfo(unsigned int) INFO: -----------======---m_nSimulateKey = 0
+Apr 26 10:41:50 ubuntu /usr/lib/gdm3/gdm-x-session[1693]: 2021-04-26 10:41:48:880 [1812:139856358910080] SOGOU: virtual bool CSogouShellPCPy::NeedInsert(int) INFO: -----------======---capital = 0, vkey = 13, laskkey = 13, down = 0.
+Apr 26 10:41:50 ubuntu /usr/lib/gdm3/gdm-x-session[1693]: 2021-04-26 10:41:48:880 [1812:139856358910080] SOGOU: n_sgxx::UINT ImeProcessKey_L(n_sgxx::UINT, DWORD, const BYTE*) INFO: ImeProcessKey:0d
+Apr 26 10:41:50 ubuntu /usr/lib/gdm3/gdm-x-session[1693]:  
+Apr 26 10:41:50 ubuntu /usr/lib/gdm3/gdm-x-session[1693]: 2021-04-26 10:41:48:880 [1812:139856358910080] SOGOU: virtual n_sgxx::UINT ImeState::ImeProcessKey2(ImeContext*, t_dataImc*, n_sgxx::UINT, DWORD, const BYTE*, t_env*) INFO: ImeProcessKey2, unScancode = 0xc01c0001, vk =
+Apr 26 10:41:50 ubuntu /usr/lib/gdm3/gdm-x-session[1693]: 2021-04-26 10:41:48:880 [1812:139856358910080] SOGOU: virtual int CSogouShellPCPy::GetInfo(unsigned int) INFO: -----------======---m_nSimulateKey = 0
+Apr 26 10:41:50 ubuntu /usr/lib/gdm3/gdm-x-session[1693]: 2021-04-26 10:41:49:849 [1812:139856358910080] SOGOU: virtual bool CSogouShellPCPy::NeedInsert(int) INFO: -----------======---capital = 0, vkey = 38, laskkey = 13, down = 1.
+Apr 26 10:41:50 ubuntu /usr/lib/gdm3/gdm-x-session[1693]: 2021-04-26 10:41:49:850 [1812:139856358910080] SOGOU: n_sgxx::UINT ImeProcessKey_L(n_sgxx::UINT, DWORD, const BYTE*) INFO: ImeProcessKey:26
+Apr 26 10:41:50 ubuntu /usr/lib/gdm3/gdm-x-session[1693]:  
+Apr 26 10:41:50 ubuntu /usr/lib/gdm3/gdm-x-session[1693]: 2021-04-26 10:41:49:850 [1812:139856358910080] SOGOU: virtual n_sgxx::UINT ImeState::ImeProcessKey2(ImeContext*, t_dataImc*, n_sgxx::UINT, DWORD, const BYTE*, t_env*) INFO: ImeProcessKey2, unScancode = 0x01480001, vk =
+Apr 26 10:41:50 ubuntu /usr/lib/gdm3/gdm-x-session[1693]: 2021-04-26 10:41:49:850 [1812:139856358910080] SOGOU: virtual int CSogouShellPCPy::GetInfo(unsigned int) INFO: -----------======---m_nSimulateKey = 0
+Apr 26 10:41:50 ubuntu /usr/lib/gdm3/gdm-x-session[1693]: 2021-04-26 10:41:49:945 [1812:139856358910080] SOGOU: virtual bool CSogouShellPCPy::NeedInsert(int) INFO: -----------======---capital = 0, vkey = 38, laskkey = 38, down = 0.
+Apr 26 10:41:50 ubuntu /usr/lib/gdm3/gdm-x-session[1693]: 2021-04-26 10:41:49:945 [1812:139856358910080] SOGOU: n_sgxx::UINT ImeProcessKey_L(n_sgxx::UINT, DWORD, const BYTE*) INFO: ImeProcessKey:26
+Apr 26 10:41:50 ubuntu /usr/lib/gdm3/gdm-x-session[1693]:  
+Apr 26 10:41:50 ubuntu /usr/lib/gdm3/gdm-x-session[1693]: 2021-04-26 10:41:49:945 [1812:139856358910080] SOGOU: virtual n_sgxx::UINT ImeState::ImeProcessKey2(ImeContext*, t_dataImc*, n_sgxx::UINT, DWORD, const BYTE*, t_env*) INFO: ImeProcessKey2, unScancode = 0xc1480001, vk =
+Apr 26 10:41:50 ubuntu /usr/lib/gdm3/gdm-x-session[1693]: 2021-04-26 10:41:49:946 [1812:139856358910080] SOGOU: virtual int CSogouShellPCPy::GetInfo(unsigned int) INFO: -----------======---m_nSimulateKey = 0
+Apr 26 10:41:50 ubuntu systemd[1]: Starting A high performance web server and a reverse proxy server...
+Apr 26 10:41:50 ubuntu systemd[1]: Started A high performance web server and a reverse proxy server.
+Apr 26 10:41:51 ubuntu /usr/lib/gdm3/gdm-x-session[1693]: 2021-04-26 10:41:50:079 [1812:139856358910080] SOGOU: virtual bool CSogouShellPCPy::NeedInsert(int) INFO: -----------======---capital = 0, vkey = 38, laskkey = 38, down = 1.
+Apr 26 10:41:51 ubuntu /usr/lib/gdm3/gdm-x-session[1693]: 2021-04-26 10:41:50:083 [1812:139856358910080] SOGOU: n_sgxx::UINT ImeProcessKey_L(n_sgxx::UINT, DWORD, const BYTE*) INFO: ImeProcessKey:26
+Apr 26 10:41:51 ubuntu /usr/lib/gdm3/gdm-x-session[1693]:  
+Apr 26 10:41:51 ubuntu /usr/lib/gdm3/gdm-x-session[1693]: 2021-04-26 10:41:50:084 [1812:139856358910080] SOGOU: virtual n_sgxx::UINT ImeState::ImeProcessKey2(ImeContext*, t_dataImc*, n_sgxx::UINT, DWORD, const BYTE*, t_env*) INFO: ImeProcessKey2, unScancode = 0x01480001, vk =
+Apr 26 10:41:51 ubuntu /usr/lib/gdm3/gdm-x-session[1693]: 2021-04-26 10:41:50:084 [1812:139856358910080] SOGOU: virtual int CSogouShellPCPy::GetInfo(unsigned int) INFO: -----------======---m_nSimulateKey = 0
+Apr 26 10:41:51 ubuntu /usr/lib/gdm3/gdm-x-session[1693]: 2021-04-26 10:41:50:129 [1812:139856358910080] SOGOU: virtual bool CSogouShellPCPy::NeedInsert(int) INFO: -----------======---capital = 0, vkey = 38, laskkey = 38, down = 0.
+Apr 26 10:41:51 ubuntu /usr/lib/gdm3/gdm-x-session[1693]: 2021-04-26 10:41:50:129 [1812:139856358910080] SOGOU: n_sgxx::UINT ImeProcessKey_L(n_sgxx::UINT, DWORD, const BYTE*) INFO: ImeProcessKey:26
+Apr 26 10:41:51 ubuntu /usr/lib/gdm3/gdm-x-session[1693]:  
+Apr 26 10:41:51 ubuntu /usr/lib/gdm3/gdm-x-session[1693]: 2021-04-26 10:41:50:129 [1812:139856358910080] SOGOU: virtual n_sgxx::UINT ImeState::ImeProcessKey2(ImeContext*, t_dataImc*, n_sgxx::UINT, DWORD, const BYTE*, t_env*) INFO: ImeProcessKey2, unScancode = 0xc1480001, vk =
+Apr 26 10:41:51 ubuntu /usr/lib/gdm3/gdm-x-session[1693]: 2021-04-26 10:41:50:129 [1812:139856358910080] SOGOU: virtual int CSogouShellPCPy::GetInfo(unsigned int) INFO: -----------======---m_nSimulateKey = 0
+Apr 26 10:41:51 ubuntu /usr/lib/gdm3/gdm-x-session[1693]: 2021-04-26 10:41:50:393 [1812:139856358910080] SOGOU: virtual bool CSogouShellPCPy::NeedInsert(int) INFO: -----------======---capital = 0, vkey = 13, laskkey = 38, down = 1.
+Apr 26 10:41:51 ubuntu /usr/lib/gdm3/gdm-x-session[1693]: 2021-04-26 10:41:50:393 [1812:139856358910080] SOGOU: n_sgxx::UINT ImeProcessKey_L(n_sgxx::UINT, DWORD, const BYTE*) INFO: ImeProcessKey:0d
+Apr 26 10:41:51 ubuntu /usr/lib/gdm3/gdm-x-session[1693]:  
+Apr 26 10:41:51 ubuntu /usr/lib/gdm3/gdm-x-session[1693]: 2021-04-26 10:41:50:393 [1812:139856358910080] SOGOU: virtual n_sgxx::UINT ImeState::ImeProcessKey2(ImeContext*, t_dataImc*, n_sgxx::UINT, DWORD, const BYTE*, t_env*) INFO: ImeProcessKey2, unScancode = 0x001c0001, vk =
+Apr 26 10:41:51 ubuntu /usr/lib/gdm3/gdm-x-session[1693]: 2021-04-26 10:41:50:393 [1812:139856358910080] SOGOU: virtual int CSogouShellPCPy::GetInfo(unsigned int) INFO: -----------======---m_nSimulateKey = 0
+Apr 26 10:41:51 ubuntu /usr/lib/gdm3/gdm-x-session[1693]: 2021-04-26 10:41:50:537 [1812:139856358910080] SOGOU: virtual bool CSogouShellPCPy::NeedInsert(int) INFO: -----------======---capital = 0, vkey = 13, laskkey = 13, down = 0.
+Apr 26 10:41:51 ubuntu /usr/lib/gdm3/gdm-x-session[1693]: 2021-04-26 10:41:50:537 [1812:139856358910080] SOGOU: n_sgxx::UINT ImeProcessKey_L(n_sgxx::UINT, DWORD, const BYTE*) INFO: ImeProcessKey:0d
+Apr 26 10:41:51 ubuntu /usr/lib/gdm3/gdm-x-session[1693]:  
+Apr 26 10:41:51 ubuntu /usr/lib/gdm3/gdm-x-session[1693]: 2021-04-26 10:41:50:537 [1812:139856358910080] SOGOU: virtual n_sgxx::UINT ImeState::ImeProcessKey2(ImeContext*, t_dataImc*, n_sgxx::UINT, DWORD, const BYTE*, t_env*) INFO: ImeProcessKey2, unScancode = 0xc01c0001, vk =
+Apr 26 10:41:51 ubuntu /usr/lib/gdm3/gdm-x-session[1693]: 2021-04-26 10:41:50:537 [1812:139856358910080] SOGOU: virtual int CSogouShellPCPy::GetInfo(unsigned int) INFO: -----------======---m_nSimulateKey = 0
+Apr 26 10:41:51 ubuntu /usr/lib/gdm3/gdm-x-session[1693]: 2021-04-26 10:41:51:113 [1812:139856358910080] SOGOU: virtual bool CSogouShellPCPy::NeedInsert(int) INFO: -----------======---capital = 0, vkey = 38, laskkey = 13, down = 1.
+Apr 26 10:41:51 ubuntu /usr/lib/gdm3/gdm-x-session[1693]: 2021-04-26 10:41:51:113 [1812:139856358910080] SOGOU: n_sgxx::UINT ImeProcessKey_L(n_sgxx::UINT, DWORD, const BYTE*) INFO: ImeProcessKey:26
+Apr 26 10:41:51 ubuntu /usr/lib/gdm3/gdm-x-session[1693]:  
+Apr 26 10:41:51 ubuntu /usr/lib/gdm3/gdm-x-session[1693]: 2021-04-26 10:41:51:113 [1812:139856358910080] SOGOU: virtual n_sgxx::UINT ImeState::ImeProcessKey2(ImeContext*, t_dataImc*, n_sgxx::UINT, DWORD, const BYTE*, t_env*) INFO: ImeProcessKey2, unScancode = 0x01480001, vk =
+Apr 26 10:41:51 ubuntu /usr/lib/gdm3/gdm-x-session[1693]: 2021-04-26 10:41:51:114 [1812:139856358910080] SOGOU: virtual int CSogouShellPCPy::GetInfo(unsigned int) INFO: -----------======---m_nSimulateKey = 0
+Apr 26 10:41:51 ubuntu /usr/lib/gdm3/gdm-x-session[1693]: 2021-04-26 10:41:51:250 [1812:139856358910080] SOGOU: virtual bool CSogouShellPCPy::NeedInsert(int) INFO: -----------======---capital = 0, vkey = 38, laskkey = 38, down = 0.
+Apr 26 10:41:51 ubuntu /usr/lib/gdm3/gdm-x-session[1693]: 2021-04-26 10:41:51:250 [1812:139856358910080] SOGOU: n_sgxx::UINT ImeProcessKey_L(n_sgxx::UINT, DWORD, const BYTE*) INFO: ImeProcessKey:26
+Apr 26 10:41:51 ubuntu /usr/lib/gdm3/gdm-x-session[1693]:  
+Apr 26 10:41:51 ubuntu /usr/lib/gdm3/gdm-x-session[1693]: 2021-04-26 10:41:51:250 [1812:139856358910080] SOGOU: virtual n_sgxx::UINT ImeState::ImeProcessKey2(ImeContext*, t_dataImc*, n_sgxx::UINT, DWORD, const BYTE*, t_env*) INFO: ImeProcessKey2, unScancode = 0xc1480001, vk =
+Apr 26 10:41:51 ubuntu /usr/lib/gdm3/gdm-x-session[1693]: 2021-04-26 10:41:51:250 [1812:139856358910080] SOGOU: virtual int CSogouShellPCPy::GetInfo(unsigned int) INFO: -----------======---m_nSimulateKey = 0
+Apr 26 10:41:51 ubuntu systemd[1]: Stopping A high performance web server and a reverse proxy server...
+Apr 26 10:41:51 ubuntu systemd[1]: Stopped A high performance web server and a reverse proxy server.
+Apr 26 10:41:51 ubuntu systemd[1]: Starting A high performance web server and a reverse proxy server...
+Apr 26 10:41:51 ubuntu systemd[1]: Started A high performance web server and a reverse proxy server.
+Apr 26 10:42:02 ubuntu /usr/lib/gdm3/gdm-x-session[1693]: 2021-04-26 10:41:51:481 [1812:139856358910080] SOGOU: virtual bool CSogouShellPCPy::NeedInsert(int) INFO: -----------======---capital = 0, vkey = 13, laskkey = 38, down = 1.
+Apr 26 10:42:02 ubuntu /usr/lib/gdm3/gdm-x-session[1693]: 2021-04-26 10:41:51:481 [1812:139856358910080] SOGOU: n_sgxx::UINT ImeProcessKey_L(n_sgxx::UINT, DWORD, const BYTE*) INFO: ImeProcessKey:0d
+Apr 26 10:42:02 ubuntu /usr/lib/gdm3/gdm-x-session[1693]:  
+Apr 26 10:42:02 ubuntu /usr/lib/gdm3/gdm-x-session[1693]: 2021-04-26 10:41:51:481 [1812:139856358910080] SOGOU: virtual n_sgxx::UINT ImeState::ImeProcessKey2(ImeContext*, t_dataImc*, n_sgxx::UINT, DWORD, const BYTE*, t_env*) INFO: ImeProcessKey2, unScancode = 0x001c0001, vk =
+Apr 26 10:42:02 ubuntu /usr/lib/gdm3/gdm-x-session[1693]: 2021-04-26 10:41:51:481 [1812:139856358910080] SOGOU: virtual int CSogouShellPCPy::GetInfo(unsigned int) INFO: -----------======---m_nSimulateKey = 0
+Apr 26 10:42:02 ubuntu /usr/lib/gdm3/gdm-x-session[1693]: 2021-04-26 10:41:51:592 [1812:139856358910080] SOGOU: virtual bool CSogouShellPCPy::NeedInsert(int) INFO: -----------======---capital = 0, vkey = 13, laskkey = 13, down = 0.
+Apr 26 10:42:02 ubuntu /usr/lib/gdm3/gdm-x-session[1693]: 2021-04-26 10:41:51:592 [1812:139856358910080] SOGOU: n_sgxx::UINT ImeProcessKey_L(n_sgxx::UINT, DWORD, const BYTE*) INFO: ImeProcessKey:0d
+Apr 26 10:42:02 ubuntu /usr/lib/gdm3/gdm-x-session[1693]:  
+Apr 26 10:42:02 ubuntu /usr/lib/gdm3/gdm-x-session[1693]: 2021-04-26 10:41:51:592 [1812:139856358910080] SOGOU: virtual n_sgxx::UINT ImeState::ImeProcessKey2(ImeContext*, t_dataImc*, n_sgxx::UINT, DWORD, const BYTE*, t_env*) INFO: ImeProcessKey2, unScancode = 0xc01c0001, vk =
+Apr 26 10:42:02 ubuntu /usr/lib/gdm3/gdm-x-session[1693]: 2021-04-26 10:41:51:592 [1812:139856358910080] SOGOU: virtual int CSogouShellPCPy::GetInfo(unsigned int) INFO: -----------======---m_nSimulateKey = 0
+Apr 26 10:42:02 ubuntu /usr/lib/gdm3/gdm-x-session[1693]: 2021-04-26 10:41:53:142 [1812:139856358910080] SOGOU: virtual bool CSogouShellPCPy::NeedInsert(int) INFO: -----------======---capital = 0, vkey = 27, laskkey = 13, down = 1.
+Apr 26 10:42:02 ubuntu /usr/lib/gdm3/gdm-x-session[1693]: 2021-04-26 10:41:53:142 [1812:139856358910080] SOGOU: n_sgxx::UINT ImeProcessKey_L(n_sgxx::UINT, DWORD, const BYTE*) INFO: ImeProcessKey:1b
+Apr 26 10:42:02 ubuntu /usr/lib/gdm3/gdm-x-session[1693]:  
+Apr 26 10:42:02 ubuntu /usr/lib/gdm3/gdm-x-session[1693]: 2021-04-26 10:41:53:142 [1812:139856358910080] SOGOU: virtual n_sgxx::UINT ImeState::ImeProcessKey2(ImeContext*, t_dataImc*, n_sgxx::UINT, DWORD, const BYTE*, t_env*) INFO: ImeProcessKey2, unScancode = 0x00010001, vk =
+Apr 26 10:42:02 ubuntu /usr/lib/gdm3/gdm-x-session[1693]: 2021-04-26 10:41:53:142 [1812:139856358910080] SOGOU: virtual bool CSogouShellPCPy::NeedInsert(int) INFO: -----------======---capital = 0, vkey = 27, laskkey = 27, down = 0.
+Apr 26 10:42:02 ubuntu /usr/lib/gdm3/gdm-x-session[1693]: 2021-04-26 10:41:53:142 [1812:139856358910080] SOGOU: n_sgxx::UINT ImeProcessKey_L(n_sgxx::UINT, DWORD, const BYTE*) INFO: ImeProcessKey:1b
+Apr 26 10:42:02 ubuntu /usr/lib/gdm3/gdm-x-session[1693]:  
+Apr 26 10:42:02 ubuntu /usr/lib/gdm3/gdm-x-session[1693]: 2021-04-26 10:41:53:142 [1812:139856358910080] SOGOU: virtual n_sgxx::UINT ImeState::ImeProcessKey2(ImeContext*, t_dataImc*, n_sgxx::UINT, DWORD, const BYTE*, t_env*) INFO: ImeProcessKey2, unScancode = 0xc0010001, vk =
+Apr 26 10:42:02 ubuntu /usr/lib/gdm3/gdm-x-session[1693]: 2021-04-26 10:42:01:883 [1812:139856358910080] SOGOU: virtual bool CSogouShellPCPy::NeedInsert(int) INFO: -----------======---capital = 0, vkey = 160, laskkey = 27, down = 1.
+Apr 26 10:42:02 ubuntu /usr/lib/gdm3/gdm-x-session[1693]: 2021-04-26 10:42:01:883 [1812:139856358910080] SOGOU: n_sgxx::UINT ImeProcessKey_L(n_sgxx::UINT, DWORD, const BYTE*) INFO: ImeProcessKey:a0
+Apr 26 10:42:02 ubuntu /usr/lib/gdm3/gdm-x-session[1693]:  
+Apr 26 10:42:02 ubuntu /usr/lib/gdm3/gdm-x-session[1693]: 2021-04-26 10:42:01:883 [1812:139856358910080] SOGOU: virtual n_sgxx::UINT ImeState::ImeProcessKey2(ImeContext*, t_dataImc*, n_sgxx::UINT, DWORD, const BYTE*, t_env*) INFO: ImeProcessKey2, unScancode = 0x002a0001, vk =
+Apr 26 10:42:02 ubuntu /usr/lib/gdm3/gdm-x-session[1693]: 2021-04-26 10:42:01:883 [1812:139856358910080] SOGOU: virtual int CSogouShellPCPy::GetInfo(unsigned int) INFO: -----------======---m_nSimulateKey = 0
+Apr 26 10:42:02 ubuntu /usr/lib/gdm3/gdm-x-session[1693]: 2021-04-26 10:42:02:058 [1812:139856358910080] SOGOU: virtual bool CSogouShellPCPy::NeedInsert(int) INFO: -----------======---capital = 0, vkey = 27, laskkey = 160, down = 1.
+Apr 26 10:42:02 ubuntu /usr/lib/gdm3/gdm-x-session[1693]: 2021-04-26 10:42:02:058 [1812:139856358910080] SOGOU: n_sgxx::UINT ImeProcessKey_L(n_sgxx::UINT, DWORD, const BYTE*) INFO: ImeProcessKey:1b
+Apr 26 10:42:02 ubuntu /usr/lib/gdm3/gdm-x-session[1693]:  
+Apr 26 10:42:02 ubuntu /usr/lib/gdm3/gdm-x-session[1693]: 2021-04-26 10:42:02:058 [1812:139856358910080] SOGOU: virtual n_sgxx::UINT ImeState::ImeProcessKey2(ImeContext*, t_dataImc*, n_sgxx::UINT, DWORD, const BYTE*, t_env*) INFO: ImeProcessKey2, unScancode = 0x00010001, vk =
+Apr 26 10:42:02 ubuntu /usr/lib/gdm3/gdm-x-session[1693]: 2021-04-26 10:42:02:058 [1812:139856358910080] SOGOU: virtual bool CSogouShellPCPy::NeedInsert(int) INFO: -----------======---capital = 0, vkey = 27, laskkey = 27, down = 0.
+Apr 26 10:42:02 ubuntu /usr/lib/gdm3/gdm-x-session[1693]: 2021-04-26 10:42:02:058 [1812:139856358910080] SOGOU: n_sgxx::UINT ImeProcessKey_L(n_sgxx::UINT, DWORD, const BYTE*) INFO: ImeProcessKey:1b
+Apr 26 10:42:02 ubuntu /usr/lib/gdm3/gdm-x-session[1693]:  
+Apr 26 10:42:09 ubuntu /usr/lib/gdm3/gdm-x-session[1693]: 2021-04-26 10:42:02:059 [1812:139856358910080] SOGOU: virtual n_sgxx::UINT ImeState::ImeProcessKey2(ImeContext*, t_dataImc*, n_sgxx::UINT, DWORD, const BYTE*, t_env*) INFO: ImeProcessKey2, unScancode = 0xc0010001, vk =
+Apr 26 10:42:09 ubuntu /usr/lib/gdm3/gdm-x-session[1693]: 2021-04-26 10:42:04:097 [1812:139856358910080] SOGOU: virtual bool CSogouShellPCPy::NeedInsert(int) INFO: -----------======---capital = 0, vkey = 27, laskkey = 27, down = 1.
+Apr 26 10:42:09 ubuntu /usr/lib/gdm3/gdm-x-session[1693]: 2021-04-26 10:42:04:097 [1812:139856358910080] SOGOU: n_sgxx::UINT ImeProcessKey_L(n_sgxx::UINT, DWORD, const BYTE*) INFO: ImeProcessKey:1b
+Apr 26 10:42:09 ubuntu /usr/lib/gdm3/gdm-x-session[1693]:  
+Apr 26 10:42:09 ubuntu /usr/lib/gdm3/gdm-x-session[1693]: 2021-04-26 10:42:04:097 [1812:139856358910080] SOGOU: virtual n_sgxx::UINT ImeState::ImeProcessKey2(ImeContext*, t_dataImc*, n_sgxx::UINT, DWORD, const BYTE*, t_env*) INFO: ImeProcessKey2, unScancode = 0x00010001, vk =
+Apr 26 10:42:09 ubuntu /usr/lib/gdm3/gdm-x-session[1693]: 2021-04-26 10:42:04:097 [1812:139856358910080] SOGOU: virtual bool CSogouShellPCPy::NeedInsert(int) INFO: -----------======---capital = 0, vkey = 27, laskkey = 27, down = 0.
+Apr 26 10:42:09 ubuntu /usr/lib/gdm3/gdm-x-session[1693]: 2021-04-26 10:42:04:097 [1812:139856358910080] SOGOU: n_sgxx::UINT ImeProcessKey_L(n_sgxx::UINT, DWORD, const BYTE*) INFO: ImeProcessKey:1b
+Apr 26 10:42:09 ubuntu /usr/lib/gdm3/gdm-x-session[1693]:  
+Apr 26 10:42:09 ubuntu /usr/lib/gdm3/gdm-x-session[1693]: 2021-04-26 10:42:04:097 [1812:139856358910080] SOGOU: virtual n_sgxx::UINT ImeState::ImeProcessKey2(ImeContext*, t_dataImc*, n_sgxx::UINT, DWORD, const BYTE*, t_env*) INFO: ImeProcessKey2, unScancode = 0xc0010001, vk =
+Apr 26 10:42:09 ubuntu /usr/lib/gdm3/gdm-x-session[1693]: 2021-04-26 10:42:08:822 [1812:139856358910080] SOGOU: virtual bool CSogouShellPCPy::NeedInsert(int) INFO: -----------======---capital = 0, vkey = 160, laskkey = 27, down = 1.
+Apr 26 10:42:09 ubuntu /usr/lib/gdm3/gdm-x-session[1693]: 2021-04-26 10:42:08:822 [1812:139856358910080] SOGOU: n_sgxx::UINT ImeProcessKey_L(n_sgxx::UINT, DWORD, const BYTE*) INFO: ImeProcessKey:a0
+Apr 26 10:42:09 ubuntu /usr/lib/gdm3/gdm-x-session[1693]:  
+Apr 26 10:42:09 ubuntu /usr/lib/gdm3/gdm-x-session[1693]: 2021-04-26 10:42:08:822 [1812:139856358910080] SOGOU: virtual n_sgxx::UINT ImeState::ImeProcessKey2(ImeContext*, t_dataImc*, n_sgxx::UINT, DWORD, const BYTE*, t_env*) INFO: ImeProcessKey2, unScancode = 0x002a0001, vk =
+Apr 26 10:42:09 ubuntu /usr/lib/gdm3/gdm-x-session[1693]: 2021-04-26 10:42:08:822 [1812:139856358910080] SOGOU: virtual int CSogouShellPCPy::GetInfo(unsigned int) INFO: -----------======---m_nSimulateKey = 0
+Apr 26 10:42:09 ubuntu /usr/lib/gdm3/gdm-x-session[1693]: 2021-04-26 10:42:08:988 [1812:139856358910080] SOGOU: virtual bool CSogouShellPCPy::NeedInsert(int) INFO: -----------======---capital = 0, vkey = 27, laskkey = 160, down = 1.
+Apr 26 10:42:09 ubuntu /usr/lib/gdm3/gdm-x-session[1693]: 2021-04-26 10:42:08:988 [1812:139856358910080] SOGOU: n_sgxx::UINT ImeProcessKey_L(n_sgxx::UINT, DWORD, const BYTE*) INFO: ImeProcessKey:1b
+Apr 26 10:42:09 ubuntu /usr/lib/gdm3/gdm-x-session[1693]:  
+Apr 26 10:42:09 ubuntu /usr/lib/gdm3/gdm-x-session[1693]: 2021-04-26 10:42:08:988 [1812:139856358910080] SOGOU: virtual n_sgxx::UINT ImeState::ImeProcessKey2(ImeContext*, t_dataImc*, n_sgxx::UINT, DWORD, const BYTE*, t_env*) INFO: ImeProcessKey2, unScancode = 0x00010001, vk =
+Apr 26 10:42:09 ubuntu /usr/lib/gdm3/gdm-x-session[1693]: 2021-04-26 10:42:08:988 [1812:139856358910080] SOGOU: virtual bool CSogouShellPCPy::NeedInsert(int) INFO: -----------======---capital = 0, vkey = 27, laskkey = 27, down = 0.
+Apr 26 10:42:09 ubuntu /usr/lib/gdm3/gdm-x-session[1693]: 2021-04-26 10:42:08:988 [1812:139856358910080] SOGOU: n_sgxx::UINT ImeProcessKey_L(n_sgxx::UINT, DWORD, const BYTE*) INFO: ImeProcessKey:1b
+Apr 26 10:42:09 ubuntu /usr/lib/gdm3/gdm-x-session[1693]:  
+Apr 26 10:42:09 ubuntu /usr/lib/gdm3/gdm-x-session[1693]: 2021-04-26 10:42:08:988 [1812:139856358910080] SOGOU: virtual n_sgxx::UINT ImeState::ImeProcessKey2(ImeContext*, t_dataImc*, n_sgxx::UINT, DWORD, const BYTE*, t_env*) INFO: ImeProcessKey2, unScancode = 0xc0010001, vk =
+Apr 26 10:42:09 ubuntu /usr/lib/gdm3/gdm-x-session[1693]: 2021-04-26 10:42:09:695 [1812:139856358910080] SOGOU: virtual bool CSogouShellPCPy::NeedInsert(int) INFO: -----------======---capital = 0, vkey = 160, laskkey = 27, down = 1.
+Apr 26 10:42:09 ubuntu /usr/lib/gdm3/gdm-x-session[1693]: 2021-04-26 10:42:09:695 [1812:139856358910080] SOGOU: n_sgxx::UINT ImeProcessKey_L(n_sgxx::UINT, DWORD, const BYTE*) INFO: ImeProcessKey:a0
+Apr 26 10:42:09 ubuntu /usr/lib/gdm3/gdm-x-session[1693]:  
+Apr 26 10:42:09 ubuntu /usr/lib/gdm3/gdm-x-session[1693]: 2021-04-26 10:42:09:695 [1812:139856358910080] SOGOU: virtual n_sgxx::UINT ImeState::ImeProcessKey2(ImeContext*, t_dataImc*, n_sgxx::UINT, DWORD, const BYTE*, t_env*) INFO: ImeProcessKey2, unScancode = 0x002a0001, vk =
+Apr 26 10:42:09 ubuntu /usr/lib/gdm3/gdm-x-session[1693]: 2021-04-26 10:42:09:695 [1812:139856358910080] SOGOU: virtual int CSogouShellPCPy::GetInfo(unsigned int) INFO: -----------======---m_nSimulateKey = 0
+Apr 26 10:42:09 ubuntu /usr/lib/gdm3/gdm-x-session[1693]: 2021-04-26 10:42:09:825 [1812:139856358910080] SOGOU: virtual bool CSogouShellPCPy::NeedInsert(int) INFO: -----------======---capital = 0, vkey = 27, laskkey = 160, down = 1.
+Apr 26 10:42:09 ubuntu /usr/lib/gdm3/gdm-x-session[1693]: 2021-04-26 10:42:09:825 [1812:139856358910080] SOGOU: n_sgxx::UINT ImeProcessKey_L(n_sgxx::UINT, DWORD, const BYTE*) INFO: ImeProcessKey:1b
+Apr 26 10:42:09 ubuntu /usr/lib/gdm3/gdm-x-session[1693]:  
+Apr 26 10:42:12 ubuntu /usr/lib/gdm3/gdm-x-session[1693]: 2021-04-26 10:42:09:825 [1812:139856358910080] SOGOU: virtual n_sgxx::UINT ImeState::ImeProcessKey2(ImeContext*, t_dataImc*, n_sgxx::UINT, DWORD, const BYTE*, t_env*) INFO: ImeProcessKey2, unScancode = 0x00010001, vk =
+Apr 26 10:42:12 ubuntu /usr/lib/gdm3/gdm-x-session[1693]: 2021-04-26 10:42:09:825 [1812:139856358910080] SOGOU: virtual bool CSogouShellPCPy::NeedInsert(int) INFO: -----------======---capital = 0, vkey = 27, laskkey = 27, down = 0.
+Apr 26 10:42:12 ubuntu /usr/lib/gdm3/gdm-x-session[1693]: 2021-04-26 10:42:09:825 [1812:139856358910080] SOGOU: n_sgxx::UINT ImeProcessKey_L(n_sgxx::UINT, DWORD, const BYTE*) INFO: ImeProcessKey:1b
+Apr 26 10:42:12 ubuntu /usr/lib/gdm3/gdm-x-session[1693]:  
+Apr 26 10:42:12 ubuntu /usr/lib/gdm3/gdm-x-session[1693]: 2021-04-26 10:42:09:825 [1812:139856358910080] SOGOU: virtual n_sgxx::UINT ImeState::ImeProcessKey2(ImeContext*, t_dataImc*, n_sgxx::UINT, DWORD, const BYTE*, t_env*) INFO: ImeProcessKey2, unScancode = 0xc0010001, vk =
+Apr 26 10:42:12 ubuntu /usr/lib/gdm3/gdm-x-session[1693]: 2021-04-26 10:42:10:536 [1812:139856358910080] SOGOU: virtual bool CSogouShellPCPy::NeedInsert(int) INFO: -----------======---capital = 0, vkey = 160, laskkey = 27, down = 1.
+Apr 26 10:42:12 ubuntu /usr/lib/gdm3/gdm-x-session[1693]: 2021-04-26 10:42:10:536 [1812:139856358910080] SOGOU: n_sgxx::UINT ImeProcessKey_L(n_sgxx::UINT, DWORD, const BYTE*) INFO: ImeProcessKey:a0
+Apr 26 10:42:12 ubuntu /usr/lib/gdm3/gdm-x-session[1693]:  
+Apr 26 10:42:12 ubuntu /usr/lib/gdm3/gdm-x-session[1693]: 2021-04-26 10:42:10:536 [1812:139856358910080] SOGOU: virtual n_sgxx::UINT ImeState::ImeProcessKey2(ImeContext*, t_dataImc*, n_sgxx::UINT, DWORD, const BYTE*, t_env*) INFO: ImeProcessKey2, unScancode = 0x002a0001, vk =
+Apr 26 10:42:12 ubuntu /usr/lib/gdm3/gdm-x-session[1693]: 2021-04-26 10:42:10:536 [1812:139856358910080] SOGOU: virtual int CSogouShellPCPy::GetInfo(unsigned int) INFO: -----------======---m_nSimulateKey = 0
+Apr 26 10:42:12 ubuntu /usr/lib/gdm3/gdm-x-session[1693]: 2021-04-26 10:42:10:681 [1812:139856358910080] SOGOU: virtual bool CSogouShellPCPy::NeedInsert(int) INFO: -----------======---capital = 0, vkey = 27, laskkey = 160, down = 1.
+Apr 26 10:42:12 ubuntu /usr/lib/gdm3/gdm-x-session[1693]: 2021-04-26 10:42:10:681 [1812:139856358910080] SOGOU: n_sgxx::UINT ImeProcessKey_L(n_sgxx::UINT, DWORD, const BYTE*) INFO: ImeProcessKey:1b
+Apr 26 10:42:12 ubuntu /usr/lib/gdm3/gdm-x-session[1693]:  
+Apr 26 10:42:12 ubuntu /usr/lib/gdm3/gdm-x-session[1693]: 2021-04-26 10:42:10:681 [1812:139856358910080] SOGOU: virtual n_sgxx::UINT ImeState::ImeProcessKey2(ImeContext*, t_dataImc*, n_sgxx::UINT, DWORD, const BYTE*, t_env*) INFO: ImeProcessKey2, unScancode = 0x00010001, vk =
+Apr 26 10:42:12 ubuntu /usr/lib/gdm3/gdm-x-session[1693]: 2021-04-26 10:42:10:681 [1812:139856358910080] SOGOU: virtual bool CSogouShellPCPy::NeedInsert(int) INFO: -----------======---capital = 0, vkey = 27, laskkey = 27, down = 0.
+Apr 26 10:42:12 ubuntu /usr/lib/gdm3/gdm-x-session[1693]: 2021-04-26 10:42:10:681 [1812:139856358910080] SOGOU: n_sgxx::UINT ImeProcessKey_L(n_sgxx::UINT, DWORD, const BYTE*) INFO: ImeProcessKey:1b
+Apr 26 10:42:12 ubuntu /usr/lib/gdm3/gdm-x-session[1693]:  
+Apr 26 10:42:12 ubuntu /usr/lib/gdm3/gdm-x-session[1693]: 2021-04-26 10:42:10:681 [1812:139856358910080] SOGOU: virtual n_sgxx::UINT ImeState::ImeProcessKey2(ImeContext*, t_dataImc*, n_sgxx::UINT, DWORD, const BYTE*, t_env*) INFO: ImeProcessKey2, unScancode = 0xc0010001, vk =
+Apr 26 10:42:12 ubuntu /usr/lib/gdm3/gdm-x-session[1693]: 2021-04-26 10:42:12:086 [1812:139856358910080] SOGOU: virtual bool CSogouShellPCPy::NeedInsert(int) INFO: -----------======---capital = 0, vkey = 88, laskkey = 27, down = 1.
+Apr 26 10:42:12 ubuntu /usr/lib/gdm3/gdm-x-session[1693]: 2021-04-26 10:42:12:086 [1812:139856358910080] SOGOU: n_sgxx::UINT ImeProcessKey_L(n_sgxx::UINT, DWORD, const BYTE*) INFO: ImeProcessKey:58
+Apr 26 10:42:12 ubuntu /usr/lib/gdm3/gdm-x-session[1693]:  
+Apr 26 10:42:12 ubuntu /usr/lib/gdm3/gdm-x-session[1693]: 2021-04-26 10:42:12:086 [1812:139856358910080] SOGOU: virtual n_sgxx::UINT ImeState::ImeProcessKey2(ImeContext*, t_dataImc*, n_sgxx::UINT, DWORD, const BYTE*, t_env*) INFO: ImeProcessKey2, unScancode = 0x002d0001, vk = x
+Apr 26 10:42:12 ubuntu /usr/lib/gdm3/gdm-x-session[1693]: 2021-04-26 10:42:12:087 [1812:139856358910080] SOGOU: int ToAscii(unsigned int, unsigned int, const BYTE*, short unsigned int*, unsigned int) INFO: VK_SHIFT-----up-------
+Apr 26 10:42:12 ubuntu /usr/lib/gdm3/gdm-x-session[1693]: 2021-04-26 10:42:12:089 [1812:139856358910080] SOGOU: virtual bool CSogouShellPCPy::InsertChar(int) INFO: ToAscii: vkey = 88(X), dwScan = 45, sC  = 120
+Apr 26 10:42:12 ubuntu /usr/lib/gdm3/gdm-x-session[1693]: 2021-04-26 10:42:12:090 [1812:139856358910080] SOGOU: BOOL ImeState::OnImeToAsciiEx(ImeContext*, PARAM_TOASCIIEX&, n_sgxx::UINT*) INFO: OnImeToAsciiEx, unScancode = 0x0000002d, vk =
+Apr 26 10:42:12 ubuntu /usr/lib/gdm3/gdm-x-session[1693]: 2021-04-26 10:42:12:171 [1812:139856358910080] SOGOU: bool t_dataCand::CopyCandEntry(const t_candEntry*, t_bufHeap&, int, bool) INFO: add cand(0):
+Apr 26 10:42:12 ubuntu /usr/lib/gdm3/gdm-x-session[1693]: 2021-04-26 10:42:12:171 [1812:139856358910080] SOGOU: bool t_dataCand::CopyCandEntry(const t_candEntry*, t_bufHeap&, int, bool) INFO: add cand(1):
+Apr 26 10:42:12 ubuntu /usr/lib/gdm3/gdm-x-session[1693]: 2021-04-26 10:42:12:171 [1812:139856358910080] SOGOU: bool t_dataCand::CopyCandEntry(const t_candEntry*, t_bufHeap&, int, bool) INFO: add cand(2): '`
+Apr 26 10:42:12 ubuntu /usr/lib/gdm3/gdm-x-session[1693]:  
+Apr 26 10:42:12 ubuntu /usr/lib/gdm3/gdm-x-session[1693]: 2021-04-26 10:42:12:171 [1812:139856358910080] SOGOU: bool t_dataCand::CopyCandEntry(const t_candEntry*, t_bufHeap&, int, bool) INFO: add cand(3): (
+Apr 26 10:42:12 ubuntu /usr/lib/gdm3/gdm-x-session[1693]:  
+Apr 26 10:42:22 ubuntu /usr/lib/gdm3/gdm-x-session[1693]: 2021-04-26 10:42:12:171 [1812:139856358910080] SOGOU: bool t_dataCand::CopyCandEntry(const t_candEntry*, t_bufHeap&, int, bool) INFO: add cand(4): HQ
+Apr 26 10:42:22 ubuntu /usr/lib/gdm3/gdm-x-session[1693]:  
+Apr 26 10:42:22 ubuntu /usr/lib/gdm3/gdm-x-session[1693]: 2021-04-26 10:42:12:171 [1812:139856358910080] SOGOU: bool t_dataCand::CopyCandEntry(const t_candEntry*, t_bufHeap&, int, bool) INFO: add cand(5): #021T
+Apr 26 10:42:22 ubuntu /usr/lib/gdm3/gdm-x-session[1693]:  
+Apr 26 10:42:22 ubuntu /usr/lib/gdm3/gdm-x-session[1693]: 2021-04-26 10:42:12:175 [1812:139856358910080] SOGOU: virtual bool t_PluginManager::OnBeginInput(const wchar_t*) INFO: pluginManager::OnBeginInput, compStr is x
+Apr 26 10:42:22 ubuntu /usr/lib/gdm3/gdm-x-session[1693]: 2021-04-26 10:42:12:176 [1812:139856358910080] SOGOU: void CSogouShellPCPy::RefreshCompResult() INFO: m_pImcUiWrapper->GetResultStr
+Apr 26 10:42:22 ubuntu /usr/lib/gdm3/gdm-x-session[1693]: 2021-04-26 10:42:12:176 [1812:139856358910080] SOGOU: void CSogouShellPCPy::RefreshCompResult() INFO: t_autoStrConvW2UTF8 m_strResult
+Apr 26 10:42:22 ubuntu /usr/lib/gdm3/gdm-x-session[1693]: 2021-04-26 10:42:12:231 [1812:139856358910080] SOGOU: virtual int CSogouShellPCPy::GetInfo(unsigned int) INFO: -----------======---m_nSimulateKey = 0
+Apr 26 10:42:22 ubuntu /usr/lib/gdm3/gdm-x-session[1693]: 2021-04-26 10:42:12:254 [1812:139856358910080] SOGOU: virtual bool CSogouShellPCPy::NeedInsert(int) INFO: -----------======---capital = 0, vkey = 88, laskkey = 88, down = 0.
+Apr 26 10:42:22 ubuntu /usr/lib/gdm3/gdm-x-session[1693]: 2021-04-26 10:42:12:254 [1812:139856358910080] SOGOU: n_sgxx::UINT ImeProcessKey_L(n_sgxx::UINT, DWORD, const BYTE*) INFO: ImeProcessKey:58
+Apr 26 10:42:22 ubuntu /usr/lib/gdm3/gdm-x-session[1693]:  
+Apr 26 10:42:22 ubuntu /usr/lib/gdm3/gdm-x-session[1693]: 2021-04-26 10:42:12:254 [1812:139856358910080] SOGOU: virtual n_sgxx::UINT ImeState::ImeProcessKey2(ImeContext*, t_dataImc*, n_sgxx::UINT, DWORD, const BYTE*, t_env*) INFO: ImeProcessKey2, unScancode = 0xc02d0001, vk =
+Apr 26 10:42:22 ubuntu /usr/lib/gdm3/gdm-x-session[1693]: 2021-04-26 10:42:12:254 [1812:139856358910080] SOGOU: virtual int CSogouShellPCPy::GetInfo(unsigned int) INFO: -----------======---m_nSimulateKey = 0
+Apr 26 10:42:22 ubuntu /usr/lib/gdm3/gdm-x-session[1693]: 2021-04-26 10:42:13:651 [1812:139856358910080] SOGOU: virtual bool CSogouShellPCPy::NeedInsert(int) INFO: -----------======---capital = 0, vkey = 8, laskkey = 88, down = 1.
+Apr 26 10:42:22 ubuntu /usr/lib/gdm3/gdm-x-session[1693]: 2021-04-26 10:42:13:651 [1812:139856358910080] SOGOU: n_sgxx::UINT ImeProcessKey_L(n_sgxx::UINT, DWORD, const BYTE*) INFO: ImeProcessKey:08
+Apr 26 10:42:22 ubuntu /usr/lib/gdm3/gdm-x-session[1693]:  
+Apr 26 10:42:22 ubuntu /usr/lib/gdm3/gdm-x-session[1693]: 2021-04-26 10:42:13:651 [1812:139856358910080] SOGOU: virtual n_sgxx::UINT ImeState::ImeProcessKey2(ImeContext*, t_dataImc*, n_sgxx::UINT, DWORD, const BYTE*, t_env*) INFO: ImeProcessKey2, unScancode = 0x000e0001, vk =
+Apr 26 10:42:22 ubuntu /usr/lib/gdm3/gdm-x-session[1693]: 2021-04-26 10:42:13:652 [1812:139856358910080] SOGOU: int ToAscii(unsigned int, unsigned int, const BYTE*, short unsigned int*, unsigned int) INFO: VK_SHIFT-----up-------
+Apr 26 10:42:22 ubuntu /usr/lib/gdm3/gdm-x-session[1693]: 2021-04-26 10:42:13:652 [1812:139856358910080] SOGOU: virtual bool CSogouShellPCPy::InsertChar(int) INFO: ToAscii: vkey = 8(#010), dwScan = 14, sC  = 8
+Apr 26 10:42:22 ubuntu /usr/lib/gdm3/gdm-x-session[1693]: 2021-04-26 10:42:13:652 [1812:139856358910080] SOGOU: BOOL ImeState::OnImeToAsciiEx(ImeContext*, PARAM_TOASCIIEX&, n_sgxx::UINT*) INFO: OnImeToAsciiEx, unScancode = 0x0000000e, vk =
+Apr 26 10:42:22 ubuntu /usr/lib/gdm3/gdm-x-session[1693]: 2021-04-26 10:42:13:652 [1812:139856358910080] SOGOU: void CSogouShellPCPy::RefreshCompResult() INFO: m_pImcUiWrapper->GetResultStr
+Apr 26 10:42:22 ubuntu /usr/lib/gdm3/gdm-x-session[1693]: 2021-04-26 10:42:13:652 [1812:139856358910080] SOGOU: void CSogouShellPCPy::RefreshCompResult() INFO: t_autoStrConvW2UTF8 m_strResult
+Apr 26 10:42:22 ubuntu /usr/lib/gdm3/gdm-x-session[1693]: 2021-04-26 10:42:13:653 [1812:139856358910080] SOGOU: virtual int CSogouShellPCPy::GetInfo(unsigned int) INFO: -----------======---m_nSimulateKey = 0
+Apr 26 10:42:22 ubuntu /usr/lib/gdm3/gdm-x-session[1693]: 2021-04-26 10:42:13:825 [1812:139856358910080] SOGOU: virtual bool CSogouShellPCPy::NeedInsert(int) INFO: -----------======---capital = 0, vkey = 8, laskkey = 8, down = 0.
+Apr 26 10:42:22 ubuntu /usr/lib/gdm3/gdm-x-session[1693]: 2021-04-26 10:42:13:825 [1812:139856358910080] SOGOU: n_sgxx::UINT ImeProcessKey_L(n_sgxx::UINT, DWORD, const BYTE*) INFO: ImeProcessKey:08
+Apr 26 10:42:22 ubuntu /usr/lib/gdm3/gdm-x-session[1693]:  
+Apr 26 10:42:22 ubuntu /usr/lib/gdm3/gdm-x-session[1693]: 2021-04-26 10:42:13:825 [1812:139856358910080] SOGOU: virtual n_sgxx::UINT ImeState::ImeProcessKey2(ImeContext*, t_dataImc*, n_sgxx::UINT, DWORD, const BYTE*, t_env*) INFO: ImeProcessKey2, unScancode = 0xc00e0001, vk =
+Apr 26 10:42:22 ubuntu /usr/lib/gdm3/gdm-x-session[1693]: 2021-04-26 10:42:13:825 [1812:139856358910080] SOGOU: virtual int CSogouShellPCPy::GetInfo(unsigned int) INFO: -----------======---m_nSimulateKey = 0
+Apr 26 10:42:22 ubuntu /usr/lib/gdm3/gdm-x-session[1693]: 2021-04-26 10:42:22:970 [1812:139856358910080] SOGOU: virtual bool CSogouShellPCPy::NeedInsert(int) INFO: -----------======---capital = 0, vkey = 160, laskkey = 8, down = 1.
+Apr 26 10:42:22 ubuntu /usr/lib/gdm3/gdm-x-session[1693]: 2021-04-26 10:42:22:970 [1812:139856358910080] SOGOU: n_sgxx::UINT ImeProcessKey_L(n_sgxx::UINT, DWORD, const BYTE*) INFO: ImeProcessKey:a0
+Apr 26 10:42:22 ubuntu /usr/lib/gdm3/gdm-x-session[1693]:  
+Apr 26 10:47:55 ubuntu gnome-shell[1827]: Object .Gjs_AppIndicatorIconActor__1 (0x559f4fb52d10), has been already finalized. Impossible to set any property to it.
+Apr 26 10:47:55 ubuntu org.gnome.Shell.desktop[1827]: == Stack trace for context 0x559f4cb4d320 ==
+Apr 26 10:47:55 ubuntu org.gnome.Shell.desktop[1827]: #0 0x7ffc2b9b4160 I   resource:///org/gnome/gjs/modules/_legacy.js:83 (0x7fe5842b5de0 @ 87)
+Apr 26 10:47:55 ubuntu org.gnome.Shell.desktop[1827]: #1 0x559f4cf192f0 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/indicatorStatusIcon.js:93 (0x7fe5513c66f8 @ 58)
+Apr 26 10:47:55 ubuntu org.gnome.Shell.desktop[1827]: #2 0x7ffc2b9b4d40 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7fe5842b5de0 @ 71)
+Apr 26 10:47:55 ubuntu org.gnome.Shell.desktop[1827]: #3 0x7ffc2b9b4e00 b   self-hosted:916 (0x7fe5842f12b8 @ 367)
+Apr 26 10:47:55 ubuntu org.gnome.Shell.desktop[1827]: #4 0x7ffc2b9b4ef0 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7fe5842d2230 @ 386)
+Apr 26 10:47:55 ubuntu org.gnome.Shell.desktop[1827]: #5 0x559f4cf19268 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/appIndicator.js:190 (0x7fe5513b63c8 @ 22)
+Apr 26 10:47:55 ubuntu org.gnome.Shell.desktop[1827]: #6 0x7ffc2b9b5b40 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7fe5842b5de0 @ 71)
+Apr 26 10:47:55 ubuntu org.gnome.Shell.desktop[1827]: #7 0x559f4cf191c0 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/statusNotifierWatcher.js:219 (0x7fe5513b29a0 @ 225)
+Apr 26 10:47:55 ubuntu org.gnome.Shell.desktop[1827]: #8 0x7ffc2b9b6720 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7fe5842b5de0 @ 71)
+Apr 26 10:47:55 ubuntu org.gnome.Shell.desktop[1827]: #9 0x559f4cf19148 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/extension.js:61 (0x7fe55138cc48 @ 37)
+Apr 26 10:47:55 ubuntu org.gnome.Shell.desktop[1827]: #10 0x559f4cf19088 i   resource:///org/gnome/shell/ui/extensionSystem.js:83 (0x7fe5726592b8 @ 441)
+Apr 26 10:47:55 ubuntu org.gnome.Shell.desktop[1827]: #11 0x559f4cf19008 i   resource:///org/gnome/shell/ui/extensionSystem.js:354 (0x7fe572659d58 @ 13)
+Apr 26 10:47:55 ubuntu org.gnome.Shell.desktop[1827]: #12 0x7ffc2b9b7420 b   self-hosted:251 (0x7fe5842c4ab0 @ 223)
+Apr 26 10:47:55 ubuntu org.gnome.Shell.desktop[1827]: #13 0x559f4cf18f88 i   resource:///org/gnome/shell/ui/extensionSystem.js:353 (0x7fe572659cd0 @ 64)
+Apr 26 10:47:55 ubuntu org.gnome.Shell.desktop[1827]: #14 0x559f4cf18f08 i   resource:///org/gnome/shell/ui/extensionSystem.js:371 (0x7fe572659de0 @ 87)
+Apr 26 10:47:55 ubuntu org.gnome.Shell.desktop[1827]: #15 0x7ffc2b9b8920 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7fe5842d2230 @ 386)
+Apr 26 10:47:55 ubuntu org.gnome.Shell.desktop[1827]: #16 0x7ffc2b9b9130 b   resource:///org/gnome/shell/ui/sessionMode.js:205 (0x7fe5723704d8 @ 254)
+Apr 26 10:47:55 ubuntu org.gnome.Shell.desktop[1827]: #17 0x7ffc2b9ba520 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7fe5842b5de0 @ 71)
+Apr 26 10:47:55 ubuntu org.gnome.Shell.desktop[1827]: #18 0x559f4cf18dc8 i   resource:///org/gnome/shell/ui/sessionMode.js:167 (0x7fe5723702b8 @ 40)
+Apr 26 10:47:55 ubuntu org.gnome.Shell.desktop[1827]: #19 0x7ffc2b9bb880 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7fe5842b5de0 @ 71)
+Apr 26 10:47:55 ubuntu org.gnome.Shell.desktop[1827]: #20 0x559f4cf18d20 i   resource:///org/gnome/shell/ui/screenShield.js:1282 (0x7fe572353a28 @ 188)
+Apr 26 10:47:55 ubuntu org.gnome.Shell.desktop[1827]: #21 0x7ffc2b9bcbe0 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7fe5842b5de0 @ 71)
+Apr 26 10:47:55 ubuntu org.gnome.Shell.desktop[1827]: #22 0x559f4cf18c70 i   resource:///org/gnome/shell/ui/screenShield.js:1331 (0x7fe572353ab0 @ 391)
+Apr 26 10:47:55 ubuntu org.gnome.Shell.desktop[1827]: #23 0x7ffc2b9bdf40 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7fe5842b5de0 @ 71)
+Apr 26 10:47:55 ubuntu org.gnome.Shell.desktop[1827]: #24 0x559f4cf18bf0 i   resource:///org/gnome/shell/ui/screenShield.js:854 (0x7fe5723519a0 @ 25)
+Apr 26 10:47:55 ubuntu gnome-shell[1827]: Object .Gjs_AppIndicatorIconActor__1 (0x559f51620260), has been already finalized. Impossible to set any property to it.
+Apr 26 10:47:55 ubuntu org.gnome.Shell.desktop[1827]: == Stack trace for context 0x559f4cb4d320 ==
+Apr 26 10:47:55 ubuntu org.gnome.Shell.desktop[1827]: #0 0x7ffc2b9b4160 I   resource:///org/gnome/gjs/modules/_legacy.js:83 (0x7fe5842b5de0 @ 87)
+Apr 26 10:47:55 ubuntu org.gnome.Shell.desktop[1827]: #1 0x559f4cf192f0 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/indicatorStatusIcon.js:93 (0x7fe5513c66f8 @ 58)
+Apr 26 10:47:55 ubuntu org.gnome.Shell.desktop[1827]: #2 0x7ffc2b9b4d40 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7fe5842b5de0 @ 71)
+Apr 26 10:47:55 ubuntu org.gnome.Shell.desktop[1827]: #3 0x7ffc2b9b4e00 b   self-hosted:916 (0x7fe5842f12b8 @ 367)
+Apr 26 10:47:55 ubuntu org.gnome.Shell.desktop[1827]: #4 0x7ffc2b9b4ef0 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7fe5842d2230 @ 386)
+Apr 26 10:47:55 ubuntu org.gnome.Shell.desktop[1827]: #5 0x559f4cf19268 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/appIndicator.js:190 (0x7fe5513b63c8 @ 22)
+Apr 26 10:47:55 ubuntu org.gnome.Shell.desktop[1827]: #6 0x7ffc2b9b5b40 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7fe5842b5de0 @ 71)
+Apr 26 10:47:55 ubuntu org.gnome.Shell.desktop[1827]: #7 0x559f4cf191c0 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/statusNotifierWatcher.js:219 (0x7fe5513b29a0 @ 225)
+Apr 26 10:47:55 ubuntu org.gnome.Shell.desktop[1827]: #8 0x7ffc2b9b6720 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7fe5842b5de0 @ 71)
+Apr 26 10:47:55 ubuntu org.gnome.Shell.desktop[1827]: #9 0x559f4cf19148 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/extension.js:61 (0x7fe55138cc48 @ 37)
+Apr 26 10:47:55 ubuntu org.gnome.Shell.desktop[1827]: #10 0x559f4cf19088 i   resource:///org/gnome/shell/ui/extensionSystem.js:83 (0x7fe5726592b8 @ 441)
+Apr 26 10:47:55 ubuntu org.gnome.Shell.desktop[1827]: #11 0x559f4cf19008 i   resource:///org/gnome/shell/ui/extensionSystem.js:354 (0x7fe572659d58 @ 13)
+Apr 26 10:47:55 ubuntu org.gnome.Shell.desktop[1827]: #12 0x7ffc2b9b7420 b   self-hosted:251 (0x7fe5842c4ab0 @ 223)
+Apr 26 10:47:55 ubuntu org.gnome.Shell.desktop[1827]: #13 0x559f4cf18f88 i   resource:///org/gnome/shell/ui/extensionSystem.js:353 (0x7fe572659cd0 @ 64)
+Apr 26 10:47:55 ubuntu org.gnome.Shell.desktop[1827]: #14 0x559f4cf18f08 i   resource:///org/gnome/shell/ui/extensionSystem.js:371 (0x7fe572659de0 @ 87)
+Apr 26 10:47:55 ubuntu org.gnome.Shell.desktop[1827]: #15 0x7ffc2b9b8920 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7fe5842d2230 @ 386)
+Apr 26 10:47:55 ubuntu org.gnome.Shell.desktop[1827]: #16 0x7ffc2b9b9130 b   resource:///org/gnome/shell/ui/sessionMode.js:205 (0x7fe5723704d8 @ 254)
+Apr 26 10:47:55 ubuntu org.gnome.Shell.desktop[1827]: #17 0x7ffc2b9ba520 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7fe5842b5de0 @ 71)
+Apr 26 10:47:55 ubuntu org.gnome.Shell.desktop[1827]: #18 0x559f4cf18dc8 i   resource:///org/gnome/shell/ui/sessionMode.js:167 (0x7fe5723702b8 @ 40)
+Apr 26 10:47:55 ubuntu org.gnome.Shell.desktop[1827]: #19 0x7ffc2b9bb880 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7fe5842b5de0 @ 71)
+Apr 26 10:47:55 ubuntu org.gnome.Shell.desktop[1827]: #20 0x559f4cf18d20 i   resource:///org/gnome/shell/ui/screenShield.js:1282 (0x7fe572353a28 @ 188)
+Apr 26 10:47:55 ubuntu org.gnome.Shell.desktop[1827]: #21 0x7ffc2b9bcbe0 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7fe5842b5de0 @ 71)
+Apr 26 10:47:55 ubuntu org.gnome.Shell.desktop[1827]: #22 0x559f4cf18c70 i   resource:///org/gnome/shell/ui/screenShield.js:1331 (0x7fe572353ab0 @ 391)
+Apr 26 10:47:55 ubuntu org.gnome.Shell.desktop[1827]: #23 0x7ffc2b9bdf40 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7fe5842b5de0 @ 71)
+Apr 26 10:47:55 ubuntu org.gnome.Shell.desktop[1827]: #24 0x559f4cf18bf0 i   resource:///org/gnome/shell/ui/screenShield.js:854 (0x7fe5723519a0 @ 25)
+Apr 26 10:47:55 ubuntu gnome-shell[1827]: Object .Gjs_AppIndicatorIconActor__1 (0x559f51374a50), has been already finalized. Impossible to set any property to it.
+Apr 26 10:47:55 ubuntu org.gnome.Shell.desktop[1827]: == Stack trace for context 0x559f4cb4d320 ==
+Apr 26 10:47:55 ubuntu org.gnome.Shell.desktop[1827]: #0 0x7ffc2b9b4230 I   resource:///org/gnome/gjs/modules/_legacy.js:83 (0x7fe5842b5de0 @ 87)
+Apr 26 10:47:55 ubuntu org.gnome.Shell.desktop[1827]: #1 0x559f4cf192f0 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/indicatorStatusIcon.js:93 (0x7fe5513c66f8 @ 58)
+Apr 26 10:47:55 ubuntu org.gnome.Shell.desktop[1827]: #2 0x7ffc2b9b4e10 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7fe5842b5de0 @ 71)
+Apr 26 10:47:55 ubuntu org.gnome.Shell.desktop[1827]: #3 0x7ffc2b9b4ed0 b   self-hosted:916 (0x7fe5842f12b8 @ 367)
+Apr 26 10:47:55 ubuntu org.gnome.Shell.desktop[1827]: #4 0x7ffc2b9b4f60 I   resource:///org/gnome/gjs/modules/signals.js:128 (0x7fe5842d2230 @ 386)
+Apr 26 10:47:55 ubuntu org.gnome.Shell.desktop[1827]: #5 0x559f4cf19268 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/appIndicator.js:190 (0x7fe5513b63c8 @ 22)
+Apr 26 10:47:55 ubuntu org.gnome.Shell.desktop[1827]: #6 0x7ffc2b9b5b40 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7fe5842b5de0 @ 71)
+Apr 26 10:47:55 ubuntu org.gnome.Shell.desktop[1827]: #7 0x559f4cf191c0 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/statusNotifierWatcher.js:219 (0x7fe5513b29a0 @ 225)
+Apr 26 10:47:55 ubuntu org.gnome.Shell.desktop[1827]: #8 0x7ffc2b9b6720 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7fe5842b5de0 @ 71)
+Apr 26 10:47:55 ubuntu org.gnome.Shell.desktop[1827]: #9 0x559f4cf19148 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/extension.js:61 (0x7fe55138cc48 @ 37)
+Apr 26 10:47:55 ubuntu org.gnome.Shell.desktop[1827]: #10 0x559f4cf19088 i   resource:///org/gnome/shell/ui/extensionSystem.js:83 (0x7fe5726592b8 @ 441)
+Apr 26 10:47:55 ubuntu org.gnome.Shell.desktop[1827]: #11 0x559f4cf19008 i   resource:///org/gnome/shell/ui/extensionSystem.js:354 (0x7fe572659d58 @ 13)
+Apr 26 10:47:55 ubuntu org.gnome.Shell.desktop[1827]: #12 0x7ffc2b9b7420 b   self-hosted:251 (0x7fe5842c4ab0 @ 223)
+Apr 26 10:47:55 ubuntu org.gnome.Shell.desktop[1827]: #13 0x559f4cf18f88 i   resource:///org/gnome/shell/ui/extensionSystem.js:353 (0x7fe572659cd0 @ 64)
+Apr 26 10:47:55 ubuntu org.gnome.Shell.desktop[1827]: #14 0x559f4cf18f08 i   resource:///org/gnome/shell/ui/extensionSystem.js:371 (0x7fe572659de0 @ 87)
+Apr 26 10:47:55 ubuntu org.gnome.Shell.desktop[1827]: #15 0x7ffc2b9b8920 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7fe5842d2230 @ 386)
+Apr 26 10:47:55 ubuntu org.gnome.Shell.desktop[1827]: #16 0x7ffc2b9b9130 b   resource:///org/gnome/shell/ui/sessionMode.js:205 (0x7fe5723704d8 @ 254)
+Apr 26 10:47:55 ubuntu org.gnome.Shell.desktop[1827]: #17 0x7ffc2b9ba520 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7fe5842b5de0 @ 71)
+Apr 26 10:47:55 ubuntu org.gnome.Shell.desktop[1827]: #18 0x559f4cf18dc8 i   resource:///org/gnome/shell/ui/sessionMode.js:167 (0x7fe5723702b8 @ 40)
+Apr 26 10:47:55 ubuntu org.gnome.Shell.desktop[1827]: #19 0x7ffc2b9bb880 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7fe5842b5de0 @ 71)
+Apr 26 10:47:55 ubuntu org.gnome.Shell.desktop[1827]: #20 0x559f4cf18d20 i   resource:///org/gnome/shell/ui/screenShield.js:1282 (0x7fe572353a28 @ 188)
+Apr 26 10:47:55 ubuntu org.gnome.Shell.desktop[1827]: #21 0x7ffc2b9bcbe0 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7fe5842b5de0 @ 71)
+Apr 26 10:47:55 ubuntu org.gnome.Shell.desktop[1827]: #22 0x559f4cf18c70 i   resource:///org/gnome/shell/ui/screenShield.js:1331 (0x7fe572353ab0 @ 391)
+Apr 26 10:47:55 ubuntu org.gnome.Shell.desktop[1827]: #23 0x7ffc2b9bdf40 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7fe5842b5de0 @ 71)
+Apr 26 10:47:55 ubuntu org.gnome.Shell.desktop[1827]: #24 0x559f4cf18bf0 i   resource:///org/gnome/shell/ui/screenShield.js:854 (0x7fe5723519a0 @ 25)
+Apr 26 10:47:55 ubuntu gnome-software[2519]: no app for changed ubuntu-appindicators@ubuntu.com
+Apr 26 10:47:56 ubuntu gnome-software[2519]: no app for changed ubuntu-dock@ubuntu.com
+Apr 26 10:49:49 ubuntu dhclient[38235]: DHCPREQUEST of 192.168.182.129 on ens33 to 192.168.182.254 port 67 (xid=0x2d07db49)
+Apr 26 10:49:49 ubuntu dhclient[38235]: DHCPACK of 192.168.182.129 from 192.168.182.254
+Apr 26 10:49:49 ubuntu NetworkManager[686]: <info>  [1619405389.5003] dhcp4 (ens33):   address 192.168.182.129
+Apr 26 10:49:49 ubuntu NetworkManager[686]: <info>  [1619405389.5005] dhcp4 (ens33):   plen 24 (255.255.255.0)
+Apr 26 10:49:49 ubuntu dbus-daemon[662]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.10' (uid=0 pid=686 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Apr 26 10:49:49 ubuntu NetworkManager[686]: <info>  [1619405389.5005] dhcp4 (ens33):   gateway 192.168.182.2
+Apr 26 10:49:49 ubuntu NetworkManager[686]: <info>  [1619405389.5006] dhcp4 (ens33):   lease time 1800
+Apr 26 10:49:49 ubuntu NetworkManager[686]: <info>  [1619405389.5007] dhcp4 (ens33):   nameserver '192.168.182.2'
+Apr 26 10:49:49 ubuntu NetworkManager[686]: <info>  [1619405389.5007] dhcp4 (ens33):   domain name 'localdomain'
+Apr 26 10:49:49 ubuntu dhclient[38235]: bound to 192.168.182.129 -- renewal in 876 seconds.
+Apr 26 10:49:49 ubuntu NetworkManager[686]: <info>  [1619405389.5008] dhcp4 (ens33):   wins '192.168.182.2'
+Apr 26 10:49:49 ubuntu NetworkManager[686]: <info>  [1619405389.5008] dhcp4 (ens33): state changed bound -> bound
+Apr 26 10:49:49 ubuntu systemd[1]: Starting Network Manager Script Dispatcher Service...
+Apr 26 10:49:49 ubuntu dbus-daemon[662]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Apr 26 10:49:49 ubuntu systemd[1]: Started Network Manager Script Dispatcher Service.
+Apr 26 10:49:49 ubuntu nm-dispatcher: req:1 'dhcp4-change' [ens33]: new request (1 scripts)
+Apr 26 10:49:49 ubuntu nm-dispatcher: req:1 'dhcp4-change' [ens33]: start running ordered scripts...
+Apr 26 11:04:25 ubuntu dhclient[38235]: DHCPREQUEST of 192.168.182.129 on ens33 to 192.168.182.254 port 67 (xid=0x2d07db49)
+Apr 26 11:04:25 ubuntu dhclient[38235]: DHCPACK of 192.168.182.129 from 192.168.182.254
+Apr 26 11:04:25 ubuntu NetworkManager[686]: <info>  [1619406265.6716] dhcp4 (ens33):   address 192.168.182.129
+Apr 26 11:04:25 ubuntu NetworkManager[686]: <info>  [1619406265.6717] dhcp4 (ens33):   plen 24 (255.255.255.0)
+Apr 26 11:04:25 ubuntu NetworkManager[686]: <info>  [1619406265.6718] dhcp4 (ens33):   gateway 192.168.182.2
+Apr 26 11:04:25 ubuntu dbus-daemon[662]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.10' (uid=0 pid=686 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Apr 26 11:04:25 ubuntu NetworkManager[686]: <info>  [1619406265.6718] dhcp4 (ens33):   lease time 1800
+Apr 26 11:04:25 ubuntu NetworkManager[686]: <info>  [1619406265.6718] dhcp4 (ens33):   nameserver '192.168.182.2'
+Apr 26 11:04:25 ubuntu NetworkManager[686]: <info>  [1619406265.6718] dhcp4 (ens33):   domain name 'localdomain'
+Apr 26 11:04:25 ubuntu dhclient[38235]: bound to 192.168.182.129 -- renewal in 795 seconds.
+Apr 26 11:04:25 ubuntu NetworkManager[686]: <info>  [1619406265.6718] dhcp4 (ens33):   wins '192.168.182.2'
+Apr 26 11:04:25 ubuntu NetworkManager[686]: <info>  [1619406265.6718] dhcp4 (ens33): state changed bound -> bound
+Apr 26 11:04:25 ubuntu systemd[1]: Starting Network Manager Script Dispatcher Service...
+Apr 26 11:04:25 ubuntu dbus-daemon[662]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Apr 26 11:04:25 ubuntu nm-dispatcher: req:1 'dhcp4-change' [ens33]: new request (1 scripts)
+Apr 26 11:04:25 ubuntu systemd[1]: Started Network Manager Script Dispatcher Service.
+Apr 26 11:04:25 ubuntu nm-dispatcher: req:1 'dhcp4-change' [ens33]: start running ordered scripts...
+Apr 26 11:05:14 ubuntu systemd[1]: Started Run anacron jobs.
+Apr 26 11:05:14 ubuntu anacron[40783]: Anacron 2.3 started on 2021-04-26
+Apr 26 11:05:14 ubuntu anacron[40783]: Normal exit (0 jobs run)
+Apr 26 11:17:01 ubuntu CRON[40813]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Apr 26 11:17:40 ubuntu dhclient[38235]: DHCPREQUEST of 192.168.182.129 on ens33 to 192.168.182.254 port 67 (xid=0x2d07db49)
+Apr 26 11:17:40 ubuntu dhclient[38235]: DHCPACK of 192.168.182.129 from 192.168.182.254
+Apr 26 11:17:40 ubuntu NetworkManager[686]: <info>  [1619407060.5603] dhcp4 (ens33):   address 192.168.182.129
+Apr 26 11:17:40 ubuntu NetworkManager[686]: <info>  [1619407060.5603] dhcp4 (ens33):   plen 24 (255.255.255.0)
+Apr 26 11:17:40 ubuntu NetworkManager[686]: <info>  [1619407060.5603] dhcp4 (ens33):   gateway 192.168.182.2
+Apr 26 11:17:40 ubuntu NetworkManager[686]: <info>  [1619407060.5603] dhcp4 (ens33):   lease time 1800
+Apr 26 11:17:40 ubuntu dbus-daemon[662]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.10' (uid=0 pid=686 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Apr 26 11:17:40 ubuntu NetworkManager[686]: <info>  [1619407060.5604] dhcp4 (ens33):   nameserver '192.168.182.2'
+Apr 26 11:17:40 ubuntu dhclient[38235]: bound to 192.168.182.129 -- renewal in 855 seconds.
+Apr 26 11:17:40 ubuntu NetworkManager[686]: <info>  [1619407060.5604] dhcp4 (ens33):   domain name 'localdomain'
+Apr 26 11:17:40 ubuntu NetworkManager[686]: <info>  [1619407060.5604] dhcp4 (ens33):   wins '192.168.182.2'
+Apr 26 11:17:40 ubuntu NetworkManager[686]: <info>  [1619407060.5604] dhcp4 (ens33): state changed bound -> bound
+Apr 26 11:17:40 ubuntu systemd[1]: Starting Network Manager Script Dispatcher Service...
+Apr 26 11:17:40 ubuntu dbus-daemon[662]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Apr 26 11:17:40 ubuntu systemd[1]: Started Network Manager Script Dispatcher Service.
+Apr 26 11:17:40 ubuntu nm-dispatcher: req:1 'dhcp4-change' [ens33]: new request (1 scripts)
+Apr 26 11:17:40 ubuntu nm-dispatcher: req:1 'dhcp4-change' [ens33]: start running ordered scripts...
+Apr 26 11:31:55 ubuntu dhclient[38235]: DHCPREQUEST of 192.168.182.129 on ens33 to 192.168.182.254 port 67 (xid=0x2d07db49)
+Apr 26 11:31:55 ubuntu dhclient[38235]: DHCPACK of 192.168.182.129 from 192.168.182.254
+Apr 26 11:31:55 ubuntu NetworkManager[686]: <info>  [1619407915.7470] dhcp4 (ens33):   address 192.168.182.129
+Apr 26 11:31:55 ubuntu NetworkManager[686]: <info>  [1619407915.7470] dhcp4 (ens33):   plen 24 (255.255.255.0)
+Apr 26 11:31:55 ubuntu NetworkManager[686]: <info>  [1619407915.7471] dhcp4 (ens33):   gateway 192.168.182.2
+Apr 26 11:31:55 ubuntu NetworkManager[686]: <info>  [1619407915.7471] dhcp4 (ens33):   lease time 1800
+Apr 26 11:31:55 ubuntu dbus-daemon[662]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.10' (uid=0 pid=686 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Apr 26 11:31:55 ubuntu NetworkManager[686]: <info>  [1619407915.7471] dhcp4 (ens33):   nameserver '192.168.182.2'
+Apr 26 11:31:55 ubuntu NetworkManager[686]: <info>  [1619407915.7471] dhcp4 (ens33):   domain name 'localdomain'
+Apr 26 11:31:55 ubuntu NetworkManager[686]: <info>  [1619407915.7471] dhcp4 (ens33):   wins '192.168.182.2'
+Apr 26 11:31:55 ubuntu NetworkManager[686]: <info>  [1619407915.7471] dhcp4 (ens33): state changed bound -> bound
+Apr 26 11:31:55 ubuntu systemd[1]: Starting Network Manager Script Dispatcher Service...
+Apr 26 11:31:55 ubuntu dhclient[38235]: bound to 192.168.182.129 -- renewal in 849 seconds.
+Apr 26 11:31:55 ubuntu dbus-daemon[662]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Apr 26 11:31:55 ubuntu systemd[1]: Started Network Manager Script Dispatcher Service.
+Apr 26 11:31:55 ubuntu nm-dispatcher: req:1 'dhcp4-change' [ens33]: new request (1 scripts)
+Apr 26 11:31:55 ubuntu nm-dispatcher: req:1 'dhcp4-change' [ens33]: start running ordered scripts...
+Apr 26 11:46:04 ubuntu dhclient[38235]: DHCPREQUEST of 192.168.182.129 on ens33 to 192.168.182.254 port 67 (xid=0x2d07db49)
+Apr 26 11:46:04 ubuntu dhclient[38235]: DHCPACK of 192.168.182.129 from 192.168.182.254
+Apr 26 11:46:04 ubuntu NetworkManager[686]: <info>  [1619408764.1145] dhcp4 (ens33):   address 192.168.182.129
+Apr 26 11:46:04 ubuntu NetworkManager[686]: <info>  [1619408764.1146] dhcp4 (ens33):   plen 24 (255.255.255.0)
+Apr 26 11:46:04 ubuntu NetworkManager[686]: <info>  [1619408764.1146] dhcp4 (ens33):   gateway 192.168.182.2
+Apr 26 11:46:04 ubuntu NetworkManager[686]: <info>  [1619408764.1146] dhcp4 (ens33):   lease time 1800
+Apr 26 11:46:04 ubuntu NetworkManager[686]: <info>  [1619408764.1147] dhcp4 (ens33):   nameserver '192.168.182.2'
+Apr 26 11:46:04 ubuntu NetworkManager[686]: <info>  [1619408764.1147] dhcp4 (ens33):   domain name 'localdomain'
+Apr 26 11:46:04 ubuntu NetworkManager[686]: <info>  [1619408764.1147] dhcp4 (ens33):   wins '192.168.182.2'
+Apr 26 11:46:04 ubuntu NetworkManager[686]: <info>  [1619408764.1147] dhcp4 (ens33): state changed bound -> bound
+Apr 26 11:46:04 ubuntu dbus-daemon[662]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.10' (uid=0 pid=686 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Apr 26 11:46:04 ubuntu dhclient[38235]: bound to 192.168.182.129 -- renewal in 762 seconds.
+Apr 26 11:46:04 ubuntu systemd[1]: Starting Network Manager Script Dispatcher Service...
+Apr 26 11:46:04 ubuntu dbus-daemon[662]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Apr 26 11:46:04 ubuntu systemd[1]: Started Network Manager Script Dispatcher Service.
+Apr 26 11:46:04 ubuntu nm-dispatcher: req:1 'dhcp4-change' [ens33]: new request (1 scripts)
+Apr 26 11:46:04 ubuntu nm-dispatcher: req:1 'dhcp4-change' [ens33]: start running ordered scripts...
+Apr 26 11:58:47 ubuntu dhclient[38235]: DHCPREQUEST of 192.168.182.129 on ens33 to 192.168.182.254 port 67 (xid=0x2d07db49)
+Apr 26 11:58:47 ubuntu dhclient[38235]: DHCPACK of 192.168.182.129 from 192.168.182.254
+Apr 26 11:58:47 ubuntu NetworkManager[686]: <info>  [1619409527.0358] dhcp4 (ens33):   address 192.168.182.129
+Apr 26 11:58:47 ubuntu NetworkManager[686]: <info>  [1619409527.0359] dhcp4 (ens33):   plen 24 (255.255.255.0)
+Apr 26 11:58:47 ubuntu NetworkManager[686]: <info>  [1619409527.0359] dhcp4 (ens33):   gateway 192.168.182.2
+Apr 26 11:58:47 ubuntu NetworkManager[686]: <info>  [1619409527.0360] dhcp4 (ens33):   lease time 1800
+Apr 26 11:58:47 ubuntu NetworkManager[686]: <info>  [1619409527.0360] dhcp4 (ens33):   nameserver '192.168.182.2'
+Apr 26 11:58:47 ubuntu NetworkManager[686]: <info>  [1619409527.0361] dhcp4 (ens33):   domain name 'localdomain'
+Apr 26 11:58:47 ubuntu NetworkManager[686]: <info>  [1619409527.0361] dhcp4 (ens33):   wins '192.168.182.2'
+Apr 26 11:58:47 ubuntu NetworkManager[686]: <info>  [1619409527.0361] dhcp4 (ens33): state changed bound -> bound
+Apr 26 11:58:47 ubuntu dbus-daemon[662]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.10' (uid=0 pid=686 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Apr 26 11:58:47 ubuntu systemd[1]: Starting Network Manager Script Dispatcher Service...
+Apr 26 11:58:47 ubuntu dhclient[38235]: bound to 192.168.182.129 -- renewal in 774 seconds.
+Apr 26 11:58:47 ubuntu dbus-daemon[662]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Apr 26 11:58:47 ubuntu systemd[1]: Started Network Manager Script Dispatcher Service.
+Apr 26 11:58:47 ubuntu nm-dispatcher: req:1 'dhcp4-change' [ens33]: new request (1 scripts)
+Apr 26 11:58:47 ubuntu nm-dispatcher: req:1 'dhcp4-change' [ens33]: start running ordered scripts...
+Apr 26 12:02:14 ubuntu systemd[1]: Started Run anacron jobs.
+Apr 26 12:02:14 ubuntu anacron[40932]: Anacron 2.3 started on 2021-04-26
+Apr 26 12:02:14 ubuntu anacron[40932]: Normal exit (0 jobs run)
+Apr 26 12:11:41 ubuntu dhclient[38235]: DHCPREQUEST of 192.168.182.129 on ens33 to 192.168.182.254 port 67 (xid=0x2d07db49)
+Apr 26 12:11:41 ubuntu dhclient[38235]: DHCPACK of 192.168.182.129 from 192.168.182.254
+Apr 26 12:11:41 ubuntu NetworkManager[686]: <info>  [1619410301.5930] dhcp4 (ens33):   address 192.168.182.129
+Apr 26 12:11:41 ubuntu NetworkManager[686]: <info>  [1619410301.5930] dhcp4 (ens33):   plen 24 (255.255.255.0)
+Apr 26 12:11:41 ubuntu NetworkManager[686]: <info>  [1619410301.5931] dhcp4 (ens33):   gateway 192.168.182.2
+Apr 26 12:11:41 ubuntu NetworkManager[686]: <info>  [1619410301.5931] dhcp4 (ens33):   lease time 1800
+Apr 26 12:11:41 ubuntu dbus-daemon[662]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.10' (uid=0 pid=686 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Apr 26 12:11:41 ubuntu NetworkManager[686]: <info>  [1619410301.5931] dhcp4 (ens33):   nameserver '192.168.182.2'
+Apr 26 12:11:41 ubuntu NetworkManager[686]: <info>  [1619410301.5931] dhcp4 (ens33):   domain name 'localdomain'
+Apr 26 12:11:41 ubuntu NetworkManager[686]: <info>  [1619410301.5931] dhcp4 (ens33):   wins '192.168.182.2'
+Apr 26 12:11:41 ubuntu NetworkManager[686]: <info>  [1619410301.5931] dhcp4 (ens33): state changed bound -> bound
+Apr 26 12:11:41 ubuntu dhclient[38235]: bound to 192.168.182.129 -- renewal in 740 seconds.
+Apr 26 12:11:41 ubuntu systemd[1]: Starting Network Manager Script Dispatcher Service...
+Apr 26 12:11:41 ubuntu dbus-daemon[662]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Apr 26 12:11:41 ubuntu systemd[1]: Started Network Manager Script Dispatcher Service.
+Apr 26 12:11:41 ubuntu nm-dispatcher: req:1 'dhcp4-change' [ens33]: new request (1 scripts)
+Apr 26 12:11:41 ubuntu nm-dispatcher: req:1 'dhcp4-change' [ens33]: start running ordered scripts...
+Apr 26 12:17:01 ubuntu CRON[40969]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Apr 26 12:24:01 ubuntu dhclient[38235]: DHCPREQUEST of 192.168.182.129 on ens33 to 192.168.182.254 port 67 (xid=0x2d07db49)
+Apr 26 12:24:01 ubuntu dhclient[38235]: DHCPACK of 192.168.182.129 from 192.168.182.254
+Apr 26 12:24:01 ubuntu NetworkManager[686]: <info>  [1619411041.7672] dhcp4 (ens33):   address 192.168.182.129
+Apr 26 12:24:01 ubuntu NetworkManager[686]: <info>  [1619411041.7673] dhcp4 (ens33):   plen 24 (255.255.255.0)
+Apr 26 12:24:01 ubuntu NetworkManager[686]: <info>  [1619411041.7673] dhcp4 (ens33):   gateway 192.168.182.2
+Apr 26 12:24:01 ubuntu NetworkManager[686]: <info>  [1619411041.7674] dhcp4 (ens33):   lease time 1800
+Apr 26 12:24:01 ubuntu NetworkManager[686]: <info>  [1619411041.7674] dhcp4 (ens33):   nameserver '192.168.182.2'
+Apr 26 12:24:01 ubuntu dbus-daemon[662]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.10' (uid=0 pid=686 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Apr 26 12:24:01 ubuntu NetworkManager[686]: <info>  [1619411041.7675] dhcp4 (ens33):   domain name 'localdomain'
+Apr 26 12:24:01 ubuntu NetworkManager[686]: <info>  [1619411041.7675] dhcp4 (ens33):   wins '192.168.182.2'
+Apr 26 12:24:01 ubuntu NetworkManager[686]: <info>  [1619411041.7675] dhcp4 (ens33): state changed bound -> bound
+Apr 26 12:24:01 ubuntu dhclient[38235]: bound to 192.168.182.129 -- renewal in 879 seconds.
+Apr 26 12:24:01 ubuntu systemd[1]: Starting Network Manager Script Dispatcher Service...
+Apr 26 12:24:01 ubuntu dbus-daemon[662]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Apr 26 12:24:01 ubuntu systemd[1]: Started Network Manager Script Dispatcher Service.
+Apr 26 12:24:01 ubuntu nm-dispatcher: req:1 'dhcp4-change' [ens33]: new request (1 scripts)
+Apr 26 12:24:01 ubuntu nm-dispatcher: req:1 'dhcp4-change' [ens33]: start running ordered scripts...
+Apr 26 12:38:40 ubuntu dhclient[38235]: DHCPREQUEST of 192.168.182.129 on ens33 to 192.168.182.254 port 67 (xid=0x2d07db49)
+Apr 26 12:38:40 ubuntu dhclient[38235]: DHCPACK of 192.168.182.129 from 192.168.182.254
+Apr 26 12:38:40 ubuntu NetworkManager[686]: <info>  [1619411920.6889] dhcp4 (ens33):   address 192.168.182.129
+Apr 26 12:38:40 ubuntu NetworkManager[686]: <info>  [1619411920.6889] dhcp4 (ens33):   plen 24 (255.255.255.0)
+Apr 26 12:38:40 ubuntu NetworkManager[686]: <info>  [1619411920.6889] dhcp4 (ens33):   gateway 192.168.182.2
+Apr 26 12:38:40 ubuntu NetworkManager[686]: <info>  [1619411920.6890] dhcp4 (ens33):   lease time 1800
+Apr 26 12:38:40 ubuntu NetworkManager[686]: <info>  [1619411920.6890] dhcp4 (ens33):   nameserver '192.168.182.2'
+Apr 26 12:38:40 ubuntu dbus-daemon[662]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.10' (uid=0 pid=686 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Apr 26 12:38:40 ubuntu NetworkManager[686]: <info>  [1619411920.6890] dhcp4 (ens33):   domain name 'localdomain'
+Apr 26 12:38:40 ubuntu NetworkManager[686]: <info>  [1619411920.6890] dhcp4 (ens33):   wins '192.168.182.2'
+Apr 26 12:38:40 ubuntu NetworkManager[686]: <info>  [1619411920.6890] dhcp4 (ens33): state changed bound -> bound
+Apr 26 12:38:40 ubuntu systemd[1]: Starting Network Manager Script Dispatcher Service...
+Apr 26 12:38:40 ubuntu dhclient[38235]: bound to 192.168.182.129 -- renewal in 803 seconds.
+Apr 26 12:38:40 ubuntu dbus-daemon[662]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Apr 26 12:38:40 ubuntu systemd[1]: Started Network Manager Script Dispatcher Service.
+Apr 26 12:38:40 ubuntu nm-dispatcher: req:1 'dhcp4-change' [ens33]: new request (1 scripts)
+Apr 26 12:38:40 ubuntu nm-dispatcher: req:1 'dhcp4-change' [ens33]: start running ordered scripts...
+Apr 26 12:52:03 ubuntu dhclient[38235]: DHCPREQUEST of 192.168.182.129 on ens33 to 192.168.182.254 port 67 (xid=0x2d07db49)
+Apr 26 12:52:03 ubuntu dhclient[38235]: DHCPACK of 192.168.182.129 from 192.168.182.254
+Apr 26 12:52:03 ubuntu NetworkManager[686]: <info>  [1619412723.1440] dhcp4 (ens33):   address 192.168.182.129
+Apr 26 12:52:03 ubuntu NetworkManager[686]: <info>  [1619412723.1441] dhcp4 (ens33):   plen 24 (255.255.255.0)
+Apr 26 12:52:03 ubuntu NetworkManager[686]: <info>  [1619412723.1441] dhcp4 (ens33):   gateway 192.168.182.2
+Apr 26 12:52:03 ubuntu NetworkManager[686]: <info>  [1619412723.1441] dhcp4 (ens33):   lease time 1800
+Apr 26 12:52:03 ubuntu NetworkManager[686]: <info>  [1619412723.1441] dhcp4 (ens33):   nameserver '192.168.182.2'
+Apr 26 12:52:03 ubuntu NetworkManager[686]: <info>  [1619412723.1441] dhcp4 (ens33):   domain name 'localdomain'
+Apr 26 12:52:03 ubuntu NetworkManager[686]: <info>  [1619412723.1441] dhcp4 (ens33):   wins '192.168.182.2'
+Apr 26 12:52:03 ubuntu NetworkManager[686]: <info>  [1619412723.1442] dhcp4 (ens33): state changed bound -> bound
+Apr 26 12:52:03 ubuntu dbus-daemon[662]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.10' (uid=0 pid=686 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Apr 26 12:52:03 ubuntu systemd[1]: Starting Network Manager Script Dispatcher Service...
+Apr 26 12:52:03 ubuntu dhclient[38235]: bound to 192.168.182.129 -- renewal in 744 seconds.
+Apr 26 12:52:03 ubuntu dbus-daemon[662]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Apr 26 12:52:03 ubuntu systemd[1]: Started Network Manager Script Dispatcher Service.
+Apr 26 12:52:03 ubuntu nm-dispatcher: req:1 'dhcp4-change' [ens33]: new request (1 scripts)
+Apr 26 12:52:03 ubuntu nm-dispatcher: req:1 'dhcp4-change' [ens33]: start running ordered scripts...
+Apr 26 13:04:27 ubuntu dhclient[38235]: DHCPREQUEST of 192.168.182.129 on ens33 to 192.168.182.254 port 67 (xid=0x2d07db49)
+Apr 26 13:04:27 ubuntu dhclient[38235]: DHCPACK of 192.168.182.129 from 192.168.182.254
+Apr 26 13:04:27 ubuntu NetworkManager[686]: <info>  [1619413467.6766] dhcp4 (ens33):   address 192.168.182.129
+Apr 26 13:04:27 ubuntu NetworkManager[686]: <info>  [1619413467.6767] dhcp4 (ens33):   plen 24 (255.255.255.0)
+Apr 26 13:04:27 ubuntu NetworkManager[686]: <info>  [1619413467.6767] dhcp4 (ens33):   gateway 192.168.182.2
+Apr 26 13:04:27 ubuntu NetworkManager[686]: <info>  [1619413467.6767] dhcp4 (ens33):   lease time 1800
+Apr 26 13:04:27 ubuntu NetworkManager[686]: <info>  [1619413467.6767] dhcp4 (ens33):   nameserver '192.168.182.2'
+Apr 26 13:04:27 ubuntu NetworkManager[686]: <info>  [1619413467.6768] dhcp4 (ens33):   domain name 'localdomain'
+Apr 26 13:04:27 ubuntu NetworkManager[686]: <info>  [1619413467.6768] dhcp4 (ens33):   wins '192.168.182.2'
+Apr 26 13:04:27 ubuntu NetworkManager[686]: <info>  [1619413467.6768] dhcp4 (ens33): state changed bound -> bound
+Apr 26 13:04:27 ubuntu dbus-daemon[662]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.10' (uid=0 pid=686 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Apr 26 13:04:27 ubuntu systemd[1]: Starting Network Manager Script Dispatcher Service...
+Apr 26 13:04:27 ubuntu dhclient[38235]: bound to 192.168.182.129 -- renewal in 682 seconds.
+Apr 26 13:04:27 ubuntu dbus-daemon[662]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Apr 26 13:04:27 ubuntu systemd[1]: Started Network Manager Script Dispatcher Service.
+Apr 26 13:04:27 ubuntu nm-dispatcher: req:1 'dhcp4-change' [ens33]: new request (1 scripts)
+Apr 26 13:04:27 ubuntu nm-dispatcher: req:1 'dhcp4-change' [ens33]: start running ordered scripts...
+Apr 26 13:04:38 ubuntu systemd[1]: Started Run anacron jobs.
+Apr 26 13:04:38 ubuntu anacron[41080]: Anacron 2.3 started on 2021-04-26
+Apr 26 13:04:38 ubuntu anacron[41080]: Normal exit (0 jobs run)
+Apr 26 13:15:49 ubuntu dhclient[38235]: DHCPREQUEST of 192.168.182.129 on ens33 to 192.168.182.254 port 67 (xid=0x2d07db49)
+Apr 26 13:15:49 ubuntu dhclient[38235]: DHCPACK of 192.168.182.129 from 192.168.182.254
+Apr 26 13:15:49 ubuntu NetworkManager[686]: <info>  [1619414149.8862] dhcp4 (ens33):   address 192.168.182.129
+Apr 26 13:15:49 ubuntu NetworkManager[686]: <info>  [1619414149.8862] dhcp4 (ens33):   plen 24 (255.255.255.0)
+Apr 26 13:15:49 ubuntu NetworkManager[686]: <info>  [1619414149.8862] dhcp4 (ens33):   gateway 192.168.182.2
+Apr 26 13:15:49 ubuntu NetworkManager[686]: <info>  [1619414149.8863] dhcp4 (ens33):   lease time 1800
+Apr 26 13:15:49 ubuntu NetworkManager[686]: <info>  [1619414149.8863] dhcp4 (ens33):   nameserver '192.168.182.2'
+Apr 26 13:15:49 ubuntu dbus-daemon[662]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.10' (uid=0 pid=686 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Apr 26 13:15:49 ubuntu NetworkManager[686]: <info>  [1619414149.8863] dhcp4 (ens33):   domain name 'localdomain'
+Apr 26 13:15:49 ubuntu NetworkManager[686]: <info>  [1619414149.8863] dhcp4 (ens33):   wins '192.168.182.2'
+Apr 26 13:15:49 ubuntu NetworkManager[686]: <info>  [1619414149.8863] dhcp4 (ens33): state changed bound -> bound
+Apr 26 13:15:49 ubuntu systemd[1]: Starting Network Manager Script Dispatcher Service...
+Apr 26 13:15:49 ubuntu dhclient[38235]: bound to 192.168.182.129 -- renewal in 752 seconds.
+Apr 26 13:15:49 ubuntu dbus-daemon[662]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Apr 26 13:15:49 ubuntu systemd[1]: Started Network Manager Script Dispatcher Service.
+Apr 26 13:15:49 ubuntu nm-dispatcher: req:1 'dhcp4-change' [ens33]: new request (1 scripts)
+Apr 26 13:15:49 ubuntu nm-dispatcher: req:1 'dhcp4-change' [ens33]: start running ordered scripts...
+Apr 26 13:17:01 ubuntu CRON[41111]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Apr 26 13:28:21 ubuntu dhclient[38235]: DHCPREQUEST of 192.168.182.129 on ens33 to 192.168.182.254 port 67 (xid=0x2d07db49)
+Apr 26 13:28:21 ubuntu dhclient[38235]: DHCPACK of 192.168.182.129 from 192.168.182.254
+Apr 26 13:28:21 ubuntu NetworkManager[686]: <info>  [1619414901.5795] dhcp4 (ens33):   address 192.168.182.129
+Apr 26 13:28:21 ubuntu NetworkManager[686]: <info>  [1619414901.5796] dhcp4 (ens33):   plen 24 (255.255.255.0)
+Apr 26 13:28:21 ubuntu NetworkManager[686]: <info>  [1619414901.5796] dhcp4 (ens33):   gateway 192.168.182.2
+Apr 26 13:28:21 ubuntu NetworkManager[686]: <info>  [1619414901.5796] dhcp4 (ens33):   lease time 1800
+Apr 26 13:28:21 ubuntu NetworkManager[686]: <info>  [1619414901.5796] dhcp4 (ens33):   nameserver '192.168.182.2'
+Apr 26 13:28:21 ubuntu dbus-daemon[662]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.10' (uid=0 pid=686 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Apr 26 13:28:21 ubuntu NetworkManager[686]: <info>  [1619414901.5797] dhcp4 (ens33):   domain name 'localdomain'
+Apr 26 13:28:21 ubuntu NetworkManager[686]: <info>  [1619414901.5797] dhcp4 (ens33):   wins '192.168.182.2'
+Apr 26 13:28:21 ubuntu NetworkManager[686]: <info>  [1619414901.5797] dhcp4 (ens33): state changed bound -> bound
+Apr 26 13:28:21 ubuntu systemd[1]: Starting Network Manager Script Dispatcher Service...
+Apr 26 13:28:21 ubuntu dhclient[38235]: bound to 192.168.182.129 -- renewal in 772 seconds.
+Apr 26 13:28:21 ubuntu dbus-daemon[662]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Apr 26 13:28:21 ubuntu systemd[1]: Started Network Manager Script Dispatcher Service.
+Apr 26 13:28:21 ubuntu nm-dispatcher: req:1 'dhcp4-change' [ens33]: new request (1 scripts)
+Apr 26 13:28:21 ubuntu nm-dispatcher: req:1 'dhcp4-change' [ens33]: start running ordered scripts...
+Apr 26 13:41:13 ubuntu dhclient[38235]: DHCPREQUEST of 192.168.182.129 on ens33 to 192.168.182.254 port 67 (xid=0x2d07db49)
+Apr 26 13:41:13 ubuntu dhclient[38235]: DHCPACK of 192.168.182.129 from 192.168.182.254
+Apr 26 13:41:13 ubuntu NetworkManager[686]: <info>  [1619415673.9918] dhcp4 (ens33):   address 192.168.182.129
+Apr 26 13:41:13 ubuntu NetworkManager[686]: <info>  [1619415673.9919] dhcp4 (ens33):   plen 24 (255.255.255.0)
+Apr 26 13:41:13 ubuntu NetworkManager[686]: <info>  [1619415673.9919] dhcp4 (ens33):   gateway 192.168.182.2
+Apr 26 13:41:13 ubuntu NetworkManager[686]: <info>  [1619415673.9919] dhcp4 (ens33):   lease time 1800
+Apr 26 13:41:13 ubuntu NetworkManager[686]: <info>  [1619415673.9920] dhcp4 (ens33):   nameserver '192.168.182.2'
+Apr 26 13:41:13 ubuntu NetworkManager[686]: <info>  [1619415673.9920] dhcp4 (ens33):   domain name 'localdomain'
+Apr 26 13:41:13 ubuntu NetworkManager[686]: <info>  [1619415673.9920] dhcp4 (ens33):   wins '192.168.182.2'
+Apr 26 13:41:13 ubuntu NetworkManager[686]: <info>  [1619415673.9920] dhcp4 (ens33): state changed bound -> bound
+Apr 26 13:41:13 ubuntu dbus-daemon[662]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.10' (uid=0 pid=686 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Apr 26 13:41:14 ubuntu dhclient[38235]: bound to 192.168.182.129 -- renewal in 781 seconds.
+Apr 26 13:41:14 ubuntu systemd[1]: Starting Network Manager Script Dispatcher Service...
+Apr 26 13:41:14 ubuntu dbus-daemon[662]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Apr 26 13:41:14 ubuntu systemd[1]: Started Network Manager Script Dispatcher Service.
+Apr 26 13:41:14 ubuntu nm-dispatcher: req:1 'dhcp4-change' [ens33]: new request (1 scripts)
+Apr 26 13:41:14 ubuntu nm-dispatcher: req:1 'dhcp4-change' [ens33]: start running ordered scripts...
+Apr 26 13:54:14 ubuntu dhclient[38235]: DHCPREQUEST of 192.168.182.129 on ens33 to 192.168.182.254 port 67 (xid=0x2d07db49)
+Apr 26 13:54:14 ubuntu dhclient[38235]: DHCPACK of 192.168.182.129 from 192.168.182.254
+Apr 26 13:54:14 ubuntu NetworkManager[686]: <info>  [1619416454.9176] dhcp4 (ens33):   address 192.168.182.129
+Apr 26 13:54:14 ubuntu NetworkManager[686]: <info>  [1619416454.9176] dhcp4 (ens33):   plen 24 (255.255.255.0)
+Apr 26 13:54:14 ubuntu NetworkManager[686]: <info>  [1619416454.9176] dhcp4 (ens33):   gateway 192.168.182.2
+Apr 26 13:54:14 ubuntu NetworkManager[686]: <info>  [1619416454.9177] dhcp4 (ens33):   lease time 1800
+Apr 26 13:54:14 ubuntu NetworkManager[686]: <info>  [1619416454.9177] dhcp4 (ens33):   nameserver '192.168.182.2'
+Apr 26 13:54:14 ubuntu NetworkManager[686]: <info>  [1619416454.9177] dhcp4 (ens33):   domain name 'localdomain'
+Apr 26 13:54:14 ubuntu NetworkManager[686]: <info>  [1619416454.9177] dhcp4 (ens33):   wins '192.168.182.2'
+Apr 26 13:54:14 ubuntu NetworkManager[686]: <info>  [1619416454.9177] dhcp4 (ens33): state changed bound -> bound
+Apr 26 13:54:14 ubuntu dbus-daemon[662]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.10' (uid=0 pid=686 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Apr 26 13:54:14 ubuntu systemd[1]: Starting Network Manager Script Dispatcher Service...
+Apr 26 13:54:14 ubuntu dhclient[38235]: bound to 192.168.182.129 -- renewal in 699 seconds.
+Apr 26 13:54:14 ubuntu dbus-daemon[662]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Apr 26 13:54:14 ubuntu systemd[1]: Started Network Manager Script Dispatcher Service.
+Apr 26 13:54:14 ubuntu nm-dispatcher: req:1 'dhcp4-change' [ens33]: new request (1 scripts)
+Apr 26 13:54:14 ubuntu nm-dispatcher: req:1 'dhcp4-change' [ens33]: start running ordered scripts...
+Apr 26 14:04:25 ubuntu systemd[1]: Started Run anacron jobs.
+Apr 26 14:04:25 ubuntu anacron[41213]: Anacron 2.3 started on 2021-04-26
+Apr 26 14:04:25 ubuntu anacron[41213]: Normal exit (0 jobs run)
+Apr 26 14:05:54 ubuntu dhclient[38235]: DHCPREQUEST of 192.168.182.129 on ens33 to 192.168.182.254 port 67 (xid=0x2d07db49)
+Apr 26 14:05:54 ubuntu dhclient[38235]: DHCPACK of 192.168.182.129 from 192.168.182.254
+Apr 26 14:05:54 ubuntu NetworkManager[686]: <info>  [1619417154.0373] dhcp4 (ens33):   address 192.168.182.129
+Apr 26 14:05:54 ubuntu NetworkManager[686]: <info>  [1619417154.0374] dhcp4 (ens33):   plen 24 (255.255.255.0)
+Apr 26 14:05:54 ubuntu NetworkManager[686]: <info>  [1619417154.0374] dhcp4 (ens33):   gateway 192.168.182.2
+Apr 26 14:05:54 ubuntu NetworkManager[686]: <info>  [1619417154.0375] dhcp4 (ens33):   lease time 1800
+Apr 26 14:05:54 ubuntu NetworkManager[686]: <info>  [1619417154.0375] dhcp4 (ens33):   nameserver '192.168.182.2'
+Apr 26 14:05:54 ubuntu NetworkManager[686]: <info>  [1619417154.0375] dhcp4 (ens33):   domain name 'localdomain'
+Apr 26 14:05:54 ubuntu NetworkManager[686]: <info>  [1619417154.0375] dhcp4 (ens33):   wins '192.168.182.2'
+Apr 26 14:05:54 ubuntu NetworkManager[686]: <info>  [1619417154.0376] dhcp4 (ens33): state changed bound -> bound
+Apr 26 14:05:54 ubuntu dbus-daemon[662]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.10' (uid=0 pid=686 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Apr 26 14:05:54 ubuntu dhclient[38235]: bound to 192.168.182.129 -- renewal in 682 seconds.
+Apr 26 14:05:54 ubuntu systemd[1]: Starting Network Manager Script Dispatcher Service...
+Apr 26 14:05:54 ubuntu dbus-daemon[662]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Apr 26 14:05:54 ubuntu systemd[1]: Started Network Manager Script Dispatcher Service.
+Apr 26 14:05:54 ubuntu nm-dispatcher: req:1 'dhcp4-change' [ens33]: new request (1 scripts)
+Apr 26 14:05:54 ubuntu nm-dispatcher: req:1 'dhcp4-change' [ens33]: start running ordered scripts...
+Apr 26 14:17:01 ubuntu CRON[41242]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Apr 26 14:17:16 ubuntu dhclient[38235]: DHCPREQUEST of 192.168.182.129 on ens33 to 192.168.182.254 port 67 (xid=0x2d07db49)
+Apr 26 14:17:16 ubuntu dhclient[38235]: DHCPACK of 192.168.182.129 from 192.168.182.254
+Apr 26 14:17:16 ubuntu NetworkManager[686]: <info>  [1619417836.4842] dhcp4 (ens33):   address 192.168.182.129
+Apr 26 14:17:16 ubuntu NetworkManager[686]: <info>  [1619417836.4847] dhcp4 (ens33):   plen 24 (255.255.255.0)
+Apr 26 14:17:16 ubuntu NetworkManager[686]: <info>  [1619417836.4847] dhcp4 (ens33):   gateway 192.168.182.2
+Apr 26 14:17:16 ubuntu dbus-daemon[662]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.10' (uid=0 pid=686 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Apr 26 14:17:16 ubuntu NetworkManager[686]: <info>  [1619417836.4847] dhcp4 (ens33):   lease time 1800
+Apr 26 14:17:16 ubuntu NetworkManager[686]: <info>  [1619417836.4847] dhcp4 (ens33):   nameserver '192.168.182.2'
+Apr 26 14:17:16 ubuntu NetworkManager[686]: <info>  [1619417836.4847] dhcp4 (ens33):   domain name 'localdomain'
+Apr 26 14:17:16 ubuntu NetworkManager[686]: <info>  [1619417836.4847] dhcp4 (ens33):   wins '192.168.182.2'
+Apr 26 14:17:16 ubuntu NetworkManager[686]: <info>  [1619417836.4848] dhcp4 (ens33): state changed bound -> bound
+Apr 26 14:17:16 ubuntu systemd[1]: Starting Network Manager Script Dispatcher Service...
+Apr 26 14:17:16 ubuntu dhclient[38235]: bound to 192.168.182.129 -- renewal in 877 seconds.
+Apr 26 14:17:16 ubuntu dbus-daemon[662]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Apr 26 14:17:16 ubuntu systemd[1]: Started Network Manager Script Dispatcher Service.
+Apr 26 14:17:16 ubuntu nm-dispatcher: req:1 'dhcp4-change' [ens33]: new request (1 scripts)
+Apr 26 14:17:16 ubuntu nm-dispatcher: req:1 'dhcp4-change' [ens33]: start running ordered scripts...
+Apr 26 14:21:53 ubuntu gnome-software[2519]: no app for changed ubuntu-dock@ubuntu.com
+Apr 26 14:21:53 ubuntu gnome-software[2519]: no app for changed ubuntu-appindicators@ubuntu.com
+Apr 26 14:21:53 ubuntu gvfsd-metadata[2650]: g_udev_device_has_property: assertion 'G_UDEV_IS_DEVICE (device)' failed
+Apr 26 14:21:53 ubuntu gvfsd-metadata[2650]: g_udev_device_has_property: assertion 'G_UDEV_IS_DEVICE (device)' failed
+Apr 26 14:21:54 ubuntu gnome-shell[1827]: [AppIndicatorSupport-DEBUG] Registering StatusNotifierItem :1.2/StatusNotifierItem
+Apr 26 14:21:54 ubuntu gnome-shell[1827]: [AppIndicatorSupport-DEBUG] Registering StatusNotifierItem :1.68/org/ayatana/NotificationItem/software_update_available
+Apr 26 14:21:54 ubuntu gnome-shell[1827]: [AppIndicatorSupport-DEBUG] Registering StatusNotifierItem :1.68/org/ayatana/NotificationItem/livepatch
+Apr 26 14:21:54 ubuntu gnome-shell[1827]: JS ERROR: GLib.MarkupError: 1:424: Only direction 'out' is allowed for <arg> elements embedded in <signal>#012_newNodeInfo@resource:///org/gnome/gjs/modules/overrides/Gio.js:205:16#012_wrapFunction/klass[method]@resource:///org/gnome/gjs/modules/overrides/Gio.js:239:16#012introspectBusObject/<@/usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/util.js:106:33
+Apr 26 14:24:37 ubuntu systemd[1]: Stopping A high performance web server and a reverse proxy server...
+Apr 26 14:24:37 ubuntu systemd[1]: Stopped A high performance web server and a reverse proxy server.
+Apr 26 14:24:37 ubuntu systemd[1]: Starting A high performance web server and a reverse proxy server...
+Apr 26 14:24:37 ubuntu nginx[41302]: nginx: [emerg] invalid value "yes" in "tcp_nodelay" directive, it must be "on" or "off" in /etc/nginx/nginx.conf:19
+Apr 26 14:24:37 ubuntu nginx[41302]: nginx: configuration file /etc/nginx/nginx.conf test failed
+Apr 26 14:24:37 ubuntu systemd[1]: nginx.service: Control process exited, code=exited status=1
+Apr 26 14:24:37 ubuntu systemd[1]: nginx.service: Failed with result 'exit-code'.
+Apr 26 14:24:37 ubuntu systemd[1]: Failed to start A high performance web server and a reverse proxy server.
+Apr 26 14:24:39 ubuntu systemd[1]: Starting A high performance web server and a reverse proxy server...
+Apr 26 14:24:39 ubuntu nginx[41310]: nginx: [emerg] invalid value "yes" in "tcp_nodelay" directive, it must be "on" or "off" in /etc/nginx/nginx.conf:19
+Apr 26 14:24:39 ubuntu nginx[41310]: nginx: configuration file /etc/nginx/nginx.conf test failed
+Apr 26 14:24:39 ubuntu systemd[1]: nginx.service: Control process exited, code=exited status=1
+Apr 26 14:24:39 ubuntu systemd[1]: nginx.service: Failed with result 'exit-code'.
+Apr 26 14:24:39 ubuntu systemd[1]: Failed to start A high performance web server and a reverse proxy server.
+Apr 26 14:26:17 ubuntu gvfsd-metadata[2650]: g_udev_device_has_property: assertion 'G_UDEV_IS_DEVICE (device)' failed
+Apr 26 14:26:17 ubuntu gvfsd-metadata[2650]: message repeated 7 times: [ g_udev_device_has_property: assertion 'G_UDEV_IS_DEVICE (device)' failed]
+Apr 26 14:26:17 ubuntu nautilus[20088]: Called "net usershare info" but it failed: Failed to execute child process “net” (No such file or directory)
+Apr 26 14:26:48 ubuntu nautilus[20088]: gtk_revealer_set_reveal_child: assertion 'GTK_IS_REVEALER (revealer)' failed

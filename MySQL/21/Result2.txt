@@ -1,0 +1,29 @@
+Connect Database log success
+Create Table MysqlLog Success
+Starting Parse Mysql Log
+Starting Parse Sys Log
+Computing Problem Spotlight
+Create Table MysqlMsg Success
+Mysql DisConnect
+Using Augeas to Parse Configuration File
+Extract key-value Finished
+Extract Env Finished
+Connect Mysql wise success
+Giving Problem Spotlight and Resolve Spotlight
+Problem Spotlight No.0 : 2021-04-18 07:26:50 Error Aborting
+Problem Spotlight No.1 : 2021-04-18 07:26:50 Error Could not open file '/var/mysql/error.log' for error logging: No such file or directory
+Suspicious word:    /var/mysql/error.log    with key:    Conf: log_error    and value:    /var/mysql/error.log
+FilePath:    /var/mysql/error.log    not Exist
+Problem Spotlight No.2 : 2021-04-18 00:26:50 Warning Initialization of mysqld failed: 0
+Suspicious word:    mysqld    with key:    Program: 9909/mysqld    and value:    Port: tcp/3306
+Suspicious word:    0    with key:    Conf: nice    and value:    0
+Problem Spotlight No.3 : 2021-04-18 07:26:50 Warning TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+Problem Spotlight No.4 : 2021-04-18 07:25:13 Warning CA certificate ca.pem is self signed.
+Problem Spotlight No.5 : 2021-04-18 07:26:50 Note /usr/sbin/mysqld: Shutdown complete
+Problem Spotlight No.6 : 2021-04-18 07:26:50 Note Binlog end
+Problem Spotlight No.7 : 2021-04-18 07:26:50 Note /usr/sbin/mysqld (mysqld 5.7.33-0ubuntu0.18.04.1) starting as process 20947 ...
+Problem Spotlight No.8 : 2021-04-18 07:26:50 Note /usr/sbin/mysqld (mysqld 5.7.33-0ubuntu0.18.04.1) starting as process 20934 ...
+Problem Spotlight No.9 : 2021-04-18 07:26:49 Note /usr/sbin/mysqld (mysqld 5.7.33-0ubuntu0.18.04.1) starting as process 20921 ...
+Update Row to Table MysqlWise Failed
+Mysql DisConnect
+Time Using: 1.95315 s
